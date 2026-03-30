@@ -45,10 +45,10 @@
   ],
   "guests": "7",
   "bedrooms": "4",
-  "bathrooms": "6",
+  "bathrooms": "3",
   "area": "180 m²",
   "plot": "585 m²",
-  "description": "Share Link copied Photos Add to favourites Favourites Share Description occupants 7 3 Double beds 1 Single bed 4 4 Bedrooms 4 3 Bathrooms with shower 3 180 m² 180 m² Wi-Fi Wi-Fi",
+  "description": "Welcome to Casa Blanca Mar – A Contemporary Mediterranean Retreat with Scandinavian Design in the Heart of Nueva Andalucía Nestled in the vibrant and sought-after area of Nueva Andalucía, just minutes from Puerto Banús and Marbella’s finest beaches, Casa Blanca Mar offers the perfect blend of modern comfort, Scandinavian elegance, and Mediterranean charm. This townhouse is thoughtfully designed with sleek, minimalist Scandinavian interiors, providing the ultimate sanctuary for families, couples, or groups seeking a relaxing getaway in one of Marbella’s most prestigious areas. Step inside and be greeted by a spacious, open-plan living area, flooded with natural light and furnished with clean lines, muted tones, and natural materials that create an inviting and tranquil atmosphere. The living space flows seamlessly into a chic dining area and a state-of-the-art kitchen with a sleek island, high-end appliances, and all the essentials for cooking gourmet meals. The highlight of Casa Blanca Mar is its expansive outdoor terrace – your private oasis. Here, you’ll find a fully equipped BBQ area, a modern dining table for al fresco meals, and a cozy lounge area where you can unwind under the shade of mature trees. The meticulously landscaped private garden offers sun loungers and a hammock, perfect for soaking up the Andalusian sun. Whether sipping your morning coffee or enjoying a glass of wine in the evening, the terrace provides the perfect spot to relax and take in the serene surroundings. With spacious bedrooms, sleek bathrooms, and luxurious finishes throughout, every detail of Casa Blanca Mar has been carefully curated for your comfort. The gated community offers security and peace of mind, while its proximity to Marbella’s top restaurants, boutiques, and golf courses makes it an ideal base for exploring the region. Additional amenities include high-speed Wi-Fi, air conditioning, a smart TV, and access to private parking. Whether you’re here to relax, entertain, or explore, Casa Blanca Mar combines Scandinavian design with Mediterranean living for a perfect stay. Book now and experience the magic of Nueva Andalucía at Casa Blanca Mar – your dream getaway in the heart of the Costa del Sol. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to welcoming you.",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -76,6 +76,8 @@
     "Fenced garden",
     "Alarm system",
     "Secured parking",
+    "Dryer",
+    "Balcony",
     "13 m² terrace"
   ],
   "distances": [
@@ -105,16 +107,10 @@
     }
   ],
   "services_included": [
-    "Final Cleaning: € 360.00   / booking",
-    "Internet Access: Included",
-    "Towels:  Included"
+    "Final Cleaning: € 360.00   / booking Internet Access: Included Towels:  Included"
   ],
   "services_optional": [
-    "Air conditioning: Included",
-    "Baby high chair: € 25.00   / booking",
-    "Cot/Crib: € 35.00   / booking",
-    "Heated Pool: € 50.00   / night",
-    "Heating: Included"
+    "Air conditioning: Included Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heated Pool: € 50.00   / night Heating: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

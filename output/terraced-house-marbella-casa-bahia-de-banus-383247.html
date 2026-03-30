@@ -29,7 +29,7 @@
     .hero { height: 420px !important; }
     .gallery-grid img { break-inside: avoid; }
     .page-break { page-break-before: always; }
-    .map-container, .lightbox, .back-link { display: none !important; }
+    .map-container, .lightbox, .back-link, .print-btn { display: none !important; }
     @page { margin: 12mm; }
   }
   .back-link {
@@ -49,6 +49,25 @@
     transition: background 0.15s;
   }
   .back-link:hover { background: var(--white); }
+  .print-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    padding: 10px 18px;
+    border-radius: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--charcoal);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    transition: background 0.15s;
+  }
+  .print-btn:hover { background: var(--white); }
   .hero {
     position: relative;
     width: 100%;
@@ -342,6 +361,7 @@
 <body>
 
 <a href="index.html" class="back-link">&#8592; All Properties</a>
+<button class="print-btn" onclick="window.print()">Save as PDF</button>
 
 <div class="hero">
   <img src="https://www.justrentmarbella.com/rentals/fotos/2/16475184096414d844c37a9cd30620e628fb0db063/16699858649163c42284a449d48593d89013c17783.jpg" alt="Casa Bahia de Banus">
@@ -358,7 +378,7 @@
       <div class="fact-label">Bedrooms</div>
     </div>
     <div class="fact">
-      <div class="fact-value">14</div>
+      <div class="fact-value">7</div>
       <div class="fact-label">Bathrooms</div>
     </div>
     <div class="fact">
@@ -373,7 +393,7 @@
 
   <div class="section">
     <h2 class="section-title">About the Property</h2>
-    <p>Share Link copied Photos Add to favourites Favourites Share Description occupants 8 3 Double beds 2 Single beds 5 4 Bedrooms 4 3 Bathrooms with bathtub 3 Bathrooms with shower 1 Toilet 7 270 m² 270 m² Wi-Fi Wi-Fi</p>
+    <p>Located in one of the best locations in Marbella, a stone&#x27;s throw from the beach and within walking distance of Puerto Banús, this modern villa is the perfect refuge for those who want a comfortable and modern life, but close to everything and without relying completely on a car. The house has 4 bedrooms and 3 bathrooms. Three of the bedrooms have an en-suite bathroom and the fourth bedroom, typically the children&#x27;s room with two single beds, must use one of the others. In addition, there is a paved garden area with a private pool with the option of heating. Around the pool there is a large space to relax with sun loungers, a seating area, an outdoor dining area and a barbecue. It is located in a gated and secure complex with 24/7 security, two communal pools, a children&#x27;s pool, a gym and a sauna. The complex is built in Balinese style with large green areas, lagoon-style pools and small ponds. When entering the house, we are flooded with a sense of light and space. With double-height windows in the dining room and living areas, there is plenty of light and a very pleasant feeling of looking out towards the pool and garden area. From the lobby we move on to the open kitchen with a breakfast bar. It is fully equipped and overlooks the pool area. Opposite the kitchen we find the dining room and the staircase leading to the first floor. With a double-height ceiling and an open staircase, it feels bright and very spacious. Adjacent to the dining room and kitchen is the living area. This area has a 6.5 metre high ceiling and very large windows to the outside, making it feel very bright, spacious and modern. From here you can access the pool and the outdoor dining area. The outdoor area is paved and has the private pool centred in the middle. Around the pool we find a dining table, a barbecue area, a seating corner and several sun loungers. On the other side of the lobby we find a bedroom with an en-suite bathroom. From this bedroom we have views of the pool area and direct access to it. The en-suite bathroom has double sinks and a traditional Japanese-style sunken bath/shower. The other 3 bedrooms are located on the upper floor. Two of the three have their own en-suite bathroom, one with a jacuzzi bath and the other with a shower and jacuzzi bath. Please note that we only welcome families and couples, not groups under 30 years of age, and not for stag or hen parties. If you are outside of this category but still wish to book, please send us an enquiry detailing a little more about you and the group you will be travelling with so that we can consider it for you. We look forward to welcoming you.</p>
   </div>
 
   <div class="section">
@@ -408,6 +428,10 @@
       <span class="tag">BBQ</span>
       <span class="tag">Gym / fitness</span>
       <span class="tag">Secured parking</span>
+      <span class="tag">Dryer</span>
+      <span class="tag">Balcony</span>
+      <span class="tag">Laptop workspace</span>
+      <span class="tag">Pool towels</span>
     </div>
   </div>
 
@@ -528,17 +552,11 @@
     <div class="services-columns">
       <div class="service-group">
         <h4>Included</h4>
-        <div class="service-item">Air conditioning: Included</div>
-        <div class="service-item">Final Cleaning: € 250.00   / booking</div>
-        <div class="service-item">Heating: Included</div>
-        <div class="service-item">Internet Access: Included</div>
-        <div class="service-item">Garage: Included</div>
-        <div class="service-item">Towels:  Included</div>
+        <div class="service-item">Air conditioning: Included Final Cleaning: € 250.00   / booking Heating: Included Internet Access: Included Garage: Included Towels:  Included</div>
       </div>
       <div class="service-group">
         <h4>Optional</h4>
-        <div class="service-item">Baby high chair: € 25.00   / booking</div>
-        <div class="service-item">Cot/Crib: € 35.00   / booking</div>
+        <div class="service-item">Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking</div>
       </div>
     </div>
     <div class="checkin-bar">

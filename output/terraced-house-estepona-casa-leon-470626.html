@@ -29,7 +29,7 @@
     .hero { height: 420px !important; }
     .gallery-grid img { break-inside: avoid; }
     .page-break { page-break-before: always; }
-    .map-container, .lightbox, .back-link { display: none !important; }
+    .map-container, .lightbox, .back-link, .print-btn { display: none !important; }
     @page { margin: 12mm; }
   }
   .back-link {
@@ -49,6 +49,25 @@
     transition: background 0.15s;
   }
   .back-link:hover { background: var(--white); }
+  .print-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    padding: 10px 18px;
+    border-radius: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--charcoal);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    transition: background 0.15s;
+  }
+  .print-btn:hover { background: var(--white); }
   .hero {
     position: relative;
     width: 100%;
@@ -342,6 +361,7 @@
 <body>
 
 <a href="index.html" class="back-link">&#8592; All Properties</a>
+<button class="print-btn" onclick="window.print()">Save as PDF</button>
 
 <div class="hero">
   <img src="https://www.justrentmarbella.com/rentals/fotos/2/1709258223f9dfcf173f6a03c0c9ac58f14cb53716/1709258234991f030b20e3ceb1b795a79c20731a3f.jpg" alt="Casa Leon">
@@ -358,7 +378,7 @@
       <div class="fact-label">Bedrooms</div>
     </div>
     <div class="fact">
-      <div class="fact-value">4</div>
+      <div class="fact-value">2</div>
       <div class="fact-label">Bathrooms</div>
     </div>
     <div class="fact">
@@ -377,7 +397,7 @@
 
   <div class="section">
     <h2 class="section-title">About the Property</h2>
-    <p>Share Link copied Photos Add to favourites Favourites Share Description Review 10 occupants 4 1 King size bed 1 Queen size bed 2 2 Bedrooms 2 1 Bathroom with shower 1 Toilet 2 65 m² 65 m² Wi-Fi Wi-Fi</p>
+    <p>Dreamy Beachfront Townhouse: Your Perfect Seaside Escape Welcome to our beautiful beachfront townhouse! Imagine a place where the beach is your backyard, offering you direct access to the sand and sea. This townhouse has been fully renovated to give you a fresh, modern feel while keeping that cozy vibe we all love. Steps Away from the Beach: Just open the door, and you’re on the beach! Enjoy the amazing views of the sea anytime you want. Whether it&#x27;s watching the waves in the morning or catching a stunning sunset, the beach is always there for you. Five Pools to Choose From: Our community is pretty special, with five swimming pools waiting for you. Whether you want to swim laps or just chill in the water, there’s always a perfect spot for you to relax. Everything Within Reach: Need to grab something quick? We’re a short distance to a supermarket and other handy amenities. It’s all about making your stay as easy and enjoyable as possible. Outdoor Fun Right at Home: Our front patio is all set up for those who love being outdoors. With a BBQ area and a dining table, it’s the perfect place to enjoy meals with friends and family under the open sky. Chill Vibes Everywhere: This townhouse comes with multiple terraces that have a super relaxed vibe. Whether you’re catching some sun upstairs or lounging on the beanbags downstairs, you can always find a cozy spot to relax and enjoy the fresh sea air. Comfort in Style: With two bedrooms and two bathrooms, this place has enough room for everyone to stay comfortably. We’ve decked it out with stylish decor and top-notch finishes, making sure you feel right at home. This beachfront townhouse is more than just a place to stay; it’s your own slice of paradise by the sea. Book your stay and start your day with the beach at your doorstep. Welcome to your ideal vacation spot.</p>
   </div>
 
   <div class="section">
@@ -402,6 +422,7 @@
       <span class="tag">BBQ</span>
       <span class="tag">Fenced garden</span>
       <span class="tag">Ocean views</span>
+      <span class="tag">Laptop workspace</span>
       <span class="tag">20 m² terrace</span>
     </div>
   </div>
@@ -497,17 +518,11 @@
     <div class="services-columns">
       <div class="service-group">
         <h4>Included</h4>
-        <div class="service-item">Final Cleaning: € 195.00   / booking</div>
-        <div class="service-item">Internet Access: Included</div>
-        <div class="service-item">Open-air parking: Included</div>
-        <div class="service-item">Towels:  Included</div>
+        <div class="service-item">Final Cleaning: € 195.00   / booking Internet Access: Included Open-air parking: Included Towels:  Included</div>
       </div>
       <div class="service-group">
         <h4>Optional</h4>
-        <div class="service-item">Air conditioning: Included</div>
-        <div class="service-item">Baby high chair: € 25.00   / booking</div>
-        <div class="service-item">Cot/Crib: € 35.00   / booking</div>
-        <div class="service-item">Heating: Included</div>
+        <div class="service-item">Air conditioning: Included Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heating: Included</div>
       </div>
     </div>
     <div class="checkin-bar">

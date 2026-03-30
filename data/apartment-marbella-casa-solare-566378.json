@@ -36,10 +36,10 @@
   ],
   "guests": "6",
   "bedrooms": "3",
-  "bathrooms": "4",
+  "bathrooms": "2",
   "area": "140 m²",
   "plot": "",
-  "description": "Share Link copied Photos Add to favourites Favourites Share Description occupants 6 1 Double bed 4 Single beds 5 3 Bedrooms 3 2 Bathrooms with shower 2 140 m² 140 m² Wi-Fi Wi-Fi",
+  "description": "Welcome to Casa Solare! This beautifully renovated 3-bedroom, 2-bathroom apartment nestled within the highly desirable Cerro Blanco complex in Nueva Andalucía. Set in a privileged location just a short walk from Puerto Banús, the beach, Centro Plaza, and all major shops and restaurants, this stylish property offers the perfect blend of tranquility, convenience, and upscale Mediterranean living. The interior design is warm, fresh, and thoughtfully curated—boasting neutral tones, fluted wood panel accents, soft indirect lighting, and modern furnishings throughout. The open-plan living and dining area is flooded with natural light from full-height windows and opens onto a private terrace with lovely garden, pool, and partial sea views. It’s an ideal spot for morning coffee or evening drinks with a view. The kitchen is sleek and fully equipped, featuring high-end Bosch appliances, integrated cabinetry, and a striking marble backsplash. A generous central island adds both workspace and a casual dining element. The master bedroom features a double bed, en-suite bathroom, terrace access, and bespoke built-in wardrobes with a natural wood and white finish, creating a serene retreat. The two additional bedrooms are each fitted with two single beds—perfect for children, guests, or friends sharing—styled with a blend of soft, playful, and refined touches. Both bathrooms are beautifully designed, with walk-in showers, large-format tiling, ambient lighting, and contemporary fixtures—blending spa-like comfort with visual appeal. Outside, the Cerro Blanco complex offers lush tropical gardens, a large communal swimming pool, and a full-sized tennis court, creating a resort-style atmosphere year-round. This apartment also includes one private parking space. Whether you're looking for a stylish holiday base or a high-demand investment property in Marbella's most walkable district, this apartment ticks every box. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to welcoming you.",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -62,7 +62,9 @@
     "Gym / fitness",
     "Tennis court",
     "Alarm system",
-    "Ocean views"
+    "Ocean views",
+    "Dryer",
+    "Balcony"
   ],
   "distances": [
     {
@@ -87,16 +89,10 @@
     }
   ],
   "services_included": [
-    "Final Cleaning: € 250.00   / booking",
-    "Internet Access: Included",
-    "Towels:  Included"
+    "Final Cleaning: € 250.00   / booking Internet Access: Included Towels:  Included"
   ],
   "services_optional": [
-    "Air conditioning: Included",
-    "Baby high chair: € 25.00   / booking",
-    "Cot/Crib: € 35.00   / booking",
-    "Heating: Included",
-    "Open-air parking: Included"
+    "Air conditioning: Included Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heating: Included Open-air parking: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

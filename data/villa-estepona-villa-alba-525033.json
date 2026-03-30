@@ -40,10 +40,10 @@
   ],
   "guests": "8",
   "bedrooms": "4",
-  "bathrooms": "10",
+  "bathrooms": "5",
   "area": "508 m²",
   "plot": "508 m²",
-  "description": "Share Link copied Photos Add to favourites Favourites Share Description occupants 8 4 King size beds 4 4 Bedrooms 4 1 Bathroom with bathtub 3 Bathrooms with shower 1 Toilet 5 508 m² 508 m² Wi-Fi Wi-Fi",
+  "description": "Villa Alba – A Frontline Golf Sanctuary of Modern Elegance Nestled in an enviable frontline golf position, Villa Alba is a stunning newly built 4-bedroom, 4-bathroom villa that seamlessly blends cutting-edge architecture with luxurious comfort. With a design that embraces natural light through expansive floor-to-ceiling windows, this contemporary masterpiece offers an elevated living experience in the heart of the Costa del Sol. The villa’s open-plan layout is a celebration of modern design, where clean lines, neutral tones, and high-end finishes create a sense of space and tranquility. The living area, adorned with elegant décor, flows effortlessly into a state-of-the-art kitchen, fully equipped with premium appliances and sleek cabinetry. The central island doubles as a breakfast bar, making it an inviting spot for morning coffee or evening socializing. From the living space, large sliding glass doors open directly to the outdoor entertainment area, where a private pool shimmers under the Mediterranean sun. With sun loungers, a shaded dining area, and a BBQ, this space is designed for seamless relaxation and al fresco dining. For added comfort, the pool can be heated for an additional €350 per week, ensuring year-round enjoyment. This home away from home is designed to offer privacy and comfort, with its 4 spacious bedrooms, each featuring an en-suite or allocated bathroom. The upper level houses two beautifully appointed bedrooms, each with floor-to-ceiling windows that open onto private terraces, offering breathtaking views of the surrounding golf course and lush greenery. These rooms feature plush bedding, stylish accent walls, and ambient lighting, creating a refined retreat for guests. Descending to the lower level, you’ll find two additional bedrooms, thoughtfully designed with cozy aesthetics and ample storage. This level also includes a TV lounge, providing a private entertainment area for guests to unwind. Villa Alba is perfectly positioned for those who desire a balance of tranquility and accessibility. Located just 10 minutes from Puerto Banús, 5 minutes from the beach, and a short 10-minute walk to shops and local amenities, the villa offers easy access to some of the best attractions the Costa del Sol has to offer. The property also includes secure gated parking for added convenience, with one private parking spot inside the gate, ensuring safety while maintaining ease of access. Designed with both style and functionality in mind, Villa Alba is more than just a holiday home—it's a statement of modern elegance, offering a luxurious retreat in an unbeatable location. Whether you're soaking in the sun-drenched pool, enjoying a BBQ under the stars, or waking up to panoramic golf course views, this villa offers an unparalleled lifestyle experience. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -75,7 +75,9 @@
     "Fenced garden",
     "Secured parking",
     "Infinity pool",
-    "Frontline golf"
+    "Frontline golf",
+    "Balcony",
+    "Pool towels"
   ],
   "distances": [
     {
@@ -128,15 +130,10 @@
     }
   ],
   "services_included": [
-    "Final Cleaning: € 550.00   / booking",
-    "Internet Access: Included",
-    "Open-air parking: Included",
-    "Towels:  Included"
+    "Final Cleaning: € 550.00   / booking Internet Access: Included Open-air parking: Included Towels:  Included"
   ],
   "services_optional": [
-    "Baby high chair: € 25.00   / booking",
-    "Cot/Crib: € 35.00   / booking",
-    "Heated Pool: € 65.00   / night"
+    "Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heated Pool: € 65.00   / night"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

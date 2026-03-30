@@ -29,7 +29,7 @@
     .hero { height: 420px !important; }
     .gallery-grid img { break-inside: avoid; }
     .page-break { page-break-before: always; }
-    .map-container, .lightbox, .back-link { display: none !important; }
+    .map-container, .lightbox, .back-link, .print-btn { display: none !important; }
     @page { margin: 12mm; }
   }
   .back-link {
@@ -49,6 +49,25 @@
     transition: background 0.15s;
   }
   .back-link:hover { background: var(--white); }
+  .print-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    padding: 10px 18px;
+    border-radius: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--charcoal);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    transition: background 0.15s;
+  }
+  .print-btn:hover { background: var(--white); }
   .hero {
     position: relative;
     width: 100%;
@@ -342,6 +361,7 @@
 <body>
 
 <a href="index.html" class="back-link">&#8592; All Properties</a>
+<button class="print-btn" onclick="window.print()">Save as PDF</button>
 
 <div class="hero">
   <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518854b9c510f242b1c862de28f6418017388a/17333978676f03f2abb74c9d3249cd0fb3ce7769c8.jpg" alt="Villa Perla Blanca">
@@ -358,7 +378,7 @@
       <div class="fact-label">Bedrooms</div>
     </div>
     <div class="fact">
-      <div class="fact-value">12</div>
+      <div class="fact-value">6</div>
       <div class="fact-label">Bathrooms</div>
     </div>
     <div class="fact">
@@ -373,7 +393,7 @@
 
   <div class="section">
     <h2 class="section-title">About the Property</h2>
-    <p>Share Link copied Photos Add to favourites Favourites Share Description occupants 12 6 Double beds 6 6 Bedrooms 6 1 Bathroom with bathtub 4 Bathrooms with shower 1 Toilet 6 480 m² 480 m² Wi-Fi Wi-Fi</p>
+    <p>Outstanding high-class 5-bedroom Villa situated in the heart of the Golf Valley in one of Marbella’s finest areas. The villa has so many different features to enjoy yourself making it ideal for holidays for all ages. The garden is fitted with a good-sized private swimming pool with the option to heat (at an extra charge per week). The pool is surrounded by sun loungers and the garden is private and spacious. Next to the pool area, there is a 4-person jacuzzi sunken into the terrace. This is perfect for the ultimate relaxing holiday spirit! Furthermore, there is a putting green to practice your golf skills, a ping-pong table for those family challenges, and a petanque for those who love the competitive nature. All of these different features make this villa the perfect house for a family holiday. There is always something to do for everybody within the family. Inside the house, you will find 5 bedrooms comfortably accommodating 12 people. There is one bedroom with an en-suite bathroom on the ground floor. The spacious master bedroom with an en-suite bathroom is located on the first floor. This bedroom also has a spacious terrace with open views. The other 3 bedrooms are found on the pool level. One of these three has an en-suite bathroom and the other two share a bathroom. One bedroom is fitted with two double beds, making it ideal for families with children. The pool level floor is furthermore equipped with a laundry room and bar area. The bar area opens up directly to the outside pool area. On the ground floor level, there is a very spacious and light kitchen and comfortable living room. The living room is bright and modern and has sliding doors onto the outside dining and BBQ area. There is a good gas BBQ there for you to enjoy. The living room, master bedroom, and bar area are fitted with televisions with international packages. So those who want to watch their native shows or football matches, not to worry, you&#x27;re covered! The location of the villa is private yet close to everything. Being right in the heart of Nueva Andalucia it is just a few minutes down to the beach and Puerto Banus. Also, the many restaurants, bars, and nightlife of Nueva Andalucia are easily accessible within a few minutes&#x27; drive. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to welcoming you.</p>
   </div>
 
   <div class="section">
@@ -419,6 +439,10 @@
       <span class="tag">Alarm system</span>
       <span class="tag">Fireplace</span>
       <span class="tag">Secured parking</span>
+      <span class="tag">Dryer</span>
+      <span class="tag">Balcony</span>
+      <span class="tag">Laptop workspace</span>
+      <span class="tag">Pool towels</span>
       <span class="tag">120 m² terrace</span>
     </div>
   </div>
@@ -508,7 +532,7 @@
     <div class="distances-grid">
       <div class="distance-row">
         <div class="distance-place"><span class="distance-dot"></span>Airport</div>
-        <div class="distance-value">64 m</div>
+        <div class="distance-value">64 km</div>
       </div>
       <div class="distance-row">
         <div class="distance-place"><span class="distance-dot"></span>Golf course</div>
@@ -554,19 +578,11 @@
     <div class="services-columns">
       <div class="service-group">
         <h4>Included</h4>
-        <div class="service-item">Air conditioning: Included</div>
-        <div class="service-item">Bed linen: Included</div>
-        <div class="service-item">Final Cleaning: € 550.00   / booking</div>
-        <div class="service-item">Heating: Included</div>
-        <div class="service-item">Internet Access: Included</div>
-        <div class="service-item">Open-air parking: Included</div>
-        <div class="service-item">Towels:  Included</div>
+        <div class="service-item">Air conditioning: Included Bed linen: Included Final Cleaning: € 550.00   / booking Heating: Included Internet Access: Included Open-air parking: Included Towels:  Included</div>
       </div>
       <div class="service-group">
         <h4>Optional</h4>
-        <div class="service-item">Baby high chair: € 25.00   / booking</div>
-        <div class="service-item">Cot/Crib: € 35.00   / booking</div>
-        <div class="service-item">Heated Pool: € 65.00   / night</div>
+        <div class="service-item">Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heated Pool: € 65.00   / night</div>
       </div>
     </div>
     <div class="checkin-bar">

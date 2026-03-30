@@ -29,7 +29,7 @@
     .hero { height: 420px !important; }
     .gallery-grid img { break-inside: avoid; }
     .page-break { page-break-before: always; }
-    .map-container, .lightbox, .back-link { display: none !important; }
+    .map-container, .lightbox, .back-link, .print-btn { display: none !important; }
     @page { margin: 12mm; }
   }
   .back-link {
@@ -49,6 +49,25 @@
     transition: background 0.15s;
   }
   .back-link:hover { background: var(--white); }
+  .print-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    padding: 10px 18px;
+    border-radius: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--charcoal);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    transition: background 0.15s;
+  }
+  .print-btn:hover { background: var(--white); }
   .hero {
     position: relative;
     width: 100%;
@@ -342,6 +361,7 @@
 <body>
 
 <a href="index.html" class="back-link">&#8592; All Properties</a>
+<button class="print-btn" onclick="window.print()">Save as PDF</button>
 
 <div class="hero">
   <img src="https://www.justrentmarbella.com/rentals/fotos/2/17048157455d0184de20dd3b23ad11cfe798dc8aaf/17048157469e3c7651aedab9e26a1b2080e81b808e.jpg" alt="Villa Bobad">
@@ -358,7 +378,7 @@
       <div class="fact-label">Bedrooms</div>
     </div>
     <div class="fact">
-      <div class="fact-value">10</div>
+      <div class="fact-value">5</div>
       <div class="fact-label">Bathrooms</div>
     </div>
     <div class="fact">
@@ -377,7 +397,7 @@
 
   <div class="section">
     <h2 class="section-title">About the Property</h2>
-    <p>Share Link copied Photos Add to favourites Favourites Share Description occupants 8 4 Double beds 1 Single bed 5 4 Bedrooms 4 2 Bathrooms with bathtub 2 Bathrooms with shower 1 Toilet 5 582 m² 582 m² Wi-Fi Wi-Fi</p>
+    <p>This fantastic villa is located in the heart of Marbella’s most desired location; its Golden Mile. Your perfect holiday home: Stylish, very classy and centrally located close to all! This impeccable villa is south facing, with sun all day on the pool and terrace.  It is very private and was built with great attention for detail with stunning high ceilings, high quality finishing and a great sense of charm and character throughout. This feeling is instantly emphasized when you enter the villa. Stepping into the house you find yourself in a hallway with a beautiful high ceiling overlooking the living room and the staircase. From that hallway you have access to one bedroom suite, the living room, kitchen and a guest toilet. The bedroom on the ground floor is spacious and features a spacious walk in closet as well as an en-suite bathroom with both a bathtub as well as a shower. The room has a very pleasant view overlooking the garden and pool area. The living room is stylish and unique. It has a high ceiling and a feature wall with television and incorporated cupboards. Its design is warm yet stylish and split into a lounge section and a dining area. From the living room you have direct access to the pool area and also the kitchen. Going outside you have a private pool area with modern terrace furniture to lounge and dine and a nice grass area for the kids to roam around. The area is private and easy to access and overlook from the living room. For those with small kids; there is a possibility to fence the pool if desired. This must be indicated prior to booking. Going up to the first floor you will find two more bedrooms. Each spacious, beautiful wooden floors and with their own en-suite bathrooms. The 4th bedroom can be found in the minus one level. It is accessed when walking down from the hallway and through the garage area. It also has an en-suite bathroom and being a little more away from the rest is ideal for staff or teenagers or those that appreciate a bit more privacy. There is A/C throughout the villa, and wifi. There is secure gated parking for 1 car and space for 1 more in the garage. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to welcoming you!</p>
   </div>
 
   <div class="section">
@@ -414,6 +434,9 @@
       <span class="tag">Fenced garden</span>
       <span class="tag">Alarm system</span>
       <span class="tag">Secured parking</span>
+      <span class="tag">Dryer</span>
+      <span class="tag">Outdoor shower</span>
+      <span class="tag">Laptop workspace</span>
     </div>
   </div>
 
@@ -545,18 +568,11 @@
     <div class="services-columns">
       <div class="service-group">
         <h4>Included</h4>
-        <div class="service-item">Air conditioning: Included</div>
-        <div class="service-item">Final Cleaning: € 500.00   / booking</div>
-        <div class="service-item">Heating: Included</div>
-        <div class="service-item">Internet Access: Included</div>
-        <div class="service-item">garage and car park: Included</div>
-        <div class="service-item">Towels:  Included</div>
+        <div class="service-item">Air conditioning: Included Final Cleaning: € 500.00   / booking Heating: Included Internet Access: Included garage and car park: Included Towels:  Included</div>
       </div>
       <div class="service-group">
         <h4>Optional</h4>
-        <div class="service-item">Baby high chair: € 25.00   / booking</div>
-        <div class="service-item">Cot/Crib: € 35.00   / booking</div>
-        <div class="service-item">Extra beds: € 100.00   / booking</div>
+        <div class="service-item">Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Extra beds: € 100.00   / booking</div>
       </div>
     </div>
     <div class="checkin-bar">

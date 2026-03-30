@@ -29,7 +29,7 @@
     .hero { height: 420px !important; }
     .gallery-grid img { break-inside: avoid; }
     .page-break { page-break-before: always; }
-    .map-container, .lightbox, .back-link { display: none !important; }
+    .map-container, .lightbox, .back-link, .print-btn { display: none !important; }
     @page { margin: 12mm; }
   }
   .back-link {
@@ -49,6 +49,25 @@
     transition: background 0.15s;
   }
   .back-link:hover { background: var(--white); }
+  .print-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    padding: 10px 18px;
+    border-radius: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--charcoal);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    transition: background 0.15s;
+  }
+  .print-btn:hover { background: var(--white); }
   .hero {
     position: relative;
     width: 100%;
@@ -342,6 +361,7 @@
 <body>
 
 <a href="index.html" class="back-link">&#8592; All Properties</a>
+<button class="print-btn" onclick="window.print()">Save as PDF</button>
 
 <div class="hero">
   <img src="https://www.justrentmarbella.com/rentals/fotos/2/16717105489375bd35bcb771defeadf16f1527061c/1671710549038d7ff3bf2c23f7820b23cf366908a4.jpg" alt="Casa Los Arqueros">
@@ -358,7 +378,7 @@
       <div class="fact-label">Bedrooms</div>
     </div>
     <div class="fact">
-      <div class="fact-value">4</div>
+      <div class="fact-value">2</div>
       <div class="fact-label">Bathrooms</div>
     </div>
     <div class="fact">
@@ -373,7 +393,7 @@
 
   <div class="section">
     <h2 class="section-title">About the Property</h2>
-    <p>Share Link copied Photos Add to favourites Favourites Share Description Review 10 occupants 4 1 Double bed 2 Single beds 3 2 Bedrooms 2 2 Bathrooms with shower 2 120 m² 120 m² Wi-Fi Wi-Fi</p>
+    <p>A delightful 2-bedroom duplex apartment within La Finca Los Arqueros. This penthouse apartment benefits from breathtaking views of the sea and mountains and has its very own solarium sun terrace on the rooftop, with various sunbeds allowing you to soak up the sun and enjoy the al-fresco dining with outdoor dining amenities and BBQ. Casa Los Arqueros is beautifully decorated and furnished in a contemporary boho-chic style with soothing neutral tones and elegant and comfortable furnishings. The open plan living/dining room with modern furniture, has doors leading onto the first chill-out terrace that offers a comfy outdoor lounge area overlooking the swimming pool and amazing coast views. Casa Los Arqueros has two double bedrooms with the Master having direct access to the front terrace and its own ensuite bathroom with shower. The second bedroom has twin single beds. The family bathroom with walk-in shower is located next to the second bedroom. The apartment has a modern and fully equipped galley kitchen, as well as a separate utility room with full laundry facilities. Casa Los Arqueros is fitted with high-speed internet and aircon throughout. There is an outdoor parking space within the community. This beautifully situated apartment, set on the picturesque grounds of Finca Los Arqueros with its glorious pool and gardens, is the perfect holiday retreat. The location allows the more active guests the chance to explore further afield and enjoy the culture and fun of the coast. This is the perfect holiday location to relax and make memories. The Los Arqueros Golf and Country Club is a short walk from the apartment, offering tennis, padel, bowling, and golf facilities. The complex boasts a fabulous swimming pool with mature gardens and spectacular views. This is the perfect getaway for relaxing and exploring the culture of the beautiful Spanish coast. The onsite facilities are great. The gorgeous pool area is the perfect place to relax and unwind Whether you venture out or prefer to stay close to home and relax, this accommodation will not disappoint. Casa Los Arqueros is located close to the best attractions the coast has to offer: 8 Minutes’ drive to the exclusive Puerto Banús boasting the best in dining, beach clubs, and bars, and a 10 minute drive to Marbella Beach and the Old Town with its traditional Spanish restaurants and stunning beachfront lined with fantastic tapas bars. The Gastronomic village of Benahavis is only a short drive away and a location not to be missed! We look forward to welcoming you!</p>
   </div>
 
   <div class="section">
@@ -404,6 +424,7 @@
       <span class="tag">Alarm system</span>
       <span class="tag">Secured parking</span>
       <span class="tag">Ocean views</span>
+      <span class="tag">Balcony</span>
       <span class="tag">100 m² terrace</span>
     </div>
   </div>
@@ -507,17 +528,11 @@
     <div class="services-columns">
       <div class="service-group">
         <h4>Included</h4>
-        <div class="service-item">Air conditioning: Included</div>
-        <div class="service-item">Final Cleaning: € 180.00   / booking</div>
-        <div class="service-item">Heating: Included</div>
-        <div class="service-item">Internet Access: Included</div>
-        <div class="service-item">Open-air parking: Included</div>
-        <div class="service-item">Towels:  Included</div>
+        <div class="service-item">Air conditioning: Included Final Cleaning: € 180.00   / booking Heating: Included Internet Access: Included Open-air parking: Included Towels:  Included</div>
       </div>
       <div class="service-group">
         <h4>Optional</h4>
-        <div class="service-item">Baby high chair: € 25.00   / booking</div>
-        <div class="service-item">Cot/Crib: € 35.00   / booking</div>
+        <div class="service-item">Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking</div>
       </div>
     </div>
     <div class="checkin-bar">

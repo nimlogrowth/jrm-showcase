@@ -29,7 +29,7 @@
     .hero { height: 420px !important; }
     .gallery-grid img { break-inside: avoid; }
     .page-break { page-break-before: always; }
-    .map-container, .lightbox, .back-link { display: none !important; }
+    .map-container, .lightbox, .back-link, .print-btn { display: none !important; }
     @page { margin: 12mm; }
   }
   .back-link {
@@ -49,6 +49,25 @@
     transition: background 0.15s;
   }
   .back-link:hover { background: var(--white); }
+  .print-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    padding: 10px 18px;
+    border-radius: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--charcoal);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    transition: background 0.15s;
+  }
+  .print-btn:hover { background: var(--white); }
   .hero {
     position: relative;
     width: 100%;
@@ -342,6 +361,7 @@
 <body>
 
 <a href="index.html" class="back-link">&#8592; All Properties</a>
+<button class="print-btn" onclick="window.print()">Save as PDF</button>
 
 <div class="hero">
   <img src="https://www.justrentmarbella.com/rentals/fotos/3/1770392602ddee2011e2fb520a568feb441f017f12/177039262763113b248d1b468de4b12e1ff0799e2d.jpg" alt="Sunset Golf">
@@ -365,7 +385,7 @@
 
   <div class="section">
     <h2 class="section-title">About the Property</h2>
-    <p>Share Link copied Photos Add to favourites Favourites Share Description occupants 4 4 Single beds 4 2 Bedrooms 2 2 bathrooms 2 Wi-Fi Wi-Fi</p>
+    <p>Welcome to your sun-soaked escape in Sunset Golf, one of Marbella’s most peaceful and picturesque urbanisations. This bright and beautifully styled apartment combines modern comfort with Mediterranean charm, offering open views towards the sea, lush golf surroundings, and a private terrace designed for true outdoor living. From the moment you enter, the space feels calm, airy and inviting. The open-plan living area is filled with natural light and flows seamlessly into a contemporary fully equipped kitchen with a sleek island, creating a perfect setting for relaxed mornings and slow evenings. The interior blends soft neutral tones, natural textures and clean Scandinavian lines, giving the apartment a fresh yet warm atmosphere that instantly feels like a holiday. The apartment features two elegant bedrooms styled with hotel-quality bedding and a serene, minimalist design that encourages deep rest after long beach days or rounds of golf. The modern bathroom offers a spacious walk-in shower and clean finishes, maintaining the same bright and refined aesthetic throughout the home. Air conditioning and high-speed WiFi ensure comfort all year round, whether you’re here for summer sun or a winter escape. The true highlight of this property is the spacious private terrace. Here, you can enjoy breakfast overlooking the coastline, long outdoor dinners as the sky turns golden, and complete relaxation in your own private jacuzzi. With lounge seating, dining space and open views across the urbanisation and towards the Mediterranean, the terrace becomes an extension of the living space — a place where indoor comfort meets outdoor Marbella lifestyle. Sunset Golf is a beautifully maintained community known for its white Andalusian-style architecture, landscaped gardens and large communal swimming pool surrounded by palm trees. The setting is tranquil and secure, offering a resort-like atmosphere while still being just a short drive from Marbella’s beaches, golf courses, restaurants and the vibrant energy of Puerto Banús. Whether you’re visiting for golf, relaxation, remote work under the Spanish sun, or a stylish getaway with family or friends, this apartment offers the perfect balance of comfort, privacy and location. It is a space designed for slowing down, enjoying the light, and experiencing the best of Marbella living. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to welcoming you!</p>
   </div>
 
   <div class="section">
@@ -474,16 +494,11 @@
     <div class="services-columns">
       <div class="service-group">
         <h4>Included</h4>
-        <div class="service-item">Final Cleaning: € 200.00   / booking</div>
-        <div class="service-item">Internet Access: Included</div>
-        <div class="service-item">Towels:  Included</div>
+        <div class="service-item">Final Cleaning: € 200.00   / booking Internet Access: Included Towels:  Included</div>
       </div>
       <div class="service-group">
         <h4>Optional</h4>
-        <div class="service-item">Air conditioning: Included</div>
-        <div class="service-item">Baby high chair: € 25.00   / booking</div>
-        <div class="service-item">Cot/Crib: € 35.00   / booking</div>
-        <div class="service-item">Heating: Included</div>
+        <div class="service-item">Air conditioning: Included Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heating: Included</div>
       </div>
     </div>
     <div class="checkin-bar">

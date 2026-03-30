@@ -29,7 +29,7 @@
     .hero { height: 420px !important; }
     .gallery-grid img { break-inside: avoid; }
     .page-break { page-break-before: always; }
-    .map-container, .lightbox, .back-link { display: none !important; }
+    .map-container, .lightbox, .back-link, .print-btn { display: none !important; }
     @page { margin: 12mm; }
   }
   .back-link {
@@ -49,6 +49,25 @@
     transition: background 0.15s;
   }
   .back-link:hover { background: var(--white); }
+  .print-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    padding: 10px 18px;
+    border-radius: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--charcoal);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    transition: background 0.15s;
+  }
+  .print-btn:hover { background: var(--white); }
   .hero {
     position: relative;
     width: 100%;
@@ -342,6 +361,7 @@
 <body>
 
 <a href="index.html" class="back-link">&#8592; All Properties</a>
+<button class="print-btn" onclick="window.print()">Save as PDF</button>
 
 <div class="hero">
   <img src="https://www.justrentmarbella.com/rentals/fotos/2/166627507826adcc8872d6db140c90f4b84e330ca1/17188079516fd64c6bd8b55f77d84c75a1d8a1ffa1.jpg" alt="San Javier Townhouse">
@@ -358,7 +378,7 @@
       <div class="fact-label">Bedrooms</div>
     </div>
     <div class="fact">
-      <div class="fact-value">6</div>
+      <div class="fact-value">3</div>
       <div class="fact-label">Bathrooms</div>
     </div>
     <div class="fact">
@@ -373,7 +393,7 @@
 
   <div class="section">
     <h2 class="section-title">About the Property</h2>
-    <p>Share Link copied Photos Add to favourites Favourites Share Description occupants 6 3 Double beds 3 3 Bedrooms 3 3 Bathrooms with shower 3 190 m² 190 m² Wi-Fi Wi-Fi</p>
+    <p>This townhouse is a beautiful, contemporary styled 3-bedroom property, located in the sought-after complex, San Javier, in Nueva Andalucía. It has been refurbished to a high standard and offers a bright and modern living space. The open-plan living area is tastefully decorated and features a dining area and lounge which leads to the beautiful terrace with chill-out corner and outdoor dining table, overlooking the pool. From here there is direct access to the communal gardens and pool. The kitchen is fully equipped with all the essentials and quality appliances, to make for a great holiday. There are 3 double bedrooms. The Master Bedroom is upstairs and has a Smart TV, ample cupboard space and an ensuite bathroom with a shower. There is a second double bedroom on this floor as well as a bathroom (with shower). There is a double bedroom downstairs, with natural light. There is a bathroom (with shower) on this level with a washing machine and dryer. The townhouse has air-con throughout, with individual room controls. Furthermore, there is WIFI included to make you feel right at home. The communal gardens are well maintained and there is a communal pool to enjoy. San Javier Townhouse is in the trendy residential area Aloha, just a 15 min walk from the Aloha Strip with fantastic restaurants and bars and supermarkets. Just down the road in the neighbouring urbanisation, there is a small shopping centre that offers a Mercadona supermarket, a few restaurants and a Yoga Centre. With a 5-minute drive to the beach, 5 minutes to Puerto Banús and 10 minutes to Marbella Old Town, you are in the heart of everything. For the golf lovers, it’s good to know that not only do you have easy access to La Dama de Noche Golf Club, but the clubs of Los Naranjos, Aloha and Magna Marbella (par 3 course for beginners) are just a few minutes’ drive away. San Javier Townhouse is the ideal choice for a break in the sun, summer holidays or a Golfing holiday. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to welcoming you.</p>
   </div>
 
   <div class="section">
@@ -403,6 +423,8 @@
       <span class="tag">Air-conditioned</span>
       <span class="tag">Central heating</span>
       <span class="tag">Safe</span>
+      <span class="tag">Dryer</span>
+      <span class="tag">Laptop workspace</span>
       <span class="tag">18 m² terrace</span>
     </div>
   </div>
@@ -477,7 +499,7 @@
     <div class="distances-grid">
       <div class="distance-row">
         <div class="distance-place"><span class="distance-dot"></span>Airport</div>
-        <div class="distance-value">61 m</div>
+        <div class="distance-value">61 km</div>
       </div>
       <div class="distance-row">
         <div class="distance-place"><span class="distance-dot"></span>Shops</div>
@@ -519,17 +541,11 @@
     <div class="services-columns">
       <div class="service-group">
         <h4>Included</h4>
-        <div class="service-item">Air conditioning: Included</div>
-        <div class="service-item">Final Cleaning: € 270.00   / booking</div>
-        <div class="service-item">Heating: Included</div>
-        <div class="service-item">Internet Access: Included</div>
-        <div class="service-item">Open-air parking: Included</div>
-        <div class="service-item">Towels:  Included</div>
+        <div class="service-item">Air conditioning: Included Final Cleaning: € 270.00   / booking Heating: Included Internet Access: Included Open-air parking: Included Towels:  Included</div>
       </div>
       <div class="service-group">
         <h4>Optional</h4>
-        <div class="service-item">Baby high chair: € 25.00   / booking</div>
-        <div class="service-item">Cot/Crib: € 35.00   / booking</div>
+        <div class="service-item">Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking</div>
       </div>
     </div>
     <div class="checkin-bar">

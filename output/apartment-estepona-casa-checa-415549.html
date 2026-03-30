@@ -29,7 +29,7 @@
     .hero { height: 420px !important; }
     .gallery-grid img { break-inside: avoid; }
     .page-break { page-break-before: always; }
-    .map-container, .lightbox, .back-link { display: none !important; }
+    .map-container, .lightbox, .back-link, .print-btn { display: none !important; }
     @page { margin: 12mm; }
   }
   .back-link {
@@ -49,6 +49,25 @@
     transition: background 0.15s;
   }
   .back-link:hover { background: var(--white); }
+  .print-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    padding: 10px 18px;
+    border-radius: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--charcoal);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    transition: background 0.15s;
+  }
+  .print-btn:hover { background: var(--white); }
   .hero {
     position: relative;
     width: 100%;
@@ -342,6 +361,7 @@
 <body>
 
 <a href="index.html" class="back-link">&#8592; All Properties</a>
+<button class="print-btn" onclick="window.print()">Save as PDF</button>
 
 <div class="hero">
   <img src="https://www.justrentmarbella.com/rentals/fotos/2/1674494145199e4b13bdea9738a21363e3d806098f/1674494149943a5f4059939dbcce7141472bdf830e.jpg" alt="Casa Checa">
@@ -358,7 +378,7 @@
       <div class="fact-label">Bedrooms</div>
     </div>
     <div class="fact">
-      <div class="fact-value">4</div>
+      <div class="fact-value">2</div>
       <div class="fact-label">Bathrooms</div>
     </div>
     <div class="fact">
@@ -373,7 +393,7 @@
 
   <div class="section">
     <h2 class="section-title">About the Property</h2>
-    <p>Share Link copied Photos Add to favourites Favourites Share Description occupants 6 3 Double beds 3 3 Bedrooms 3 1 Bathroom with bathtub 1 Bathroom with shower 2 100 m² 100 m² Wi-Fi Wi-Fi</p>
+    <p>A modern 3-bed apartment in Estepona with glorious views! A brand-new apartment in a new residential complex overlooking the Mediterranean Sea, Gibraltar, and North African coastline. Casa Checa offers a peaceful, private setting with fantastic sea views, that is conveniently close to all amenities. Casa Checa enjoys an elegant and contemporary design that takes advantage of the sunlight and the natural environment and enjoys bright and ample interior spaces, comfortable bedrooms, and luxury bathrooms. The open-plan lounge integrates with the modern designer kitchen (fully fitted with top-brand appliances) and connects to the oversized terrace with beautiful views. Here you can enjoy the chillout area, dine outdoors, or sunbathe overlooking the communal pool, and down to the Sea. There are 3 double bedrooms, all with King sized beds (180cm). The Master has an ensuite bathroom and a large walk-in closet. The other two bedrooms share a bathroom with a bathtub with overhead shower. All bedrooms have access to the terrace. There is a laundry room with a washing machine and tumble dryer. Further features include high-speed wifi, aircon, and 2 dedicated parking spaces. The complex boasts beautiful communal areas, including Mediterranean gardens, panoramic infinity-edge swimming pools, a solarium, a state-of-the-art gym, and 24hr security. Next to the complex is Las Mesas Sport Club, and a short walk down the hill you find the Estepona Harbour with an array of bars and restaurants – a lively point to enjoy a morning coffee or an evening out. Of course, the beaches are right there and offer wonderful sunsets. The beach and boulevard are a mere stone’s throw away. Estepona’s coast occupies a stretch of 20 kilometres between Puerto Banus and Sotogrande, two of the most important Mediterranean marinas. Puerto Banus and Marbella are a little more than 20 minutes by car. Estepona is a charming town that combines a rich cultural legacy and the traditional air of an old fishing village with a cosmopolitan feel. There is no lack of golf courses nearby, with 10 in the area. Shopping centres, recreational spaces and a wide range of eateries are all within a short drive. We look forward to welcoming you.</p>
   </div>
 
   <div class="section">
@@ -407,6 +427,9 @@
       <span class="tag">Gym / fitness</span>
       <span class="tag">Secured parking</span>
       <span class="tag">Ocean views</span>
+      <span class="tag">Dryer</span>
+      <span class="tag">Balcony</span>
+      <span class="tag">Laptop workspace</span>
       <span class="tag">80 m² terrace</span>
     </div>
   </div>
@@ -472,7 +495,7 @@
     <div class="distances-grid">
       <div class="distance-row">
         <div class="distance-place"><span class="distance-dot"></span>Airport</div>
-        <div class="distance-value">83 m</div>
+        <div class="distance-value">83 km</div>
       </div>
       <div class="distance-row">
         <div class="distance-place"><span class="distance-dot"></span>Shops</div>
@@ -518,17 +541,11 @@
     <div class="services-columns">
       <div class="service-group">
         <h4>Included</h4>
-        <div class="service-item">Air conditioning: Included</div>
-        <div class="service-item">Final Cleaning: € 240.00   / booking</div>
-        <div class="service-item">Heating: Included</div>
-        <div class="service-item">Internet Access: Included</div>
-        <div class="service-item">Garage: Included</div>
-        <div class="service-item">Towels:  Included</div>
+        <div class="service-item">Air conditioning: Included Final Cleaning: € 240.00   / booking Heating: Included Internet Access: Included Garage: Included Towels:  Included</div>
       </div>
       <div class="service-group">
         <h4>Optional</h4>
-        <div class="service-item">Baby high chair: € 25.00   / booking</div>
-        <div class="service-item">Cot/Crib: € 35.00   / booking</div>
+        <div class="service-item">Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking</div>
       </div>
     </div>
     <div class="checkin-bar">

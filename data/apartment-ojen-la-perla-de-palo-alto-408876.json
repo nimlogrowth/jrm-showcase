@@ -34,10 +34,10 @@
   ],
   "guests": "6",
   "bedrooms": "3",
-  "bathrooms": "4",
+  "bathrooms": "2",
   "area": "225 m²",
   "plot": "",
-  "description": "Share Link copied Photos Add to favourites Favourites Share Description occupants 6 2 Double beds 2 Single beds 4 3 Bedrooms 3 2 Bathrooms with shower 2 225 m² 225 m² Wi-Fi Wi-Fi",
+  "description": "Stunning 3-bed ground floor apartment with amazing sea and mountain views. La Perla de Palo Alto is an immaculate 3-bedroom apartment with generous outdoor and indoor living spaces with incredible finishes by renowned interior designers Gunni & Trentino, and panoramic views of the Andalusian hills and the Mediterranean Sea. Upon entering, you find the open-plan living area with a large tv and L-shaped couch, the dining area, and the kitchen. The kitchen is fully equipped with all the mod cons and features and an American fridge/freezer (with ice and filtered water). There is a laundry room with a washing machine and dryer. The Master Bedroom has a super king-sized bed, an ensuite bathroom with a shower, and a smart TV. There is access to the terrace with a jacuzzi. The second bedroom has a 160cm bed. The third bedroom is typically the Kids’ Room and has 2 single beds. These 2 bedrooms share a bathroom with a shower. The beautiful east-facing terrace overlooks the communal pool and features a jacuzzi, an outdoor lounge, a dining table for 8, and an electric grill/BBQ. There are 2 sunbeds and an outdoor shower. The views from here are outstanding… all the way down the valley to the Mediterranean Sea. The apartment has underfloor heating throughout, AC with individual room controls, and is equipped with advanced home automation and security systems. Guests have access to three outdoor swimming pools (1 outdoor, 1 kids’, and 1 heated indoor) and all of the complex’s amazing amenities. There is a superior gym, hammam, and jacuzzi. The complex enjoys 24 hr security. There is ample parking on the road by the entrance to the apartment plus an allocated space in the garage for 1 car. Casa Palo Alto is located in the new (2022) complex Palo Alto, just a few minutes from Marbella, in Ojen, and 30 minutes from Malaga airport. Palo Alto is an exclusive hilltop community enjoying uninterrupted views over the sparkling Mediterranean Sea. This exclusive luxury development is located in a rural setting just minutes away from Marbella. Thanks to its elevated position it benefits from the breathtaking panoramic views over the Mediterranean Sea and the mountains of Ojén. It is a gated community. Palo Alto is a real retreat place surrounded by the mountains of the Sierra de las Nieves natural park. It is perfect for outdoor activities such as hiking or mountain biking with breathtaking views over pure Andalusian nature. La Cañada shopping centre is less than 5 minutes away by car, where you have a large supermarket and a variety of restaurants. A further 5-10 drive will take you to Marbella or Puerto Banús and the beaches. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to welcoming you.",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -60,12 +60,13 @@
     "Underfloor heating",
     "Gym / fitness",
     "Tennis court",
+    "Outdoor shower",
     "20 m² terrace"
   ],
   "distances": [
     {
       "place": "Airport",
-      "distance": "56 m"
+      "distance": "56 km"
     },
     {
       "place": "Restaurant",
@@ -105,15 +106,10 @@
     }
   ],
   "services_included": [
-    "Final Cleaning: € 245.00   / booking",
-    "Internet Access: Included",
-    "Garage: Included",
-    "Towels:  Included"
+    "Final Cleaning: € 245.00   / booking Internet Access: Included Garage: Included Towels:  Included"
   ],
   "services_optional": [
-    "Baby high chair: € 25.00   / booking",
-    "Cot/Crib: € 35.00   / booking",
-    "Heated Pool: € 50.00   / night"
+    "Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heated Pool: € 50.00   / night"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

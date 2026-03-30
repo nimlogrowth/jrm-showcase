@@ -29,7 +29,7 @@
     .hero { height: 420px !important; }
     .gallery-grid img { break-inside: avoid; }
     .page-break { page-break-before: always; }
-    .map-container, .lightbox, .back-link { display: none !important; }
+    .map-container, .lightbox, .back-link, .print-btn { display: none !important; }
     @page { margin: 12mm; }
   }
   .back-link {
@@ -49,6 +49,25 @@
     transition: background 0.15s;
   }
   .back-link:hover { background: var(--white); }
+  .print-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    padding: 10px 18px;
+    border-radius: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--charcoal);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    transition: background 0.15s;
+  }
+  .print-btn:hover { background: var(--white); }
   .hero {
     position: relative;
     width: 100%;
@@ -342,6 +361,7 @@
 <body>
 
 <a href="index.html" class="back-link">&#8592; All Properties</a>
+<button class="print-btn" onclick="window.print()">Save as PDF</button>
 
 <div class="hero">
   <img src="https://www.justrentmarbella.com/rentals/fotos/3/177306250677ef3e51614fdc0b872e7e6bd189f39f/1773062533e4851b1c478b0defe1d5207253c0442e.jpg" alt="Casa Bahia Dorada">
@@ -373,7 +393,7 @@
 
   <div class="section">
     <h2 class="section-title">About the Property</h2>
-    <p>Share Link copied Photos Add to favourites Favourites Share Description occupants 6 2 Double beds 2 Single beds 4 3 Bedrooms 3 2 bathrooms 2 150 m² 150 m² Wi-Fi Wi-Fi</p>
+    <p>Welcome to this beautifully renovated beachfront townhouse in Colina del Mar, one of Estepona’s most desirable seaside locations. Perfectly positioned on the front line of the beach, this stylish home offers direct beach access, breathtaking sea views, and everything you need for a relaxing stay on the Costa del Sol. The townhouse features 3 comfortable bedrooms and 2 modern bathrooms, all recently renovated to a high standard. The interior combines contemporary design with a bright, coastal feel, creating a welcoming space to unwind after a day in the sun. The house is also equipped with Sonos speaker system. Step outside and enjoy the spectacular surroundings. On the first floor, you’ll find a spacious terrace with outdoor furniture, ideal for morning coffee, dining, or simply enjoying the views over the Mediterranean. The second-floor terrace offers a more private sunbathing area with comfortable sunbeds, perfect for relaxing under the Spanish sun. For an extra touch of luxury, the property includes a private jacuzzi, where you can unwind while listening to the sound of the waves. With direct access to the beach, you can go from your terrace to the sand in moments. Whether you’re looking for a peaceful seaside escape or a comfortable base to explore the Costa del Sol, this beachfront townhouse offers the perfect combination of location, comfort, and stunning views. Please note, we welcome families and couples only. We do not accept groups under 30, nor hen or stag parties. If you fall outside this category but would like to book, please send us an inquiry with more details about your group, and we can consider your request. We look forward to welcoming you!</p>
   </div>
 
   <div class="section">
@@ -407,6 +427,8 @@
       <span class="tag">Fenced garden</span>
       <span class="tag">Alarm system</span>
       <span class="tag">Ocean views</span>
+      <span class="tag">Dryer</span>
+      <span class="tag">Balcony</span>
     </div>
   </div>
 
@@ -488,16 +510,11 @@
     <div class="services-columns">
       <div class="service-group">
         <h4>Included</h4>
-        <div class="service-item">Final Cleaning: € 350.00   / booking</div>
-        <div class="service-item">Internet Access: Included</div>
-        <div class="service-item">Towels:  Included</div>
+        <div class="service-item">Final Cleaning: € 350.00   / booking Internet Access: Included Towels:  Included</div>
       </div>
       <div class="service-group">
         <h4>Optional</h4>
-        <div class="service-item">Air conditioning: Included</div>
-        <div class="service-item">Baby high chair: € 25.00   / booking</div>
-        <div class="service-item">Cot/Crib: € 35.00   / booking</div>
-        <div class="service-item">Heating: Included</div>
+        <div class="service-item">Air conditioning: Included Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heating: Included</div>
       </div>
     </div>
     <div class="checkin-bar">

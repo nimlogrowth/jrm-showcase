@@ -29,7 +29,7 @@
     .hero { height: 420px !important; }
     .gallery-grid img { break-inside: avoid; }
     .page-break { page-break-before: always; }
-    .map-container, .lightbox, .back-link { display: none !important; }
+    .map-container, .lightbox, .back-link, .print-btn { display: none !important; }
     @page { margin: 12mm; }
   }
   .back-link {
@@ -49,6 +49,25 @@
     transition: background 0.15s;
   }
   .back-link:hover { background: var(--white); }
+  .print-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    padding: 10px 18px;
+    border-radius: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--charcoal);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    transition: background 0.15s;
+  }
+  .print-btn:hover { background: var(--white); }
   .hero {
     position: relative;
     width: 100%;
@@ -342,6 +361,7 @@
 <body>
 
 <a href="index.html" class="back-link">&#8592; All Properties</a>
+<button class="print-btn" onclick="window.print()">Save as PDF</button>
 
 <div class="hero">
   <img src="https://www.justrentmarbella.com/rentals/fotos/2/164751899063b6e2d288fcb57df94369bdf04cb8a7/177124777200976c3f4bee40ec51ed7254954662bd.jpg" alt="Villa Pena Blanca">
@@ -358,7 +378,7 @@
       <div class="fact-label">Bedrooms</div>
     </div>
     <div class="fact">
-      <div class="fact-value">10</div>
+      <div class="fact-value">5</div>
       <div class="fact-label">Bathrooms</div>
     </div>
     <div class="fact">
@@ -373,7 +393,7 @@
 
   <div class="section">
     <h2 class="section-title">About the Property</h2>
-    <p>Share Link copied Photos Add to favourites Favourites Share Description occupants 12 6 Double beds 6 5 Bedrooms 5 1 Bathroom with bathtub 4 Bathrooms with shower 5 390 m² 390 m² Wi-Fi Wi-Fi</p>
+    <p>If you are looking for your next holiday accommodation, look no further. This villa is located in the heart of Nueva Andalucia, with walking distance to shopping, supermarket, and restaurants and only a few minutes drive from Puerto Banus&#x27; famous port and beaches. This villa is a surprising and unique unit assuming that the designer had absolute free hands and greater visions when he designed this building. Its construction is in a minimalistic style though the interior decorating skills and creativity of the owners have made this home very inviting. When entering the villa a 400-year-old Olive tree is left in peace inside the construction. All 5 bedrooms have en-suite bathrooms and are positioned well apart for total privacy. Two bedrooms are located directly to the right of the entrance. As you continue through the hallway another bedroom with an en suite bathroom is located left of the entrance. The Living Area is open plan where you find – on the entrance level to the right – the indoor dining area for 12 people and also the laundry room with washing machine and tumble dryer. The living room, kitchen, and recreational area are one level down. That is where you can also find a pool table. From the kitchen area, there is direct access to the outdoor terrace and pool area. The master bedroom is spacious with a great en suite bathroom and walk-in closet with views of the pool area. In total, there are 5 bedrooms. Another bedroom with en suite bathroom is located in the basement area with direct access to the pool area. The partly covered terrace with its quality terrace furniture as well as the lounge seating has an atmosphere of great cosiness. The pool can be heated during the low season (October – May) at an additional weekly cost. There are various sunbeds for sunbathing around the pool and jacuzzi. The property is located within a short distance of public transportation and shopping. And is very near the Port of Banus. We look forward to welcoming you. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.</p>
   </div>
 
   <div class="section">
@@ -416,6 +436,11 @@
       <span class="tag">Alarm system</span>
       <span class="tag">Safe</span>
       <span class="tag">Secured parking</span>
+      <span class="tag">Dryer</span>
+      <span class="tag">Outdoor shower</span>
+      <span class="tag">Balcony</span>
+      <span class="tag">Laptop workspace</span>
+      <span class="tag">Pool towels</span>
       <span class="tag">150 m² terrace</span>
     </div>
   </div>
@@ -482,7 +507,7 @@
     <div class="distances-grid">
       <div class="distance-row">
         <div class="distance-place"><span class="distance-dot"></span>Airport</div>
-        <div class="distance-value">62 m</div>
+        <div class="distance-value">62 km</div>
       </div>
       <div class="distance-row">
         <div class="distance-place"><span class="distance-dot"></span>Bus station</div>
@@ -528,19 +553,11 @@
     <div class="services-columns">
       <div class="service-group">
         <h4>Included</h4>
-        <div class="service-item">Air conditioning: Included</div>
-        <div class="service-item">Final Cleaning: € 500.00   / booking</div>
-        <div class="service-item">Heating: Included</div>
-        <div class="service-item">Internet Access: Included</div>
-        <div class="service-item">Open-air parking: Included</div>
-        <div class="service-item">Towels:  Included</div>
+        <div class="service-item">Air conditioning: Included Final Cleaning: € 500.00   / booking Heating: Included Internet Access: Included Open-air parking: Included Towels:  Included</div>
       </div>
       <div class="service-group">
         <h4>Optional</h4>
-        <div class="service-item">Baby high chair: € 25.00   / booking</div>
-        <div class="service-item">Bed linen: Included</div>
-        <div class="service-item">Cot/Crib: € 35.00   / booking</div>
-        <div class="service-item">Heated Pool: € 58.00   / night</div>
+        <div class="service-item">Baby high chair: € 25.00   / booking Bed linen: Included Cot/Crib: € 35.00   / booking Heated Pool: € 58.00   / night</div>
       </div>
     </div>
     <div class="checkin-bar">

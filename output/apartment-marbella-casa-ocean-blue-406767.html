@@ -29,7 +29,7 @@
     .hero { height: 420px !important; }
     .gallery-grid img { break-inside: avoid; }
     .page-break { page-break-before: always; }
-    .map-container, .lightbox, .back-link { display: none !important; }
+    .map-container, .lightbox, .back-link, .print-btn { display: none !important; }
     @page { margin: 12mm; }
   }
   .back-link {
@@ -49,6 +49,25 @@
     transition: background 0.15s;
   }
   .back-link:hover { background: var(--white); }
+  .print-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    padding: 10px 18px;
+    border-radius: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--charcoal);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    transition: background 0.15s;
+  }
+  .print-btn:hover { background: var(--white); }
   .hero {
     position: relative;
     width: 100%;
@@ -342,6 +361,7 @@
 <body>
 
 <a href="index.html" class="back-link">&#8592; All Properties</a>
+<button class="print-btn" onclick="window.print()">Save as PDF</button>
 
 <div class="hero">
   <img src="https://www.justrentmarbella.com/rentals/fotos/2/16669599236651b20c1435bf5eeb4aa3e2626f5c8d/1703772535bb50206992bb34d9a0f503623745dee4.jpg" alt="Casa Ocean Blue">
@@ -358,7 +378,7 @@
       <div class="fact-label">Bedrooms</div>
     </div>
     <div class="fact">
-      <div class="fact-value">4</div>
+      <div class="fact-value">2</div>
       <div class="fact-label">Bathrooms</div>
     </div>
     <div class="fact">
@@ -373,7 +393,7 @@
 
   <div class="section">
     <h2 class="section-title">About the Property</h2>
-    <p>Share Link copied Photos Add to favourites Favourites Share Description Review 9.4 occupants 6 1 King size bed 2 Double beds 3 3 Bedrooms 3 2 Bathrooms with shower 2 120 m² 120 m² Wi-Fi Wi-Fi</p>
+    <p>Welcome to Casa Ocean Blue, your dream beach retreat in Marbella! Perfectly located in the tranquil El Dorado urbanisation, this stunning apartment is just a stone&#x27;s throw away from the beach, the trendy restaurants of Puerto Banus, and famous beach clubs like Ocean Club. Recently renovated and exquisitely designed, this modern 3-bedroom apartment is the epitome of luxury and comfort, providing an ideal vacation spot for up to six adults. Relax in style in the spacious living area, featuring plush sofas, a state-of-the-art television, and a sound system. Step out onto the large terrace with stunning sea views, complete with an outside seating area, 3 sun loungers, a BBQ area, and ample seating for dining al fresco under the Mediterranean sun. Indulge your culinary senses in the fully-equipped kitchen, boasting all the modern conveniences including a Quooker tap with filtered cold/hot water and ice cream machine. Grab a quick bite in the breakfast area or enjoy a more formal meal on the terrace. Unwind in the lavish master bedroom with a double bed and awe-inspiring sea views, complete with an en-suite bathroom and a large walk-in shower. The second and third bedrooms feature comfortable double beds and windows opening to the back, and share a stylish bathroom with a relaxing rain shower. We offer baby cots and high chairs if required. Take a refreshing dip in the large communal swimming pool in the complex and enjoy convenient parking in front of the complex or in the secure underground garage. Experience the best of Marbella from this ideal location, with Puerto Banús just a 15-minute walk away, a variety of restaurants, bars, and supermarkets nearby and world- class golf courses (Aloha, Las Brisas, Los Naranjos, and La Quinta) just a few minutes away by car. You can also explore the charming Marbella Old Town, just a 10-minute drive away, or discover the many sought-after attractions, beaches, beach clubs, night clubs and white-washed villages of Costa del Sol. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. Book your stay at Casa Ocean Blue today for an unforgettable and luxurious vacation in Marbella. We can&#x27;t wait to welcome you!</p>
   </div>
 
   <div class="section">
@@ -404,6 +424,7 @@
       <span class="tag">BBQ</span>
       <span class="tag">Secured parking</span>
       <span class="tag">Ocean views</span>
+      <span class="tag">Laptop workspace</span>
       <span class="tag">18 m² terrace</span>
     </div>
   </div>
@@ -541,17 +562,11 @@
     <div class="services-columns">
       <div class="service-group">
         <h4>Included</h4>
-        <div class="service-item">Air conditioning: Included</div>
-        <div class="service-item">Final Cleaning: € 190.00   / booking</div>
-        <div class="service-item">Heating: Included</div>
-        <div class="service-item">Internet Access: Included</div>
-        <div class="service-item">Garage: Included</div>
-        <div class="service-item">Towels:  Included</div>
+        <div class="service-item">Air conditioning: Included Final Cleaning: € 190.00   / booking Heating: Included Internet Access: Included Garage: Included Towels:  Included</div>
       </div>
       <div class="service-group">
         <h4>Optional</h4>
-        <div class="service-item">Baby high chair: € 25.00   / booking</div>
-        <div class="service-item">Cot/Crib: € 35.00   / booking</div>
+        <div class="service-item">Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking</div>
       </div>
     </div>
     <div class="checkin-bar">

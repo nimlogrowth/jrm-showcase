@@ -28,10 +28,10 @@
   ],
   "guests": "4",
   "bedrooms": "2",
-  "bathrooms": "4",
+  "bathrooms": "2",
   "area": "100 m²",
   "plot": "",
-  "description": "Share Link copied Photos Add to favourites Favourites Share Description Review 10 occupants 4 1 Double bed 2 Single beds 3 2 Bedrooms 2 2 Bathrooms with bathtub 2 100 m² 100 m² Wi-Fi Wi-Fi",
+  "description": "This is a beautiful west-facing two-bedroom apartment in a landmark building, Marina Mariola – An exclusive and tranquil oasis on Marbella’s Golden Mile. Bright, modern, fresh and all that you could ever want, just on your doorstep! Tastefully decorated, this 100m2 apartment boasts a spacious living/dining room with large sliding doors leading to the private terrace (side sea and mountain views) with sunbeds as well as an outdoor dining area. With the sun shining and the sound of the waves, this is the perfect place to lay back with a cool drink and enjoy your holiday, not to mention the sunsets! The fully equipped kitchen has a ‘window’ with sliding glass panes that opens onto the dining area. There are two bedrooms, one double with ensuite bathroom and access to the terrace, and one with twin beds. There is a second full bathroom. Both bathrooms have a bath with an incorporated shower. Air-conditioning and WiFi are included. Located right on the beach promenade on the famous Golden Mile, between Puerto Banús and Marbella. Just a few minutes’ walk to the very heart of Marbella with several shopping centers, restaurants and the cosy old town with its narrow streets and lovely Orange Square, where it is recommended to have a nice evening meal between the many orange trees. Right outside the actual development, you have several nice beach bars and chiringuitos to choose from. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to hearing from you. The development offers exquisite hallways steeped in tropical plants, beautiful tropical gardens with water features, direct access to the beach and a fantastic outdoor swimming pool plus a gymnasium with sauna and changing rooms. A concierge service, 24-hour security and underground parking are important additional features. * Please note that the outdoor swimming pool is only available from May to October.",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -52,6 +52,9 @@
     "Lift",
     "Secured parking",
     "Ocean views",
+    "Dryer",
+    "Laptop workspace",
+    "Pool towels",
     "20 m² terrace"
   ],
   "distances": [
@@ -97,16 +100,10 @@
     }
   ],
   "services_included": [
-    "Air conditioning: Included",
-    "Final Cleaning: € 180.00   / booking",
-    "Heating: Included",
-    "Internet Access: Included",
-    "Garage: Included",
-    "Towels:  Included"
+    "Air conditioning: Included Final Cleaning: € 180.00   / booking Heating: Included Internet Access: Included Garage: Included Towels:  Included"
   ],
   "services_optional": [
-    "Baby high chair: € 25.00   / booking",
-    "Cot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

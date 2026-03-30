@@ -29,7 +29,7 @@
     .hero { height: 420px !important; }
     .gallery-grid img { break-inside: avoid; }
     .page-break { page-break-before: always; }
-    .map-container, .lightbox, .back-link { display: none !important; }
+    .map-container, .lightbox, .back-link, .print-btn { display: none !important; }
     @page { margin: 12mm; }
   }
   .back-link {
@@ -49,6 +49,25 @@
     transition: background 0.15s;
   }
   .back-link:hover { background: var(--white); }
+  .print-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    padding: 10px 18px;
+    border-radius: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--charcoal);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    transition: background 0.15s;
+  }
+  .print-btn:hover { background: var(--white); }
   .hero {
     position: relative;
     width: 100%;
@@ -342,6 +361,7 @@
 <body>
 
 <a href="index.html" class="back-link">&#8592; All Properties</a>
+<button class="print-btn" onclick="window.print()">Save as PDF</button>
 
 <div class="hero">
   <img src="https://www.justrentmarbella.com/rentals/fotos/3/17553777799c7e8d20b5aecc5c11f3f21dadd3cba5/1772456290cccc864fad041abe36606247d6c91580.jpg" alt="San Pedro Beachside Penthouse">
@@ -369,7 +389,7 @@
 
   <div class="section">
     <h2 class="section-title">About the Property</h2>
-    <p>Share Link copied Photos Add to favourites Favourites Share Description occupants 7 1 King size bed 5 Single beds 6 3 Bedrooms 3 2 bathrooms 2 125 m² 125 m² Wi-Fi Wi-Fi</p>
+    <p>Perfectly positioned in the vibrant heart of San Pedro de Alcántara, this stylish apartment offers the ultimate Costa del Sol lifestyle with 3 bedrooms, 2 bathrooms, and an additional full-size bed in a separate sleeping area. With the beach, restaurants, bars, and boutique shops all just a short stroll away, it’s the perfect base for soaking up everything this lively town has to offer. Inside, the home is bright and modern, with a spacious open-plan layout that includes a comfortable living area, dining space, and a fully equipped kitchen. The three main bedrooms are well-appointed, and the extra sleeping area offers added flexibility for families or groups. Both bathrooms are cleanly finished, offering all the essentials for a relaxed stay. One of the apartment’s standout features is its huge private roof terrace—a rare find this close to the action. Whether you’re enjoying sun-soaked afternoons, sunset drinks, or alfresco dining, this space gives you a private outdoor oasis in the middle of town. Guests also benefit from access to a community swimming pool, perfect for cooling off on warm days. If you&#x27;re searching for a well-located, comfortable getaway in San Pedro, this apartment has it all—sun, space, and unbeatable convenience. Please note, to maintain the peaceful and luxurious environment, we welcome families and couples only. Groups under 30, or those planning stag or hen parties, are not permitted. However, if you feel this place is the right fit for your group, we invite you to reach out and tell us more about yourselves — we’re always happy to consider special requests.</p>
   </div>
 
   <div class="section">
@@ -398,6 +418,8 @@
       <span class="tag">Central heating</span>
       <span class="tag">Secured parking</span>
       <span class="tag">Ocean views</span>
+      <span class="tag">Mountain views</span>
+      <span class="tag">Balcony</span>
       <span class="tag">165 m² terrace</span>
     </div>
   </div>
@@ -503,18 +525,11 @@
     <div class="services-columns">
       <div class="service-group">
         <h4>Included</h4>
-        <div class="service-item">Final Cleaning: € 400.00   / booking</div>
-        <div class="service-item">Internet Access: Included</div>
-        <div class="service-item">Garage: Included</div>
-        <div class="service-item">Towels:  Included</div>
+        <div class="service-item">Final Cleaning: € 400.00   / booking Internet Access: Included Garage: Included Towels:  Included</div>
       </div>
       <div class="service-group">
         <h4>Optional</h4>
-        <div class="service-item">Air conditioning: Included</div>
-        <div class="service-item">Baby high chair: € 25.00   / booking</div>
-        <div class="service-item">Cot/Crib: € 35.00   / booking</div>
-        <div class="service-item">Extra beds: € 100.00   / booking</div>
-        <div class="service-item">Heating: Included</div>
+        <div class="service-item">Air conditioning: Included Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Extra beds: € 100.00   / booking Heating: Included</div>
       </div>
     </div>
     <div class="checkin-bar">

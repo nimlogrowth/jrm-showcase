@@ -110,10 +110,10 @@
   ],
   "guests": "18",
   "bedrooms": "9",
-  "bathrooms": "18",
+  "bathrooms": "9",
   "area": "065 m²",
   "plot": "",
-  "description": "Share Link copied Photos Add to favourites Favourites Share Description occupants 18 9 Double beds 9 9 Bedrooms 9 9 Bathrooms with bathtub 9 1,065 m² 1,065 m² Wi-Fi Wi-Fi",
+  "description": "Nestled along the sun-kissed shores of the Costa del Sol, this exclusive villa offers an unparalleled experience tailored to the discerning international elite. With a prime location boasting the longest beachfront in the Malaga/Marbella region, guests are treated to uninterrupted vistas of the azure Mediterranean. A harmonious blend of luxury and privacy, this villa stands as a testament to unmatched elegance, enveloped by meticulously landscaped gardens and the allure of pristine beachfront living. Notably, this villa holds a place in pop culture history as the birthplace of \"One Direction,\" conceptualized within its walls by the visionary Simon Cowell. Distinguished from its counterparts in Marbella and Puerto Banus, this sanctuary ensures complete seclusion, shielded from prying eyes by lush foliage. The expansive two-kilometer stretch of untouched beachfront, devoid of parking lots, offers a retreat into unspoiled tranquility. Each of the bedrooms boasts panoramic views of the sea and sun, accompanied by private terraces and sumptuous sun beds. Indoors, guests indulge in the opulence of heated swimming pools, a rejuvenating spa, two saunas, Turkish baths, a serene massage room, a state-of-the-art gymnasium, and a captivating home cinema. Recognized by Channel Cuatro as \"Spain's Most Luxurious Home,\" this villa stands as an emblem of unparalleled grandeur. Don't forget to inquire about our concierge services, we look forward to welcoming you.",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -168,7 +168,11 @@
     "Alarm system",
     "Safe",
     "Fireplace",
-    "Secured parking"
+    "Secured parking",
+    "Dryer",
+    "Balcony",
+    "Laptop workspace",
+    "Pool towels"
   ],
   "distances": [
     {
@@ -213,15 +217,10 @@
     }
   ],
   "services_included": [
-    "Final Cleaning: € 700.00   / booking",
-    "Internet Access: Included",
-    "garage and car park: Included",
-    "Towels:  Included"
+    "Final Cleaning: € 700.00   / booking Internet Access: Included garage and car park: Included Towels:  Included"
   ],
   "services_optional": [
-    "Baby high chair: € 25.00   / booking",
-    "Cot/Crib: € 35.00   / booking",
-    "Heated Pool: € 50.00   / night"
+    "Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heated Pool: € 50.00   / night"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

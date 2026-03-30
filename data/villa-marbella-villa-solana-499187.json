@@ -39,10 +39,10 @@
   ],
   "guests": "8",
   "bedrooms": "4",
-  "bathrooms": "8",
+  "bathrooms": "4",
   "area": "287 m²",
   "plot": "",
-  "description": "Share Link copied Photos Add to favourites Favourites Share Description occupants 8 4 King size beds 4 4 Bedrooms 4 4 Bathrooms with shower 4 287 m² 287 m² Wi-Fi Wi-Fi",
+  "description": "Stunning New 4-Bedroom Villa with Breathtaking Views! Experience luxurious living in this brand-new villa, part of the second phase of the sought-after La Finca De Marbella Urbanisation. Designed with modern elegance, this villa offers stylish interiors, high-end furnishings, spacious bedrooms, and outstanding living and entertainment spaces, making it the perfect choice for your Marbella holiday. Upon entering, you are greeted by a large open-plan living and kitchen area, featuring expansive picture windows that open up to the terrace. These sliding windows can be folded on two sides, seamlessly blending the indoor living space with the outdoor terrace. Step outside to enjoy the beautiful infinity pool and lush garden area, creating an ideal setting for those long summer days. The living area is outfitted with a spacious L-shaped sofa, an indoor dining table, and a fully equipped kitchen. The terrace boasts chic furniture, including a comfortable chill-out lounge, a stylish wood-topped dining table, sunbeds, and a BBQ, perfect for alfresco dining and relaxation. The villa features four bedrooms—one located on the ground floor and three on the upper level. Both the downstairs bedroom and the master suite upstairs are en-suite and offer direct access to the terraces. The other two upstairs bedrooms share a bathroom. All bedrooms feature a King size bed for your comfort and relaxation, This layout comfortably accommodates up to 8 guests. Additional features include underfloor heating throughout, an alarm system, air conditioning, Wi-Fi, gated parking for two cars, and optional pool heating available for an additional fee. This luxurious villa is designed to meet the highest standards, providing the perfect blend of style, comfort, and convenience. Nestled within one of Marbella's finest areas, La Finca De Marbella offers tranquility while still being close to Marbella's vibrant downtown, renowned beaches, and all the attractions the area is famous for. A short 5-minute drive will take you to the La Cañada shopping center and Marbella's historic Old Town. Nearby, you'll find the Rio Real Golf Club, as well as popular beach clubs like Trocadero Arena and Opium Beach Club. Please note, we welcome families and couples only. We do not accept groups under 30, nor hen or stag parties. If you fall outside this category but would like to book, please send us an inquiry with more details about your group, and we can consider your request. We look forward to welcoming you!",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -72,6 +72,9 @@
     "Central heating",
     "Alarm system",
     "Secured parking",
+    "Dryer",
+    "Balcony",
+    "Laptop workspace",
     "134 m² terrace"
   ],
   "distances": [
@@ -117,17 +120,10 @@
     }
   ],
   "services_included": [
-    "Air conditioning: Included",
-    "Final Cleaning: € 550.00   / booking",
-    "Heating: Included",
-    "Internet Access: Included",
-    "Covered parking: Included",
-    "Towels:  Included"
+    "Air conditioning: Included Final Cleaning: € 550.00   / booking Heating: Included Internet Access: Included Covered parking: Included Towels:  Included"
   ],
   "services_optional": [
-    "Baby high chair: € 25.00   / booking",
-    "Cot/Crib: € 35.00   / booking",
-    "Heated Pool: € 70.00   / night"
+    "Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heated Pool: € 70.00   / night"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

@@ -26,10 +26,10 @@
   ],
   "guests": "8",
   "bedrooms": "4",
-  "bathrooms": "10",
+  "bathrooms": "5",
   "area": "200 m²",
   "plot": "900 m²",
-  "description": "Share Link copied Photos Add to favourites Favourites Share Description Review 9.3 occupants 8 4 Double beds 4 4 Bedrooms 4 1 Bathroom with bathtub 3 Bathrooms with shower 1 Toilet 5 200 m² 200 m² Wi-Fi Wi-Fi",
+  "description": "-35% Discount from April to September due to nearby construction. A spacious and contemporary 4 bedroomed Villa with a private garden, infinity pool, and wonderful views over the valley to the Mediterranean Sea and Gibraltar. Located in the peaceful residential area of La Gaspara on the west side of Estepona, the villa is a short distance from the town centre and its beautiful port as well as being a brief stroll away from the beach. Perfect for a quiet family getaway on the charming Costa Del Sol. Upon entry, you are greeted by the impressive living room and dining area which is beautifully lit thanks to the floor-to-ceiling sliding glass panels that gift you a stunning view and access out onto the terrace/pool area, and further out into the garden. An American-styled open-plan kitchen, equipped with all of your modern amenities as well as an electric hob on the centre piece makes the cooking experience an absolute delight. Of the 4 bedrooms, one is on the ground floor, the other 3 are upstairs. Every bedroom is bright and comfortable, ensuite and furnished tastefully to perfection. The bathrooms are all kitted with glass-paneled standing showers, whilst the Master Bedroom also boasts an additional long bathtub. Every bedroom also holds a lovely and double bed. Each of the bedrooms has floor-to-ceiling windows allowing for stunning views of the gardens and landscapes regardless of where you are in the home. The three bedrooms upstairs all have access to the upper terrace which spans the whole upper floor. The highlight of this villa is its fabulous open-plan design. The terrace and pool area have shaded inlets with multiple seating areas, as well as various sun beds which are partnered by straw-thatched umbrellas. The garden is lined by flower-laden trees allowing total peace and privacy. You will also find a gas BBQ outside to grill up your favourite meals and there is a dining area outside that seats 8, allowing you to enjoy the experience in its entirety. WiFi and air conditioning systems are located all throughout the home and the villa entrance holds enough space for 2 parked cars. The property also has some additional features such as a Boule court, and table tennis. The closest shops are Mercadona & Aldi near Costa Natura Roundabout. Otherwise, other shops, entertainment, and restaurants/bars can be found within Estepona Old Town and Port. El Nido Beach Club is a wonderful day spent and only 1km away. 2 Golf Clubs are also within 3 km radius of the home, Estepona Golf Club & Azata Golf Club. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to welcoming you! Don’t forget to enquire about our concierge services.",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -61,6 +61,9 @@
     "Secured parking",
     "Ping pong",
     "Ocean views",
+    "Dryer",
+    "Outdoor shower",
+    "Balcony",
     "70 m² terrace"
   ],
   "distances": [
@@ -102,16 +105,10 @@
     }
   ],
   "services_included": [
-    "Air conditioning: Included",
-    "Final Cleaning: € 500.00   / booking",
-    "Internet Access: Included",
-    "Open-air parking: Included",
-    "Towels:  Included"
+    "Air conditioning: Included Final Cleaning: € 500.00   / booking Internet Access: Included Open-air parking: Included Towels:  Included"
   ],
   "services_optional": [
-    "Baby high chair: € 25.00   / booking",
-    "Cot/Crib: € 35.00   / booking",
-    "Heated Pool: € 60.00   / night"
+    "Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heated Pool: € 60.00   / night"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

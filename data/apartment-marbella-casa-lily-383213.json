@@ -28,10 +28,10 @@
   ],
   "guests": "6",
   "bedrooms": "3",
-  "bathrooms": "6",
+  "bathrooms": "3",
   "area": "121 m²",
   "plot": "",
-  "description": "Share Link copied Photos Add to favourites Favourites Share Description Review 10 occupants 6 3 Double beds 3 3 Bedrooms 3 3 Bathrooms with shower 3 121 m² 121 m² Wi-Fi Wi-Fi",
+  "description": "Casa Lily is a beautifully refurbished, bright and modern apartment right next to the Casino and H10 Hotel in Puerto Banús! Casa Lily offers a fresh, clean and stylish space to enjoy your holidays. It has just been renovated to a very high and contemporary Scandinavian standard with stylish details such as industrial glass features in the master bedroom and the bathrooms in grey marble with gold fixtures and fittings. The apartment has an open-plan kitchen/dining/living room with double doors leading to the sizeable terrace (23m2). The kitchen is fitted with brand new appliances including dishwasher, fridge-freezer, oven and Nespresso coffee machine. There are double-glazed windows in all windows facing the terrace. The terrace is spacious, west facing and has a built-in outdoor kitchen and washing machine. Comfortable outdoor dining and lounge furniture creates the perfect space for sundowners and alfresco dining. There are 3 bedrooms, 2 with an ensuite bathroom and a third separate bathroom. The master bedroom and the 3rd bedroom have windows facing the community garden and pool area. In total this enables for 6 to sleep very comfortably. There is one 180cm bed and 2 160cm beds. Furthermore, there is also one separate mattress that can be used if anybody would prefer to sleep apart. There is air conditioning throughout, a Smart TV to access Netflix, YouTube, etc, and IPTV (various international channels) and WIFI are provided. There is also a safe in the Master bedroom. Casa Lily is in a small gated complex. It is secluded, quaint, and beautifully designed in a typical Andalusian way with a clean and inviting swimming pool in lovely, well-maintained private gardens. There is also a shower and toilet facilities by the pool. Two sunbeds are provided by the owner for you to use by the swimming pool. As the complex is small, the pool does not get overly busy, even in the height of summer. An additional bonus is that the entrance to the apartment is from the ground floor and this is the only apartment with direct access to the community pool without any stairs – Perfect for families with children! The area of Nueva Andalucia offers something for everyone, with at least 6 impressive golf courses close by, the shopping centre Centro Plaza a stone's throw away, many stylish and excellent restaurants and it also hosts a famous street market each Saturday. More importantly, using the pedestrian tunnel that goes under the highway, you can walk to the beach and the jet set of the World-Famous Puerto Banús in under 10 minutes! Surrounded by amenities and a very short distance to Marbella’s finest Golf Clubs, Casa Lily offers the perfect location for your holidays in Marbella. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to welcoming you.",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -52,6 +52,8 @@
     "Air-conditioned",
     "Central heating",
     "Safe",
+    "Balcony",
+    "First aid kit",
     "23 m² terrace"
   ],
   "distances": [
@@ -105,15 +107,10 @@
     }
   ],
   "services_included": [
-    "Air conditioning: Included",
-    "Final Cleaning: € 215.00   / booking",
-    "Heating: Included",
-    "Internet Access: Included",
-    "Towels:  Included"
+    "Air conditioning: Included Final Cleaning: € 215.00   / booking Heating: Included Internet Access: Included Towels:  Included"
   ],
   "services_optional": [
-    "Baby high chair: € 25.00   / booking",
-    "Cot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

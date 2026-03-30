@@ -37,10 +37,10 @@
   ],
   "guests": "4",
   "bedrooms": "2",
-  "bathrooms": "4",
+  "bathrooms": "2",
   "area": "96 m²",
   "plot": "",
-  "description": "Share Link copied Photos Add to favourites Favourites Share Description occupants 4 2 Double beds 2 2 Bedrooms 2 2 Bathrooms with shower 2 96 m² 96 m² Wi-Fi Wi-Fi",
+  "description": "Contemporary 2-bed apartment near Puerto Banus A fantastic newly renovated 2-bed, 2-bathroom apartment, in the prestigious area of ​​Atalaya de Río Verde, in the Pueblo Arabesque urbanisation, in the heart of Nueva Andalucía, Marbella The apartment is divided over two floors. The open plan kitchen/dining room and living room, two bedrooms and a bathroom are found on the main floor. Large windows provide this space with natural light and open up to the terrace with views of the gardens and access to the pool area. The apartment is beautifully finished and furnished with comfortable and modern furnishings. The master bedroom features an open ensuite bathroom with a walk-in rain shower, and is a private haven just up a small flight of stairs on the second level of the apartment. There is hot/cold air conditioning and wifi throughout. There is a parking space outside assigned with the apartment number. The urbanization is very well maintained, has surveillance at night and a large community pool. The location is exceptional, just a few steps from supermarkets, restaurants, bars, entertainment venues, banks, shops, tennis club … and just a few minutes from Puerto Banús. An ideal property to spend vacation periods very close to everything, in one of the best areas of Marbella. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to welcoming you.",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -101,14 +101,10 @@
     }
   ],
   "services_included": [
-    "Final Cleaning: € 175.00   / booking",
-    "Internet Access: Included",
-    "Open-air parking: Included",
-    "Towels:  Included"
+    "Final Cleaning: € 175.00   / booking Internet Access: Included Open-air parking: Included Towels:  Included"
   ],
   "services_optional": [
-    "Baby high chair: € 25.00   / booking",
-    "Cot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

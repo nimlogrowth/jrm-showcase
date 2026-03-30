@@ -40,10 +40,10 @@
   ],
   "guests": "10",
   "bedrooms": "5",
-  "bathrooms": "12",
+  "bathrooms": "6",
   "area": "",
   "plot": "",
-  "description": "Share Link copied Photos Add to favourites Favourites Share Description occupants 10 3 King size beds 2 Double beds 5 5 Bedrooms 5 1 Bathroom with bathtub 4 Bathrooms with shower 1 Toilet 6 Wi-Fi Wi-Fi",
+  "description": "Villa Enso is a serene retreat located right next to the prestigious Las Brisas Golf in Nueva Andalucía—just minutes from Puerto Banús, Marbella, and a host of world-class golf courses like Aloha and Los Naranjos. With 5 spacious bedrooms, 5 sleek bathrooms, and an additional guest toilet, this villa offers the perfect blend of style, space, and functionality for an unforgettable Costa del Sol getaway. Inside, Villa Enso exudes effortless elegance. The open-plan kitchen flows seamlessly into the main living room, creating a bright and sociable heart of the home—ideal for shared meals and relaxed conversations. A separate TV/Cinema room sits next to the fully equipped gym, both on the same floor, offering versatile spaces for entertainment and wellness. Each bedroom is thoughtfully styled for rest and privacy, while modern finishes and refined furnishings elevate every corner of the home. Step outside to discover a beautifully landscaped garden and inviting pool area, complete with sun loungers and tranquil seating zones that make outdoor living a daily pleasure. The villa also features a private putting green and a children’s play area—perfect for families or golf enthusiasts looking to stay active and entertained under the Andalusian sun. Ideally positioned for both peace and convenience, Villa Enso places you close to amenities like restaurants, cafes and supermarkets yet it's tucked away in one of Marbella’s most exclusive neighbourhoods. Whether you're looking to unwind, explore, golf, or entertain, this exceptional home promises a stay defined by comfort, luxury, and location. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -79,7 +79,9 @@
     "Gym / fitness",
     "Alarm system",
     "Fireplace",
-    "Secured parking"
+    "Secured parking",
+    "Dryer",
+    "Balcony"
   ],
   "distances": [
     {
@@ -120,16 +122,10 @@
     }
   ],
   "services_included": [
-    "Final Cleaning: € 500.00   / booking",
-    "Internet Access: Included",
-    "Open-air parking: Included",
-    "Towels:  Included"
+    "Final Cleaning: € 500.00   / booking Internet Access: Included Open-air parking: Included Towels:  Included"
   ],
   "services_optional": [
-    "Air conditioning: Included",
-    "Baby high chair: € 25.00   / booking",
-    "Cot/Crib: € 35.00   / booking",
-    "Heating: Included"
+    "Air conditioning: Included Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heating: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

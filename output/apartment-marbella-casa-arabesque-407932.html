@@ -29,7 +29,7 @@
     .hero { height: 420px !important; }
     .gallery-grid img { break-inside: avoid; }
     .page-break { page-break-before: always; }
-    .map-container, .lightbox, .back-link { display: none !important; }
+    .map-container, .lightbox, .back-link, .print-btn { display: none !important; }
     @page { margin: 12mm; }
   }
   .back-link {
@@ -49,6 +49,25 @@
     transition: background 0.15s;
   }
   .back-link:hover { background: var(--white); }
+  .print-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    padding: 10px 18px;
+    border-radius: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--charcoal);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    transition: background 0.15s;
+  }
+  .print-btn:hover { background: var(--white); }
   .hero {
     position: relative;
     width: 100%;
@@ -342,6 +361,7 @@
 <body>
 
 <a href="index.html" class="back-link">&#8592; All Properties</a>
+<button class="print-btn" onclick="window.print()">Save as PDF</button>
 
 <div class="hero">
   <img src="https://www.justrentmarbella.com/rentals/fotos/2/1668003785c46a7ce3d9a66ce11263c7ac953c94c7/16680037966435e299f0aa7f3a6784389e308de225.jpg" alt="Casa Arabesque">
@@ -358,7 +378,7 @@
       <div class="fact-label">Bedrooms</div>
     </div>
     <div class="fact">
-      <div class="fact-value">4</div>
+      <div class="fact-value">2</div>
       <div class="fact-label">Bathrooms</div>
     </div>
     <div class="fact">
@@ -373,7 +393,7 @@
 
   <div class="section">
     <h2 class="section-title">About the Property</h2>
-    <p>Share Link copied Photos Add to favourites Favourites Share Description occupants 4 2 Double beds 2 2 Bedrooms 2 2 Bathrooms with shower 2 96 m² 96 m² Wi-Fi Wi-Fi</p>
+    <p>Contemporary 2-bed apartment near Puerto Banus A fantastic newly renovated 2-bed, 2-bathroom apartment, in the prestigious area of ​​Atalaya de Río Verde, in the Pueblo Arabesque urbanisation, in the heart of Nueva Andalucía, Marbella The apartment is divided over two floors. The open plan kitchen/dining room and living room, two bedrooms and a bathroom are found on the main floor. Large windows provide this space with natural light and open up to the terrace with views of the gardens and access to the pool area. The apartment is beautifully finished and furnished with comfortable and modern furnishings. The master bedroom features an open ensuite bathroom with a walk-in rain shower, and is a private haven just up a small flight of stairs on the second level of the apartment. There is hot/cold air conditioning and wifi throughout. There is a parking space outside assigned with the apartment number. The urbanization is very well maintained, has surveillance at night and a large community pool. The location is exceptional, just a few steps from supermarkets, restaurants, bars, entertainment venues, banks, shops, tennis club … and just a few minutes from Puerto Banús. An ideal property to spend vacation periods very close to everything, in one of the best areas of Marbella. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to welcoming you.</p>
   </div>
 
   <div class="section">
@@ -509,15 +529,11 @@
     <div class="services-columns">
       <div class="service-group">
         <h4>Included</h4>
-        <div class="service-item">Final Cleaning: € 175.00   / booking</div>
-        <div class="service-item">Internet Access: Included</div>
-        <div class="service-item">Open-air parking: Included</div>
-        <div class="service-item">Towels:  Included</div>
+        <div class="service-item">Final Cleaning: € 175.00   / booking Internet Access: Included Open-air parking: Included Towels:  Included</div>
       </div>
       <div class="service-group">
         <h4>Optional</h4>
-        <div class="service-item">Baby high chair: € 25.00   / booking</div>
-        <div class="service-item">Cot/Crib: € 35.00   / booking</div>
+        <div class="service-item">Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking</div>
       </div>
     </div>
     <div class="checkin-bar">

@@ -29,7 +29,7 @@
     .hero { height: 420px !important; }
     .gallery-grid img { break-inside: avoid; }
     .page-break { page-break-before: always; }
-    .map-container, .lightbox, .back-link { display: none !important; }
+    .map-container, .lightbox, .back-link, .print-btn { display: none !important; }
     @page { margin: 12mm; }
   }
   .back-link {
@@ -49,6 +49,25 @@
     transition: background 0.15s;
   }
   .back-link:hover { background: var(--white); }
+  .print-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    padding: 10px 18px;
+    border-radius: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--charcoal);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    transition: background 0.15s;
+  }
+  .print-btn:hover { background: var(--white); }
   .hero {
     position: relative;
     width: 100%;
@@ -342,6 +361,7 @@
 <body>
 
 <a href="index.html" class="back-link">&#8592; All Properties</a>
+<button class="print-btn" onclick="window.print()">Save as PDF</button>
 
 <div class="hero">
   <img src="https://www.justrentmarbella.com/rentals/fotos/3/17488770963552c3c94495e06e613b6163dec82116/1748877100f959a3bec5b399b0119d14eb0bc88c8c.jpg" alt="Villa Enso">
@@ -358,7 +378,7 @@
       <div class="fact-label">Bedrooms</div>
     </div>
     <div class="fact">
-      <div class="fact-value">12</div>
+      <div class="fact-value">6</div>
       <div class="fact-label">Bathrooms</div>
     </div>
     <div class="fact">
@@ -369,7 +389,7 @@
 
   <div class="section">
     <h2 class="section-title">About the Property</h2>
-    <p>Share Link copied Photos Add to favourites Favourites Share Description occupants 10 3 King size beds 2 Double beds 5 5 Bedrooms 5 1 Bathroom with bathtub 4 Bathrooms with shower 1 Toilet 6 Wi-Fi Wi-Fi</p>
+    <p>Villa Enso is a serene retreat located right next to the prestigious Las Brisas Golf in Nueva Andalucía—just minutes from Puerto Banús, Marbella, and a host of world-class golf courses like Aloha and Los Naranjos. With 5 spacious bedrooms, 5 sleek bathrooms, and an additional guest toilet, this villa offers the perfect blend of style, space, and functionality for an unforgettable Costa del Sol getaway. Inside, Villa Enso exudes effortless elegance. The open-plan kitchen flows seamlessly into the main living room, creating a bright and sociable heart of the home—ideal for shared meals and relaxed conversations. A separate TV/Cinema room sits next to the fully equipped gym, both on the same floor, offering versatile spaces for entertainment and wellness. Each bedroom is thoughtfully styled for rest and privacy, while modern finishes and refined furnishings elevate every corner of the home. Step outside to discover a beautifully landscaped garden and inviting pool area, complete with sun loungers and tranquil seating zones that make outdoor living a daily pleasure. The villa also features a private putting green and a children’s play area—perfect for families or golf enthusiasts looking to stay active and entertained under the Andalusian sun. Ideally positioned for both peace and convenience, Villa Enso places you close to amenities like restaurants, cafes and supermarkets yet it&#x27;s tucked away in one of Marbella’s most exclusive neighbourhoods. Whether you&#x27;re looking to unwind, explore, golf, or entertain, this exceptional home promises a stay defined by comfort, luxury, and location. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.</p>
   </div>
 
   <div class="section">
@@ -414,6 +434,8 @@
       <span class="tag">Alarm system</span>
       <span class="tag">Fireplace</span>
       <span class="tag">Secured parking</span>
+      <span class="tag">Dryer</span>
+      <span class="tag">Balcony</span>
     </div>
   </div>
 
@@ -526,17 +548,11 @@
     <div class="services-columns">
       <div class="service-group">
         <h4>Included</h4>
-        <div class="service-item">Final Cleaning: € 500.00   / booking</div>
-        <div class="service-item">Internet Access: Included</div>
-        <div class="service-item">Open-air parking: Included</div>
-        <div class="service-item">Towels:  Included</div>
+        <div class="service-item">Final Cleaning: € 500.00   / booking Internet Access: Included Open-air parking: Included Towels:  Included</div>
       </div>
       <div class="service-group">
         <h4>Optional</h4>
-        <div class="service-item">Air conditioning: Included</div>
-        <div class="service-item">Baby high chair: € 25.00   / booking</div>
-        <div class="service-item">Cot/Crib: € 35.00   / booking</div>
-        <div class="service-item">Heating: Included</div>
+        <div class="service-item">Air conditioning: Included Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heating: Included</div>
       </div>
     </div>
     <div class="checkin-bar">

@@ -29,7 +29,7 @@
     .hero { height: 420px !important; }
     .gallery-grid img { break-inside: avoid; }
     .page-break { page-break-before: always; }
-    .map-container, .lightbox, .back-link { display: none !important; }
+    .map-container, .lightbox, .back-link, .print-btn { display: none !important; }
     @page { margin: 12mm; }
   }
   .back-link {
@@ -49,6 +49,25 @@
     transition: background 0.15s;
   }
   .back-link:hover { background: var(--white); }
+  .print-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    padding: 10px 18px;
+    border-radius: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--charcoal);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    transition: background 0.15s;
+  }
+  .print-btn:hover { background: var(--white); }
   .hero {
     position: relative;
     width: 100%;
@@ -342,6 +361,7 @@
 <body>
 
 <a href="index.html" class="back-link">&#8592; All Properties</a>
+<button class="print-btn" onclick="window.print()">Save as PDF</button>
 
 <div class="hero">
   <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/16475189390043a92609242fefe3d97dc3819743e7.jpg" alt="Villa Elegancia">
@@ -358,7 +378,7 @@
       <div class="fact-label">Bedrooms</div>
     </div>
     <div class="fact">
-      <div class="fact-value">10</div>
+      <div class="fact-value">5</div>
       <div class="fact-label">Bathrooms</div>
     </div>
     <div class="fact">
@@ -373,7 +393,7 @@
 
   <div class="section">
     <h2 class="section-title">About the Property</h2>
-    <p>Share Link copied Photos Add to favourites Favourites Share Description occupants 10 5 Double beds 5 5 Bedrooms 5 1 Bathroom with bathtub 3 Bathrooms with shower 1 Toilet 5 489 m² 489 m² Wi-Fi Wi-Fi</p>
+    <p>A beautiful and very elegant villa in one of the best areas of Marbella. The house is designed with great style and located on a private and spacious plot with stunning open views over Marbella’s La Concha mountain. It is the perfect holiday location for those that appreciate their privacy and getting away from every-day’s stress, yet still enjoy being in the heart of Marbella’s Nueva Andalucia area. The villa is accessed through a large wooden hand-carved door which leads you into the hallway. From here you can either go into the main kitchen, bedroom areas, staircase or go into the living room. The living room is spacious and designed to match great comfort. There are several sofas around a classical fireplace area as well as various other relaxing areas for those that want to doze off or read a book. From the living room area you can enjoy the magnificent views over the mountainous scenery. Also, it gives direct access to the outside terrace and pool area. Next to the living room you will find the formal dining area from which you also have access to the outside dining area. Both are elegant and can seat up to 8. The outside dining area has a large mural next to it giving it a very Mediterranean and special feeling to it. Next to the dining areas there is the main kitchen. It is spacious, fully fitted and has a bar area for 2 to sit and give company or help to the person cooking. There are three bedrooms on the entrance level. Two of these are located in one wing of the house. These both share one bathroom with shower. The third bedroom is located on the other side of the house (off the garage), has a private en-suite bathroom and also a Finnish Sauna (with a window with views). The master bedroom is found upstairs and is certainly a great area. It is very spacious, has an office area, en-suite bathroom, walk-in closet, great mountain views and a spacious terrace overlooking the pool, golf course and La Concha mountain. The bathroom has both a bath and a shower and a double sink. The walk-in closet is very spacious and with a place in the middle to sit and put your clothes on comfortably. There is air-conditioning throughout the bedrooms and living room. A fabulous recently added element is the 50m2 Guest House/Chiringuito located just below the garage featuring a bedroom with a queen size bed, a bathroom and a fully equipped kitchen with a lovely bar area. There is a large lounge (with seating for 10 people) and a fireplace, with sliding glass doors to convert the area into an indoor environment. There is under-floor heating and AC for year-around use. This has been designed as a separate, independent and fully equipped Guest house. The proximity to the existing Guest Room makes the zone ideal to accommodate up to four guests who can stay in a separate and independent part of the property. The outside of the villa is as impressive as the inside. It is very spacious and completely private. From all over the garden there is a magnificent view over Marbella’s La Concha mountain as well as the Las Brisas golf course. There is a comfortable lounge area with sofas and a table and around the private swimming pool you can find several sun loungers to soak up the sun and relax. The swimming pool has an option to be heated at an additional cost. There is a garage (for one car) and further on-street parking. Additional features include Wifi, IPTV and a full alarm. This villa, and its style, is one of a kind and full of character. All the doors are hand-carved and you will find several wall paintings and decorations throughout the house. It is this detail that give this house a special feeling and extra dimension for a great family holiday. Although the villa feels very private you are still located perfectly in Marbella. With the famous Las Brisas golf course around the corner and the beach, old town of Marbella and Puerto Banús all within a few minutes’ drive, the location is ideal for a perfect holiday. Also, you will find several bars and restaurants at just a 10 minute walk and a supermarket at just a 3 minute drive. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to welcoming you.</p>
   </div>
 
   <div class="section">
@@ -420,6 +440,10 @@
       <span class="tag">Fireplace</span>
       <span class="tag">Secured parking</span>
       <span class="tag">Ocean views</span>
+      <span class="tag">Dryer</span>
+      <span class="tag">Outdoor shower</span>
+      <span class="tag">Balcony</span>
+      <span class="tag">Laptop workspace</span>
       <span class="tag">55 m² terrace</span>
     </div>
   </div>
@@ -608,18 +632,11 @@
     <div class="services-columns">
       <div class="service-group">
         <h4>Included</h4>
-        <div class="service-item">Air conditioning: Included</div>
-        <div class="service-item">Final Cleaning: € 450.00   / booking</div>
-        <div class="service-item">Heating: Included</div>
-        <div class="service-item">Internet Access: Included</div>
-        <div class="service-item">Garage: Included</div>
-        <div class="service-item">Towels:  Included</div>
+        <div class="service-item">Air conditioning: Included Final Cleaning: € 450.00   / booking Heating: Included Internet Access: Included Garage: Included Towels:  Included</div>
       </div>
       <div class="service-group">
         <h4>Optional</h4>
-        <div class="service-item">Baby high chair: € 25.00   / booking</div>
-        <div class="service-item">Cot/Crib: € 35.00   / booking</div>
-        <div class="service-item">Heated Pool: € 50.00   / night</div>
+        <div class="service-item">Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heated Pool: € 50.00   / night</div>
       </div>
     </div>
     <div class="checkin-bar">

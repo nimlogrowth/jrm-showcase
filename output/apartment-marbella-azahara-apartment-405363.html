@@ -29,7 +29,7 @@
     .hero { height: 420px !important; }
     .gallery-grid img { break-inside: avoid; }
     .page-break { page-break-before: always; }
-    .map-container, .lightbox, .back-link { display: none !important; }
+    .map-container, .lightbox, .back-link, .print-btn { display: none !important; }
     @page { margin: 12mm; }
   }
   .back-link {
@@ -49,6 +49,25 @@
     transition: background 0.15s;
   }
   .back-link:hover { background: var(--white); }
+  .print-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    padding: 10px 18px;
+    border-radius: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--charcoal);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    transition: background 0.15s;
+  }
+  .print-btn:hover { background: var(--white); }
   .hero {
     position: relative;
     width: 100%;
@@ -342,6 +361,7 @@
 <body>
 
 <a href="index.html" class="back-link">&#8592; All Properties</a>
+<button class="print-btn" onclick="window.print()">Save as PDF</button>
 
 <div class="hero">
   <img src="https://www.justrentmarbella.com/rentals/fotos/2/1665669356059270fafc60804318b1773604a3c2be/16656693572193d1ee4957f536079b913f5824ca4d.jpg" alt="Azahara Apartment">
@@ -358,7 +378,7 @@
       <div class="fact-label">Bedrooms</div>
     </div>
     <div class="fact">
-      <div class="fact-value">4</div>
+      <div class="fact-value">2</div>
       <div class="fact-label">Bathrooms</div>
     </div>
     <div class="fact">
@@ -373,7 +393,7 @@
 
   <div class="section">
     <h2 class="section-title">About the Property</h2>
-    <p>Share Link copied Photos Add to favourites Favourites Share Description Review 9.8 occupants 4 2 Double beds 2 2 Bedrooms 2 2 Bathrooms with shower 2 97 m² 97 m² Wi-Fi Wi-Fi</p>
+    <p>Azahara Apartment Azahara Apartment is a beautifully styled, bright and modern apartment right next to the Aloha Golf Course! Overlooking the golf course, with the Mediterranean behind, this apartment has amazing views and is the perfect place if you are looking to really unwind and fully relax. The apartment has an open-plan living/dining room with glass curtain doors that allow you to fully open to the terrace. That way, the inside and outside are fully connected. Both from the living room as well as the terrace you have great views. The terrace features a comfy outside lounge area as well as a few sun loungers. As it is located on the ground floor you can directly walk to the large community pool right from there. The lounge contains a seating area with a TV and a dining area overlooking the wonderful views. The kitchen is modern and fitted with all you may need; a dishwasher, fridge-freezer, oven, filter coffee machine, etc. There are 2 bedrooms, both with their own bathroom. The master bedroom has windows facing the community garden and pool area. In total, this enables 4 to sleep very comfortably. Other than the superb views and great style, this apartment also boasts a great location! At just a few minutes’ walk from the Aloha strip, you will find some of Marbella’s finest restaurants, nighttime venues, bars, and a supermarket at just a short walk. The complex is gated, with large and beautiful gardens and a large swimming pool with sun loungers and great views. Azahara Apartment offers a fresh, clean and stylish space to enjoy your holidays. It has just been restyled to a cosy Scandinavian standard. There is air conditioning throughout, a Smart TV to access Netflix, YouTube, etc, and wifi is provided. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to welcoming you.</p>
   </div>
 
   <div class="section">
@@ -504,17 +524,11 @@
     <div class="services-columns">
       <div class="service-group">
         <h4>Included</h4>
-        <div class="service-item">Air conditioning: Included</div>
-        <div class="service-item">Final Cleaning: € 175.00   / booking</div>
-        <div class="service-item">Heating: Included</div>
-        <div class="service-item">Internet Access: Included</div>
-        <div class="service-item">Covered parking: Included</div>
-        <div class="service-item">Towels:  Included</div>
+        <div class="service-item">Air conditioning: Included Final Cleaning: € 175.00   / booking Heating: Included Internet Access: Included Covered parking: Included Towels:  Included</div>
       </div>
       <div class="service-group">
         <h4>Optional</h4>
-        <div class="service-item">Baby high chair: € 25.00   / booking</div>
-        <div class="service-item">Cot/Crib: € 35.00   / booking</div>
+        <div class="service-item">Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking</div>
       </div>
     </div>
     <div class="checkin-bar">

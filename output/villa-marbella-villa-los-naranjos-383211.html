@@ -29,7 +29,7 @@
     .hero { height: 420px !important; }
     .gallery-grid img { break-inside: avoid; }
     .page-break { page-break-before: always; }
-    .map-container, .lightbox, .back-link { display: none !important; }
+    .map-container, .lightbox, .back-link, .print-btn { display: none !important; }
     @page { margin: 12mm; }
   }
   .back-link {
@@ -49,6 +49,25 @@
     transition: background 0.15s;
   }
   .back-link:hover { background: var(--white); }
+  .print-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    padding: 10px 18px;
+    border-radius: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--charcoal);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    transition: background 0.15s;
+  }
+  .print-btn:hover { background: var(--white); }
   .hero {
     position: relative;
     width: 100%;
@@ -342,6 +361,7 @@
 <body>
 
 <a href="index.html" class="back-link">&#8592; All Properties</a>
+<button class="print-btn" onclick="window.print()">Save as PDF</button>
 
 <div class="hero">
   <img src="https://www.justrentmarbella.com/rentals/fotos/2/16475180392877ee2a2ff4629a28d75d4166710568/16711181516572a28cfa7420879fb31026e7a43a99.jpg" alt="Villa Los Naranjos">
@@ -358,7 +378,7 @@
       <div class="fact-label">Bedrooms</div>
     </div>
     <div class="fact">
-      <div class="fact-value">18</div>
+      <div class="fact-value">9</div>
       <div class="fact-label">Bathrooms</div>
     </div>
     <div class="fact">
@@ -373,7 +393,7 @@
 
   <div class="section">
     <h2 class="section-title">About the Property</h2>
-    <p>Share Link copied Photos Add to favourites Favourites Share Description occupants 8 3 Double beds 2 Single beds 5 4 Bedrooms 4 4 Bathrooms with bathtub 4 Bathrooms with shower 1 Toilet 9 300 m² 300 m² Wi-Fi Wi-Fi</p>
+    <p>Villa Los Naranjos is a large and spacious traditional-styled villa with a beautiful pool and garden and impressive open views over the Los Naranjos Golf Course. This charming villa offers 4 double ensuite bedrooms and various entertainment and dining areas, providing a comfortable and impressive space to enjoy your holidays in one of the best locations in Marbella. The entrance hall leads to the living room and dining area with access to the outside terrace. These bright and airy rooms have great views. The lounge features a fireplace for the cooler evenings, ceiling fans for the summer and a Television with UK channels. The large country-styled kitchen can be accessed from the hallway or the dining room; There is an American fridge/freezer, an ice-maker, and various other small appliances. There is a breakfast table in the kitchen and large double doors that open to the covered patio that has an outdoor lounge area and a built-in BBQ. This is a wonderful area to dine, at any time of day, with the sprawling views of the Golf Course. The Villa features fabulous outdoor entertainment areas: 2 lounge areas with comfortable seating, one dining area with a gas BBQ, a swimming pool with slide (and option to heat) and a lovely level grassed garden, all enjoying the stunning open views. On the entrance level there is a double bedroom with a full ensuite bathroom and direct access to the garden and terraces. There is also a guest bathroom off the hallway. Upstairs are three double bedrooms all ensuite with bathtubs and each with their own terrace, overlooking the Golf Course with very relaxing open views. Two bedrooms have double beds and one has twin singles. There is space to park 3 cars behind the electric gates (parked one behind the other). The Villa has central heating throughout, AC in the bedrooms and ceiling fans in the living room. There is an interior alarm and wifi. Villa Los Naranjos is in the heart of the Marbella’s Golf Valley, very close to all amenities and just a few minutes down to the beach and Puerto Banús. Also, the many restaurants, bars and nightlife of Nueva Andalucia are easily reached in a few minutes’ drive. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to welcoming you.</p>
   </div>
 
   <div class="section">
@@ -415,6 +435,10 @@
       <span class="tag">Alarm system</span>
       <span class="tag">Fireplace</span>
       <span class="tag">Secured parking</span>
+      <span class="tag">Outdoor shower</span>
+      <span class="tag">Balcony</span>
+      <span class="tag">Laptop workspace</span>
+      <span class="tag">First aid kit</span>
       <span class="tag">150 m² terrace</span>
     </div>
   </div>
@@ -539,18 +563,11 @@
     <div class="services-columns">
       <div class="service-group">
         <h4>Included</h4>
-        <div class="service-item">Air conditioning: Included</div>
-        <div class="service-item">Final Cleaning: € 600.00   / booking</div>
-        <div class="service-item">Heating: Included</div>
-        <div class="service-item">Internet Access: Included</div>
-        <div class="service-item">Open-air parking: Included</div>
-        <div class="service-item">Towels:  Included</div>
+        <div class="service-item">Air conditioning: Included Final Cleaning: € 600.00   / booking Heating: Included Internet Access: Included Open-air parking: Included Towels:  Included</div>
       </div>
       <div class="service-group">
         <h4>Optional</h4>
-        <div class="service-item">Baby high chair: € 25.00   / booking</div>
-        <div class="service-item">Cot/Crib: € 35.00   / booking</div>
-        <div class="service-item">Heated Pool: € 50.00   / night</div>
+        <div class="service-item">Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heated Pool: € 50.00   / night</div>
       </div>
     </div>
     <div class="checkin-bar">

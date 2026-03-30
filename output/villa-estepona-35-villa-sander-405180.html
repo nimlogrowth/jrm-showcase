@@ -29,7 +29,7 @@
     .hero { height: 420px !important; }
     .gallery-grid img { break-inside: avoid; }
     .page-break { page-break-before: always; }
-    .map-container, .lightbox, .back-link { display: none !important; }
+    .map-container, .lightbox, .back-link, .print-btn { display: none !important; }
     @page { margin: 12mm; }
   }
   .back-link {
@@ -49,6 +49,25 @@
     transition: background 0.15s;
   }
   .back-link:hover { background: var(--white); }
+  .print-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    padding: 10px 18px;
+    border-radius: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--charcoal);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    transition: background 0.15s;
+  }
+  .print-btn:hover { background: var(--white); }
   .hero {
     position: relative;
     width: 100%;
@@ -342,6 +361,7 @@
 <body>
 
 <a href="index.html" class="back-link">&#8592; All Properties</a>
+<button class="print-btn" onclick="window.print()">Save as PDF</button>
 
 <div class="hero">
   <img src="https://www.justrentmarbella.com/rentals/fotos/2/1665498553cabe0fac86927baa47c87f70e2e6bed1/166549855476c3f800770b3fd69d33ced41c94d86a.jpg" alt="-35% // Villa Sander">
@@ -358,7 +378,7 @@
       <div class="fact-label">Bedrooms</div>
     </div>
     <div class="fact">
-      <div class="fact-value">10</div>
+      <div class="fact-value">5</div>
       <div class="fact-label">Bathrooms</div>
     </div>
     <div class="fact">
@@ -377,7 +397,7 @@
 
   <div class="section">
     <h2 class="section-title">About the Property</h2>
-    <p>Share Link copied Photos Add to favourites Favourites Share Description Review 9.3 occupants 8 4 Double beds 4 4 Bedrooms 4 1 Bathroom with bathtub 3 Bathrooms with shower 1 Toilet 5 200 m² 200 m² Wi-Fi Wi-Fi</p>
+    <p>-35% Discount from April to September due to nearby construction. A spacious and contemporary 4 bedroomed Villa with a private garden, infinity pool, and wonderful views over the valley to the Mediterranean Sea and Gibraltar. Located in the peaceful residential area of La Gaspara on the west side of Estepona, the villa is a short distance from the town centre and its beautiful port as well as being a brief stroll away from the beach. Perfect for a quiet family getaway on the charming Costa Del Sol. Upon entry, you are greeted by the impressive living room and dining area which is beautifully lit thanks to the floor-to-ceiling sliding glass panels that gift you a stunning view and access out onto the terrace/pool area, and further out into the garden. An American-styled open-plan kitchen, equipped with all of your modern amenities as well as an electric hob on the centre piece makes the cooking experience an absolute delight. Of the 4 bedrooms, one is on the ground floor, the other 3 are upstairs. Every bedroom is bright and comfortable, ensuite and furnished tastefully to perfection. The bathrooms are all kitted with glass-paneled standing showers, whilst the Master Bedroom also boasts an additional long bathtub. Every bedroom also holds a lovely and double bed. Each of the bedrooms has floor-to-ceiling windows allowing for stunning views of the gardens and landscapes regardless of where you are in the home. The three bedrooms upstairs all have access to the upper terrace which spans the whole upper floor. The highlight of this villa is its fabulous open-plan design. The terrace and pool area have shaded inlets with multiple seating areas, as well as various sun beds which are partnered by straw-thatched umbrellas. The garden is lined by flower-laden trees allowing total peace and privacy. You will also find a gas BBQ outside to grill up your favourite meals and there is a dining area outside that seats 8, allowing you to enjoy the experience in its entirety. WiFi and air conditioning systems are located all throughout the home and the villa entrance holds enough space for 2 parked cars. The property also has some additional features such as a Boule court, and table tennis. The closest shops are Mercadona &amp; Aldi near Costa Natura Roundabout. Otherwise, other shops, entertainment, and restaurants/bars can be found within Estepona Old Town and Port. El Nido Beach Club is a wonderful day spent and only 1km away. 2 Golf Clubs are also within 3 km radius of the home, Estepona Golf Club &amp; Azata Golf Club. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to welcoming you! Don’t forget to enquire about our concierge services.</p>
   </div>
 
   <div class="section">
@@ -417,6 +437,9 @@
       <span class="tag">Secured parking</span>
       <span class="tag">Ping pong</span>
       <span class="tag">Ocean views</span>
+      <span class="tag">Dryer</span>
+      <span class="tag">Outdoor shower</span>
+      <span class="tag">Balcony</span>
       <span class="tag">70 m² terrace</span>
     </div>
   </div>
@@ -506,17 +529,11 @@
     <div class="services-columns">
       <div class="service-group">
         <h4>Included</h4>
-        <div class="service-item">Air conditioning: Included</div>
-        <div class="service-item">Final Cleaning: € 500.00   / booking</div>
-        <div class="service-item">Internet Access: Included</div>
-        <div class="service-item">Open-air parking: Included</div>
-        <div class="service-item">Towels:  Included</div>
+        <div class="service-item">Air conditioning: Included Final Cleaning: € 500.00   / booking Internet Access: Included Open-air parking: Included Towels:  Included</div>
       </div>
       <div class="service-group">
         <h4>Optional</h4>
-        <div class="service-item">Baby high chair: € 25.00   / booking</div>
-        <div class="service-item">Cot/Crib: € 35.00   / booking</div>
-        <div class="service-item">Heated Pool: € 60.00   / night</div>
+        <div class="service-item">Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heated Pool: € 60.00   / night</div>
       </div>
     </div>
     <div class="checkin-bar">

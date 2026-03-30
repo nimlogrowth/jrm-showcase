@@ -29,7 +29,7 @@
     .hero { height: 420px !important; }
     .gallery-grid img { break-inside: avoid; }
     .page-break { page-break-before: always; }
-    .map-container, .lightbox, .back-link { display: none !important; }
+    .map-container, .lightbox, .back-link, .print-btn { display: none !important; }
     @page { margin: 12mm; }
   }
   .back-link {
@@ -49,6 +49,25 @@
     transition: background 0.15s;
   }
   .back-link:hover { background: var(--white); }
+  .print-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    padding: 10px 18px;
+    border-radius: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--charcoal);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    transition: background 0.15s;
+  }
+  .print-btn:hover { background: var(--white); }
   .hero {
     position: relative;
     width: 100%;
@@ -342,6 +361,7 @@
 <body>
 
 <a href="index.html" class="back-link">&#8592; All Properties</a>
+<button class="print-btn" onclick="window.print()">Save as PDF</button>
 
 <div class="hero">
   <img src="https://www.justrentmarbella.com/rentals/fotos/3/17738391281a7232ffeb9a6555383d2e4a83d6bbc8/17738391303629fcb34d65be9d032eec4a1c3f30f1.jpg" alt="Costa Marinsa Penthouse">
@@ -358,7 +378,7 @@
       <div class="fact-label">Bedrooms</div>
     </div>
     <div class="fact">
-      <div class="fact-value">4</div>
+      <div class="fact-value">2</div>
       <div class="fact-label">Bathrooms</div>
     </div>
     <div class="fact">
@@ -373,7 +393,7 @@
 
   <div class="section">
     <h2 class="section-title">About the Property</h2>
-    <p>Share Link copied Photos Add to favourites Favourites Share Description Review 10 occupants 4 1 Double bed 2 Single beds 3 2 Bedrooms 2 2 Bathrooms with shower 2 130 m² 130 m² Wi-Fi Wi-Fi</p>
+    <p>Welcome to your luxury penthouse retreat on the Costa del Sol, where modern design meets relaxed Mediterranean living. Located in the charming area of Cancelada, just 200 metres from the beach, this stylish two-bedroom apartment is the perfect place to unwind and enjoy everything Marbella has to offer. The apartment is bright, spacious and beautifully designed, with an open-plan living area that flows effortlessly onto a private terrace. Large glass doors fill the space with natural light and create a seamless indoor-outdoor feel, allowing you to enjoy the warm climate from the comfort of your living room. Whether you’re relaxing on the sofa, enjoying a meal at the dining table, or having breakfast outside on the balcony, the atmosphere is calm, modern and inviting. Both bedrooms are thoughtfully furnished with comfortable beds and a clean, elegant style, while the two bathrooms feature modern walk-in showers and high-quality finishes. The master bedroom offers direct access to the terrace, so you can wake up and step straight into the sunshine. What truly makes this penthouse special is the private rooftop terrace. This is your own personal oasis, designed for making the most of Marbella’s incredible weather. Here you can relax in the jacuzzi while enjoying panoramic views over palm trees and the Mediterranean, soak up the sun on the loungers, or spend the evening cooking on the BBQ and dining under the open sky. It’s the perfect space for both relaxing days and unforgettable evenings. The location is ideal, set in a peaceful area while still being close to everything. The beach is just a short walk away, and you’re within easy reach of beach clubs, restaurants, and cafés. Marbella, Puerto Banús and Estepona are all just a short drive, giving you access to some of the best dining, nightlife and shopping on the Costa del Sol. This penthouse is perfect for couples, families or small groups looking for a stylish, comfortable and well-located base with a touch of luxury. Whether you’re here to relax, explore or enjoy the sunshine, this is a place where you can truly switch off and enjoy your holiday. Please note, we welcome families and couples only. We do not accept groups under 30, nor hen or stag parties. If you fall outside this category but would like to book, please send us an inquiry with more details about your group, and we can consider your request. We look forward to welcoming you!</p>
   </div>
 
   <div class="section">
@@ -404,6 +424,9 @@
       <span class="tag">Lift</span>
       <span class="tag">Secured parking</span>
       <span class="tag">Ocean views</span>
+      <span class="tag">Outdoor shower</span>
+      <span class="tag">Balcony</span>
+      <span class="tag">First aid kit</span>
       <span class="tag">100 m² terrace</span>
     </div>
   </div>
@@ -511,17 +534,11 @@
     <div class="services-columns">
       <div class="service-group">
         <h4>Included</h4>
-        <div class="service-item">Air conditioning: Included</div>
-        <div class="service-item">Final Cleaning: € 250.00   / booking</div>
-        <div class="service-item">Heating: Included</div>
-        <div class="service-item">Internet Access: Included</div>
-        <div class="service-item">Garage: Included</div>
-        <div class="service-item">Towels:  Included</div>
+        <div class="service-item">Air conditioning: Included Final Cleaning: € 250.00   / booking Heating: Included Internet Access: Included Garage: Included Towels:  Included</div>
       </div>
       <div class="service-group">
         <h4>Optional</h4>
-        <div class="service-item">Baby high chair: € 25.00   / booking</div>
-        <div class="service-item">Cot/Crib: € 35.00   / booking</div>
+        <div class="service-item">Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking</div>
       </div>
     </div>
     <div class="checkin-bar">

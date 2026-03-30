@@ -29,7 +29,7 @@
     .hero { height: 420px !important; }
     .gallery-grid img { break-inside: avoid; }
     .page-break { page-break-before: always; }
-    .map-container, .lightbox, .back-link { display: none !important; }
+    .map-container, .lightbox, .back-link, .print-btn { display: none !important; }
     @page { margin: 12mm; }
   }
   .back-link {
@@ -49,6 +49,25 @@
     transition: background 0.15s;
   }
   .back-link:hover { background: var(--white); }
+  .print-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    padding: 10px 18px;
+    border-radius: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--charcoal);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    transition: background 0.15s;
+  }
+  .print-btn:hover { background: var(--white); }
   .hero {
     position: relative;
     width: 100%;
@@ -342,6 +361,7 @@
 <body>
 
 <a href="index.html" class="back-link">&#8592; All Properties</a>
+<button class="print-btn" onclick="window.print()">Save as PDF</button>
 
 <div class="hero">
   <img src="https://www.justrentmarbella.com/rentals/fotos/2/1668511543994c70c215efb31b586873ad1ae2786e/1668511565b8301264b42f021003fc164ad94fc6ed.jpg" alt="Banus Bay Townhouse">
@@ -358,7 +378,7 @@
       <div class="fact-label">Bedrooms</div>
     </div>
     <div class="fact">
-      <div class="fact-value">8</div>
+      <div class="fact-value">4</div>
       <div class="fact-label">Bathrooms</div>
     </div>
     <div class="fact">
@@ -373,7 +393,7 @@
 
   <div class="section">
     <h2 class="section-title">About the Property</h2>
-    <p>Share Link copied Photos Add to favourites Favourites Share Description Review 10 occupants 10 4 Double beds 2 Single beds 6 5 Bedrooms 5 1 Bathroom with bathtub 3 Bathrooms with shower 4 280 m² 280 m² Wi-Fi Wi-Fi</p>
+    <p>A beautiful brand new (2022) 5-bedroom Townhouse within walking distance to Puerto Banus. Banus Bay Townhouse is a stunning contemporary Townhouse, beautifully decorated in a Boho-Chic style with soft neutral tones and furnishings. Featuring a private plunge pool and a lovely roof terrace with a jacuzzi. Upon entering, the open plan kitchen and dining area leads to the living room and onto the covered terrace and garden and pool. The kitchen is fully equipped and features top-of-the-range appliances and a breakfast bar. There is a dining table for 8. The cosy living area has a large and comfortable sofa and a large Smart TV. The terrace has a covered dining and lounge area and a BBQ, the garden features a couple of sunbeds and the beautiful and unique private infinity pool. The property is east-facing. On the upper level, there are 3 double bedrooms. The Master Bedroom enjoys a walk-in closet, a large ensuite bathroom with a bathtub, and a private terrace. There are 2 further double bedrooms that share an ensuite bathroom with a shower. On the lower level, there are 2 further bedrooms that both have windows providing natural light; one is a double and one has twin beds. These share a bathroom with a walk-in rain shower. There is a laundry room on this level, with a washer, dryer, and iron. A highlight of this lovely Townhouse is the roof terrace. Here you can enjoy alfresco meals at the dining table for 10, chill out on the lounge furniture, enjoy the sun on one of the sunbeds, or relax in the jacuzzi. Further features include hi-speed wifi, Airzone aircon throughout the property. There is on-street parking. Situated in one of Marbella’s best locations at just a stone’s throw from the beach and walking distance to Puerto Banus, this modern Townhouse is the perfect getaway for those that want modern, comfortable living, yet be close to all and not fully reliant on a car. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to welcoming you!</p>
   </div>
 
   <div class="section">
@@ -413,6 +433,10 @@
       <span class="tag">BBQ</span>
       <span class="tag">Fenced garden</span>
       <span class="tag">Alarm system</span>
+      <span class="tag">Dryer</span>
+      <span class="tag">Outdoor shower</span>
+      <span class="tag">Balcony</span>
+      <span class="tag">Laptop workspace</span>
       <span class="tag">100 m² terrace</span>
     </div>
   </div>
@@ -548,16 +572,11 @@
     <div class="services-columns">
       <div class="service-group">
         <h4>Included</h4>
-        <div class="service-item">Air conditioning: Included</div>
-        <div class="service-item">Final Cleaning: € 450.00   / booking</div>
-        <div class="service-item">Heating: Included</div>
-        <div class="service-item">Internet Access: Included</div>
-        <div class="service-item">Towels:  Included</div>
+        <div class="service-item">Air conditioning: Included Final Cleaning: € 450.00   / booking Heating: Included Internet Access: Included Towels:  Included</div>
       </div>
       <div class="service-group">
         <h4>Optional</h4>
-        <div class="service-item">Baby high chair: € 25.00   / booking</div>
-        <div class="service-item">Cot/Crib: € 35.00   / booking</div>
+        <div class="service-item">Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking</div>
       </div>
     </div>
     <div class="checkin-bar">

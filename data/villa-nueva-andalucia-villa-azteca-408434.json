@@ -57,10 +57,10 @@
   ],
   "guests": "8",
   "bedrooms": "4",
-  "bathrooms": "6",
+  "bathrooms": "3",
   "area": "830 m²",
   "plot": "",
-  "description": "Share Link copied Photos Add to favourites Favourites Share Description occupants 8 4 Double beds 1 Single bed 5 4 Bedrooms 4 1 Bathroom with bathtub 2 Bathrooms with shower 3 830 m² 830 m² Wi-Fi Wi-Fi",
+  "description": "An exquisite and unique 7-bed villa in the highly sought-after La Cerquilla area of Marbella boasting gorgeous views and superb features! Villa Azteca is a sumptuous home, extremely spacious, and filled to the brim with opulent fixtures and furnishings. With huge full-sized glass windows, high ceilings, and very distinctive architecture, this villa was built to “look great from whichever angle you look at the house”. There are 7 bedrooms with 6 bathrooms split between the Main House (4) and a Guest House (3). Adjacent to the Main House there is a staff quarters, where the housekeeper lives. She performs a daily clean in the house and can help with setting the table and such. This setup makes this villa ideal for larger families that would like their private space, but with ample entertainment areas to enjoy together. Upon entering, there is the vast dining/lounge space with a dining table for 10, a lounge area with TV and a piano, leading onto a second lounge with bar. The double-height glass picture-windows open up to the covered terrace, and onto the pool and gardens. The fully equipped kitchen is modern, spacious, and has a breakfast table. The Master Suite has direct access to the terrace, where there is an exercise bike, and enjoys pool and garden views. There is a lounging area, a desk, TV and a large marble ensuite bathroom with a sunken bath and separate shower. The 2nd Bedroom Suite has a double bed, sofa and TV, and a marble ensuite bathroom with a sunken bath and separate shower. The 3rd and 4th Bedroom Suites are a bit smaller, but also enjoy a sofa and large ensuite bathroom. The terrace features various seating areas and overlooks the unique star-shaped pool (which has the option to heat at an additional cost). The expansive manicured garden has various palm trees, statues and lovely lighting. Just beyond the swimming pool there is a jacuzzi and a further patio with 4 sunbeds, perfect for soaking up the great views over Marbella and the Mediterranean Sea. Beyond the pool is the staired entrance to the separate apartment. Here there is a lounge area, a TV lounge with a terrace that enjoys views to the Sea. There is a full kitchen with a breakfast bar at the window overlooking the valley. There is a double bedroom with a sunken bath that also enjoys the views. The ensuite bathroom also has a separate shower. The second and third double bedrooms share a bathroom. The villa is gated and has an all-round alarm system. There is a private driveway and a garage for two cars. There is hot/cold air conditioning throughout, and wifi. Villa Azteca is located in the La Cerquilla area, the most luxurious district of Nueva Andalucia; A quiet residential area, but still very close to all of Marbella’s prime features such as Puerto Banús, Marbella Old Town and Nueva Andalucía’s best restaurants, bars, shops and nightclubs. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to welcoming you! Don’t forget to enquire about our concierge service!",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -89,6 +89,10 @@
     "Fenced garden",
     "Alarm system",
     "Secured parking",
+    "Mountain views",
+    "Dryer",
+    "Outdoor shower",
+    "Laptop workspace",
     "100 m² terrace"
   ],
   "distances": [
@@ -134,17 +138,10 @@
     }
   ],
   "services_included": [
-    "Air conditioning: Included",
-    "Final Cleaning: € 500.00   / booking",
-    "Heating: Included",
-    "Internet Access: Included",
-    "garage and car park: Included",
-    "Towels:  Included"
+    "Air conditioning: Included Final Cleaning: € 500.00   / booking Heating: Included Internet Access: Included garage and car park: Included Towels:  Included"
   ],
   "services_optional": [
-    "Baby high chair: € 25.00   / booking",
-    "Cot/Crib: € 35.00   / booking",
-    "Extra beds: € 100.00   / booking"
+    "Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Extra beds: € 100.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

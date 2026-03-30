@@ -32,10 +32,10 @@
   ],
   "guests": "4",
   "bedrooms": "2",
-  "bathrooms": "4",
+  "bathrooms": "2",
   "area": "65 m²",
   "plot": "243 m²",
-  "description": "Share Link copied Photos Add to favourites Favourites Share Description Review 10 occupants 4 1 King size bed 1 Queen size bed 2 2 Bedrooms 2 1 Bathroom with shower 1 Toilet 2 65 m² 65 m² Wi-Fi Wi-Fi",
+  "description": "Dreamy Beachfront Townhouse: Your Perfect Seaside Escape Welcome to our beautiful beachfront townhouse! Imagine a place where the beach is your backyard, offering you direct access to the sand and sea. This townhouse has been fully renovated to give you a fresh, modern feel while keeping that cozy vibe we all love. Steps Away from the Beach: Just open the door, and you’re on the beach! Enjoy the amazing views of the sea anytime you want. Whether it's watching the waves in the morning or catching a stunning sunset, the beach is always there for you. Five Pools to Choose From: Our community is pretty special, with five swimming pools waiting for you. Whether you want to swim laps or just chill in the water, there’s always a perfect spot for you to relax. Everything Within Reach: Need to grab something quick? We’re a short distance to a supermarket and other handy amenities. It’s all about making your stay as easy and enjoyable as possible. Outdoor Fun Right at Home: Our front patio is all set up for those who love being outdoors. With a BBQ area and a dining table, it’s the perfect place to enjoy meals with friends and family under the open sky. Chill Vibes Everywhere: This townhouse comes with multiple terraces that have a super relaxed vibe. Whether you’re catching some sun upstairs or lounging on the beanbags downstairs, you can always find a cozy spot to relax and enjoy the fresh sea air. Comfort in Style: With two bedrooms and two bathrooms, this place has enough room for everyone to stay comfortably. We’ve decked it out with stylish decor and top-notch finishes, making sure you feel right at home. This beachfront townhouse is more than just a place to stay; it’s your own slice of paradise by the sea. Book your stay and start your day with the beach at your doorstep. Welcome to your ideal vacation spot.",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -52,6 +52,7 @@
     "BBQ",
     "Fenced garden",
     "Ocean views",
+    "Laptop workspace",
     "20 m² terrace"
   ],
   "distances": [
@@ -89,16 +90,10 @@
     }
   ],
   "services_included": [
-    "Final Cleaning: € 195.00   / booking",
-    "Internet Access: Included",
-    "Open-air parking: Included",
-    "Towels:  Included"
+    "Final Cleaning: € 195.00   / booking Internet Access: Included Open-air parking: Included Towels:  Included"
   ],
   "services_optional": [
-    "Air conditioning: Included",
-    "Baby high chair: € 25.00   / booking",
-    "Cot/Crib: € 35.00   / booking",
-    "Heating: Included"
+    "Air conditioning: Included Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heating: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

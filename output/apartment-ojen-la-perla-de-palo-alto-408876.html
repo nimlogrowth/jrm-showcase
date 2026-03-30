@@ -29,7 +29,7 @@
     .hero { height: 420px !important; }
     .gallery-grid img { break-inside: avoid; }
     .page-break { page-break-before: always; }
-    .map-container, .lightbox, .back-link { display: none !important; }
+    .map-container, .lightbox, .back-link, .print-btn { display: none !important; }
     @page { margin: 12mm; }
   }
   .back-link {
@@ -49,6 +49,25 @@
     transition: background 0.15s;
   }
   .back-link:hover { background: var(--white); }
+  .print-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    padding: 10px 18px;
+    border-radius: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--charcoal);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    transition: background 0.15s;
+  }
+  .print-btn:hover { background: var(--white); }
   .hero {
     position: relative;
     width: 100%;
@@ -342,6 +361,7 @@
 <body>
 
 <a href="index.html" class="back-link">&#8592; All Properties</a>
+<button class="print-btn" onclick="window.print()">Save as PDF</button>
 
 <div class="hero">
   <img src="https://www.justrentmarbella.com/rentals/fotos/2/16686926448827e5fe881b56c0e26f2646d9ab4472/16702460148f29c3d8c59599ed07e792364408dfe0.jpg" alt="La Perla de Palo Alto">
@@ -358,7 +378,7 @@
       <div class="fact-label">Bedrooms</div>
     </div>
     <div class="fact">
-      <div class="fact-value">4</div>
+      <div class="fact-value">2</div>
       <div class="fact-label">Bathrooms</div>
     </div>
     <div class="fact">
@@ -373,7 +393,7 @@
 
   <div class="section">
     <h2 class="section-title">About the Property</h2>
-    <p>Share Link copied Photos Add to favourites Favourites Share Description occupants 6 2 Double beds 2 Single beds 4 3 Bedrooms 3 2 Bathrooms with shower 2 225 m² 225 m² Wi-Fi Wi-Fi</p>
+    <p>Stunning 3-bed ground floor apartment with amazing sea and mountain views. La Perla de Palo Alto is an immaculate 3-bedroom apartment with generous outdoor and indoor living spaces with incredible finishes by renowned interior designers Gunni &amp; Trentino, and panoramic views of the Andalusian hills and the Mediterranean Sea. Upon entering, you find the open-plan living area with a large tv and L-shaped couch, the dining area, and the kitchen. The kitchen is fully equipped with all the mod cons and features and an American fridge/freezer (with ice and filtered water). There is a laundry room with a washing machine and dryer. The Master Bedroom has a super king-sized bed, an ensuite bathroom with a shower, and a smart TV. There is access to the terrace with a jacuzzi. The second bedroom has a 160cm bed. The third bedroom is typically the Kids’ Room and has 2 single beds. These 2 bedrooms share a bathroom with a shower. The beautiful east-facing terrace overlooks the communal pool and features a jacuzzi, an outdoor lounge, a dining table for 8, and an electric grill/BBQ. There are 2 sunbeds and an outdoor shower. The views from here are outstanding… all the way down the valley to the Mediterranean Sea. The apartment has underfloor heating throughout, AC with individual room controls, and is equipped with advanced home automation and security systems. Guests have access to three outdoor swimming pools (1 outdoor, 1 kids’, and 1 heated indoor) and all of the complex’s amazing amenities. There is a superior gym, hammam, and jacuzzi. The complex enjoys 24 hr security. There is ample parking on the road by the entrance to the apartment plus an allocated space in the garage for 1 car. Casa Palo Alto is located in the new (2022) complex Palo Alto, just a few minutes from Marbella, in Ojen, and 30 minutes from Malaga airport. Palo Alto is an exclusive hilltop community enjoying uninterrupted views over the sparkling Mediterranean Sea. This exclusive luxury development is located in a rural setting just minutes away from Marbella. Thanks to its elevated position it benefits from the breathtaking panoramic views over the Mediterranean Sea and the mountains of Ojén. It is a gated community. Palo Alto is a real retreat place surrounded by the mountains of the Sierra de las Nieves natural park. It is perfect for outdoor activities such as hiking or mountain biking with breathtaking views over pure Andalusian nature. La Cañada shopping centre is less than 5 minutes away by car, where you have a large supermarket and a variety of restaurants. A further 5-10 drive will take you to Marbella or Puerto Banús and the beaches. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to welcoming you.</p>
   </div>
 
   <div class="section">
@@ -404,6 +424,7 @@
       <span class="tag">Underfloor heating</span>
       <span class="tag">Gym / fitness</span>
       <span class="tag">Tennis court</span>
+      <span class="tag">Outdoor shower</span>
       <span class="tag">20 m² terrace</span>
     </div>
   </div>
@@ -465,7 +486,7 @@
     <div class="distances-grid">
       <div class="distance-row">
         <div class="distance-place"><span class="distance-dot"></span>Airport</div>
-        <div class="distance-value">56 m</div>
+        <div class="distance-value">56 km</div>
       </div>
       <div class="distance-row">
         <div class="distance-place"><span class="distance-dot"></span>Restaurant</div>
@@ -511,16 +532,11 @@
     <div class="services-columns">
       <div class="service-group">
         <h4>Included</h4>
-        <div class="service-item">Final Cleaning: € 245.00   / booking</div>
-        <div class="service-item">Internet Access: Included</div>
-        <div class="service-item">Garage: Included</div>
-        <div class="service-item">Towels:  Included</div>
+        <div class="service-item">Final Cleaning: € 245.00   / booking Internet Access: Included Garage: Included Towels:  Included</div>
       </div>
       <div class="service-group">
         <h4>Optional</h4>
-        <div class="service-item">Baby high chair: € 25.00   / booking</div>
-        <div class="service-item">Cot/Crib: € 35.00   / booking</div>
-        <div class="service-item">Heated Pool: € 50.00   / night</div>
+        <div class="service-item">Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heated Pool: € 50.00   / night</div>
       </div>
     </div>
     <div class="checkin-bar">

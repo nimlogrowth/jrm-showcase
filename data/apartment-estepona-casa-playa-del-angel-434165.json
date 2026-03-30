@@ -35,10 +35,10 @@
   ],
   "guests": "4",
   "bedrooms": "2",
-  "bathrooms": "4",
+  "bathrooms": "2",
   "area": "96 m²",
   "plot": "",
-  "description": "Share Link copied Photos Add to favourites Favourites Share Description Review 10 occupants 4 1 Double bed 2 Single beds 3 2 Bedrooms 2 1 Bathroom with bathtub 1 Bathroom with shower 2 96 m² 96 m² Wi-Fi Wi-Fi",
+  "description": "A lovingly designed 2-bed, 2-bath apartment with wonderful views of the Mediterranean Sea, sat beachside on the New Golden Mile! This bright and cozy apartment features pretty artwork and stylish yet minimalist furnishings, creating the perfect stay for your holidays. The open-plan living/dining area leads to the terrace with an outdoor lounge and dining area where you can enjoy the serene views over the communal gardens and the sea. There is an indoor dining table that seats 6 and in the living area, a Smart TV. The fully equipped corner kitchen sits snugly by the entrance. The Master Bedroom has a king-size bed, direct access to the terrace, and an ensuite bathroom with a bathtub/shower. The second bedroom has twin beds. There is a second bathroom with a shower and lovely wooden fittings. There is a dedicated parking spot in the secure garage of the urbanization and the home has aircon and Wi-Fi throughout. There is also a communal gym and spa area (open all year round). The complex is superb, with some great features including plenty of communal space, fountains, gardens and benches, a children´s playground, a swimming pool, and a kiddies pool. Please note the swimming pools are open from late May to the end of September. The complex is perfectly located and all amenities including restaurants, bars, cafes, and supermarkets are within walking distance. Easy access to the A7 highway in directions towards Marbella/Puerto Banus as well as Estepona being a short 5 minutes’ drive away. Casa Playa Del Angel is the perfect retreat for holidays with your family. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to welcoming you.",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -58,6 +58,7 @@
     "Central heating",
     "Gym / fitness",
     "Ocean views",
+    "Balcony",
     "5 m² terrace"
   ],
   "distances": [
@@ -103,17 +104,10 @@
     }
   ],
   "services_included": [
-    "Air conditioning: Included",
-    "Final Cleaning: € 175.00   / booking",
-    "Heating: Included",
-    "Internet Access: Included",
-    "garage and car park: Included",
-    "Towels:  Included"
+    "Air conditioning: Included Final Cleaning: € 175.00   / booking Heating: Included Internet Access: Included garage and car park: Included Towels:  Included"
   ],
   "services_optional": [
-    "Baby high chair: € 25.00   / booking",
-    "Cot/Crib: € 35.00   / booking",
-    "Pet: € 150.00   / booking"
+    "Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Pet: € 150.00   / booking Pet Small pets allowed (under 10kg)"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

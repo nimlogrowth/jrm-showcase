@@ -29,7 +29,7 @@
     .hero { height: 420px !important; }
     .gallery-grid img { break-inside: avoid; }
     .page-break { page-break-before: always; }
-    .map-container, .lightbox, .back-link { display: none !important; }
+    .map-container, .lightbox, .back-link, .print-btn { display: none !important; }
     @page { margin: 12mm; }
   }
   .back-link {
@@ -49,6 +49,25 @@
     transition: background 0.15s;
   }
   .back-link:hover { background: var(--white); }
+  .print-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    padding: 10px 18px;
+    border-radius: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--charcoal);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    transition: background 0.15s;
+  }
+  .print-btn:hover { background: var(--white); }
   .hero {
     position: relative;
     width: 100%;
@@ -342,6 +361,7 @@
 <body>
 
 <a href="index.html" class="back-link">&#8592; All Properties</a>
+<button class="print-btn" onclick="window.print()">Save as PDF</button>
 
 <div class="hero">
   <img src="https://www.justrentmarbella.com/rentals/fotos/2/171933524208dd9beb1b0410b5ac73b7dee7e8f398/1719335247598de11cbf26e63f6f28662d21ae829a.jpg" alt="Casa Primavera">
@@ -358,7 +378,7 @@
       <div class="fact-label">Bedrooms</div>
     </div>
     <div class="fact">
-      <div class="fact-value">2</div>
+      <div class="fact-value">1</div>
       <div class="fact-label">Bathrooms</div>
     </div>
     <div class="fact">
@@ -373,7 +393,7 @@
 
   <div class="section">
     <h2 class="section-title">About the Property</h2>
-    <p>Share Link copied Photos Add to favourites Favourites Share Description occupants 4 1 Double bed 1 1 Bedroom 1 1 Bathroom with shower 1 73 m² 73 m² Wi-Fi Wi-Fi</p>
+    <p>Welcome to Casa Primavera, a charming one-bedroom apartment with a double sofa-bed in the heart of Nueva Andalucia’s Golf Valley in Marbella. This bright and airy home is flooded with natural light, creating a warm and inviting atmosphere perfect for golfers and couples seeking a romantic getaway. The styling of Casa Primavera is fresh with new furniture that complements its simple, minimalist vibe. The decor exudes calm, featuring natural tones that enhance the tranquil ambiance. The living space is designed for comfort and relaxation, offering modern furnishings and elegant décor. The well-equipped kitchen is ideal for culinary enthusiasts, perfect for exploring new recipes. The bedroom promises a restful night’s sleep with its comfortable setup and ensuite bathroom. Dont forget about the cozy sofa bed, perfect for those lazy late nights. Casa Primavera offers stunning views of the complex&#x27;s beautiful gardens and pool, with distant glimpses of the Mediterranean Sea adding to its charm. The terrace is a serene spot with outdoor seating, perfect for enjoying sunrises with a morning coffee or watching the sunset with a loved one. The location is ideal, situated close to the vibrant Aloha Strip, renowned for its exceptional bars and restaurants. For sports enthusiasts, the area is dotted with padel and tennis clubs, and several prestigious golf courses are nearby. The lively Puerto Banús is just a short drive away, offering upscale shopping, dining, and nightlife, while Marbella city centre is only 10 minutes away. Guests will appreciate the convenience of gated parking within the tranquil complex, ensuring a peaceful and secure stay. Experience the best of Marbella at Casa Primavera, where comfort, convenience, and stunning surroundings come together to create the perfect escape. We look forward to welcoming you!</p>
   </div>
 
   <div class="section">
@@ -397,6 +417,7 @@
       <span class="tag">Central heating</span>
       <span class="tag">Secured parking</span>
       <span class="tag">Ocean views</span>
+      <span class="tag">Laptop workspace</span>
     </div>
   </div>
 
@@ -481,17 +502,11 @@
     <div class="services-columns">
       <div class="service-group">
         <h4>Included</h4>
-        <div class="service-item">Air conditioning: Included</div>
-        <div class="service-item">Final Cleaning: € 150.00   / booking</div>
-        <div class="service-item">Heating: Included</div>
-        <div class="service-item">Internet Access: Included</div>
-        <div class="service-item">Covered parking: Included</div>
-        <div class="service-item">Towels:  Included</div>
+        <div class="service-item">Air conditioning: Included Final Cleaning: € 150.00   / booking Heating: Included Internet Access: Included Covered parking: Included Towels:  Included</div>
       </div>
       <div class="service-group">
         <h4>Optional</h4>
-        <div class="service-item">Baby high chair: € 25.00   / booking</div>
-        <div class="service-item">Cot/Crib: € 35.00   / booking</div>
+        <div class="service-item">Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking</div>
       </div>
     </div>
     <div class="checkin-bar">

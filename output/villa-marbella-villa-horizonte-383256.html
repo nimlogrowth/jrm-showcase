@@ -29,7 +29,7 @@
     .hero { height: 420px !important; }
     .gallery-grid img { break-inside: avoid; }
     .page-break { page-break-before: always; }
-    .map-container, .lightbox, .back-link { display: none !important; }
+    .map-container, .lightbox, .back-link, .print-btn { display: none !important; }
     @page { margin: 12mm; }
   }
   .back-link {
@@ -49,6 +49,25 @@
     transition: background 0.15s;
   }
   .back-link:hover { background: var(--white); }
+  .print-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    padding: 10px 18px;
+    border-radius: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--charcoal);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    transition: background 0.15s;
+  }
+  .print-btn:hover { background: var(--white); }
   .hero {
     position: relative;
     width: 100%;
@@ -342,6 +361,7 @@
 <body>
 
 <a href="index.html" class="back-link">&#8592; All Properties</a>
+<button class="print-btn" onclick="window.print()">Save as PDF</button>
 
 <div class="hero">
   <img src="https://www.justrentmarbella.com/rentals/fotos/2/164751855768ba0fe58f85da15232abb32f9f6919d/16711038254c2f7d0bd99b790d184b1797c804d760.jpg" alt="Villa Horizonte">
@@ -358,7 +378,7 @@
       <div class="fact-label">Bedrooms</div>
     </div>
     <div class="fact">
-      <div class="fact-value">6</div>
+      <div class="fact-value">3</div>
       <div class="fact-label">Bathrooms</div>
     </div>
     <div class="fact">
@@ -373,7 +393,7 @@
 
   <div class="section">
     <h2 class="section-title">About the Property</h2>
-    <p>Share Link copied Photos Add to favourites Favourites Share Description occupants 8 3 Double beds 2 Single beds 5 4 Bedrooms 4 3 Bathrooms with shower 3 220 m² 220 m² Wi-Fi Wi-Fi</p>
+    <p>Spectacular Contemporary 4-bed Villa with Amazing Sea and Mountain Views! Modern and stylish interiors, designer furniture, spacious bedrooms and fabulous living and entertainment areas, this Villa is the ideal choice for your holidays in Marbella! The entrance level welcomes you with the large open-plan living/kitchen area with full-size picture windows opening out to the terrace, level garden, and beautiful, saltwater infinity pool. The sliding windows can be folded on two sides, allowing the living area to integrate seamlessly with the generous outdoor terrace, creating one large open plan living space: PERFECT for the long summer days! The living area has a large L-shaped sofa, there is an indoor dining table and a fully equipped kitchen. The terrace features stunning designer furniture with a chill-out lounge, a dining area next to the BBQ, and an array of sunbeds surrounding the pool. There is one bedroom downstairs and three upstairs. The double ensuite bedroom downstairs has garden views and access to the garden and pool area. Upstairs, the Master (ensuite), twin-room and double bedroom all have access to the upstairs terrace which enjoys breath-taking sea and mountain views. Here you can savour the sunsets relaxing on the comfy lounge furniture. Further features include underfloor heating throughout, an interior and exterior alarm system, Hot/Cold Aircon, very good high speed internet (with extenders), gated parking for 2 cars, and optional pool heating (at an additional cost). This stunning Villa has been set up to fulfil the highest demands, for guests who seek to enjoy top-end style, comfort and convenience combined, and is set within one of the finest areas of Marbella, Rio Real: quiet, yet very close to Marbella downtown, the famous beaches and everything Marbella is known for. A 5-minute car journey will get you to the La Cañada shopping centre and the historical Old Town of Marbella. The Rio Real Golf Club and the beach clubs like Trocadero Arena and Opium Beach club are within walking distance. La Cabane at the Hotel Monteros is a 30-minute walk along the beach. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to welcoming you! Don’t forget to enquire about our concierge services!</p>
   </div>
 
   <div class="section">
@@ -413,6 +433,9 @@
       <span class="tag">Secured parking</span>
       <span class="tag">Ping pong</span>
       <span class="tag">Ocean views</span>
+      <span class="tag">Dryer</span>
+      <span class="tag">Balcony</span>
+      <span class="tag">Laptop workspace</span>
     </div>
   </div>
 
@@ -508,7 +531,7 @@
     <div class="distances-grid">
       <div class="distance-row">
         <div class="distance-place"><span class="distance-dot"></span>Airport</div>
-        <div class="distance-value">52 m</div>
+        <div class="distance-value">52 km</div>
       </div>
       <div class="distance-row">
         <div class="distance-place"><span class="distance-dot"></span>Restaurant</div>
@@ -554,19 +577,12 @@
     <div class="services-columns">
       <div class="service-group">
         <h4>Included</h4>
-        <div class="service-item">Air conditioning: Included</div>
-        <div class="service-item">Final Cleaning: € 450.00   / booking</div>
-        <div class="service-item">Heating: Included</div>
-        <div class="service-item">Internet Access: Included</div>
-        <div class="service-item">Open-air parking: Included</div>
-        <div class="service-item">Towels:  Included</div>
+        <div class="service-item">Air conditioning: Included Final Cleaning: € 450.00   / booking Heating: Included Internet Access: Included Open-air parking: Included Towels:  Included</div>
       </div>
       <div class="service-group">
         <h4>Optional</h4>
-        <div class="service-item">Baby high chair: € 25.00   / booking</div>
-        <div class="service-item">Cot/Crib: € 35.00   / booking</div>
-        <div class="service-item">Heated Pool: Depending on season</div>
-        <div class="service-item">Available:</div>
+        <div class="service-item">Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heated Pool: Depending on season Heated Pool Available: From 1/4</div>
+        <div class="service-item">To 1/11</div>
         <div class="service-item">Price: € 58.00   / night</div>
       </div>
     </div>

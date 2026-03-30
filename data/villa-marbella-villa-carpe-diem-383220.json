@@ -60,10 +60,10 @@
   ],
   "guests": "10",
   "bedrooms": "5",
-  "bathrooms": "10",
+  "bathrooms": "5",
   "area": "322 m²",
   "plot": "",
-  "description": "Share Link copied Photos Add to favourites Favourites Share Description occupants 10 5 Bedrooms 5 5 Bathrooms with shower 5 322 m² 322 m² Wi-Fi Wi-Fi",
+  "description": "Welcome to Villa Carpe Diem! Having long been a beloved choice among our guests, this home has undergone a remarkable transformation coming into 2024, ensuring an even more delightful stay for friends and families alike. Sat proudly in the ever desirable neighborhood of El Rosario, this fully renovated villa stands as a testament to refined coastal living. Situated just moments away from one of Marbella's premier beaches, this villa boasts an unbeatable location, being only third row from the shoreline. With the gentle lull of the sea just a short stroll away, guests are treated to the ultimate beachside retreat. Step inside to discover a new haven of comfort and style. The villa features five bedrooms, each thoughtfully appointed with its own ensuite bathroom for added privacy and convenience. The pièce de résistance is undeniably the master bedroom, perched atop the home on the upper floor, offering breathtaking views of the azure sea. Its private balcony, adorned with sun loungers and an elegant coffee lounge invites moments of relaxation amidst the panoramic vistas. The heart of the home lies on the lower level, where the living, kitchen and dining area seamlessly flow onto a spacious terrace through floor-to-ceiling glass doors. Here, guests can indulge in the pleasures of outdoor living, whether it's enjoying a leisurely barbecue, taking a dip, evenings in the bubbly jacuzzi or simply soaking in the Mediterranean ambiance. Descend further to discover two additional bedrooms and a cozy TV room providing ample space for relaxation and entertainment. Outside, the pool has been tastefully extended and can be heated upon request at an additional fee for year-round enjoyment. The rejuvenating jacuzzi, outdoor shower, and inviting dining area complete the outdoor oasis, promising moments of bliss under the loveable Spanish sun. Conveniently located, this villa offers easy access to a host of amenities, including shops, restaurants, and recreational facilities. With the highway just a stone's throw away, guests can also embark on scenic coastal drives, exploring the wonders of the surrounding area at their leisure. In essence, this impeccably renovated villa offers the perfect blend of luxury, comfort, and convenience, inviting guests to experience the Marbella lifestyle they’ve been searching for in unparalleled style. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to welcoming you!",
   "bedrooms_detail": [],
   "features": [
     "Sea views",
@@ -73,7 +73,10 @@
     "Air-conditioned",
     "Central heating",
     "BBQ",
-    "Fenced garden"
+    "Fenced garden",
+    "Dryer",
+    "Balcony",
+    "Laptop workspace"
   ],
   "distances": [
     {
@@ -118,18 +121,10 @@
     }
   ],
   "services_included": [
-    "Air conditioning: Included",
-    "Bed linen: Included",
-    "Final Cleaning: € 575.00   / booking",
-    "Heating: Included",
-    "Internet Access: Included",
-    "Open-air parking: Included",
-    "Towels:  Included"
+    "Air conditioning: Included Bed linen: Included Final Cleaning: € 575.00   / booking Heating: Included Internet Access: Included Open-air parking: Included Towels:  Included"
   ],
   "services_optional": [
-    "Baby high chair: € 25.00   / booking",
-    "Cot/Crib: € 35.00   / booking",
-    "Heated Pool: € 72.00   / night"
+    "Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heated Pool: € 72.00   / night"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

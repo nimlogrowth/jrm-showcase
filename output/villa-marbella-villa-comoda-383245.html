@@ -29,7 +29,7 @@
     .hero { height: 420px !important; }
     .gallery-grid img { break-inside: avoid; }
     .page-break { page-break-before: always; }
-    .map-container, .lightbox, .back-link { display: none !important; }
+    .map-container, .lightbox, .back-link, .print-btn { display: none !important; }
     @page { margin: 12mm; }
   }
   .back-link {
@@ -49,6 +49,25 @@
     transition: background 0.15s;
   }
   .back-link:hover { background: var(--white); }
+  .print-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    padding: 10px 18px;
+    border-radius: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--charcoal);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    transition: background 0.15s;
+  }
+  .print-btn:hover { background: var(--white); }
   .hero {
     position: relative;
     width: 100%;
@@ -342,6 +361,7 @@
 <body>
 
 <a href="index.html" class="back-link">&#8592; All Properties</a>
+<button class="print-btn" onclick="window.print()">Save as PDF</button>
 
 <div class="hero">
   <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518384de6048ce278b53588fd049fd489b8fab/1670930759b0e27338bcf74c0717a92da89ff0b899.jpg" alt="Villa Comoda">
@@ -358,7 +378,7 @@
       <div class="fact-label">Bedrooms</div>
     </div>
     <div class="fact">
-      <div class="fact-value">8</div>
+      <div class="fact-value">4</div>
       <div class="fact-label">Bathrooms</div>
     </div>
     <div class="fact">
@@ -373,7 +393,7 @@
 
   <div class="section">
     <h2 class="section-title">About the Property</h2>
-    <p>Share Link copied Photos Add to favourites Favourites Share Description occupants 9 4 Double beds 4 4 Bedrooms 4 1 Bathroom with bathtub 2 Bathrooms with shower 1 Toilet 4 210 m² 210 m² Wi-Fi Wi-Fi</p>
+    <p>Spectacular new 4 bed Villa on a large corner plot with Amazing Sea Views! Modern and stylish interiors, designer furniture, spacious bedrooms and fabulous living and entertainment areas, this Villa is the ideal choice for your holidays in Marbella! The entrance level welcomes you with the large open-plan living/kitchen area with full-size picture windows opening out to the terrace and beautiful, large (12,5 x 4m) saltwater infinity pool and garden. The sliding windows can be folded on two sides, allowing the living area to integrate seamlessly with the generous outdoor terrace, creating one large open plan living space: PERFECT for the long summer days! The living area has a large L-shaped sofa, there is an indoor dining table and a fully equipped kitchen. The terrace features stunning designer furniture with a chill-out lounge, a gorgeous wood-topped dining table, an array of sunbeds and a BBQ. There is one bedroom downstairs and three upstairs; the bedroom downstairs and the master bedroom upstairs are en-suite, spacious and have access to terraces. The other two bedrooms, of which one has a very cool bunk bed with a double bed at the bottom, share one bathroom. All together the villa comfortably accommodates up to 9 people. Further features include underfloor heating throughout, an alarm system, aircon, wifi, gated parking for 2 cars, and optional pool heating (at an additional cost). This stunning luxury Villa has been set up to fulfill the highest demands, for guests who seek to enjoy top-end style, comfort and convenience combined, and is set within one of the finest areas of Marbella, Rio Real: quiet, yet very close to Marbella downtown, the famous beaches and everything Marbella is known for. A 5-minute car journey will get you to the La Cañada shopping centre and the historical Old Town of Marbella. The Rio Real Golf Club and the beach clubs like Trocadero Arena and Opium Beach club are within walking distance. La Cabane is a 30-minute walk along the beach. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to welcoming you.</p>
   </div>
 
   <div class="section">
@@ -416,6 +436,11 @@
       <span class="tag">Saltwater pool</span>
       <span class="tag">Infinity pool</span>
       <span class="tag">Ocean views</span>
+      <span class="tag">Dryer</span>
+      <span class="tag">Outdoor shower</span>
+      <span class="tag">Balcony</span>
+      <span class="tag">Pool towels</span>
+      <span class="tag">First aid kit</span>
       <span class="tag">150 m² terrace</span>
     </div>
   </div>
@@ -536,18 +561,11 @@
     <div class="services-columns">
       <div class="service-group">
         <h4>Included</h4>
-        <div class="service-item">Air conditioning: Included</div>
-        <div class="service-item">Final Cleaning: € 450.00   / booking</div>
-        <div class="service-item">Heating: Included</div>
-        <div class="service-item">Internet Access: Included</div>
-        <div class="service-item">Open-air parking: Included</div>
-        <div class="service-item">Towels:  Included</div>
+        <div class="service-item">Air conditioning: Included Final Cleaning: € 450.00   / booking Heating: Included Internet Access: Included Open-air parking: Included Towels:  Included</div>
       </div>
       <div class="service-group">
         <h4>Optional</h4>
-        <div class="service-item">Baby high chair: € 25.00   / booking</div>
-        <div class="service-item">Cot/Crib: € 35.00   / booking</div>
-        <div class="service-item">Heated Pool: € 65.00   / night</div>
+        <div class="service-item">Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heated Pool: € 65.00   / night</div>
       </div>
     </div>
     <div class="checkin-bar">

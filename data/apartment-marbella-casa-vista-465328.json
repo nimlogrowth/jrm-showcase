@@ -34,10 +34,10 @@
   ],
   "guests": "4",
   "bedrooms": "2",
-  "bathrooms": "4",
+  "bathrooms": "2",
   "area": "82 m²",
   "plot": "",
-  "description": "Share Link copied Photos Add to favourites Favourites Share Description occupants 4 2 Double beds 2 2 Bedrooms 2 2 Bathrooms with shower 2 82 m² 82 m² Wi-Fi Wi-Fi",
+  "description": "Welcome to Casa Vista with breathtaking views stretching from the Golf Valley to the Mediterranean Sea! An extraordinary home in the exclusive La Morelia urbanization comprises stunning vistas, contemporary furniture and fittings, not to mention the wonderful outdoor living spaces, finished with a private plunge pool looking down into the vast landscapes to give you the very best of Marbella living! The home has 2 bedrooms, one with an ensuite bathroom, a fully equipped kitchen with a centre island and a round dining table, and a spacious living area with great natural lighting. The living room and dining/kitchen spaces open to the stunning terrace and private pool area, providing a perfect blend of indoor and outdoor living. Heading into the master bedroom, you’ve got a lovely large bed, a large Smart TV on the wall to enjoy those weekend lie-ins, a walk-in closet, meaning plenty of storage space and all the time in the world to weigh up your options before heading into the neighbouring areas of Nueva Andalucia or Puerto Banus for a meal or evening out and about. There are sliding doors to the terrace. The second bedroom is equally comfortable and plush and also has terrace access, however its bathroom is separate. The apartment benefits from individually controlled AC and high-speed wifi throughout, and secure parking for one car in the underground garage. The La Morelia urbanization is gated, offers a communal swimming pool, enjoys 24-hour security and is coveted while sitting atop the Aloha hills situated on the upper side of Nueva Andalucia, a short drive from all amenities and provides a nice and quiet retreat from the hustle and bustle of Marbella town and Puerto Banus. The nearby town of Estepona which provides a fantastic afternoon out is only 30 minutes’ drive, and the Malaga airport is roughly 50 minutes away. Experience coastal living at its finest with Casa Vista, an exclusive retreat in the Aloha Hills. Book your stay with us and indulge in luxury, sophistication, and the charm of the Costa del Sol. Your dream vacation begins here. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -56,6 +56,7 @@
     "Lift",
     "Secured parking",
     "Ocean views",
+    "Laptop workspace",
     "54 m² terrace"
   ],
   "distances": [
@@ -105,16 +106,10 @@
     }
   ],
   "services_included": [
-    "Air conditioning: Included",
-    "Final Cleaning: € 180.00   / booking",
-    "Internet Access: Included",
-    "garage and car park: Included",
-    "Towels:  Included"
+    "Air conditioning: Included Final Cleaning: € 180.00   / booking Internet Access: Included garage and car park: Included Towels:  Included"
   ],
   "services_optional": [
-    "Baby high chair: € 20.00   / booking",
-    "Cot/Crib: € 30.00   / booking",
-    "Heating: Included"
+    "Baby high chair: € 20.00   / booking Cot/Crib: € 30.00   / booking Heating: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

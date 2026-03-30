@@ -29,7 +29,7 @@
     .hero { height: 420px !important; }
     .gallery-grid img { break-inside: avoid; }
     .page-break { page-break-before: always; }
-    .map-container, .lightbox, .back-link { display: none !important; }
+    .map-container, .lightbox, .back-link, .print-btn { display: none !important; }
     @page { margin: 12mm; }
   }
   .back-link {
@@ -49,6 +49,25 @@
     transition: background 0.15s;
   }
   .back-link:hover { background: var(--white); }
+  .print-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    padding: 10px 18px;
+    border-radius: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--charcoal);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    transition: background 0.15s;
+  }
+  .print-btn:hover { background: var(--white); }
   .hero {
     position: relative;
     width: 100%;
@@ -342,6 +361,7 @@
 <body>
 
 <a href="index.html" class="back-link">&#8592; All Properties</a>
+<button class="print-btn" onclick="window.print()">Save as PDF</button>
 
 <div class="hero">
   <img src="https://www.justrentmarbella.com/rentals/fotos/3/1747837336708f85f9ca8112aff19976e32d429a20/174783733957558c134661d8021c10d28c771de4a5.jpg" alt="Villa Ama">
@@ -358,7 +378,7 @@
       <div class="fact-label">Bedrooms</div>
     </div>
     <div class="fact">
-      <div class="fact-value">12</div>
+      <div class="fact-value">6</div>
       <div class="fact-label">Bathrooms</div>
     </div>
     <div class="fact">
@@ -377,7 +397,7 @@
 
   <div class="section">
     <h2 class="section-title">About the Property</h2>
-    <p>Share Link copied Photos Add to favourites Favourites Share Description occupants 8 4 King size beds 4 4 Bedrooms 4 2 Bathrooms with bathtub 3 Bathrooms with shower 1 Toilet 6 201 m² 201 m² Wi-Fi Wi-Fi</p>
+    <p>Welcome to Villa Ama, a beautifully curated 4-bedroom, 5-bathroom residence in the heart of Marbella’s prestigious Nueva Andalucía. Perfectly positioned in the lower part of the Golf Valley, this striking home pairs clean architectural lines with breathtaking views of La Concha and the Mediterranean Sea. Set across two floors with expansive glazing and flowing terraces, Villa Ama is the epitome of modern elegance—ideal for families, mature groups, or anyone seeking a high-end Costa del Sol escape. The villa offers versatile living spaces, including three main bedrooms, a guesthouse, and a flexible bonus room that can serve as a gym, home cinema, or an additional bedroom. Three of the five bathrooms are en-suite, with spa-like finishes and underfloor heating for added comfort. The master suite is a true standout, featuring a freestanding bathtub with uninterrupted mountain views. Another bedroom opens to its own private terrace with an outdoor tub, creating an unforgettable open-air relaxation experience. Entertain with ease in the expansive open-plan living space, anchored by a sleek, fully integrated Miele kitchen and warmed by a cozy fireplace. Large sliding glass doors lead you out to the villa’s standout feature—an elevated marble infinity pool framed by tropical greenery and striking natural stone. The outdoor kitchen and dining terrace create the perfect setting for relaxed afternoons or sunset dinners under the stars, while glass balustrades preserve panoramic views without interruption. Tucked away in one of Marbella’s most sought-after neighbourhoods, Villa Ama offers seamless access to the best of the coast. You&#x27;re a short distance from Puerto Banús, the beach, and an array of restaurants, top schools, and amenities. With golf courses on your doorstep and Marbella’s buzzing social and shopping scenes just minutes away, Villa Ama delivers the ultimate blend of luxury, location, and lifestyle. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.</p>
   </div>
 
   <div class="section">
@@ -417,6 +437,7 @@
       <span class="tag">Secured parking</span>
       <span class="tag">Infinity pool</span>
       <span class="tag">Ocean views</span>
+      <span class="tag">Dryer</span>
       <span class="tag">260 m² terrace</span>
     </div>
   </div>
@@ -509,7 +530,7 @@
     <div class="distances-grid">
       <div class="distance-row">
         <div class="distance-place"><span class="distance-dot"></span>Airport</div>
-        <div class="distance-value">62 m</div>
+        <div class="distance-value">62 km</div>
       </div>
       <div class="distance-row">
         <div class="distance-place"><span class="distance-dot"></span>Restaurant</div>
@@ -547,16 +568,11 @@
     <div class="services-columns">
       <div class="service-group">
         <h4>Included</h4>
-        <div class="service-item">Internet Access: Included</div>
-        <div class="service-item">Open-air parking: Included</div>
-        <div class="service-item">Towels:  Included</div>
+        <div class="service-item">Internet Access: Included Open-air parking: Included Towels:  Included</div>
       </div>
       <div class="service-group">
         <h4>Optional</h4>
-        <div class="service-item">Air conditioning: Included</div>
-        <div class="service-item">Baby high chair: € 25.00   / booking</div>
-        <div class="service-item">Cot/Crib: € 35.00   / booking</div>
-        <div class="service-item">Heating: Included</div>
+        <div class="service-item">Air conditioning: Included Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heating: Included</div>
       </div>
     </div>
     <div class="checkin-bar">

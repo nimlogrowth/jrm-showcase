@@ -29,7 +29,7 @@
     .hero { height: 420px !important; }
     .gallery-grid img { break-inside: avoid; }
     .page-break { page-break-before: always; }
-    .map-container, .lightbox, .back-link { display: none !important; }
+    .map-container, .lightbox, .back-link, .print-btn { display: none !important; }
     @page { margin: 12mm; }
   }
   .back-link {
@@ -49,6 +49,25 @@
     transition: background 0.15s;
   }
   .back-link:hover { background: var(--white); }
+  .print-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    padding: 10px 18px;
+    border-radius: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--charcoal);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    transition: background 0.15s;
+  }
+  .print-btn:hover { background: var(--white); }
   .hero {
     position: relative;
     width: 100%;
@@ -342,6 +361,7 @@
 <body>
 
 <a href="index.html" class="back-link">&#8592; All Properties</a>
+<button class="print-btn" onclick="window.print()">Save as PDF</button>
 
 <div class="hero">
   <img src="https://www.justrentmarbella.com/rentals/fotos/2/1713862841e37d85288d6a3b66de5c323dd5d37d88/171386284543e52d8f4565ea2d451bec67992939f3.jpg" alt="Penthouse Chilli">
@@ -358,7 +378,7 @@
       <div class="fact-label">Bedrooms</div>
     </div>
     <div class="fact">
-      <div class="fact-value">4</div>
+      <div class="fact-value">2</div>
       <div class="fact-label">Bathrooms</div>
     </div>
     <div class="fact">
@@ -373,7 +393,7 @@
 
   <div class="section">
     <h2 class="section-title">About the Property</h2>
-    <p>Share Link copied Photos Add to favourites Favourites Share Description occupants 6 3 Double beds 3 3 Bedrooms 3 2 Bathrooms with shower 2 160 m² 160 m² Wi-Fi Wi-Fi</p>
+    <p>Welcome to uninterrupted views in this newly renovated, private, luxury apartment with a modern Scandinavian design and close to everything! Penthouse Chilli is now available for month-long stays over Summer 2026! (Monthly rental + bills.) Just 7 minutes to the beach and 10 minutes to Marbella, you can relax and enjoy the bustling life in Marbella at your leisure. Penthouse Los Olmos is a stunning, newly renovated 3-bedroom penthouse in the coveted neighbourhood of La Quinta with incredible views of La Concha and the Mediterranean Sea with the northern coasts of Africa in the backdrop. Upon entering, you are wowed by the spacious open-plan kitchen, dining room and lounge that leads to the L-shaped terrace via 4 terrace doors. All windows and doors are equipped with sun-proofed glass to keep the heat out and protect the furniture. This is the ideal place to start the day, enjoy your daily breaks and finish off at any night. The fully-fitted and very modern kitchen is fully equipped with all appliances and utensils. The 3 beautifully styled bedrooms all have 180 cm high-quality beds and wardrobes. An open corridor leads the way to the Master bedroom with a TV and an ensuite bathroom. The 80 sqm east/south facing terrace offers both sun and shade and several outdoor dining options. Here you also find the Broiler King BBQ. The 160 sqm indoor areas are designed for social interactions and privacy at the same time. Additional features include underfloor heating in the bathrooms, Aircon, high-speed Wifi throughout, a designated parking space, and an alarm system. The urbanisation offers a well-maintained, tranquil pool area as well as covered parking spaces. Thanks to its central location, everything you need is close by. In La Quinta (Los Halcones), you have a convenient shopping centre with a pharmacy, a grocery store and 4 nice restaurants. From the apartment you reach San Pedro in 5 minutes, Puerto Banus in 10 minutes, Marbella in 15 minutes and the beaches in 7. Access to the AP7 highway is only a few minutes away and from there you will be at Malaga airport in 40 minutes, Estepona in 15 and Sotogrande in just about 30 minutes. We look forward to welcoming you!</p>
   </div>
 
   <div class="section">
@@ -407,6 +427,7 @@
       <span class="tag">Alarm system</span>
       <span class="tag">Safe</span>
       <span class="tag">Ocean views</span>
+      <span class="tag">Balcony</span>
       <span class="tag">180 m² terrace</span>
     </div>
   </div>
@@ -527,18 +548,11 @@
     <div class="services-columns">
       <div class="service-group">
         <h4>Included</h4>
-        <div class="service-item">Air conditioning: Included</div>
-        <div class="service-item">Final Cleaning: € 200.00   / booking</div>
-        <div class="service-item">Heating: Included</div>
-        <div class="service-item">Internet Access: Included</div>
-        <div class="service-item">Open-air parking: Included</div>
-        <div class="service-item">Towels:  Included</div>
+        <div class="service-item">Air conditioning: Included Final Cleaning: € 200.00   / booking Heating: Included Internet Access: Included Open-air parking: Included Towels:  Included</div>
       </div>
       <div class="service-group">
         <h4>Optional</h4>
-        <div class="service-item">Baby high chair: € 25.00   / booking</div>
-        <div class="service-item">Cot/Crib: € 35.00   / booking</div>
-        <div class="service-item">Pet: € 75.00   / booking</div>
+        <div class="service-item">Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Pet: € 75.00   / booking</div>
       </div>
     </div>
     <div class="checkin-bar">

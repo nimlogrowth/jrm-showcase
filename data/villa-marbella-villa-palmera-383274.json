@@ -49,10 +49,10 @@
   ],
   "guests": "12",
   "bedrooms": "5",
-  "bathrooms": "10",
+  "bathrooms": "5",
   "area": "404 m²",
   "plot": "115 m²",
-  "description": "Share Link copied Photos Add to favourites Favourites Share Description occupants 12 5 Double beds 2 Single beds 7 5 Bedrooms 5 1 Bathroom with bathtub 3 Bathrooms with shower 1 Toilet 5 404 m² 404 m² Wi-Fi Wi-Fi",
+  "description": "A wonderful Andalusian-style villa, accommodating up to 12 people, with fantastic outdoor facilities including a private heated* pool & Jacuzzi, within a short distance to Marbella’s finest beaches. This villa is one of a kind; Typical Andalusian design but with unique decorative touches such as the hand-paved pebble-decorated entrance and outdoor terrace. The impressive entrance hall has a guest bathroom and leads to the first floor and 3 bedrooms. A further 2 bedrooms are on the ground level. There are two living areas: a larger lounge with fireplace and access to the terrace, and a smaller TV-lounge. The fabulously spacious kitchen is very well equipped and has a dining table and TV. The centre isle gives the possibility of joining the chef whilst preparing dinner. From the kitchen, there is direct access to both the patio and the partly-covered terrace. The terrace faces south and has a variety of outdoor dining and lounge furniture to enjoy the fine views of the Mediterranean. There is a large gas BBQ and various sun loungers. The villa has the option of heating the pool for an extra weekly charge. There is a Jacuzzi that enjoys unspoiled views. The well-maintained garden faces directly south and therefore enjoys the sun throughout the day. On the first floor, the accommodation is divided into one 1 family Master Suite for 4 people and a second Double bedroom for 4 people. The Master Suite has a double bed and en suite bathroom with 2 independent sinks, a bathtub, shower and toilet. There is a second bedroom that shares the en suite bathroom of the master bedroom. The second bedroom is divided into 2 rooms, both with double beds and perfect for 2 adults and 2 children. This room has an en suite bathroom with walk-in shower, sink, toilet and bidet. The ground floor has 2 bedrooms both with double beds and en suite bathrooms with walk-in shower, toilet and sink. For winter holidays the property has underfloor heating throughout - a much desired feature as winter nights can be chilly. For the warmer months there is air conditioning in all the bedrooms and the kitchen. There is a ping-pong table available and of course, WIFI is available and free of charge. There are four TV’s in total, all with access to international channels. The property is secured with an indoor and outdoor alarm and has private parking for up to 4 cars. Villa Palmera is located 250 meters from Santa Maria Golf Club and less than 2 km (20-minute walk) to the beach. You can take a walk along the beach to the west and you will find all kinds of restaurants, bars, beach clubs, and the typical Spanish chiringuitos (beach restaurants). Elviria is known for its charming centre as well as the wide selection of restaurants and bars. With a choice of over 50 different restaurants, various supermarkets, and many bars in the area it is one of the most popular areas in Marbella. Marbella and the Historical Old Town are 11 km away and the famous harbour of Puerto Banús is a 15-minute drive. There you will find high-end designer shops, exclusive yachts, fast cars, discotheques and bars, and a great variety of restaurants. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to welcoming you.",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -88,12 +88,17 @@
     "Fireplace",
     "Secured parking",
     "Ocean views",
+    "Mountain views",
+    "Dryer",
+    "Balcony",
+    "Laptop workspace",
+    "Pool towels",
     "200 m² terrace"
   ],
   "distances": [
     {
       "place": "Airport",
-      "distance": "45 m"
+      "distance": "45 km"
     },
     {
       "place": "Golf course",
@@ -133,18 +138,10 @@
     }
   ],
   "services_included": [
-    "Air conditioning: Included",
-    "Final Cleaning: € 500.00   / booking",
-    "Heating: Included",
-    "Internet Access: Included",
-    "Open-air parking: Included",
-    "Towels:  Included"
+    "Air conditioning: Included Final Cleaning: € 500.00   / booking Heating: Included Internet Access: Included Open-air parking: Included Towels:  Included"
   ],
   "services_optional": [
-    "Baby high chair: € 25.00   / booking",
-    "Bed linen: Included",
-    "Cot/Crib: € 35.00   / booking",
-    "Heated Pool: € 58.00   / night"
+    "Baby high chair: € 25.00   / booking Bed linen: Included Cot/Crib: € 35.00   / booking Heated Pool: € 58.00   / night"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

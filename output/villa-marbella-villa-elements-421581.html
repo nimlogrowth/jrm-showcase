@@ -29,7 +29,7 @@
     .hero { height: 420px !important; }
     .gallery-grid img { break-inside: avoid; }
     .page-break { page-break-before: always; }
-    .map-container, .lightbox, .back-link { display: none !important; }
+    .map-container, .lightbox, .back-link, .print-btn { display: none !important; }
     @page { margin: 12mm; }
   }
   .back-link {
@@ -49,6 +49,25 @@
     transition: background 0.15s;
   }
   .back-link:hover { background: var(--white); }
+  .print-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    padding: 10px 18px;
+    border-radius: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--charcoal);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    transition: background 0.15s;
+  }
+  .print-btn:hover { background: var(--white); }
   .hero {
     position: relative;
     width: 100%;
@@ -342,6 +361,7 @@
 <body>
 
 <a href="index.html" class="back-link">&#8592; All Properties</a>
+<button class="print-btn" onclick="window.print()">Save as PDF</button>
 
 <div class="hero">
   <img src="https://www.justrentmarbella.com/rentals/fotos/2/1678721219606832d6bfbe348aa255f8ca64e96ec1/16787212226f7063ec87ff4d1f5245fcad8051371f.jpg" alt="Villa Elements">
@@ -358,7 +378,7 @@
       <div class="fact-label">Bedrooms</div>
     </div>
     <div class="fact">
-      <div class="fact-value">12</div>
+      <div class="fact-value">6</div>
       <div class="fact-label">Bathrooms</div>
     </div>
     <div class="fact">
@@ -373,7 +393,7 @@
 
   <div class="section">
     <h2 class="section-title">About the Property</h2>
-    <p>Share Link copied Photos Add to favourites Favourites Share Description occupants 8 4 King size beds 4 4 Bedrooms 4 2 Bathrooms with bathtub 3 Bathrooms with shower 1 Toilet 6 447 m² 447 m² Wi-Fi Wi-Fi</p>
+    <p>Pure elegance is accompanied by an unpretentious attitude to luxury. This stunning 4-bed villa sits a mere stone’s throw away from the beach on Marbella’s Golden Mile, in a lovely and quiet neighbourhood, making it the ideal home for your next holiday in sunny Marbella! Upon entry to this lavish property, your eyes will be immediately drawn to the unique vertical gardens lining the facade. Soft sounds of water trickling down the edge of the infinity pool hook you further as you approach the open terrace which offers a cosy lounge and outdoor dining area created to be enjoyed all day and into the long summer evenings. Sun loungers surround the pool and the garden stretches around the house to a rustic barbeque area which promises plenty of memorable evenings with everyone gathered around. The pool has an impressive depth of 4m and also has a counter-current option and a jacuzzi-area. Step through the front door into a hall which broadens to an open-plan living area which flows into the kitchen and dining area. An impressive 6-meter ceiling height to encapsulate you and a vertical garden lining the upper section to inspire you alongside the amazing floor-to-ceiling windows. A fully equipped and state-of-the-art kitchen furnished by Bulthaup leaves no wishes unfulfilled and the dining area sits perfectly adjacent to enjoy the various recipes your creativity sparks. On the first floor – you will find a double bedroom with its own ensuite bathroom and direct access to a sheltered balcony. You will also discover the impressive south-facing Master Bedroom which has a large open-plan bathroom with both a shower and a bathtub and a separate toilet. Of course, the Master Bedroom also opens out into a private balcony by sliding the massive floor-to-ceiling windows to the side. In the lower section of the home, you encounter a world of its own. A large living area with a breath-taking panorama window to the inside of the pool, a gym area, a bodega and finally a private Spa area equipped with a sauna, steam bath and an indoor jacuzzi allowing you to fully relax and rejuvenate (please note there is an additional weekly fee to use the Spa, please enquire for full details). There are two bedrooms on this lower level, each with interior patios and floor-to-ceiling windows allowing natural light,  and ensuite bathrooms. The roof-top terrace is sure to be one of your favourite spots to spend time at this home during the glorious sunrises and sunsets! It offers another jacuzzi, a large lounge area and a very inviting Bali bed. It also boasts a fantastic outdoor kitchen and a bar dining area surrounded by Mediterranean plants. This fantastic home is equipped with Bluetooth speakers as well as a Domotic system. There is secure parking for 2 cars, air-conditioning and WiFi throughout, as well as underfloor heating. In addition, pool heating is available in the winter months (at an additional weekly cost, bookable one week in advance). Cleaning 3 times a week is included. Furthermore, being located right in the middle of the Golden Mile, it is just a short and enjoyable walk to both Puerto Banús and the old town of Marbella. With that said, it is one of the few places in Marbella where the whole family can do what they want without having to use a car. The beach is a mere 2-minute walk, many restaurants and shops within 5 minutes or so, and with a short stroll, you will find yourself at Marbella centre, Marbella Club or the Puente Romano Resort. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. Don’t forget to enquire about our concierge service. We look forward to welcoming you!</p>
   </div>
 
   <div class="section">
@@ -418,6 +438,9 @@
       <span class="tag">Lift</span>
       <span class="tag">Secured parking</span>
       <span class="tag">Ocean views</span>
+      <span class="tag">Dryer</span>
+      <span class="tag">Balcony</span>
+      <span class="tag">Laptop workspace</span>
     </div>
   </div>
 
@@ -523,7 +546,7 @@
     <div class="distances-grid">
       <div class="distance-row">
         <div class="distance-place"><span class="distance-dot"></span>Airport</div>
-        <div class="distance-value">55 m</div>
+        <div class="distance-value">55 km</div>
       </div>
       <div class="distance-row">
         <div class="distance-place"><span class="distance-dot"></span>Shops</div>
@@ -569,18 +592,11 @@
     <div class="services-columns">
       <div class="service-group">
         <h4>Included</h4>
-        <div class="service-item">Air conditioning: Included</div>
-        <div class="service-item">Final Cleaning: € 500.00   / booking</div>
-        <div class="service-item">Heating: Included</div>
-        <div class="service-item">Internet Access: Included</div>
-        <div class="service-item">Open-air parking: Included</div>
-        <div class="service-item">Towels:  Included</div>
+        <div class="service-item">Air conditioning: Included Final Cleaning: € 500.00   / booking Heating: Included Internet Access: Included Open-air parking: Included Towels:  Included</div>
       </div>
       <div class="service-group">
         <h4>Optional</h4>
-        <div class="service-item">Baby high chair: € 25.00   / booking</div>
-        <div class="service-item">Cot/Crib: € 35.00   / booking</div>
-        <div class="service-item">Heated Pool: € 93.00   / night</div>
+        <div class="service-item">Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heated Pool: € 93.00   / night</div>
       </div>
     </div>
     <div class="checkin-bar">

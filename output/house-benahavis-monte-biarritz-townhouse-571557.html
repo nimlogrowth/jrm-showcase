@@ -29,7 +29,7 @@
     .hero { height: 420px !important; }
     .gallery-grid img { break-inside: avoid; }
     .page-break { page-break-before: always; }
-    .map-container, .lightbox, .back-link { display: none !important; }
+    .map-container, .lightbox, .back-link, .print-btn { display: none !important; }
     @page { margin: 12mm; }
   }
   .back-link {
@@ -49,6 +49,25 @@
     transition: background 0.15s;
   }
   .back-link:hover { background: var(--white); }
+  .print-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    padding: 10px 18px;
+    border-radius: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--charcoal);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    transition: background 0.15s;
+  }
+  .print-btn:hover { background: var(--white); }
   .hero {
     position: relative;
     width: 100%;
@@ -342,6 +361,7 @@
 <body>
 
 <a href="index.html" class="back-link">&#8592; All Properties</a>
+<button class="print-btn" onclick="window.print()">Save as PDF</button>
 
 <div class="hero">
   <img src="https://www.justrentmarbella.com/rentals/fotos/3/1752506418bca13f27c7c762014750937d87a0be2d/17525064212ca874cd136360db751b3d7ae2e6b3d2.jpg" alt="Monte Biarritz Townhouse">
@@ -369,7 +389,7 @@
 
   <div class="section">
     <h2 class="section-title">About the Property</h2>
-    <p>Share Link copied Photos Add to favourites Favourites Share Description occupants 6 3 King size beds 3 3 Bedrooms 3 2 bathrooms 2 143 m² 143 m² Wi-Fi Wi-Fi</p>
+    <p>Welcome to Monte Biarritz Townhouse, a bright and charming 3-bedroom, 2-bathroom home set within a peaceful community in Benahavís. This Andalusian-style property features traditional whitewashed exteriors, terracotta roof tiles, and a warm, inviting atmosphere throughout. Inside, you’ll find cosy living spaces, a fully equipped kitchen, and thoughtfully styled interiors that balance comfort and practicality for a relaxed family stay. The townhouse is complemented by its own private garden—a perfect outdoor retreat with leafy greenery, mature plants, and a terrace area ideal for al fresco dining or relaxing in the sun. Families will appreciate having a safe and tranquil space to enjoy morning coffee or evening dinners in a peaceful setting. Beyond the home, the large shared community pool offers another spot to unwind, all set within well-maintained communal gardens. Ideally located just a short drive from Puerto Banús, Marbella’s golden beaches and Estepona&#x27;s lovely town, Monte Biarritz Townhouse offers easy access to golf courses, shops, and restaurants while maintaining a calm, residential feel. It’s a perfect choice for families or small groups looking for an authentic Andalusian experience, combining traditional charm with modern comforts in one of the Costa del Sol’s most sought-after areas. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.</p>
   </div>
 
   <div class="section">
@@ -399,6 +419,7 @@
       <span class="tag">Air-conditioned</span>
       <span class="tag">Central heating</span>
       <span class="tag">Fenced garden</span>
+      <span class="tag">Balcony</span>
     </div>
   </div>
 
@@ -515,17 +536,11 @@
     <div class="services-columns">
       <div class="service-group">
         <h4>Included</h4>
-        <div class="service-item">Final Cleaning: € 250.00   / booking</div>
-        <div class="service-item">Internet Access: Included</div>
-        <div class="service-item">Open-air parking: Included</div>
-        <div class="service-item">Towels:  Included</div>
+        <div class="service-item">Final Cleaning: € 250.00   / booking Internet Access: Included Open-air parking: Included Towels:  Included</div>
       </div>
       <div class="service-group">
         <h4>Optional</h4>
-        <div class="service-item">Air conditioning: Included</div>
-        <div class="service-item">Baby high chair: € 25.00   / booking</div>
-        <div class="service-item">Cot/Crib: € 35.00   / booking</div>
-        <div class="service-item">Heating: Included</div>
+        <div class="service-item">Air conditioning: Included Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heating: Included</div>
       </div>
     </div>
     <div class="checkin-bar">

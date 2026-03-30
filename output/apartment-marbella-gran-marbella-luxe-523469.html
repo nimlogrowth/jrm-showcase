@@ -29,7 +29,7 @@
     .hero { height: 420px !important; }
     .gallery-grid img { break-inside: avoid; }
     .page-break { page-break-before: always; }
-    .map-container, .lightbox, .back-link { display: none !important; }
+    .map-container, .lightbox, .back-link, .print-btn { display: none !important; }
     @page { margin: 12mm; }
   }
   .back-link {
@@ -49,6 +49,25 @@
     transition: background 0.15s;
   }
   .back-link:hover { background: var(--white); }
+  .print-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    padding: 10px 18px;
+    border-radius: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--charcoal);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    transition: background 0.15s;
+  }
+  .print-btn:hover { background: var(--white); }
   .hero {
     position: relative;
     width: 100%;
@@ -342,6 +361,7 @@
 <body>
 
 <a href="index.html" class="back-link">&#8592; All Properties</a>
+<button class="print-btn" onclick="window.print()">Save as PDF</button>
 
 <div class="hero">
   <img src="https://www.justrentmarbella.com/rentals/fotos/3/17392883239a8708fa6901d9e718e12dc5eeb5f68f/1739288328e556eb86656ec88a8bc59509eb9adf48.jpg" alt="Gran Marbella Luxe">
@@ -358,7 +378,7 @@
       <div class="fact-label">Bedrooms</div>
     </div>
     <div class="fact">
-      <div class="fact-value">6</div>
+      <div class="fact-value">3</div>
       <div class="fact-label">Bathrooms</div>
     </div>
     <div class="fact">
@@ -373,7 +393,7 @@
 
   <div class="section">
     <h2 class="section-title">About the Property</h2>
-    <p>Share Link copied Photos Add to favourites Favourites Share Description occupants 8 3 Double beds 2 Single beds 5 4 Bedrooms 4 1 Bathroom with bathtub 2 Bathrooms with shower 3 180 m² 180 m² Wi-Fi Wi-Fi</p>
+    <p>Experience the ultimate beachfront getaway at Gran Marbella Luxe – a breathtaking four-bedroom, three-bathroom apartment nestled in the prestigious Gran Marbella complex, right on the heart of Marbella&#x27;s Golden Mile. Originally two separate apartments, this stunning space has been expertly combined into one expansive residence, offering unparalleled comfort and twice the space of other units in the area. Imagine stepping out of your door to feel the ocean breeze on your face, with the beach just moments away. This exquisite retreat invites you to unwind in an atmosphere of elegance and style, where the lively city vibe and Marbella’s finest restaurants and beach bars are just around the corner. Whether you’re relaxing inside or enjoying the outdoor space, every corner of this home exudes the perfect holiday feel. Inside, the apartment features sophisticated marble flooring, soft neutral tones, and vast floor-to-ceiling windows that bathe the space in natural light, making it feel both open and airy. The open-plan living area flows seamlessly onto a private terrace, offering the perfect spot for a peaceful morning coffee or an evening glass of wine as you gaze at the sparkling sea to the left. The open kitchen is fully equipped, allowing you to easily whip up a delicious meal or enjoy a snack while remaining part of the social areas. Two of the spacious bedrooms open directly onto the terrace, so you can wake up to the sound of the waves and the fresh sea air. The master bedroom features a luxurious ensuite with a Jacuzzi bath, ensuring the ultimate in relaxation after a day of sun and sand. Set in a secure, 24-hour gated community, Gran Marbella Luxe offers more than just a place to stay – it’s a destination in itself. Enjoy direct beach access via the Paseo Marítimo, take a stroll through the beautifully landscaped gardens, or dive into one of the communal swimming pools to cool off. Whether you’re lounging by the pool, enjoying a quiet evening on the terrace, or exploring the vibrant Marbella lifestyle, this apartment is the perfect base for an unforgettable stay. Please note: Gran Marbella Luxe is designed for families and couples, with no groups under 30 and no hen or stag parties allowed. If you&#x27;re outside of this category but still interested in booking, please get in touch with us to share more about your group, and we’ll be happy to accommodate your request. We look forward to welcoming you to Gran Marbella Luxe!</p>
   </div>
 
   <div class="section">
@@ -407,6 +427,9 @@
       <span class="tag">Central heating</span>
       <span class="tag">Jacuzzi</span>
       <span class="tag">Lift</span>
+      <span class="tag">Dryer</span>
+      <span class="tag">Balcony</span>
+      <span class="tag">Laptop workspace</span>
       <span class="tag">40 m² terrace</span>
     </div>
   </div>
@@ -485,7 +508,7 @@
       </div>
       <div class="distance-row">
         <div class="distance-place"><span class="distance-dot"></span>Airport</div>
-        <div class="distance-value">53.8 m</div>
+        <div class="distance-value">53 km</div>
       </div>
       <div class="distance-row">
         <div class="distance-place"><span class="distance-dot"></span>Shops</div>
@@ -503,17 +526,11 @@
     <div class="services-columns">
       <div class="service-group">
         <h4>Included</h4>
-        <div class="service-item">Final Cleaning: € 360.00   / booking</div>
-        <div class="service-item">Internet Access: Included</div>
-        <div class="service-item">Garage: Included</div>
-        <div class="service-item">Towels:  Included</div>
+        <div class="service-item">Final Cleaning: € 360.00   / booking Internet Access: Included Garage: Included Towels:  Included</div>
       </div>
       <div class="service-group">
         <h4>Optional</h4>
-        <div class="service-item">Air conditioning: Included</div>
-        <div class="service-item">Baby high chair: € 25.00   / booking</div>
-        <div class="service-item">Cot/Crib: € 35.00   / booking</div>
-        <div class="service-item">Heating: Included</div>
+        <div class="service-item">Air conditioning: Included Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heating: Included</div>
       </div>
     </div>
     <div class="checkin-bar">

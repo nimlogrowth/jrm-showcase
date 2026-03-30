@@ -31,7 +31,7 @@
   "bathrooms": "",
   "area": "89 m²",
   "plot": "",
-  "description": "Share Link copied Photos Add to favourites Favourites Share Description occupants 4 1 Double bed 2 Single beds 3 2 Bedrooms 2 2 bathrooms 2 89 m² 89 m² Wi-Fi Wi-Fi",
+  "description": "Enjoy the perfect stay in this modern and tastefully furnished 2-bedroom, 2-bathroom apartment, located in the very heart of San Pedro Beachside, Marbella. The apartment is ideally situated just a short walk from the beach, as well as a wide selection of restaurants, cafés, shops, and local amenities, making it the perfect base for both relaxation and exploring the area. Inside, the apartment offers a bright and comfortable living space with stylish décor and everything you need for a relaxing stay. The two spacious bedrooms and two modern bathrooms make it ideal for families, couples, or friends traveling together. Step outside onto the private balcony, where you can enjoy your morning coffee or a relaxed evening meal. The balcony features two comfortable chairs and an outdoor dining table, perfect for enjoying the warm Marbella climate. Whether you’re looking for beach days, great food, or a relaxing getaway, this apartment offers the perfect combination of location, comfort, and style. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -46,7 +46,9 @@
     "Air-conditioned",
     "Central heating",
     "Alarm system",
-    "Secured parking"
+    "Secured parking",
+    "Dryer",
+    "Balcony"
   ],
   "distances": [
     {
@@ -79,16 +81,10 @@
     }
   ],
   "services_included": [
-    "Final Cleaning: € 200.00   / booking",
-    "Internet Access: Included",
-    "Garage: Included",
-    "Towels:  Included"
+    "Final Cleaning: € 200.00   / booking Internet Access: Included Garage: Included Towels:  Included"
   ],
   "services_optional": [
-    "Air conditioning: Included",
-    "Baby high chair: € 25.00   / booking",
-    "Cot/Crib: € 35.00   / booking",
-    "Heating: Included"
+    "Air conditioning: Included Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heating: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

@@ -29,10 +29,10 @@
   ],
   "guests": "4",
   "bedrooms": "2",
-  "bathrooms": "4",
+  "bathrooms": "2",
   "area": "154 m²",
   "plot": "",
-  "description": "Share Link copied Photos Add to favourites Favourites Share Description occupants 4 1 Double bed 2 Single beds 3 2 Bedrooms 2 2 Bathrooms with shower 2 154 m² 154 m² Wi-Fi Wi-Fi",
+  "description": "Welcome to Casa La Morelia, a beautifully designed 2-bedroom, 2-bathroom retreat tucked into the hillside of Nueva Andalucía, offering breathtaking panoramic views of the Mediterranean. This stylish hideaway combines indoor comfort with seamless outdoor living, delivering a peaceful escape just minutes from the beaches and energy of Puerto Banús. Inside, the home is bright, open, and tastefully furnished. The living area opens completely to the terrace thanks to full-width sliding windows that disappear into the wall, creating an effortless flow between indoors and out. The master bedroom features a plush double bed and an en-suite bathroom, while the second bedroom offers two twin beds and its own en-suite — making it perfect for families or friends travelling together. Step outside and you’ll find the heart of Casa La Morelia: a private terrace with a plunge pool, two sun loungers, and a sleek outdoor kitchen and BBQ area. Whether you're enjoying a lazy breakfast with the sea view as your backdrop or grilling dinner as the sun sets, this terrace is designed for unforgettable moments in the open air. Located in a quiet, elevated area of Nueva Andalucía, you're just a short drive from Marbella's most desirable golf courses, restaurants, and beach clubs. With Puerto Banús, San Pedro, and the Golden Mile all within easy reach, Casa La Morelia is your private slice of paradise on the Costa del Sol. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -53,6 +53,9 @@
     "Central heating",
     "BBQ",
     "Secured parking",
+    "Dryer",
+    "Balcony",
+    "Pool towels",
     "71 m² terrace"
   ],
   "distances": [
@@ -94,16 +97,10 @@
     }
   ],
   "services_included": [
-    "Final Cleaning: € 190.00   / booking",
-    "Internet Access: Included",
-    "Garage: Included",
-    "Towels:  Included"
+    "Final Cleaning: € 190.00   / booking Internet Access: Included Garage: Included Towels:  Included"
   ],
   "services_optional": [
-    "Air conditioning: Included",
-    "Baby high chair: € 25.00   / booking",
-    "Cot/Crib: € 35.00   / booking",
-    "Heating: Included"
+    "Air conditioning: Included Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heating: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

@@ -29,7 +29,7 @@
     .hero { height: 420px !important; }
     .gallery-grid img { break-inside: avoid; }
     .page-break { page-break-before: always; }
-    .map-container, .lightbox, .back-link { display: none !important; }
+    .map-container, .lightbox, .back-link, .print-btn { display: none !important; }
     @page { margin: 12mm; }
   }
   .back-link {
@@ -49,6 +49,25 @@
     transition: background 0.15s;
   }
   .back-link:hover { background: var(--white); }
+  .print-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    padding: 10px 18px;
+    border-radius: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--charcoal);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    transition: background 0.15s;
+  }
+  .print-btn:hover { background: var(--white); }
   .hero {
     position: relative;
     width: 100%;
@@ -342,6 +361,7 @@
 <body>
 
 <a href="index.html" class="back-link">&#8592; All Properties</a>
+<button class="print-btn" onclick="window.print()">Save as PDF</button>
 
 <div class="hero">
   <img src="https://www.justrentmarbella.com/rentals/fotos/2/1686658298a3ec1a0ed49d1031c6de948ad6301ce7/1699720561c6c578b505e2e64e84a717a597b30a54.jpg" alt="Villa Linda">
@@ -358,7 +378,7 @@
       <div class="fact-label">Bedrooms</div>
     </div>
     <div class="fact">
-      <div class="fact-value">14</div>
+      <div class="fact-value">7</div>
       <div class="fact-label">Bathrooms</div>
     </div>
     <div class="fact">
@@ -377,7 +397,7 @@
 
   <div class="section">
     <h2 class="section-title">About the Property</h2>
-    <p>Share Link copied Photos Add to favourites Favourites Share Description occupants 12 3 King size beds 2 Queen size beds 2 Single beds 7 5 Bedrooms 5 2 Bathrooms with bathtub 4 Bathrooms with shower 1 Toilet 7 420 m² 420 m² Wi-Fi Wi-Fi</p>
+    <p>Villa Linda Vista is a large and spacious Andalucian traditional-styled villa with a beautiful pool and garden! This charming villa offers 3 double ensuite bedrooms plus 2 additional bedrooms, one of which is another double bedroom, and the uppermost room is a lovely little hideaway attic room that has 2 large single beds on one end and another double bed on the opposite end. The villa features various entertainment and dining areas, providing a comfortable and impressive space to enjoy your family holidays in the calm residential area of San Pedro in Marbella. The entrance hall leads to a lovely little coffee place and living area. To the side, you are welcomed to the kitchen which has been remodeled tastefully and is fitted with top-of-the-range Gaggenau appliances. The dining area is right beside the kitchen with a long wooden table that seats 10. The lounge and TV room features a large SMART TV fitted with SONOS sound systems as well as a little workspace, ideal for settling into a movie with the group or for just having some downtime. The outdoor area features plenty of relaxation spots as well as an outdoor lounge area and a gas-powered BBQ. This is a wonderful area to dine, at any time of day, surrounded by the expansive gardens and overlooking the swimming pool, making for lively afternoons and cozy evenings outside. The master bedroom is spacious and has its own private terrace with a coffee place to enjoy the sunny mornings after waking as well as a wall-mounted TV. The ensuite bathroom is finished with his and hers sinks as well as a bathtub and an amazing walk-in shower with jets all round! The next two double bedrooms are also large, one has a wall-mounted TV and the other has its own terrace and coffee area similar to the master bedroom. The first double bedroom has a shower within its ensuite while the second has a bathtub. Further on upstairs you get to the final two bedrooms. The first is the last double bedroom which has access to a bathroom with a standing shower. Up the final short flight of stairs you get to the amazing attic which has been converted into the perfect kids&#x27; hideaway! Drapes separate the room into two sections with beds on either side, allowing the little ones to have their own space. There is space to park 3 cars behind the electric gates (parked one behind the other). The Villa has heating as well as AC, ceiling fans, and of course, WiFi. Villa Linda Vista is in the heart of Marbella’s San Pedro district, very close to all amenities and just a 10 minute walk down to the beach and a short drive to Puerto Banús. Also, the many restaurants, bars, and nightlife of San Pedro are easily reached in a few minutes’ drive. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to welcoming you!</p>
   </div>
 
   <div class="section">
@@ -412,6 +432,8 @@
       <span class="tag">Alarm system</span>
       <span class="tag">Safe</span>
       <span class="tag">Secured parking</span>
+      <span class="tag">Dryer</span>
+      <span class="tag">Balcony</span>
       <span class="tag">70 m² terrace</span>
     </div>
   </div>
@@ -533,17 +555,11 @@
     <div class="services-columns">
       <div class="service-group">
         <h4>Included</h4>
-        <div class="service-item">Air conditioning: Included</div>
-        <div class="service-item">Final Cleaning: € 450.00   / booking</div>
-        <div class="service-item">Heating: Included</div>
-        <div class="service-item">Internet Access: Included</div>
-        <div class="service-item">Open-air parking: Included</div>
-        <div class="service-item">Towels:  Included</div>
+        <div class="service-item">Air conditioning: Included Final Cleaning: € 450.00   / booking Heating: Included Internet Access: Included Open-air parking: Included Towels:  Included</div>
       </div>
       <div class="service-group">
         <h4>Optional</h4>
-        <div class="service-item">Baby high chair: € 25.00   / booking</div>
-        <div class="service-item">Cot/Crib: € 35.00   / booking</div>
+        <div class="service-item">Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking</div>
       </div>
     </div>
     <div class="checkin-bar">

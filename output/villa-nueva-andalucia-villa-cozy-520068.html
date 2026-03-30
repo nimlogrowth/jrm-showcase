@@ -29,7 +29,7 @@
     .hero { height: 420px !important; }
     .gallery-grid img { break-inside: avoid; }
     .page-break { page-break-before: always; }
-    .map-container, .lightbox, .back-link { display: none !important; }
+    .map-container, .lightbox, .back-link, .print-btn { display: none !important; }
     @page { margin: 12mm; }
   }
   .back-link {
@@ -49,6 +49,25 @@
     transition: background 0.15s;
   }
   .back-link:hover { background: var(--white); }
+  .print-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    padding: 10px 18px;
+    border-radius: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--charcoal);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    transition: background 0.15s;
+  }
+  .print-btn:hover { background: var(--white); }
   .hero {
     position: relative;
     width: 100%;
@@ -342,6 +361,7 @@
 <body>
 
 <a href="index.html" class="back-link">&#8592; All Properties</a>
+<button class="print-btn" onclick="window.print()">Save as PDF</button>
 
 <div class="hero">
   <img src="https://www.justrentmarbella.com/rentals/fotos/3/1745695683b8b322175183ba9a105480de5a95e7ff/1745695695471c1dbd4af54b5f0728f4b583a055ab.jpg" alt="Villa Cozy">
@@ -358,7 +378,7 @@
       <div class="fact-label">Bedrooms</div>
     </div>
     <div class="fact">
-      <div class="fact-value">10</div>
+      <div class="fact-value">5</div>
       <div class="fact-label">Bathrooms</div>
     </div>
     <div class="fact">
@@ -373,7 +393,7 @@
 
   <div class="section">
     <h2 class="section-title">About the Property</h2>
-    <p>Share Link copied Photos Add to favourites Favourites Share Description occupants 8 4 Double beds 4 4 Bedrooms 4 1 Bathroom with bathtub 3 Bathrooms with shower 1 Toilet 5 400 m² 400 m² Wi-Fi Wi-Fi</p>
+    <p>Welcome to Villa Cozy, a beautiful 4-bedroom, 4-bathroom retreat tucked away in a private cul-de-sac in the very heart of Nueva Andalucía—one of Marbella’s most sought-after neighborhoods. This villa perfectly balances modern style with timeless charm. Designed for comfort and easy living, all four spacious bedrooms feature their own en-suite bathrooms, offering privacy and relaxation for everyone. Throughout the home, soft microcement flooring adds a contemporary, elegant touch. The heart of Villa Cozy is its expansive, open-plan kitchen, centered around a large kitchen bar where family and friends can gather, share stories, and savor the moments. The feeling throughout the villa is light, open, and welcoming. Step onto the terrace and you’ll be greeted by breathtaking views of the golf as well as Marbella’s iconic La Concha mountain, a majestic sight that can also be enjoyed from the dining area and even from some of the bedrooms—whether you’re sipping your morning coffee or winding down at sunset, the scenery is unforgettable. Outside, a private swimming pool and lush garden create your own peaceful oasis, just steps away from the vibrant life of Nueva Andalucía. Here, you’re just minutes from the area’s best restaurants, bars, nightclubs, golf courses, and of course, the golden beaches and the famous Puerto Banús marina. Villa Cozy offers the rare luxury of being both a private hideaway and a gateway to the very best that Marbella has to offer. Whether you’re looking for a relaxing family holiday, a romantic escape, or a stylish getaway with friends, Villa Cozy promises a stay to remember. We look forward to welcoming you! Please note, to maintain the peaceful and luxurious environment, we welcome families and couples only. Groups under 30, or those planning stag or hen parties, are not permitted. However, if you feel Villa Cozy is the right fit for your group, we invite you to reach out and tell us more about yourselves — we’re always happy to consider special requests.</p>
   </div>
 
   <div class="section">
@@ -407,6 +427,8 @@
       <span class="tag">BBQ</span>
       <span class="tag">Fenced garden</span>
       <span class="tag">Tennis court</span>
+      <span class="tag">Dryer</span>
+      <span class="tag">Balcony</span>
     </div>
   </div>
 
@@ -490,16 +512,11 @@
     <div class="services-columns">
       <div class="service-group">
         <h4>Included</h4>
-        <div class="service-item">Final Cleaning: € 550.00   / booking</div>
-        <div class="service-item">Internet Access: Included</div>
-        <div class="service-item">Towels:  Included</div>
+        <div class="service-item">Final Cleaning: € 550.00   / booking Internet Access: Included Towels:  Included</div>
       </div>
       <div class="service-group">
         <h4>Optional</h4>
-        <div class="service-item">Air conditioning: Included</div>
-        <div class="service-item">Baby high chair: € 25.00   / booking</div>
-        <div class="service-item">Cot/Crib: € 35.00   / booking</div>
-        <div class="service-item">Heating: Included</div>
+        <div class="service-item">Air conditioning: Included Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heating: Included</div>
       </div>
     </div>
     <div class="checkin-bar">

@@ -29,7 +29,7 @@
     .hero { height: 420px !important; }
     .gallery-grid img { break-inside: avoid; }
     .page-break { page-break-before: always; }
-    .map-container, .lightbox, .back-link { display: none !important; }
+    .map-container, .lightbox, .back-link, .print-btn { display: none !important; }
     @page { margin: 12mm; }
   }
   .back-link {
@@ -49,6 +49,25 @@
     transition: background 0.15s;
   }
   .back-link:hover { background: var(--white); }
+  .print-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    padding: 10px 18px;
+    border-radius: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--charcoal);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    transition: background 0.15s;
+  }
+  .print-btn:hover { background: var(--white); }
   .hero {
     position: relative;
     width: 100%;
@@ -342,6 +361,7 @@
 <body>
 
 <a href="index.html" class="back-link">&#8592; All Properties</a>
+<button class="print-btn" onclick="window.print()">Save as PDF</button>
 
 <div class="hero">
   <img src="https://www.justrentmarbella.com/rentals/fotos/2/1706616052bd3b8c29790d746844878d81097e1768/1706616053aa3e10d00a1dce39d1a60720e5dd3e99.jpg" alt="Casa Vista">
@@ -358,7 +378,7 @@
       <div class="fact-label">Bedrooms</div>
     </div>
     <div class="fact">
-      <div class="fact-value">4</div>
+      <div class="fact-value">2</div>
       <div class="fact-label">Bathrooms</div>
     </div>
     <div class="fact">
@@ -373,7 +393,7 @@
 
   <div class="section">
     <h2 class="section-title">About the Property</h2>
-    <p>Share Link copied Photos Add to favourites Favourites Share Description occupants 4 2 Double beds 2 2 Bedrooms 2 2 Bathrooms with shower 2 82 m² 82 m² Wi-Fi Wi-Fi</p>
+    <p>Welcome to Casa Vista with breathtaking views stretching from the Golf Valley to the Mediterranean Sea! An extraordinary home in the exclusive La Morelia urbanization comprises stunning vistas, contemporary furniture and fittings, not to mention the wonderful outdoor living spaces, finished with a private plunge pool looking down into the vast landscapes to give you the very best of Marbella living! The home has 2 bedrooms, one with an ensuite bathroom, a fully equipped kitchen with a centre island and a round dining table, and a spacious living area with great natural lighting. The living room and dining/kitchen spaces open to the stunning terrace and private pool area, providing a perfect blend of indoor and outdoor living. Heading into the master bedroom, you’ve got a lovely large bed, a large Smart TV on the wall to enjoy those weekend lie-ins, a walk-in closet, meaning plenty of storage space and all the time in the world to weigh up your options before heading into the neighbouring areas of Nueva Andalucia or Puerto Banus for a meal or evening out and about. There are sliding doors to the terrace. The second bedroom is equally comfortable and plush and also has terrace access, however its bathroom is separate. The apartment benefits from individually controlled AC and high-speed wifi throughout, and secure parking for one car in the underground garage. The La Morelia urbanization is gated, offers a communal swimming pool, enjoys 24-hour security and is coveted while sitting atop the Aloha hills situated on the upper side of Nueva Andalucia, a short drive from all amenities and provides a nice and quiet retreat from the hustle and bustle of Marbella town and Puerto Banus. The nearby town of Estepona which provides a fantastic afternoon out is only 30 minutes’ drive, and the Malaga airport is roughly 50 minutes away. Experience coastal living at its finest with Casa Vista, an exclusive retreat in the Aloha Hills. Book your stay with us and indulge in luxury, sophistication, and the charm of the Costa del Sol. Your dream vacation begins here. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.</p>
   </div>
 
   <div class="section">
@@ -400,6 +420,7 @@
       <span class="tag">Lift</span>
       <span class="tag">Secured parking</span>
       <span class="tag">Ocean views</span>
+      <span class="tag">Laptop workspace</span>
       <span class="tag">54 m² terrace</span>
     </div>
   </div>
@@ -511,17 +532,11 @@
     <div class="services-columns">
       <div class="service-group">
         <h4>Included</h4>
-        <div class="service-item">Air conditioning: Included</div>
-        <div class="service-item">Final Cleaning: € 180.00   / booking</div>
-        <div class="service-item">Internet Access: Included</div>
-        <div class="service-item">garage and car park: Included</div>
-        <div class="service-item">Towels:  Included</div>
+        <div class="service-item">Air conditioning: Included Final Cleaning: € 180.00   / booking Internet Access: Included garage and car park: Included Towels:  Included</div>
       </div>
       <div class="service-group">
         <h4>Optional</h4>
-        <div class="service-item">Baby high chair: € 20.00   / booking</div>
-        <div class="service-item">Cot/Crib: € 30.00   / booking</div>
-        <div class="service-item">Heating: Included</div>
+        <div class="service-item">Baby high chair: € 20.00   / booking Cot/Crib: € 30.00   / booking Heating: Included</div>
       </div>
     </div>
     <div class="checkin-bar">

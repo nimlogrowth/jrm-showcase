@@ -50,10 +50,10 @@
   ],
   "guests": "12",
   "bedrooms": "6",
-  "bathrooms": "12",
+  "bathrooms": "6",
   "area": "480 m²",
   "plot": "",
-  "description": "Share Link copied Photos Add to favourites Favourites Share Description occupants 12 6 Double beds 6 6 Bedrooms 6 1 Bathroom with bathtub 4 Bathrooms with shower 1 Toilet 6 480 m² 480 m² Wi-Fi Wi-Fi",
+  "description": "Outstanding high-class 5-bedroom Villa situated in the heart of the Golf Valley in one of Marbella’s finest areas. The villa has so many different features to enjoy yourself making it ideal for holidays for all ages. The garden is fitted with a good-sized private swimming pool with the option to heat (at an extra charge per week). The pool is surrounded by sun loungers and the garden is private and spacious. Next to the pool area, there is a 4-person jacuzzi sunken into the terrace. This is perfect for the ultimate relaxing holiday spirit! Furthermore, there is a putting green to practice your golf skills, a ping-pong table for those family challenges, and a petanque for those who love the competitive nature. All of these different features make this villa the perfect house for a family holiday. There is always something to do for everybody within the family. Inside the house, you will find 5 bedrooms comfortably accommodating 12 people. There is one bedroom with an en-suite bathroom on the ground floor. The spacious master bedroom with an en-suite bathroom is located on the first floor. This bedroom also has a spacious terrace with open views. The other 3 bedrooms are found on the pool level. One of these three has an en-suite bathroom and the other two share a bathroom. One bedroom is fitted with two double beds, making it ideal for families with children. The pool level floor is furthermore equipped with a laundry room and bar area. The bar area opens up directly to the outside pool area. On the ground floor level, there is a very spacious and light kitchen and comfortable living room. The living room is bright and modern and has sliding doors onto the outside dining and BBQ area. There is a good gas BBQ there for you to enjoy. The living room, master bedroom, and bar area are fitted with televisions with international packages. So those who want to watch their native shows or football matches, not to worry, you're covered! The location of the villa is private yet close to everything. Being right in the heart of Nueva Andalucia it is just a few minutes down to the beach and Puerto Banus. Also, the many restaurants, bars, and nightlife of Nueva Andalucia are easily accessible within a few minutes' drive. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to welcoming you.",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -91,12 +91,16 @@
     "Alarm system",
     "Fireplace",
     "Secured parking",
+    "Dryer",
+    "Balcony",
+    "Laptop workspace",
+    "Pool towels",
     "120 m² terrace"
   ],
   "distances": [
     {
       "place": "Airport",
-      "distance": "64 m"
+      "distance": "64 km"
     },
     {
       "place": "Golf course",
@@ -136,18 +140,10 @@
     }
   ],
   "services_included": [
-    "Air conditioning: Included",
-    "Bed linen: Included",
-    "Final Cleaning: € 550.00   / booking",
-    "Heating: Included",
-    "Internet Access: Included",
-    "Open-air parking: Included",
-    "Towels:  Included"
+    "Air conditioning: Included Bed linen: Included Final Cleaning: € 550.00   / booking Heating: Included Internet Access: Included Open-air parking: Included Towels:  Included"
   ],
   "services_optional": [
-    "Baby high chair: € 25.00   / booking",
-    "Cot/Crib: € 35.00   / booking",
-    "Heated Pool: € 65.00   / night"
+    "Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heated Pool: € 65.00   / night"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

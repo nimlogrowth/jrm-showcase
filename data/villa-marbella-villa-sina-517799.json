@@ -74,10 +74,10 @@
   ],
   "guests": "12",
   "bedrooms": "5",
-  "bathrooms": "12",
+  "bathrooms": "6",
   "area": "443 m²",
   "plot": "",
-  "description": "Share Link copied Photos Add to favourites Favourites Share Description occupants 12 4 King size beds 4 Single beds 8 5 Bedrooms 5 1 Bathroom with bathtub 4 Bathrooms with shower 1 Toilet 6 443 m² 443 m² Wi-Fi Wi-Fi",
+  "description": "Welcome to Villa Sina! Tucked away in the sought-after community of El Rosario, Marbella, Villa Sina is a charming blend of traditional Spanish design and modern comfort. This 5-bedroom property is perfect for families or groups, offering a flexible layout with a main house and a separate guest apartment. With three bedrooms in the main house and two more in the self-contained apartment, it’s an ideal setup for hosting family and friends while still maintaining privacy. The main house is warm and inviting, with a living room that features authentic details like a cozy fireplace and large windows that fill the space with natural light. The fully equipped kitchen is practical and modern, providing everything you need to cook up delicious meals, while the adjoining dining room is perfect for family dinners or entertaining guests. The three bedrooms in the main house are designed for relaxation, and the bathrooms combine traditional Spanish tiles with modern fixtures. The guest apartment adds an extra layer of convenience, with two comfortable bedrooms, its own living space, a stylish bathroom, and a compact kitchenette. The private entrance makes it perfect for extended family or visitors who prefer their own space. Should you not use the apartment, the cleaning fee will be reduced to €475. The final cleaning fee for the entire property is €650. Outside, the villa’s gardens are a true highlight. Surrounded by lush greenery and colourful flowers, the outdoor areas are designed for enjoying the Mediterranean lifestyle. The terraces are perfect for everything from morning coffee to evening cocktails, with a covered area for dining al fresco and a sunny spot for lounging. The centrepiece of the garden is a sparkling swimming pool, where you can cool off and unwind under the Spanish sun. El Rosario is known for its excellent location, and Villa Sina benefits from being close to some of the best beaches on the Costa del Sol. A short drive takes you to Las Chapas Beach, a stunning stretch of golden sand with crystal-clear waters and a selection of beach bars and restaurants where you can enjoy fresh seafood or a refreshing drink. For those who enjoy water sports, the nearby beaches also offer activities such as paddle-boarding and jet skiing. Just minutes away, you’ll find the Carrefour Market, a well-stocked supermarket located only a 2-minute drive from the villa, making grocery shopping quick and convenient. Additionally, the area is home to charming cafes, bakeries, and a variety of local and international restaurants, giving you plenty of options for dining out. For golf enthusiasts, the villa is surrounded by world-class golf courses, including Marbella Golf & Country Club and Santa Clara Golf, both offering stunning views and challenging courses. Families will appreciate the proximity to attractions such as Aventura Amazonia, an exciting treetop adventure park, and the Marbella Old Town, where you can explore cobblestone streets, boutique shops, and traditional Andalusian squares. Located in El Rosario, Villa Sina is just a short drive from Marbella’s lively center, stunning beaches, and top-notch golf courses. With secure parking for multiple vehicles, it’s easy to explore the best of the Costa del Sol while enjoying the tranquility of this exclusive neighbourhood. Villa Sina combines the charm of traditional architecture with the comfort of modern living. Whether you’re relaxing by the pool, enjoying the privacy of the guest apartment, or exploring the local area, this villa offers everything you need for a memorable stay in Marbella. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to welcoming you!",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -109,6 +109,9 @@
     "Alarm system",
     "Fireplace",
     "Ocean views",
+    "Dryer",
+    "Balcony",
+    "Laptop workspace",
     "100 m² terrace"
   ],
   "distances": [
@@ -134,16 +137,10 @@
     }
   ],
   "services_included": [
-    "Final Cleaning: € 650.00   / booking",
-    "Internet Access: Included",
-    "Towels:  Included"
+    "Final Cleaning: € 650.00   / booking Internet Access: Included Towels:  Included"
   ],
   "services_optional": [
-    "Air conditioning: Included",
-    "Baby high chair: € 25.00   / booking",
-    "Cot/Crib: € 35.00   / booking",
-    "Heating: Included",
-    "Open-air parking: Included"
+    "Air conditioning: Included Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heating: Included Open-air parking: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

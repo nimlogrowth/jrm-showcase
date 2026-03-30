@@ -31,7 +31,7 @@
   "bathrooms": "",
   "area": "115 m²",
   "plot": "",
-  "description": "Share Link copied Photos Add to favourites Favourites Share Description Review 10 occupants 6 2 Double beds 2 3 Bedrooms 3 2 bathrooms 2 115 m² 115 m² Wi-Fi Wi-Fi",
+  "description": "The ultimate in style and comfort, this Duplex Penthouse has it all. Renovated to high Scandinavian standards with the latest mod cons and contemporary furnishings and finishes, combining contemporary design with the most current fixtures, this holiday apartment lacks for nothing. Mountain views from the terraces, bright and spacious open plan living area and 3 comfortable bedrooms, all set in a beautiful Andalusian village-style complex a stone’s throw from all amenities. You could not want for more for your holidays in Marbella. The top floor is the Master suite with a unique glass-fronted ensuite bathroom with double showers. There is a desk next to the four-poster double bed. From here you can access the lovely roof terrace! There are 2 sunbeds and a seating area. This is the perfect space for sunbathing, or chilling while soaking up the mountain views. The entrance level is open plan and benefits from 2 terraces. There is a beautiful fully equipped kitchen and dining table for 6. The lounge features an L-shaped sofa and a large Smart TV. The terrace off the lounge enjoys the morning sun and mountain views is set up with a seating area. The second terrace captures the afternoon and evening sunshine and is a wonderful space for outdoor dining. There is a dining table for 6, a corner couch area, a gas BBQ, dishwasher, and sink. There are retractable awnings – perfect for summer lunches or dinner under the stars. There are 2 bedrooms on this level that share a bathroom. One bedroom has a bunk bed, and the second bedroom has a double bed. The Penthouse features hot/cold AC throughout, Wifi and a private parking space in the underground car park with lift access to the complex. Urbanisation La Maestranza is an ideal destination for families, couples and golfers. There is 24-hour security on site. There are 3 communal swimming pools (1 half Olympic size, 1 children & toddler pool and 1 all year round heated pool) all surrounded by beautifully maintained Mediterranean gardens. Supermarkets, pharmacies, shops, restaurants and bars are all within 2 minutes’ walk. The exciting and upmarket area of Puerto Banús is about a 10 minutes’ walk away where you can enjoy designer shops, a fantastic range of restaurants and a marina that is full of luxury boats. There are also sandy beaches with umbrellas and loungers for hire. The promenade from Puerto Banús to Marbella is now complete and it is great for cyclists and walkers. The area is surrounded by golf courses (in fact the area is known as Golf Valley) and virtually all welcome non-members on a daily or longer basis and most have equipment hire facilities. On Saturdays you can visit the large market in Centro Plaza. For those wishing to explore further, the bustling towns of Marbella and Estepona are a short drive away and in the hills the white villages of Istán, Ojén, Caceres and Ronda are well worth a visit. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to welcoming you!",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -54,12 +54,14 @@
     "BBQ",
     "Alarm system",
     "Secured parking",
+    "Balcony",
+    "Laptop workspace",
     "100 m² terrace"
   ],
   "distances": [
     {
       "place": "Airport",
-      "distance": "61 m"
+      "distance": "61 km"
     },
     {
       "place": "Shops",
@@ -99,17 +101,10 @@
     }
   ],
   "services_included": [
-    "Air conditioning: Included",
-    "Final Cleaning: € 230.00   / booking",
-    "Heated Pool: Included",
-    "Heating: Included",
-    "Internet Access: Included",
-    "Garage: Included",
-    "Towels:  Included"
+    "Air conditioning: Included Final Cleaning: € 230.00   / booking Heated Pool: Included Heating: Included Internet Access: Included Garage: Included Towels:  Included"
   ],
   "services_optional": [
-    "Baby high chair: € 25.00   / booking",
-    "Cot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

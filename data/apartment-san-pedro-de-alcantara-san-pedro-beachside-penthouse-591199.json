@@ -43,7 +43,7 @@
   "bathrooms": "",
   "area": "125 m²",
   "plot": "",
-  "description": "Share Link copied Photos Add to favourites Favourites Share Description occupants 7 1 King size bed 5 Single beds 6 3 Bedrooms 3 2 bathrooms 2 125 m² 125 m² Wi-Fi Wi-Fi",
+  "description": "Perfectly positioned in the vibrant heart of San Pedro de Alcántara, this stylish apartment offers the ultimate Costa del Sol lifestyle with 3 bedrooms, 2 bathrooms, and an additional full-size bed in a separate sleeping area. With the beach, restaurants, bars, and boutique shops all just a short stroll away, it’s the perfect base for soaking up everything this lively town has to offer. Inside, the home is bright and modern, with a spacious open-plan layout that includes a comfortable living area, dining space, and a fully equipped kitchen. The three main bedrooms are well-appointed, and the extra sleeping area offers added flexibility for families or groups. Both bathrooms are cleanly finished, offering all the essentials for a relaxed stay. One of the apartment’s standout features is its huge private roof terrace—a rare find this close to the action. Whether you’re enjoying sun-soaked afternoons, sunset drinks, or alfresco dining, this space gives you a private outdoor oasis in the middle of town. Guests also benefit from access to a community swimming pool, perfect for cooling off on warm days. If you're searching for a well-located, comfortable getaway in San Pedro, this apartment has it all—sun, space, and unbeatable convenience. Please note, to maintain the peaceful and luxurious environment, we welcome families and couples only. Groups under 30, or those planning stag or hen parties, are not permitted. However, if you feel this place is the right fit for your group, we invite you to reach out and tell us more about yourselves — we’re always happy to consider special requests.",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -64,6 +64,8 @@
     "Central heating",
     "Secured parking",
     "Ocean views",
+    "Mountain views",
+    "Balcony",
     "165 m² terrace"
   ],
   "distances": [
@@ -97,17 +99,10 @@
     }
   ],
   "services_included": [
-    "Final Cleaning: € 400.00   / booking",
-    "Internet Access: Included",
-    "Garage: Included",
-    "Towels:  Included"
+    "Final Cleaning: € 400.00   / booking Internet Access: Included Garage: Included Towels:  Included"
   ],
   "services_optional": [
-    "Air conditioning: Included",
-    "Baby high chair: € 25.00   / booking",
-    "Cot/Crib: € 35.00   / booking",
-    "Extra beds: € 100.00   / booking",
-    "Heating: Included"
+    "Air conditioning: Included Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Extra beds: € 100.00   / booking Heating: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

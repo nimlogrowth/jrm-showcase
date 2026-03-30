@@ -29,7 +29,7 @@
     .hero { height: 420px !important; }
     .gallery-grid img { break-inside: avoid; }
     .page-break { page-break-before: always; }
-    .map-container, .lightbox, .back-link { display: none !important; }
+    .map-container, .lightbox, .back-link, .print-btn { display: none !important; }
     @page { margin: 12mm; }
   }
   .back-link {
@@ -49,6 +49,25 @@
     transition: background 0.15s;
   }
   .back-link:hover { background: var(--white); }
+  .print-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    padding: 10px 18px;
+    border-radius: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--charcoal);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    transition: background 0.15s;
+  }
+  .print-btn:hover { background: var(--white); }
   .hero {
     position: relative;
     width: 100%;
@@ -342,6 +361,7 @@
 <body>
 
 <a href="index.html" class="back-link">&#8592; All Properties</a>
+<button class="print-btn" onclick="window.print()">Save as PDF</button>
 
 <div class="hero">
   <img src="https://www.justrentmarbella.com/rentals/fotos/2/167846087568850e78536d319814aad48e00ab7fb1/16784608831a94503b3aaefa702f18a5bcdfcf6635.jpg" alt="Villa Boheme">
@@ -358,7 +378,7 @@
       <div class="fact-label">Bedrooms</div>
     </div>
     <div class="fact">
-      <div class="fact-value">10</div>
+      <div class="fact-value">5</div>
       <div class="fact-label">Bathrooms</div>
     </div>
     <div class="fact">
@@ -373,7 +393,7 @@
 
   <div class="section">
     <h2 class="section-title">About the Property</h2>
-    <p>Share Link copied Photos Add to favourites Favourites Share Description occupants 10 4 King size beds 4 4 Bedrooms 4 4 Bathrooms with shower 1 Toilet 5 434 m² 434 m² Wi-Fi Wi-Fi</p>
+    <p>Timeless luxury coupled with an unconventional style and less than a 2-minute walk to the beach, this comfortable 4-bedroom villa is a perfect choice for your stay in Marbella. Upon entry, you are welcomed by a spacious courtyard lined with a tropical garden. From the front door, you step into the hall which broadens to an open-plan living area flowing into both the kitchen and dining area. Floor-to-ceiling windows brighten the inner space and provide views into the garden and pool area. The fully equipped kitchen is ideal for recipe exploration, the dining table is perfect for enjoying your home-cooked meals, and the outer dining area lets you bask in the fresh air while you feast in the warmer months of the year. The ground floor offers the first bedroom and bathroom. The first floor boasts another two bedrooms. The first with a double bed and its ensuite bathroom and large open plan windows facing out into the garden. The second is the impressive Master Bedroom which has a desk, Smart TV, a large ensuite bathroom and extends into a large private terrace. In the basement, you will find the 4th large bedroom which is also ensuite. The basement holds a large and spacious living area with plenty of light which opens to a patio, a private gym area, as well as an extra bathroom. It also has a double sofa bed and a kitchenette should you want to host or have staff members who can make use of it. The stunning solarium rooftop terrace is one of the best areas to enjoy the mornings as well as evenings! A bubbly jacuzzi, outdoor shower, large lounge area, BBQ, and outdoor kitchen make this a lovely spot for gatherings and long nights. The house is of course equipped with a state-of-the-art domotic system. Further features include secure parking space for 2 cars, air conditioning, and underfloor heating throughout the home. Not to mention the elevator which allows easy access to all parts of the home. Pool heating is also available at an additional cost, bookable a week in advance. For bookings over 7 days, there is a weekly clean included. Rio Verde is one of the most sought-after residential areas of Marbella, with several restaurants and shops within 5 minutes walking distance, and a short stroll of about 15 to 20 minutes lands you right at Puerto Banús, or if you head the other way to the Marbella Club &amp; Puente Romano Resort. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. Don’t forget to enquire about our concierge services! We look forward to welcoming you!</p>
   </div>
 
   <div class="section">
@@ -415,6 +435,10 @@
       <span class="tag">Lift</span>
       <span class="tag">Secured parking</span>
       <span class="tag">Ocean views</span>
+      <span class="tag">Dryer</span>
+      <span class="tag">Outdoor shower</span>
+      <span class="tag">Balcony</span>
+      <span class="tag">Laptop workspace</span>
     </div>
   </div>
 
@@ -519,7 +543,7 @@
       </div>
       <div class="distance-row">
         <div class="distance-place"><span class="distance-dot"></span>Airport</div>
-        <div class="distance-value">57 m</div>
+        <div class="distance-value">57 km</div>
       </div>
       <div class="distance-row">
         <div class="distance-place"><span class="distance-dot"></span>Bus station</div>
@@ -561,18 +585,11 @@
     <div class="services-columns">
       <div class="service-group">
         <h4>Included</h4>
-        <div class="service-item">Air conditioning: Included</div>
-        <div class="service-item">Final Cleaning: € 500.00   / booking</div>
-        <div class="service-item">Heating: Included</div>
-        <div class="service-item">Internet Access: Included</div>
-        <div class="service-item">Open-air parking: Included</div>
-        <div class="service-item">Towels:  Included</div>
+        <div class="service-item">Air conditioning: Included Final Cleaning: € 500.00   / booking Heating: Included Internet Access: Included Open-air parking: Included Towels:  Included</div>
       </div>
       <div class="service-group">
         <h4>Optional</h4>
-        <div class="service-item">Baby high chair: € 25.00   / booking</div>
-        <div class="service-item">Cot/Crib: € 35.00   / booking</div>
-        <div class="service-item">Heated Pool: € 72.00   / night</div>
+        <div class="service-item">Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heated Pool: € 72.00   / night</div>
       </div>
     </div>
     <div class="checkin-bar">

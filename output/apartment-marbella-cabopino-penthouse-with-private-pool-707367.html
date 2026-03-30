@@ -29,7 +29,7 @@
     .hero { height: 420px !important; }
     .gallery-grid img { break-inside: avoid; }
     .page-break { page-break-before: always; }
-    .map-container, .lightbox, .back-link { display: none !important; }
+    .map-container, .lightbox, .back-link, .print-btn { display: none !important; }
     @page { margin: 12mm; }
   }
   .back-link {
@@ -49,6 +49,25 @@
     transition: background 0.15s;
   }
   .back-link:hover { background: var(--white); }
+  .print-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    padding: 10px 18px;
+    border-radius: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--charcoal);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    transition: background 0.15s;
+  }
+  .print-btn:hover { background: var(--white); }
   .hero {
     position: relative;
     width: 100%;
@@ -342,6 +361,7 @@
 <body>
 
 <a href="index.html" class="back-link">&#8592; All Properties</a>
+<button class="print-btn" onclick="window.print()">Save as PDF</button>
 
 <div class="hero">
   <img src="https://www.justrentmarbella.com/rentals/fotos/3/1773065001b05dc1038f515d99003f6e948c325b2c/1773065014a2d71af9ff9d036f7143b53091d6660f.jpg" alt="Cabopino Penthouse with Private Pool">
@@ -373,7 +393,7 @@
 
   <div class="section">
     <h2 class="section-title">About the Property</h2>
-    <p>Share Link copied Photos Add to favourites Favourites Share Description occupants 8 3 Double beds 3 3 Bedrooms 3 3 bathrooms 3 304 m² 304 m² Wi-Fi Wi-Fi</p>
+    <p>Welcome to our Cabopino Penthouse! This exceptional 3-bedroom duplex penthouse offers some of the most breathtaking sea views in the area, combining modern design, generous living space and spectacular outdoor areas for a truly elevated stay. The main level features a bright open-plan layout with a sleek contemporary kitchen, spacious dining area and stylish lounge, all framed by floor-to-ceiling sliding glass doors that flood the interior with natural light and seamlessly connect the living spaces to the terrace. The three bedrooms are beautifully presented, while all 3 bathrooms are finished in a modern style and fitted with elegant rain showers, giving the property a refined and luxurious feel throughout. What truly sets this penthouse apart is its outstanding outdoor living. In addition to the three main bedrooms, there is an extra room upstairs leading to the roof terrace, complete with a sleeping sofa that can accommodate 2 additional guests. The rooftop is a real showstopper, with crazy panoramic sea views, generous lounge areas, sun loungers, an outdoor dining space, BBQ area, and a private plunge pool positioned to enjoy the very best of the scenery. Designed for both relaxation and entertaining, this upper terrace creates an unforgettable setting from sunrise to sunset, while the lower terrace continues the indoor-outdoor flow with more space to unwind and take in the views. Set in Venere Marbella in Cabopino, the property enjoys a fantastic location close to some of East Marbella’s most popular highlights. Cabopino Beach and the protected Artola dunes are nearby, and the marina area is perfect for relaxed seafront dining and waterside strolls. For everyday essentials, there are several supermarkets within a short drive, including SuperCor Express at Cabopino marina, while Mercadona, Lidl and Carrefour are all reachable in around 5–10 minutes by car. The area is also well placed for golf, beach days and easy airport access, with Málaga Airport roughly 38–39 km away, or around a 25–30 minute drive depending on traffic. Altogether, this is a stunning penthouse that perfectly blends comfort, style and standout coastal living. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to welcoming you.</p>
   </div>
 
   <div class="section">
@@ -403,6 +423,7 @@
       <span class="tag">BBQ</span>
       <span class="tag">Secured parking</span>
       <span class="tag">Ocean views</span>
+      <span class="tag">Dryer</span>
     </div>
   </div>
 
@@ -490,17 +511,11 @@
     <div class="services-columns">
       <div class="service-group">
         <h4>Included</h4>
-        <div class="service-item">Final Cleaning: € 350.00   / booking</div>
-        <div class="service-item">Internet Access: Included</div>
-        <div class="service-item">Garage: Included</div>
-        <div class="service-item">Towels:  Included</div>
+        <div class="service-item">Final Cleaning: € 350.00   / booking Internet Access: Included Garage: Included Towels:  Included</div>
       </div>
       <div class="service-group">
         <h4>Optional</h4>
-        <div class="service-item">Air conditioning: Included</div>
-        <div class="service-item">Baby high chair: € 25.00   / booking</div>
-        <div class="service-item">Cot/Crib: € 35.00   / booking</div>
-        <div class="service-item">Heating: Included</div>
+        <div class="service-item">Air conditioning: Included Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heating: Included</div>
       </div>
     </div>
     <div class="checkin-bar">

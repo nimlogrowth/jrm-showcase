@@ -49,7 +49,7 @@
   "bathrooms": "",
   "area": "365 m²",
   "plot": "",
-  "description": "Share Link copied Photos Add to favourites Favourites Share Description occupants 10 5 King size beds 5 5 Bedrooms 5 5 bathrooms 5 365 m² 365 m² Wi-Fi Wi-Fi",
+  "description": "Welcome to Villa Las Brisas, a spectacular frontline golf villa set directly on the prestigious Las Brisas Golf Course in the heart of Nueva Andalucía. This 5-bedroom, 5-bathroom residence delivers panoramic views over manicured fairways and the iconic La Concha mountain, offering the perfect blend of luxury, location, and lifestyle. Designed with both relaxation and entertainment in mind, the villa combines elegant modern interiors with a warm, inviting ambiance that flows seamlessly from indoor to outdoor living. Each of the five spacious bedrooms is en-suite, ensuring privacy and comfort for every guest. The open-plan living area is bright and airy, leading to a sleek, fully equipped kitchen and refined dining space. Floor-to-ceiling windows frame breathtaking views and open out to the villa’s expansive terrace and beautifully landscaped garden. Outdoors, a stunning private pool takes centre stage, surrounded by sun loungers, a stylish fire pit corner, and lush greenery—perfect for soaking up the Marbella sun or enjoying an evening under the stars. Villa Las Brisas is made for entertainment. The lower level features a fantastic recreational space complete with a cinema-style lounge, pool table, and a fully equipped gym. Whether you're hosting family and friends or enjoying a peaceful retreat, this villa offers every amenity to make your stay unforgettable. Located just minutes from top golf courses, restaurants, boutiques, and Puerto Banús, Villa Las Brisas is the ultimate escape for those seeking the best of Marbella. This is not just a villa—it’s a lifestyle. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -85,7 +85,9 @@
     "Gym / fitness",
     "Alarm system",
     "Fireplace",
-    "Secured parking"
+    "Secured parking",
+    "Dryer",
+    "Balcony"
   ],
   "distances": [
     {
@@ -122,16 +124,10 @@
     }
   ],
   "services_included": [
-    "Final Cleaning: € 550.00   / booking",
-    "Internet Access: Included",
-    "Garage: Included",
-    "Towels:  Included"
+    "Final Cleaning: € 550.00   / booking Internet Access: Included Garage: Included Towels:  Included"
   ],
   "services_optional": [
-    "Air conditioning: Included",
-    "Baby high chair: € 25.00   / booking",
-    "Cot/Crib: € 35.00   / booking",
-    "Heating: Included"
+    "Air conditioning: Included Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heating: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

@@ -37,10 +37,10 @@
   ],
   "guests": "4",
   "bedrooms": "2",
-  "bathrooms": "4",
+  "bathrooms": "2",
   "area": "88 m²",
   "plot": "",
-  "description": "Share Link copied Photos Add to favourites Favourites Share Description Review 9 occupants 4 1 King size bed 2 Single beds 3 2 Bedrooms 2 1 Bathroom with bathtub 1 Bathroom with shower 2 88 m² 88 m² Wi-Fi Wi-Fi",
+  "description": "Welcome to your Holiday Paradise! This bright and spacious apartment, located in an award-winning complex with luxurious facilities, is your perfect getaway. It’s light, modern, and thoughtfully designed, featuring a large south-facing terrace overlooking the pool. Ideal for family vacations or holidays with friends, the apartment offers generous living spaces and an open American kitchen, perfect for socializing. The kitchen is fully equipped to make your stay effortless and enjoyable, with a dining table for four to savor meals and play games. The living room is furnished with a comfy couch and a smart TV. Step outside to the beautiful terrace, perfect for morning coffee, afternoon relaxing, and evening dinners. The terrace includes plenty of seating and a dining table with a parasol. There are two bright and spacious bedrooms. The master bedroom includes an ensuite bathroom with a shower and bathtub and has glass doors opening to the terrace. The second bedroom has a double bed, ample closet space, and a bathroom right outside the door. Located in the stunning Aloha Hill Club, the complex features tropical gardens, three large pools, and a poolside restaurant and bar. Additional amenities available at a surcharge include a gym, sauna, spa services, children’s club, shuttle services, and daily fresh-baked bread. Just minutes away are Puerto Banus and the heart of Marbella, with its charming old town, parks, and the famous Promenade “Paseo Maritimo.” Golf lovers will find numerous top-notch courses within a short drive. Nearby attractions include water parks, Selwo Marina, Selwo Aventura Safari Park, a butterfly park, and the Crocodile Park. Please note, we welcome families and couples only, no groups under 30, and no hen or stag parties. If you fall outside these categories but still wish to book, please send us an inquiry with details about your group. Book your holiday today! We look forward to welcoming you.",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -59,7 +59,9 @@
     "BBQ",
     "Gym / fitness",
     "Lift",
-    "Secured parking"
+    "Secured parking",
+    "Laptop workspace",
+    "Pool towels"
   ],
   "distances": [
     {
@@ -116,17 +118,10 @@
     }
   ],
   "services_included": [
-    "Air conditioning: Included",
-    "Final Cleaning: € 190.00   / booking",
-    "Heated Pool: Included",
-    "Heating: Included",
-    "Internet Access: Included",
-    "Garage: Included",
-    "Towels:  Included"
+    "Air conditioning: Included Final Cleaning: € 190.00   / booking Heated Pool: Included Heating: Included Internet Access: Included Garage: Included Towels:  Included"
   ],
   "services_optional": [
-    "Baby high chair: € 25.00   / booking",
-    "Cot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

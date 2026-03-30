@@ -29,7 +29,7 @@
     .hero { height: 420px !important; }
     .gallery-grid img { break-inside: avoid; }
     .page-break { page-break-before: always; }
-    .map-container, .lightbox, .back-link { display: none !important; }
+    .map-container, .lightbox, .back-link, .print-btn { display: none !important; }
     @page { margin: 12mm; }
   }
   .back-link {
@@ -49,6 +49,25 @@
     transition: background 0.15s;
   }
   .back-link:hover { background: var(--white); }
+  .print-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    padding: 10px 18px;
+    border-radius: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--charcoal);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    transition: background 0.15s;
+  }
+  .print-btn:hover { background: var(--white); }
   .hero {
     position: relative;
     width: 100%;
@@ -342,6 +361,7 @@
 <body>
 
 <a href="index.html" class="back-link">&#8592; All Properties</a>
+<button class="print-btn" onclick="window.print()">Save as PDF</button>
 
 <div class="hero">
   <img src="https://www.justrentmarbella.com/rentals/fotos/3/1742997977455cf90dd808bf728a49ebb9d1adc24d/17429979788e507324da9c3d2cf57b3223714526be.jpg" alt="Magna Views">
@@ -358,7 +378,7 @@
       <div class="fact-label">Bedrooms</div>
     </div>
     <div class="fact">
-      <div class="fact-value">4</div>
+      <div class="fact-value">2</div>
       <div class="fact-label">Bathrooms</div>
     </div>
     <div class="fact">
@@ -373,7 +393,7 @@
 
   <div class="section">
     <h2 class="section-title">About the Property</h2>
-    <p>Share Link copied Photos Add to favourites Favourites Share Description occupants 4 2 King size beds 2 2 Bedrooms 2 2 Bathrooms with shower 2 120 m² 120 m² Wi-Fi Wi-Fi</p>
+    <p>Perched in one of Nueva Andalucía’s most recognized and well-positioned buildings, this spacious 2-bedroom, 2-bathroom apartment in Magna Marbella offers a rare combination of panoramic views, refined comfort, and unbeatable location. The property boasts incredible views stretching from the golf course to the sea, which can be enjoyed from both the generous terrace and the main living spaces. Whether you&#x27;re relaxing outdoors or entertaining guests, the setting is nothing short of spectacular. Inside, the apartment is semi-renovated, featuring a bright open-plan living and dining area with marble flooring and direct terrace access. The kitchen is sleek and modern, fitted with updated appliances and clean cabinetry, blending functionality with contemporary style. Both bedrooms are spacious and serene, including a generous primary suite with ample wardrobe space and a private ensuite bathroom. Each room has been thoughtfully designed to capture natural light and maximise the sense of space. The apartment overall offers plenty of room to spread out, making it ideal for both full-time living and high-end holiday use. Situated directly adjacent to Magna Marbella Golf — a 9-hole course with a beloved clubhouse restaurant — the location is as convenient as it is prestigious. Within just a few minutes’ drive you’ll reach Puerto Banús, Aloha, and a variety of top-tier golf courses, restaurants, and beaches, placing you at the heart of the Costa del Sol lifestyle. The complex itself is beautifully maintained with lush gardens, a large communal pool, and gated security — a true oasis of calm just moments from Marbella’s vibrant energy. Whether you&#x27;re seeking a stylish holiday base, a luxury rental investment, or a permanent residence in one of Marbella’s most iconic developments, this Magna Marbella gem ticks every box. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.</p>
   </div>
 
   <div class="section">
@@ -402,6 +422,9 @@
       <span class="tag">Central heating</span>
       <span class="tag">Secured parking</span>
       <span class="tag">Ocean views</span>
+      <span class="tag">Dryer</span>
+      <span class="tag">Balcony</span>
+      <span class="tag">Pool towels</span>
     </div>
   </div>
 
@@ -494,17 +517,11 @@
     <div class="services-columns">
       <div class="service-group">
         <h4>Included</h4>
-        <div class="service-item">Final Cleaning: € 250.00   / booking</div>
-        <div class="service-item">Internet Access: Included</div>
-        <div class="service-item">Garage: Included</div>
-        <div class="service-item">Towels:  Included</div>
+        <div class="service-item">Final Cleaning: € 250.00   / booking Internet Access: Included Garage: Included Towels:  Included</div>
       </div>
       <div class="service-group">
         <h4>Optional</h4>
-        <div class="service-item">Air conditioning: Included</div>
-        <div class="service-item">Baby high chair: € 25.00   / booking</div>
-        <div class="service-item">Cot/Crib: € 35.00   / booking</div>
-        <div class="service-item">Heating: Included</div>
+        <div class="service-item">Air conditioning: Included Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heating: Included</div>
       </div>
     </div>
     <div class="checkin-bar">

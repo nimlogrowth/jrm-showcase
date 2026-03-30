@@ -29,7 +29,7 @@
     .hero { height: 420px !important; }
     .gallery-grid img { break-inside: avoid; }
     .page-break { page-break-before: always; }
-    .map-container, .lightbox, .back-link { display: none !important; }
+    .map-container, .lightbox, .back-link, .print-btn { display: none !important; }
     @page { margin: 12mm; }
   }
   .back-link {
@@ -49,6 +49,25 @@
     transition: background 0.15s;
   }
   .back-link:hover { background: var(--white); }
+  .print-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    padding: 10px 18px;
+    border-radius: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--charcoal);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    transition: background 0.15s;
+  }
+  .print-btn:hover { background: var(--white); }
   .hero {
     position: relative;
     width: 100%;
@@ -342,6 +361,7 @@
 <body>
 
 <a href="index.html" class="back-link">&#8592; All Properties</a>
+<button class="print-btn" onclick="window.print()">Save as PDF</button>
 
 <div class="hero">
   <img src="https://www.justrentmarbella.com/rentals/fotos/2/16862335674571ca68650e4bcccb330258da9d59ca/1686233569ed6d18aaa6e90b1c24594df0b54244ae.jpg" alt="Villa La Quinta">
@@ -358,7 +378,7 @@
       <div class="fact-label">Bedrooms</div>
     </div>
     <div class="fact">
-      <div class="fact-value">12</div>
+      <div class="fact-value">6</div>
       <div class="fact-label">Bathrooms</div>
     </div>
     <div class="fact">
@@ -377,7 +397,7 @@
 
   <div class="section">
     <h2 class="section-title">About the Property</h2>
-    <p>Share Link copied Photos Add to favourites Favourites Share Description occupants 10 1 King size bed 4 Double beds 5 5 Bedrooms 5 1 Bathroom with bathtub 4 Bathrooms with shower 1 Toilet 6 520 m² 520 m² Wi-Fi Wi-Fi</p>
+    <p>This breath-taking 5-bed Villa boasts amazing sea, golf, and mountain views and ticks all the boxes for a perfect family holiday! Villa La Quinta sits snug in the exclusive La Quinta neighbourhood in the hills overlooking Marbella, just off Nueva Andalucia, one of the most desired locations due to its great restaurants and amenities, all just a short drive from Marbella town and Puerto Banús and San Pedro. A new build with nothing but the highest specifications: a large outdoor pool, cozy home cinema, sprawling gardens, and much more – this is the perfect retreat for a large family or group of friends looking to relax and unwind in luxurious comfort and privacy. This spectacular property is beautifully crafted with a modern Scandinavian touch. Clean and minimalist tones give a sense of cool and elegant luxury, and the large and vibrant artwork and ornaments add some fantastic flavour to the vibe this home has. As you head upstairs, the Master Bedroom is of course stunning. The bed faces straight out onto the private terrace, and you have the pleasure of waking up to the serene views that span a full 180 degrees from the mountains to the left as far as the sea to your right. The ensuite bathroom here also has a lovely bathtub and rain shower, and the room has a Smart TV. The second and third bedrooms are similar in style, both sport a comfy double bed and are both ensuite with standing showers once again with their own private terraces. The spacious and fully equipped kitchen is top class and has a dreamy open plan design combining a dining area. Sleek white cabinets, white marble countertops, light-toned tiling, along with top-of-the-range appliances. Second to none when it comes to exploring your favourite recipes! Villa La Quinta boasts 2 separate dining areas, one indoors and one outdoors on the terrace. The terrace and outdoor area are the highlights of Villa La Quinta. The partially covered terrace has 2 chill-out lounge areas, separated by a unique steppingstone ‘bridge’ over the pool. The infinity pool (with the option to heat at an additional weekly cost) is surrounded by the manicured tropical gardens and there is a range of sunbeds for your enjoyment. The home has various lounge areas for you to enjoy, whether it be inside or outside, you will be spoilt for choice. Downstairs is the amazing Cinema Room – featuring a massive screen and sound system as well as a soft plush couch that spreads across the room, you are sure to have a wonderful viewing experience! On this lower floor, you will also find a further 2 bedrooms. These 2 bedrooms are perfect for teens or those looking for a little more privacy away from the rest of the group. They both have double beds and share a bathroom that sits between them with access doors on either side. The home has a shaded parking area for 2 cars. The villa has hot and cold AC, smoke detectors, high-speed WiFi connection, underfloor heating, electric blinds, and a full alarm system. This truly is an outstanding property and would suit a family looking for peaceful holidays enjoying the luxury and exceptional views from the first floor. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. Don’t forget to enquire about our concierge service! We look forward to welcoming you.</p>
   </div>
 
   <div class="section">
@@ -423,6 +443,8 @@
       <span class="tag">Alarm system</span>
       <span class="tag">Secured parking</span>
       <span class="tag">Ocean views</span>
+      <span class="tag">Dryer</span>
+      <span class="tag">Balcony</span>
       <span class="tag">200 m² terrace</span>
     </div>
   </div>
@@ -483,7 +505,7 @@
     <div class="distances-grid">
       <div class="distance-row">
         <div class="distance-place"><span class="distance-dot"></span>Airport</div>
-        <div class="distance-value">65 m</div>
+        <div class="distance-value">65 km</div>
       </div>
       <div class="distance-row">
         <div class="distance-place"><span class="distance-dot"></span>Golf course</div>
@@ -529,18 +551,11 @@
     <div class="services-columns">
       <div class="service-group">
         <h4>Included</h4>
-        <div class="service-item">Air conditioning: Included</div>
-        <div class="service-item">Final Cleaning: € 575.00   / booking</div>
-        <div class="service-item">Heating: Included</div>
-        <div class="service-item">Internet Access: Included</div>
-        <div class="service-item">Open-air parking: Included</div>
-        <div class="service-item">Towels:  Included</div>
+        <div class="service-item">Air conditioning: Included Final Cleaning: € 575.00   / booking Heating: Included Internet Access: Included Open-air parking: Included Towels:  Included</div>
       </div>
       <div class="service-group">
         <h4>Optional</h4>
-        <div class="service-item">Baby high chair: € 25.00   / booking</div>
-        <div class="service-item">Cot/Crib: € 35.00   / booking</div>
-        <div class="service-item">Heated Pool: € 90.00   / night</div>
+        <div class="service-item">Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heated Pool: € 90.00   / night</div>
       </div>
     </div>
     <div class="checkin-bar">

@@ -51,10 +51,10 @@
   ],
   "guests": "11",
   "bedrooms": "6",
-  "bathrooms": "10",
+  "bathrooms": "5",
   "area": "350 m²",
   "plot": "",
-  "description": "Share Link copied Photos Add to favourites Favourites Share Description Review 9 occupants 11 5 Double beds 1 Single bed 6 6 Bedrooms 6 2 Bathrooms with bathtub 2 Bathrooms with shower 1 Toilet 5 350 m² 350 m² Wi-Fi Wi-Fi",
+  "description": "Villa Feliz is the perfect 6-bed family villa for those that appreciate luxury, rest and the serene beauty of Spain’s Andalucia region. The villa has been refurbished and decorated to a very high standard, with modern and trendy artwork and fittings, and many featured extras. It is bright, spacious, and equipped with all the mod cons you may seek on your family holiday. Situated on the Paraíso Hill overlooking the golf course, 15 minutes from Marbella and 10 from Puerto Banús, Villa Feliz enjoys views phenomenal sea, golf, and mountain views. From the entrance hallway (with guest toilet), you find the Living Room with a dining table, large sofa, Fireplace, TV, and access out to the large main terrace as well as a second terrace that has a small table and chairs. All the terraces have amazing views of the Mediterranean Sea to Gibraltar and Africa! The open-plan kitchen has a breakfast bar and is elegantly fully fitted in black. There is access to the main terrace which features an outdoor dining table, a BBQ, and a lounge corner that overlooks the pool. Also on the entrance level are two bedrooms; both with a double bed and TV. They share a bathroom with a bathtub. Upstairs is the Master Suite with an ensuite bathroom with a double walk-in shower. The bedroom has great open views, which can also be enjoyed from the large Fatboy hammock on the terrace. There is a great upper terrace with an outdoor lounge area, a super Hanging Chair, and a dining table. With South-West orientation, the terrace enjoys lots of sunshine and boundless open views. There is a second bedroom on this level, with two single beds, a desk with open views, and an en-suite bathroom with a bathtub. Downstairs is where the entertainment happens! There is a living room with a second seating area, a Pool Table, and a kitchenette with a fridge and dishwasher. There is a bedroom/office with a desk and sofa (which can convert to a double bed) and an en-suite bathroom, with a walk-in shower – great for remote working! There is a lovely Yoga/Workout room and an amazing Cinema Room with speakers in the ceiling, providing awesome surround sound! Also on this level is a Double Bedroom with an ensuite bathroom that has a walk-in shower and a jacuzzi bath. And there is also a large Laundry room with a washer and dryer. From the downstairs lounge, you have another terrace with lounge/chillout furniture including 6 sun loungers, and a large, 3 persons, 2.5m wide Ocean Club style bed… just perfect for chilling out watching the action in the pool! From here you step down to the manicured garden and pool. The pool area has 100% privacy, not a single view of other houses, and features lovely wooden decking (great for not burning the feet on hot Summer days!) There is a shower, 4 sun loungers, a round sunbed, and a fab bar area. The pool has distinctive black tiles and the option to heat in the Winter. There is a PingPong table and a large trampoline in the garden too! The villa is fitted with Sonos, has hot/cold aircon, and strong wifi. The terraces also feature ceiling fans and wall-mounted heaters – ideal for Summer alfresco dining or for the Winter evenings. There is covered parking for 3 cars. The location is of the villa is close to amenities, yet peaceful and quiet, so you get the best of both worlds. It is only a short drive from some of the best beaches along the Costa del Sol. Make the 5-minute trip to San Pedro for a relaxed afternoon on the golden beaches, or the 10-minute drive to Puerto Banús. There is a golf course just a few hundred meters away, and all amenities like supermarkets and restaurants just a little over a kilometer away. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. Don’t forget to enquire about our concierge service! We look forward to welcoming you.",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -95,6 +95,8 @@
     "Gym / fitness",
     "Fireplace",
     "Ping pong",
+    "Dryer",
+    "Laptop workspace",
     "240 m² terrace"
   ],
   "distances": [
@@ -140,17 +142,10 @@
     }
   ],
   "services_included": [
-    "Air conditioning: Included",
-    "Final Cleaning: € 650.00   / booking",
-    "Heating: Included",
-    "Internet Access: Included",
-    "Open-air parking: Included",
-    "Towels:  Included"
+    "Air conditioning: Included Final Cleaning: € 650.00   / booking Heating: Included Internet Access: Included Open-air parking: Included Towels:  Included"
   ],
   "services_optional": [
-    "Baby high chair: € 25.00   / booking",
-    "Cot/Crib: € 35.00   / booking",
-    "Heated Pool: € 58.00   / night"
+    "Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heated Pool: € 58.00   / night"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

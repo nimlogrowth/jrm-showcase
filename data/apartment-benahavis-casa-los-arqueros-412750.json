@@ -32,10 +32,10 @@
   ],
   "guests": "4",
   "bedrooms": "2",
-  "bathrooms": "4",
+  "bathrooms": "2",
   "area": "120 m²",
   "plot": "",
-  "description": "Share Link copied Photos Add to favourites Favourites Share Description Review 10 occupants 4 1 Double bed 2 Single beds 3 2 Bedrooms 2 2 Bathrooms with shower 2 120 m² 120 m² Wi-Fi Wi-Fi",
+  "description": "A delightful 2-bedroom duplex apartment within La Finca Los Arqueros. This penthouse apartment benefits from breathtaking views of the sea and mountains and has its very own solarium sun terrace on the rooftop, with various sunbeds allowing you to soak up the sun and enjoy the al-fresco dining with outdoor dining amenities and BBQ. Casa Los Arqueros is beautifully decorated and furnished in a contemporary boho-chic style with soothing neutral tones and elegant and comfortable furnishings. The open plan living/dining room with modern furniture, has doors leading onto the first chill-out terrace that offers a comfy outdoor lounge area overlooking the swimming pool and amazing coast views. Casa Los Arqueros has two double bedrooms with the Master having direct access to the front terrace and its own ensuite bathroom with shower. The second bedroom has twin single beds. The family bathroom with walk-in shower is located next to the second bedroom. The apartment has a modern and fully equipped galley kitchen, as well as a separate utility room with full laundry facilities. Casa Los Arqueros is fitted with high-speed internet and aircon throughout. There is an outdoor parking space within the community. This beautifully situated apartment, set on the picturesque grounds of Finca Los Arqueros with its glorious pool and gardens, is the perfect holiday retreat. The location allows the more active guests the chance to explore further afield and enjoy the culture and fun of the coast. This is the perfect holiday location to relax and make memories. The Los Arqueros Golf and Country Club is a short walk from the apartment, offering tennis, padel, bowling, and golf facilities. The complex boasts a fabulous swimming pool with mature gardens and spectacular views. This is the perfect getaway for relaxing and exploring the culture of the beautiful Spanish coast. The onsite facilities are great. The gorgeous pool area is the perfect place to relax and unwind Whether you venture out or prefer to stay close to home and relax, this accommodation will not disappoint. Casa Los Arqueros is located close to the best attractions the coast has to offer: 8 Minutes’ drive to the exclusive Puerto Banús boasting the best in dining, beach clubs, and bars, and a 10 minute drive to Marbella Beach and the Old Town with its traditional Spanish restaurants and stunning beachfront lined with fantastic tapas bars. The Gastronomic village of Benahavis is only a short drive away and a location not to be missed! We look forward to welcoming you!",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -58,6 +58,7 @@
     "Alarm system",
     "Secured parking",
     "Ocean views",
+    "Balcony",
     "100 m² terrace"
   ],
   "distances": [
@@ -103,16 +104,10 @@
     }
   ],
   "services_included": [
-    "Air conditioning: Included",
-    "Final Cleaning: € 180.00   / booking",
-    "Heating: Included",
-    "Internet Access: Included",
-    "Open-air parking: Included",
-    "Towels:  Included"
+    "Air conditioning: Included Final Cleaning: € 180.00   / booking Heating: Included Internet Access: Included Open-air parking: Included Towels:  Included"
   ],
   "services_optional": [
-    "Baby high chair: € 25.00   / booking",
-    "Cot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

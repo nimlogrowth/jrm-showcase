@@ -52,7 +52,7 @@
   "bathrooms": "",
   "area": "420 m²",
   "plot": "",
-  "description": "Share Link copied Photos Add to favourites Favourites Share Description occupants 10 5 King size beds 5 5 Bedrooms 5 5 bathrooms 5 420 m² 420 m² Wi-Fi Wi-Fi",
+  "description": "Welcome to Villa Imagine, a newly built 5-bedroom, 5-bathroom contemporary retreat tucked away in the prestigious gated community of Monte Mayor. Surrounded by unspoiled nature and perched high in the hills, this luxury villa offers an oasis of calm with uninterrupted panoramic views stretching across the valley and out to the sea. Designed with clean architectural lines and expansive glass throughout, the villa is bathed in natural light and offers a seamless indoor-outdoor living experience. The main living area is open and inviting, flowing into a fully equipped modern kitchen and dining space—perfect for relaxing or entertaining in understated luxury. Each of the five bedrooms is spacious and beautifully appointed, all with elegant en-suite bathrooms and floor-to-ceiling windows to capture the surrounding scenery. A dedicated office area provides a calm space for remote work or quiet reading, while the villa’s three-level layout ensures privacy and comfort for every guest. Outside, the villa boasts a striking infinity-edge pool overlooking the hills, with ample sun loungers and shaded seating areas for day-to-night relaxation. The pool can also be heated on request, offering year-round enjoyment. With lush landscaping and total serenity, Villa Imagine is your private escape in one of the Costa del Sol’s most exclusive enclaves—just a short drive from Marbella, yet a world away in feel. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group you will be travelling with so we can request this for you.",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -88,7 +88,10 @@
     "Fenced garden",
     "Secured parking",
     "Infinity pool",
-    "Ocean views"
+    "Ocean views",
+    "Dryer",
+    "Outdoor shower",
+    "Balcony"
   ],
   "distances": [
     {
@@ -101,17 +104,10 @@
     }
   ],
   "services_included": [
-    "Final Cleaning: € 600.00   / booking",
-    "Internet Access: Included",
-    "Covered parking: Included",
-    "Towels:  Included"
+    "Final Cleaning: € 600.00   / booking Internet Access: Included Covered parking: Included Towels:  Included"
   ],
   "services_optional": [
-    "Air conditioning: Included",
-    "Baby high chair: € 25.00   / booking",
-    "Cot/Crib: € 35.00   / booking",
-    "Heated Pool: € 50.00   / night",
-    "Heating: Included"
+    "Air conditioning: Included Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heated Pool: € 50.00   / night Heating: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

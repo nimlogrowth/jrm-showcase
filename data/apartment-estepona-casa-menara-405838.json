@@ -37,10 +37,10 @@
   ],
   "guests": "6",
   "bedrooms": "3",
-  "bathrooms": "6",
+  "bathrooms": "3",
   "area": "165 m²",
   "plot": "",
-  "description": "Share Link copied Photos Add to favourites Favourites Share Description Review 10 occupants 6 3 Double beds 3 3 Bedrooms 3 3 Bathrooms with bathtub 3 165 m² 165 m² Wi-Fi Wi-Fi",
+  "description": "A lovely 3-bed duplex apartment with a private plunge pool! Casa Menara is located on the New Golden Mile between San Pedro and Estepona, in an exceptional complex that is very well equipped with two large swimming pools with waterfalls, a sauna, gym, library, ping pong table, and a summer bar that often has live music playing throughout the summer. Furthermore, there are beautiful tropical gardens with streams and ponds leading down to the beachfront, where there are breathtaking views of Gibraltar, the African coast, and the High Atlas Mountains over the sparkling Mediterranean Sea. The apartment offers a fully fitted and equipped kitchen with a separate laundry area with a washer/dryer. There is a breakfast bar on the lounge side. The large living room has a Smart TV and a fireplace. There is a dining table for 6. There is a large terrace with outdoor lounge furniture and beautiful views. There are 2 double bedrooms on the entrance level. Both have ensuite bathrooms with bathtubs and one has access to the terrace. Upstairs is the Master Suite. Here there is a double bed, a full bathroom with a bathtub and separate shower, and a small lounge with a sofa and access to a small terrace. There is also access to a lovely large terrace which is partly covered, has an outdoor dining table and a couple of sunbeds. There is a BBQ and a pizza oven. Up some stairs, there is the private plunge pool with amazing views over the complex to the sea. The apartment is decorated with soft neutral tones and features high wooden ceilings. There is wifi and aircon throughout. There is garaged parking for one car. Menara Beach offers a safe and secure environment with 24-hour security. Residents can take the coastal path to the market and the Cielo Beach Bar and enjoy watching the sunset on the Costa del Sol. The urbanisation is ideally situated just 10 minutes West of Puerto Banus and five minutes from the beautiful fishing villages of Estepona and San Pedro de Alcantara. There are many other places of interest within easy travelling distance including the white villages of Casares, Istan and Benahavis, the old town of Marbella, historic Ronda and Gibraltar and the wind and kite surfing paradise of Tarifa. There are also many golf courses nearby including the famous Valderrama, Finca Cortesin and Aloha. Close by there are also a wide variety of outdoor recreational activities including tennis, horse riding, golf, sailing, kite surfing, scuba diving and hiking. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to welcoming you.",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -68,7 +68,10 @@
     "Lift",
     "Secured parking",
     "Ping pong",
-    "Ocean views"
+    "Ocean views",
+    "Dryer",
+    "Balcony",
+    "Laptop workspace"
   ],
   "distances": [
     {
@@ -113,16 +116,10 @@
     }
   ],
   "services_included": [
-    "Air conditioning: Included",
-    "Final Cleaning: € 250.00   / booking",
-    "Heating: Included",
-    "Internet Access: Included",
-    "Garage: Included",
-    "Towels:  Included"
+    "Air conditioning: Included Final Cleaning: € 250.00   / booking Heating: Included Internet Access: Included Garage: Included Towels:  Included"
   ],
   "services_optional": [
-    "Baby high chair: € 25.00   / booking",
-    "Cot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

@@ -29,7 +29,7 @@
     .hero { height: 420px !important; }
     .gallery-grid img { break-inside: avoid; }
     .page-break { page-break-before: always; }
-    .map-container, .lightbox, .back-link { display: none !important; }
+    .map-container, .lightbox, .back-link, .print-btn { display: none !important; }
     @page { margin: 12mm; }
   }
   .back-link {
@@ -49,6 +49,25 @@
     transition: background 0.15s;
   }
   .back-link:hover { background: var(--white); }
+  .print-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    padding: 10px 18px;
+    border-radius: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--charcoal);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    transition: background 0.15s;
+  }
+  .print-btn:hover { background: var(--white); }
   .hero {
     position: relative;
     width: 100%;
@@ -342,6 +361,7 @@
 <body>
 
 <a href="index.html" class="back-link">&#8592; All Properties</a>
+<button class="print-btn" onclick="window.print()">Save as PDF</button>
 
 <div class="hero">
   <img src="https://www.justrentmarbella.com/rentals/fotos/3/17461948111b588f1e38980e5bcde93de91d8c47a7/17483406901c57fa063617dd9388e7e020441372d6.jpg" alt="Villa Celeste">
@@ -358,7 +378,7 @@
       <div class="fact-label">Bedrooms</div>
     </div>
     <div class="fact">
-      <div class="fact-value">10</div>
+      <div class="fact-value">5</div>
       <div class="fact-label">Bathrooms</div>
     </div>
     <div class="fact">
@@ -373,7 +393,7 @@
 
   <div class="section">
     <h2 class="section-title">About the Property</h2>
-    <p>Share Link copied Photos Add to favourites Favourites Share Description occupants 8 4 King size beds 4 4 Bedrooms 4 1 Bathroom with bathtub 3 Bathrooms with shower 1 Toilet 5 312 m² 312 m² Wi-Fi Wi-Fi</p>
+    <p>Welcome to Villa Celeste, a stylish and serene 4-bedroom, 4-bathroom retreat nestled in the heart of Marbella’s Nueva Andalucía. Designed for families and groups seeking both luxury and comfort, this villa offers generous living spaces, upscale amenities, and an unbeatable location just minutes from the beach, golf courses, and the vibrant energy of Puerto Banús. Spread across multiple levels, the home features a bright open-plan layout with floor-to-ceiling windows, modern furnishings, and elegant design throughout. Each bedroom is beautifully appointed, with en-suite bathrooms and thoughtfully curated décor that balances relaxation with style. The main living area opens directly to the garden and pool terrace, while a separate TV room and a quiet workspace offer flexibility for work or winding down. The outdoor spaces are where Villa Celeste truly shines. Enjoy the sunshine in the private swimming pool, host unforgettable meals in the outdoor kitchen and BBQ area, or head upstairs to the rooftop terrace, where a private jacuzzi and lounge area await—perfect for sunset relaxation. A dedicated fitness area lets you stay active during your stay, while shaded terraces and lush greenery create the perfect backdrop for peaceful days and social evenings. Ideally located, Villa Celeste is within easy reach of Marbella’s top attractions. You’re just a short drive from the golden beaches of the coast, the lively restaurants and bars of Puerto Banús, and world-renowned golf courses like Los Naranjos and Las Brisas. Whether you&#x27;re seeking a tranquil retreat or an action-packed holiday, Villa Celeste delivers the perfect balance of privacy, luxury, and accessibility. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.</p>
   </div>
 
   <div class="section">
@@ -412,6 +432,8 @@
       <span class="tag">Alarm system</span>
       <span class="tag">Fireplace</span>
       <span class="tag">Secured parking</span>
+      <span class="tag">Dryer</span>
+      <span class="tag">Balcony</span>
       <span class="tag">50 m² terrace</span>
     </div>
   </div>
@@ -547,17 +569,11 @@
     <div class="services-columns">
       <div class="service-group">
         <h4>Included</h4>
-        <div class="service-item">Final Cleaning: € 650.00   / booking</div>
-        <div class="service-item">Internet Access: Included</div>
-        <div class="service-item">Open-air parking: Included</div>
-        <div class="service-item">Towels:  Included</div>
+        <div class="service-item">Final Cleaning: € 650.00   / booking Internet Access: Included Open-air parking: Included Towels:  Included</div>
       </div>
       <div class="service-group">
         <h4>Optional</h4>
-        <div class="service-item">Air conditioning: Included</div>
-        <div class="service-item">Baby high chair: € 25.00   / booking</div>
-        <div class="service-item">Cot/Crib: € 35.00   / booking</div>
-        <div class="service-item">Heating: Included</div>
+        <div class="service-item">Air conditioning: Included Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heating: Included</div>
       </div>
     </div>
     <div class="checkin-bar">

@@ -29,7 +29,7 @@
     .hero { height: 420px !important; }
     .gallery-grid img { break-inside: avoid; }
     .page-break { page-break-before: always; }
-    .map-container, .lightbox, .back-link { display: none !important; }
+    .map-container, .lightbox, .back-link, .print-btn { display: none !important; }
     @page { margin: 12mm; }
   }
   .back-link {
@@ -49,6 +49,25 @@
     transition: background 0.15s;
   }
   .back-link:hover { background: var(--white); }
+  .print-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    padding: 10px 18px;
+    border-radius: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--charcoal);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    transition: background 0.15s;
+  }
+  .print-btn:hover { background: var(--white); }
   .hero {
     position: relative;
     width: 100%;
@@ -342,6 +361,7 @@
 <body>
 
 <a href="index.html" class="back-link">&#8592; All Properties</a>
+<button class="print-btn" onclick="window.print()">Save as PDF</button>
 
 <div class="hero">
   <img src="https://www.justrentmarbella.com/rentals/fotos/2/16862299302959fa8107d1e6616a136dc0948fc45f/16862299329ed2fc310401826da38688d47876ec38.jpg" alt="Casa Playa Del Angel">
@@ -358,7 +378,7 @@
       <div class="fact-label">Bedrooms</div>
     </div>
     <div class="fact">
-      <div class="fact-value">4</div>
+      <div class="fact-value">2</div>
       <div class="fact-label">Bathrooms</div>
     </div>
     <div class="fact">
@@ -373,7 +393,7 @@
 
   <div class="section">
     <h2 class="section-title">About the Property</h2>
-    <p>Share Link copied Photos Add to favourites Favourites Share Description Review 10 occupants 4 1 Double bed 2 Single beds 3 2 Bedrooms 2 1 Bathroom with bathtub 1 Bathroom with shower 2 96 m² 96 m² Wi-Fi Wi-Fi</p>
+    <p>A lovingly designed 2-bed, 2-bath apartment with wonderful views of the Mediterranean Sea, sat beachside on the New Golden Mile! This bright and cozy apartment features pretty artwork and stylish yet minimalist furnishings, creating the perfect stay for your holidays. The open-plan living/dining area leads to the terrace with an outdoor lounge and dining area where you can enjoy the serene views over the communal gardens and the sea. There is an indoor dining table that seats 6 and in the living area, a Smart TV. The fully equipped corner kitchen sits snugly by the entrance. The Master Bedroom has a king-size bed, direct access to the terrace, and an ensuite bathroom with a bathtub/shower. The second bedroom has twin beds. There is a second bathroom with a shower and lovely wooden fittings. There is a dedicated parking spot in the secure garage of the urbanization and the home has aircon and Wi-Fi throughout. There is also a communal gym and spa area (open all year round). The complex is superb, with some great features including plenty of communal space, fountains, gardens and benches, a children´s playground, a swimming pool, and a kiddies pool. Please note the swimming pools are open from late May to the end of September. The complex is perfectly located and all amenities including restaurants, bars, cafes, and supermarkets are within walking distance. Easy access to the A7 highway in directions towards Marbella/Puerto Banus as well as Estepona being a short 5 minutes’ drive away. Casa Playa Del Angel is the perfect retreat for holidays with your family. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to welcoming you.</p>
   </div>
 
   <div class="section">
@@ -401,6 +421,7 @@
       <span class="tag">Central heating</span>
       <span class="tag">Gym / fitness</span>
       <span class="tag">Ocean views</span>
+      <span class="tag">Balcony</span>
       <span class="tag">5 m² terrace</span>
     </div>
   </div>
@@ -509,18 +530,11 @@
     <div class="services-columns">
       <div class="service-group">
         <h4>Included</h4>
-        <div class="service-item">Air conditioning: Included</div>
-        <div class="service-item">Final Cleaning: € 175.00   / booking</div>
-        <div class="service-item">Heating: Included</div>
-        <div class="service-item">Internet Access: Included</div>
-        <div class="service-item">garage and car park: Included</div>
-        <div class="service-item">Towels:  Included</div>
+        <div class="service-item">Air conditioning: Included Final Cleaning: € 175.00   / booking Heating: Included Internet Access: Included garage and car park: Included Towels:  Included</div>
       </div>
       <div class="service-group">
         <h4>Optional</h4>
-        <div class="service-item">Baby high chair: € 25.00   / booking</div>
-        <div class="service-item">Cot/Crib: € 35.00   / booking</div>
-        <div class="service-item">Pet: € 150.00   / booking</div>
+        <div class="service-item">Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Pet: € 150.00   / booking Pet Small pets allowed (under 10kg)</div>
       </div>
     </div>
     <div class="checkin-bar">

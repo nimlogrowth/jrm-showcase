@@ -29,7 +29,7 @@
     .hero { height: 420px !important; }
     .gallery-grid img { break-inside: avoid; }
     .page-break { page-break-before: always; }
-    .map-container, .lightbox, .back-link { display: none !important; }
+    .map-container, .lightbox, .back-link, .print-btn { display: none !important; }
     @page { margin: 12mm; }
   }
   .back-link {
@@ -49,6 +49,25 @@
     transition: background 0.15s;
   }
   .back-link:hover { background: var(--white); }
+  .print-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    padding: 10px 18px;
+    border-radius: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--charcoal);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    transition: background 0.15s;
+  }
+  .print-btn:hover { background: var(--white); }
   .hero {
     position: relative;
     width: 100%;
@@ -342,6 +361,7 @@
 <body>
 
 <a href="index.html" class="back-link">&#8592; All Properties</a>
+<button class="print-btn" onclick="window.print()">Save as PDF</button>
 
 <div class="hero">
   <img src="https://www.justrentmarbella.com/rentals/fotos/3/17401536747c950e02c76875d7a17fa33806f0545b/1740153675e9985fb85b60eedd59eefca234a7d1fd.jpg" alt="Villa Alba">
@@ -358,7 +378,7 @@
       <div class="fact-label">Bedrooms</div>
     </div>
     <div class="fact">
-      <div class="fact-value">10</div>
+      <div class="fact-value">5</div>
       <div class="fact-label">Bathrooms</div>
     </div>
     <div class="fact">
@@ -377,7 +397,7 @@
 
   <div class="section">
     <h2 class="section-title">About the Property</h2>
-    <p>Share Link copied Photos Add to favourites Favourites Share Description occupants 8 4 King size beds 4 4 Bedrooms 4 1 Bathroom with bathtub 3 Bathrooms with shower 1 Toilet 5 508 m² 508 m² Wi-Fi Wi-Fi</p>
+    <p>Villa Alba – A Frontline Golf Sanctuary of Modern Elegance Nestled in an enviable frontline golf position, Villa Alba is a stunning newly built 4-bedroom, 4-bathroom villa that seamlessly blends cutting-edge architecture with luxurious comfort. With a design that embraces natural light through expansive floor-to-ceiling windows, this contemporary masterpiece offers an elevated living experience in the heart of the Costa del Sol. The villa’s open-plan layout is a celebration of modern design, where clean lines, neutral tones, and high-end finishes create a sense of space and tranquility. The living area, adorned with elegant décor, flows effortlessly into a state-of-the-art kitchen, fully equipped with premium appliances and sleek cabinetry. The central island doubles as a breakfast bar, making it an inviting spot for morning coffee or evening socializing. From the living space, large sliding glass doors open directly to the outdoor entertainment area, where a private pool shimmers under the Mediterranean sun. With sun loungers, a shaded dining area, and a BBQ, this space is designed for seamless relaxation and al fresco dining. For added comfort, the pool can be heated for an additional €350 per week, ensuring year-round enjoyment. This home away from home is designed to offer privacy and comfort, with its 4 spacious bedrooms, each featuring an en-suite or allocated bathroom. The upper level houses two beautifully appointed bedrooms, each with floor-to-ceiling windows that open onto private terraces, offering breathtaking views of the surrounding golf course and lush greenery. These rooms feature plush bedding, stylish accent walls, and ambient lighting, creating a refined retreat for guests. Descending to the lower level, you’ll find two additional bedrooms, thoughtfully designed with cozy aesthetics and ample storage. This level also includes a TV lounge, providing a private entertainment area for guests to unwind. Villa Alba is perfectly positioned for those who desire a balance of tranquility and accessibility. Located just 10 minutes from Puerto Banús, 5 minutes from the beach, and a short 10-minute walk to shops and local amenities, the villa offers easy access to some of the best attractions the Costa del Sol has to offer. The property also includes secure gated parking for added convenience, with one private parking spot inside the gate, ensuring safety while maintaining ease of access. Designed with both style and functionality in mind, Villa Alba is more than just a holiday home—it&#x27;s a statement of modern elegance, offering a luxurious retreat in an unbeatable location. Whether you&#x27;re soaking in the sun-drenched pool, enjoying a BBQ under the stars, or waking up to panoramic golf course views, this villa offers an unparalleled lifestyle experience. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.</p>
   </div>
 
   <div class="section">
@@ -418,6 +438,8 @@
       <span class="tag">Secured parking</span>
       <span class="tag">Infinity pool</span>
       <span class="tag">Frontline golf</span>
+      <span class="tag">Balcony</span>
+      <span class="tag">Pool towels</span>
     </div>
   </div>
 
@@ -542,16 +564,11 @@
     <div class="services-columns">
       <div class="service-group">
         <h4>Included</h4>
-        <div class="service-item">Final Cleaning: € 550.00   / booking</div>
-        <div class="service-item">Internet Access: Included</div>
-        <div class="service-item">Open-air parking: Included</div>
-        <div class="service-item">Towels:  Included</div>
+        <div class="service-item">Final Cleaning: € 550.00   / booking Internet Access: Included Open-air parking: Included Towels:  Included</div>
       </div>
       <div class="service-group">
         <h4>Optional</h4>
-        <div class="service-item">Baby high chair: € 25.00   / booking</div>
-        <div class="service-item">Cot/Crib: € 35.00   / booking</div>
-        <div class="service-item">Heated Pool: € 65.00   / night</div>
+        <div class="service-item">Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heated Pool: € 65.00   / night</div>
       </div>
     </div>
     <div class="checkin-bar">

@@ -29,7 +29,7 @@
     .hero { height: 420px !important; }
     .gallery-grid img { break-inside: avoid; }
     .page-break { page-break-before: always; }
-    .map-container, .lightbox, .back-link { display: none !important; }
+    .map-container, .lightbox, .back-link, .print-btn { display: none !important; }
     @page { margin: 12mm; }
   }
   .back-link {
@@ -49,6 +49,25 @@
     transition: background 0.15s;
   }
   .back-link:hover { background: var(--white); }
+  .print-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    padding: 10px 18px;
+    border-radius: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--charcoal);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    transition: background 0.15s;
+  }
+  .print-btn:hover { background: var(--white); }
   .hero {
     position: relative;
     width: 100%;
@@ -342,6 +361,7 @@
 <body>
 
 <a href="index.html" class="back-link">&#8592; All Properties</a>
+<button class="print-btn" onclick="window.print()">Save as PDF</button>
 
 <div class="hero">
   <img src="https://www.justrentmarbella.com/rentals/fotos/2/16661072738669550bee6bc4cb753ad69cad6f4dd6/16661072806c5e1858725d4649aab602869da94ff8.jpg" alt="Penthouse La Fuente">
@@ -369,7 +389,7 @@
 
   <div class="section">
     <h2 class="section-title">About the Property</h2>
-    <p>Share Link copied Photos Add to favourites Favourites Share Description Review 10 occupants 6 2 Double beds 2 3 Bedrooms 3 2 bathrooms 2 115 m² 115 m² Wi-Fi Wi-Fi</p>
+    <p>The ultimate in style and comfort, this Duplex Penthouse has it all. Renovated to high Scandinavian standards with the latest mod cons and contemporary furnishings and finishes, combining contemporary design with the most current fixtures, this holiday apartment lacks for nothing. Mountain views from the terraces, bright and spacious open plan living area and 3 comfortable bedrooms, all set in a beautiful Andalusian village-style complex a stone’s throw from all amenities. You could not want for more for your holidays in Marbella. The top floor is the Master suite with a unique glass-fronted ensuite bathroom with double showers. There is a desk next to the four-poster double bed. From here you can access the lovely roof terrace! There are 2 sunbeds and a seating area. This is the perfect space for sunbathing, or chilling while soaking up the mountain views. The entrance level is open plan and benefits from 2 terraces. There is a beautiful fully equipped kitchen and dining table for 6. The lounge features an L-shaped sofa and a large Smart TV. The terrace off the lounge enjoys the morning sun and mountain views is set up with a seating area. The second terrace captures the afternoon and evening sunshine and is a wonderful space for outdoor dining. There is a dining table for 6, a corner couch area, a gas BBQ, dishwasher, and sink. There are retractable awnings – perfect for summer lunches or dinner under the stars. There are 2 bedrooms on this level that share a bathroom. One bedroom has a bunk bed, and the second bedroom has a double bed. The Penthouse features hot/cold AC throughout, Wifi and a private parking space in the underground car park with lift access to the complex. Urbanisation La Maestranza is an ideal destination for families, couples and golfers. There is 24-hour security on site. There are 3 communal swimming pools (1 half Olympic size, 1 children &amp; toddler pool and 1 all year round heated pool) all surrounded by beautifully maintained Mediterranean gardens. Supermarkets, pharmacies, shops, restaurants and bars are all within 2 minutes’ walk. The exciting and upmarket area of Puerto Banús is about a 10 minutes’ walk away where you can enjoy designer shops, a fantastic range of restaurants and a marina that is full of luxury boats. There are also sandy beaches with umbrellas and loungers for hire. The promenade from Puerto Banús to Marbella is now complete and it is great for cyclists and walkers. The area is surrounded by golf courses (in fact the area is known as Golf Valley) and virtually all welcome non-members on a daily or longer basis and most have equipment hire facilities. On Saturdays you can visit the large market in Centro Plaza. For those wishing to explore further, the bustling towns of Marbella and Estepona are a short drive away and in the hills the white villages of Istán, Ojén, Caceres and Ronda are well worth a visit. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to welcoming you!</p>
   </div>
 
   <div class="section">
@@ -400,6 +420,8 @@
       <span class="tag">BBQ</span>
       <span class="tag">Alarm system</span>
       <span class="tag">Secured parking</span>
+      <span class="tag">Balcony</span>
+      <span class="tag">Laptop workspace</span>
       <span class="tag">100 m² terrace</span>
     </div>
   </div>
@@ -451,7 +473,7 @@
     <div class="distances-grid">
       <div class="distance-row">
         <div class="distance-place"><span class="distance-dot"></span>Airport</div>
-        <div class="distance-value">61 m</div>
+        <div class="distance-value">61 km</div>
       </div>
       <div class="distance-row">
         <div class="distance-place"><span class="distance-dot"></span>Shops</div>
@@ -497,18 +519,11 @@
     <div class="services-columns">
       <div class="service-group">
         <h4>Included</h4>
-        <div class="service-item">Air conditioning: Included</div>
-        <div class="service-item">Final Cleaning: € 230.00   / booking</div>
-        <div class="service-item">Heated Pool: Included</div>
-        <div class="service-item">Heating: Included</div>
-        <div class="service-item">Internet Access: Included</div>
-        <div class="service-item">Garage: Included</div>
-        <div class="service-item">Towels:  Included</div>
+        <div class="service-item">Air conditioning: Included Final Cleaning: € 230.00   / booking Heated Pool: Included Heating: Included Internet Access: Included Garage: Included Towels:  Included</div>
       </div>
       <div class="service-group">
         <h4>Optional</h4>
-        <div class="service-item">Baby high chair: € 25.00   / booking</div>
-        <div class="service-item">Cot/Crib: € 35.00   / booking</div>
+        <div class="service-item">Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking</div>
       </div>
     </div>
     <div class="checkin-bar">

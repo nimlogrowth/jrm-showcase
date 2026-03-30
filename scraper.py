@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
-JustRent Marbella Property Scraper v2
-Properly parses Avantio CRS property pages.
+JustRent Marbella Property Scraper v3
+Full rebuild with fixes for: pagination, description, bathrooms,
+distances, services, features, airport units.
 """
 
 import requests
@@ -19,6 +20,7 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
 }
 DELAY = 1.5
+MAX_PAGES = 40  # Safety limit
 
 
 def get_soup(url):
@@ -27,59 +29,90 @@ def get_soup(url):
     return BeautifulSoup(resp.text, "html.parser")
 
 
+# ──────────────────────────────────────────────────────────
+# PAGINATION FIX: keep going until 0 new properties found
+# ──────────────────────────────────────────────────────────
 def get_all_property_urls():
-    urls = []
+    all_urls = set()
     page = 1
-    while True:
+    consecutive_empty = 0
+
+    while page <= MAX_PAGES:
         page_url = LISTING_URL if page == 1 else LISTING_URL + "?pagina=" + str(page)
-        print("  Listing page " + str(page))
+        print("  Listing page " + str(page) + "...", end=" ")
         try:
             soup = get_soup(page_url)
         except Exception as e:
-            print("  Error: " + str(e))
-            break
+            print("Error: " + str(e))
+            consecutive_empty += 1
+            if consecutive_empty >= 3:
+                break
+            page += 1
+            time.sleep(DELAY)
+            continue
 
-        links = soup.select('a[href*="/rentals/"][href$=".html"]')
+        # Find all property links (end with -NNNNN.html)
         page_urls = set()
-        for link in links:
+        for link in soup.select('a[href$=".html"]'):
             href = link.get("href", "")
-            if re.search(r"-\d{5,}\.html$", href):
+            if re.search(r"(villa|apartment|house|terraced|penthouse|townhouse|studio).*-\d{5,}\.html$", href, re.I):
                 full_url = href if href.startswith("http") else BASE_URL + href
+                # Skip contact pages, favourites, etc
+                if "/contact-" in full_url or "/favourites" in full_url:
+                    continue
                 page_urls.add(full_url)
 
-        if not page_urls:
-            break
+        new_count = len(page_urls - all_urls)
+        print(str(new_count) + " new properties")
 
-        urls.extend(page_urls)
-        print("  Found " + str(len(page_urls)) + " properties")
-
-        next_link = soup.select_one('a[href*="pagina=' + str(page + 1) + '"]')
-        if not next_link:
-            break
+        if new_count == 0:
+            consecutive_empty += 1
+            if consecutive_empty >= 2:
+                break
+        else:
+            consecutive_empty = 0
+            all_urls.update(page_urls)
 
         page += 1
         time.sleep(DELAY)
 
-    seen = set()
-    unique = []
-    for u in urls:
-        if u not in seen:
-            seen.add(u)
-            unique.append(u)
-    return unique
+    return sorted(all_urls)
 
 
+# ──────────────────────────────────────────────────────────
+# UI GARBAGE DETECTOR
+# ──────────────────────────────────────────────────────────
+UI_GARBAGE_WORDS = [
+    "Share", "Link copied", "Add to favourites", "Favourites",
+    "occupants", "Wi-Fi", "Bedrooms", "Bathroom",
+    "cookies", "Cookies Policy", "strictly necessary",
+    "Accept all", "Reject", "Save settings",
+    "More Details", "Hide Details",
+    "See more", "See less", "Show more", "Show fewer",
+]
+
+def is_ui_garbage(text):
+    """Returns True if text looks like scraped UI elements, not real content."""
+    if not text:
+        return True
+    garbage_count = sum(1 for w in UI_GARBAGE_WORDS if w in text)
+    return garbage_count >= 2
+
+
+# ──────────────────────────────────────────────────────────
+# PROPERTY EXTRACTOR
+# ──────────────────────────────────────────────────────────
 def extract_property(url):
     soup = get_soup(url)
     data = {"url": url, "source_url": url}
     slug = url.split("/")[-1].replace(".html", "")
     data["slug"] = slug
 
-    # ── Strip cookie banners, scripts, styles, similar properties ──
-    for tag in soup.select('script, style, noscript'):
+    # ── Strip scripts, styles ──
+    for tag in soup.select("script, style, noscript"):
         tag.decompose()
 
-    # Remove "Similar properties" and everything after
+    # ── Remove "Similar properties" section and everything after ──
     for heading in soup.find_all(string=re.compile(r"Similar properties", re.I)):
         parent = heading.find_parent()
         if parent:
@@ -89,154 +122,202 @@ def extract_property(url):
 
     # ── Name, Location, Type from H1 ──
     h1 = soup.select_one("h1")
-    # Use separator to avoid concatenated words
     raw_title = h1.get_text(" ", strip=True) if h1 else slug.replace("-", " ").title()
-
-    # H1 format: "Villa La Quinta Benahavís - Villa"
     parts = raw_title.rsplit(" - ", 1)
     name_loc = parts[0].strip()
     data["type"] = parts[1].strip() if len(parts) > 1 else ""
 
-    # Location from breadcrumb
     breadcrumb = soup.select_one('a[href*="/rentals/rentals-"]')
     data["location"] = breadcrumb.get_text(strip=True) if breadcrumb else ""
 
     # Remove location from name
-    if data["location"] and name_loc.endswith(data["location"]):
-        data["name"] = name_loc[:-len(data["location"])].strip()
-    elif data["location"] and name_loc.endswith(" " + data["location"]):
-        data["name"] = name_loc[:-(len(data["location"]) + 1)].strip()
+    loc = data["location"]
+    if loc and name_loc.endswith(" " + loc):
+        data["name"] = name_loc[:-(len(loc) + 1)].strip()
+    elif loc and name_loc.endswith(loc):
+        data["name"] = name_loc[:-len(loc)].strip()
     else:
         data["name"] = name_loc
+    if not data["name"]:
+        data["name"] = name_loc
 
-    # ── Photos: only from main gallery, not similar properties ──
+    # ── Photos: only JRM domain, not img.avantio.com ──
     photos = []
     seen_fnames = set()
-
-    # Primary method: <a> tags linking to full-size photos in /fotos/ on the JRM domain
     for a_tag in soup.select('a[href*="/rentals/fotos/"]'):
         href = a_tag.get("href", "")
         if not re.search(r"\.(jpg|jpeg|png|webp)$", href, re.I):
             continue
         full = href if href.startswith("http") else BASE_URL + href
-        # Skip img.avantio.com (those are from similar properties)
         if "img.avantio.com" in full:
             continue
         fname = full.split("/")[-1]
         if fname not in seen_fnames:
             seen_fnames.add(fname)
             photos.append(full)
-
-    # Fallback: also check <a> tags with /fotos/ on the /3/ path (some properties use this)
-    if not photos:
-        for a_tag in soup.select('a[href*="/fotos/"]'):
-            href = a_tag.get("href", "")
-            if not re.search(r"\.(jpg|jpeg|png|webp)$", href, re.I):
-                continue
-            full = href if href.startswith("http") else BASE_URL + href
-            if "img.avantio.com" in full:
-                continue
-            fname = full.split("/")[-1]
-            if fname not in seen_fnames:
-                seen_fnames.add(fname)
-                photos.append(full)
-
     data["photos"] = photos
 
-    # ── Key Facts ──
-    # Use the full page text for regex matching
+    # ──────────────────────────────────────────────────
+    # KEY FACTS: Extract from the Avantio accommodation
+    # section, NOT from full page text (avoids doubling)
+    # ──────────────────────────────────────────────────
+
+    # Find the accommodation section by its anchor ID
+    accom = soup.select_one('[id*="descripcion"], [id*="accommodation"]')
+    # Fallback: find h2 "Accommodation"
+    if not accom:
+        for h2 in soup.find_all("h2"):
+            if "Accommodation" in h2.get_text():
+                accom = h2.find_parent()
+                break
+
+    # Use accommodation section text for facts (limits scope, avoids doubling)
+    accom_text = accom.get_text(" ", strip=True) if accom else ""
+
+    # Full page text (for things that appear outside accommodation section)
     page_text = soup.get_text(" ", strip=True)
 
-    # Guests (occupants)
+    # Guests
     data["guests"] = ""
     m = re.search(r"occupants\s+(\d{1,3})\b", page_text, re.I)
     if m:
         data["guests"] = m.group(1)
 
-    # Bedrooms count - "X Bedrooms"
+    # Bedrooms count
     data["bedrooms"] = ""
     m = re.search(r"(\d{1,2})\s+Bedrooms?\b", page_text)
     if m:
         data["bedrooms"] = m.group(1)
 
-    # Bathrooms - sum all "X Bathroom" and "X Toilet"
+    # ── Bathrooms: ONLY from the "Bathroom(s)" subsection ──
     bath_total = 0
-    for m in re.finditer(r"(\d{1,2})\s+Bathroom", page_text):
-        bath_total += int(m.group(1))
-    for m in re.finditer(r"(\d{1,2})\s+Toilet", page_text):
-        bath_total += int(m.group(1))
+    bath_heading = soup.find(string=re.compile(r"Bathroom", re.I))
+    # Walk up to find h3 "Bathroom(s)"
+    bath_section = None
+    for h3 in soup.find_all("h3"):
+        h3_text = h3.get_text(strip=True)
+        if "Bathroom" in h3_text and "Distribution" not in h3_text:
+            bath_section = h3
+            break
+
+    if bath_section:
+        # Get text from the section between this h3 and the next h3
+        bath_text_parts = []
+        for sib in bath_section.find_next_siblings():
+            if sib.name and sib.name.startswith("h"):
+                break
+            bath_text_parts.append(sib.get_text(" ", strip=True))
+        bath_text = " ".join(bath_text_parts)
+        for bm in re.finditer(r"(\d{1,2})\s+Bathroom", bath_text):
+            bath_total += int(bm.group(1))
+        for bm in re.finditer(r"(\d{1,2})\s+Toilet", bath_text):
+            bath_total += int(bm.group(1))
+
+    # Fallback: look in the first facts-bar occurrence only
+    if bath_total == 0:
+        # Find the icon row that shows "X Bathroom" text
+        # Take only first occurrence of each pattern
+        baths_found = re.findall(r"(\d{1,2})\s+Bathroom", page_text)
+        toilets_found = re.findall(r"(\d{1,2})\s+Toilet", page_text)
+        # If duplicated (appears twice), take first half
+        if len(baths_found) >= 2:
+            half = len(baths_found) // 2
+            if baths_found[:half] == baths_found[half:2*half]:
+                baths_found = baths_found[:half]
+        for b in baths_found:
+            bath_total += int(b)
+        if len(toilets_found) >= 2:
+            half = len(toilets_found) // 2
+            if toilets_found[:half] == toilets_found[half:2*half]:
+                toilets_found = toilets_found[:half]
+        for t in toilets_found:
+            bath_total += int(t)
+
     data["bathrooms"] = str(bath_total) if bath_total > 0 else ""
 
-    # Area - "XXX m² Property"
+    # Area
     data["area"] = ""
     m = re.search(r"(\d{2,5})\s*m.\s*Property", page_text)
     if m:
         data["area"] = m.group(1) + " m\u00b2"
 
-    # Plot - "XXX m² Plot"
+    # Plot
     data["plot"] = ""
     m = re.search(r"(\d{2,5})\s*m.\s*Plot", page_text)
     if m:
         data["plot"] = m.group(1) + " m\u00b2"
 
-    # ── Description ──
+    # ──────────────────────────────────────────────────
+    # DESCRIPTION: Multiple strategies, strict filtering
+    # ──────────────────────────────────────────────────
     data["description"] = ""
 
-    # Strategy 1: Find "Description" heading and get the text after it
-    desc_heading = soup.find(string=re.compile(r"Description", re.I))
-    if desc_heading:
-        heading_el = desc_heading.find_parent()
-        if heading_el:
-            for sib in heading_el.find_next_siblings():
-                t = sib.get_text(" ", strip=True)
-                if not t:
-                    continue
-                if t in ["More Details", "Hide Details"]:
-                    continue
-                if sib.name and sib.name.startswith("h"):
+    # Strategy 1: Find h3 "Description", then get FIRST child/descendant text
+    for h3 in soup.find_all("h3"):
+        if h3.get_text(strip=True).strip() == "Description":
+            # Try finding the next text element that is NOT a heading
+            el = h3
+            for _ in range(20):  # Walk forward through the document
+                el = el.find_next()
+                if el is None:
                     break
-                if "Distribution of bedrooms" in t or "Special features" in t:
-                    break
-                if "cookies" in t.lower() and "necessary" in t.lower():
-                    continue
-                if "Cookies Policy" in t:
-                    continue
-                if len(t) > 20:
-                    data["description"] = t
-                    break
-
-    # Strategy 2: Look for text right after "Accommodation" section heading
-    if not data["description"]:
-        accom_heading = soup.find(string=re.compile(r"^Accommodation$", re.I))
-        if accom_heading:
-            parent = accom_heading.find_parent()
-            if parent:
-                for sib in parent.find_next_siblings():
-                    t = sib.get_text(" ", strip=True)
-                    if not t or t == "Description":
+                if el.name and el.name.startswith("h"):
+                    # Hit another heading, skip it if it says Description
+                    if "Description" in el.get_text():
                         continue
-                    if t in ["More Details", "Hide Details"]:
-                        continue
-                    if sib.name and sib.name.startswith("h"):
-                        break
-                    if "cookies" in t.lower():
-                        continue
-                    if len(t) > 20:
-                        data["description"] = t
-                        break
-
-    # Strategy 3: Find any substantial paragraph in the description/accommodation area
-    if not data["description"]:
-        for div in soup.select('[class*="descripcion"], [class*="description"], [id*="descripcion"]'):
-            for p in div.find_all(["p", "div"]):
-                t = p.get_text(" ", strip=True)
-                if t and len(t) > 50 and "cookie" not in t.lower() and "Cookie" not in t:
-                    data["description"] = t
                     break
-            if data["description"]:
+                t = el.get_text(" ", strip=True)
+                if not t or len(t) < 20:
+                    continue
+                if t in ["More Details", "Hide Details", "Description"]:
+                    continue
+                if is_ui_garbage(t):
+                    continue
+                # Found a real description
+                data["description"] = t
                 break
+            break
 
-    # Fallback to meta description
+    # Strategy 2: Look for text in the accommodation section after Description heading
+    if not data["description"] and accom:
+        found_desc_heading = False
+        for child in accom.descendants:
+            if hasattr(child, 'get_text'):
+                txt = child.get_text(strip=True)
+                if txt == "Description":
+                    found_desc_heading = True
+                    continue
+                if found_desc_heading and txt and len(txt) > 30:
+                    if txt in ["More Details", "Hide Details"]:
+                        continue
+                    if is_ui_garbage(txt):
+                        continue
+                    if "Distribution of bedrooms" in txt:
+                        break
+                    data["description"] = txt
+                    break
+
+    # Strategy 3: CSS class selectors for Avantio description containers
+    if not data["description"]:
+        for selector in [".description-text", ".descripcion-texto", "[class*='desc'] p"]:
+            el = soup.select_one(selector)
+            if el:
+                t = el.get_text(" ", strip=True)
+                if t and len(t) > 30 and not is_ui_garbage(t):
+                    data["description"] = t
+                    break
+
+    # Strategy 4: Find the largest paragraph in the accommodation section
+    if not data["description"] and accom:
+        best = ""
+        for p in accom.find_all(["p"]):
+            t = p.get_text(" ", strip=True)
+            if t and len(t) > len(best) and not is_ui_garbage(t):
+                best = t
+        if len(best) > 30:
+            data["description"] = best
+
+    # Fallback: meta description (better than nothing)
     if not data["description"]:
         meta = soup.select_one('meta[name="description"]')
         if meta and meta.get("content"):
@@ -244,60 +325,59 @@ def extract_property(url):
 
     # ── Bedroom Distribution ──
     bedrooms_list = []
-    dist_heading = soup.find(string=re.compile(r"Distribution of bedrooms", re.I))
-    if dist_heading:
-        # Navigate up to find the container, then parse bedroom/bed pairs
-        container = dist_heading.find_parent()
-        while container and container.name not in ["div", "section"]:
-            container = container.find_parent()
-
-        if container:
-            text_block = container.get_text("\n")
-            # Find patterns like "Bedroom 1\n1 King size bed" or "Bedroom 2\n1 Double bed"
-            pairs = re.findall(
-                r"(Bedroom\s+\d+)\s*\n\s*\d+\s+(King size bed|Double bed|Single bed|Twin bed|Bunk bed|Sofa bed)",
-                text_block, re.I
-            )
-            seen_rooms = set()
-            for room, bed in pairs:
-                room_clean = room.strip()
-                if room_clean not in seen_rooms:
-                    seen_rooms.add(room_clean)
-                    bedrooms_list.append({"room": room_clean, "bed": bed.strip()})
-
+    for h3 in soup.find_all("h3"):
+        if "Distribution of bedrooms" in h3.get_text():
+            container = h3.find_parent()
+            while container and container.name not in ["div", "section"]:
+                container = container.find_parent()
+            if container:
+                text_block = container.get_text("\n")
+                pairs = re.findall(
+                    r"(Bedroom\s+\d+)\s*\n\s*\d+\s+(King size bed|Double bed|Single bed|Twin bed|Bunk bed|Sofa bed)",
+                    text_block, re.I
+                )
+                seen_rooms = set()
+                for room, bed in pairs:
+                    room_clean = room.strip()
+                    if room_clean not in seen_rooms:
+                        seen_rooms.add(room_clean)
+                        bedrooms_list.append({"room": room_clean, "bed": bed.strip()})
+            break
     data["bedrooms_detail"] = bedrooms_list
 
     # ── Features ──
     features = []
 
     # Views section
-    views_heading = soup.find(string=re.compile(r"^\s*Views\s*$"))
-    if views_heading:
-        parent = views_heading.find_parent()
-        if parent:
-            container = parent.find_parent()
+    for h3 in soup.find_all("h3"):
+        if h3.get_text(strip=True).strip() == "Views":
+            container = h3.find_parent()
             if container:
                 view_text = container.get_text("\n")
-                view_items = [
-                    line.strip() for line in view_text.split("\n")
-                    if line.strip() and line.strip() not in ["Views", "See more", "See less"]
-                ]
-                for v in view_items:
-                    clean = v.replace("golf-course", "Golf course").replace("beach", "Beach")
-                    if clean in ["Sea", "Garden", "Mountain", "Lake", "Beach"]:
+                skip = {"Views", "See more", "See less", "Show more features", "Show fewer features", ""}
+                for line in view_text.split("\n"):
+                    v = line.strip()
+                    if v in skip or len(v) < 2:
+                        continue
+                    clean = v.replace("golf-course", "Golf course")
+                    if clean in ["Sea", "Garden", "Mountain", "Lake"]:
                         clean = clean + " views"
+                    if clean == "beach":
+                        clean = "Beach views"
                     if clean == "Swimming pool":
                         clean = "Pool views"
-                    if clean and clean not in features and len(clean) > 1:
+                    if clean not in features:
                         features.append(clean)
+            break
 
-    # Key amenity highlights from General section
+    # Amenity highlights (keyword search in page text)
     amenity_map = {
         "Private Heated swimming pool": "Private heated pool",
         "Private Swimming pool": "Private pool",
         "Communal Swimming pool": "Communal pool",
         "Air-Conditioned": "Air-conditioned",
         "Central heating": "Central heating",
+        "Underfloor heating": "Underfloor heating",
         "Floor heating": "Underfloor heating",
         "Barbecue": "BBQ",
         "Gas bbq": "BBQ",
@@ -318,9 +398,17 @@ def extract_property(url):
         "Infinity pool": "Infinity pool",
         "Indoor Pool": "Indoor pool",
         "Ocean view": "Ocean views",
+        "Sea views": "Sea views",
+        "Mountain view": "Mountain views",
         "Direct Beach Access": "Direct beach access",
         "Frontline Beach": "Frontline beach",
         "Frontline Golf": "Frontline golf",
+        "Dryer": "Dryer",
+        "Outdoor shower": "Outdoor shower",
+        "Balcony": "Balcony",
+        "Laptop friendly workspace": "Laptop workspace",
+        "Pool towels": "Pool towels",
+        "First aid kit": "First aid kit",
     }
 
     for keyword, clean_name in amenity_map.items():
@@ -338,80 +426,79 @@ def extract_property(url):
 
     # ── Distances ──
     distances = []
-    dist_label = soup.find(string=re.compile(r"^\s*Distances\s*$"))
-    if dist_label:
-        parent = dist_label.find_parent()
-        if parent:
-            # Go up to find the list container
-            container = parent
-            for _ in range(5):
-                container = container.find_parent()
-                if container and container.find("li"):
-                    break
+    # Find the "Distances" heading and then ALL list items in its container
+    for el in soup.find_all(string=re.compile(r"^\s*Distances\s*$")):
+        parent = el.find_parent()
+        if not parent:
+            continue
+        # Walk up until we find a container with <li> elements
+        container = parent
+        for _ in range(8):
+            container = container.find_parent()
+            if container and container.find("li"):
+                break
+        if not container:
+            continue
 
-            if container:
-                for li in container.find_all("li"):
-                    text = li.get_text(" ", strip=True)
-                    m = re.match(r"(.+?)\s+([\d,.]+\s*(?:km|m))\s*$", text)
-                    if m:
-                        place = m.group(1).strip()
-                        dist_val = m.group(2).strip()
-                        # Deduplicate (prefer first occurrence)
-                        existing = [d["place"] for d in distances]
-                        # Skip "International airport" if we already have "Airport"
-                        if place == "International airport":
-                            if "Airport" in existing:
-                                continue
-                            place = "Airport"
-                        if place not in existing:
-                            distances.append({"place": place, "distance": dist_val})
+        for li in container.find_all("li"):
+            text = li.get_text(" ", strip=True)
+            m = re.match(r"(.+?)\s+([\d,.]+\s*(?:km|m))\s*$", text)
+            if m:
+                place = m.group(1).strip()
+                dist_val = m.group(2).strip()
+
+                # Fix airport showing "m" instead of "km"
+                if "airport" in place.lower() or "Airport" in place:
+                    num = re.match(r"([\d,.]+)", dist_val)
+                    if num:
+                        val = float(num.group(1).replace(",", "."))
+                        if dist_val.endswith(" m") and val < 200:
+                            dist_val = str(int(val)) + " km"
+
+                # Deduplicate: merge "International airport" into "Airport"
+                existing = [d["place"] for d in distances]
+                if place == "International airport":
+                    if "Airport" in existing:
+                        continue
+                    place = "Airport"
+                if place not in existing:
+                    distances.append({"place": place, "distance": dist_val})
+        break  # Only process first Distances section
 
     data["distances"] = distances
 
     # ── Mandatory/Included Services ──
     included = []
-    mand_h = soup.find(string=re.compile(r"Mandatory or included services", re.I))
-    if mand_h:
-        el = mand_h.find_parent()
-        if el:
-            container = el.find_parent()
-            if container:
-                text_lines = container.get_text("\n").split("\n")
-                capture = False
-                for line in text_lines:
-                    line = line.strip()
-                    if "Mandatory or included" in line:
-                        capture = True
-                        continue
-                    if capture:
-                        if "Optional" in line or "Your schedule" in line:
-                            break
-                        if ":" in line and len(line) > 5:
-                            included.append(line)
-
+    for h3 in soup.find_all("h3"):
+        if "Mandatory" in h3.get_text() or "included services" in h3.get_text():
+            # Collect text lines from siblings until next heading
+            for sib in h3.find_next_siblings():
+                if sib.name and sib.name.startswith("h"):
+                    break
+                text = sib.get_text(" ", strip=True)
+                if text and ":" in text and len(text) > 5:
+                    # Split if multiple items concatenated on one line
+                    for item in re.split(r"(?<=\d)\s+(?=[A-Z])", text):
+                        item = item.strip()
+                        if item and ":" in item and item not in included:
+                            included.append(item)
+            break
     data["services_included"] = included
 
     # ── Optional Services ──
     optional = []
-    opt_h = soup.find(string=re.compile(r"^\s*Optional services\s*$", re.I))
-    if opt_h:
-        el = opt_h.find_parent()
-        if el:
-            container = el.find_parent()
-            if container:
-                text_lines = container.get_text("\n").split("\n")
-                capture = False
-                for line in text_lines:
-                    line = line.strip()
-                    if "Optional services" in line:
-                        capture = True
-                        continue
-                    if capture:
-                        if "Your schedule" in line or "Check-in" in line:
-                            break
-                        if (":" in line or "\u20ac" in line) and len(line) > 5:
-                            optional.append(line)
-
+    for h3 in soup.find_all("h3"):
+        if h3.get_text(strip=True) == "Optional services":
+            for sib in h3.find_next_siblings():
+                if sib.name and sib.name.startswith("h"):
+                    break
+                text = sib.get_text(" ", strip=True)
+                if text and (":" in text or "\u20ac" in text or "€" in text) and len(text) > 5:
+                    for item in re.split(r"(?<=\d)\s+(?=[A-Z])", text):
+                        item = item.strip()
+                        if item and item not in optional:
+                            optional.append(item)
+            break
     data["services_optional"] = optional
 
     # ── Check-in / Check-out ──
@@ -422,9 +509,7 @@ def extract_property(url):
     data["checkout"] = "Before " + co.group(1) if co else ""
 
     # ── Security Deposit ──
-    dep = re.search(r"Amount:\s*\u20ac\s*([\d,.]+)", page_text)
-    if not dep:
-        dep = re.search(r"Amount:\s*€\s*([\d,.]+)", page_text)
+    dep = re.search(r"Amount:\s*[€\u20ac]\s*([\d,.]+)", page_text)
     data["deposit"] = "\u20ac" + dep.group(1).strip() if dep else ""
 
     # ── Rules ──
@@ -451,7 +536,7 @@ def main():
     os.makedirs(DATA_DIR, exist_ok=True)
 
     print("=" * 60)
-    print("JustRent Marbella Property Scraper v2")
+    print("JustRent Marbella Property Scraper v3")
     print("=" * 60)
 
     print("\n[1/2] Collecting property URLs...")
@@ -479,7 +564,8 @@ def main():
             pc = str(len(data.get("photos", [])))
             bd = data.get("bedrooms", "?")
             loc = data.get("location", "")
-            print("    " + pc + " photos, " + bd + " bed, " + loc)
+            desc_ok = "DESC" if data.get("description") and not is_ui_garbage(data["description"]) else "no-desc"
+            print("    " + pc + " photos, " + bd + " bed, " + loc + ", " + desc_ok)
         except Exception as e:
             print("    ERROR: " + str(e))
             errors.append({"url": url, "error": str(e)})

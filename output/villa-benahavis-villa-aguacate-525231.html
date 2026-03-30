@@ -29,7 +29,7 @@
     .hero { height: 420px !important; }
     .gallery-grid img { break-inside: avoid; }
     .page-break { page-break-before: always; }
-    .map-container, .lightbox, .back-link { display: none !important; }
+    .map-container, .lightbox, .back-link, .print-btn { display: none !important; }
     @page { margin: 12mm; }
   }
   .back-link {
@@ -49,6 +49,25 @@
     transition: background 0.15s;
   }
   .back-link:hover { background: var(--white); }
+  .print-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    padding: 10px 18px;
+    border-radius: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--charcoal);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    transition: background 0.15s;
+  }
+  .print-btn:hover { background: var(--white); }
   .hero {
     position: relative;
     width: 100%;
@@ -342,6 +361,7 @@
 <body>
 
 <a href="index.html" class="back-link">&#8592; All Properties</a>
+<button class="print-btn" onclick="window.print()">Save as PDF</button>
 
 <div class="hero">
   <img src="https://www.justrentmarbella.com/rentals/fotos/3/1740407777a3bc96ca9f0d49bc514f3a5c783414de/1740407782c417cc543e072f011c15a5079bc6c0a8.jpg" alt="Villa Aguacate">
@@ -358,7 +378,7 @@
       <div class="fact-label">Bedrooms</div>
     </div>
     <div class="fact">
-      <div class="fact-value">8</div>
+      <div class="fact-value">4</div>
       <div class="fact-label">Bathrooms</div>
     </div>
     <div class="fact">
@@ -377,7 +397,7 @@
 
   <div class="section">
     <h2 class="section-title">About the Property</h2>
-    <p>Share Link copied Photos Add to favourites Favourites Share Description occupants 10 2 King size beds 2 Queen size beds 1 Double bed 5 4 Bedrooms 4 2 Bathrooms with bathtub 1 Bathroom with shower 1 Toilet 4 350 m² 350 m² Wi-Fi Wi-Fi</p>
+    <p>Villa Aguacate is a stunning 4-bedroom (5-bed) villa spanning 350 sqm, nestled in the serene residential enclave of El Paraiso, Marbella. Offering the perfect fusion of Andalusian charm and contemporary design, this home is ideal for those seeking comfort, tranquility, and modern conveniences. Recently upgraded, the villa features a bright and spacious living area that seamlessly extends to a picturesque terrace overlooking the lush garden and sparkling saltwater pool. A covered outdoor dining space creates the perfect setting for al fresco meals, while the fully equipped, newly built modern kitchen boasts top-of-the-line appliances, including a double refrigerator, ensuring ample storage and convenience for guests. Inside, the villa is thoughtfully designed with a blend of warm, inviting décor and sleek, modern finishes. The left wing of the home features two stylish bedrooms, each fitted with 180cm beds and SMART wall-mounted TVs, sharing a contemporary bathroom with a bathtub/shower combination. A dedicated workspace with a desk and rolling chair offers a peaceful environment with serene garden views, making it ideal for remote work or quiet reflection. The upper level, known as the Family Floor, hosts two additional bedrooms. One features a 180cm bed and a workspace area, while the master suite is a luxurious retreat, complete with a walk-in closet, a private terrace offering breathtaking views, and an elegant en-suite bathroom with a jacuzzi-style bathtub and a standing shower. The master bedroom is furnished with a 180cm bed along with an additional 140cm bed, ensuring flexible sleeping arrangements. Villa Aguacate is designed for both relaxation and entertainment, offering a variety of spaces to enjoy. Whether preparing a feast in the outdoor barbecue area, playing basketball in the driveway, engaging in a friendly football match in the garden, or taking a refreshing dip in the saltwater pool, there is something for everyone. Beyond the villa, its prime location ensures convenient access to essential amenities and the best of Marbella’s lifestyle. The beaches of San Pedro are just a 10-minute drive away, while the glamour of Puerto Banús, with its lively marina and upscale boardwalk, is only 13 minutes by car. Golf enthusiasts will appreciate having three exceptional golf courses just 250 meters away, and supermarkets and restaurants can be reached within a five-minute drive. Perfectly positioned for both relaxation and adventure, Villa Aguacate is a true haven for families and groups looking to experience the best of the Costa del Sol in a refined yet welcoming setting. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.</p>
   </div>
 
   <div class="section">
@@ -415,6 +435,10 @@
       <span class="tag">Ping pong</span>
       <span class="tag">Saltwater pool</span>
       <span class="tag">Ocean views</span>
+      <span class="tag">Dryer</span>
+      <span class="tag">Outdoor shower</span>
+      <span class="tag">Balcony</span>
+      <span class="tag">Pool towels</span>
       <span class="tag">45 m² terrace</span>
     </div>
   </div>
@@ -552,17 +576,11 @@
     <div class="services-columns">
       <div class="service-group">
         <h4>Included</h4>
-        <div class="service-item">Final Cleaning: € 500.00   / booking</div>
-        <div class="service-item">Internet Access: Included</div>
-        <div class="service-item">Covered parking: Included</div>
-        <div class="service-item">Towels:  Included</div>
+        <div class="service-item">Final Cleaning: € 500.00   / booking Internet Access: Included Covered parking: Included Towels:  Included</div>
       </div>
       <div class="service-group">
         <h4>Optional</h4>
-        <div class="service-item">Air conditioning: Included</div>
-        <div class="service-item">Baby high chair: € 25.00   / booking</div>
-        <div class="service-item">Cot/Crib: € 35.00   / booking</div>
-        <div class="service-item">Heating: Included</div>
+        <div class="service-item">Air conditioning: Included Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heating: Included</div>
       </div>
     </div>
     <div class="checkin-bar">

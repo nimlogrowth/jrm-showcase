@@ -30,7 +30,7 @@
   "bathrooms": "",
   "area": "150 m²",
   "plot": "285 m²",
-  "description": "Share Link copied Photos Add to favourites Favourites Share Description occupants 6 2 Double beds 2 Single beds 4 3 Bedrooms 3 2 bathrooms 2 150 m² 150 m² Wi-Fi Wi-Fi",
+  "description": "Welcome to this beautifully renovated beachfront townhouse in Colina del Mar, one of Estepona’s most desirable seaside locations. Perfectly positioned on the front line of the beach, this stylish home offers direct beach access, breathtaking sea views, and everything you need for a relaxing stay on the Costa del Sol. The townhouse features 3 comfortable bedrooms and 2 modern bathrooms, all recently renovated to a high standard. The interior combines contemporary design with a bright, coastal feel, creating a welcoming space to unwind after a day in the sun. The house is also equipped with Sonos speaker system. Step outside and enjoy the spectacular surroundings. On the first floor, you’ll find a spacious terrace with outdoor furniture, ideal for morning coffee, dining, or simply enjoying the views over the Mediterranean. The second-floor terrace offers a more private sunbathing area with comfortable sunbeds, perfect for relaxing under the Spanish sun. For an extra touch of luxury, the property includes a private jacuzzi, where you can unwind while listening to the sound of the waves. With direct access to the beach, you can go from your terrace to the sand in moments. Whether you’re looking for a peaceful seaside escape or a comfortable base to explore the Costa del Sol, this beachfront townhouse offers the perfect combination of location, comfort, and stunning views. Please note, we welcome families and couples only. We do not accept groups under 30, nor hen or stag parties. If you fall outside this category but would like to book, please send us an inquiry with more details about your group, and we can consider your request. We look forward to welcoming you!",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -55,7 +55,9 @@
     "BBQ",
     "Fenced garden",
     "Alarm system",
-    "Ocean views"
+    "Ocean views",
+    "Dryer",
+    "Balcony"
   ],
   "distances": [
     {
@@ -88,15 +90,10 @@
     }
   ],
   "services_included": [
-    "Final Cleaning: € 350.00   / booking",
-    "Internet Access: Included",
-    "Towels:  Included"
+    "Final Cleaning: € 350.00   / booking Internet Access: Included Towels:  Included"
   ],
   "services_optional": [
-    "Air conditioning: Included",
-    "Baby high chair: € 25.00   / booking",
-    "Cot/Crib: € 35.00   / booking",
-    "Heating: Included"
+    "Air conditioning: Included Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heating: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

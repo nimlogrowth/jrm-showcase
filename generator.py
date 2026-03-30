@@ -221,7 +221,7 @@ def build_property_page(prop):
     .hero {{ height: 420px !important; }}
     .gallery-grid img {{ break-inside: avoid; }}
     .page-break {{ page-break-before: always; }}
-    .map-container, .lightbox, .back-link {{ display: none !important; }}
+    .map-container, .lightbox, .back-link, .print-btn {{ display: none !important; }}
     @page {{ margin: 12mm; }}
   }}
   .back-link {{
@@ -241,6 +241,25 @@ def build_property_page(prop):
     transition: background 0.15s;
   }}
   .back-link:hover {{ background: var(--white); }}
+  .print-btn {{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    padding: 10px 18px;
+    border-radius: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--charcoal);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    transition: background 0.15s;
+  }}
+  .print-btn:hover {{ background: var(--white); }}
   .hero {{
     position: relative;
     width: 100%;
@@ -534,6 +553,7 @@ def build_property_page(prop):
 <body>
 
 <a href="index.html" class="back-link">&#8592; All Properties</a>
+<button class="print-btn" onclick="window.print()">Save as PDF</button>
 
 <div class="hero">
   <img src="{esc(hero_photo)}" alt="{name}">

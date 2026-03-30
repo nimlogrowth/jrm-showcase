@@ -29,7 +29,7 @@
     .hero { height: 420px !important; }
     .gallery-grid img { break-inside: avoid; }
     .page-break { page-break-before: always; }
-    .map-container, .lightbox, .back-link { display: none !important; }
+    .map-container, .lightbox, .back-link, .print-btn { display: none !important; }
     @page { margin: 12mm; }
   }
   .back-link {
@@ -49,6 +49,25 @@
     transition: background 0.15s;
   }
   .back-link:hover { background: var(--white); }
+  .print-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    padding: 10px 18px;
+    border-radius: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--charcoal);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    transition: background 0.15s;
+  }
+  .print-btn:hover { background: var(--white); }
   .hero {
     position: relative;
     width: 100%;
@@ -342,6 +361,7 @@
 <body>
 
 <a href="index.html" class="back-link">&#8592; All Properties</a>
+<button class="print-btn" onclick="window.print()">Save as PDF</button>
 
 <div class="hero">
   <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518185bf688ba07d2d07d80cbc1d763a2a1e78/1686214947a95d8e3dfd9b75a4f8667a81c304199a.jpg" alt="Casa Aloha">
@@ -358,7 +378,7 @@
       <div class="fact-label">Bedrooms</div>
     </div>
     <div class="fact">
-      <div class="fact-value">4</div>
+      <div class="fact-value">2</div>
       <div class="fact-label">Bathrooms</div>
     </div>
     <div class="fact">
@@ -373,7 +393,7 @@
 
   <div class="section">
     <h2 class="section-title">About the Property</h2>
-    <p>Share Link copied Photos Add to favourites Favourites Share Description Review 9 occupants 4 1 King size bed 2 Single beds 3 2 Bedrooms 2 1 Bathroom with bathtub 1 Bathroom with shower 2 88 m² 88 m² Wi-Fi Wi-Fi</p>
+    <p>Welcome to your Holiday Paradise! This bright and spacious apartment, located in an award-winning complex with luxurious facilities, is your perfect getaway. It’s light, modern, and thoughtfully designed, featuring a large south-facing terrace overlooking the pool. Ideal for family vacations or holidays with friends, the apartment offers generous living spaces and an open American kitchen, perfect for socializing. The kitchen is fully equipped to make your stay effortless and enjoyable, with a dining table for four to savor meals and play games. The living room is furnished with a comfy couch and a smart TV. Step outside to the beautiful terrace, perfect for morning coffee, afternoon relaxing, and evening dinners. The terrace includes plenty of seating and a dining table with a parasol. There are two bright and spacious bedrooms. The master bedroom includes an ensuite bathroom with a shower and bathtub and has glass doors opening to the terrace. The second bedroom has a double bed, ample closet space, and a bathroom right outside the door. Located in the stunning Aloha Hill Club, the complex features tropical gardens, three large pools, and a poolside restaurant and bar. Additional amenities available at a surcharge include a gym, sauna, spa services, children’s club, shuttle services, and daily fresh-baked bread. Just minutes away are Puerto Banus and the heart of Marbella, with its charming old town, parks, and the famous Promenade “Paseo Maritimo.” Golf lovers will find numerous top-notch courses within a short drive. Nearby attractions include water parks, Selwo Marina, Selwo Aventura Safari Park, a butterfly park, and the Crocodile Park. Please note, we welcome families and couples only, no groups under 30, and no hen or stag parties. If you fall outside these categories but still wish to book, please send us an inquiry with details about your group. Book your holiday today! We look forward to welcoming you.</p>
   </div>
 
   <div class="section">
@@ -401,6 +421,8 @@
       <span class="tag">Gym / fitness</span>
       <span class="tag">Lift</span>
       <span class="tag">Secured parking</span>
+      <span class="tag">Laptop workspace</span>
+      <span class="tag">Pool towels</span>
     </div>
   </div>
 
@@ -524,18 +546,11 @@
     <div class="services-columns">
       <div class="service-group">
         <h4>Included</h4>
-        <div class="service-item">Air conditioning: Included</div>
-        <div class="service-item">Final Cleaning: € 190.00   / booking</div>
-        <div class="service-item">Heated Pool: Included</div>
-        <div class="service-item">Heating: Included</div>
-        <div class="service-item">Internet Access: Included</div>
-        <div class="service-item">Garage: Included</div>
-        <div class="service-item">Towels:  Included</div>
+        <div class="service-item">Air conditioning: Included Final Cleaning: € 190.00   / booking Heated Pool: Included Heating: Included Internet Access: Included Garage: Included Towels:  Included</div>
       </div>
       <div class="service-group">
         <h4>Optional</h4>
-        <div class="service-item">Baby high chair: € 25.00   / booking</div>
-        <div class="service-item">Cot/Crib: € 35.00   / booking</div>
+        <div class="service-item">Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking</div>
       </div>
     </div>
     <div class="checkin-bar">

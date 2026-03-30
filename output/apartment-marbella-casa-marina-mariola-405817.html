@@ -29,7 +29,7 @@
     .hero { height: 420px !important; }
     .gallery-grid img { break-inside: avoid; }
     .page-break { page-break-before: always; }
-    .map-container, .lightbox, .back-link { display: none !important; }
+    .map-container, .lightbox, .back-link, .print-btn { display: none !important; }
     @page { margin: 12mm; }
   }
   .back-link {
@@ -49,6 +49,25 @@
     transition: background 0.15s;
   }
   .back-link:hover { background: var(--white); }
+  .print-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    padding: 10px 18px;
+    border-radius: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--charcoal);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    transition: background 0.15s;
+  }
+  .print-btn:hover { background: var(--white); }
   .hero {
     position: relative;
     width: 100%;
@@ -342,6 +361,7 @@
 <body>
 
 <a href="index.html" class="back-link">&#8592; All Properties</a>
+<button class="print-btn" onclick="window.print()">Save as PDF</button>
 
 <div class="hero">
   <img src="https://www.justrentmarbella.com/rentals/fotos/2/1666091560fe7bddab7fa5694ee093800ba8ec6bc4/16660915651433dc031b88a5d38ef94c03eb7ad8ed.jpg" alt="Casa Marina Mariola">
@@ -358,7 +378,7 @@
       <div class="fact-label">Bedrooms</div>
     </div>
     <div class="fact">
-      <div class="fact-value">4</div>
+      <div class="fact-value">2</div>
       <div class="fact-label">Bathrooms</div>
     </div>
     <div class="fact">
@@ -373,7 +393,7 @@
 
   <div class="section">
     <h2 class="section-title">About the Property</h2>
-    <p>Share Link copied Photos Add to favourites Favourites Share Description Review 10 occupants 4 1 Double bed 2 Single beds 3 2 Bedrooms 2 2 Bathrooms with bathtub 2 100 m² 100 m² Wi-Fi Wi-Fi</p>
+    <p>This is a beautiful west-facing two-bedroom apartment in a landmark building, Marina Mariola – An exclusive and tranquil oasis on Marbella’s Golden Mile. Bright, modern, fresh and all that you could ever want, just on your doorstep! Tastefully decorated, this 100m2 apartment boasts a spacious living/dining room with large sliding doors leading to the private terrace (side sea and mountain views) with sunbeds as well as an outdoor dining area. With the sun shining and the sound of the waves, this is the perfect place to lay back with a cool drink and enjoy your holiday, not to mention the sunsets! The fully equipped kitchen has a ‘window’ with sliding glass panes that opens onto the dining area. There are two bedrooms, one double with ensuite bathroom and access to the terrace, and one with twin beds. There is a second full bathroom. Both bathrooms have a bath with an incorporated shower. Air-conditioning and WiFi are included. Located right on the beach promenade on the famous Golden Mile, between Puerto Banús and Marbella. Just a few minutes’ walk to the very heart of Marbella with several shopping centers, restaurants and the cosy old town with its narrow streets and lovely Orange Square, where it is recommended to have a nice evening meal between the many orange trees. Right outside the actual development, you have several nice beach bars and chiringuitos to choose from. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to hearing from you. The development offers exquisite hallways steeped in tropical plants, beautiful tropical gardens with water features, direct access to the beach and a fantastic outdoor swimming pool plus a gymnasium with sauna and changing rooms. A concierge service, 24-hour security and underground parking are important additional features. * Please note that the outdoor swimming pool is only available from May to October.</p>
   </div>
 
   <div class="section">
@@ -402,6 +422,9 @@
       <span class="tag">Lift</span>
       <span class="tag">Secured parking</span>
       <span class="tag">Ocean views</span>
+      <span class="tag">Dryer</span>
+      <span class="tag">Laptop workspace</span>
+      <span class="tag">Pool towels</span>
       <span class="tag">20 m² terrace</span>
     </div>
   </div>
@@ -499,17 +522,11 @@
     <div class="services-columns">
       <div class="service-group">
         <h4>Included</h4>
-        <div class="service-item">Air conditioning: Included</div>
-        <div class="service-item">Final Cleaning: € 180.00   / booking</div>
-        <div class="service-item">Heating: Included</div>
-        <div class="service-item">Internet Access: Included</div>
-        <div class="service-item">Garage: Included</div>
-        <div class="service-item">Towels:  Included</div>
+        <div class="service-item">Air conditioning: Included Final Cleaning: € 180.00   / booking Heating: Included Internet Access: Included Garage: Included Towels:  Included</div>
       </div>
       <div class="service-group">
         <h4>Optional</h4>
-        <div class="service-item">Baby high chair: € 25.00   / booking</div>
-        <div class="service-item">Cot/Crib: € 35.00   / booking</div>
+        <div class="service-item">Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking</div>
       </div>
     </div>
     <div class="checkin-bar">

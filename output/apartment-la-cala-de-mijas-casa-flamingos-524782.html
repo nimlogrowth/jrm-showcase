@@ -29,7 +29,7 @@
     .hero { height: 420px !important; }
     .gallery-grid img { break-inside: avoid; }
     .page-break { page-break-before: always; }
-    .map-container, .lightbox, .back-link { display: none !important; }
+    .map-container, .lightbox, .back-link, .print-btn { display: none !important; }
     @page { margin: 12mm; }
   }
   .back-link {
@@ -49,6 +49,25 @@
     transition: background 0.15s;
   }
   .back-link:hover { background: var(--white); }
+  .print-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    padding: 10px 18px;
+    border-radius: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--charcoal);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    transition: background 0.15s;
+  }
+  .print-btn:hover { background: var(--white); }
   .hero {
     position: relative;
     width: 100%;
@@ -342,6 +361,7 @@
 <body>
 
 <a href="index.html" class="back-link">&#8592; All Properties</a>
+<button class="print-btn" onclick="window.print()">Save as PDF</button>
 
 <div class="hero">
   <img src="https://www.justrentmarbella.com/rentals/fotos/3/17400646018534b8d576f3929b55ff160c151d579f/1740064607ba3b4142b76f3b7d0e8868b330473da2.jpg" alt="Casa Flamingos">
@@ -358,7 +378,7 @@
       <div class="fact-label">Bedrooms</div>
     </div>
     <div class="fact">
-      <div class="fact-value">4</div>
+      <div class="fact-value">2</div>
       <div class="fact-label">Bathrooms</div>
     </div>
     <div class="fact">
@@ -373,7 +393,7 @@
 
   <div class="section">
     <h2 class="section-title">About the Property</h2>
-    <p>Share Link copied Photos Add to favourites Favourites Share Description occupants 4 1 King size bed 1 Double bed 2 2 Bedrooms 2 2 Bathrooms with shower 2 110 m² 110 m² Wi-Fi Wi-Fi</p>
+    <p>Welcome to Casa Flamingos! Located in La Cala de Mijas, Casa Flamingos is a beautifully renovated first-floor apartment offering uninterrupted Mediterranean views. Positioned on the second line, yet with nothing built on the front line, this home enjoys unobstructed sea views, creating a perfect setting for a tranquil coastal escape. The community is fully gated, ensuring privacy and security for all residents. The apartment features two bedrooms, both with stunning sea views. The master bedroom includes an en-suite bathroom and has direct access to the private terrace, where guests can wake up to the sight and sound of the waves. The second bedroom has a separate modern bathroom, ensuring comfort and privacy for all guests. The open-plan living area is bathed in natural light, leading to a spacious terrace with its own dining area, perfect for enjoying meals with a breathtaking backdrop of the sea and the community pool below. A fully equipped kitchen and a separate laundry room with a washer and dryer provide all the comforts of home. Parking is available within the community, offering an outdoor but gated space for residents and guests. One of the highlights of Casa Flamingos is its prime location along the coastal boardwalk. Heading east, guests can enjoy a scenic walk to La Cala de Mijas, a charming town known for its lively restaurants, cafés, and weekly markets, or continue further to Fuengirola for more extensive shopping and dining options. Walking west, the boardwalk leads towards Riviera del Sol and extends all the way to Marbella, offering an ideal route for a leisurely seaside stroll or morning jog. For daily essentials, a Mercadona supermarket is just a short distance away, making grocery shopping easy and convenient. Golf enthusiasts will appreciate the proximity to several top-tier courses, including La Cala Golf Resort, which boasts three championship courses, as well as Calanova Golf Club and Santana Golf, both offering excellent fairways and facilities. Whether you&#x27;re here to relax by the sea, explore the coastal towns, or enjoy a round of golf, Casa Flamingos is the perfect retreat for a memorable stay on the Costa del Sol. Please note, we welcome families and couples only. We do not accept groups under 30, nor hen or stag parties. If you fall outside this category but would like to book, please send us an inquiry with more details about your group, and we can consider your request. We look forward to welcoming you!</p>
   </div>
 
   <div class="section">
@@ -397,6 +417,8 @@
       <span class="tag">Air-conditioned</span>
       <span class="tag">Central heating</span>
       <span class="tag">Ocean views</span>
+      <span class="tag">Dryer</span>
+      <span class="tag">Balcony</span>
     </div>
   </div>
 
@@ -466,17 +488,11 @@
     <div class="services-columns">
       <div class="service-group">
         <h4>Included</h4>
-        <div class="service-item">Final Cleaning: € 200.00   / booking</div>
-        <div class="service-item">Internet Access: Included</div>
-        <div class="service-item">Towels:  Included</div>
+        <div class="service-item">Final Cleaning: € 200.00   / booking Internet Access: Included Towels:  Included</div>
       </div>
       <div class="service-group">
         <h4>Optional</h4>
-        <div class="service-item">Air conditioning: Included</div>
-        <div class="service-item">Baby high chair: € 25.00   / booking</div>
-        <div class="service-item">Cot/Crib: € 35.00   / booking</div>
-        <div class="service-item">Heating: Included</div>
-        <div class="service-item">Open-air parking: Included</div>
+        <div class="service-item">Air conditioning: Included Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heating: Included Open-air parking: Included</div>
       </div>
     </div>
     <div class="checkin-bar">

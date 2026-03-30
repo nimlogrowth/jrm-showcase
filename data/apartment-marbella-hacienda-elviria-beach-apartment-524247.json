@@ -31,10 +31,10 @@
   ],
   "guests": "4",
   "bedrooms": "2",
-  "bathrooms": "4",
+  "bathrooms": "2",
   "area": "121 m²",
   "plot": "",
-  "description": "Share Link copied Photos Add to favourites Favourites Share Description occupants 4 4 Single beds 4 2 Bedrooms 2 2 Bathrooms with shower 2 121 m² 121 m² Wi-Fi Wi-Fi",
+  "description": "This elegant 2-bedroom, 2-bathroom ground-floor apartment in Hacienda Elviria offers the perfect blend of Mediterranean charm and modern comfort. Designed with soft neutral tones and stylish furnishings, the open-plan living and dining area is bathed in natural light, creating a warm and inviting atmosphere. Floor-to-ceiling sliding doors connect seamlessly to the expansive covered terrace, which is fully furnished with lounge seating, a dining area, and sun loungers—all overlooking beautifully maintained gardens with glimpses of the sea. A separate, fully equipped kitchen with high-end appliances ensures convenience for extended stays, making this apartment ideal for families and groups seeking a luxurious retreat. The master bedroom is a true sanctuary, featuring direct terrace access, a plush double bed, and a spacious en-suite bathroom with a double vanity, walk-in shower, and bathtub. The additional bedroom is equally well-appointed, with en-suite bathroom, comfortable twin or double bedding options, and ample storage. The outdoor space is a standout feature, offering a seamless indoor-outdoor lifestyle with multiple areas to relax, dine, or soak up the sunshine. Lush tropical gardens surround the property, creating an atmosphere of serenity and privacy while still allowing for direct access to the beach, just a short stroll away. Situated within a prestigious gated community, the apartment enjoys access to multiple swimming pools, including one exclusively for children, as well as beautifully landscaped gardens. The prime Elviria location means guests are within walking distance of some of the finest beaches, renowned beach clubs like Nikki Beach, golf courses, and a wide selection of restaurants and shops. Marbella’s city center is just a short drive away, offering upscale shopping, historic sites, and vibrant nightlife. Whether seeking relaxation, adventure, or fine dining, this stunning home provides an unbeatable setting for a memorable Costa del Sol getaway. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -53,6 +53,7 @@
     "Central heating",
     "Secured parking",
     "Ocean views",
+    "Pool towels",
     "98 m² terrace"
   ],
   "distances": [
@@ -90,16 +91,10 @@
     }
   ],
   "services_included": [
-    "Final Cleaning: € 190.00   / booking",
-    "Internet Access: Included",
-    "Towels:  Included"
+    "Final Cleaning: € 190.00   / booking Internet Access: Included Towels:  Included"
   ],
   "services_optional": [
-    "Air conditioning: Included",
-    "Baby high chair: € 25.00   / booking",
-    "Cot/Crib: € 35.00   / booking",
-    "Heating: Included",
-    "Garage: Included"
+    "Air conditioning: Included Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heating: Included Garage: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

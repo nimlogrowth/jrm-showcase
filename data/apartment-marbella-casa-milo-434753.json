@@ -37,10 +37,10 @@
   ],
   "guests": "5",
   "bedrooms": "3",
-  "bathrooms": "4",
+  "bathrooms": "2",
   "area": "151 m²",
   "plot": "",
-  "description": "Share Link copied Photos Add to favourites Favourites Share Description Review 10 occupants 5 1 King size bed 1 Queen size bed 1 Single bed 3 3 Bedrooms 3 1 Bathroom with bathtub 1 Bathroom with shower 2 151 m² 151 m² Wi-Fi Wi-Fi",
+  "description": "Casa Milo offers the ultimate in modern and chic styling and an amazing location for your holidays in Marbella! A brand-new renovation to the highest Scandinavian standards, bringing together the latest designs of flair and elegance, combining natural wood and contemporary black and white fixtures and fittings, this pristine 3-bedroom apartment has it all! The open-plan living area with various seating options, a breakfast area and round dining table and fully fitted kitchen opens into the lovely terrace that features a chill-out corner and outdoor dining area for 8 with a gas-powered BBQ. There is also retractable awning providing shade for your long lunches and summer evenings! There are 3 bedrooms, two of which are “hidden” by doors that sit flush with the wooden wall panels along the edge of the dining area. The Master Bedroom is on the left and has a lavish ensuite bathroom with a large walk-in rain shower and a lovely bathtub. The second bedroom on the right has a double bed. The final bedroom is actually close to the entrance of the home and has a large single bed (120cm). There is a second shared bathroom with a shower. The complex enjoys a peaceful atmosphere, lovely gardens, and a very large communal swimming pool! There is also a dedicated parking space in the garage. The location of this apartment really can’t be beaten, close to it all yet in a quiet residential space. Puerto Banús is only a 15 minutes’ walk away, so is the beach. You have a few restaurants and bars within 5 minutes walk, along with a supermarket. Marbella Old Town is 10 minutes’ drive away, and you have 4 world-class golf courses less than 5 minutes’ drive away (Aloha, Las Brisas, Los Naranjos, and La Quinta). From its convenient location in Nueva Andalucía, you can easily access many of the Costa del Sol’s sought-after attractions, beaches, avant-garde cuisine, mountain-top white-washed villages, and more. If you are looking for a comfortable, relaxed, stylish haven and want to experience the best of the Costa del Sol in elegance and luxury, this is, without a doubt, your place to be. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to welcoming you!",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -70,7 +70,7 @@
     },
     {
       "place": "Airport",
-      "distance": "61 m"
+      "distance": "61 km"
     },
     {
       "place": "Bus station",
@@ -110,16 +110,10 @@
     }
   ],
   "services_included": [
-    "Air conditioning: Included",
-    "Final Cleaning: € 200.00   / booking",
-    "Heating: Included",
-    "Internet Access: Included",
-    "garage and car park: Included",
-    "Towels:  Included"
+    "Air conditioning: Included Final Cleaning: € 200.00   / booking Heating: Included Internet Access: Included garage and car park: Included Towels:  Included"
   ],
   "services_optional": [
-    "Baby high chair: € 25.00   / booking",
-    "Cot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

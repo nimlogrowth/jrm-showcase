@@ -29,7 +29,7 @@
     .hero { height: 420px !important; }
     .gallery-grid img { break-inside: avoid; }
     .page-break { page-break-before: always; }
-    .map-container, .lightbox, .back-link { display: none !important; }
+    .map-container, .lightbox, .back-link, .print-btn { display: none !important; }
     @page { margin: 12mm; }
   }
   .back-link {
@@ -49,6 +49,25 @@
     transition: background 0.15s;
   }
   .back-link:hover { background: var(--white); }
+  .print-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    padding: 10px 18px;
+    border-radius: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--charcoal);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    transition: background 0.15s;
+  }
+  .print-btn:hover { background: var(--white); }
   .hero {
     position: relative;
     width: 100%;
@@ -342,6 +361,7 @@
 <body>
 
 <a href="index.html" class="back-link">&#8592; All Properties</a>
+<button class="print-btn" onclick="window.print()">Save as PDF</button>
 
 <div class="hero">
   <img src="https://www.justrentmarbella.com/rentals/fotos/3/17519750693afcf09f17c7562a491a600a732703fe/17519750706c56a139b5fa1fa631d51558f62c1fe2.jpg" alt="Sunlife Penthouse">
@@ -358,7 +378,7 @@
       <div class="fact-label">Bedrooms</div>
     </div>
     <div class="fact">
-      <div class="fact-value">6</div>
+      <div class="fact-value">3</div>
       <div class="fact-label">Bathrooms</div>
     </div>
     <div class="fact">
@@ -373,7 +393,7 @@
 
   <div class="section">
     <h2 class="section-title">About the Property</h2>
-    <p>Share Link copied Photos Add to favourites Favourites Share Description occupants 4 1 King size bed 2 Single beds 3 2 Bedrooms 2 1 Bathroom with bathtub 1 Bathroom with shower 1 Toilet 3 120 m² 120 m² Wi-Fi Wi-Fi</p>
+    <p>Welcome to your private sky sanctuary in the exclusive Soul Marbella complex. This brand-new 2-bedroom, 2-bathroom penthouse boasts panoramic sea and golf course views from every angle, blending sleek modern design with resort-style luxury. Sunlight floods the elegant open-plan interiors, where floor-to-ceiling glass invites the outdoors in and connects effortlessly to a private rooftop terrace made for elevated living. The show-stopping rooftop space is a true highlight—featuring a private pool with built-in seating, bespoke outdoor kitchen, covered dining area, and a stylish lounge zone perfect for unforgettable sunsets. Whether entertaining or unwinding, this space offers unmatched privacy and luxury in one of Marbella’s most desirable locations. Inside, both bedrooms are spacious and serene, with fitted wardrobes and refined bathrooms finished with high-end fixtures and walk-in showers. The kitchen is fully equipped with top-of-the-line appliances and opens into a bright living area framed by stunning natural views. Residents of the Soul complex enjoy world-class amenities including both indoor and outdoor pools, a spa, and gym, all surrounded by beautifully maintained gardens. With secure parking, 24-hour security, and a location just minutes from the beach, Marbellas old town, and prestigious golf courses, this penthouse is a rare find on the Costa del Sol. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.</p>
   </div>
 
   <div class="section">
@@ -404,6 +424,8 @@
       <span class="tag">Alarm system</span>
       <span class="tag">Secured parking</span>
       <span class="tag">Ocean views</span>
+      <span class="tag">Dryer</span>
+      <span class="tag">Balcony</span>
       <span class="tag">155 m² terrace</span>
     </div>
   </div>
@@ -511,15 +533,11 @@
     <div class="services-columns">
       <div class="service-group">
         <h4>Included</h4>
-        <div class="service-item">Final Cleaning: € 250.00   / booking</div>
-        <div class="service-item">Internet Access: Included</div>
-        <div class="service-item">Garage: Included</div>
-        <div class="service-item">Towels:  Included</div>
+        <div class="service-item">Final Cleaning: € 250.00   / booking Internet Access: Included Garage: Included Towels:  Included</div>
       </div>
       <div class="service-group">
         <h4>Optional</h4>
-        <div class="service-item">Baby high chair: € 25.00   / booking</div>
-        <div class="service-item">Cot/Crib: € 35.00   / booking</div>
+        <div class="service-item">Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking</div>
       </div>
     </div>
     <div class="checkin-bar">

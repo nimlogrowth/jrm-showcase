@@ -54,10 +54,10 @@
   ],
   "guests": "8",
   "bedrooms": "4",
-  "bathrooms": "10",
+  "bathrooms": "5",
   "area": "312 m²",
   "plot": "",
-  "description": "Share Link copied Photos Add to favourites Favourites Share Description occupants 8 4 King size beds 4 4 Bedrooms 4 1 Bathroom with bathtub 3 Bathrooms with shower 1 Toilet 5 312 m² 312 m² Wi-Fi Wi-Fi",
+  "description": "Welcome to Villa Celeste, a stylish and serene 4-bedroom, 4-bathroom retreat nestled in the heart of Marbella’s Nueva Andalucía. Designed for families and groups seeking both luxury and comfort, this villa offers generous living spaces, upscale amenities, and an unbeatable location just minutes from the beach, golf courses, and the vibrant energy of Puerto Banús. Spread across multiple levels, the home features a bright open-plan layout with floor-to-ceiling windows, modern furnishings, and elegant design throughout. Each bedroom is beautifully appointed, with en-suite bathrooms and thoughtfully curated décor that balances relaxation with style. The main living area opens directly to the garden and pool terrace, while a separate TV room and a quiet workspace offer flexibility for work or winding down. The outdoor spaces are where Villa Celeste truly shines. Enjoy the sunshine in the private swimming pool, host unforgettable meals in the outdoor kitchen and BBQ area, or head upstairs to the rooftop terrace, where a private jacuzzi and lounge area await—perfect for sunset relaxation. A dedicated fitness area lets you stay active during your stay, while shaded terraces and lush greenery create the perfect backdrop for peaceful days and social evenings. Ideally located, Villa Celeste is within easy reach of Marbella’s top attractions. You’re just a short drive from the golden beaches of the coast, the lively restaurants and bars of Puerto Banús, and world-renowned golf courses like Los Naranjos and Las Brisas. Whether you're seeking a tranquil retreat or an action-packed holiday, Villa Celeste delivers the perfect balance of privacy, luxury, and accessibility. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -88,6 +88,8 @@
     "Alarm system",
     "Fireplace",
     "Secured parking",
+    "Dryer",
+    "Balcony",
     "50 m² terrace"
   ],
   "distances": [
@@ -125,16 +127,10 @@
     }
   ],
   "services_included": [
-    "Final Cleaning: € 650.00   / booking",
-    "Internet Access: Included",
-    "Open-air parking: Included",
-    "Towels:  Included"
+    "Final Cleaning: € 650.00   / booking Internet Access: Included Open-air parking: Included Towels:  Included"
   ],
   "services_optional": [
-    "Air conditioning: Included",
-    "Baby high chair: € 25.00   / booking",
-    "Cot/Crib: € 35.00   / booking",
-    "Heating: Included"
+    "Air conditioning: Included Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heating: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

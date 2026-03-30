@@ -29,7 +29,7 @@
     .hero { height: 420px !important; }
     .gallery-grid img { break-inside: avoid; }
     .page-break { page-break-before: always; }
-    .map-container, .lightbox, .back-link { display: none !important; }
+    .map-container, .lightbox, .back-link, .print-btn { display: none !important; }
     @page { margin: 12mm; }
   }
   .back-link {
@@ -49,6 +49,25 @@
     transition: background 0.15s;
   }
   .back-link:hover { background: var(--white); }
+  .print-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    padding: 10px 18px;
+    border-radius: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--charcoal);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    transition: background 0.15s;
+  }
+  .print-btn:hover { background: var(--white); }
   .hero {
     position: relative;
     width: 100%;
@@ -342,6 +361,7 @@
 <body>
 
 <a href="index.html" class="back-link">&#8592; All Properties</a>
+<button class="print-btn" onclick="window.print()">Save as PDF</button>
 
 <div class="hero">
   <img src="https://www.justrentmarbella.com/rentals/fotos/3/17537195838d3d7c68470953413888856e3405656f/175371958557d1233cce1d3acecca6f896e1f1d68a.jpg" alt="Villa Las Brisas">
@@ -369,7 +389,7 @@
 
   <div class="section">
     <h2 class="section-title">About the Property</h2>
-    <p>Share Link copied Photos Add to favourites Favourites Share Description occupants 10 5 King size beds 5 5 Bedrooms 5 5 bathrooms 5 365 m² 365 m² Wi-Fi Wi-Fi</p>
+    <p>Welcome to Villa Las Brisas, a spectacular frontline golf villa set directly on the prestigious Las Brisas Golf Course in the heart of Nueva Andalucía. This 5-bedroom, 5-bathroom residence delivers panoramic views over manicured fairways and the iconic La Concha mountain, offering the perfect blend of luxury, location, and lifestyle. Designed with both relaxation and entertainment in mind, the villa combines elegant modern interiors with a warm, inviting ambiance that flows seamlessly from indoor to outdoor living. Each of the five spacious bedrooms is en-suite, ensuring privacy and comfort for every guest. The open-plan living area is bright and airy, leading to a sleek, fully equipped kitchen and refined dining space. Floor-to-ceiling windows frame breathtaking views and open out to the villa’s expansive terrace and beautifully landscaped garden. Outdoors, a stunning private pool takes centre stage, surrounded by sun loungers, a stylish fire pit corner, and lush greenery—perfect for soaking up the Marbella sun or enjoying an evening under the stars. Villa Las Brisas is made for entertainment. The lower level features a fantastic recreational space complete with a cinema-style lounge, pool table, and a fully equipped gym. Whether you&#x27;re hosting family and friends or enjoying a peaceful retreat, this villa offers every amenity to make your stay unforgettable. Located just minutes from top golf courses, restaurants, boutiques, and Puerto Banús, Villa Las Brisas is the ultimate escape for those seeking the best of Marbella. This is not just a villa—it’s a lifestyle. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.</p>
   </div>
 
   <div class="section">
@@ -414,6 +434,8 @@
       <span class="tag">Alarm system</span>
       <span class="tag">Fireplace</span>
       <span class="tag">Secured parking</span>
+      <span class="tag">Dryer</span>
+      <span class="tag">Balcony</span>
     </div>
   </div>
 
@@ -534,17 +556,11 @@
     <div class="services-columns">
       <div class="service-group">
         <h4>Included</h4>
-        <div class="service-item">Final Cleaning: € 550.00   / booking</div>
-        <div class="service-item">Internet Access: Included</div>
-        <div class="service-item">Garage: Included</div>
-        <div class="service-item">Towels:  Included</div>
+        <div class="service-item">Final Cleaning: € 550.00   / booking Internet Access: Included Garage: Included Towels:  Included</div>
       </div>
       <div class="service-group">
         <h4>Optional</h4>
-        <div class="service-item">Air conditioning: Included</div>
-        <div class="service-item">Baby high chair: € 25.00   / booking</div>
-        <div class="service-item">Cot/Crib: € 35.00   / booking</div>
-        <div class="service-item">Heating: Included</div>
+        <div class="service-item">Air conditioning: Included Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heating: Included</div>
       </div>
     </div>
     <div class="checkin-bar">

@@ -25,10 +25,10 @@
   ],
   "guests": "4",
   "bedrooms": "2",
-  "bathrooms": "4",
+  "bathrooms": "2",
   "area": "100 m²",
   "plot": "",
-  "description": "Share Link copied Photos Add to favourites Favourites Share Description Review 10 occupants 4 1 Double bed 2 Single beds 3 2 Bedrooms 2 1 Bathroom with bathtub 1 Bathroom with shower 2 100 m² 100 m² Wi-Fi Wi-Fi",
+  "description": "A charming 2-bedroom apartment with amazing sea views! Casa Verde is a lovely 2-bed apartment in a small, gated urbanisation in the hills above Calahonda, enjoying stunning views. Decorated in contemporary neutral tones and furnishings, here you will find peace and quiet in a wonderfully relaxing setting, whilst being only 2km from the bustling town of Calahonda and the beach. This apartment would suit a family or a small group of golfers as you have a variety of golf courses within a 5km radius. The apartment offers a double bedroom (160cm) with ensuite bathroom, and a twin room with a separate bathroom with a shower. There is a fully equipped kitchen, a dining area and a living room with Smart TV. A highlight is the enclosed terrace that has glass curtains that can be opened completely to provide a lovely exterior terrace or closed (fully or partially) to provide a gorgeous, sunny and warm space in the winter. There are two sunbeds for your use on the grass. There is aircon and wifi throughout, and on-street parking. And there is a lovely communal pool and a communal BBQ area too. There is a restaurant a few minute’s walk down the road, and supermarkets and shops are aplenty in Calahonda, just 2km away. We do recommend a car. The neighbouring towns of Fuengirola and Marbella are only a 10-15 drive away, and Malaga Airport is 35 km away. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to welcoming you!",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -45,12 +45,13 @@
     "Communal pool",
     "Air-conditioned",
     "Ocean views",
+    "Laptop workspace",
     "10 m² terrace"
   ],
   "distances": [
     {
       "place": "Airport",
-      "distance": "38 m"
+      "distance": "38 km"
     },
     {
       "place": "Restaurant",
@@ -90,16 +91,10 @@
     }
   ],
   "services_included": [
-    "Air conditioning: Included",
-    "Final Cleaning: € 170.00   / booking",
-    "Heating: Included",
-    "Internet Access: Included",
-    "Open-air parking: Included",
-    "Towels:  Included"
+    "Air conditioning: Included Final Cleaning: € 170.00   / booking Heating: Included Internet Access: Included Open-air parking: Included Towels:  Included"
   ],
   "services_optional": [
-    "Baby high chair: € 25.00   / booking",
-    "Cot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
