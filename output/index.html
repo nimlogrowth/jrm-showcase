@@ -167,6 +167,8 @@
     <option value="za">Name Z — A</option>
     <option value="beds-asc">Bedrooms: low to high</option>
     <option value="beds-desc">Bedrooms: high to low</option>
+    <option value="guests-asc">Guests: low to high</option>
+    <option value="guests-desc">Guests: high to low</option>
   </select>
   <span class="count" id="count">116 properties</span>
 </div>
@@ -1354,6 +1356,8 @@
       if (val === 'za') return b.querySelector('h3').textContent.localeCompare(a.querySelector('h3').textContent);
       if (val === 'beds-asc') return (parseInt(a.dataset.bedrooms)||0) - (parseInt(b.dataset.bedrooms)||0);
       if (val === 'beds-desc') return (parseInt(b.dataset.bedrooms)||0) - (parseInt(a.dataset.bedrooms)||0);
+      if (val === 'guests-asc') return (parseInt(a.dataset.guests)||0) - (parseInt(b.dataset.guests)||0);
+      if (val === 'guests-desc') return (parseInt(b.dataset.guests)||0) - (parseInt(a.dataset.guests)||0);
       return 0;
     });
     cards.forEach(function(card) { grid.appendChild(card); });

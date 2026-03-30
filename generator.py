@@ -87,19 +87,7 @@ def build_property_page(prop):
     raw_name = prop.get("name", "Property")
     loc_raw = prop.get("location", "")
     type_raw = prop.get("type", "")
-    clean = raw_name
-    if loc_raw and clean.endswith(loc_raw):
-        clean = clean[:-len(loc_raw)].strip()
-    if loc_raw and clean.endswith(loc_raw.replace(" ", "")):
-        clean = clean[:-len(loc_raw.replace(" ", ""))].strip()
-    if type_raw and clean.endswith(" -" + type_raw):
-        clean = clean[:-(len(type_raw) + 2)].strip()
-    if type_raw and clean.endswith("-" + type_raw):
-        clean = clean[:-(len(type_raw) + 1)].strip()
-    if type_raw and clean.endswith(type_raw):
-        clean = clean[:-len(type_raw)].strip()
-    clean = clean.rstrip(" -")
-    name = esc(clean) if clean else esc(raw_name)
+    name = esc(clean_name(raw_name, loc_raw, type_raw))
     location = esc(loc_raw)
     prop_type = esc(prop.get("type", ""))
     guests = esc(prop.get("guests", ""))
@@ -647,6 +635,25 @@ def build_property_page(prop):
 </html>'''
 
 
+def clean_name(raw_name, location, prop_type):
+    """Remove location and type suffixes from property name."""
+    clean = raw_name
+    # Try removing location with and without space
+    for loc_variant in [location, location.replace(" ", "")]:
+        if loc_variant and clean.endswith(loc_variant):
+            clean = clean[:-len(loc_variant)].rstrip()
+            break
+    # Only remove type if preceded by a separator (not if it is part of the name)
+    for sep in [" -", "- ", " - ", "-"]:
+        suffix = sep + prop_type
+        if prop_type and clean.endswith(suffix):
+            clean = clean[:-len(suffix)].rstrip()
+            break
+    # Final cleanup
+    clean = clean.rstrip(" -.,")
+    return clean if clean else raw_name
+
+
 def build_index_page(properties):
     """Generate the directory / index page."""
 
@@ -668,23 +675,8 @@ def build_index_page(properties):
         guests = esc(p.get("guests", ""))
         photo = esc(p["photos"][0]) if p.get("photos") else ""
 
-        # Clean name: remove location and type suffixes that the scraper may have left
-        clean = raw_name
-        loc_raw = p.get("location", "")
-        type_raw = p.get("type", "")
-        if loc_raw and clean.endswith(loc_raw):
-            clean = clean[:-len(loc_raw)].strip()
-        if loc_raw and clean.endswith(loc_raw.replace(" ", "")):
-            clean = clean[:-len(loc_raw.replace(" ", ""))].strip()
-        if type_raw and clean.endswith(" -" + type_raw):
-            clean = clean[:-(len(type_raw) + 2)].strip()
-        if type_raw and clean.endswith("-" + type_raw):
-            clean = clean[:-(len(type_raw) + 1)].strip()
-        if type_raw and clean.endswith(type_raw):
-            clean = clean[:-len(type_raw)].strip()
-        # Remove trailing dashes or spaces
-        clean = clean.rstrip(" -")
-        name = esc(clean) if clean else esc(raw_name)
+        # Clean name: remove location and type suffixes
+        name = esc(clean_name(raw_name, p.get("location", ""), p.get("type", "")))
 
         cards_html += f'''    <a href="{slug}.html" class="card" data-location="{location}" data-type="{prop_type}" data-bedrooms="{bedrooms}" data-guests="{guests}">
       <div class="card-img" style="background-image:url('{photo}')"></div>
@@ -867,6 +859,8 @@ def build_index_page(properties):
     <option value="za">Name Z — A</option>
     <option value="beds-asc">Bedrooms: low to high</option>
     <option value="beds-desc">Bedrooms: high to low</option>
+    <option value="guests-asc">Guests: low to high</option>
+    <option value="guests-desc">Guests: high to low</option>
   </select>
   <span class="count" id="count">{len(properties)} properties</span>
 </div>
@@ -894,6 +888,8 @@ def build_index_page(properties):
       if (val === 'za') return b.querySelector('h3').textContent.localeCompare(a.querySelector('h3').textContent);
       if (val === 'beds-asc') return (parseInt(a.dataset.bedrooms)||0) - (parseInt(b.dataset.bedrooms)||0);
       if (val === 'beds-desc') return (parseInt(b.dataset.bedrooms)||0) - (parseInt(a.dataset.bedrooms)||0);
+      if (val === 'guests-asc') return (parseInt(a.dataset.guests)||0) - (parseInt(b.dataset.guests)||0);
+      if (val === 'guests-desc') return (parseInt(b.dataset.guests)||0) - (parseInt(a.dataset.guests)||0);
       return 0;
     }});
     cards.forEach(function(card) {{ grid.appendChild(card); }});
