@@ -202,6 +202,10 @@ def build_property_page(prop):
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{name} — {location}</title>
+<meta property="og:title" content="{name} — {location}, Costa del Sol">
+<meta property="og:description" content="{prop_type} in {location}. {bedrooms} bedrooms, {guests} guests.">
+<meta property="og:image" content="{esc(photos[0]) if photos else ''}">
+<meta property="og:type" content="website">
 <meta name="description" content="{name} in {location}. {prop_type}. {bedrooms} bedrooms, {guests} guests.">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -736,6 +740,10 @@ def build_index_page(properties):
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Property Showcase — Costa del Sol</title>
+<meta property="og:title" content="Property Showcase — Costa del Sol">
+<meta property="og:description" content="{len(properties)} holiday rental properties in Marbella, Estepona, Benahavís and the Costa del Sol.">
+<meta property="og:image" content="{esc(properties[0]['photos'][0]) if properties and properties[0].get('photos') else ''}">
+<meta property="og:type" content="website">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
   :root {{
