@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Casa PentiqueEstepona -Terraced House — Estepona</title>
+<meta name="description" content="Casa PentiqueEstepona -Terraced House in Estepona. . 3 bedrooms, 6 guests.">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --charcoal: #2C2C2C;
+    --dark: #1A1A1A;
+    --mid: #6B6B6B;
+    --light: #E8E8E8;
+    --sand: #F5F0EB;
+    --warm: #F9F6F2;
+    --accent: #8B7355;
+    --white: #FFFFFF;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'DM Sans', sans-serif;
+    color: var(--charcoal);
+    background: var(--white);
+    -webkit-font-smoothing: antialiased;
+  }
+  @media print {
+    body { font-size: 10pt; }
+    .hero { height: 420px !important; }
+    .gallery-grid img { break-inside: avoid; }
+    .page-break { page-break-before: always; }
+    .map-container, .lightbox, .back-link { display: none !important; }
+    @page { margin: 12mm; }
+  }
+  .back-link {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    padding: 10px 18px;
+    border-radius: 24px;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--charcoal);
+    text-decoration: none;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    transition: background 0.15s;
+  }
+  .back-link:hover { background: var(--white); }
+  .hero {
+    position: relative;
+    width: 100%;
+    height: 520px;
+    overflow: hidden;
+    background: var(--sand);
+  }
+  .hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .hero-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 48px 56px 40px;
+    background: linear-gradient(transparent, rgba(20,20,20,0.85));
+    color: var(--white);
+  }
+  .hero-overlay h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    font-size: 48px;
+    letter-spacing: -0.5px;
+    line-height: 1.1;
+    margin-bottom: 4px;
+  }
+  .hero-overlay .location {
+    font-size: 15px;
+    font-weight: 300;
+    opacity: 0.85;
+    letter-spacing: 0.5px;
+  }
+  .container { max-width: 1080px; margin: 0 auto; padding: 0 40px; }
+  .facts-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    border-bottom: 1px solid var(--light);
+  }
+  .fact { text-align: center; flex: 1; }
+  .fact-value {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--charcoal);
+    line-height: 1.2;
+  }
+  .fact-label {
+    font-size: 11px;
+    font-weight: 500;
+    color: var(--mid);
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    margin-top: 4px;
+  }
+  .section {
+    padding: 48px 0;
+    border-bottom: 1px solid var(--light);
+  }
+  .section:last-child { border-bottom: none; }
+  .section-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: var(--charcoal);
+  }
+  .section p {
+    font-size: 15px;
+    line-height: 1.75;
+    color: var(--mid);
+    max-width: 820px;
+  }
+  .bedrooms-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 10px;
+    margin-top: 24px;
+  }
+  .bedroom-card {
+    background: var(--sand);
+    border-radius: 8px;
+    padding: 20px 12px;
+    text-align: center;
+  }
+  .bedroom-card .room { font-weight: 600; font-size: 13px; margin-bottom: 4px; }
+  .bedroom-card .bed { font-size: 12px; color: var(--mid); }
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 20px;
+  }
+  .tag {
+    background: var(--sand);
+    padding: 8px 16px;
+    border-radius: 24px;
+    font-size: 13px;
+    color: var(--charcoal);
+  }
+  .gallery-grid { display: grid; gap: 6px; margin-top: 24px; }
+  .gallery-row-2 { grid-template-columns: 1fr 1fr; }
+  .gallery-row-3 { grid-template-columns: 1fr 1fr 1fr; }
+  .gallery-grid img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 6px;
+    display: block;
+    background: var(--sand);
+    cursor: pointer;
+    transition: opacity 0.15s;
+  }
+  .gallery-grid img:hover, .hero img { cursor: pointer; }
+  .gallery-grid img:hover { opacity: 0.88; }
+  .gallery-row-2 img { height: 280px; }
+  .map-container {
+    width: 100%;
+    height: 360px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 36px;
+    border: 1px solid var(--light);
+  }
+  .map-container iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    display: block;
+  }
+  .distances-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    margin-top: 20px;
+  }
+  .distance-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 20px;
+    border-bottom: 1px solid var(--light);
+  }
+  .distance-row:nth-child(odd) {
+    border-right: 1px solid var(--light);
+    padding-right: 40px;
+  }
+  .distance-row:nth-child(even) { padding-left: 40px; }
+  .distance-place {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+  }
+  .distance-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--accent);
+    flex-shrink: 0;
+  }
+  .distance-value {
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--charcoal);
+    white-space: nowrap;
+  }
+  .services-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-top: 20px;
+  }
+  .service-group h4 {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--accent);
+    margin-bottom: 14px;
+  }
+  .service-item {
+    font-size: 14px;
+    color: var(--mid);
+    padding: 8px 0;
+    border-bottom: 1px solid var(--light);
+  }
+  .service-item:last-child { border-bottom: none; }
+  .checkin-bar {
+    display: flex;
+    gap: 40px;
+    margin-top: 32px;
+    padding: 24px 32px;
+    background: var(--sand);
+    border-radius: 8px;
+  }
+  .checkin-item strong {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 2px;
+  }
+  .checkin-item span { font-size: 13px; color: var(--mid); }
+  .rules { margin-top: 20px; font-size: 13px; color: var(--mid); line-height: 1.7; }
+  .footer {
+    text-align: center;
+    padding: 32px 0;
+    font-size: 11px;
+    color: var(--light);
+    letter-spacing: 0.5px;
+  }
+  /* ── Lightbox ── */
+  .lightbox {
+    display: none; position: fixed; inset: 0; z-index: 9999;
+    background: rgba(10,10,10,0.97); flex-direction: column;
+    opacity: 0; transition: opacity 0.25s ease;
+  }
+  .lightbox.active { display: flex; opacity: 1; }
+  .lb-main {
+    flex: 1; display: flex; align-items: center; justify-content: center;
+    position: relative; min-height: 0; padding: 20px 80px;
+  }
+  .lb-main img {
+    max-width: 100%; max-height: 100%; object-fit: contain;
+    border-radius: 4px; user-select: none; transition: opacity 0.2s ease;
+  }
+  .lb-close {
+    position: absolute; top: 16px; right: 20px; width: 44px; height: 44px;
+    background: none; border: none; cursor: pointer; z-index: 10001;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .lb-close svg { width: 28px; height: 28px; stroke: rgba(255,255,255,0.7); transition: stroke 0.15s; }
+  .lb-close:hover svg { stroke: #fff; }
+  .lb-nav {
+    position: absolute; top: 50%; transform: translateY(-50%);
+    width: 48px; height: 48px;
+    background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 50%; cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    transition: background 0.15s, border-color 0.15s; z-index: 10001;
+  }
+  .lb-nav:hover { background: rgba(255,255,255,0.15); border-color: rgba(255,255,255,0.3); }
+  .lb-nav svg { width: 20px; height: 20px; stroke: rgba(255,255,255,0.8); }
+  .lb-prev { left: 16px; }
+  .lb-next { right: 16px; }
+  .lb-counter {
+    position: absolute; top: 24px; left: 50%; transform: translateX(-50%);
+    font-family: 'DM Sans', sans-serif; font-size: 13px;
+    color: rgba(255,255,255,0.45); letter-spacing: 1px;
+  }
+  .lb-thumbs { flex-shrink: 0; width: 100%; padding: 12px 0 16px; overflow: hidden; position: relative; }
+  .lb-thumbs-track {
+    display: flex; gap: 6px; padding: 0 24px;
+    transition: transform 0.3s ease; will-change: transform;
+  }
+  .lb-thumb {
+    flex-shrink: 0; width: 80px; height: 54px; border-radius: 4px;
+    object-fit: cover; cursor: pointer; opacity: 0.35;
+    transition: opacity 0.2s, outline-color 0.2s;
+    outline: 2px solid transparent; outline-offset: 2px;
+  }
+  .lb-thumb:hover { opacity: 0.7; }
+  .lb-thumb.active { opacity: 1; outline-color: rgba(255,255,255,0.6); }
+  @media (max-width: 768px) {
+    .hero { height: 360px; }
+    .hero-overlay { padding: 32px 24px 28px; }
+    .hero-overlay h1 { font-size: 32px; }
+    .container { padding: 0 20px; }
+    .facts-bar { flex-wrap: wrap; gap: 20px; }
+    .fact { min-width: 30%; }
+    .gallery-row-2 img { height: 180px; }
+    .gallery-grid img { height: 160px; }
+    .distances-grid { grid-template-columns: 1fr; }
+    .distance-row:nth-child(odd) { border-right: none; padding-right: 20px; }
+    .distance-row:nth-child(even) { padding-left: 20px; }
+    .services-columns { grid-template-columns: 1fr; gap: 24px; }
+    .checkin-bar { flex-direction: column; gap: 16px; }
+    .map-container { height: 260px; }
+    .lb-main { padding: 16px 52px; }
+    .lb-nav { width: 40px; height: 40px; }
+    .lb-prev { left: 8px; }
+    .lb-next { right: 8px; }
+    .lb-thumb { width: 60px; height: 40px; }
+    .lb-thumbs-track { gap: 4px; padding: 0 12px; }
+  }
+</style>
+</head>
+<body>
+
+<a href="index.html" class="back-link">&#8592; All Properties</a>
+
+<div class="hero">
+  <img src="https://www.justrentmarbella.com/rentals/fotos/2/171397633117a7bc9d2b0462f5044a2e15f9f8f107/17139770121f5f86f00bea3ceca054220e189a5a91.jpg" alt="Casa PentiqueEstepona -Terraced House">
+  <div class="hero-overlay">
+    <h1>Casa PentiqueEstepona -Terraced House</h1>
+    <div class="location">Estepona, Costa del Sol</div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="facts-bar">
+    <div class="fact">
+      <div class="fact-value">3</div>
+      <div class="fact-label">Bedrooms</div>
+    </div>
+    <div class="fact">
+      <div class="fact-value">6</div>
+      <div class="fact-label">Bathrooms</div>
+    </div>
+    <div class="fact">
+      <div class="fact-value">6</div>
+      <div class="fact-label">Guests</div>
+    </div>
+    <div class="fact">
+      <div class="fact-value">170 m²</div>
+      <div class="fact-label">Living Area</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">About the Property</h2>
+    <p>Terraced houses in Estepona Casa Pentique. We have a great offer to the best price. Book right now your Terraced houses in Estepona quick, easy and safe.</p>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">Bedroom Layout</h2>
+    <div class="bedrooms-grid">
+      <div class="bedroom-card">
+        <div class="room">Bedroom 1</div>
+        <div class="bed">King size bed</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">Views &amp; Highlights</h2>
+    <div class="tags">
+      <span class="tag">Sea views</span>
+      <span class="tag">Garden views</span>
+      <span class="tag">Mountain views</span>
+      <span class="tag">Communal pool</span>
+      <span class="tag">Central heating</span>
+      <span class="tag">BBQ</span>
+      <span class="tag">Fenced garden</span>
+      <span class="tag">Tennis court</span>
+      <span class="tag">Padel court</span>
+      <span class="tag">Alarm system</span>
+      <span class="tag">Secured parking</span>
+      <span class="tag">Ocean views</span>
+      <span class="tag">65 m² terrace</span>
+    </div>
+  </div>
+
+  <div class="section page-break">
+    <h2 class="section-title">Gallery</h2>
+    <div class="gallery-grid gallery-row-2">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/171397633117a7bc9d2b0462f5044a2e15f9f8f107/1713976338d32345e994bae2cab3fd6be6ccb94f89.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/171397633117a7bc9d2b0462f5044a2e15f9f8f107/1713976337f0bc8469aae2da49f14c49727dad965d.jpg" alt="Property photo">
+    </div>
+    <div class="gallery-grid gallery-row-3" style="margin-top:6px;">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/171397633117a7bc9d2b0462f5044a2e15f9f8f107/171397634206e0579970914ebcb1bdf0f11e77dfa3.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/171397633117a7bc9d2b0462f5044a2e15f9f8f107/171397633378f8e2fa38929da991e8e37f5cadce87.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/171397633117a7bc9d2b0462f5044a2e15f9f8f107/171397634802831566a03897893202ca462cb6116f.jpg" alt="Property photo">
+    </div>
+    <div class="gallery-grid gallery-row-2" style="margin-top:6px;">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/171397633117a7bc9d2b0462f5044a2e15f9f8f107/171397634619acb674a590cd5f37968d8aa73d73b5.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/171397633117a7bc9d2b0462f5044a2e15f9f8f107/171397633676a38c7ad460ae61529f84a3cfaff09f.jpg" alt="Property photo">
+    </div>
+    <div class="gallery-grid gallery-row-3" style="margin-top:6px;">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/171397633117a7bc9d2b0462f5044a2e15f9f8f107/1713976336be56782834ed549f4e74f5cea9e370d2.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/171397633117a7bc9d2b0462f5044a2e15f9f8f107/1713976335b6e29ee896b6bd51d8de87af380a0280.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/171397633117a7bc9d2b0462f5044a2e15f9f8f107/171397633506efae192aa8bc42d4026969bf60324e.jpg" alt="Property photo">
+    </div>
+    <div class="gallery-grid gallery-row-2" style="margin-top:6px;">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/171397633117a7bc9d2b0462f5044a2e15f9f8f107/171397634699f9fe1907d45bbd970beac65a7dace2.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/171397633117a7bc9d2b0462f5044a2e15f9f8f107/171397634002e31fc3e36a6f9575f905cd72c0375d.jpg" alt="Property photo">
+    </div>
+    <div class="gallery-grid gallery-row-3" style="margin-top:6px;">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/171397633117a7bc9d2b0462f5044a2e15f9f8f107/1713976334e0a3ad5c62e9d17097bd739201b22613.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/171397633117a7bc9d2b0462f5044a2e15f9f8f107/17139763389753cac66bf4456d44b553f8f00690cc.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/171397633117a7bc9d2b0462f5044a2e15f9f8f107/1713976339758cb4f797123563d0668ff5c7729ec0.jpg" alt="Property photo">
+    </div>
+    <div class="gallery-grid gallery-row-2" style="margin-top:6px;">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/171397633117a7bc9d2b0462f5044a2e15f9f8f107/1713976341069bdc25d5aba58721808b0093c75452.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/171397633117a7bc9d2b0462f5044a2e15f9f8f107/171397634304dd9485602d7e4e3cd07fe26e7d71ff.jpg" alt="Property photo">
+    </div>
+    <div class="gallery-grid gallery-row-3" style="margin-top:6px;">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/171397633117a7bc9d2b0462f5044a2e15f9f8f107/1713976338b2c25a35353832dbca3b42e200be5928.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/171397633117a7bc9d2b0462f5044a2e15f9f8f107/17139763431c80dd080598405d9ebab9a492e5e1ce.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/171397633117a7bc9d2b0462f5044a2e15f9f8f107/17139763422c05b75dd29c996229bcb0cbd441a455.jpg" alt="Property photo">
+    </div>
+    <div class="gallery-grid gallery-row-2" style="margin-top:6px;">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/171397633117a7bc9d2b0462f5044a2e15f9f8f107/1713976344bc0ba136214b78ad49557a03f52e93c7.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/171397633117a7bc9d2b0462f5044a2e15f9f8f107/1713976334310f385ea822f30e4453f7d29a12dc5f.jpg" alt="Property photo">
+    </div>
+    <div class="gallery-grid gallery-row-3" style="margin-top:6px;">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/171397633117a7bc9d2b0462f5044a2e15f9f8f107/17139763415efd802529b36719d195b8850e6577c8.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/171397633117a7bc9d2b0462f5044a2e15f9f8f107/1713976341e542c9266ff2efa0c59b1adb09e19de2.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/171397633117a7bc9d2b0462f5044a2e15f9f8f107/171397634356e8a8fce6ea77b89404f25fb97919e5.jpg" alt="Property photo">
+    </div>
+    <div class="gallery-grid gallery-row-2" style="margin-top:6px;">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/171397633117a7bc9d2b0462f5044a2e15f9f8f107/171397634047ff247e982fc71c9f1e3827dfb2a8e9.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/171397633117a7bc9d2b0462f5044a2e15f9f8f107/1713976344750651eeb093a7c07e37692ce5bd5f99.jpg" alt="Property photo">
+    </div>
+    <div class="gallery-grid gallery-row-3" style="margin-top:6px;">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/171397633117a7bc9d2b0462f5044a2e15f9f8f107/17139763483b4d99f54902b956d709eb9568b77317.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/171397633117a7bc9d2b0462f5044a2e15f9f8f107/1713976339e78475f6fc99cb7438843127566f4c90.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/171397633117a7bc9d2b0462f5044a2e15f9f8f107/17139763459d81edd858f785d863dd0e2542fe960e.jpg" alt="Property photo">
+    </div>
+    <div class="gallery-grid gallery-row-2" style="margin-top:6px;">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/171397633117a7bc9d2b0462f5044a2e15f9f8f107/1713976346a7c127bc6d72ba6497992b8add77e5a4.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/171397633117a7bc9d2b0462f5044a2e15f9f8f107/17139763478cda3d309438deb9a9bcc9fd197930b7.jpg" alt="Property photo">
+    </div>
+    <div class="gallery-grid gallery-row-3" style="margin-top:6px;">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/171397633117a7bc9d2b0462f5044a2e15f9f8f107/1713976347335ac385e2ec8cff14f0c0c9ef5473dd.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/171397633117a7bc9d2b0462f5044a2e15f9f8f107/17139763490207dfdb32799005fa69b1cb8b7bec68.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/171397633117a7bc9d2b0462f5044a2e15f9f8f107/17139763364b6318d561d7a8e4539f30d578e84de4.jpg" alt="Property photo">
+    </div>
+    <div class="gallery-grid gallery-row-2" style="margin-top:6px;">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/171397633117a7bc9d2b0462f5044a2e15f9f8f107/17139763370501cf9c886097d90b45ee823e570863.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/171397633117a7bc9d2b0462f5044a2e15f9f8f107/1713976345e3d259acc8e01f334991a704f54f89fe.jpg" alt="Property photo">
+    </div>
+    <div class="gallery-grid gallery-row-3" style="margin-top:6px;">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/171397633117a7bc9d2b0462f5044a2e15f9f8f107/1713976352383ed3dea8d95628cfc73eccb554599e.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/171397633117a7bc9d2b0462f5044a2e15f9f8f107/1713976349f1515cc350dd575cdfb9d54876418c61.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/171397633117a7bc9d2b0462f5044a2e15f9f8f107/171397635076f9cd396d51540dafdaeb34a6d746f4.jpg" alt="Property photo">
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">Location</h2>
+    <div class="map-container">
+      <iframe src="https://maps.google.com/maps?q=Casa%20PentiqueEstepona%20-Terraced%20House%2C%20Estepona%2C%20Costa%20del%20Sol%2C%20Spain&t=&z=14&ie=UTF8&iwloc=&output=embed" loading="lazy" allowfullscreen></iframe>
+    </div>
+    <h2 class="section-title" style="margin-top:8px;">Distances</h2>
+    <div class="distances-grid">
+      <div class="distance-row">
+        <div class="distance-place"><span class="distance-dot"></span>Shops</div>
+        <div class="distance-value">700 m</div>
+      </div>
+      <div class="distance-row">
+        <div class="distance-place"><span class="distance-dot"></span>Restaurant</div>
+        <div class="distance-value">700 m</div>
+      </div>
+      <div class="distance-row">
+        <div class="distance-place"><span class="distance-dot"></span>Cafe</div>
+        <div class="distance-value">700 m</div>
+      </div>
+      <div class="distance-row">
+        <div class="distance-place"><span class="distance-dot"></span>Town centre</div>
+        <div class="distance-value">1 km</div>
+      </div>
+      <div class="distance-row">
+        <div class="distance-place"><span class="distance-dot"></span>Golf course</div>
+        <div class="distance-value">2.3 km</div>
+      </div>
+      <div class="distance-row">
+        <div class="distance-place"><span class="distance-dot"></span>Sand beach</div>
+        <div class="distance-value">3.1 km</div>
+      </div>
+      <div class="distance-row">
+        <div class="distance-place"><span class="distance-dot"></span>Hospital</div>
+        <div class="distance-value">4 km</div>
+      </div>
+      <div class="distance-row">
+        <div class="distance-place"><span class="distance-dot"></span>Airport</div>
+        <div class="distance-value">67 km</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">Included &amp; Additional</h2>
+    <div class="services-columns">
+      <div class="service-group">
+        <h4>Included</h4>
+        <div class="service-item">Air conditioning: Included</div>
+        <div class="service-item">Final Cleaning: € 265.00   / booking</div>
+        <div class="service-item">Heating: Included</div>
+        <div class="service-item">Internet Access: Included</div>
+        <div class="service-item">garage and car park: Included</div>
+        <div class="service-item">Towels:  Included</div>
+      </div>
+      <div class="service-group">
+        <h4>Optional</h4>
+        <div class="service-item">Baby high chair: € 25.00   / booking</div>
+        <div class="service-item">Cot/Crib: € 35.00   / booking</div>
+      </div>
+    </div>
+    <div class="checkin-bar">
+      <div class="checkin-item"><strong>Check-in</strong><span>15:00 to 20:00</span></div>
+      <div class="checkin-item"><strong>Check-out</strong><span>Before 10:00</span></div>
+      <div class="checkin-item"><strong>Security deposit</strong><span>€1,000.00 (refundable)</span></div>
+    </div>
+    <div class="rules">No smoking. No pets. No groups under 30 years of age.</div>
+  </div>
+
+</div>
+
+<div class="footer">VUT/MA/12788</div>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+  <button class="lb-close" id="lb-close" aria-label="Close">
+    <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+  </button>
+  <div class="lb-counter" id="lb-counter"></div>
+  <div class="lb-main">
+    <button class="lb-nav lb-prev" id="lb-prev" aria-label="Previous">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+    <img id="lb-img" src="" alt="">
+    <button class="lb-nav lb-next" id="lb-next" aria-label="Next">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 6 15 12 9 18"/></svg>
+    </button>
+  </div>
+  <div class="lb-thumbs" id="lb-thumbs">
+    <div class="lb-thumbs-track" id="lb-thumbs-track"></div>
+  </div>
+</div>
+
+<script>
+(function() {
+  var lb=document.getElementById('lightbox'),lbImg=document.getElementById('lb-img'),
+  lbCounter=document.getElementById('lb-counter'),thumbsTrack=document.getElementById('lb-thumbs-track'),
+  thumbsContainer=document.getElementById('lb-thumbs'),images=[],thumbEls=[],current=0;
+  document.querySelectorAll('.hero img, .gallery-grid img').forEach(function(img,i){
+    images.push(img.src);img.addEventListener('click',function(){open(i);});
+  });
+  images.forEach(function(src,i){
+    var t=document.createElement('img');t.className='lb-thumb';t.src=src;t.alt='';
+    t.addEventListener('click',function(){current=i;update();});
+    thumbsTrack.appendChild(t);thumbEls.push(t);
+  });
+  function open(i){current=i;update();lb.classList.add('active');document.body.style.overflow='hidden';}
+  function close(){lb.classList.remove('active');document.body.style.overflow='';}
+  function update(){
+    lbImg.src=images[current];lbCounter.textContent=(current+1)+' / '+images.length;
+    thumbEls.forEach(function(t,i){t.classList.toggle('active',i===current);});
+    var thumb=thumbEls[current];if(thumb){
+      var o=thumb.offsetLeft-(thumbsContainer.offsetWidth/2)+(thumb.offsetWidth/2);
+      thumbsTrack.style.transform='translateX('+(-Math.max(0,o))+'px)';
+    }
+  }
+  function prev(){current=(current-1+images.length)%images.length;update();}
+  function next(){current=(current+1)%images.length;update();}
+  document.getElementById('lb-close').addEventListener('click',close);
+  document.getElementById('lb-prev').addEventListener('click',prev);
+  document.getElementById('lb-next').addEventListener('click',next);
+  lb.addEventListener('click',function(e){if(e.target===lb||e.target.classList.contains('lb-main'))close();});
+  document.addEventListener('keydown',function(e){
+    if(!lb.classList.contains('active'))return;
+    if(e.key==='Escape')close();if(e.key==='ArrowLeft')prev();if(e.key==='ArrowRight')next();
+  });
+  var tx=0,lbM=document.querySelector('.lb-main');
+  lbM.addEventListener('touchstart',function(e){tx=e.changedTouches[0].screenX;},{passive:true});
+  lbM.addEventListener('touchend',function(e){var d=e.changedTouches[0].screenX-tx;if(Math.abs(d)>50)d>0?prev():next();},{passive:true});
+})();
+</script>
+
+</body>
+</html>
