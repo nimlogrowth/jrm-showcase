@@ -342,7 +342,9 @@ def build_property_page(prop):
     line-height: 1.75;
     color: var(--mid);
     max-width: 820px;
+    margin-bottom: 16px;
   }}
+  .section p:last-child {{ margin-bottom: 0; }}
   .bedrooms-grid {{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
