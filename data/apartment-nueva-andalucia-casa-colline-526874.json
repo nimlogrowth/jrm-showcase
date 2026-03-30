@@ -2,9 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-nueva-andalucia-casa-colline-526874.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-nueva-andalucia-casa-colline-526874.html",
   "slug": "apartment-nueva-andalucia-casa-colline-526874",
-  "type": "",
+  "type": "Apartment",
   "location": "Nueva andalucia",
-  "name": "Casa CollineNueva andalucia -Apartment",
+  "name": "Casa Colline",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/3/174134680130c19da2085afb8d092a4129a0ea27fa/1741346802cf8ec43f5a168bdc2e5721a822f1b23a.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/174134680130c19da2085afb8d092a4129a0ea27fa/174134680294f4549e4e103251ddefc7b2c134732e.jpg",
@@ -43,7 +43,7 @@
   "bathrooms": "6",
   "area": "300 m²",
   "plot": "",
-  "description": "Apartments in Nueva andalucia Casa Colline. We have a great offer to the best price. Book right now your Apartments in Nueva andalucia quick, easy and safe.",
+  "description": "Share Link copied Photos Add to favourites Favourites Share Description occupants 6 3 King size beds 3 3 Bedrooms 3 2 Bathrooms with bathtub 1 Bathroom with shower 3 300 m² 300 m² Wi-Fi Wi-Fi",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -114,5 +114,5 @@
     "No groups under 30 years of age"
   ],
   "registration": "VUT/MA/81359",
-  "map_query": "Casa CollineNueva andalucia -Apartment, Nueva andalucia, Costa del Sol, Spain"
+  "map_query": "Casa Colline, Nueva andalucia, Costa del Sol, Spain"
 }

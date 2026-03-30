@@ -2,9 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-marbella-casa-vista-465328.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-marbella-casa-vista-465328.html",
   "slug": "apartment-marbella-casa-vista-465328",
-  "type": "",
+  "type": "Apartment",
   "location": "Marbella",
-  "name": "Casa VistaMarbella -Apartment",
+  "name": "Casa Vista",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/1706616052bd3b8c29790d746844878d81097e1768/1706616053aa3e10d00a1dce39d1a60720e5dd3e99.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1706616052bd3b8c29790d746844878d81097e1768/1706616053495981ef1a48e7ba2f329a2f88406052.jpg",
@@ -37,7 +37,7 @@
   "bathrooms": "4",
   "area": "82 m²",
   "plot": "",
-  "description": "Apartments in Marbella Casa Vista. We have a great offer to the best price. Book right now your Apartments in Marbella quick, easy and safe.",
+  "description": "Share Link copied Photos Add to favourites Favourites Share Description occupants 4 2 Double beds 2 2 Bedrooms 2 2 Bathrooms with shower 2 82 m² 82 m² Wi-Fi Wi-Fi",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -125,5 +125,5 @@
     "No groups under 30 years of age"
   ],
   "registration": "VFT/MA/71993",
-  "map_query": "Casa VistaMarbella -Apartment, Marbella, Costa del Sol, Spain"
+  "map_query": "Casa Vista, Marbella, Costa del Sol, Spain"
 }

@@ -2,9 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/villa-marbella-villa-majestic-383273.html",
   "source_url": "https://www.justrentmarbella.com/rentals/villa-marbella-villa-majestic-383273.html",
   "slug": "villa-marbella-villa-majestic-383273",
-  "type": "",
+  "type": "Villa",
   "location": "Marbella",
-  "name": "Villa MajesticMarbella -Villa",
+  "name": "Villa Majestic",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/1647518779eda9b7078b80cddcb516df1121f0c5d2/1737629189ebaea7e7325c788e1d51a7bc3a6e1dc7.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1647518779eda9b7078b80cddcb516df1121f0c5d2/1737629179d957f09ea56448820ca4ed7839fa6ce0.jpg",
@@ -75,7 +75,7 @@
   "bathrooms": "20",
   "area": "700 m²",
   "plot": "000 m²",
-  "description": "Villas in Marbella Villa Majestic. We have a great offer to the best price. Book right now your Villas in Marbella quick, easy and safe.",
+  "description": "Share Link copied Photos Add to favourites Favourites Share Description occupants 14 5 King size beds 2 Double beds 7 7 Bedrooms 7 3 Bathrooms with bathtub 6 Bathrooms with shower 1 Toilet 10 700 m² 700 m² Wi-Fi Wi-Fi",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -183,5 +183,5 @@
     "No groups under 30 years of age"
   ],
   "registration": "CTC-2018081748",
-  "map_query": "Villa MajesticMarbella -Villa, Marbella, Costa del Sol, Spain"
+  "map_query": "Villa Majestic, Marbella, Costa del Sol, Spain"
 }

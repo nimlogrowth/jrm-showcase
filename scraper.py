@@ -89,7 +89,8 @@ def extract_property(url):
 
     # ── Name, Location, Type from H1 ──
     h1 = soup.select_one("h1")
-    raw_title = h1.get_text(strip=True) if h1 else slug.replace("-", " ").title()
+    # Use separator to avoid concatenated words
+    raw_title = h1.get_text(" ", strip=True) if h1 else slug.replace("-", " ").title()
 
     # H1 format: "Villa La Quinta Benahavís - Villa"
     parts = raw_title.rsplit(" - ", 1)
@@ -180,29 +181,62 @@ def extract_property(url):
 
     # ── Description ──
     data["description"] = ""
-    desc_heading = soup.find(string=re.compile(r"^\s*Description\s*$"))
+
+    # Strategy 1: Find "Description" heading and get the text after it
+    desc_heading = soup.find(string=re.compile(r"Description", re.I))
     if desc_heading:
-        # Walk up to the heading element, then look at next content
         heading_el = desc_heading.find_parent()
         if heading_el:
             for sib in heading_el.find_next_siblings():
-                t = sib.get_text(strip=True)
-                if not t or t in ["More Details", "Hide Details", ""]:
+                t = sib.get_text(" ", strip=True)
+                if not t:
+                    continue
+                if t in ["More Details", "Hide Details"]:
                     continue
                 if sib.name and sib.name.startswith("h"):
                     break
-                if "Distribution of bedrooms" in t:
+                if "Distribution of bedrooms" in t or "Special features" in t:
                     break
-                if "Special features" in t:
-                    break
-                # Skip cookie text
-                if "cookies" in t.lower() and "strictly necessary" in t.lower():
+                if "cookies" in t.lower() and "necessary" in t.lower():
                     continue
-                if len(t) > 30:
+                if "Cookies Policy" in t:
+                    continue
+                if len(t) > 20:
                     data["description"] = t
                     break
 
-    # Fallback to meta
+    # Strategy 2: Look for text right after "Accommodation" section heading
+    if not data["description"]:
+        accom_heading = soup.find(string=re.compile(r"^Accommodation$", re.I))
+        if accom_heading:
+            parent = accom_heading.find_parent()
+            if parent:
+                for sib in parent.find_next_siblings():
+                    t = sib.get_text(" ", strip=True)
+                    if not t or t == "Description":
+                        continue
+                    if t in ["More Details", "Hide Details"]:
+                        continue
+                    if sib.name and sib.name.startswith("h"):
+                        break
+                    if "cookies" in t.lower():
+                        continue
+                    if len(t) > 20:
+                        data["description"] = t
+                        break
+
+    # Strategy 3: Find any substantial paragraph in the description/accommodation area
+    if not data["description"]:
+        for div in soup.select('[class*="descripcion"], [class*="description"], [id*="descripcion"]'):
+            for p in div.find_all(["p", "div"]):
+                t = p.get_text(" ", strip=True)
+                if t and len(t) > 50 and "cookie" not in t.lower() and "Cookie" not in t:
+                    data["description"] = t
+                    break
+            if data["description"]:
+                break
+
+    # Fallback to meta description
     if not data["description"]:
         meta = soup.select_one('meta[name="description"]')
         if meta and meta.get("content"):

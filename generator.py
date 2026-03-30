@@ -685,6 +685,7 @@ def build_index_page(properties):
         <div class="card-meta">{location} &middot; {prop_type}</div>
         <div class="card-facts">
           {f'<span>{bedrooms} bed</span>' if bedrooms else ''}
+          {f'<span>{guests} guests</span>' if guests else ''}
         </div>
       </div>
     </a>\n'''

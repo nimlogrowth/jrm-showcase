@@ -2,9 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-marbella-casa-coralita-453953.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-marbella-casa-coralita-453953.html",
   "slug": "apartment-marbella-casa-coralita-453953",
-  "type": "",
+  "type": "Apartment",
   "location": "Marbella",
-  "name": "Casa CoralitaMarbella -Apartment",
+  "name": "Casa Coralita",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/1700671523048c7e5ef4da845b40347cdfda699399/1700671534379aa2638f0ebc27717e27cff225a150.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1700671523048c7e5ef4da845b40347cdfda699399/170067153581eb4c70071b9c3ac30a5e498bc3c601.jpg",
@@ -37,7 +37,7 @@
   "bathrooms": "4",
   "area": "90 m²",
   "plot": "",
-  "description": "Apartments in Marbella Casa Coralita. We have a great offer to the best price. Book right now your Apartments in Marbella quick, easy and safe.",
+  "description": "Share Link copied Photos Add to favourites Favourites Share Description Review 9.5 occupants 4 1 Double bed 2 Single beds 3 2 Bedrooms 2 2 Bathrooms with shower 2 90 m² 90 m² Wi-Fi Wi-Fi",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -125,5 +125,5 @@
     "No groups under 30 years of age"
   ],
   "registration": "VFT/MA/71043",
-  "map_query": "Casa CoralitaMarbella -Apartment, Marbella, Costa del Sol, Spain"
+  "map_query": "Casa Coralita, Marbella, Costa del Sol, Spain"
 }

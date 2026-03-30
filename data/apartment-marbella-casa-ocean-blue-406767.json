@@ -2,9 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-marbella-casa-ocean-blue-406767.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-marbella-casa-ocean-blue-406767.html",
   "slug": "apartment-marbella-casa-ocean-blue-406767",
-  "type": "",
+  "type": "Apartment",
   "location": "Marbella",
-  "name": "Casa Ocean BlueMarbella -Apartment",
+  "name": "Casa Ocean Blue",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/16669599236651b20c1435bf5eeb4aa3e2626f5c8d/1703772535bb50206992bb34d9a0f503623745dee4.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/16669599236651b20c1435bf5eeb4aa3e2626f5c8d/170377254690dc186dbc956335cfa9398ac46faea3.jpg",
@@ -43,7 +43,7 @@
   "bathrooms": "4",
   "area": "120 m²",
   "plot": "",
-  "description": "Apartments in Marbella Casa Ocean Blue. We have a great offer to the best price. Book right now your Apartments in Marbella quick, easy and safe.",
+  "description": "Share Link copied Photos Add to favourites Favourites Share Description Review 9.4 occupants 6 1 King size bed 2 Double beds 3 3 Bedrooms 3 2 Bathrooms with shower 2 120 m² 120 m² Wi-Fi Wi-Fi",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -151,5 +151,5 @@
     "No groups under 30 years of age"
   ],
   "registration": "VFT/MA/50909",
-  "map_query": "Casa Ocean BlueMarbella -Apartment, Marbella, Costa del Sol, Spain"
+  "map_query": "Casa Ocean Blue, Marbella, Costa del Sol, Spain"
 }
