@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/terraced-house-marbella-banus-bay-townhouse-408519.html",
   "source_url": "https://www.justrentmarbella.com/rentals/terraced-house-marbella-banus-bay-townhouse-408519.html",
   "slug": "terraced-house-marbella-banus-bay-townhouse-408519",
-  "name": "Banus Bay TownhouseMarbella -Terraced House",
   "type": "",
   "location": "Marbella",
-  "guests": "10",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907646802110515267491072434627504",
-  "area": "4280 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Banus Bay TownhouseMarbella -Terraced House",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/1668511543994c70c215efb31b586873ad1ae2786e/1668511565b8301264b42f021003fc164ad94fc6ed.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1668511543994c70c215efb31b586873ad1ae2786e/1668511565dd006695764d6b3f76ef4e8bd0f5841b.jpg",
@@ -51,50 +46,67 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/1668511543994c70c215efb31b586873ad1ae2786e/16685115635a726f35bf8b1bac6aea668ed8035eb0.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1668511543994c70c215efb31b586873ad1ae2786e/1668511562899e38eb02ce972e89f3692a51f57ddf.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1668511543994c70c215efb31b586873ad1ae2786e/1668511563f217a15bab3cfead0b9ed4a4917e28ab.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/2/1668511543994c70c215efb31b586873ad1ae2786e/1668511564dd0c75520ba4e49d87a1cf994655d65d.jpg",
-    "https://img.avantio.com/fotos/3/1733236059aefe7aa35656ce5fcf76eb4ce0c3d411/17332360715311d25bcc500f7d0b40bbd1edea3265.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/2/1668511543994c70c215efb31b586873ad1ae2786e/1668511564dd0c75520ba4e49d87a1cf994655d65d.jpg"
   ],
+  "guests": "10",
+  "bedrooms": "5",
+  "bathrooms": "8",
+  "area": "280 m²",
+  "plot": "",
+  "description": "Terraced houses in Marbella Banus Bay Townhouse. We have a great offer to the best price. Book right now your Terraced houses in Marbella quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 31",
+      "room": "Bedroom 3",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 41",
+      "room": "Bedroom 4",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 52",
+      "room": "Bedroom 5",
       "bed": "Single bed"
     }
   ],
   "features": [
-    "terrace",
+    "Garden views",
+    "Pool views",
+    "Private pool",
+    "Air-conditioned",
+    "Central heating",
     "BBQ",
-    "Barbecue",
     "Fenced garden",
-    "Air-Conditioned",
-    "Air conditioning",
-    "Alarm",
-    "Jacuzzi",
-    "Walking Distance"
+    "Alarm system",
+    "100 m² terrace"
   ],
   "distances": [
     {
-      "place": "Golf course",
-      "distance": "4.51 km"
+      "place": "Hospital",
+      "distance": "100 m"
+    },
+    {
+      "place": "Bus station",
+      "distance": "400 m"
     },
     {
       "place": "Restaurant",
       "distance": "800 m"
+    },
+    {
+      "place": "Cafe",
+      "distance": "800 m"
+    },
+    {
+      "place": "Sand beach",
+      "distance": "1 km"
     },
     {
       "place": "Shops",
@@ -105,29 +117,32 @@
       "distance": "1.5 km"
     },
     {
-      "place": "Sandy beach",
-      "distance": "1 km"
+      "place": "Golf course",
+      "distance": "4.51 km"
     },
     {
-      "place": "Hospital",
-      "distance": "100 m"
+      "place": "Water park",
+      "distance": "38.7 km"
     },
     {
       "place": "Airport",
       "distance": "61.01 km"
-    },
-    {
-      "place": "Cafe",
-      "distance": "800 m"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Air conditioning: Included",
+    "Final Cleaning: € 450.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Baby high chair: € 25.00   / bookingCot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€1,000.00",
   "rules": [
     "No smoking",
     "No pets",

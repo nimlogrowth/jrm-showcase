@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/villa-benahavis-villa-elysium-496985.html",
   "source_url": "https://www.justrentmarbella.com/rentals/villa-benahavis-villa-elysium-496985.html",
   "slug": "villa-benahavis-villa-elysium-496985",
-  "name": "Villa ElysiumBenahavís -Villa",
   "type": "",
   "location": "Benahavís",
-  "guests": "18",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587491072433616371",
-  "area": "81,416 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Villa ElysiumBenahavís -Villa",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/1722293453d00d53106255eeac654a994dbdd0a819/1752799843c8124d40d4f106c01108d1c6debaae58.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1722293453d00d53106255eeac654a994dbdd0a819/17527998423e6bd0d8d2430eb391b6d911321b6ebc.jpg",
@@ -57,48 +52,56 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/1722293453d00d53106255eeac654a994dbdd0a819/1722369760a6cda89aaa021f6ccf96219b3075b520.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1722293453d00d53106255eeac654a994dbdd0a819/1722369761ea2219eb4c7d265da998a6d666c65675.jpg"
   ],
+  "guests": "18",
+  "bedrooms": "7",
+  "bathrooms": "16",
+  "area": "416 m²",
+  "plot": "383 m²",
+  "description": "Villas in Benahavís Villa Elysium. We have a great offer to the best price. Book right now your Villas in Benahavís quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 31",
+      "room": "Bedroom 3",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 41",
+      "room": "Bedroom 4",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 51",
+      "room": "Bedroom 5",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 61",
+      "room": "Bedroom 6",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 71",
+      "room": "Bedroom 7",
       "bed": "Double bed"
     }
   ],
   "features": [
     "Sea views",
-    "terrace",
+    "Garden views",
+    "Mountain views",
+    "Pool views",
+    "Private pool",
+    "Air-conditioned",
     "BBQ",
-    "Barbecue",
     "Fenced garden",
-    "Air-Conditioned",
-    "Air conditioning",
-    "Alarm",
     "Sauna",
-    "Gym",
-    "Ocean view"
+    "Gym / fitness",
+    "Alarm system",
+    "Lift",
+    "Ocean views"
   ],
   "distances": [
     {
@@ -114,33 +117,57 @@
       "distance": "5 km"
     },
     {
-      "place": "Town centre",
-      "distance": "9 km"
+      "place": "Bus station",
+      "distance": "5 km"
     },
     {
-      "place": "Sandy beach",
-      "distance": "10 km"
+      "place": "Town centre",
+      "distance": "9 km"
     },
     {
       "place": "Hospital",
       "distance": "9 km"
     },
     {
+      "place": "Sand beach",
+      "distance": "10 km"
+    },
+    {
+      "place": "Amusement park / theme park",
+      "distance": "20 km"
+    },
+    {
+      "place": "Water park",
+      "distance": "55 km"
+    },
+    {
+      "place": "Train station",
+      "distance": "55 km"
+    },
+    {
       "place": "Airport",
       "distance": "69 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Final Cleaning: € 980.00   / booking",
+    "Internet Access: Included",
+    "Covered parking: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Air conditioning: IncludedBaby high chair: € 25.00   / bookingCot/Crib: € 35.00   / booking"
+    "Air conditioning: Included",
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€6,000.00",
   "rules": [
     "No smoking",
-    "No pets"
+    "No pets",
+    "No groups under 30 years of age"
   ],
-  "registration": "",
+  "registration": "VUT/MA/80847",
   "map_query": "Villa ElysiumBenahavís -Villa, Benahavís, Costa del Sol, Spain"
 }

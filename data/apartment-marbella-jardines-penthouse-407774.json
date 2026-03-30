@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-marbella-jardines-penthouse-407774.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-marbella-jardines-penthouse-407774.html",
   "slug": "apartment-marbella-jardines-penthouse-407774",
-  "name": "Jardines PenthouseMarbella -Apartment",
   "type": "",
   "location": "Marbella",
-  "guests": "5",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587491072433422066",
-  "area": "2110 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Jardines PenthouseMarbella -Apartment",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/166790810067c7c3485c6bc34bf4ab3b83b7dfecea/1667908102b8fd5b97bda2d4811d2ff0f164937490.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/166790810067c7c3485c6bc34bf4ab3b83b7dfecea/166790810326c7af7e8af7661b2a9e05b4d18d323b.jpg",
@@ -31,75 +26,91 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/166790810067c7c3485c6bc34bf4ab3b83b7dfecea/16679081106b043f8193cc73e004fcaf11e17a8a53.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/166790810067c7c3485c6bc34bf4ab3b83b7dfecea/167042481530d4c1f60e8860d523fd52d747c1fb2b.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/166790810067c7c3485c6bc34bf4ab3b83b7dfecea/1670424818f0305879d7c45a3b5f6bc1f71ccc8840.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/2/166790810067c7c3485c6bc34bf4ab3b83b7dfecea/16704248221a7c2329fdd5c126c74d45d530f0f74f.jpg",
-    "https://img.avantio.com/fotos/2/1686671984512d262f277be6bbcbcac5cb00a74cce/1686671992d26fc146dde3de370d3c3576bf50ec05.jpg",
-    "https://img.avantio.com/fotos/2/1709665665d001266de3a37a06f6530401825bbd6f/1714429551d126a202923f9d66a6f765656010f78d.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/2/166790810067c7c3485c6bc34bf4ab3b83b7dfecea/16704248221a7c2329fdd5c126c74d45d530f0f74f.jpg"
   ],
+  "guests": "5",
+  "bedrooms": "3",
+  "bathrooms": "4",
+  "area": "110 m²",
+  "plot": "",
+  "description": "Apartments in Marbella Jardines Penthouse. We have a great offer to the best price. Book right now your Apartments in Marbella quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "King size bed"
     },
     {
-      "room": "Bedroom 21",
-      "bed": "Bed"
-    },
-    {
-      "room": "Bedroom 31",
+      "room": "Bedroom 3",
       "bed": "Single bed"
     }
   ],
   "features": [
-    "Sea views",
-    "terrace",
+    "Mountain views",
+    "Communal pool",
+    "Air-conditioned",
+    "Central heating",
     "BBQ",
-    "Barbecue",
-    "Air-Conditioned",
-    "Air conditioning",
+    "Lift",
     "Secured parking",
-    "Communal Swimming Pool"
+    "40 m² terrace"
   ],
   "distances": [
     {
-      "place": "Golf course",
-      "distance": "2.4 km"
-    },
-    {
-      "place": "Restaurant",
-      "distance": "15 m"
-    },
-    {
-      "place": "Shops",
-      "distance": "15 m"
-    },
-    {
-      "place": "Town centre",
-      "distance": "20 m"
-    },
-    {
-      "place": "Sandy beach",
-      "distance": "1.8 km"
-    },
-    {
-      "place": "Hospital",
-      "distance": "2.9 km"
+      "place": "Water park",
+      "distance": "43 m"
     },
     {
       "place": "Airport",
       "distance": "61.4 m"
     },
     {
+      "place": "Bus station",
+      "distance": "180 m"
+    },
+    {
+      "place": "Restaurant",
+      "distance": "350 m"
+    },
+    {
       "place": "Cafe",
       "distance": "350 m"
+    },
+    {
+      "place": "Shops",
+      "distance": "350 m"
+    },
+    {
+      "place": "Sand beach",
+      "distance": "1.8 km"
+    },
+    {
+      "place": "Golf course",
+      "distance": "2.4 km"
+    },
+    {
+      "place": "Town centre",
+      "distance": "2.61 km"
+    },
+    {
+      "place": "Hospital",
+      "distance": "2.9 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Air conditioning: Included",
+    "Final Cleaning: € 180.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "Garage: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Baby high chair: € 25.00   / bookingCot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€750.00",
   "rules": [
     "No smoking",
     "No pets",

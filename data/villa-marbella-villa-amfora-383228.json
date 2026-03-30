@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/villa-marbella-villa-amfora-383228.html",
   "source_url": "https://www.justrentmarbella.com/rentals/villa-marbella-villa-amfora-383228.html",
   "slug": "villa-marbella-villa-amfora-383228",
-  "name": "Villa AmforaMarbella -Villa",
   "type": "",
   "location": "Marbella",
-  "guests": "16",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587491072433637529",
-  "area": "6400 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Villa AmforaMarbella -Villa",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/1647518191e0936dfa25e5ea54f069b2a501b7f678/1670590591c3842240f5f10b9e6382a33dc06452c7.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1647518191e0936dfa25e5ea54f069b2a501b7f678/1670590594407b4d936b0d102ef8746b9251e4dcc4.jpg",
@@ -51,69 +46,86 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/1647518191e0936dfa25e5ea54f069b2a501b7f678/167059058496faabf9212a805907c2ecd9a524ca20.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1647518191e0936dfa25e5ea54f069b2a501b7f678/16705905852341567ac54a24531ed4d28126216b59.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1647518191e0936dfa25e5ea54f069b2a501b7f678/16705905860aa87ddcbb6c667e99a2ac9c048db956.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/2/1647518191e0936dfa25e5ea54f069b2a501b7f678/1670590603578334637307e948e4e70179c9c4f880.jpg",
-    "https://img.avantio.com/fotos/2/1647518474bbac599a1ccf6e8e8a068678126744b1/16475184935cf5dc70482fa04e9118ee6b4f16d60a.jpg",
-    "https://img.avantio.com/fotos/2/16475186214009e73e922a1b4596c9bc45bced4423/16712096755ff226c445b5667b26d48de246848b14.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/2/1647518191e0936dfa25e5ea54f069b2a501b7f678/1670590603578334637307e948e4e70179c9c4f880.jpg"
   ],
+  "guests": "16",
+  "bedrooms": "8",
+  "bathrooms": "12",
+  "area": "400 m²",
+  "plot": "",
+  "description": "Villas in Marbella Villa Amfora. We have a great offer to the best price. Book right now your Villas in Marbella quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 31",
+      "room": "Bedroom 3",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 41",
+      "room": "Bedroom 4",
       "bed": "Bunk bed"
     },
     {
-      "room": "Bedroom 51",
+      "room": "Bedroom 5",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 61",
+      "room": "Bedroom 6",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 71",
+      "room": "Bedroom 7",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 81",
+      "room": "Bedroom 8",
       "bed": "Double bed"
     }
   ],
   "features": [
     "Sea views",
-    "terrace",
+    "Garden views",
+    "Pool views",
+    "Private pool",
+    "Air-conditioned",
+    "Central heating",
     "BBQ",
-    "Barbecue",
     "Fenced garden",
-    "Air-Conditioned",
-    "Air conditioning",
-    "Alarm",
+    "Alarm system",
+    "Fireplace",
     "Secured parking",
-    "Jacuzzi",
-    "Gym",
-    "Ocean view",
-    "Golf views",
-    "Outdoor Kitchen",
-    "Walking Distance"
+    "Ocean views"
   ],
   "distances": [
     {
-      "place": "Golf course",
-      "distance": "2.61 km"
+      "place": "Rock beach",
+      "distance": "0 m"
+    },
+    {
+      "place": "Airport",
+      "distance": "45 m"
+    },
+    {
+      "place": "Sand beach",
+      "distance": "400 m"
+    },
+    {
+      "place": "Cafe",
+      "distance": "500 m"
     },
     {
       "place": "Restaurant",
-      "distance": "15 m"
+      "distance": "600 m"
+    },
+    {
+      "place": "Bus station",
+      "distance": "1.2 km"
     },
     {
       "place": "Shops",
@@ -121,32 +133,37 @@
     },
     {
       "place": "Town centre",
-      "distance": "15 m"
+      "distance": "1.9 km"
     },
     {
-      "place": "Sandy beach",
-      "distance": "15 m"
+      "place": "Golf course",
+      "distance": "2.61 km"
     },
     {
       "place": "Hospital",
       "distance": "6.29 km"
     },
     {
-      "place": "Airport",
-      "distance": "45 m"
-    },
-    {
-      "place": "Cafe",
-      "distance": "500 m"
+      "place": "Water park",
+      "distance": "18.6 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Air conditioning: Included",
+    "Final Cleaning: € 500.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "Covered parking: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Baby high chair: € 25.00   / bookingBed linen: IncludedCot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking",
+    "Bed linen: Included",
+    "Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€2,000.00",
   "rules": [
     "No smoking",
     "No pets",

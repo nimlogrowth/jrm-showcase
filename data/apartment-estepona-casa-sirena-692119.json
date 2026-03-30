@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-estepona-casa-sirena-692119.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-estepona-casa-sirena-692119.html",
   "slug": "apartment-estepona-casa-sirena-692119",
-  "name": "Casa SirenaEstepona -Apartment",
   "type": "",
   "location": "Estepona",
-  "guests": "2",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587491072433411007",
-  "area": "145 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Casa SirenaEstepona -Apartment",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/3/1768562016d2ec9fddfc3db9cd44f109c44a42ef46/1772017461d8c1c06f0cd8f74344e1a9685b5bcf66.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/1768562016d2ec9fddfc3db9cd44f109c44a42ef46/1772017463714f0243b82a90f85d381b06c7b3be86.jpg",
@@ -24,33 +19,35 @@
     "https://www.justrentmarbella.com/rentals/fotos/3/1768562016d2ec9fddfc3db9cd44f109c44a42ef46/1772017462136a8b2e138750ceab68ef75e5634a33.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/1768562016d2ec9fddfc3db9cd44f109c44a42ef46/177201746453d6166aa58dfcd4009c38d7feafc433.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/1768562016d2ec9fddfc3db9cd44f109c44a42ef46/1772017465a926e4d09227ba0ec1e815025d70c821.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/3/1768562016d2ec9fddfc3db9cd44f109c44a42ef46/1772017465014d3d48390ded41eabe49c46444d521.jpg",
-    "https://img.avantio.com/fotos/2/1709816273d219ebc94df079376c116b2eb944d426/17098162757cf1e2339c6b088740af0068c3863313.jpg",
-    "https://img.avantio.com/fotos/3/1770392602ddee2011e2fb520a568feb441f017f12/177039262763113b248d1b468de4b12e1ff0799e2d.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/3/1768562016d2ec9fddfc3db9cd44f109c44a42ef46/1772017465014d3d48390ded41eabe49c46444d521.jpg"
   ],
+  "guests": "2",
+  "bedrooms": "1",
+  "bathrooms": "",
+  "area": "45 m²",
+  "plot": "",
+  "description": "Apartments in Estepona Casa Sirena. We have a great offer to the best price. Book right now your Apartments in Estepona quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "Double bed"
     }
   ],
   "features": [
-    "Sea views",
-    "terrace",
-    "Air-Conditioned",
-    "Air conditioning",
-    "Jacuzzi",
-    "Gym",
-    "Communal Swimming Pool",
-    "Walking Distance"
+    "Air-conditioned",
+    "Central heating"
   ],
   "distances": [
     {
-      "place": "Golf course",
-      "distance": "7 km"
+      "place": "Town centre",
+      "distance": "0 m"
     },
     {
       "place": "Restaurant",
+      "distance": "50 m"
+    },
+    {
+      "place": "Cafe",
       "distance": "50 m"
     },
     {
@@ -58,34 +55,37 @@
       "distance": "250 m"
     },
     {
-      "place": "Town centre",
-      "distance": "0 m"
+      "place": "Sand beach",
+      "distance": "300 m"
     },
     {
-      "place": "Sandy beach",
-      "distance": "300 m"
+      "place": "Golf course",
+      "distance": "7 km"
     },
     {
       "place": "Airport",
       "distance": "83 km"
-    },
-    {
-      "place": "Cafe",
-      "distance": "50 m"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Final Cleaning: € 90.00   / booking",
+    "Internet Access: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Air conditioning: IncludedBaby high chair: € 25.00   / bookingCot/Crib: € 35.00   / bookingHeating: Included"
+    "Air conditioning: Included",
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Heating: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€300.00",
   "rules": [
     "No smoking",
     "No pets",
     "No groups under 30 years of age"
   ],
-  "registration": "",
+  "registration": "VUT/MA/98167",
   "map_query": "Casa SirenaEstepona -Apartment, Estepona, Costa del Sol, Spain"
 }

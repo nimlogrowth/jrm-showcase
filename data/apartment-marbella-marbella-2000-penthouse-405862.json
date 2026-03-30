@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-marbella-marbella-2000-penthouse-405862.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-marbella-marbella-2000-penthouse-405862.html",
   "slug": "apartment-marbella-marbella-2000-penthouse-405862",
-  "name": "Marbella 2000 PenthouseMarbella -Apartment",
   "type": "",
   "location": "Marbella",
-  "guests": "6",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587491072433515988",
-  "area": "3300 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Marbella 2000 PenthouseMarbella -Apartment",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/16661039834a2520c3e4bf81b896c08f8935c87fe4/16661039908ea4f79673fdd76a23cd77f41030aa62.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/16661039834a2520c3e4bf81b896c08f8935c87fe4/1666103988bf8afd4ad7d988948790993f40038272.jpg",
@@ -27,74 +22,95 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/16661039834a2520c3e4bf81b896c08f8935c87fe4/166610398910ba44aecb2b9ae8f2f67557ef056e3f.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/16661039834a2520c3e4bf81b896c08f8935c87fe4/16661039874b31234294645f0a7d4852e015f2457a.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/16661039834a2520c3e4bf81b896c08f8935c87fe4/16661039899cda7cf32e065c0e1d0f997325844f50.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/2/16661039834a2520c3e4bf81b896c08f8935c87fe4/1666103986e67996fb4250760fc37ee8193246db46.jpg",
-    "https://img.avantio.com/fotos/2/1647518163185cbfa95019b70c52b41721f1d413cb/164751817114fcdc2d9dbe4ef0af083d4f26b7f067.jpg",
-    "https://img.avantio.com/fotos/2/1709665665d001266de3a37a06f6530401825bbd6f/1714429551d126a202923f9d66a6f765656010f78d.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/2/16661039834a2520c3e4bf81b896c08f8935c87fe4/1666103986e67996fb4250760fc37ee8193246db46.jpg"
   ],
+  "guests": "6",
+  "bedrooms": "3",
+  "bathrooms": "6",
+  "area": "300 m²",
+  "plot": "",
+  "description": "Apartments in Marbella Marbella 2000 Penthouse. We have a great offer to the best price. Book right now your Apartments in Marbella quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 31",
+      "room": "Bedroom 3",
       "bed": "Double bed"
     }
   ],
   "features": [
+    "Beach views",
     "Sea views",
-    "terrace",
-    "BBQ",
-    "Air-Conditioned",
-    "Air conditioning",
+    "Communal pool",
+    "Air-conditioned",
+    "Central heating",
+    "Lift",
     "Secured parking",
-    "Communal Swimming Pool"
+    "50 m² terrace"
   ],
   "distances": [
-    {
-      "place": "Golf course",
-      "distance": "6.1 km"
-    },
     {
       "place": "Restaurant",
       "distance": "50 m"
     },
     {
-      "place": "Shops",
-      "distance": "1 km"
-    },
-    {
-      "place": "Town centre",
-      "distance": "500 m"
-    },
-    {
-      "place": "Sandy beach",
-      "distance": "100 m"
-    },
-    {
-      "place": "Hospital",
-      "distance": "1.5 km"
+      "place": "Cafe",
+      "distance": "50 m"
     },
     {
       "place": "Airport",
       "distance": "53 m"
     },
     {
-      "place": "Cafe",
-      "distance": "50 m"
+      "place": "Sand beach",
+      "distance": "100 m"
+    },
+    {
+      "place": "Town centre",
+      "distance": "500 m"
+    },
+    {
+      "place": "Bus station",
+      "distance": "700 m"
+    },
+    {
+      "place": "Shops",
+      "distance": "1 km"
+    },
+    {
+      "place": "Hospital",
+      "distance": "1.5 km"
+    },
+    {
+      "place": "Golf course",
+      "distance": "6.1 km"
+    },
+    {
+      "place": "Water park",
+      "distance": "28.3 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Air conditioning: Included",
+    "Final Cleaning: € 260.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "Garage: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Baby high chair: € 25.00   / bookingCot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€750.00",
   "rules": [
     "No smoking",
     "No pets",

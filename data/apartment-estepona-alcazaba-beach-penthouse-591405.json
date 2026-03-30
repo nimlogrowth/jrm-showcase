@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-estepona-alcazaba-beach-penthouse-591405.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-estepona-alcazaba-beach-penthouse-591405.html",
   "slug": "apartment-estepona-alcazaba-beach-penthouse-591405",
-  "name": "Alcazaba Beach PenthouseEstepona -Apartment",
   "type": "",
   "location": "Estepona",
-  "guests": "4",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587491074458681559",
-  "area": "3115 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Alcazaba Beach PenthouseEstepona -Apartment",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/3/1755524703766d1cc6add3dc49d13cd7a51698c1b6/1755524705803749b988734f0397412bc3e9f7c7d7.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/1755524703766d1cc6add3dc49d13cd7a51698c1b6/17555247050f8f104fd2c60d592da42ee98b198269.jpg",
@@ -39,45 +34,49 @@
     "https://www.justrentmarbella.com/rentals/fotos/3/1755524703766d1cc6add3dc49d13cd7a51698c1b6/1755524714a8b88c094d3a8bb7fa668ec9dfc223a9.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/1755524703766d1cc6add3dc49d13cd7a51698c1b6/1755524715ab21de1a80885bc79af502603ffb57b3.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/1755524703766d1cc6add3dc49d13cd7a51698c1b6/1755524715e433a45509f7fb99bee1a1bf70f1388a.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/3/1755524703766d1cc6add3dc49d13cd7a51698c1b6/1755524716ec029a0682602659fc75dc21e1d9781e.jpg",
-    "https://img.avantio.com/fotos/2/1679318995acbd59a282e054432d8bbc3abd075e2b/16793190064779419b262d65786db2d662f8d525d2.jpg",
-    "https://img.avantio.com/fotos/3/1770392602ddee2011e2fb520a568feb441f017f12/177039262763113b248d1b468de4b12e1ff0799e2d.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/3/1755524703766d1cc6add3dc49d13cd7a51698c1b6/1755524716ec029a0682602659fc75dc21e1d9781e.jpg"
   ],
+  "guests": "4",
+  "bedrooms": "2",
+  "bathrooms": "",
+  "area": "115 m²",
+  "plot": "",
+  "description": "Apartments in Estepona Alcazaba Beach Penthouse. We have a great offer to the best price. Book right now your Apartments in Estepona quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "Double bed"
     }
   ],
   "features": [
     "Sea views",
-    "terrace",
-    "BBQ",
-    "Air conditioning",
+    "Garden views",
+    "Mountain views",
+    "Pool views",
+    "Communal pool",
+    "Central heating",
+    "Gym / fitness",
+    "Tennis court",
+    "Padel court",
     "Secured parking",
-    "Jacuzzi",
-    "Sauna",
-    "Gym",
-    "Tennis",
-    "Padel",
-    "Elevator",
-    "Ocean view",
-    "Frontline",
-    "Direct Beach",
-    "Communal Swimming Pool",
-    "Walking Distance"
+    "Ocean views",
+    "132 m² terrace"
   ],
   "distances": [
     {
-      "place": "Golf course",
-      "distance": "6.85 km"
+      "place": "Sand beach",
+      "distance": "50 m"
     },
     {
       "place": "Restaurant",
+      "distance": "1 km"
+    },
+    {
+      "place": "Cafe",
       "distance": "1 km"
     },
     {
@@ -85,38 +84,42 @@
       "distance": "1.11 km"
     },
     {
-      "place": "Town centre",
-      "distance": "2.81 km"
-    },
-    {
-      "place": "Sandy beach",
-      "distance": "50 m"
-    },
-    {
       "place": "Hospital",
       "distance": "1.77 km"
     },
     {
-      "place": "Airport",
-      "distance": "67 km"
+      "place": "Town centre",
+      "distance": "2.81 km"
     },
     {
-      "place": "Cafe",
-      "distance": "1 km"
+      "place": "Golf course",
+      "distance": "6.85 km"
+    },
+    {
+      "place": "Airport",
+      "distance": "67 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Final Cleaning: € 220.00   / booking",
+    "Internet Access: Included",
+    "Open-air parking: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Air conditioning: IncludedBaby high chair: € 25.00   / bookingCot/Crib: € 35.00   / bookingHeating: Included"
+    "Air conditioning: Included",
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Heating: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€1,500.00",
   "rules": [
     "No smoking",
     "No pets",
     "No groups under 30 years of age"
   ],
-  "registration": "",
+  "registration": "CTC-2025256090",
   "map_query": "Alcazaba Beach PenthouseEstepona -Apartment, Estepona, Costa del Sol, Spain"
 }

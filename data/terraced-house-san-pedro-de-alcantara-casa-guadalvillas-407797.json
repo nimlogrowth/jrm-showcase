@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/terraced-house-san-pedro-de-alcantara-casa-guadalvillas-407797.html",
   "source_url": "https://www.justrentmarbella.com/rentals/terraced-house-san-pedro-de-alcantara-casa-guadalvillas-407797.html",
   "slug": "terraced-house-san-pedro-de-alcantara-casa-guadalvillas-407797",
-  "name": "Casa GuadalvillasSan Pedro de Alcántara -Terraced House",
   "type": "",
   "location": "San Pedro de Alcántara",
-  "guests": "5",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907646812103287917491072434440268",
-  "area": "3172 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Casa GuadalvillasSan Pedro de Alcántara -Terraced House",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/16679930623443b283bc7b689c0654107f2dd1565d/1669993318fa5010570bdde67a5b374663604976a3.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/16679930623443b283bc7b689c0654107f2dd1565d/1669993328266d94225874e5e88b17020dc9c0341c.jpg",
@@ -39,43 +34,55 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/16679930623443b283bc7b689c0654107f2dd1565d/1669993322e4e2c528c09469e388308fe98f486168.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/16679930623443b283bc7b689c0654107f2dd1565d/1669993311aca014ee0667bd593f0f97506964fc07.jpg"
   ],
+  "guests": "5",
+  "bedrooms": "3",
+  "bathrooms": "6",
+  "area": "172 m²",
+  "plot": "",
+  "description": "Terraced houses in San Pedro de Alcántara Casa Guadalvillas. We have a great offer to the best price. Book right now your Terraced houses in San Pedro de Alcántara quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "Single bed"
     },
     {
-      "room": "Bedroom 32",
+      "room": "Bedroom 3",
       "bed": "Single bed"
     }
   ],
   "features": [
-    "terrace",
+    "Garden views",
+    "Communal pool",
+    "Air-conditioned",
+    "Central heating",
     "BBQ",
-    "Barbecue",
     "Fenced garden",
-    "Air-Conditioned",
-    "Air conditioning",
     "Secured parking",
-    "Communal Swimming Pool",
-    "Outdoor Kitchen",
-    "Walking Distance"
+    "100 m² terrace"
   ],
   "distances": [
     {
-      "place": "Golf course",
-      "distance": "5 m"
+      "place": "Sand beach",
+      "distance": "130 m"
     },
     {
       "place": "Restaurant",
-      "distance": "15 m"
+      "distance": "200 m"
     },
     {
-      "place": "Shops",
+      "place": "Cafe",
+      "distance": "200 m"
+    },
+    {
+      "place": "Bus station",
+      "distance": "1.2 km"
+    },
+    {
+      "place": "Golf course",
       "distance": "2.4 km"
     },
     {
@@ -83,29 +90,37 @@
       "distance": "2.4 km"
     },
     {
-      "place": "Sandy beach",
-      "distance": "15 m"
+      "place": "Shops",
+      "distance": "2.4 km"
     },
     {
       "place": "Hospital",
       "distance": "13 km"
     },
     {
-      "place": "Airport",
-      "distance": "64 km"
+      "place": "Water park",
+      "distance": "41 km"
     },
     {
-      "place": "Cafe",
-      "distance": "200 m"
+      "place": "Airport",
+      "distance": "64 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Air conditioning: Included",
+    "Final Cleaning: € 250.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "Open-air parking: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Baby high chair: € 25.00   / bookingCot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€750.00",
   "rules": [
     "No smoking",
     "No pets",

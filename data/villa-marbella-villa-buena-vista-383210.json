@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/villa-marbella-villa-buena-vista-383210.html",
   "source_url": "https://www.justrentmarbella.com/rentals/villa-marbella-villa-buena-vista-383210.html",
   "slug": "villa-marbella-villa-buena-vista-383210",
-  "name": "Villa Buena VistaMarbella -Villa",
   "type": "",
   "location": "Marbella",
-  "guests": "8",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587491072433623660",
-  "area": "5300 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Villa Buena VistaMarbella -Villa",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/1647517987712246d5f71574404c5d534e437d6264/1774444953bd2db8686d2ff59e1c24ce1faf98e5e4.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1647517987712246d5f71574404c5d534e437d6264/1774444952ffe3311be05041ded98736889ec07da6.jpg",
@@ -54,56 +49,54 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/1647517987712246d5f71574404c5d534e437d6264/1774444939a84a3abbdaad4bb3489d0626819d361d.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1647517987712246d5f71574404c5d534e437d6264/1774444939768312839bb9a892ec48b84146ea0bab.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1647517987712246d5f71574404c5d534e437d6264/1774444956127dabfcc8f5669faa01331b93d426fb.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/2/1647517987712246d5f71574404c5d534e437d6264/177444495770cc8965ed27a8561a896cb38f45c787.jpg",
-    "https://img.avantio.com/fotos/2/164751855768ba0fe58f85da15232abb32f9f6919d/16711038254c2f7d0bd99b790d184b1797c804d760.jpg",
-    "https://img.avantio.com/fotos/2/17241536539f7a97b7b394c6f28aa1326e2364c833/1724153654c5d4622de9a6936517cecaff5c795e8a.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/2/1647517987712246d5f71574404c5d534e437d6264/177444495770cc8965ed27a8561a896cb38f45c787.jpg"
   ],
+  "guests": "8",
+  "bedrooms": "4",
+  "bathrooms": "10",
+  "area": "300 m²",
+  "plot": "",
+  "description": "Villas in Marbella Villa Buena Vista. We have a great offer to the best price. Book right now your Villas in Marbella quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 31",
+      "room": "Bedroom 3",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 42",
+      "room": "Bedroom 4",
       "bed": "Single bed"
     }
   ],
   "features": [
-    "Sea views",
     "Mountain views",
-    "Garden views",
-    "terrace",
+    "Pool views",
+    "Private pool",
+    "Air-conditioned",
+    "Central heating",
     "BBQ",
-    "Barbecue",
     "Fenced garden",
-    "Air-Conditioned",
-    "Air conditioning",
-    "Underfloor",
-    "Floor heating",
-    "Alarm",
+    "Alarm system",
+    "Fireplace",
     "Secured parking",
-    "Ocean view",
-    "Walking Distance"
+    "Infinity pool",
+    "Ocean views",
+    "100 m² terrace"
   ],
   "distances": [
     {
+      "place": "Park",
+      "distance": "1.4 km"
+    },
+    {
       "place": "Golf course",
-      "distance": "5 m"
-    },
-    {
-      "place": "Restaurant",
-      "distance": "2.2 km"
-    },
-    {
-      "place": "Shops",
       "distance": "2.2 km"
     },
     {
@@ -111,7 +104,23 @@
       "distance": "2.2 km"
     },
     {
-      "place": "Sandy beach",
+      "place": "Shops",
+      "distance": "2.2 km"
+    },
+    {
+      "place": "Bus station",
+      "distance": "2.2 km"
+    },
+    {
+      "place": "Restaurant",
+      "distance": "2.2 km"
+    },
+    {
+      "place": "Cafe",
+      "distance": "2.2 km"
+    },
+    {
+      "place": "Sand beach",
       "distance": "3.5 km"
     },
     {
@@ -119,26 +128,34 @@
       "distance": "7.9 km"
     },
     {
-      "place": "Airport",
-      "distance": "45 km"
+      "place": "Water park",
+      "distance": "20 km"
     },
     {
-      "place": "Cafe",
-      "distance": "2.2 km"
+      "place": "Airport",
+      "distance": "45 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Air conditioning: Included",
+    "Final Cleaning: € 350.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "Open-air parking: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Baby high chair: € 25.00   / bookingCot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€1,500.00",
   "rules": [
     "No smoking",
     "No pets",
     "No groups under 30 years of age"
   ],
-  "registration": "",
+  "registration": "CTC-2020",
   "map_query": "Villa Buena VistaMarbella -Villa, Marbella, Costa del Sol, Spain"
 }

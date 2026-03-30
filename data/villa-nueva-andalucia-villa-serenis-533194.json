@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/villa-nueva-andalucia-villa-serenis-533194.html",
   "source_url": "https://www.justrentmarbella.com/rentals/villa-nueva-andalucia-villa-serenis-533194.html",
   "slug": "villa-nueva-andalucia-villa-serenis-533194",
-  "name": "Villa SerenisNueva andalucia -Villa",
   "type": "",
   "location": "Nueva andalucia",
-  "guests": "10",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587491072433673038",
-  "area": "5309 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Villa SerenisNueva andalucia -Villa",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/3/17436831025293f494fdb76fa079319df7f82542b2/1747092488be34a8927a43b08edfa146f1866d59a6.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/17436831025293f494fdb76fa079319df7f82542b2/1747092489c6e8b559020a302fae0bd6eb8397be77.jpg",
@@ -49,58 +44,41 @@
     "https://www.justrentmarbella.com/rentals/fotos/3/17436831025293f494fdb76fa079319df7f82542b2/174709282540b9f44f6fb83ca3557dbffcfe13a9f9.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/17436831025293f494fdb76fa079319df7f82542b2/17470928173e3f9c779ca9930b0aa6800101d3e1b8.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/17436831025293f494fdb76fa079319df7f82542b2/174709282671047b36012b738dc1272e9e38cab8dd.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/3/17436831025293f494fdb76fa079319df7f82542b2/1743683103815d173e58124db29d0f74962713152c.jpg",
-    "https://img.avantio.com/fotos/3/17488770963552c3c94495e06e613b6163dec82116/1748877100f959a3bec5b399b0119d14eb0bc88c8c.jpg",
-    "https://img.avantio.com/fotos/3/17537195838d3d7c68470953413888856e3405656f/175371958557d1233cce1d3acecca6f896e1f1d68a.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/3/17436831025293f494fdb76fa079319df7f82542b2/1743683103815d173e58124db29d0f74962713152c.jpg"
   ],
+  "guests": "10",
+  "bedrooms": "5",
+  "bathrooms": "10",
+  "area": "309 m²",
+  "plot": "510 m²",
+  "description": "Villas in Nueva andalucia Villa Serenis. We have a great offer to the best price. Book right now your Villas in Nueva andalucia quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "King size bed"
-    },
-    {
-      "room": "Bedroom 21",
-      "bed": "Bed"
-    },
-    {
-      "room": "Bedroom 31",
-      "bed": "Bed"
-    },
-    {
-      "room": "Bedroom 41",
-      "bed": "Bed"
-    },
-    {
-      "room": "Bedroom 51",
-      "bed": "Bed"
     }
   ],
   "features": [
-    "Private Pool",
-    "Private Heated",
-    "Heated Pool",
-    "Heated swimming pool",
-    "terrace",
+    "Mountain views",
+    "Pool views",
+    "Private heated pool",
+    "Air-conditioned",
+    "Central heating",
     "BBQ",
-    "Barbecue",
     "Fenced garden",
-    "Air-Conditioned",
-    "Air conditioning",
-    "Underfloor",
-    "Floor heating",
-    "Alarm",
-    "Secured parking",
     "Sauna",
-    "Gym",
-    "Frontline"
+    "Gym / fitness",
+    "Alarm system",
+    "Secured parking",
+    "166 m² terrace"
   ],
   "distances": [
     {
-      "place": "Golf course",
-      "distance": "1.67 km"
+      "place": "Restaurant",
+      "distance": "100 m"
     },
     {
-      "place": "Restaurant",
+      "place": "Cafe",
       "distance": "100 m"
     },
     {
@@ -108,38 +86,51 @@
       "distance": "712 m"
     },
     {
-      "place": "Town centre",
-      "distance": "2.12 km"
-    },
-    {
-      "place": "Sandy beach",
-      "distance": "1.69 km"
-    },
-    {
       "place": "Hospital",
       "distance": "1.34 km"
     },
     {
-      "place": "Airport",
-      "distance": "47.38 km"
+      "place": "Golf course",
+      "distance": "1.67 km"
     },
     {
-      "place": "Cafe",
-      "distance": "100 m"
+      "place": "Sand beach",
+      "distance": "1.69 km"
+    },
+    {
+      "place": "Town centre",
+      "distance": "2.12 km"
+    },
+    {
+      "place": "Nature reserve",
+      "distance": "10.97 km"
+    },
+    {
+      "place": "Airport",
+      "distance": "47.38 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Final Cleaning: € 650.00   / booking",
+    "Internet Access: Included",
+    "Open-air parking: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Air conditioning: IncludedBaby high chair: € 25.00   / bookingCot/Crib: € 35.00   / bookingHeated Pool: € 50.00   / nightHeating: Included"
+    "Air conditioning: Included",
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Heated Pool: € 50.00   / night",
+    "Heating: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€3,000.00",
   "rules": [
     "No smoking",
     "No pets",
     "No groups under 30 years of age"
   ],
-  "registration": "",
+  "registration": "VUT/MA/78314",
   "map_query": "Villa SerenisNueva andalucia -Villa, Nueva andalucia, Costa del Sol, Spain"
 }

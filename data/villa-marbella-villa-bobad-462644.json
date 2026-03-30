@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/villa-marbella-villa-bobad-462644.html",
   "source_url": "https://www.justrentmarbella.com/rentals/villa-marbella-villa-bobad-462644.html",
   "slug": "villa-marbella-villa-bobad-462644",
-  "name": "Villa BobadMarbella -Villa",
   "type": "",
   "location": "Marbella",
-  "guests": "8",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587491074451708410",
-  "area": "5582 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Villa BobadMarbella -Villa",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/17048157455d0184de20dd3b23ad11cfe798dc8aaf/17048157469e3c7651aedab9e26a1b2080e81b808e.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/17048157455d0184de20dd3b23ad11cfe798dc8aaf/170481575659f64e898c638b2b43a35c1f2387cbfb.jpg",
@@ -56,54 +51,46 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/17048157455d0184de20dd3b23ad11cfe798dc8aaf/17625071549db65250d2bb392542c4549ad8388b2d.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/17048157455d0184de20dd3b23ad11cfe798dc8aaf/1762507155dd704af8d2e74c2de517017cd026e086.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/17048157455d0184de20dd3b23ad11cfe798dc8aaf/176250716505f39297789f2f76af3f97e3c488c45b.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/2/17048157455d0184de20dd3b23ad11cfe798dc8aaf/1762507155cc4494febdf9d370de87a43ace7dfd6e.jpg",
-    "https://img.avantio.com/fotos/2/164751855768ba0fe58f85da15232abb32f9f6919d/16711038254c2f7d0bd99b790d184b1797c804d760.jpg",
-    "https://img.avantio.com/fotos/2/17241536539f7a97b7b394c6f28aa1326e2364c833/1724153654c5d4622de9a6936517cecaff5c795e8a.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/2/17048157455d0184de20dd3b23ad11cfe798dc8aaf/1762507155cc4494febdf9d370de87a43ace7dfd6e.jpg"
   ],
+  "guests": "8",
+  "bedrooms": "4",
+  "bathrooms": "10",
+  "area": "582 m²",
+  "plot": "916 m²",
+  "description": "Villas in Marbella Villa Bobad. We have a great offer to the best price. Book right now your Villas in Marbella quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 31",
+      "room": "Bedroom 3",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 41",
+      "room": "Bedroom 4",
       "bed": "Double bed"
     }
   ],
   "features": [
-    "Mountain views",
     "Garden views",
-    "Private Pool",
-    "terrace",
-    "BBQ",
+    "Mountain views",
+    "Pool views",
+    "Private pool",
+    "Air-conditioned",
+    "Central heating",
     "Fenced garden",
-    "Air-Conditioned",
-    "Air conditioning",
-    "Underfloor",
-    "Floor heating",
-    "Alarm",
-    "Secured parking",
-    "Walking Distance"
+    "Alarm system",
+    "Secured parking"
   ],
   "distances": [
     {
-      "place": "Golf course",
-      "distance": "3 km"
-    },
-    {
-      "place": "Restaurant",
-      "distance": "2 km"
-    },
-    {
-      "place": "Shops",
+      "place": "Sand beach",
       "distance": "2 km"
     },
     {
@@ -111,7 +98,11 @@
       "distance": "2 km"
     },
     {
-      "place": "Sandy beach",
+      "place": "Shops",
+      "distance": "2 km"
+    },
+    {
+      "place": "Restaurant",
       "distance": "2 km"
     },
     {
@@ -119,21 +110,34 @@
       "distance": "3 km"
     },
     {
+      "place": "Golf course",
+      "distance": "3 km"
+    },
+    {
       "place": "Airport",
       "distance": "60 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Air conditioning: Included",
+    "Final Cleaning: € 500.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "garage and car park: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Baby high chair: € 25.00   / bookingCot/Crib: € 35.00   / bookingExtra beds: € 100.00   / booking"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Extra beds: € 100.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€1,500.00",
   "rules": [
     "No pets",
     "No groups under 30 years of age"
   ],
-  "registration": "",
+  "registration": "CTC-2018085023",
   "map_query": "Villa BobadMarbella -Villa, Marbella, Costa del Sol, Spain"
 }

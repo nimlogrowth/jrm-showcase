@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/villa-marbella-villa-sina-517799.html",
   "source_url": "https://www.justrentmarbella.com/rentals/villa-marbella-villa-sina-517799.html",
   "slug": "villa-marbella-villa-sina-517799",
-  "name": "Villa SinaMarbella -Villa",
   "type": "",
   "location": "Marbella",
-  "guests": "12",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587491072433612977",
-  "area": "6443 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Villa SinaMarbella -Villa",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/3/173677765680278cb6e46f736e66008b1dd3eed11d/1737544141718e3f66d19b3e278268adef829a4c34.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/173677765680278cb6e46f736e66008b1dd3eed11d/17367776820507a179223724c310f124fcfadb6d4e.jpg",
@@ -75,48 +70,56 @@
     "https://www.justrentmarbella.com/rentals/fotos/3/173677765680278cb6e46f736e66008b1dd3eed11d/173677766261658a374526d46b0ee4730ec4ad74e0.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/173677765680278cb6e46f736e66008b1dd3eed11d/1736777660d14e44328c73ba6cc19e18157b73432f.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/173677765680278cb6e46f736e66008b1dd3eed11d/1736777662471ca6a8c847a191de5ded6dae6663ab.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/3/173677765680278cb6e46f736e66008b1dd3eed11d/17367776621837d14cc98e29e969389e56af1c9cb2.jpg",
-    "https://img.avantio.com/fotos/2/1647518788cf53a5416a95b239c81132991dac7212/1647518789f92fa28b8d7adf414852dbad03a4f0f4.jpg",
-    "https://img.avantio.com/fotos/2/164751899063b6e2d288fcb57df94369bdf04cb8a7/177124777200976c3f4bee40ec51ed7254954662bd.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/3/173677765680278cb6e46f736e66008b1dd3eed11d/17367776621837d14cc98e29e969389e56af1c9cb2.jpg"
   ],
+  "guests": "12",
+  "bedrooms": "5",
+  "bathrooms": "12",
+  "area": "443 m²",
+  "plot": "",
+  "description": "Villas in Marbella Villa Sina. We have a great offer to the best price. Book right now your Villas in Marbella quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "King size bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "King size bed"
     },
     {
-      "room": "Bedroom 31",
+      "room": "Bedroom 3",
       "bed": "King size bed"
     },
     {
-      "room": "Bedroom 42",
+      "room": "Bedroom 4",
       "bed": "Single bed"
     },
     {
-      "room": "Bedroom 51",
+      "room": "Bedroom 5",
       "bed": "King size bed"
     }
   ],
   "features": [
-    "Private Heated",
-    "terrace",
+    "Private pool",
+    "Air-conditioned",
+    "Central heating",
     "BBQ",
-    "Barbecue",
     "Fenced garden",
-    "Air-Conditioned",
-    "Air conditioning",
-    "Underfloor",
-    "Floor heating",
-    "Alarm",
-    "Jacuzzi",
-    "Ocean view",
-    "Walking Distance"
+    "Alarm system",
+    "Fireplace",
+    "Ocean views",
+    "100 m² terrace"
   ],
   "distances": [
+    {
+      "place": "Town centre",
+      "distance": "0 m"
+    },
+    {
+      "place": "Sand beach",
+      "distance": "2.7 km"
+    },
     {
       "place": "Golf course",
       "distance": "2.8 km"
@@ -126,30 +129,30 @@
       "distance": "5.29 km"
     },
     {
-      "place": "Town centre",
-      "distance": "0 m"
-    },
-    {
-      "place": "Sandy beach",
-      "distance": "2.7 km"
-    },
-    {
       "place": "Airport",
       "distance": "47.2 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Final Cleaning: € 650.00   / booking",
+    "Internet Access: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Air conditioning: IncludedBaby high chair: € 25.00   / bookingCot/Crib: € 35.00   / bookingHeating: IncludedOpen-air parking: Included"
+    "Air conditioning: Included",
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Heating: Included",
+    "Open-air parking: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€2,000.00",
   "rules": [
     "No smoking",
     "No pets",
     "No groups under 30 years of age"
   ],
-  "registration": "",
+  "registration": "VUT/MA/81494",
   "map_query": "Villa SinaMarbella -Villa, Marbella, Costa del Sol, Spain"
 }

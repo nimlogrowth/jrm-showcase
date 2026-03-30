@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-estepona-casa-maja-573230.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-estepona-casa-maja-573230.html",
   "slug": "apartment-estepona-casa-maja-573230",
-  "name": "Casa MajaEstepona -Apartment",
   "type": "",
   "location": "Estepona",
-  "guests": "4",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587491072433360985",
-  "area": "2117 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Casa MajaEstepona -Apartment",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/3/175326353556d89c5750f0fee4abe0b1127c47e5e0/17532635369d188d729bc793e06309c92674a7d9e9.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/175326353556d89c5750f0fee4abe0b1127c47e5e0/1753263536d7a905182019542acf28b944afa763c0.jpg",
@@ -34,75 +29,85 @@
     "https://www.justrentmarbella.com/rentals/fotos/3/175326353556d89c5750f0fee4abe0b1127c47e5e0/1753263544547b34d200eb2008eabf1befaa07ab08.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/175326353556d89c5750f0fee4abe0b1127c47e5e0/17532635441c261655b832d269b33285d1ad0d1855.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/175326353556d89c5750f0fee4abe0b1127c47e5e0/175326354427f08241846e045b11fd0674c0cc0022.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/3/175326353556d89c5750f0fee4abe0b1127c47e5e0/1753263545a5074694c2526bad3dbebb004de5009a.jpg",
-    "https://img.avantio.com/fotos/2/1679318995acbd59a282e054432d8bbc3abd075e2b/16793190064779419b262d65786db2d662f8d525d2.jpg",
-    "https://img.avantio.com/fotos/3/1770392602ddee2011e2fb520a568feb441f017f12/177039262763113b248d1b468de4b12e1ff0799e2d.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/3/175326353556d89c5750f0fee4abe0b1127c47e5e0/1753263545a5074694c2526bad3dbebb004de5009a.jpg"
   ],
+  "guests": "4",
+  "bedrooms": "2",
+  "bathrooms": "",
+  "area": "117 m²",
+  "plot": "",
+  "description": "Apartments in Estepona Casa Maja. We have a great offer to the best price. Book right now your Apartments in Estepona quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "King size bed"
     },
     {
-      "room": "Bedroom 22",
+      "room": "Bedroom 2",
       "bed": "Single bed"
     }
   ],
   "features": [
     "Sea views",
-    "terrace",
+    "Garden views",
+    "Mountain views",
+    "Pool views",
+    "Communal pool",
+    "Central heating",
     "BBQ",
-    "Barbecue",
-    "Air conditioning",
+    "Gym / fitness",
     "Secured parking",
-    "Jacuzzi",
-    "Gym",
-    "Elevator",
-    "Ocean view",
-    "Direct Beach",
-    "Communal Swimming Pool"
+    "Ocean views"
   ],
   "distances": [
     {
-      "place": "Golf course",
-      "distance": "4.44 km"
-    },
-    {
-      "place": "Restaurant",
-      "distance": "1 km"
+      "place": "Cafe",
+      "distance": "1 m"
     },
     {
       "place": "Shops",
       "distance": "797 m"
     },
     {
-      "place": "Town centre",
-      "distance": "1.69 km"
+      "place": "Restaurant",
+      "distance": "1 km"
     },
     {
-      "place": "Sandy beach",
+      "place": "Sand beach",
       "distance": "1.11 km"
+    },
+    {
+      "place": "Town centre",
+      "distance": "1.69 km"
     },
     {
       "place": "Hospital",
       "distance": "2.53 km"
     },
     {
-      "place": "Airport",
-      "distance": "68 km"
+      "place": "Golf course",
+      "distance": "4.44 km"
     },
     {
-      "place": "Cafe",
-      "distance": "1 m"
+      "place": "Airport",
+      "distance": "68 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Final Cleaning: € 225.00   / booking",
+    "Internet Access: Included",
+    "Garage: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Air conditioning: IncludedBaby high chair: € 25.00   / bookingCot/Crib: € 35.00   / bookingHeating: Included"
+    "Air conditioning: Included",
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Heating: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€700.00",
   "rules": [
     "No smoking",
     "No pets",

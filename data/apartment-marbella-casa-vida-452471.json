@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-marbella-casa-vida-452471.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-marbella-casa-vida-452471.html",
   "slug": "apartment-marbella-casa-vida-452471",
-  "name": "Casa VidaMarbella -Apartment",
   "type": "",
   "location": "Marbella",
-  "guests": "6",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587491072433421370",
-  "area": "2145 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Casa VidaMarbella -Apartment",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/1699879156595da6ba4bf48fcfe1f5aa9831f57a68/1699879158da2a0889f73032623913b2a1660b818f.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1699879156595da6ba4bf48fcfe1f5aa9831f57a68/16998791585524bdfcec4f65570f473e7d4d9925b8.jpg",
@@ -35,42 +30,42 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/1699879156595da6ba4bf48fcfe1f5aa9831f57a68/1699879166c59444a36b1e10c5333deb2713166be8.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1699879156595da6ba4bf48fcfe1f5aa9831f57a68/169987916728df7b9bab5f8b7581cc4c563af0637c.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1699879156595da6ba4bf48fcfe1f5aa9831f57a68/16998791676e0f4d9c6c5769fb713689aebf8ebf05.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/2/1699879156595da6ba4bf48fcfe1f5aa9831f57a68/1699879165bff66a89cbc27c0bf78aa02709433372.jpg",
-    "https://img.avantio.com/fotos/2/1647518163185cbfa95019b70c52b41721f1d413cb/164751817114fcdc2d9dbe4ef0af083d4f26b7f067.jpg",
-    "https://img.avantio.com/fotos/2/1709665665d001266de3a37a06f6530401825bbd6f/1714429551d126a202923f9d66a6f765656010f78d.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/2/1699879156595da6ba4bf48fcfe1f5aa9831f57a68/1699879165bff66a89cbc27c0bf78aa02709433372.jpg"
   ],
+  "guests": "6",
+  "bedrooms": "3",
+  "bathrooms": "4",
+  "area": "145 m²",
+  "plot": "",
+  "description": "Apartments in Marbella Casa Vida. We have a great offer to the best price. Book right now your Apartments in Marbella quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 32",
+      "room": "Bedroom 3",
       "bed": "Single bed"
     }
   ],
   "features": [
-    "Sea views",
-    "Heated Pool",
-    "Heated swimming pool",
-    "terrace",
-    "BBQ",
-    "Barbecue",
-    "Air-Conditioned",
-    "Air conditioning",
-    "Communal Swimming Pool"
+    "Mountain views",
+    "Communal pool",
+    "Air-conditioned",
+    "Central heating",
+    "BBQ"
   ],
   "distances": [
     {
-      "place": "Golf course",
-      "distance": "3.1 km"
+      "place": "Restaurant",
+      "distance": "100 m"
     },
     {
-      "place": "Restaurant",
+      "place": "Cafe",
       "distance": "100 m"
     },
     {
@@ -78,33 +73,54 @@
       "distance": "130 m"
     },
     {
+      "place": "Bus station",
+      "distance": "160 m"
+    },
+    {
+      "place": "Sand beach",
+      "distance": "1.2 km"
+    },
+    {
+      "place": "Park",
+      "distance": "1.2 km"
+    },
+    {
       "place": "Town centre",
       "distance": "1.2 km"
     },
     {
-      "place": "Sandy beach",
-      "distance": "1.2 km"
+      "place": "Golf course",
+      "distance": "3.1 km"
     },
     {
       "place": "Hospital",
       "distance": "9.4 km"
     },
     {
-      "place": "Airport",
-      "distance": "60 km"
+      "place": "Water park",
+      "distance": "45 km"
     },
     {
-      "place": "Cafe",
-      "distance": "100 m"
+      "place": "Airport",
+      "distance": "60 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Air conditioning: Included",
+    "Final Cleaning: € 185.00   / booking",
+    "Heated Pool: Included",
+    "Heating: Included",
+    "Internet Access: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Baby high chair: € 25.00   / bookingCot/Crib: € 35.00   / bookingGarage: Included"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Garage: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€750.00",
   "rules": [
     "No smoking",
     "No pets",

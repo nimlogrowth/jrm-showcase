@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-estepona-casa-alyssa-472294.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-estepona-casa-alyssa-472294.html",
   "slug": "apartment-estepona-casa-alyssa-472294",
-  "name": "Casa AlyssaEstepona -Apartment",
   "type": "",
   "location": "Estepona",
-  "guests": "3",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587491072433443344",
-  "area": "268 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Casa AlyssaEstepona -Apartment",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/1709816273d219ebc94df079376c116b2eb944d426/17098162757cf1e2339c6b088740af0068c3863313.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1709816273d219ebc94df079376c116b2eb944d426/17098162754f8746a6b4ab7b34bbc359b1c0e60c55.jpg",
@@ -36,69 +31,97 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/1709816273d219ebc94df079376c116b2eb944d426/17098162826bc0aae7fbaf4a760856f6ff56d59e89.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1709816273d219ebc94df079376c116b2eb944d426/1709816282a13d84137993eb0fce27fc070f77c64c.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1709816273d219ebc94df079376c116b2eb944d426/170981628373d520e3fc77e10a7a9243392eab20c0.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/2/1709816273d219ebc94df079376c116b2eb944d426/17098162834910c8eab695e0a5d2fcd810ace1c09d.jpg",
-    "https://img.avantio.com/fotos/2/1679318995acbd59a282e054432d8bbc3abd075e2b/16793190064779419b262d65786db2d662f8d525d2.jpg",
-    "https://img.avantio.com/fotos/3/1770392602ddee2011e2fb520a568feb441f017f12/177039262763113b248d1b468de4b12e1ff0799e2d.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/2/1709816273d219ebc94df079376c116b2eb944d426/17098162834910c8eab695e0a5d2fcd810ace1c09d.jpg"
   ],
+  "guests": "3",
+  "bedrooms": "1",
+  "bathrooms": "4",
+  "area": "68 m²",
+  "plot": "",
+  "description": "Apartments in Estepona Casa Alyssa. We have a great offer to the best price. Book right now your Apartments in Estepona quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "Double bed"
     }
   ],
   "features": [
+    "Beach views",
+    "Oceanfront",
     "Sea views",
-    "terrace",
-    "Air conditioning",
-    "Jacuzzi",
-    "Gym",
-    "Elevator",
-    "Ocean view",
-    "Direct Beach",
-    "Communal Swimming Pool",
-    "Walking Distance"
+    "Communal pool",
+    "Gym / fitness",
+    "Lift",
+    "Ocean views"
   ],
   "distances": [
     {
-      "place": "Golf course",
-      "distance": "2.5 km"
+      "place": "Sand beach",
+      "distance": "0 m"
     },
     {
-      "place": "Restaurant",
-      "distance": "40 m"
-    },
-    {
-      "place": "Shops",
-      "distance": "180 m"
+      "place": "Rock beach",
+      "distance": "0 m"
     },
     {
       "place": "Town centre",
       "distance": "0 m"
     },
     {
-      "place": "Sandy beach",
-      "distance": "0 m"
+      "place": "Restaurant",
+      "distance": "40 m"
+    },
+    {
+      "place": "Cafe",
+      "distance": "40 m"
+    },
+    {
+      "place": "Bus station",
+      "distance": "120 m"
+    },
+    {
+      "place": "Shops",
+      "distance": "180 m"
+    },
+    {
+      "place": "Park",
+      "distance": "250 m"
     },
     {
       "place": "Hospital",
       "distance": "500 m"
     },
     {
-      "place": "Airport",
-      "distance": "81 km"
+      "place": "Golf course - Valle Romano Golf",
+      "distance": "2.5 km"
     },
     {
-      "place": "Cafe",
-      "distance": "40 m"
+      "place": "Amusement park / theme park - Selwo Aventura",
+      "distance": "13 km"
+    },
+    {
+      "place": "Water park - Aquamijas",
+      "distance": "67 km"
+    },
+    {
+      "place": "Airport",
+      "distance": "81 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Final Cleaning: € 125.00   / booking",
+    "Internet Access: Included",
+    "Garage: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Air conditioning: IncludedBaby high chair: € 25.00   / bookingCot/Crib: € 35.00   / booking"
+    "Air conditioning: Included",
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€750.00",
   "rules": [
     "No smoking",
     "No pets",

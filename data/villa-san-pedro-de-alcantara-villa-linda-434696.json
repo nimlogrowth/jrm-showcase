@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/villa-san-pedro-de-alcantara-villa-linda-434696.html",
   "source_url": "https://www.justrentmarbella.com/rentals/villa-san-pedro-de-alcantara-villa-linda-434696.html",
   "slug": "villa-san-pedro-de-alcantara-villa-linda-434696",
-  "name": "Villa LindaSan Pedro de Alcántara -Villa",
   "type": "",
   "location": "San Pedro de Alcántara",
-  "guests": "12",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587491072433863765",
-  "area": "7420 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Villa LindaSan Pedro de Alcántara -Villa",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/1686658298a3ec1a0ed49d1031c6de948ad6301ce7/1699720561c6c578b505e2e64e84a717a597b30a54.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1686658298a3ec1a0ed49d1031c6de948ad6301ce7/169972056002cf11404ac5ecb53f8f924813e51e8c.jpg",
@@ -45,85 +40,102 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/1686658298a3ec1a0ed49d1031c6de948ad6301ce7/1699720575a8c72420b4bb8ddcb3055dff9ddafc22.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1686658298a3ec1a0ed49d1031c6de948ad6301ce7/169972057348bd13ebc2e2649c1ee3d838a3592fb2.jpg"
   ],
+  "guests": "12",
+  "bedrooms": "5",
+  "bathrooms": "14",
+  "area": "420 m²",
+  "plot": "300 m²",
+  "description": "Villas in San Pedro de Alcántara Villa Linda. We have a great offer to the best price. Book right now your Villas in San Pedro de Alcántara quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "King size bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "King size bed"
     },
     {
-      "room": "Bedroom 31",
-      "bed": "Bed"
-    },
-    {
-      "room": "Bedroom 41",
-      "bed": "Bed"
-    },
-    {
-      "room": "Bedroom 51",
+      "room": "Bedroom 5",
       "bed": "King size bed"
     }
   ],
   "features": [
-    "terrace",
+    "Garden views",
+    "Pool views",
+    "Private pool",
+    "Air-conditioned",
+    "Central heating",
+    "Underfloor heating",
     "BBQ",
-    "Barbecue",
     "Fenced garden",
-    "Air-Conditioned",
-    "Air conditioning",
-    "Floor heating",
-    "Alarm",
-    "Secured parking"
+    "Alarm system",
+    "Safe",
+    "Secured parking",
+    "70 m² terrace"
   ],
   "distances": [
     {
-      "place": "Golf course",
-      "distance": "1.7 km"
-    },
-    {
-      "place": "Restaurant",
-      "distance": "1 km"
+      "place": "Bus station",
+      "distance": "550 m"
     },
     {
       "place": "Shops",
       "distance": "700 m"
     },
     {
+      "place": "Sand beach",
+      "distance": "1 km"
+    },
+    {
+      "place": "Restaurant",
+      "distance": "1 km"
+    },
+    {
+      "place": "Cafe",
+      "distance": "1 km"
+    },
+    {
       "place": "Town centre",
       "distance": "1.5 km"
     },
     {
-      "place": "Sandy beach",
-      "distance": "1 km"
+      "place": "Golf course",
+      "distance": "1.7 km"
     },
     {
       "place": "Hospital",
       "distance": "3 km"
     },
     {
-      "place": "Airport",
-      "distance": "67 km"
+      "place": "Water park",
+      "distance": "45 km"
     },
     {
-      "place": "Cafe",
-      "distance": "1 km"
+      "place": "Airport",
+      "distance": "67 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Air conditioning: Included",
+    "Final Cleaning: € 450.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "Open-air parking: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Baby high chair: € 25.00   / bookingCot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€3,000.00",
   "rules": [
     "No smoking",
     "No pets",
     "No groups under 30 years of age"
   ],
-  "registration": "",
+  "registration": "CTC2022-238792",
   "map_query": "Villa LindaSan Pedro de Alcántara -Villa, San Pedro de Alcántara, Costa del Sol, Spain"
 }

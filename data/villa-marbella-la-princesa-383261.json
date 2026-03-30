@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/villa-marbella-la-princesa-383261.html",
   "source_url": "https://www.justrentmarbella.com/rentals/villa-marbella-la-princesa-383261.html",
   "slug": "villa-marbella-la-princesa-383261",
-  "name": "La PrincesaMarbella -Villa",
   "type": "",
   "location": "Marbella",
-  "guests": "12",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587491072433606619",
-  "area": "8350 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "La PrincesaMarbella -Villa",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/16475186131eada6fb45046669159417f3e8981983/1670427764f205c167898d1c7ddbda243d17e184c2.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/16475186131eada6fb45046669159417f3e8981983/16704277667ce32f977270cabeff80218a814e5c1a.jpg",
@@ -65,60 +60,62 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/16475186131eada6fb45046669159417f3e8981983/1670427766a8425f502b14e125734955ce4b7e76db.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/16475186131eada6fb45046669159417f3e8981983/167042776044b1e255582fb146c9832dc8ecaeae98.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/16475186131eada6fb45046669159417f3e8981983/16704277620136f00ba07e32631d747297f41b13ae.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/2/16475186131eada6fb45046669159417f3e8981983/16704277689006421c13b8165df626c9e616c044bb.jpg",
-    "https://img.avantio.com/fotos/2/1647518788cf53a5416a95b239c81132991dac7212/1647518789f92fa28b8d7adf414852dbad03a4f0f4.jpg",
-    "https://img.avantio.com/fotos/2/164751899063b6e2d288fcb57df94369bdf04cb8a7/177124777200976c3f4bee40ec51ed7254954662bd.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/2/16475186131eada6fb45046669159417f3e8981983/16704277689006421c13b8165df626c9e616c044bb.jpg"
   ],
+  "guests": "12",
+  "bedrooms": "6",
+  "bathrooms": "16",
+  "area": "350 m²",
+  "plot": "",
+  "description": "Villas in Marbella La Princesa. We have a great offer to the best price. Book right now your Villas in Marbella quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 31",
+      "room": "Bedroom 3",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 41",
+      "room": "Bedroom 4",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 51",
+      "room": "Bedroom 5",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 61",
+      "room": "Bedroom 6",
       "bed": "Double bed"
     }
   ],
   "features": [
-    "Private Pool",
-    "Private Heated",
-    "Heated Pool",
-    "Heated swimming pool",
-    "terrace",
+    "Pool views",
+    "Private heated pool",
+    "Private pool",
+    "Air-conditioned",
+    "Central heating",
     "BBQ",
-    "Barbecue",
-    "Air-Conditioned",
-    "Air conditioning",
-    "Underfloor",
-    "Floor heating",
-    "Alarm",
-    "Jacuzzi",
-    "Walking Distance"
+    "Alarm system",
+    "200 m² terrace"
   ],
   "distances": [
     {
-      "place": "Golf course",
-      "distance": "7.4 km"
+      "place": "Restaurant",
+      "distance": "20 m"
     },
     {
-      "place": "Restaurant",
-      "distance": "5 m"
+      "place": "Cafe",
+      "distance": "20 m"
+    },
+    {
+      "place": "Airport",
+      "distance": "53 m"
     },
     {
       "place": "Shops",
@@ -126,10 +123,10 @@
     },
     {
       "place": "Town centre",
-      "distance": "5 m"
+      "distance": "500 m"
     },
     {
-      "place": "Sandy beach",
+      "place": "Sand beach",
       "distance": "1.5 km"
     },
     {
@@ -137,21 +134,33 @@
       "distance": "1.7 km"
     },
     {
-      "place": "Airport",
-      "distance": "53 m"
+      "place": "Bus station",
+      "distance": "1.7 km"
     },
     {
-      "place": "Cafe",
-      "distance": "20 m"
+      "place": "Golf course",
+      "distance": "7.4 km"
+    },
+    {
+      "place": "Water park",
+      "distance": "34.6 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Air conditioning: Included",
+    "Final Cleaning: € 550.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Baby high chair: € 25.00   / bookingCot/Crib: € 35.00   / bookingHeated Pool: € 58.00   / night"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Heated Pool: € 58.00   / night"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€2,000.00",
   "rules": [
     "No smoking",
     "No pets",

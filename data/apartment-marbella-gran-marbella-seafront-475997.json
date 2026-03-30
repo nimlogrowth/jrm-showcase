@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-marbella-gran-marbella-seafront-475997.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-marbella-gran-marbella-seafront-475997.html",
   "slug": "apartment-marbella-gran-marbella-seafront-475997",
-  "name": "Gran Marbella SeafrontMarbella -Apartment",
   "type": "",
   "location": "Marbella",
-  "guests": "6",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907646682105291007491072433908406",
-  "area": "285 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Gran Marbella SeafrontMarbella -Apartment",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/1709665665d001266de3a37a06f6530401825bbd6f/1714429551d126a202923f9d66a6f765656010f78d.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1709665665d001266de3a37a06f6530401825bbd6f/1714429552b2377cdaddb3c83f189a670abb4e6ab0.jpg",
@@ -44,35 +39,45 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/1709665665d001266de3a37a06f6530401825bbd6f/1709665670a34065b26e0bd698dd117a4642a3b1cb.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1709665665d001266de3a37a06f6530401825bbd6f/17096656716fd5b25c1e4347402459d088a5884e35.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1709665665d001266de3a37a06f6530401825bbd6f/17096656699616185abdb5b0a28e50e76a330f9640.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/2/1709665665d001266de3a37a06f6530401825bbd6f/1709665673acb0860789341668e372c483237a1f46.jpg",
-    "https://img.avantio.com/fotos/2/1647518163185cbfa95019b70c52b41721f1d413cb/164751817114fcdc2d9dbe4ef0af083d4f26b7f067.jpg",
-    "https://img.avantio.com/fotos/2/17115576907a89950b604d7259c8044384ce165d19/1711557700ec73ef80f30483c59cb1691c3577387c.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/2/1709665665d001266de3a37a06f6530401825bbd6f/1709665673acb0860789341668e372c483237a1f46.jpg"
   ],
+  "guests": "6",
+  "bedrooms": "2",
+  "bathrooms": "4",
+  "area": "85 m²",
+  "plot": "",
+  "description": "Apartments in Marbella Gran Marbella Seafront. We have a great offer to the best price. Book right now your Apartments in Marbella quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "Single bed"
     }
   ],
   "features": [
+    "Beach views",
     "Sea views",
-    "terrace",
-    "BBQ",
-    "Air-Conditioned",
-    "Air conditioning",
-    "Communal Swimming Pool"
+    "Garden views",
+    "Pool views",
+    "Communal pool",
+    "Air-conditioned",
+    "Central heating",
+    "Lift"
   ],
   "distances": [
     {
-      "place": "Golf course",
-      "distance": "6 km"
+      "place": "Sand beach",
+      "distance": "15 m"
     },
     {
       "place": "Restaurant",
+      "distance": "50 m"
+    },
+    {
+      "place": "Cafe",
       "distance": "50 m"
     },
     {
@@ -84,29 +89,37 @@
       "distance": "500 m"
     },
     {
-      "place": "Sandy beach",
-      "distance": "15 m"
-    },
-    {
       "place": "Hospital",
       "distance": "2.9 km"
     },
     {
-      "place": "Airport",
-      "distance": "52 km"
+      "place": "Golf course",
+      "distance": "6 km"
     },
     {
-      "place": "Cafe",
-      "distance": "50 m"
+      "place": "Water park",
+      "distance": "35 km"
+    },
+    {
+      "place": "Airport",
+      "distance": "52 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Air conditioning: Included",
+    "Final Cleaning: € 190.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "Garage: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Baby high chair: € 25.00   / bookingCot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€500.00",
   "rules": [
     "No smoking",
     "No pets",

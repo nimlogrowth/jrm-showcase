@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/villa-marbella-villa-maddie-465361.html",
   "source_url": "https://www.justrentmarbella.com/rentals/villa-marbella-villa-maddie-465361.html",
   "slug": "villa-marbella-villa-maddie-465361",
-  "name": "Villa MaddieMarbella -Villa",
   "type": "",
   "location": "Marbella",
-  "guests": "12",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587491072433598818",
-  "area": "6400 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Villa MaddieMarbella -Villa",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/1706622389d95fe14d5b60dd45fa94ee74f4256954/1706622400c17bef0973ad063fb4fd8ebd7648ce6e.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1706622389d95fe14d5b60dd45fa94ee74f4256954/17066224032797aca9d8cf62d6d67021b14fe6a6e0.jpg",
@@ -61,55 +56,72 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/1706622389d95fe14d5b60dd45fa94ee74f4256954/17066223933f4119fd6cabcee6ce5ac5979ab0a041.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1706622389d95fe14d5b60dd45fa94ee74f4256954/17066223951505d0496c941ce4198e37dc846a9c7d.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1706622389d95fe14d5b60dd45fa94ee74f4256954/1706622396210ba5f31482c6d7ea0380654c7d73fb.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/2/1706622389d95fe14d5b60dd45fa94ee74f4256954/17066223964622597910ad25dd26c390d467760fb4.jpg",
-    "https://img.avantio.com/fotos/2/1647518788cf53a5416a95b239c81132991dac7212/1647518789f92fa28b8d7adf414852dbad03a4f0f4.jpg",
-    "https://img.avantio.com/fotos/2/164751899063b6e2d288fcb57df94369bdf04cb8a7/177124777200976c3f4bee40ec51ed7254954662bd.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/2/1706622389d95fe14d5b60dd45fa94ee74f4256954/17066223964622597910ad25dd26c390d467760fb4.jpg"
   ],
+  "guests": "12",
+  "bedrooms": "6",
+  "bathrooms": "12",
+  "area": "400 m²",
+  "plot": "",
+  "description": "Villas in Marbella Villa Maddie. We have a great offer to the best price. Book right now your Villas in Marbella quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 31",
+      "room": "Bedroom 3",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 41",
+      "room": "Bedroom 4",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 51",
+      "room": "Bedroom 5",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 61",
+      "room": "Bedroom 6",
       "bed": "Double bed"
     }
   ],
   "features": [
-    "Private Heated",
-    "Heated Pool",
-    "Heated swimming pool",
-    "terrace",
+    "Garden views",
+    "Pool views",
+    "Private heated pool",
+    "Private pool",
+    "Air-conditioned",
+    "Central heating",
     "BBQ",
-    "Barbecue",
     "Fenced garden",
-    "Air-Conditioned",
-    "Air conditioning",
-    "Underfloor",
-    "Floor heating",
-    "Alarm",
+    "Alarm system",
     "Secured parking",
-    "Jacuzzi",
-    "Tennis",
-    "Walking Distance"
+    "Ping pong",
+    "Darts",
+    "50 m² terrace"
   ],
   "distances": [
+    {
+      "place": "Shops",
+      "distance": "100 m"
+    },
+    {
+      "place": "Bus station",
+      "distance": "500 m"
+    },
+    {
+      "place": "Sand beach",
+      "distance": "1.5 km"
+    },
+    {
+      "place": "Town centre",
+      "distance": "1.7 km"
+    },
     {
       "place": "Golf course",
       "distance": "3 km"
@@ -119,37 +131,38 @@
       "distance": "4 km"
     },
     {
-      "place": "Shops",
-      "distance": "100 m"
-    },
-    {
-      "place": "Town centre",
-      "distance": "1.7 km"
-    },
-    {
-      "place": "Sandy beach",
-      "distance": "1.5 km"
+      "place": "Cafe",
+      "distance": "4 km"
     },
     {
       "place": "Hospital",
       "distance": "4.6 km"
     },
     {
-      "place": "Airport",
-      "distance": "45 km"
+      "place": "Water park",
+      "distance": "20 km"
     },
     {
-      "place": "Cafe",
-      "distance": "4 km"
+      "place": "Airport",
+      "distance": "45 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Air conditioning: Included",
+    "Final Cleaning: € 600.00   / booking",
+    "Internet Access: Included",
+    "Open-air parking: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Baby high chair: € 25.00   / bookingCot/Crib: € 35.00   / bookingHeated Pool: € 50.00   / nightHeating: Included"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Heated Pool: € 50.00   / night",
+    "Heating: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€2,000.00",
   "rules": [
     "No smoking",
     "No pets",

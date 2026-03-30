@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-benahavis-penthouse-chilli-482269.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-benahavis-penthouse-chilli-482269.html",
   "slug": "apartment-benahavis-penthouse-chilli-482269",
-  "name": "Penthouse ChilliBenahavís -Apartment",
   "type": "",
   "location": "Benahavís",
-  "guests": "6",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587491074453445452",
-  "area": "2160 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Penthouse ChilliBenahavís -Apartment",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/1713862841e37d85288d6a3b66de5c323dd5d37d88/171386284543e52d8f4565ea2d451bec67992939f3.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1713862841e37d85288d6a3b66de5c323dd5d37d88/1713862856c749067e66b524be1ba09ce9d0fc712a.jpg",
@@ -44,34 +39,40 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/1713862841e37d85288d6a3b66de5c323dd5d37d88/1713862855cb862472c34127d1d5c0ee59848cf03f.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1713862841e37d85288d6a3b66de5c323dd5d37d88/1713862848213291a48f0115f6e1d0f06d2d613e83.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1713862841e37d85288d6a3b66de5c323dd5d37d88/171386285582a49702d54bd41d9362dbd74674bd47.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/2/1713862841e37d85288d6a3b66de5c323dd5d37d88/1713862844ac067c88802607ebc8a00618de43d4ca.jpg",
-    "https://img.avantio.com/fotos/3/174351800160d7a1b5a51a15d5bcc7a6dff48c0b3c/1743518002ccff08b8171500b097e12502aa8ab78f.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/2/1713862841e37d85288d6a3b66de5c323dd5d37d88/1713862844ac067c88802607ebc8a00618de43d4ca.jpg"
   ],
+  "guests": "6",
+  "bedrooms": "3",
+  "bathrooms": "4",
+  "area": "160 m²",
+  "plot": "",
+  "description": "Apartments in Benahavís Penthouse Chilli. We have a great offer to the best price. Book right now your Apartments in Benahavís quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 31",
+      "room": "Bedroom 3",
       "bed": "Double bed"
     }
   ],
   "features": [
-    "terrace",
+    "Garden views",
+    "Golf",
+    "Mountain views",
+    "Communal pool",
+    "Air-conditioned",
+    "Central heating",
     "BBQ",
-    "Barbecue",
-    "Air-Conditioned",
-    "Air conditioning",
-    "Underfloor",
-    "Floor heating",
-    "Alarm",
-    "Ocean view",
-    "Communal Swimming Pool"
+    "Alarm system",
+    "Safe",
+    "Ocean views",
+    "180 m² terrace"
   ],
   "distances": [
     {
@@ -80,42 +81,56 @@
     },
     {
       "place": "Restaurant",
-      "distance": "5 m"
+      "distance": "1.5 km"
+    },
+    {
+      "place": "Cafe",
+      "distance": "2 km"
     },
     {
       "place": "Shops",
-      "distance": "5 m"
+      "distance": "3 km"
     },
     {
       "place": "Town centre",
-      "distance": "5 m"
+      "distance": "4 km"
     },
     {
-      "place": "Sandy beach",
-      "distance": "10 m"
+      "place": "Sand beach",
+      "distance": "5.2 km"
     },
     {
       "place": "Hospital",
       "distance": "6 km"
     },
     {
-      "place": "Airport",
-      "distance": "40 m"
+      "place": "Water park",
+      "distance": "44 km"
     },
     {
-      "place": "Cafe",
-      "distance": "2 km"
+      "place": "Airport",
+      "distance": "65 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Air conditioning: Included",
+    "Final Cleaning: € 200.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "Open-air parking: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Baby high chair: € 25.00   / bookingCot/Crib: € 35.00   / bookingPet: € 75.00   / booking"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Pet: € 75.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€1,000.00",
   "rules": [
     "No smoking",
+    "No pets",
     "No groups under 30 years of age"
   ],
   "registration": "",

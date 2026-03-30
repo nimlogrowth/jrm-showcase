@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/terraced-house-nueva-andalucia-casa-blanca-mar-504092.html",
   "source_url": "https://www.justrentmarbella.com/rentals/terraced-house-nueva-andalucia-casa-blanca-mar-504092.html",
   "slug": "terraced-house-nueva-andalucia-casa-blanca-mar-504092",
-  "name": "Casa Blanca MarNueva andalucia -Terraced House",
   "type": "",
   "location": "Nueva andalucia",
-  "guests": "7",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587491072433613838",
-  "area": "3180 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Casa Blanca MarNueva andalucia -Terraced House",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/172805150754647755a21bb503b4fc2e845563913d/1751538929d8ad25856e015fd5e481f3eb55355269.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/172805150754647755a21bb503b4fc2e845563913d/17280515237ff3573a395b0bc71e876bb6887b4bef.jpg",
@@ -46,75 +41,89 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/172805150754647755a21bb503b4fc2e845563913d/1728051514777f9cb2566042362036ccf4c131b818.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/172805150754647755a21bb503b4fc2e845563913d/1728051514a341ee6a5db69aa1d3b0f6b6efea809f.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/172805150754647755a21bb503b4fc2e845563913d/172805152116bcdd9dde606c9e95225e5c573a8742.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/2/172805150754647755a21bb503b4fc2e845563913d/172805152078695b02b13fbfe5f661ecdd047705f6.jpg",
-    "https://img.avantio.com/fotos/3/17412670966eaad9baeb1bd03be6bf88ac844a753d/1741267102668d9ad064f8381ef8427ec29f07a6ce.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/2/172805150754647755a21bb503b4fc2e845563913d/172805152078695b02b13fbfe5f661ecdd047705f6.jpg"
   ],
+  "guests": "7",
+  "bedrooms": "4",
+  "bathrooms": "6",
+  "area": "180 m²",
+  "plot": "585 m²",
+  "description": "Terraced houses in Nueva andalucia Casa Blanca Mar. We have a great offer to the best price. Book right now your Terraced houses in Nueva andalucia quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "Single bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 31",
+      "room": "Bedroom 3",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 41",
+      "room": "Bedroom 4",
       "bed": "Double bed"
     }
   ],
   "features": [
-    "Mountain views",
-    "Private Heated",
-    "Heated Pool",
-    "Heated swimming pool",
-    "terrace",
+    "Private heated pool",
+    "Private pool",
+    "Air-conditioned",
+    "Central heating",
     "BBQ",
-    "Barbecue",
     "Fenced garden",
-    "Air-Conditioned",
-    "Air conditioning",
-    "Alarm",
-    "Secured parking"
+    "Alarm system",
+    "Secured parking",
+    "13 m² terrace"
   ],
   "distances": [
     {
-      "place": "Golf course",
-      "distance": "3.6 km"
-    },
-    {
-      "place": "Shops",
-      "distance": "1 km"
+      "place": "Rock beach",
+      "distance": "0 m"
     },
     {
       "place": "Town centre",
       "distance": "0 m"
     },
     {
-      "place": "Sandy beach",
-      "distance": "0 m"
+      "place": "Shops",
+      "distance": "1 km"
+    },
+    {
+      "place": "Sand beach",
+      "distance": "1.8 km"
+    },
+    {
+      "place": "Golf course",
+      "distance": "3.6 km"
     },
     {
       "place": "Airport",
       "distance": "63 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Final Cleaning: € 360.00   / booking",
+    "Internet Access: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Air conditioning: IncludedBaby high chair: € 25.00   / bookingCot/Crib: € 35.00   / bookingHeated Pool: € 50.00   / nightHeating: Included"
+    "Air conditioning: Included",
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Heated Pool: € 50.00   / night",
+    "Heating: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€1,000.00",
   "rules": [
     "No smoking",
     "No pets",
     "No groups under 30 years of age"
   ],
-  "registration": "",
+  "registration": "VUT/MA/88632",
   "map_query": "Casa Blanca MarNueva andalucia -Terraced House, Nueva andalucia, Costa del Sol, Spain"
 }

@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-marbella-casa-altos-los-monteros-558471.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-marbella-casa-altos-los-monteros-558471.html",
   "slug": "apartment-marbella-casa-altos-los-monteros-558471",
-  "name": "Casa Altos Los MonterosMarbella -Apartment",
   "type": "",
   "location": "Marbella",
-  "guests": "6",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587491072433364772",
-  "area": "3176 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Casa Altos Los MonterosMarbella -Apartment",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/3/174713300375d2402b74862518f946ef95135e9d5a/17471330049c48952a8d901cb8df05f2e578dd227d.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/174713300375d2402b74862518f946ef95135e9d5a/17471330057c7130924a328b6e0a153d2c69435d63.jpg",
@@ -30,76 +25,91 @@
     "https://www.justrentmarbella.com/rentals/fotos/3/174713300375d2402b74862518f946ef95135e9d5a/17471330110c49a1504d29a1586c50315b3a4378ea.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/174713300375d2402b74862518f946ef95135e9d5a/17471330117d467c39b78b59258f0365bccd4183cc.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/174713300375d2402b74862518f946ef95135e9d5a/1747133012eda8ef8a0e8213f20b4eaefad47da944.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/3/174713300375d2402b74862518f946ef95135e9d5a/17471330120eebf20074c96e7f199b8f78542cdaec.jpg",
-    "https://img.avantio.com/fotos/2/1647518163185cbfa95019b70c52b41721f1d413cb/164751817114fcdc2d9dbe4ef0af083d4f26b7f067.jpg",
-    "https://img.avantio.com/fotos/2/1709665665d001266de3a37a06f6530401825bbd6f/1714429551d126a202923f9d66a6f765656010f78d.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/3/174713300375d2402b74862518f946ef95135e9d5a/17471330120eebf20074c96e7f199b8f78542cdaec.jpg"
   ],
+  "guests": "6",
+  "bedrooms": "3",
+  "bathrooms": "6",
+  "area": "176 m²",
+  "plot": "",
+  "description": "Apartments in Marbella Casa Altos Los Monteros. We have a great offer to the best price. Book right now your Apartments in Marbella quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 32",
+      "room": "Bedroom 3",
       "bed": "Single bed"
     }
   ],
   "features": [
     "Sea views",
-    "terrace",
+    "Garden views",
+    "Golf",
+    "Mountain views",
+    "Pool views",
+    "Communal pool",
+    "Central heating",
     "BBQ",
-    "Barbecue",
-    "Air conditioning",
+    "Tennis court",
     "Secured parking",
-    "Tennis",
-    "Ocean view",
-    "Communal Swimming Pool"
+    "Ocean views",
+    "15 m² terrace"
   ],
   "distances": [
     {
-      "place": "Golf course",
-      "distance": "2.34 km"
+      "place": "Cafe",
+      "distance": "3.3 m"
     },
     {
-      "place": "Restaurant",
-      "distance": "3.32 km"
+      "place": "Golf course",
+      "distance": "2.34 km"
     },
     {
       "place": "Shops",
       "distance": "2.53 km"
     },
     {
-      "place": "Town centre",
-      "distance": "5 km"
-    },
-    {
-      "place": "Sandy beach",
-      "distance": "3.19 km"
-    },
-    {
       "place": "Hospital",
       "distance": "2.61 km"
     },
     {
-      "place": "Airport",
-      "distance": "57 km"
+      "place": "Sand beach",
+      "distance": "3.19 km"
     },
     {
-      "place": "Cafe",
-      "distance": "3.3 m"
+      "place": "Restaurant",
+      "distance": "3.32 km"
+    },
+    {
+      "place": "Town centre",
+      "distance": "5 km"
+    },
+    {
+      "place": "Airport",
+      "distance": "57 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Final Cleaning: € 250.00   / booking",
+    "Internet Access: Included",
+    "Garage: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Air conditioning: IncludedBaby high chair: € 25.00   / bookingCot/Crib: € 35.00   / bookingHeating: Included"
+    "Air conditioning: Included",
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Heating: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€500.00",
   "rules": [
     "No smoking",
     "No pets",

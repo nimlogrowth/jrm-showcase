@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/terraced-house-marbella-casa-agnes-408162.html",
   "source_url": "https://www.justrentmarbella.com/rentals/terraced-house-marbella-casa-agnes-408162.html",
   "slug": "terraced-house-marbella-casa-agnes-408162",
-  "name": "Casa AgnesMarbella -Terraced House",
   "type": "",
   "location": "Marbella",
-  "guests": "6",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587491074450542093",
-  "area": "4150 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Casa AgnesMarbella -Terraced House",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/1668087171ff90e1bda8d84635bdae1b1df6abed19/1669982058956241828ed351cf954157b01f262e0a.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1668087171ff90e1bda8d84635bdae1b1df6abed19/16699820614ad713d011eb17d6220f5a138c0c6dbc.jpg",
@@ -32,82 +27,101 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/1668087171ff90e1bda8d84635bdae1b1df6abed19/166998205152a6d535c5bb2a4841d17d46e04d29c2.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1668087171ff90e1bda8d84635bdae1b1df6abed19/1669982058a8f5d7bba378e7e6afd2a8112bbb42db.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1668087171ff90e1bda8d84635bdae1b1df6abed19/166998205736d95afdc937ea6d65ec9e1526dbbf3d.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/2/1668087171ff90e1bda8d84635bdae1b1df6abed19/166808717180ca511048925e78343e81152b78e072.jpg",
-    "https://img.avantio.com/fotos/2/166627507826adcc8872d6db140c90f4b84e330ca1/17188079516fd64c6bd8b55f77d84c75a1d8a1ffa1.jpg",
-    "https://img.avantio.com/fotos/3/1766572094e3c99c88ddace0fc3f50a0a607a8480b/1766572099eb01a1e44364894360eefafcc43c8d5f.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/2/1668087171ff90e1bda8d84635bdae1b1df6abed19/166808717180ca511048925e78343e81152b78e072.jpg"
   ],
+  "guests": "6",
+  "bedrooms": "3",
+  "bathrooms": "8",
+  "area": "150 m²",
+  "plot": "",
+  "description": "Terraced houses in Marbella Casa Agnes. We have a great offer to the best price. Book right now your Terraced houses in Marbella quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 31",
+      "room": "Bedroom 3",
       "bed": "Double bed"
     }
   ],
   "features": [
-    "terrace",
+    "Garden views",
+    "Pool views",
+    "Private pool",
+    "Air-conditioned",
+    "Central heating",
     "BBQ",
-    "Barbecue",
     "Fenced garden",
-    "Air-Conditioned",
-    "Air conditioning",
-    "Alarm",
-    "Tennis",
-    "Padel",
-    "Communal Swimming Pool"
+    "Alarm system",
+    "20 m² terrace"
   ],
   "distances": [
     {
-      "place": "Golf course",
-      "distance": "5km"
+      "place": "Sand beach",
+      "distance": "250 m"
     },
     {
       "place": "Restaurant",
-      "distance": "25m"
+      "distance": "400 m"
+    },
+    {
+      "place": "Cafe",
+      "distance": "1 km"
     },
     {
       "place": "Shops",
-      "distance": "25m"
+      "distance": "1 km"
+    },
+    {
+      "place": "Bus station",
+      "distance": "1.2 km"
+    },
+    {
+      "place": "Golf course",
+      "distance": "2 km"
     },
     {
       "place": "Town centre",
-      "distance": "250m"
-    },
-    {
-      "place": "Sandy beach",
-      "distance": "4 m"
+      "distance": "2.6 km"
     },
     {
       "place": "Hospital",
       "distance": "9 km"
     },
     {
-      "place": "Airport",
-      "distance": "65 km"
+      "place": "Water park",
+      "distance": "42 km"
     },
     {
-      "place": "Cafe",
-      "distance": "1 km"
+      "place": "Airport",
+      "distance": "65 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Air conditioning: Included",
+    "Final Cleaning: € 175.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "Open-air parking: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Baby high chair: € 25.00   / bookingCot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€750.00",
   "rules": [
     "No smoking",
     "No pets",
     "No groups under 30 years of age"
   ],
-  "registration": "",
+  "registration": "CTC-2017098020",
   "map_query": "Casa AgnesMarbella -Terraced House, Marbella, Costa del Sol, Spain"
 }

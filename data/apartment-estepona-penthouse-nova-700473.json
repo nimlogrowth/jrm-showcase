@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-estepona-penthouse-nova-700473.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-estepona-penthouse-nova-700473.html",
   "slug": "apartment-estepona-penthouse-nova-700473",
-  "name": "Penthouse NovaEstepona -Apartment",
   "type": "",
   "location": "Estepona",
-  "guests": "6",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907646762107906167491072434273241",
-  "area": "3110 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Penthouse NovaEstepona -Apartment",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/3/1771852797fc142d654e4505b7eda3252549ec315b/1771852807279974fbb10c33bb8e68c885a7538734.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/1771852797fc142d654e4505b7eda3252549ec315b/17718528042c0a7da5b7e4e4f5944ffbe53520de76.jpg",
@@ -41,68 +36,79 @@
     "https://www.justrentmarbella.com/rentals/fotos/3/1771852797fc142d654e4505b7eda3252549ec315b/1771852810c854685bf95cacf97d005849761d1486.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/1771852797fc142d654e4505b7eda3252549ec315b/177185281147d7ebe6774ecb8c0f28251371204719.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/1771852797fc142d654e4505b7eda3252549ec315b/1771852812e4e280afa8c8d2a34a97bda3fc3e64f6.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/3/1771852797fc142d654e4505b7eda3252549ec315b/17718528111f9efdc6889e22f32596a9033055564f.jpg",
-    "https://img.avantio.com/fotos/2/1674494145199e4b13bdea9738a21363e3d806098f/1674494149943a5f4059939dbcce7141472bdf830e.jpg",
-    "https://img.avantio.com/fotos/3/17430024177890e3c634a7b411a6a9f0c476c76903/1764067960b751b0f91eb16dd49c29b530fdcf1214.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/3/1771852797fc142d654e4505b7eda3252549ec315b/17718528111f9efdc6889e22f32596a9033055564f.jpg"
   ],
+  "guests": "6",
+  "bedrooms": "3",
+  "bathrooms": "",
+  "area": "110 m²",
+  "plot": "",
+  "description": "Apartments in Estepona Penthouse Nova. We have a great offer to the best price. Book right now your Apartments in Estepona quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 31",
+      "room": "Bedroom 3",
       "bed": "Double bed"
     }
   ],
   "features": [
-    "Sea views",
-    "terrace",
-    "Barbecue",
-    "Air-Conditioned",
-    "Air conditioning",
-    "Underfloor",
-    "Floor heating",
-    "Alarm",
-    "Jacuzzi",
-    "Gym",
-    "Frontline",
-    "Communal Swimming Pool"
+    "Communal pool",
+    "Air-conditioned",
+    "Central heating",
+    "BBQ",
+    "Alarm system",
+    "Lift",
+    "160 m² terrace"
   ],
   "distances": [
+    {
+      "place": "Rock beach",
+      "distance": "0 m"
+    },
     {
       "place": "Golf course",
       "distance": "2.5 km"
     },
     {
+      "place": "Sand beach",
+      "distance": "4 km"
+    },
+    {
       "place": "Shops",
-      "distance": "20 m"
+      "distance": "5 km"
     },
     {
       "place": "Town centre",
       "distance": "6 km"
-    },
-    {
-      "place": "Sandy beach",
-      "distance": "10 m"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Final Cleaning: € 350.00   / booking",
+    "Internet Access: Included",
+    "Open-air parking: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Air conditioning: IncludedBaby high chair: € 25.00   / bookingCot/Crib: € 35.00   / bookingHeating: Included"
+    "Air conditioning: Included",
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Heating: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€1,000.00",
   "rules": [
     "No smoking",
     "No pets",
     "No groups under 30 years of age"
   ],
-  "registration": "",
+  "registration": "VUT/MA/78040",
   "map_query": "Penthouse NovaEstepona -Apartment, Estepona, Costa del Sol, Spain"
 }

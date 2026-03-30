@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/villa-estepona-villa-alba-525033.html",
   "source_url": "https://www.justrentmarbella.com/rentals/villa-estepona-villa-alba-525033.html",
   "slug": "villa-estepona-villa-alba-525033",
-  "name": "Villa AlbaEstepona -Villa",
   "type": "",
   "location": "Estepona",
-  "guests": "8",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587491072433626915",
-  "area": "5508 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Villa AlbaEstepona -Villa",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/3/17401536747c950e02c76875d7a17fa33806f0545b/1740153675e9985fb85b60eedd59eefca234a7d1fd.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/17401536747c950e02c76875d7a17fa33806f0545b/1740153676476199139e2db3e559903455a06e50f0.jpg",
@@ -41,41 +36,46 @@
     "https://www.justrentmarbella.com/rentals/fotos/3/17401536747c950e02c76875d7a17fa33806f0545b/1740153685cd4fa9786d0f149fc0bd9ae7ae1b33af.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/17401536747c950e02c76875d7a17fa33806f0545b/1740153686fa23bd1f327e123edb27391b5b7f163f.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/17401536747c950e02c76875d7a17fa33806f0545b/1740153686a739eee44a3ac55cdffd30d1ed15e4e9.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/3/17401536747c950e02c76875d7a17fa33806f0545b/174015368650ff57c881c1a7cb1df0c63e5745aa05.jpg",
-    "https://img.avantio.com/fotos/2/168675852565b70df1680eab469f5af65c33efc960/168675853809fc7c10fc0667dd982d0c0b8c912d0a.jpg",
-    "https://img.avantio.com/fotos/3/17292560911ceed3e00fff6de5faafcf67bc095d29/17292560985451507e0530dc76533a1b28446e0ed0.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/3/17401536747c950e02c76875d7a17fa33806f0545b/174015368650ff57c881c1a7cb1df0c63e5745aa05.jpg"
   ],
+  "guests": "8",
+  "bedrooms": "4",
+  "bathrooms": "10",
+  "area": "508 m²",
+  "plot": "508 m²",
+  "description": "Villas in Estepona Villa Alba. We have a great offer to the best price. Book right now your Villas in Estepona quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "King size bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "King size bed"
     },
     {
-      "room": "Bedroom 31",
+      "room": "Bedroom 3",
       "bed": "King size bed"
     },
     {
-      "room": "Bedroom 41",
+      "room": "Bedroom 4",
       "bed": "King size bed"
     }
   ],
   "features": [
-    "Private Pool",
-    "Private Heated",
-    "Heated Pool",
-    "Heated swimming pool",
-    "terrace",
+    "Golf course",
+    "Golf",
+    "Mountain views",
+    "Pool views",
+    "Private heated pool",
+    "Private pool",
+    "Air-conditioned",
+    "Central heating",
     "BBQ",
-    "Barbecue",
     "Fenced garden",
-    "Air-Conditioned",
-    "Air conditioning",
     "Secured parking",
-    "Frontline"
+    "Infinity pool",
+    "Frontline golf"
   ],
   "distances": [
     {
@@ -87,16 +87,36 @@
       "distance": "163 m"
     },
     {
+      "place": "Cafe",
+      "distance": "827 m"
+    },
+    {
       "place": "Shops",
       "distance": "873 m"
+    },
+    {
+      "place": "Park",
+      "distance": "1 km"
+    },
+    {
+      "place": "Sand beach",
+      "distance": "1.51 km"
+    },
+    {
+      "place": "River",
+      "distance": "1.87 km"
     },
     {
       "place": "Town centre",
       "distance": "3.27 km"
     },
     {
-      "place": "Sandy beach",
-      "distance": "1.51 km"
+      "place": "Water park",
+      "distance": "3.43 km"
+    },
+    {
+      "place": "Nature reserve",
+      "distance": "5.67 km"
     },
     {
       "place": "Hospital",
@@ -105,19 +125,22 @@
     {
       "place": "Airport",
       "distance": "52.7 km"
-    },
-    {
-      "place": "Cafe",
-      "distance": "827 m"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Final Cleaning: € 550.00   / booking",
+    "Internet Access: Included",
+    "Open-air parking: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Baby high chair: € 25.00   / bookingCot/Crib: € 35.00   / bookingHeated Pool: € 65.00   / night"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Heated Pool: € 65.00   / night"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€2,500.00",
   "rules": [
     "No pets",
     "No groups under 30 years of age"

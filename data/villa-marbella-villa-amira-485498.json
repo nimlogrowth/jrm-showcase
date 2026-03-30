@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/villa-marbella-villa-amira-485498.html",
   "source_url": "https://www.justrentmarbella.com/rentals/villa-marbella-villa-amira-485498.html",
   "slug": "villa-marbella-villa-amira-485498",
-  "name": "Villa AmiraMarbella -Villa",
   "type": "",
   "location": "Marbella",
-  "guests": "12",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587491072433689231",
-  "area": "6538 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Villa AmiraMarbella -Villa",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/17157161711715345c1236ecb4264e1786db101b68/171571617404c491b2b510aaf13f92edc8364cbccd.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/17157161711715345c1236ecb4264e1786db101b68/1715716174639b132f32755bce57abc668d00bb355.jpg",
@@ -93,77 +88,56 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/17157161711715345c1236ecb4264e1786db101b68/1715716200bc7ff21f9d14f4b4ea2de4b1676e64f7.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/17157161711715345c1236ecb4264e1786db101b68/1715716200d22aff992c20f864c1b7e146698e50a0.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/17157161711715345c1236ecb4264e1786db101b68/171571620139d678f64b4d47e79c78adf5e2f78829.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/2/17157161711715345c1236ecb4264e1786db101b68/17157162017a5a12c7de34bb3e587d0879550f0f9c.jpg",
-    "https://img.avantio.com/fotos/2/1647518788cf53a5416a95b239c81132991dac7212/1647518789f92fa28b8d7adf414852dbad03a4f0f4.jpg",
-    "https://img.avantio.com/fotos/2/164751899063b6e2d288fcb57df94369bdf04cb8a7/177124777200976c3f4bee40ec51ed7254954662bd.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/2/17157161711715345c1236ecb4264e1786db101b68/17157162017a5a12c7de34bb3e587d0879550f0f9c.jpg"
   ],
+  "guests": "12",
+  "bedrooms": "6",
+  "bathrooms": "12",
+  "area": "538 m²",
+  "plot": "573 m²",
+  "description": "Villas in Marbella Villa Amira. We have a great offer to the best price. Book right now your Villas in Marbella quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 31",
+      "room": "Bedroom 3",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 41",
+      "room": "Bedroom 4",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 51",
+      "room": "Bedroom 5",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 61",
+      "room": "Bedroom 6",
       "bed": "Double bed"
     }
   ],
   "features": [
-    "Private Heated",
-    "terrace",
+    "Golf course",
+    "Garden views",
+    "Golf",
+    "Pool views",
+    "Private pool",
+    "Air-conditioned",
+    "Central heating",
     "BBQ",
-    "Barbecue",
     "Fenced garden",
-    "Air-Conditioned",
-    "Air conditioning",
-    "Underfloor",
-    "Floor heating",
-    "Alarm",
-    "Secured parking",
-    "Jacuzzi",
-    "Gym",
-    "Walking Distance"
+    "Gym / fitness",
+    "Alarm system",
+    "Fireplace",
+    "Secured parking"
   ],
   "distances": [
-    {
-      "place": "Golf course",
-      "distance": "500 m"
-    },
-    {
-      "place": "Restaurant",
-      "distance": "5 km"
-    },
-    {
-      "place": "Shops",
-      "distance": "2 km"
-    },
-    {
-      "place": "Town centre",
-      "distance": "4 km"
-    },
-    {
-      "place": "Sandy beach",
-      "distance": "4 km"
-    },
-    {
-      "place": "Hospital",
-      "distance": "4 km"
-    },
     {
       "place": "Airport",
       "distance": "0 m"
@@ -171,15 +145,47 @@
     {
       "place": "Cafe",
       "distance": "500 m"
+    },
+    {
+      "place": "Golf course",
+      "distance": "500 m"
+    },
+    {
+      "place": "Shops",
+      "distance": "2 km"
+    },
+    {
+      "place": "Sand beach",
+      "distance": "4 km"
+    },
+    {
+      "place": "Town centre",
+      "distance": "4 km"
+    },
+    {
+      "place": "Hospital",
+      "distance": "4 km"
+    },
+    {
+      "place": "Restaurant",
+      "distance": "5 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Air conditioning: Included",
+    "Final Cleaning: € 450.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "garage and car park: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Baby high chair: € 25.00   / bookingCot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€5,000.00",
   "rules": [
     "No smoking",
     "No pets",

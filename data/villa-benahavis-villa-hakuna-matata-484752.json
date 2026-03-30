@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/villa-benahavis-villa-hakuna-matata-484752.html",
   "source_url": "https://www.justrentmarbella.com/rentals/villa-benahavis-villa-hakuna-matata-484752.html",
   "slug": "villa-benahavis-villa-hakuna-matata-484752",
-  "name": "Villa Hakuna MatataBenahavís -Villa",
   "type": "",
   "location": "Benahavís",
-  "guests": "10",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587491072433534651",
-  "area": "2350 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Villa Hakuna MatataBenahavís -Villa",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/1715272443908d82f0b689267f60d16ad843d27419/17303005527ac7df39a1756ae8c8cfda29ed4c0903.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1715272443908d82f0b689267f60d16ad843d27419/17303005602ee8fd8505ec75531048e91baf8cb506.jpg",
@@ -60,45 +55,58 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/1715272443908d82f0b689267f60d16ad843d27419/17303005587d65ea670902f0303e4b8f0c51baccc9.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1715272443908d82f0b689267f60d16ad843d27419/1730300559df5770d7e8d174b107e7b9ef221cb060.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1715272443908d82f0b689267f60d16ad843d27419/1730300559a11e00d3daa86e074ba0d26cc7021a84.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/2/1715272443908d82f0b689267f60d16ad843d27419/17303005591a955a285e29f933365b367e787d9938.jpg",
-    "https://img.avantio.com/fotos/3/1740407777a3bc96ca9f0d49bc514f3a5c783414de/1740407782c417cc543e072f011c15a5079bc6c0a8.jpg",
-    "https://img.avantio.com/fotos/3/175975026111483072b8c078b0fcd8b3ebae0a24f0/1759750263936bcd9c252842c464305a1672f342fd.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/2/1715272443908d82f0b689267f60d16ad843d27419/17303005591a955a285e29f933365b367e787d9938.jpg"
   ],
+  "guests": "10",
+  "bedrooms": "4",
+  "bathrooms": "4",
+  "area": "350 m²",
+  "plot": "",
+  "description": "Villas in Benahavís Villa Hakuna Matata. We have a great offer to the best price. Book right now your Villas in Benahavís quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 22",
+      "room": "Bedroom 2",
       "bed": "Single bed"
     },
     {
-      "room": "Bedroom 31",
+      "room": "Bedroom 3",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 41",
+      "room": "Bedroom 4",
       "bed": "Double bed"
     }
   ],
   "features": [
     "Sea views",
-    "Mountain views",
     "Garden views",
-    "Private Pool",
-    "terrace",
-    "Barbecue",
+    "Mountain views",
+    "Pool views",
+    "Private pool",
+    "Air-conditioned",
+    "Central heating",
+    "BBQ",
     "Fenced garden",
-    "Air-Conditioned",
-    "Air conditioning",
+    "Fireplace",
     "Secured parking",
-    "Jacuzzi",
-    "Ocean view"
+    "Ocean views",
+    "50 m² terrace"
   ],
   "distances": [
     {
+      "place": "Rock beach",
+      "distance": "0 m"
+    },
+    {
       "place": "Golf course",
+      "distance": "1 km"
+    },
+    {
+      "place": "Cafe",
       "distance": "1 km"
     },
     {
@@ -110,12 +118,12 @@
       "distance": "2 km"
     },
     {
-      "place": "Town centre",
-      "distance": "7 km"
+      "place": "Sand beach",
+      "distance": "5 km"
     },
     {
-      "place": "Sandy beach",
-      "distance": "0 m"
+      "place": "Town centre",
+      "distance": "7 km"
     },
     {
       "place": "Hospital",
@@ -124,19 +132,23 @@
     {
       "place": "Airport",
       "distance": "48 km"
-    },
-    {
-      "place": "Cafe",
-      "distance": "1 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Air conditioning: Included",
+    "Final Cleaning: € 500.00   / booking",
+    "Internet Access: Included",
+    "Garage: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Baby high chair: € 25.00   / bookingCot/Crib: € 35.00   / bookingHeating: Included"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Heating: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€1,500.00",
   "rules": [
     "No smoking",
     "No pets",

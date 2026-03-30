@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-estepona-casa-alma-485832.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-estepona-casa-alma-485832.html",
   "slug": "apartment-estepona-casa-alma-485832",
-  "name": "Casa AlmaEstepona -Apartment",
   "type": "",
   "location": "Estepona",
-  "guests": "4",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587491072433487113",
-  "area": "2115 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Casa AlmaEstepona -Apartment",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/1715883685a499b2f38af26d0098959d5702cfa412/1715883697b1d1401c6d99bd9dd141afa3067dfe9b.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1715883685a499b2f38af26d0098959d5702cfa412/1715883693b8678b8478bc986e7aa6fb4ca88a6f78.jpg",
@@ -43,73 +38,82 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/1715883685a499b2f38af26d0098959d5702cfa412/1715883698f916354eb548ad03ce5a2dffbc583073.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1715883685a499b2f38af26d0098959d5702cfa412/1715883699700f4974a177feabfa8501e5255f5091.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1715883685a499b2f38af26d0098959d5702cfa412/1715883700ad628ed575843afb34f566a068ac3907.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/2/1715883685a499b2f38af26d0098959d5702cfa412/1715883697e1246cc4613358d353b9af3aad6f0c18.jpg",
-    "https://img.avantio.com/fotos/2/1679318995acbd59a282e054432d8bbc3abd075e2b/16793190064779419b262d65786db2d662f8d525d2.jpg",
-    "https://img.avantio.com/fotos/3/1770392602ddee2011e2fb520a568feb441f017f12/177039262763113b248d1b468de4b12e1ff0799e2d.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/2/1715883685a499b2f38af26d0098959d5702cfa412/1715883697e1246cc4613358d353b9af3aad6f0c18.jpg"
   ],
+  "guests": "4",
+  "bedrooms": "2",
+  "bathrooms": "4",
+  "area": "115 m²",
+  "plot": "",
+  "description": "Apartments in Estepona Casa Alma. We have a great offer to the best price. Book right now your Apartments in Estepona quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "Double bed"
     }
   ],
   "features": [
     "Sea views",
-    "terrace",
-    "Air conditioning",
+    "Mountain views",
+    "Communal pool",
+    "Central heating",
+    "Lift",
     "Secured parking",
-    "Jacuzzi",
-    "Gym",
-    "Elevator",
-    "Ocean view",
-    "Direct Beach",
-    "Communal Swimming Pool"
+    "Ocean views"
   ],
   "distances": [
     {
-      "place": "Golf course",
-      "distance": "7.7 km"
+      "place": "Shops",
+      "distance": "700 m"
+    },
+    {
+      "place": "Sand beach",
+      "distance": "1.2 km"
     },
     {
       "place": "Restaurant",
       "distance": "1.4 km"
     },
     {
-      "place": "Shops",
-      "distance": "700 m"
+      "place": "Cafe",
+      "distance": "1.4 km"
     },
     {
       "place": "Town centre",
       "distance": "1.9 km"
     },
     {
-      "place": "Sandy beach",
-      "distance": "1.2 km"
-    },
-    {
       "place": "Hospital",
       "distance": "3.3 km"
     },
     {
-      "place": "Airport",
-      "distance": "83 km"
+      "place": "Golf course",
+      "distance": "7.7 km"
     },
     {
-      "place": "Cafe",
-      "distance": "1.4 km"
+      "place": "Airport",
+      "distance": "83 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Final Cleaning: € 200.00   / booking",
+    "Internet Access: Included",
+    "Garage: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Air conditioning: IncludedBaby high chair: € 25.00   / bookingCot/Crib: € 35.00   / bookingHeating: Included"
+    "Air conditioning: Included",
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Heating: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€500.00",
   "rules": [
     "No smoking",
     "No pets",

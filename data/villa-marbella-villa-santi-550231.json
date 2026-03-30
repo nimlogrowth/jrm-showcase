@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/villa-marbella-villa-santi-550231.html",
   "source_url": "https://www.justrentmarbella.com/rentals/villa-marbella-villa-santi-550231.html",
   "slug": "villa-marbella-villa-santi-550231",
-  "name": "Villa SantiMarbella -Villa",
   "type": "",
   "location": "Marbella",
-  "guests": "10",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587491072433510462",
-  "area": "5250 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Villa SantiMarbella -Villa",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/3/175620778194573ff9b28089da26d259be64022cce/1756207783043068f011842faf4e95f54c4768c17b.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/175620778194573ff9b28089da26d259be64022cce/175620778423ee3664fd85674c9ebb59b16d4bcd79.jpg",
@@ -47,69 +42,64 @@
     "https://www.justrentmarbella.com/rentals/fotos/3/175620778194573ff9b28089da26d259be64022cce/1756207797bff2dd2e18bb7dd77d6c0ac06fd8e4ea.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/175620778194573ff9b28089da26d259be64022cce/17562077970b9db2b0ca2d7448667ccf1adab5c0a1.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/175620778194573ff9b28089da26d259be64022cce/1756207798fe140940ab464e5f18b0d24eef311e36.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/3/175620778194573ff9b28089da26d259be64022cce/17562077982521ce8312413ff04d6abf2c74d8a94e.jpg",
-    "https://img.avantio.com/fotos/2/1647518050ec2fb95a2951a592325c68b66cfb2c23/1712146661001dc0a23ce14877ea68eefe2704ae01.jpg",
-    "https://img.avantio.com/fotos/2/1668527678fc39b23bd682301312fdf6f6a195e794/1668527805839a327ead7124fedba9f6b5f3302a3d.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/3/175620778194573ff9b28089da26d259be64022cce/17562077982521ce8312413ff04d6abf2c74d8a94e.jpg"
   ],
+  "guests": "10",
+  "bedrooms": "5",
+  "bathrooms": "10",
+  "area": "250 m²",
+  "plot": "520 m²",
+  "description": "Villas in Marbella Villa Santi. We have a great offer to the best price. Book right now your Villas in Marbella quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 31",
+      "room": "Bedroom 3",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 41",
+      "room": "Bedroom 4",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 52",
+      "room": "Bedroom 5",
       "bed": "Single bed"
     }
   ],
   "features": [
-    "Private Pool",
-    "Private Heated",
-    "Heated Pool",
-    "Heated swimming pool",
-    "terrace",
+    "Garden views",
+    "Mountain views",
+    "Pool views",
+    "Private heated pool",
+    "Air-conditioned",
+    "Central heating",
     "BBQ",
-    "Barbecue",
     "Fenced garden",
-    "Air-Conditioned",
-    "Air conditioning",
-    "Underfloor",
-    "Floor heating",
-    "Secured parking",
-    "Jacuzzi",
     "Sauna",
-    "Walking Distance"
+    "Safe",
+    "Secured parking"
   ],
   "distances": [
-    {
-      "place": "Golf course",
-      "distance": "3 km"
-    },
     {
       "place": "Restaurant",
       "distance": "200 m"
     },
     {
-      "place": "Shops",
+      "place": "Cafe",
+      "distance": "200 m"
+    },
+    {
+      "place": "Sand beach",
       "distance": "800 m"
     },
     {
-      "place": "Town centre",
-      "distance": "3 km"
-    },
-    {
-      "place": "Sandy beach",
+      "place": "Shops",
       "distance": "800 m"
     },
     {
@@ -117,21 +107,34 @@
       "distance": "1.4 km"
     },
     {
-      "place": "Airport",
-      "distance": "60 km"
+      "place": "Golf course",
+      "distance": "3 km"
     },
     {
-      "place": "Cafe",
-      "distance": "200 m"
+      "place": "Town centre",
+      "distance": "3 km"
+    },
+    {
+      "place": "Airport",
+      "distance": "60 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Final Cleaning: € 650.00   / booking",
+    "Internet Access: Included",
+    "Garage: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "{\n\t\t\t\"@context\": \"https://schema.org\",\n\t\t\t\"@type\": \"BreadcrumbList\",\n\t\t\t\"itemListElement\": [{\n            \"@type\": \"ListItem\",\n            \"position\": 1,\n            \"name\": \"Rentals\",\n            \"item\": \"https://www.justrentmarbella.com/rentals/holidays-rentals-d0/\"\n        }, {\n                    \"@type\": \"ListItem\",\n                    \"position\": 2,\n                    \"name\": \"Marbella\",\n                    \"item\": \"https://www.justrentmarbella.com/rentals/marbella-d27/\"\n                }, {\n                \"@type\": \"ListItem\",\n                \"position\": 3,\n                \"name\": \"Villa Santi\"\n            }]\t\t\n\t\t}"
+    "Air conditioning: Included",
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Heated Pool: € 60.00   / night",
+    "Heating: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€2,500.00",
   "rules": [
     "No smoking",
     "No pets",

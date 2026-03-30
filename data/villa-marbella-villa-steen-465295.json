@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/villa-marbella-villa-steen-465295.html",
   "source_url": "https://www.justrentmarbella.com/rentals/villa-marbella-villa-steen-465295.html",
   "slug": "villa-marbella-villa-steen-465295",
-  "name": "Villa SteenMarbella -Villa",
   "type": "",
   "location": "Marbella",
-  "guests": "8",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907646802102923157491072434343464",
-  "area": "4288 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Villa SteenMarbella -Villa",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/1706613043850196b6416075399b236bda9272f790/17089480901717e96b718a5ffc968a78e53a68c166.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1706613043850196b6416075399b236bda9272f790/1706613055cb6c4d8e1239ba7bec22c30c93dae917.jpg",
@@ -55,52 +50,52 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/1706613043850196b6416075399b236bda9272f790/1706613071af2a376df2c92b6231c7c043f86c43d8.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1706613043850196b6416075399b236bda9272f790/1706613067df4d77ed0a627b33e2011390e08ca4f1.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1706613043850196b6416075399b236bda9272f790/17066130476af2212c9db6e07c089ad0001f1944b2.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/2/1706613043850196b6416075399b236bda9272f790/1706613050073a6335494165f80cc159bea8b18ae8.jpg",
-    "https://img.avantio.com/fotos/2/164751855768ba0fe58f85da15232abb32f9f6919d/16711038254c2f7d0bd99b790d184b1797c804d760.jpg",
-    "https://img.avantio.com/fotos/2/17241536539f7a97b7b394c6f28aa1326e2364c833/1724153654c5d4622de9a6936517cecaff5c795e8a.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/2/1706613043850196b6416075399b236bda9272f790/1706613050073a6335494165f80cc159bea8b18ae8.jpg"
   ],
+  "guests": "8",
+  "bedrooms": "4",
+  "bathrooms": "8",
+  "area": "288 m²",
+  "plot": "",
+  "description": "Villas in Marbella Villa Steen. We have a great offer to the best price. Book right now your Villas in Marbella quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 31",
+      "room": "Bedroom 3",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 41",
+      "room": "Bedroom 4",
       "bed": "Double bed"
     }
   ],
   "features": [
-    "Mountain views",
     "Garden views",
-    "Private Pool",
-    "terrace",
+    "Mountain views",
+    "Pool views",
+    "Private pool",
+    "Air-conditioned",
+    "Central heating",
     "BBQ",
-    "Barbecue",
     "Fenced garden",
-    "Air-Conditioned",
-    "Air conditioning",
-    "Underfloor",
-    "Floor heating",
-    "Alarm",
     "Jacuzzi",
-    "Gym",
-    "Walking Distance"
+    "Gym / fitness",
+    "Alarm system"
   ],
   "distances": [
     {
-      "place": "Golf course",
-      "distance": "2.5 km"
+      "place": "Restaurant",
+      "distance": "300 m"
     },
     {
-      "place": "Restaurant",
+      "place": "Cafe",
       "distance": "300 m"
     },
     {
@@ -108,33 +103,49 @@
       "distance": "350 m"
     },
     {
+      "place": "Bus station",
+      "distance": "400 m"
+    },
+    {
       "place": "Town centre",
       "distance": "1 km"
     },
     {
-      "place": "Sandy beach",
-      "distance": "300 m"
+      "place": "Sand beach",
+      "distance": "1.2 km"
     },
     {
       "place": "Hospital",
       "distance": "2.2 km"
     },
     {
-      "place": "Airport",
-      "distance": "60 km"
+      "place": "Golf course",
+      "distance": "2.5 km"
     },
     {
-      "place": "Cafe",
-      "distance": "300 m"
+      "place": "Water park",
+      "distance": "42.8 km"
+    },
+    {
+      "place": "Airport",
+      "distance": "60 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Air conditioning: Included",
+    "Final Cleaning: € 600.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "Open-air parking: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Baby high chair: € 25.00   / bookingCot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€3,500.00",
   "rules": [
     "No smoking",
     "No pets",

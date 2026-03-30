@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-marbella-casa-milo-434753.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-marbella-casa-milo-434753.html",
   "slug": "apartment-marbella-casa-milo-434753",
-  "name": "Casa MiloMarbella -Apartment",
   "type": "",
   "location": "Marbella",
-  "guests": "5",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587491072433430835",
-  "area": "2151 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Casa MiloMarbella -Apartment",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/1686671984512d262f277be6bbcbcac5cb00a74cce/1686671992d26fc146dde3de370d3c3576bf50ec05.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1686671984512d262f277be6bbcbcac5cb00a74cce/16866719859cb734131c9ecfd26622540f68b9e7c2.jpg",
@@ -38,76 +33,97 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/1686671984512d262f277be6bbcbcac5cb00a74cce/1686671998f26df5d71648fa2e0fbc56368969d653.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1686671984512d262f277be6bbcbcac5cb00a74cce/1686671999cfc7d86cb9f63f0240dd2208252b19f3.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1686671984512d262f277be6bbcbcac5cb00a74cce/1729083594e8696ff9da583926e9bf1d26f348d2a6.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/2/1686671984512d262f277be6bbcbcac5cb00a74cce/1729083593b4899725ceed024055e111b14caf6625.jpg",
-    "https://img.avantio.com/fotos/2/1709665665d001266de3a37a06f6530401825bbd6f/1714429551d126a202923f9d66a6f765656010f78d.jpg",
-    "https://img.avantio.com/fotos/2/166790810067c7c3485c6bc34bf4ab3b83b7dfecea/1667908102b8fd5b97bda2d4811d2ff0f164937490.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/2/1686671984512d262f277be6bbcbcac5cb00a74cce/1729083593b4899725ceed024055e111b14caf6625.jpg"
   ],
+  "guests": "5",
+  "bedrooms": "3",
+  "bathrooms": "4",
+  "area": "151 m²",
+  "plot": "",
+  "description": "Apartments in Marbella Casa Milo. We have a great offer to the best price. Book right now your Apartments in Marbella quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "King size bed"
     },
     {
-      "room": "Bedroom 21",
-      "bed": "Bed"
-    },
-    {
-      "room": "Bedroom 31",
+      "room": "Bedroom 3",
       "bed": "Single bed"
     }
   ],
   "features": [
-    "Sea views",
-    "terrace",
+    "Garden views",
+    "Mountain views",
+    "Pool views",
+    "Communal pool",
+    "Air-conditioned",
+    "Central heating",
+    "Underfloor heating",
     "BBQ",
-    "Barbecue",
-    "Air-Conditioned",
-    "Air conditioning",
-    "Floor heating",
-    "Alarm",
-    "Communal Swimming Pool"
+    "Alarm system",
+    "33 m² terrace"
   ],
   "distances": [
     {
-      "place": "Golf course",
-      "distance": "5 m"
-    },
-    {
-      "place": "Restaurant",
-      "distance": "5 m"
-    },
-    {
-      "place": "Shops",
-      "distance": "10 m"
-    },
-    {
-      "place": "Town centre",
-      "distance": "10 m"
-    },
-    {
-      "place": "Sandy beach",
-      "distance": "5 m"
-    },
-    {
-      "place": "Hospital",
-      "distance": "2.4 km"
+      "place": "Rock beach",
+      "distance": "0 m"
     },
     {
       "place": "Airport",
       "distance": "61 m"
     },
     {
+      "place": "Bus station",
+      "distance": "230 m"
+    },
+    {
+      "place": "Restaurant",
+      "distance": "350 m"
+    },
+    {
+      "place": "Shops",
+      "distance": "650 m"
+    },
+    {
       "place": "Cafe",
       "distance": "800 m"
+    },
+    {
+      "place": "Sand beach",
+      "distance": "1.5 km"
+    },
+    {
+      "place": "Town centre",
+      "distance": "2 km"
+    },
+    {
+      "place": "Golf course",
+      "distance": "2.3 km"
+    },
+    {
+      "place": "Hospital",
+      "distance": "2.4 km"
+    },
+    {
+      "place": "Water park",
+      "distance": "40 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Air conditioning: Included",
+    "Final Cleaning: € 200.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "garage and car park: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Baby high chair: € 25.00   / bookingCot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€1,000.00",
   "rules": [
     "No smoking",
     "No pets",

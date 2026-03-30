@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/villa-marbella-villa-majestic-383273.html",
   "source_url": "https://www.justrentmarbella.com/rentals/villa-marbella-villa-majestic-383273.html",
   "slug": "villa-marbella-villa-majestic-383273",
-  "name": "Villa MajesticMarbella -Villa",
   "type": "",
   "location": "Marbella",
-  "guests": "14",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587491074451402885",
-  "area": "10700 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Villa MajesticMarbella -Villa",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/1647518779eda9b7078b80cddcb516df1121f0c5d2/1737629189ebaea7e7325c788e1d51a7bc3a6e1dc7.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1647518779eda9b7078b80cddcb516df1121f0c5d2/1737629179d957f09ea56448820ca4ed7839fa6ce0.jpg",
@@ -73,101 +68,120 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/1647518779eda9b7078b80cddcb516df1121f0c5d2/17376293304a47bef2c9371af9966e6c4d2bc79875.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1647518779eda9b7078b80cddcb516df1121f0c5d2/1737629350754a9ba7fb22a393260ea9de15dca34a.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1647518779eda9b7078b80cddcb516df1121f0c5d2/1737629261a603284f6b86d99c4b64be59b128432f.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/2/1647518779eda9b7078b80cddcb516df1121f0c5d2/1737629281b385e38c7a19b8d4e7a243a755a16bbe.jpg",
-    "https://img.avantio.com/fotos/2/1647518191e0936dfa25e5ea54f069b2a501b7f678/1670590591c3842240f5f10b9e6382a33dc06452c7.jpg",
-    "https://img.avantio.com/fotos/2/16475186214009e73e922a1b4596c9bc45bced4423/16712096755ff226c445b5667b26d48de246848b14.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/2/1647518779eda9b7078b80cddcb516df1121f0c5d2/1737629281b385e38c7a19b8d4e7a243a755a16bbe.jpg"
   ],
+  "guests": "14",
+  "bedrooms": "7",
+  "bathrooms": "20",
+  "area": "700 m²",
+  "plot": "000 m²",
+  "description": "Villas in Marbella Villa Majestic. We have a great offer to the best price. Book right now your Villas in Marbella quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "King size bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "King size bed"
     },
     {
-      "room": "Bedroom 31",
+      "room": "Bedroom 3",
       "bed": "King size bed"
     },
     {
-      "room": "Bedroom 41",
+      "room": "Bedroom 4",
       "bed": "King size bed"
     },
     {
-      "room": "Bedroom 51",
+      "room": "Bedroom 5",
       "bed": "King size bed"
     },
     {
-      "room": "Bedroom 61",
+      "room": "Bedroom 6",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 71",
+      "room": "Bedroom 7",
       "bed": "Double bed"
     }
   ],
   "features": [
+    "Beach views",
+    "Oceanfront",
     "Sea views",
-    "Private Heated",
-    "Heated Pool",
-    "Heated swimming pool",
-    "terrace",
+    "Garden views",
+    "Mountain views",
+    "Pool views",
+    "Private heated pool",
+    "Private pool",
+    "Central heating",
     "BBQ",
-    "Barbecue",
     "Fenced garden",
-    "Air conditioning",
-    "Alarm",
-    "Secured parking",
     "Jacuzzi",
-    "Ocean view",
-    "Golf views",
-    "Direct Beach",
-    "Outdoor Kitchen",
-    "Walking Distance"
+    "Alarm system",
+    "Fireplace",
+    "Secured parking",
+    "Ocean views"
   ],
   "distances": [
     {
-      "place": "Golf course",
-      "distance": "700m"
+      "place": "Sand beach",
+      "distance": "0 m"
     },
     {
       "place": "Restaurant",
-      "distance": "700m"
+      "distance": "60 m"
+    },
+    {
+      "place": "Bus station",
+      "distance": "1 km"
     },
     {
       "place": "Shops",
       "distance": "1.2 km"
     },
     {
-      "place": "Town centre",
-      "distance": "8 km"
-    },
-    {
-      "place": "Sandy beach",
-      "distance": "700m"
+      "place": "Golf course",
+      "distance": "3 km"
     },
     {
       "place": "Hospital",
       "distance": "3.6 km"
     },
     {
+      "place": "Town centre",
+      "distance": "8 km"
+    },
+    {
+      "place": "Water park",
+      "distance": "21 km"
+    },
+    {
       "place": "Airport",
       "distance": "47 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Final Cleaning: € 600.00   / booking",
+    "Internet Access: Included",
+    "Open-air parking: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "{\n\t\t\t\"@context\": \"https://schema.org\",\n\t\t\t\"@type\": \"BreadcrumbList\",\n\t\t\t\"itemListElement\": [{\n            \"@type\": \"ListItem\",\n            \"position\": 1,\n            \"name\": \"Rentals\",\n            \"item\": \"https://www.justrentmarbella.com/rentals/holidays-rentals-d0/\"\n        }, {\n                    \"@type\": \"ListItem\",\n                    \"position\": 2,\n                    \"name\": \"Marbella\",\n                    \"item\": \"https://www.justrentmarbella.com/rentals/marbella-d27/\"\n                }, {\n                \"@type\": \"ListItem\",\n                \"position\": 3,\n                \"name\": \"Villa Majestic\"\n            }]\t\t\n\t\t}"
+    "Baby high chair: € 25.00   / booking",
+    "Bed linen: Included",
+    "Cot/Crib: € 35.00   / booking",
+    "Heated Pool: € 72.00   / night"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€5,000.00",
   "rules": [
     "No smoking",
     "No pets",
     "No groups under 30 years of age"
   ],
-  "registration": "",
+  "registration": "CTC-2018081748",
   "map_query": "Villa MajesticMarbella -Villa, Marbella, Costa del Sol, Spain"
 }

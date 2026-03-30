@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-marbella-casa-coralita-453953.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-marbella-casa-coralita-453953.html",
   "slug": "apartment-marbella-casa-coralita-453953",
-  "name": "Casa CoralitaMarbella -Apartment",
   "type": "",
   "location": "Marbella",
-  "guests": "4",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587491072433496577",
-  "area": "290 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Casa CoralitaMarbella -Apartment",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/1700671523048c7e5ef4da845b40347cdfda699399/1700671534379aa2638f0ebc27717e27cff225a150.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1700671523048c7e5ef4da845b40347cdfda699399/170067153581eb4c70071b9c3ac30a5e498bc3c601.jpg",
@@ -35,74 +30,95 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/1700671523048c7e5ef4da845b40347cdfda699399/17006715321fa17c91392ec7f07242de0b5ef0c007.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1700671523048c7e5ef4da845b40347cdfda699399/17006715338597740aa5ab3da636da23697365e6fe.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1700671523048c7e5ef4da845b40347cdfda699399/1700671533eaeeb9bdea33065aaca5d8877161c52a.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/2/1700671523048c7e5ef4da845b40347cdfda699399/1700671534f363775228eeb0fce874d19fb4fa583f.jpg",
-    "https://img.avantio.com/fotos/2/171933524208dd9beb1b0410b5ac73b7dee7e8f398/1719335247598de11cbf26e63f6f28662d21ae829a.jpg",
-    "https://img.avantio.com/fotos/3/1772537313dbbaa7d49e0b8ef2c5cfec1dda2f8d6e/1772537317d0ad04e83ffa61ca2bc0a669defdc032.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/2/1700671523048c7e5ef4da845b40347cdfda699399/1700671534f363775228eeb0fce874d19fb4fa583f.jpg"
   ],
+  "guests": "4",
+  "bedrooms": "2",
+  "bathrooms": "4",
+  "area": "90 m²",
+  "plot": "",
+  "description": "Apartments in Marbella Casa Coralita. We have a great offer to the best price. Book right now your Apartments in Marbella quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 22",
+      "room": "Bedroom 2",
       "bed": "Single bed"
     }
   ],
   "features": [
-    "Sea views",
-    "terrace",
-    "Air-Conditioned",
-    "Air conditioning",
-    "Alarm",
-    "Secured parking",
-    "Tennis",
-    "Padel",
-    "Elevator",
-    "Communal Swimming Pool",
-    "Walking Distance"
+    "Beach views",
+    "Garden views",
+    "Pool views",
+    "Communal pool",
+    "Air-conditioned",
+    "Central heating",
+    "Alarm system",
+    "Secured parking"
   ],
   "distances": [
     {
-      "place": "Golf course",
-      "distance": "4 km"
+      "place": "Ski Slope",
+      "distance": "0 m"
+    },
+    {
+      "place": "Sand beach",
+      "distance": "100 m"
     },
     {
       "place": "Restaurant",
       "distance": "100 m"
     },
     {
-      "place": "Shops",
-      "distance": "1.6 km"
-    },
-    {
-      "place": "Town centre",
-      "distance": "1 km"
-    },
-    {
-      "place": "Sandy beach",
-      "distance": "50 m"
+      "place": "Cafe",
+      "distance": "100 m"
     },
     {
       "place": "Hospital",
       "distance": "600 m"
     },
     {
-      "place": "Airport",
-      "distance": "60 km"
+      "place": "Town centre",
+      "distance": "1 km"
     },
     {
-      "place": "Cafe",
-      "distance": "100 m"
+      "place": "Bus station",
+      "distance": "1 km"
+    },
+    {
+      "place": "Shops",
+      "distance": "1.6 km"
+    },
+    {
+      "place": "Golf course",
+      "distance": "4 km"
+    },
+    {
+      "place": "Water park",
+      "distance": "42 km"
+    },
+    {
+      "place": "Airport",
+      "distance": "60 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Air conditioning: Included",
+    "Final Cleaning: € 180.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "garage and car park: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Baby high chair: € 25.00   / bookingCot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€750.00",
   "rules": [
     "No smoking",
     "No pets",

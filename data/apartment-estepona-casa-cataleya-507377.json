@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-estepona-casa-cataleya-507377.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-estepona-casa-cataleya-507377.html",
   "slug": "apartment-estepona-casa-cataleya-507377",
-  "name": "Casa CataleyaEstepona -Apartment",
   "type": "",
   "location": "Estepona",
-  "guests": "4",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587491072434003488",
-  "area": "291 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Casa CataleyaEstepona -Apartment",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/3/1730376416d40143f93d43829c46fce183418d62e1/173037645647ffbf369e0a92f13db5f5dcfb53e8bd.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/1730376416d40143f93d43829c46fce183418d62e1/1730376419abd6fe2e85b7b0354755b92ed0a7fba2.jpg",
@@ -30,35 +25,32 @@
     "https://www.justrentmarbella.com/rentals/fotos/3/1730376416d40143f93d43829c46fce183418d62e1/173037647621a9e999ff7b7b49f5e6a3932dbabbad.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/1730376416d40143f93d43829c46fce183418d62e1/1730376465cf7b289c2af2c5d6f6c8a2315ad353ab.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/1730376416d40143f93d43829c46fce183418d62e1/173037648022afc520224d5ca52c03729a8079f6da.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/3/1730376416d40143f93d43829c46fce183418d62e1/1730376483513839e1baebc069e34a0dbba7e04dc7.jpg",
-    "https://img.avantio.com/fotos/2/1679318995acbd59a282e054432d8bbc3abd075e2b/16793190064779419b262d65786db2d662f8d525d2.jpg",
-    "https://img.avantio.com/fotos/3/1770392602ddee2011e2fb520a568feb441f017f12/177039262763113b248d1b468de4b12e1ff0799e2d.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/3/1730376416d40143f93d43829c46fce183418d62e1/1730376483513839e1baebc069e34a0dbba7e04dc7.jpg"
   ],
+  "guests": "4",
+  "bedrooms": "2",
+  "bathrooms": "4",
+  "area": "91 m²",
+  "plot": "",
+  "description": "Apartments in Estepona Casa Cataleya. We have a great offer to the best price. Book right now your Apartments in Estepona quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "King size bed"
-    },
-    {
-      "room": "Bedroom 21",
-      "bed": "Bed"
     }
   ],
   "features": [
-    "Heated Pool",
-    "Heated swimming pool",
-    "terrace",
-    "Barbecue",
-    "Air-Conditioned",
-    "Air conditioning",
-    "Alarm",
-    "Jacuzzi",
-    "Elevator",
-    "Direct Beach",
-    "Communal Swimming Pool",
-    "Indoor Pool"
+    "Communal pool",
+    "Air-conditioned",
+    "BBQ",
+    "Alarm system",
+    "81 m² terrace"
   ],
   "distances": [
+    {
+      "place": "Rock beach",
+      "distance": "0 m"
+    },
     {
       "place": "Golf course",
       "distance": "350 m"
@@ -68,21 +60,25 @@
       "distance": "1.6 km"
     },
     {
-      "place": "Sandy beach",
-      "distance": "0 m"
-    },
-    {
       "place": "Airport",
       "distance": "71 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Final Cleaning: € 225.00   / booking",
+    "Internet Access: Included",
+    "Open-air parking: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Air conditioning: IncludedBaby high chair: € 25.00   / bookingCot/Crib: € 35.00   / bookingHeated Pool: € 50.00   / night"
+    "Air conditioning: Included",
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Heated Pool: € 50.00   / night"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€700.00",
   "rules": [
     "No smoking",
     "No pets",

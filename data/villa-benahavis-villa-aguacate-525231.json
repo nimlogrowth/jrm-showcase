@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/villa-benahavis-villa-aguacate-525231.html",
   "source_url": "https://www.justrentmarbella.com/rentals/villa-benahavis-villa-aguacate-525231.html",
   "slug": "villa-benahavis-villa-aguacate-525231",
-  "name": "Villa AguacateBenahavís -Villa",
   "type": "",
   "location": "Benahavís",
-  "guests": "10",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587491072433704683",
-  "area": "4350 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Villa AguacateBenahavís -Villa",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/3/1740407777a3bc96ca9f0d49bc514f3a5c783414de/1740407782c417cc543e072f011c15a5079bc6c0a8.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/1740407777a3bc96ca9f0d49bc514f3a5c783414de/174040778452ae3232d2dffd3d3f98ec512000dab9.jpg",
@@ -47,63 +42,85 @@
     "https://www.justrentmarbella.com/rentals/fotos/3/1740407777a3bc96ca9f0d49bc514f3a5c783414de/1740407836a783fca8c3aaa46b3c21563fcb1b88c4.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/1740407777a3bc96ca9f0d49bc514f3a5c783414de/17404078418965ba5761f6c527ace80908cca14a12.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/1740407777a3bc96ca9f0d49bc514f3a5c783414de/174040783887499440d3f089c5e95f5e9600d41c1c.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/3/1740407777a3bc96ca9f0d49bc514f3a5c783414de/1740407840abed244fbeba17219ef5345b078506d8.jpg",
-    "https://img.avantio.com/fotos/2/1715272443908d82f0b689267f60d16ad843d27419/17303005527ac7df39a1756ae8c8cfda29ed4c0903.jpg",
-    "https://img.avantio.com/fotos/3/175975026111483072b8c078b0fcd8b3ebae0a24f0/1759750263936bcd9c252842c464305a1672f342fd.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/3/1740407777a3bc96ca9f0d49bc514f3a5c783414de/1740407840abed244fbeba17219ef5345b078506d8.jpg"
   ],
+  "guests": "10",
+  "bedrooms": "4",
+  "bathrooms": "8",
+  "area": "350 m²",
+  "plot": "085 m²",
+  "description": "Villas in Benahavís Villa Aguacate. We have a great offer to the best price. Book right now your Villas in Benahavís quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "King size bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "King size bed"
     },
     {
-      "room": "Bedroom 31",
-      "bed": "Bed"
-    },
-    {
-      "room": "Bedroom 41",
+      "room": "Bedroom 4",
       "bed": "Double bed"
     }
   ],
   "features": [
     "Sea views",
-    "Mountain views",
     "Garden views",
-    "Private Pool",
-    "terrace",
+    "Mountain views",
+    "Pool views",
+    "Private pool",
+    "Air-conditioned",
+    "Central heating",
     "BBQ",
-    "Barbecue",
     "Fenced garden",
-    "Air-Conditioned",
-    "Air conditioning",
+    "Fireplace",
     "Secured parking",
-    "Jacuzzi",
-    "Ocean view"
+    "Ping pong",
+    "Saltwater pool",
+    "Ocean views",
+    "45 m² terrace"
   ],
   "distances": [
     {
-      "place": "Golf course",
-      "distance": "250 m"
+      "place": "Train station",
+      "distance": "0 m"
     },
     {
       "place": "Restaurant",
       "distance": "460 m"
     },
     {
+      "place": "Cafe",
+      "distance": "1.19 km"
+    },
+    {
+      "place": "Golf course",
+      "distance": "1.2 km"
+    },
+    {
       "place": "Shops",
       "distance": "1.23 km"
+    },
+    {
+      "place": "Bus station",
+      "distance": "2.11 km"
+    },
+    {
+      "place": "Sand beach",
+      "distance": "2.91 km"
     },
     {
       "place": "Town centre",
       "distance": "3.5 km"
     },
     {
-      "place": "Sandy beach",
-      "distance": "13 m"
+      "place": "Water park",
+      "distance": "4.19 km"
+    },
+    {
+      "place": "Nature reserve",
+      "distance": "5.64 km"
     },
     {
       "place": "Hospital",
@@ -112,19 +129,23 @@
     {
       "place": "Airport",
       "distance": "52.3 km"
-    },
-    {
-      "place": "Cafe",
-      "distance": "1.19 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Final Cleaning: € 500.00   / booking",
+    "Internet Access: Included",
+    "Covered parking: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Air conditioning: IncludedBaby high chair: € 25.00   / bookingCot/Crib: € 35.00   / bookingHeating: Included"
+    "Air conditioning: Included",
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Heating: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€2,500.00",
   "rules": [
     "No smoking",
     "No pets",

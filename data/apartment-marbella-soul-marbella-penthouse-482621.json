@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-marbella-soul-marbella-penthouse-482621.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-marbella-soul-marbella-penthouse-482621.html",
   "slug": "apartment-marbella-soul-marbella-penthouse-482621",
-  "name": "Soul Marbella PenthouseMarbella -Apartment",
   "type": "",
   "location": "Marbella",
-  "guests": "6",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587491072433537503",
-  "area": "2210 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Soul Marbella PenthouseMarbella -Apartment",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/1713975572c721bd5c7567a436e8c7ca82f0104249/171397557565839bcb68d8ba91c6ba810f7f982789.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1713975572c721bd5c7567a436e8c7ca82f0104249/171397557598ef12fdceaf913a4f23cb9d4e6b5eba.jpg",
@@ -44,36 +39,40 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/1713975572c721bd5c7567a436e8c7ca82f0104249/17139755860f119d6e3ea4f3eb74c0d6fe5d84373e.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1713975572c721bd5c7567a436e8c7ca82f0104249/1713975584822bbb363740cd903ad1bb641ff75463.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1713975572c721bd5c7567a436e8c7ca82f0104249/171397558631a4b43851d54eff482325e01661c4b9.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/2/1713975572c721bd5c7567a436e8c7ca82f0104249/171397558696ac5f48f31780390c7a4eec2c0f380d.jpg",
-    "https://img.avantio.com/fotos/2/1647518163185cbfa95019b70c52b41721f1d413cb/164751817114fcdc2d9dbe4ef0af083d4f26b7f067.jpg",
-    "https://img.avantio.com/fotos/2/1709665665d001266de3a37a06f6530401825bbd6f/1714429551d126a202923f9d66a6f765656010f78d.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/2/1713975572c721bd5c7567a436e8c7ca82f0104249/171397558696ac5f48f31780390c7a4eec2c0f380d.jpg"
   ],
+  "guests": "6",
+  "bedrooms": "3",
+  "bathrooms": "4",
+  "area": "210 m²",
+  "plot": "",
+  "description": "Apartments in Marbella Soul Marbella Penthouse. We have a great offer to the best price. Book right now your Apartments in Marbella quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 31",
+      "room": "Bedroom 3",
       "bed": "Double bed"
     }
   ],
   "features": [
-    "Sea views",
-    "terrace",
+    "Golf course",
+    "Garden views",
+    "Mountain views",
+    "Pool views",
+    "Communal pool",
+    "Central heating",
     "BBQ",
-    "Barbecue",
-    "Air conditioning",
-    "Alarm",
-    "Sauna",
-    "Gym",
-    "Ocean view",
-    "Communal Swimming Pool",
-    "Outdoor Kitchen"
+    "Gym / fitness",
+    "Alarm system",
+    "Ocean views",
+    "50 m² terrace"
   ],
   "distances": [
     {
@@ -81,46 +80,58 @@
       "distance": "1 km"
     },
     {
-      "place": "Restaurant",
-      "distance": "4 km"
-    },
-    {
       "place": "Shops",
       "distance": "1.5 km"
-    },
-    {
-      "place": "Town centre",
-      "distance": "20 m"
-    },
-    {
-      "place": "Sandy beach",
-      "distance": "3 km"
     },
     {
       "place": "Hospital",
       "distance": "1.5 km"
     },
     {
-      "place": "Airport",
-      "distance": "55 km"
+      "place": "Sand beach",
+      "distance": "3 km"
+    },
+    {
+      "place": "Restaurant",
+      "distance": "4 km"
     },
     {
       "place": "Cafe",
       "distance": "4 km"
+    },
+    {
+      "place": "Town centre",
+      "distance": "7 km"
+    },
+    {
+      "place": "Water park",
+      "distance": "25 km"
+    },
+    {
+      "place": "Airport",
+      "distance": "55 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Final Cleaning: € 320.00   / booking",
+    "Internet Access: Included",
+    "Garage: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Air conditioning: IncludedBaby high chair: € 25.00   / bookingCot/Crib: € 35.00   / bookingHeating: Included"
+    "Air conditioning: Included",
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Heating: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€1,250.00",
   "rules": [
     "No smoking",
     "No pets",
     "No groups under 30 years of age"
   ],
-  "registration": "",
+  "registration": "VUT/MA/77485",
   "map_query": "Soul Marbella PenthouseMarbella -Apartment, Marbella, Costa del Sol, Spain"
 }

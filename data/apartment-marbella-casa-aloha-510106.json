@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-marbella-casa-aloha-510106.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-marbella-casa-aloha-510106.html",
   "slug": "apartment-marbella-casa-aloha-510106",
-  "name": "Casa AlohaMarbella -Apartment",
   "type": "",
   "location": "Marbella",
-  "guests": "4",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907646802108386147491072434458570",
-  "area": "288 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Casa AlohaMarbella -Apartment",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/1647518185bf688ba07d2d07d80cbc1d763a2a1e78/1686214947a95d8e3dfd9b75a4f8667a81c304199a.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1647518185bf688ba07d2d07d80cbc1d763a2a1e78/1686214947bea675277961000f33080bfbfbd3f5d9.jpg",
@@ -38,82 +33,109 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/1647518185bf688ba07d2d07d80cbc1d763a2a1e78/1686214962f5c38455659cdd448b1296f21e52ae47.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1647518185bf688ba07d2d07d80cbc1d763a2a1e78/16862149629fd8ea7394a421ecca1f9251b98d0686.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1647518185bf688ba07d2d07d80cbc1d763a2a1e78/168621496336b550fca453af046903de34c523ea2d.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/2/1647518185bf688ba07d2d07d80cbc1d763a2a1e78/16862149648efbe200b5af9bc5f9a78de279d98d29.jpg",
-    "https://img.avantio.com/fotos/2/171933524208dd9beb1b0410b5ac73b7dee7e8f398/1719335247598de11cbf26e63f6f28662d21ae829a.jpg",
-    "https://img.avantio.com/fotos/3/1772537313dbbaa7d49e0b8ef2c5cfec1dda2f8d6e/1772537317d0ad04e83ffa61ca2bc0a669defdc032.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/2/1647518185bf688ba07d2d07d80cbc1d763a2a1e78/16862149648efbe200b5af9bc5f9a78de279d98d29.jpg"
   ],
+  "guests": "4",
+  "bedrooms": "2",
+  "bathrooms": "4",
+  "area": "88 m²",
+  "plot": "",
+  "description": "Apartments in Marbella Casa Aloha. We have a great offer to the best price. Book right now your Apartments in Marbella quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 12",
+      "room": "Bedroom 1",
       "bed": "Single bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "King size bed"
     }
   ],
   "features": [
-    "Sea views",
-    "Heated Pool",
-    "Heated swimming pool",
-    "terrace",
-    "Barbecue",
-    "Air-Conditioned",
-    "Air conditioning",
-    "Secured parking",
-    "Sauna",
-    "Gym",
-    "Tennis",
-    "Padel",
-    "Elevator",
-    "Walking Distance"
+    "Garden views",
+    "Pool views",
+    "Air-conditioned",
+    "Central heating",
+    "BBQ",
+    "Gym / fitness",
+    "Lift",
+    "Secured parking"
   ],
   "distances": [
     {
-      "place": "Golf course",
-      "distance": "2.09 km"
-    },
-    {
-      "place": "Restaurant",
+      "place": "Restaurant - Aloha Hill Club Restaurant",
       "distance": "20 m"
     },
     {
-      "place": "Shops",
+      "place": "Cafe - Aloha Hill Club Cafe",
+      "distance": "20 m"
+    },
+    {
+      "place": "Golf course - Las Brisas Golf Club",
+      "distance": "2.09 km"
+    },
+    {
+      "place": "Golf course - Los Naranjos Golf Club",
+      "distance": "2.7 km"
+    },
+    {
+      "place": "Shops - Mercadona",
       "distance": "3.89 km"
     },
     {
-      "place": "Town centre",
+      "place": "Town centre - Puerto Banus",
       "distance": "5.29 km"
     },
     {
-      "place": "Sandy beach",
+      "place": "Sand beach - Playa Nueva Andalucia",
       "distance": "5.91 km"
     },
     {
-      "place": "Hospital",
+      "place": "Hospital - HC Marbella International Hospital",
       "distance": "7 km"
+    },
+    {
+      "place": "Bus station - Marbella Bus station",
+      "distance": "11.01 km"
+    },
+    {
+      "place": "Hospital - Costa Del Sol Public Hospital",
+      "distance": "17.49 km"
+    },
+    {
+      "place": "Water park - AquaMijas",
+      "distance": "42 km"
+    },
+    {
+      "place": "Airport - AGP Costa Del Sol Airport",
+      "distance": "68.01 km"
     },
     {
       "place": "Airport",
       "distance": "68.01 km"
-    },
-    {
-      "place": "Cafe",
-      "distance": "20 m"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Air conditioning: Included",
+    "Final Cleaning: € 190.00   / booking",
+    "Heated Pool: Included",
+    "Heating: Included",
+    "Internet Access: Included",
+    "Garage: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Baby high chair: € 25.00   / bookingCot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€500.00",
   "rules": [
     "No smoking",
     "No pets",
     "No groups under 30 years of age"
   ],
-  "registration": "",
+  "registration": "VUT/MA/557051",
   "map_query": "Casa AlohaMarbella -Apartment, Marbella, Costa del Sol, Spain"
 }

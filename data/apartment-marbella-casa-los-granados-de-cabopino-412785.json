@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-marbella-casa-los-granados-de-cabopino-412785.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-marbella-casa-los-granados-de-cabopino-412785.html",
   "slug": "apartment-marbella-casa-los-granados-de-cabopino-412785",
-  "name": "Casa Los Granados De CabopinoMarbella -Apartment",
   "type": "",
   "location": "Marbella",
-  "guests": "6",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907646832108091067491072434147728",
-  "area": "2121 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Casa Los Granados De CabopinoMarbella -Apartment",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/1671711111623e6c7f5f7c3a899174e52b9dae2973/1671711124df5a3132cc84748d6f00f6f96a0d076f.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1671711111623e6c7f5f7c3a899174e52b9dae2973/167171111246b6df3d49a4fc8945964da24fe781d9.jpg",
@@ -38,81 +33,100 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/1671711111623e6c7f5f7c3a899174e52b9dae2973/1671711121943a800b79d6caef2931906dee1c544e.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1671711111623e6c7f5f7c3a899174e52b9dae2973/1671711122895b4e1c4c8a627c2f633655b0a1e7ca.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1671711111623e6c7f5f7c3a899174e52b9dae2973/1671711123b7f002312e60dccb768112666d3845ed.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/2/1671711111623e6c7f5f7c3a899174e52b9dae2973/16717111245b7bdd3a2a3effcea7b2482d97236b0b.jpg",
-    "https://img.avantio.com/fotos/2/1647518163185cbfa95019b70c52b41721f1d413cb/164751817114fcdc2d9dbe4ef0af083d4f26b7f067.jpg",
-    "https://img.avantio.com/fotos/2/1709665665d001266de3a37a06f6530401825bbd6f/1714429551d126a202923f9d66a6f765656010f78d.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/2/1671711111623e6c7f5f7c3a899174e52b9dae2973/16717111245b7bdd3a2a3effcea7b2482d97236b0b.jpg"
   ],
+  "guests": "6",
+  "bedrooms": "3",
+  "bathrooms": "4",
+  "area": "121 m²",
+  "plot": "",
+  "description": "Apartments in Marbella Casa Los Granados De Cabopino. We have a great offer to the best price. Book right now your Apartments in Marbella quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 31",
+      "room": "Bedroom 3",
       "bed": "Double bed"
     }
   ],
   "features": [
+    "Beach views",
     "Sea views",
-    "terrace",
-    "BBQ",
-    "Air-Conditioned",
-    "Air conditioning",
+    "Garden views",
+    "Pool views",
+    "Communal pool",
+    "Air-conditioned",
+    "Central heating",
+    "Gym / fitness",
+    "Padel court",
+    "Lift",
     "Secured parking",
-    "Gym",
-    "Tennis",
-    "Padel",
-    "Ocean view",
-    "Frontline",
-    "Communal Swimming Pool",
-    "Indoor Pool",
-    "Walking Distance"
+    "Ocean views",
+    "46 m² terrace"
   ],
   "distances": [
+    {
+      "place": "Sand beach",
+      "distance": "0 m"
+    },
+    {
+      "place": "Restaurant",
+      "distance": "0 m"
+    },
+    {
+      "place": "Cafe",
+      "distance": "0 m"
+    },
+    {
+      "place": "Bus station",
+      "distance": "350 m"
+    },
     {
       "place": "Golf course",
       "distance": "3 km"
     },
     {
-      "place": "Restaurant",
-      "distance": "10 m"
-    },
-    {
       "place": "Shops",
-      "distance": "5 m"
+      "distance": "3 km"
     },
     {
       "place": "Town centre",
-      "distance": "15km"
-    },
-    {
-      "place": "Sandy beach",
-      "distance": "10 m"
+      "distance": "6 km"
     },
     {
       "place": "Hospital",
       "distance": "9 km"
     },
     {
-      "place": "Airport",
-      "distance": "40 km"
+      "place": "Water park",
+      "distance": "16 km"
     },
     {
-      "place": "Cafe",
-      "distance": "0 m"
+      "place": "Airport",
+      "distance": "40 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Air conditioning: Included",
+    "Final Cleaning: € 200.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "Open-air parking: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Baby high chair: € 25.00   / bookingCot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€700.00",
   "rules": [
     "No smoking",
     "No pets",

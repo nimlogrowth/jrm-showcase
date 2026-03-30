@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-estepona-toscana-hills-penthouse-408038.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-estepona-toscana-hills-penthouse-408038.html",
   "slug": "apartment-estepona-toscana-hills-penthouse-408038",
-  "name": "Toscana Hills PenthouseEstepona -Apartment",
   "type": "",
   "location": "Estepona",
-  "guests": "6",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587491072433391565",
-  "area": "2165 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Toscana Hills PenthouseEstepona -Apartment",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/16680824228e9437a3251149c9394b21b3f4d6fdff/16702472891ae529ec81669b670c21e7b6df0a9406.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/16680824228e9437a3251149c9394b21b3f4d6fdff/17416998409f31c357713174528334fd877c91518f.jpg",
@@ -41,79 +36,94 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/16680824228e9437a3251149c9394b21b3f4d6fdff/1741699847f654fbceb0edb4cf52cbfc7e183f6abb.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/16680824228e9437a3251149c9394b21b3f4d6fdff/1741699853381e14f1469ceb4945552511e0bd8404.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/16680824228e9437a3251149c9394b21b3f4d6fdff/1741699854feb6c3e7550e94eb76789fc8cc5e5d49.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/2/16680824228e9437a3251149c9394b21b3f4d6fdff/1741699854fe168bd13e6e39229489532136709d00.jpg",
-    "https://img.avantio.com/fotos/2/1674494145199e4b13bdea9738a21363e3d806098f/1674494149943a5f4059939dbcce7141472bdf830e.jpg",
-    "https://img.avantio.com/fotos/3/17430024177890e3c634a7b411a6a9f0c476c76903/1764067960b751b0f91eb16dd49c29b530fdcf1214.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/2/16680824228e9437a3251149c9394b21b3f4d6fdff/1741699854fe168bd13e6e39229489532136709d00.jpg"
   ],
+  "guests": "6",
+  "bedrooms": "3",
+  "bathrooms": "4",
+  "area": "165 m²",
+  "plot": "",
+  "description": "Apartments in Estepona Toscana Hills Penthouse. We have a great offer to the best price. Book right now your Apartments in Estepona quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 31",
+      "room": "Bedroom 3",
       "bed": "Double bed"
     }
   ],
   "features": [
-    "Sea views",
-    "terrace",
+    "Mountain views",
+    "Communal pool",
+    "Air-conditioned",
+    "Central heating",
     "BBQ",
-    "Barbecue",
-    "Air-Conditioned",
-    "Air conditioning",
-    "Underfloor",
-    "Floor heating",
     "Secured parking",
-    "Gym",
-    "Frontline",
-    "Communal Swimming Pool"
+    "100 m² terrace"
   ],
   "distances": [
     {
-      "place": "Golf course",
-      "distance": "4 km"
+      "place": "Shops",
+      "distance": "1 km"
     },
     {
       "place": "Restaurant",
       "distance": "1 km"
     },
     {
-      "place": "Shops",
+      "place": "Cafe",
       "distance": "1 km"
     },
     {
-      "place": "Town centre",
-      "distance": "9 km"
+      "place": "Bus station",
+      "distance": "1.5 km"
     },
     {
-      "place": "Sandy beach",
+      "place": "Sand beach",
       "distance": "1.7 km"
+    },
+    {
+      "place": "Golf course",
+      "distance": "4 km"
     },
     {
       "place": "Hospital",
       "distance": "4.7 km"
     },
     {
-      "place": "Airport",
-      "distance": "70 km"
+      "place": "Town centre",
+      "distance": "9 km"
     },
     {
-      "place": "Cafe",
-      "distance": "1 km"
+      "place": "Water park",
+      "distance": "47 km"
+    },
+    {
+      "place": "Airport",
+      "distance": "70 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Air conditioning: Included",
+    "Final Cleaning: € 220.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "Garage: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Baby high chair: € 25.00   / bookingCot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€500.00",
   "rules": [
     "No smoking",
     "No pets",

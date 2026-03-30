@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/villa-marbella-villa-elements-421581.html",
   "source_url": "https://www.justrentmarbella.com/rentals/villa-marbella-villa-elements-421581.html",
   "slug": "villa-marbella-villa-elements-421581",
-  "name": "Villa ElementsMarbella -Villa",
   "type": "",
   "location": "Marbella",
-  "guests": "8",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587491072433576757",
-  "area": "6447 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Villa ElementsMarbella -Villa",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/1678721219606832d6bfbe348aa255f8ca64e96ec1/16787212226f7063ec87ff4d1f5245fcad8051371f.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1678721219606832d6bfbe348aa255f8ca64e96ec1/1678721223017ce566db76a4803504857ffedeee7f.jpg",
@@ -60,93 +55,109 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/1678721219606832d6bfbe348aa255f8ca64e96ec1/167872122019eb5957b3ce22ef8948706451fe6e75.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1678721219606832d6bfbe348aa255f8ca64e96ec1/167872122081d5c7f76bf1d7b527b541f3e84cbce3.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1678721219606832d6bfbe348aa255f8ca64e96ec1/16787212214aecfa9ed9fe93a6a82069c711727e14.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/2/1678721219606832d6bfbe348aa255f8ca64e96ec1/1678721221c7ead0e96f0691637d9ff54e46e4481c.jpg",
-    "https://img.avantio.com/fotos/2/164751855768ba0fe58f85da15232abb32f9f6919d/16711038254c2f7d0bd99b790d184b1797c804d760.jpg",
-    "https://img.avantio.com/fotos/2/17241536539f7a97b7b394c6f28aa1326e2364c833/1724153654c5d4622de9a6936517cecaff5c795e8a.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/2/1678721219606832d6bfbe348aa255f8ca64e96ec1/1678721221c7ead0e96f0691637d9ff54e46e4481c.jpg"
   ],
+  "guests": "8",
+  "bedrooms": "4",
+  "bathrooms": "12",
+  "area": "447 m²",
+  "plot": "",
+  "description": "Villas in Marbella Villa Elements. We have a great offer to the best price. Book right now your Villas in Marbella quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "King size bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "King size bed"
     },
     {
-      "room": "Bedroom 31",
+      "room": "Bedroom 3",
       "bed": "King size bed"
     },
     {
-      "room": "Bedroom 41",
+      "room": "Bedroom 4",
       "bed": "King size bed"
     }
   ],
   "features": [
+    "Beach views",
     "Sea views",
-    "Mountain views",
     "Garden views",
-    "Private Heated",
-    "Heated Pool",
-    "Heated swimming pool",
-    "terrace",
+    "Mountain views",
+    "Pool views",
+    "Private heated pool",
+    "Private pool",
+    "Air-conditioned",
+    "Central heating",
+    "Underfloor heating",
     "BBQ",
-    "Barbecue",
     "Fenced garden",
-    "Air-Conditioned",
-    "Air conditioning",
-    "Underfloor",
-    "Floor heating",
-    "Alarm",
+    "Gym / fitness",
+    "Alarm system",
+    "Lift",
     "Secured parking",
-    "Jacuzzi",
-    "Sauna",
-    "Gym",
-    "Ocean view",
-    "Outdoor Kitchen",
-    "Walking Distance"
+    "Ocean views"
   ],
   "distances": [
     {
-      "place": "Golf course",
-      "distance": "6.2 km"
-    },
-    {
-      "place": "Restaurant",
-      "distance": "5 m"
+      "place": "Airport",
+      "distance": "55 m"
     },
     {
       "place": "Shops",
-      "distance": "5 m"
+      "distance": "190 m"
+    },
+    {
+      "place": "Sand beach",
+      "distance": "200 m"
+    },
+    {
+      "place": "Bus station",
+      "distance": "290 m"
+    },
+    {
+      "place": "Cafe",
+      "distance": "400 m"
+    },
+    {
+      "place": "Restaurant",
+      "distance": "450 m"
     },
     {
       "place": "Town centre",
-      "distance": "5 m"
-    },
-    {
-      "place": "Sandy beach",
-      "distance": "5 m"
+      "distance": "2 km"
     },
     {
       "place": "Hospital",
       "distance": "3.5 km"
     },
     {
-      "place": "Airport",
-      "distance": "55 m"
+      "place": "Golf course",
+      "distance": "6.2 km"
     },
     {
-      "place": "Cafe",
-      "distance": "400 m"
+      "place": "Water park",
+      "distance": "33.2 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Air conditioning: Included",
+    "Final Cleaning: € 500.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "Open-air parking: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Baby high chair: € 25.00   / bookingCot/Crib: € 35.00   / bookingHeated Pool: € 93.00   / night"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Heated Pool: € 93.00   / night"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€6,000.00",
   "rules": [
     "No smoking",
     "No pets",

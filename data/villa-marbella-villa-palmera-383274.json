@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/villa-marbella-villa-palmera-383274.html",
   "source_url": "https://www.justrentmarbella.com/rentals/villa-marbella-villa-palmera-383274.html",
   "slug": "villa-marbella-villa-palmera-383274",
-  "name": "Villa PalmeraMarbella -Villa",
   "type": "",
   "location": "Marbella",
-  "guests": "12",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587491072433651111",
-  "area": "5404 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Villa PalmeraMarbella -Villa",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/1647518788cf53a5416a95b239c81132991dac7212/1647518789f92fa28b8d7adf414852dbad03a4f0f4.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1647518788cf53a5416a95b239c81132991dac7212/16475187918217a4e35fd4f82bd87d6352364d3cd7.jpg",
@@ -50,57 +45,66 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/1647518788cf53a5416a95b239c81132991dac7212/1647518822bf7ded18f9a0d53055e4dd7e92393de3.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1647518788cf53a5416a95b239c81132991dac7212/1647518823f4c7a8454086ea91be6e5538d502b410.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1647518788cf53a5416a95b239c81132991dac7212/1647518824a617425e76b7b2f35186bc3d93833751.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/2/1647518788cf53a5416a95b239c81132991dac7212/16475188256e91045de6ee1f5311007759817e4ef6.jpg",
-    "https://img.avantio.com/fotos/2/164751899063b6e2d288fcb57df94369bdf04cb8a7/177124777200976c3f4bee40ec51ed7254954662bd.jpg",
-    "https://img.avantio.com/fotos/3/173677765680278cb6e46f736e66008b1dd3eed11d/1737544141718e3f66d19b3e278268adef829a4c34.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/2/1647518788cf53a5416a95b239c81132991dac7212/16475188256e91045de6ee1f5311007759817e4ef6.jpg"
   ],
+  "guests": "12",
+  "bedrooms": "5",
+  "bathrooms": "10",
+  "area": "404 m²",
+  "plot": "115 m²",
+  "description": "Villas in Marbella Villa Palmera. We have a great offer to the best price. Book right now your Villas in Marbella quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 32",
+      "room": "Bedroom 3",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 42",
+      "room": "Bedroom 4",
       "bed": "Single bed"
     },
     {
-      "room": "Bedroom 51",
+      "room": "Bedroom 5",
       "bed": "Double bed"
     }
   ],
   "features": [
-    "Private Heated",
-    "Heated Pool",
-    "Heated swimming pool",
-    "terrace",
+    "Garden views",
+    "Pool views",
+    "Private heated pool",
+    "Air-conditioned",
+    "Central heating",
     "BBQ",
-    "Barbecue",
     "Fenced garden",
-    "Air-Conditioned",
-    "Air conditioning",
-    "Underfloor",
-    "Floor heating",
-    "Alarm",
-    "Secured parking",
     "Jacuzzi",
-    "Ocean view",
-    "Walking Distance"
+    "Alarm system",
+    "Fireplace",
+    "Secured parking",
+    "Ocean views",
+    "200 m² terrace"
   ],
   "distances": [
     {
+      "place": "Airport",
+      "distance": "45 m"
+    },
+    {
       "place": "Golf course",
-      "distance": "2 km"
+      "distance": "260 m"
     },
     {
       "place": "Restaurant",
+      "distance": "260 m"
+    },
+    {
+      "place": "Cafe",
       "distance": "260 m"
     },
     {
@@ -108,11 +112,15 @@
       "distance": "1.1 km"
     },
     {
-      "place": "Town centre",
-      "distance": "11 km"
+      "place": "Bus station",
+      "distance": "1.4 km"
     },
     {
-      "place": "Sandy beach",
+      "place": "Town centre",
+      "distance": "2.6 km"
+    },
+    {
+      "place": "Sand beach",
       "distance": "3.6 km"
     },
     {
@@ -120,21 +128,27 @@
       "distance": "7.4 km"
     },
     {
-      "place": "Airport",
-      "distance": "45 m"
-    },
-    {
-      "place": "Cafe",
-      "distance": "260 m"
+      "place": "Water park",
+      "distance": "19.2 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Air conditioning: Included",
+    "Final Cleaning: € 500.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "Open-air parking: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Baby high chair: € 25.00   / bookingBed linen: IncludedCot/Crib: € 35.00   / bookingHeated Pool: € 58.00   / night"
+    "Baby high chair: € 25.00   / booking",
+    "Bed linen: Included",
+    "Cot/Crib: € 35.00   / booking",
+    "Heated Pool: € 58.00   / night"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€2,500.00",
   "rules": [
     "No smoking",
     "No pets",

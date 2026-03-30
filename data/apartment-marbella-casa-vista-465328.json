@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-marbella-casa-vista-465328.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-marbella-casa-vista-465328.html",
   "slug": "apartment-marbella-casa-vista-465328",
-  "name": "Casa VistaMarbella -Apartment",
   "type": "",
   "location": "Marbella",
-  "guests": "4",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587491072433457626",
-  "area": "282 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Casa VistaMarbella -Apartment",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/1706616052bd3b8c29790d746844878d81097e1768/1706616053aa3e10d00a1dce39d1a60720e5dd3e99.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1706616052bd3b8c29790d746844878d81097e1768/1706616053495981ef1a48e7ba2f329a2f88406052.jpg",
@@ -35,42 +30,54 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/1706616052bd3b8c29790d746844878d81097e1768/1706616062fa2cadefe2287b8a0f903a6de3a3ad4a.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1706616052bd3b8c29790d746844878d81097e1768/1706616062ce93cdc9e76c6060aebc0daba2a5617f.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1706616052bd3b8c29790d746844878d81097e1768/1706616063a3b011fdb404886ebad89d137a0bffca.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/2/1706616052bd3b8c29790d746844878d81097e1768/170661606397b143d6e2c976a5b3d62352cd6e9066.jpg",
-    "https://img.avantio.com/fotos/2/171933524208dd9beb1b0410b5ac73b7dee7e8f398/1719335247598de11cbf26e63f6f28662d21ae829a.jpg",
-    "https://img.avantio.com/fotos/3/1772537313dbbaa7d49e0b8ef2c5cfec1dda2f8d6e/1772537317d0ad04e83ffa61ca2bc0a669defdc032.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/2/1706616052bd3b8c29790d746844878d81097e1768/170661606397b143d6e2c976a5b3d62352cd6e9066.jpg"
   ],
+  "guests": "4",
+  "bedrooms": "2",
+  "bathrooms": "4",
+  "area": "82 m²",
+  "plot": "",
+  "description": "Apartments in Marbella Casa Vista. We have a great offer to the best price. Book right now your Apartments in Marbella quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "Double bed"
     }
   ],
   "features": [
-    "Sea views",
-    "Private Pool",
-    "terrace",
-    "Air-Conditioned",
-    "Air conditioning",
+    "Pool views",
+    "Private pool",
+    "Air-conditioned",
+    "Central heating",
+    "Lift",
     "Secured parking",
-    "Tennis",
-    "Padel",
-    "Elevator",
-    "Ocean view",
-    "Communal Swimming Pool",
-    "Walking Distance"
+    "Ocean views",
+    "54 m² terrace"
   ],
   "distances": [
     {
-      "place": "Golf course",
-      "distance": "2.5 km"
+      "place": "Park",
+      "distance": "0 m"
     },
     {
       "place": "Restaurant",
       "distance": "1.2 km"
+    },
+    {
+      "place": "Cafe",
+      "distance": "1.2 km"
+    },
+    {
+      "place": "Bus station",
+      "distance": "2.5 km"
+    },
+    {
+      "place": "Golf course",
+      "distance": "2.5 km"
     },
     {
       "place": "Shops",
@@ -78,10 +85,10 @@
     },
     {
       "place": "Town centre",
-      "distance": "30 m"
+      "distance": "5 km"
     },
     {
-      "place": "Sandy beach",
+      "place": "Sand beach",
       "distance": "5.7 km"
     },
     {
@@ -89,21 +96,29 @@
       "distance": "8 km"
     },
     {
-      "place": "Airport",
-      "distance": "50 m"
+      "place": "Water park",
+      "distance": "42 km"
     },
     {
-      "place": "Cafe",
-      "distance": "1.2 km"
+      "place": "Airport",
+      "distance": "54 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Air conditioning: Included",
+    "Final Cleaning: € 180.00   / booking",
+    "Internet Access: Included",
+    "garage and car park: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Baby high chair: € 20.00   / bookingCot/Crib: € 30.00   / bookingHeating: Included"
+    "Baby high chair: € 20.00   / booking",
+    "Cot/Crib: € 30.00   / booking",
+    "Heating: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€500.00",
   "rules": [
     "No smoking",
     "No pets",

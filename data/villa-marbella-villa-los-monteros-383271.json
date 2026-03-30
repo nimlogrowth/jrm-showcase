@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/villa-marbella-villa-los-monteros-383271.html",
   "source_url": "https://www.justrentmarbella.com/rentals/villa-marbella-villa-los-monteros-383271.html",
   "slug": "villa-marbella-villa-los-monteros-383271",
-  "name": "Villa Los MonterosMarbella -Villa",
   "type": "",
   "location": "Marbella",
-  "guests": "8",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907646672105725687491072434019743",
-  "area": "9650 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Villa Los MonterosMarbella -Villa",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/16475187478347eb0d3e86aaa815699fa2da4276bd/1711972351b0e38ed8e976a2c845fcac5d7db9b244.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/16475187478347eb0d3e86aaa815699fa2da4276bd/17119723501275885276e3b23e68f7710993ae2f5a.jpg",
@@ -58,63 +53,78 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/16475187478347eb0d3e86aaa815699fa2da4276bd/16711155306563de7179344c94420001e4d1d57eb0.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/16475187478347eb0d3e86aaa815699fa2da4276bd/1711972348f6e055c79c9b4c2c59c6726f785f56fe.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/16475187478347eb0d3e86aaa815699fa2da4276bd/171197235339d0aae62c5f2e4eaf76fe2d5d956e95.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/2/16475187478347eb0d3e86aaa815699fa2da4276bd/1711972351dec4f5accbdfee59ab2fd30e36f73851.jpg",
-    "https://img.avantio.com/fotos/2/164751855768ba0fe58f85da15232abb32f9f6919d/16711038254c2f7d0bd99b790d184b1797c804d760.jpg",
-    "https://img.avantio.com/fotos/2/17241536539f7a97b7b394c6f28aa1326e2364c833/1724153654c5d4622de9a6936517cecaff5c795e8a.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/2/16475187478347eb0d3e86aaa815699fa2da4276bd/1711972351dec4f5accbdfee59ab2fd30e36f73851.jpg"
   ],
+  "guests": "8",
+  "bedrooms": "4",
+  "bathrooms": "18",
+  "area": "650 m²",
+  "plot": "",
+  "description": "Villas in Marbella Villa Los Monteros. We have a great offer to the best price. Book right now your Villas in Marbella quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 31",
+      "room": "Bedroom 3",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 41",
+      "room": "Bedroom 4",
       "bed": "Double bed"
     }
   ],
   "features": [
-    "Mountain views",
     "Garden views",
-    "terrace",
+    "Mountain views",
+    "Pool views",
+    "Private pool",
+    "Air-conditioned",
+    "Central heating",
     "BBQ",
-    "Barbecue",
     "Fenced garden",
-    "Air-Conditioned",
-    "Air conditioning",
-    "Underfloor",
-    "Floor heating",
-    "Alarm",
+    "Alarm system",
     "Secured parking",
-    "Ocean view",
-    "Walking Distance"
+    "Infinity pool",
+    "Ocean views",
+    "100 m² terrace"
   ],
   "distances": [
     {
-      "place": "Golf course",
-      "distance": "9 km"
+      "place": "Bus station",
+      "distance": "4.9 m"
     },
     {
-      "place": "Restaurant",
-      "distance": "7.6 km"
+      "place": "Park",
+      "distance": "4.9 m"
     },
     {
       "place": "Shops",
       "distance": "5 km"
     },
     {
+      "place": "Restaurant",
+      "distance": "7.6 km"
+    },
+    {
+      "place": "Cafe",
+      "distance": "7.6 km"
+    },
+    {
       "place": "Town centre",
       "distance": "8 km"
     },
     {
-      "place": "Sandy beach",
+      "place": "Golf course",
+      "distance": "9 km"
+    },
+    {
+      "place": "Sand beach",
       "distance": "9.6 km"
     },
     {
@@ -122,21 +132,30 @@
       "distance": "9.6 km"
     },
     {
-      "place": "Airport",
-      "distance": "57 km"
+      "place": "Water park",
+      "distance": "31 km"
     },
     {
-      "place": "Cafe",
-      "distance": "7.6 km"
+      "place": "Airport",
+      "distance": "57 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Air conditioning: Included",
+    "Final Cleaning: € 600.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "Open-air parking: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Baby high chair: € 25.00   / bookingBed linen: IncludedCot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking",
+    "Bed linen: Included",
+    "Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€2,500.00",
   "rules": [
     "No smoking",
     "No pets",

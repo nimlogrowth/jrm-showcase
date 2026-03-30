@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-marbella-casa-cerro-blanco-450855.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-marbella-casa-cerro-blanco-450855.html",
   "slug": "apartment-marbella-casa-cerro-blanco-450855",
-  "name": "Casa Cerro BlancoMarbella -Apartment",
   "type": "",
   "location": "Marbella",
-  "guests": "8",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907646802103858327491072434062921",
-  "area": "4257 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Casa Cerro BlancoMarbella -Apartment",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/16989350324449b9d80261e57aa2eacf98a3b41cff/16989350533485e452af867410b1226f48ed7bbbfe.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/16989350324449b9d80261e57aa2eacf98a3b41cff/16989350528dff9be091a552799bf86f6bc30b521d.jpg",
@@ -44,54 +39,57 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/16989350324449b9d80261e57aa2eacf98a3b41cff/16989350505a73af6c01f68f21661aea5e4de60087.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/16989350324449b9d80261e57aa2eacf98a3b41cff/1698935055abab854b8dd8e92a2deac9714f533ec9.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/16989350324449b9d80261e57aa2eacf98a3b41cff/169893505410f9639aaf1ff628bee596cb6dc85e8a.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/2/16989350324449b9d80261e57aa2eacf98a3b41cff/1698935054d6cb5592f978028f8f78928335e7cc86.jpg",
-    "https://img.avantio.com/fotos/2/166566102691756cd52b529bfddc50e12cb6276130/166999549902d68a6b3184fd065eef6a8854248eee.jpg",
-    "https://img.avantio.com/fotos/3/1773065001b05dc1038f515d99003f6e948c325b2c/1773065014a2d71af9ff9d036f7143b53091d6660f.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/2/16989350324449b9d80261e57aa2eacf98a3b41cff/1698935054d6cb5592f978028f8f78928335e7cc86.jpg"
   ],
+  "guests": "8",
+  "bedrooms": "4",
+  "bathrooms": "8",
+  "area": "257 m²",
+  "plot": "",
+  "description": "Apartments in Marbella Casa Cerro Blanco. We have a great offer to the best price. Book right now your Apartments in Marbella quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 12",
+      "room": "Bedroom 1",
       "bed": "Single bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 31",
+      "room": "Bedroom 3",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 41",
+      "room": "Bedroom 4",
       "bed": "Double bed"
     }
   ],
   "features": [
-    "Sea views",
-    "Private Pool",
-    "terrace",
+    "Mountain views",
+    "Communal pool",
+    "Air-conditioned",
+    "Central heating",
     "BBQ",
-    "Barbecue",
-    "Air-Conditioned",
-    "Air conditioning",
-    "Alarm",
+    "Tennis court",
     "Secured parking",
-    "Tennis",
-    "Ocean view",
-    "Communal Swimming Pool",
-    "Walking Distance"
+    "Ocean views"
   ],
   "distances": [
     {
-      "place": "Golf course",
-      "distance": "2.6 km"
+      "place": "Bus station",
+      "distance": "350 m"
+    },
+    {
+      "place": "Shops",
+      "distance": "500 m"
     },
     {
       "place": "Restaurant",
       "distance": "500 m"
     },
     {
-      "place": "Shops",
+      "place": "Cafe",
       "distance": "500 m"
     },
     {
@@ -99,29 +97,41 @@
       "distance": "1.2 km"
     },
     {
-      "place": "Sandy beach",
+      "place": "Sand beach",
       "distance": "1.6 km"
+    },
+    {
+      "place": "Golf course",
+      "distance": "2.6 km"
     },
     {
       "place": "Hospital",
       "distance": "2.6 km"
     },
     {
-      "place": "Airport",
-      "distance": "60 km"
+      "place": "Water park",
+      "distance": "40 km"
     },
     {
-      "place": "Cafe",
-      "distance": "500 m"
+      "place": "Airport",
+      "distance": "60 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Air conditioning: Included",
+    "Final Cleaning: € 290.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "garage and car park: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Baby high chair: € 25.00   / bookingCot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€1,500.00",
   "rules": [
     "No smoking",
     "No pets",

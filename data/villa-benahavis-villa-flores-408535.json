@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/villa-benahavis-villa-flores-408535.html",
   "source_url": "https://www.justrentmarbella.com/rentals/villa-benahavis-villa-flores-408535.html",
   "slug": "villa-benahavis-villa-flores-408535",
-  "name": "Villa FloresBenahavís -Villa",
   "type": "",
   "location": "Benahavís",
-  "guests": "11",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587491072433419135",
-  "area": "6300 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Villa FloresBenahavís -Villa",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/166852028300bfd45438f1f4f19642db52a0b01b3d/1698677063392b6c81e75446075041b3dff3cc369e.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/166852028300bfd45438f1f4f19642db52a0b01b3d/1668520284844ac114d8e69bd658262783e2fc7981.jpg",
@@ -40,83 +35,109 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/166852028300bfd45438f1f4f19642db52a0b01b3d/169867706257c78a84d1ed9e3fd6dc32d0d98c3d22.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/166852028300bfd45438f1f4f19642db52a0b01b3d/16986770647466d05ddd59acbba21dc2d50a6346d0.jpg"
   ],
+  "guests": "11",
+  "bedrooms": "6",
+  "bathrooms": "12",
+  "area": "300 m²",
+  "plot": "",
+  "description": "Villas in Benahavís Villa Flores. We have a great offer to the best price. Book right now your Villas in Benahavís quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 31",
+      "room": "Bedroom 3",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 41",
+      "room": "Bedroom 4",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 51",
+      "room": "Bedroom 5",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 61",
+      "room": "Bedroom 6",
       "bed": "Single bed"
     }
   ],
   "features": [
-    "terrace",
+    "Garden views",
+    "Pool views",
+    "Private pool",
+    "Air-conditioned",
+    "Central heating",
     "Fenced garden",
-    "Air-Conditioned",
-    "Air conditioning",
-    "Secured parking"
+    "Secured parking",
+    "100 m² terrace"
   ],
   "distances": [
     {
-      "place": "Golf course",
-      "distance": "4km"
-    },
-    {
       "place": "Restaurant",
-      "distance": "1km"
+      "distance": "200 m"
     },
     {
       "place": "Shops",
-      "distance": "1km"
+      "distance": "1.2 km"
+    },
+    {
+      "place": "Golf course",
+      "distance": "1.3 km"
+    },
+    {
+      "place": "Bus station",
+      "distance": "1.5 km"
+    },
+    {
+      "place": "Sand beach",
+      "distance": "3.7 km"
     },
     {
       "place": "Town centre",
       "distance": "4.5 km"
     },
     {
-      "place": "Sandy beach",
-      "distance": "3.7 km"
+      "place": "Cafe",
+      "distance": "4.5 km"
     },
     {
       "place": "Hospital",
       "distance": "13.5 km"
     },
     {
-      "place": "Airport",
-      "distance": "65 km"
+      "place": "Water park",
+      "distance": "49 km"
     },
     {
-      "place": "Cafe",
-      "distance": "4.5 km"
+      "place": "Airport",
+      "distance": "65 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Air conditioning: Included",
+    "Final Cleaning: € 500.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "garage and car park: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Baby high chair: € 25.00   / bookingCot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€3,500.00",
   "rules": [
     "No smoking",
-    "No pets"
+    "No pets",
+    "No groups under 30 years of age"
   ],
   "registration": "",
   "map_query": "Villa FloresBenahavís -Villa, Benahavís, Costa del Sol, Spain"

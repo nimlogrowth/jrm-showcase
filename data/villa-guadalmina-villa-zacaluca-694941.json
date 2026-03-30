@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/villa-guadalmina-villa-zacaluca-694941.html",
   "source_url": "https://www.justrentmarbella.com/rentals/villa-guadalmina-villa-zacaluca-694941.html",
   "slug": "villa-guadalmina-villa-zacaluca-694941",
-  "name": "Villa ZacalucaGuadalmina -Villa",
   "type": "",
   "location": "Guadalmina",
-  "guests": "12",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907646812107132027491072434512707",
-  "area": "7350 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Villa ZacalucaGuadalmina -Villa",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/3/17696129503c5e57eada907f67b24bcc98c10c5f39/176961297170fc315646aee6a1cf7a19cbf3770d15.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/17696129503c5e57eada907f67b24bcc98c10c5f39/17696129775e691f1471b85bb54d1fb51684e6d265.jpg",
@@ -62,47 +57,51 @@
     "https://www.justrentmarbella.com/rentals/fotos/3/17696129503c5e57eada907f67b24bcc98c10c5f39/17696129722a00ccd5523445b7a44e4d6687a0dda2.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/17696129503c5e57eada907f67b24bcc98c10c5f39/176961297451c59d750d7bc6419645b2f4ca98cc41.jpg"
   ],
+  "guests": "12",
+  "bedrooms": "6",
+  "bathrooms": "",
+  "area": "350 m²",
+  "plot": "500 m²",
+  "description": "Villas in Guadalmina Villa Zacaluca. We have a great offer to the best price. Book right now your Villas in Guadalmina quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 31",
+      "room": "Bedroom 3",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 41",
+      "room": "Bedroom 4",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 51",
+      "room": "Bedroom 5",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 61",
+      "room": "Bedroom 6",
       "bed": "Double bed"
     }
   ],
   "features": [
-    "Private Heated",
-    "Heated Pool",
-    "Heated swimming pool",
-    "terrace",
+    "Garden views",
+    "Pool views",
+    "Private heated pool",
+    "Private pool",
+    "Air-conditioned",
+    "Central heating",
     "BBQ",
-    "Barbecue",
     "Fenced garden",
-    "Air-Conditioned",
-    "Air conditioning",
-    "Alarm",
-    "Secured parking",
-    "Jacuzzi",
-    "Gym",
-    "Outdoor Kitchen"
+    "Gym / fitness",
+    "Alarm system",
+    "Fireplace",
+    "Secured parking"
   ],
   "distances": [
     {
@@ -114,6 +113,10 @@
       "distance": "600 m"
     },
     {
+      "place": "Cafe",
+      "distance": "600 m"
+    },
+    {
       "place": "Shops",
       "distance": "800 m"
     },
@@ -122,30 +125,35 @@
       "distance": "1 km"
     },
     {
-      "place": "Sandy beach",
+      "place": "Sand beach",
       "distance": "1.7 km"
     },
     {
       "place": "Airport",
       "distance": "65 km"
-    },
-    {
-      "place": "Cafe",
-      "distance": "600 m"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Final Cleaning: € 700.00   / booking",
+    "Internet Access: Included",
+    "Covered parking: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Air conditioning: IncludedBaby high chair: € 25.00   / bookingCot/Crib: € 35.00   / bookingHeated Pool: € 64.00   / nightHeating: Included"
+    "Air conditioning: Included",
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Heated Pool: € 64.00   / night",
+    "Heating: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€2,000.00",
   "rules": [
     "No smoking",
     "No pets",
     "No groups under 30 years of age"
   ],
-  "registration": "",
+  "registration": "VUT/MA/941625",
   "map_query": "Villa ZacalucaGuadalmina -Villa, Guadalmina, Costa del Sol, Spain"
 }

@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Villa EleganciaMarbella -Villa — Marbella</title>
+<meta name="description" content="Villa EleganciaMarbella -Villa in Marbella. . 5 bedrooms, 10 guests.">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --charcoal: #2C2C2C;
+    --dark: #1A1A1A;
+    --mid: #6B6B6B;
+    --light: #E8E8E8;
+    --sand: #F5F0EB;
+    --warm: #F9F6F2;
+    --accent: #8B7355;
+    --white: #FFFFFF;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'DM Sans', sans-serif;
+    color: var(--charcoal);
+    background: var(--white);
+    -webkit-font-smoothing: antialiased;
+  }
+  @media print {
+    body { font-size: 10pt; }
+    .hero { height: 420px !important; }
+    .gallery-grid img { break-inside: avoid; }
+    .page-break { page-break-before: always; }
+    .map-container, .lightbox, .back-link { display: none !important; }
+    @page { margin: 12mm; }
+  }
+  .back-link {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    padding: 10px 18px;
+    border-radius: 24px;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--charcoal);
+    text-decoration: none;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    transition: background 0.15s;
+  }
+  .back-link:hover { background: var(--white); }
+  .hero {
+    position: relative;
+    width: 100%;
+    height: 520px;
+    overflow: hidden;
+    background: var(--sand);
+  }
+  .hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .hero-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 48px 56px 40px;
+    background: linear-gradient(transparent, rgba(20,20,20,0.85));
+    color: var(--white);
+  }
+  .hero-overlay h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    font-size: 48px;
+    letter-spacing: -0.5px;
+    line-height: 1.1;
+    margin-bottom: 4px;
+  }
+  .hero-overlay .location {
+    font-size: 15px;
+    font-weight: 300;
+    opacity: 0.85;
+    letter-spacing: 0.5px;
+  }
+  .container { max-width: 1080px; margin: 0 auto; padding: 0 40px; }
+  .facts-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    border-bottom: 1px solid var(--light);
+  }
+  .fact { text-align: center; flex: 1; }
+  .fact-value {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--charcoal);
+    line-height: 1.2;
+  }
+  .fact-label {
+    font-size: 11px;
+    font-weight: 500;
+    color: var(--mid);
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    margin-top: 4px;
+  }
+  .section {
+    padding: 48px 0;
+    border-bottom: 1px solid var(--light);
+  }
+  .section:last-child { border-bottom: none; }
+  .section-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: var(--charcoal);
+  }
+  .section p {
+    font-size: 15px;
+    line-height: 1.75;
+    color: var(--mid);
+    max-width: 820px;
+  }
+  .bedrooms-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 10px;
+    margin-top: 24px;
+  }
+  .bedroom-card {
+    background: var(--sand);
+    border-radius: 8px;
+    padding: 20px 12px;
+    text-align: center;
+  }
+  .bedroom-card .room { font-weight: 600; font-size: 13px; margin-bottom: 4px; }
+  .bedroom-card .bed { font-size: 12px; color: var(--mid); }
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 20px;
+  }
+  .tag {
+    background: var(--sand);
+    padding: 8px 16px;
+    border-radius: 24px;
+    font-size: 13px;
+    color: var(--charcoal);
+  }
+  .gallery-grid { display: grid; gap: 6px; margin-top: 24px; }
+  .gallery-row-2 { grid-template-columns: 1fr 1fr; }
+  .gallery-row-3 { grid-template-columns: 1fr 1fr 1fr; }
+  .gallery-grid img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 6px;
+    display: block;
+    background: var(--sand);
+    cursor: pointer;
+    transition: opacity 0.15s;
+  }
+  .gallery-grid img:hover, .hero img { cursor: pointer; }
+  .gallery-grid img:hover { opacity: 0.88; }
+  .gallery-row-2 img { height: 280px; }
+  .map-container {
+    width: 100%;
+    height: 360px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 36px;
+    border: 1px solid var(--light);
+  }
+  .map-container iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    display: block;
+  }
+  .distances-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    margin-top: 20px;
+  }
+  .distance-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 20px;
+    border-bottom: 1px solid var(--light);
+  }
+  .distance-row:nth-child(odd) {
+    border-right: 1px solid var(--light);
+    padding-right: 40px;
+  }
+  .distance-row:nth-child(even) { padding-left: 40px; }
+  .distance-place {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+  }
+  .distance-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--accent);
+    flex-shrink: 0;
+  }
+  .distance-value {
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--charcoal);
+    white-space: nowrap;
+  }
+  .services-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-top: 20px;
+  }
+  .service-group h4 {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--accent);
+    margin-bottom: 14px;
+  }
+  .service-item {
+    font-size: 14px;
+    color: var(--mid);
+    padding: 8px 0;
+    border-bottom: 1px solid var(--light);
+  }
+  .service-item:last-child { border-bottom: none; }
+  .checkin-bar {
+    display: flex;
+    gap: 40px;
+    margin-top: 32px;
+    padding: 24px 32px;
+    background: var(--sand);
+    border-radius: 8px;
+  }
+  .checkin-item strong {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 2px;
+  }
+  .checkin-item span { font-size: 13px; color: var(--mid); }
+  .rules { margin-top: 20px; font-size: 13px; color: var(--mid); line-height: 1.7; }
+  .footer {
+    text-align: center;
+    padding: 32px 0;
+    font-size: 11px;
+    color: var(--light);
+    letter-spacing: 0.5px;
+  }
+  /* ── Lightbox ── */
+  .lightbox {
+    display: none; position: fixed; inset: 0; z-index: 9999;
+    background: rgba(10,10,10,0.97); flex-direction: column;
+    opacity: 0; transition: opacity 0.25s ease;
+  }
+  .lightbox.active { display: flex; opacity: 1; }
+  .lb-main {
+    flex: 1; display: flex; align-items: center; justify-content: center;
+    position: relative; min-height: 0; padding: 20px 80px;
+  }
+  .lb-main img {
+    max-width: 100%; max-height: 100%; object-fit: contain;
+    border-radius: 4px; user-select: none; transition: opacity 0.2s ease;
+  }
+  .lb-close {
+    position: absolute; top: 16px; right: 20px; width: 44px; height: 44px;
+    background: none; border: none; cursor: pointer; z-index: 10001;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .lb-close svg { width: 28px; height: 28px; stroke: rgba(255,255,255,0.7); transition: stroke 0.15s; }
+  .lb-close:hover svg { stroke: #fff; }
+  .lb-nav {
+    position: absolute; top: 50%; transform: translateY(-50%);
+    width: 48px; height: 48px;
+    background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 50%; cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    transition: background 0.15s, border-color 0.15s; z-index: 10001;
+  }
+  .lb-nav:hover { background: rgba(255,255,255,0.15); border-color: rgba(255,255,255,0.3); }
+  .lb-nav svg { width: 20px; height: 20px; stroke: rgba(255,255,255,0.8); }
+  .lb-prev { left: 16px; }
+  .lb-next { right: 16px; }
+  .lb-counter {
+    position: absolute; top: 24px; left: 50%; transform: translateX(-50%);
+    font-family: 'DM Sans', sans-serif; font-size: 13px;
+    color: rgba(255,255,255,0.45); letter-spacing: 1px;
+  }
+  .lb-thumbs { flex-shrink: 0; width: 100%; padding: 12px 0 16px; overflow: hidden; position: relative; }
+  .lb-thumbs-track {
+    display: flex; gap: 6px; padding: 0 24px;
+    transition: transform 0.3s ease; will-change: transform;
+  }
+  .lb-thumb {
+    flex-shrink: 0; width: 80px; height: 54px; border-radius: 4px;
+    object-fit: cover; cursor: pointer; opacity: 0.35;
+    transition: opacity 0.2s, outline-color 0.2s;
+    outline: 2px solid transparent; outline-offset: 2px;
+  }
+  .lb-thumb:hover { opacity: 0.7; }
+  .lb-thumb.active { opacity: 1; outline-color: rgba(255,255,255,0.6); }
+  @media (max-width: 768px) {
+    .hero { height: 360px; }
+    .hero-overlay { padding: 32px 24px 28px; }
+    .hero-overlay h1 { font-size: 32px; }
+    .container { padding: 0 20px; }
+    .facts-bar { flex-wrap: wrap; gap: 20px; }
+    .fact { min-width: 30%; }
+    .gallery-row-2 img { height: 180px; }
+    .gallery-grid img { height: 160px; }
+    .distances-grid { grid-template-columns: 1fr; }
+    .distance-row:nth-child(odd) { border-right: none; padding-right: 20px; }
+    .distance-row:nth-child(even) { padding-left: 20px; }
+    .services-columns { grid-template-columns: 1fr; gap: 24px; }
+    .checkin-bar { flex-direction: column; gap: 16px; }
+    .map-container { height: 260px; }
+    .lb-main { padding: 16px 52px; }
+    .lb-nav { width: 40px; height: 40px; }
+    .lb-prev { left: 8px; }
+    .lb-next { right: 8px; }
+    .lb-thumb { width: 60px; height: 40px; }
+    .lb-thumbs-track { gap: 4px; padding: 0 12px; }
+  }
+</style>
+</head>
+<body>
+
+<a href="index.html" class="back-link">&#8592; All Properties</a>
+
+<div class="hero">
+  <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/16475189390043a92609242fefe3d97dc3819743e7.jpg" alt="Villa EleganciaMarbella -Villa">
+  <div class="hero-overlay">
+    <h1>Villa EleganciaMarbella -Villa</h1>
+    <div class="location">Marbella, Costa del Sol</div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="facts-bar">
+    <div class="fact">
+      <div class="fact-value">5</div>
+      <div class="fact-label">Bedrooms</div>
+    </div>
+    <div class="fact">
+      <div class="fact-value">10</div>
+      <div class="fact-label">Bathrooms</div>
+    </div>
+    <div class="fact">
+      <div class="fact-value">10</div>
+      <div class="fact-label">Guests</div>
+    </div>
+    <div class="fact">
+      <div class="fact-value">489 m²</div>
+      <div class="fact-label">Living Area</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">About the Property</h2>
+    <p>Villas in Marbella Villa Elegancia. We have a great offer to the best price. Book right now your Villas in Marbella quick, easy and safe.</p>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">Bedroom Layout</h2>
+    <div class="bedrooms-grid">
+      <div class="bedroom-card">
+        <div class="room">Bedroom 1</div>
+        <div class="bed">Double bed</div>
+      </div>
+      <div class="bedroom-card">
+        <div class="room">Bedroom 2</div>
+        <div class="bed">Double bed</div>
+      </div>
+      <div class="bedroom-card">
+        <div class="room">Bedroom 3</div>
+        <div class="bed">Double bed</div>
+      </div>
+      <div class="bedroom-card">
+        <div class="room">Bedroom 4</div>
+        <div class="bed">Double bed</div>
+      </div>
+      <div class="bedroom-card">
+        <div class="room">Bedroom 5</div>
+        <div class="bed">Double bed</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">Views &amp; Highlights</h2>
+    <div class="tags">
+      <span class="tag">Garden views</span>
+      <span class="tag">Golf</span>
+      <span class="tag">Mountain views</span>
+      <span class="tag">Pool views</span>
+      <span class="tag">Private heated pool</span>
+      <span class="tag">Private pool</span>
+      <span class="tag">Air-conditioned</span>
+      <span class="tag">BBQ</span>
+      <span class="tag">Fenced garden</span>
+      <span class="tag">Sauna</span>
+      <span class="tag">Alarm system</span>
+      <span class="tag">Safe</span>
+      <span class="tag">Fireplace</span>
+      <span class="tag">Secured parking</span>
+      <span class="tag">Ocean views</span>
+      <span class="tag">55 m² terrace</span>
+    </div>
+  </div>
+
+  <div class="section page-break">
+    <h2 class="section-title">Gallery</h2>
+    <div class="gallery-grid gallery-row-2">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/16709438961765df6843bae05bf3cb401163614e92.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/16475189642d18442698d3548974d96778036a09d7.jpg" alt="Property photo">
+    </div>
+    <div class="gallery-grid gallery-row-3" style="margin-top:6px;">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/1647518961c02f3781a93fe345e9cd2858b68ea3c5.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/16475189543c73d0ea08f854a5c058bdc88c18746c.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/1670943894a8a2f2c8357bde349b482e8c3f05e7d9.jpg" alt="Property photo">
+    </div>
+    <div class="gallery-grid gallery-row-2" style="margin-top:6px;">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/164751896510cfaba5e8e96d0a1e4d0c6b5bce029c.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/1647518951ad8a35ba0bf7080e393a4abdf57e6484.jpg" alt="Property photo">
+    </div>
+    <div class="gallery-grid gallery-row-3" style="margin-top:6px;">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/1647518946999e412a1339d59019477e8530b96425.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/16475189414a0c471fe9803c8ad86a3e296d04d0e2.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/164751894830c51c87a96eb942d81980e1f74d4e59.jpg" alt="Property photo">
+    </div>
+    <div class="gallery-grid gallery-row-2" style="margin-top:6px;">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/1647518961413e6707a2adfc18499153b30708669a.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/16475189428cbb0bd3a411368e93643f58d97d2308.jpg" alt="Property photo">
+    </div>
+    <div class="gallery-grid gallery-row-3" style="margin-top:6px;">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/16475189575efe48ee1e59e6183a81ef840810c0b6.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/1647518944cdea1e8d7a039a4a2f9a5714ba4a7de0.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/16475189539bf070dd20982a1a22af74ff5a7ac01e.jpg" alt="Property photo">
+    </div>
+    <div class="gallery-grid gallery-row-2" style="margin-top:6px;">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/1647518943db84d7ae06d70093daa6bd2b0f52678a.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/164751894586585248fb2cf0e521d5e3af0630b936.jpg" alt="Property photo">
+    </div>
+    <div class="gallery-grid gallery-row-3" style="margin-top:6px;">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/1647518949e712e77d087eafba6bd59fd72b66753d.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/16475189562fc7b1be92ba053c47b23e687585a734.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/164751895575d62b45d5509c6298243005e849bb06.jpg" alt="Property photo">
+    </div>
+    <div class="gallery-grid gallery-row-2" style="margin-top:6px;">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/164751895079f08eabf3eef1bbcad9cf3cc6cba21d.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/16475189555aa1e296c12ea633484938386087e5c0.jpg" alt="Property photo">
+    </div>
+    <div class="gallery-grid gallery-row-3" style="margin-top:6px;">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/1670944148b41fc280ab534b8e8de8fccd5c91ea90.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/1647518954c799f7b133b3a62d9e7ca56c118ede43.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/1647518957e6ecc002fd7eb4de92d2586dd981c0ba.jpg" alt="Property photo">
+    </div>
+    <div class="gallery-grid gallery-row-2" style="margin-top:6px;">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/16475189601d8c5804ad38a118dd42a18ba9d64fe3.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/1670944213a32147545c3b61314b6291898edfc308.jpg" alt="Property photo">
+    </div>
+    <div class="gallery-grid gallery-row-3" style="margin-top:6px;">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/16475189562c0b8aee9e4aaa3c5e26d05b568add1c.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/1647518966144dd3d622c028664291493d51b35c25.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/164751894299b03df759eb92dc3f5cf4f20afd4f32.jpg" alt="Property photo">
+    </div>
+    <div class="gallery-grid gallery-row-2" style="margin-top:6px;">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/1670944293971ffb44c57b6c838bb553db572e9452.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/16475189589dfe1b5bccc077100b68f50f14fde2c2.jpg" alt="Property photo">
+    </div>
+    <div class="gallery-grid gallery-row-3" style="margin-top:6px;">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/16475189641a5db436ba167d3db84b383fb9e79863.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/16709443808620f01a8f40ec4c152bde963b6edbfe.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/16709444202c89f598ff1b82f8a4ed7d7ba8481ce8.jpg" alt="Property photo">
+    </div>
+    <div class="gallery-grid gallery-row-2" style="margin-top:6px;">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/16475189637d39a3e060dba4759e015a4901dfeac0.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/16475189605d41e204051ff0cd2f1b28719cc553b5.jpg" alt="Property photo">
+    </div>
+    <div class="gallery-grid gallery-row-3" style="margin-top:6px;">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/16475189632fb9310ecf1c120fa796ade01336e148.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/1670944484df26612deba00f9f8fa0d9fe0483b4be.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/1647518959da598c100275c9f641afed8bf12f7240.jpg" alt="Property photo">
+    </div>
+    <div class="gallery-grid gallery-row-2" style="margin-top:6px;">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/1647518959532585dab7fb1aa78c8cf9b13ff83f81.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/167094453517f27ddb0e11186dd0ac68b22586cb1c.jpg" alt="Property photo">
+    </div>
+    <div class="gallery-grid gallery-row-3" style="margin-top:6px;">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/1647518967ba7da937fc2272be9fa0b47bed5cb51c.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/1647518962457ea601d8a2816747a95c17b2e79a5f.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/1647518966d692abf9cfb3dc3cdbfc324916433f92.jpg" alt="Property photo">
+    </div>
+    <div class="gallery-grid gallery-row-2" style="margin-top:6px;">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/1647518958a5ec97da697b8bee480b4981ad5867b3.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/1670944597520d7bbadff647de14285c1c90821b20.jpg" alt="Property photo">
+    </div>
+    <div class="gallery-grid gallery-row-3" style="margin-top:6px;">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/16709446300c02b477fd1311f06636879235de6f37.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/1647518939ba0b403ddc7b355128caf716a47b6899.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/1670944673594a7d35ce07f80f68d3ebe67db4e100.jpg" alt="Property photo">
+    </div>
+    <div class="gallery-grid gallery-row-2" style="margin-top:6px;">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/1670944705b8c0fd31c33c08f837b5e32e182c93f5.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/1647518949c5e5ae9424f6031dba54f0a706dc042f.jpg" alt="Property photo">
+    </div>
+    <div class="gallery-grid gallery-row-3" style="margin-top:6px;">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/16709447815afea64ce8d13abc411fd6b5ec123a1c.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/1647518950f40745458d966cf9359c025646b4e29f.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/1647518940fd0234497f2abf7c968203bc7b1fa725.jpg" alt="Property photo">
+    </div>
+    <div class="gallery-grid gallery-row-2" style="margin-top:6px;">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/1647518960fa7c610c50509e1616178b1dd2a8bc07.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/164751895375260af25dcabc03532b71ffb4226e8d.jpg" alt="Property photo">
+    </div>
+    <div class="gallery-grid gallery-row-3" style="margin-top:6px;">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/1647518941705be253f9f0d7be71fc283495217d02.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/16475189408b21c56e29e8eca5f0bc456407c2cba4.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/1670945000f34c05b1fec30df6e64d47d2ba5795b9.jpg" alt="Property photo">
+    </div>
+    <div class="gallery-grid gallery-row-2" style="margin-top:6px;">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/16709450026f3063c29facbaf374187332a86fc639.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/1647518945ac7152ef8783dd0525690dd245630322.jpg" alt="Property photo">
+    </div>
+    <div class="gallery-grid gallery-row-3" style="margin-top:6px;">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/164751894403f29312a74b8f83153fdba4ade8c5b2.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/164751895207fa167a4366236e08f0f9928e97ffaf.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/1647518947fd67d5c2d3d53f3b5c5764162d6dd14e.jpg" alt="Property photo">
+    </div>
+    <div class="gallery-grid gallery-row-2" style="margin-top:6px;">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/164751894398b125fb42924ff3c2ea5d3190442408.jpg" alt="Property photo">
+      <img src="https://www.justrentmarbella.com/rentals/fotos/2/1647518939a6fecbc4dbd7784fb5be0c762211aada/1647518948beb045cd8c27865cb56ae023c2b4a89c.jpg" alt="Property photo">
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">Location</h2>
+    <div class="map-container">
+      <iframe src="https://maps.google.com/maps?q=Villa%20EleganciaMarbella%20-Villa%2C%20Marbella%2C%20Costa%20del%20Sol%2C%20Spain&t=&z=14&ie=UTF8&iwloc=&output=embed" loading="lazy" allowfullscreen></iframe>
+    </div>
+    <h2 class="section-title" style="margin-top:8px;">Distances</h2>
+    <div class="distances-grid">
+      <div class="distance-row">
+        <div class="distance-place"><span class="distance-dot"></span>Ski Slope</div>
+        <div class="distance-value">0 m</div>
+      </div>
+      <div class="distance-row">
+        <div class="distance-place"><span class="distance-dot"></span>Bus station</div>
+        <div class="distance-value">500 m</div>
+      </div>
+      <div class="distance-row">
+        <div class="distance-place"><span class="distance-dot"></span>Restaurant</div>
+        <div class="distance-value">900 m</div>
+      </div>
+      <div class="distance-row">
+        <div class="distance-place"><span class="distance-dot"></span>Cafe</div>
+        <div class="distance-value">900 m</div>
+      </div>
+      <div class="distance-row">
+        <div class="distance-place"><span class="distance-dot"></span>Shops</div>
+        <div class="distance-value">1.5 km</div>
+      </div>
+      <div class="distance-row">
+        <div class="distance-place"><span class="distance-dot"></span>Sand beach</div>
+        <div class="distance-value">2 km</div>
+      </div>
+      <div class="distance-row">
+        <div class="distance-place"><span class="distance-dot"></span>Town centre</div>
+        <div class="distance-value">2 km</div>
+      </div>
+      <div class="distance-row">
+        <div class="distance-place"><span class="distance-dot"></span>Golf course</div>
+        <div class="distance-value">2.6 km</div>
+      </div>
+      <div class="distance-row">
+        <div class="distance-place"><span class="distance-dot"></span>Hospital</div>
+        <div class="distance-value">10 km</div>
+      </div>
+      <div class="distance-row">
+        <div class="distance-place"><span class="distance-dot"></span>Water park</div>
+        <div class="distance-value">40 km</div>
+      </div>
+      <div class="distance-row">
+        <div class="distance-place"><span class="distance-dot"></span>Airport</div>
+        <div class="distance-value">62 km</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">Included &amp; Additional</h2>
+    <div class="services-columns">
+      <div class="service-group">
+        <h4>Included</h4>
+        <div class="service-item">Air conditioning: Included</div>
+        <div class="service-item">Final Cleaning: € 450.00   / booking</div>
+        <div class="service-item">Heating: Included</div>
+        <div class="service-item">Internet Access: Included</div>
+        <div class="service-item">Garage: Included</div>
+        <div class="service-item">Towels:  Included</div>
+      </div>
+      <div class="service-group">
+        <h4>Optional</h4>
+        <div class="service-item">Baby high chair: € 25.00   / booking</div>
+        <div class="service-item">Cot/Crib: € 35.00   / booking</div>
+        <div class="service-item">Heated Pool: € 50.00   / night</div>
+      </div>
+    </div>
+    <div class="checkin-bar">
+      <div class="checkin-item"><strong>Check-in</strong><span>15:00 to 20:00</span></div>
+      <div class="checkin-item"><strong>Check-out</strong><span>Before 10:00</span></div>
+      <div class="checkin-item"><strong>Security deposit</strong><span>€1,500.00 (refundable)</span></div>
+    </div>
+    <div class="rules">No smoking. No pets. No groups under 30 years of age.</div>
+  </div>
+
+</div>
+
+<div class="footer">VFT/MA/09451</div>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+  <button class="lb-close" id="lb-close" aria-label="Close">
+    <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+  </button>
+  <div class="lb-counter" id="lb-counter"></div>
+  <div class="lb-main">
+    <button class="lb-nav lb-prev" id="lb-prev" aria-label="Previous">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+    <img id="lb-img" src="" alt="">
+    <button class="lb-nav lb-next" id="lb-next" aria-label="Next">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 6 15 12 9 18"/></svg>
+    </button>
+  </div>
+  <div class="lb-thumbs" id="lb-thumbs">
+    <div class="lb-thumbs-track" id="lb-thumbs-track"></div>
+  </div>
+</div>
+
+<script>
+(function() {
+  var lb=document.getElementById('lightbox'),lbImg=document.getElementById('lb-img'),
+  lbCounter=document.getElementById('lb-counter'),thumbsTrack=document.getElementById('lb-thumbs-track'),
+  thumbsContainer=document.getElementById('lb-thumbs'),images=[],thumbEls=[],current=0;
+  document.querySelectorAll('.hero img, .gallery-grid img').forEach(function(img,i){
+    images.push(img.src);img.addEventListener('click',function(){open(i);});
+  });
+  images.forEach(function(src,i){
+    var t=document.createElement('img');t.className='lb-thumb';t.src=src;t.alt='';
+    t.addEventListener('click',function(){current=i;update();});
+    thumbsTrack.appendChild(t);thumbEls.push(t);
+  });
+  function open(i){current=i;update();lb.classList.add('active');document.body.style.overflow='hidden';}
+  function close(){lb.classList.remove('active');document.body.style.overflow='';}
+  function update(){
+    lbImg.src=images[current];lbCounter.textContent=(current+1)+' / '+images.length;
+    thumbEls.forEach(function(t,i){t.classList.toggle('active',i===current);});
+    var thumb=thumbEls[current];if(thumb){
+      var o=thumb.offsetLeft-(thumbsContainer.offsetWidth/2)+(thumb.offsetWidth/2);
+      thumbsTrack.style.transform='translateX('+(-Math.max(0,o))+'px)';
+    }
+  }
+  function prev(){current=(current-1+images.length)%images.length;update();}
+  function next(){current=(current+1)%images.length;update();}
+  document.getElementById('lb-close').addEventListener('click',close);
+  document.getElementById('lb-prev').addEventListener('click',prev);
+  document.getElementById('lb-next').addEventListener('click',next);
+  lb.addEventListener('click',function(e){if(e.target===lb||e.target.classList.contains('lb-main'))close();});
+  document.addEventListener('keydown',function(e){
+    if(!lb.classList.contains('active'))return;
+    if(e.key==='Escape')close();if(e.key==='ArrowLeft')prev();if(e.key==='ArrowRight')next();
+  });
+  var tx=0,lbM=document.querySelector('.lb-main');
+  lbM.addEventListener('touchstart',function(e){tx=e.changedTouches[0].screenX;},{passive:true});
+  lbM.addEventListener('touchend',function(e){var d=e.changedTouches[0].screenX-tx;if(Math.abs(d)>50)d>0?prev():next();},{passive:true});
+})();
+</script>
+
+</body>
+</html>

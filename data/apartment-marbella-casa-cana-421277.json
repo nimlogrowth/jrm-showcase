@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-marbella-casa-cana-421277.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-marbella-casa-cana-421277.html",
   "slug": "apartment-marbella-casa-cana-421277",
-  "name": "Casa CanaMarbella -Apartment",
   "type": "",
   "location": "Marbella",
-  "guests": "4",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587491072433405482",
-  "area": "4151 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Casa CanaMarbella -Apartment",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/16784649717b7e1c335d4b11030f28b1f00463bc9a/1739833831b2fbcca6a1d61533d47ebf9342ceb0c4.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/16784649717b7e1c335d4b11030f28b1f00463bc9a/1739833833bdae8f7edb31e812986cdc55e3c520c8.jpg",
@@ -42,78 +37,95 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/16784649717b7e1c335d4b11030f28b1f00463bc9a/16784649775f908dc7bf483d5d21e74ccf8f26d841.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/16784649717b7e1c335d4b11030f28b1f00463bc9a/1678464974fa9faae45c0118bc3dfe0bef97fbd3b9.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/16784649717b7e1c335d4b11030f28b1f00463bc9a/1678464993090e35d1dda2dbd5cc8ca5c8122b82da.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/2/16784649717b7e1c335d4b11030f28b1f00463bc9a/1699363336eb78dee4bc1b6e1dab04f156faec726d.jpg",
-    "https://img.avantio.com/fotos/2/171933524208dd9beb1b0410b5ac73b7dee7e8f398/1719335247598de11cbf26e63f6f28662d21ae829a.jpg",
-    "https://img.avantio.com/fotos/3/1772537313dbbaa7d49e0b8ef2c5cfec1dda2f8d6e/1772537317d0ad04e83ffa61ca2bc0a669defdc032.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/2/16784649717b7e1c335d4b11030f28b1f00463bc9a/1699363336eb78dee4bc1b6e1dab04f156faec726d.jpg"
   ],
+  "guests": "4",
+  "bedrooms": "2",
+  "bathrooms": "8",
+  "area": "151 m²",
+  "plot": "",
+  "description": "Apartments in Marbella Casa Cana. We have a great offer to the best price. Book right now your Apartments in Marbella quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 22",
+      "room": "Bedroom 2",
       "bed": "Single bed"
     }
   ],
   "features": [
     "Sea views",
+    "Garden views",
     "Mountain views",
-    "terrace",
+    "Pool views",
+    "Communal pool",
+    "Air-conditioned",
+    "Central heating",
     "BBQ",
-    "Barbecue",
-    "Air-Conditioned",
-    "Air conditioning",
+    "Padel court",
     "Secured parking",
-    "Gym",
-    "Tennis",
-    "Padel",
-    "Elevator",
-    "Ocean view",
-    "Communal Swimming Pool",
-    "Walking Distance"
+    "Ocean views",
+    "10 m² terrace"
   ],
   "distances": [
     {
-      "place": "Golf course",
-      "distance": "2.8 km"
+      "place": "Airport",
+      "distance": "60 m"
+    },
+    {
+      "place": "Bus station",
+      "distance": "100 m"
     },
     {
       "place": "Restaurant",
       "distance": "300 m"
     },
     {
+      "place": "Cafe",
+      "distance": "300 m"
+    },
+    {
       "place": "Shops",
-      "distance": "10 m"
+      "distance": "400 m"
     },
     {
       "place": "Town centre",
       "distance": "1 km"
     },
     {
-      "place": "Sandy beach",
+      "place": "Sand beach",
       "distance": "2 km"
+    },
+    {
+      "place": "Golf course",
+      "distance": "2.8 km"
     },
     {
       "place": "Hospital",
       "distance": "3 km"
     },
     {
-      "place": "Airport",
-      "distance": "60 m"
-    },
-    {
-      "place": "Cafe",
-      "distance": "300 m"
+      "place": "Water park",
+      "distance": "42 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Air conditioning: Included",
+    "Final Cleaning: € 200.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "Garage: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Baby high chair: € 25.00   / bookingCot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€500.00",
   "rules": [
     "No smoking",
     "No pets",

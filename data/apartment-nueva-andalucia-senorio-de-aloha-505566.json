@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-nueva-andalucia-senorio-de-aloha-505566.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-nueva-andalucia-senorio-de-aloha-505566.html",
   "slug": "apartment-nueva-andalucia-senorio-de-aloha-505566",
-  "name": "Senorio De AlohaNueva andalucia -Apartment",
   "type": "",
   "location": "Nueva andalucia",
-  "guests": "7",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587491072433479613",
-  "area": "490 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Senorio De AlohaNueva andalucia -Apartment",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/3/1729086317d95d5d1e230eaa39e80c7a975f4d5df2/1729086324a4186d7229b48ec17e0f4a9124a53af5.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/1729086317d95d5d1e230eaa39e80c7a975f4d5df2/1729086326c309a0eff920fadd14dd81d46c61b5ac.jpg",
@@ -38,72 +33,79 @@
     "https://www.justrentmarbella.com/rentals/fotos/3/1729086317d95d5d1e230eaa39e80c7a975f4d5df2/1729086323833e8884c02cb609e508bcedd3d3bda3.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/1729086317d95d5d1e230eaa39e80c7a975f4d5df2/17290863280fa23b77e3973b419f6dc022326787f3.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/1729086317d95d5d1e230eaa39e80c7a975f4d5df2/1729086328b67d4108c6a3de139e21ca4f96cbcfba.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/3/1729086317d95d5d1e230eaa39e80c7a975f4d5df2/1729086329970f4f4fc987ce71b9525c67ebd3aa96.jpg",
-    "https://img.avantio.com/fotos/3/1744629454793f799081de136fccae923403a75ac1/17446294576815580923ba2d9b3859f240de341992.jpg",
-    "https://img.avantio.com/fotos/3/1744799746a6cc7d49c4eae7191d4af52198cba35b/1744799747deb23d10c953b5f2685259c532008a33.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/3/1729086317d95d5d1e230eaa39e80c7a975f4d5df2/1729086329970f4f4fc987ce71b9525c67ebd3aa96.jpg"
   ],
+  "guests": "7",
+  "bedrooms": "4",
+  "bathrooms": "8",
+  "area": "90 m²",
+  "plot": "",
+  "description": "Apartments in Nueva andalucia Senorio De Aloha. We have a great offer to the best price. Book right now your Apartments in Nueva andalucia quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 31",
+      "room": "Bedroom 3",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 41",
+      "room": "Bedroom 4",
       "bed": "Single bed"
     }
   ],
   "features": [
-    "terrace",
-    "BBQ",
-    "Air-Conditioned",
-    "Air conditioning",
-    "Tennis",
-    "Padel",
-    "Communal Swimming Pool",
-    "Walking Distance"
+    "Communal pool",
+    "Air-conditioned",
+    "Central heating",
+    "Padel court"
   ],
   "distances": [
     {
-      "place": "Golf course",
-      "distance": "3.3 km"
+      "place": "Town centre",
+      "distance": "0 m"
     },
     {
       "place": "Shops",
       "distance": "1.3 km"
     },
     {
-      "place": "Town centre",
-      "distance": "0 m"
+      "place": "Sand beach",
+      "distance": "2.09 km"
     },
     {
-      "place": "Sandy beach",
-      "distance": "2.09 km"
+      "place": "Golf course",
+      "distance": "3.3 km"
     },
     {
       "place": "Airport",
       "distance": "60.11 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Final Cleaning: € 280.00   / booking",
+    "Internet Access: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Air conditioning: IncludedBaby high chair: € 25.00   / bookingCot/Crib: € 35.00   / bookingHeating: Included"
+    "Air conditioning: Included",
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Heating: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€700.00",
   "rules": [
     "No smoking",
     "No pets",
     "No groups under 30 years of age"
   ],
-  "registration": "",
+  "registration": "VUT/MA/90276",
   "map_query": "Senorio De AlohaNueva andalucia -Apartment, Nueva andalucia, Costa del Sol, Spain"
 }

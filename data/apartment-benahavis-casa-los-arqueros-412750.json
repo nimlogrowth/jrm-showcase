@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-benahavis-casa-los-arqueros-412750.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-benahavis-casa-los-arqueros-412750.html",
   "slug": "apartment-benahavis-casa-los-arqueros-412750",
-  "name": "Casa Los ArquerosBenahavís -Apartment",
   "type": "",
   "location": "Benahavís",
-  "guests": "4",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587491072433614594",
-  "area": "2120 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Casa Los ArquerosBenahavís -Apartment",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/16717105489375bd35bcb771defeadf16f1527061c/1671710549038d7ff3bf2c23f7820b23cf366908a4.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/16717105489375bd35bcb771defeadf16f1527061c/16717105496a905d40fc5b2575cca19480c3a2f89d.jpg",
@@ -33,35 +28,37 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/16717105489375bd35bcb771defeadf16f1527061c/1671710560d0a84d39f51aaf5a056fb533d99d6e1e.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/16717105489375bd35bcb771defeadf16f1527061c/1671710561f3d66a92b86d2fb56a00ae2919aad547.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/16717105489375bd35bcb771defeadf16f1527061c/16717105615eb7841d4044e367cb6e30665a1c6d74.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/2/16717105489375bd35bcb771defeadf16f1527061c/1671710562f3339c056d9537a74c515d13f831ad63.jpg",
-    "https://img.avantio.com/fotos/2/1713862841e37d85288d6a3b66de5c323dd5d37d88/171386284543e52d8f4565ea2d451bec67992939f3.jpg",
-    "https://img.avantio.com/fotos/3/174351800160d7a1b5a51a15d5bcc7a6dff48c0b3c/1743518002ccff08b8171500b097e12502aa8ab78f.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/2/16717105489375bd35bcb771defeadf16f1527061c/1671710562f3339c056d9537a74c515d13f831ad63.jpg"
   ],
+  "guests": "4",
+  "bedrooms": "2",
+  "bathrooms": "4",
+  "area": "120 m²",
+  "plot": "",
+  "description": "Apartments in Benahavís Casa Los Arqueros. We have a great offer to the best price. Book right now your Apartments in Benahavís quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 22",
+      "room": "Bedroom 2",
       "bed": "Single bed"
     }
   ],
   "features": [
     "Sea views",
-    "terrace",
+    "Garden views",
+    "Mountain views",
+    "Pool views",
+    "Communal pool",
+    "Air-conditioned",
+    "Central heating",
     "BBQ",
-    "Barbecue",
-    "Air-Conditioned",
-    "Air conditioning",
-    "Underfloor",
-    "Floor heating",
-    "Alarm",
+    "Alarm system",
     "Secured parking",
-    "Tennis",
-    "Padel",
-    "Ocean view",
-    "Communal Swimming Pool"
+    "Ocean views",
+    "100 m² terrace"
   ],
   "distances": [
     {
@@ -73,6 +70,14 @@
       "distance": "50 m"
     },
     {
+      "place": "Cafe",
+      "distance": "50 m"
+    },
+    {
+      "place": "Bus station",
+      "distance": "3.49 km"
+    },
+    {
       "place": "Shops",
       "distance": "4.01 km"
     },
@@ -81,29 +86,37 @@
       "distance": "5.5 km"
     },
     {
-      "place": "Sandy beach",
-      "distance": "10 m"
+      "place": "Sand beach",
+      "distance": "7.5 km"
     },
     {
       "place": "Hospital",
       "distance": "16.5 km"
     },
     {
-      "place": "Airport",
-      "distance": "66 km"
+      "place": "Water park",
+      "distance": "45.99 km"
     },
     {
-      "place": "Cafe",
-      "distance": "50 m"
+      "place": "Airport",
+      "distance": "66 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Air conditioning: Included",
+    "Final Cleaning: € 180.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "Open-air parking: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Baby high chair: € 25.00   / bookingCot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€750.00",
   "rules": [
     "No smoking",
     "No pets",

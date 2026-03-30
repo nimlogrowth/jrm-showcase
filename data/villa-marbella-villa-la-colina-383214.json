@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/villa-marbella-villa-la-colina-383214.html",
   "source_url": "https://www.justrentmarbella.com/rentals/villa-marbella-villa-la-colina-383214.html",
   "slug": "villa-marbella-villa-la-colina-383214",
-  "name": "Villa La ColinaMarbella -Villa",
   "type": "",
   "location": "Marbella",
-  "guests": "12",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587491074452725446",
-  "area": "7800 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Villa La ColinaMarbella -Villa",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/16475180753ceef816f4b4844ff0bc547e2f65a513/1751498301a1587bab38c23e03dbf825af1e7847fa.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/16475180753ceef816f4b4844ff0bc547e2f65a513/17514982944ad3eadd789cd83b1e62a67f6e854b49.jpg",
@@ -68,58 +63,70 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/16475180753ceef816f4b4844ff0bc547e2f65a513/1752797634c4cf4246e646d7c75bf9ca88b599ce47.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/16475180753ceef816f4b4844ff0bc547e2f65a513/17527976284af195a89a0672ddd2cc477680cfaf44.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/16475180753ceef816f4b4844ff0bc547e2f65a513/1751498293673ec7e38eb7c687778d7936463c4961.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/2/16475180753ceef816f4b4844ff0bc547e2f65a513/1751498304e21619572c9bd60bb5e847a692325aec.jpg",
-    "https://img.avantio.com/fotos/2/1647518788cf53a5416a95b239c81132991dac7212/1647518789f92fa28b8d7adf414852dbad03a4f0f4.jpg",
-    "https://img.avantio.com/fotos/2/164751899063b6e2d288fcb57df94369bdf04cb8a7/177124777200976c3f4bee40ec51ed7254954662bd.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/2/16475180753ceef816f4b4844ff0bc547e2f65a513/1751498304e21619572c9bd60bb5e847a692325aec.jpg"
   ],
+  "guests": "12",
+  "bedrooms": "6",
+  "bathrooms": "14",
+  "area": "800 m²",
+  "plot": "",
+  "description": "Villas in Marbella Villa La Colina. We have a great offer to the best price. Book right now your Villas in Marbella quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 31",
+      "room": "Bedroom 3",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 41",
+      "room": "Bedroom 4",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 51",
+      "room": "Bedroom 5",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 61",
+      "room": "Bedroom 6",
       "bed": "Double bed"
     }
   ],
   "features": [
-    "Mountain views",
-    "Private Pool",
-    "Private Heated",
-    "terrace",
+    "Garden views",
+    "Pool views",
+    "Private pool",
+    "Air-conditioned",
+    "Central heating",
     "BBQ",
-    "Barbecue",
     "Fenced garden",
-    "Air-Conditioned",
-    "Air conditioning",
-    "Underfloor",
-    "Floor heating",
-    "Alarm",
+    "Alarm system",
     "Secured parking",
-    "Jacuzzi",
-    "Outdoor Kitchen",
-    "Walking Distance"
+    "Ping pong",
+    "Darts",
+    "200 m² terrace"
   ],
   "distances": [
     {
-      "place": "Golf course",
-      "distance": "500 m"
+      "place": "Train station",
+      "distance": "0 m"
+    },
+    {
+      "place": "Bus station",
+      "distance": "2.6 m"
+    },
+    {
+      "place": "Airport",
+      "distance": "62 m"
+    },
+    {
+      "place": "Cafe",
+      "distance": "300 m"
     },
     {
       "place": "Restaurant",
@@ -130,11 +137,15 @@
       "distance": "400 m"
     },
     {
+      "place": "Golf course",
+      "distance": "2.3 km"
+    },
+    {
       "place": "Town centre",
       "distance": "2.5 km"
     },
     {
-      "place": "Sandy beach",
+      "place": "Sand beach",
       "distance": "3.1 km"
     },
     {
@@ -142,26 +153,31 @@
       "distance": "3.7 km"
     },
     {
-      "place": "Airport",
-      "distance": "62 m"
-    },
-    {
-      "place": "Cafe",
-      "distance": "300 m"
+      "place": "Water park",
+      "distance": "43.4 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Air conditioning: Included",
+    "Final Cleaning: € 700.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "Open-air parking: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Baby high chair: € 25.00   / bookingBed linen: IncludedCot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking",
+    "Bed linen: Included",
+    "Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€3,500.00",
   "rules": [
     "No smoking",
     "No pets",
     "No groups under 30 years of age"
   ],
-  "registration": "",
+  "registration": "CTC-2019127241",
   "map_query": "Villa La ColinaMarbella -Villa, Marbella, Costa del Sol, Spain"
 }

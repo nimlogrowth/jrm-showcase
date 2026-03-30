@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/terraced-house-marbella-casa-bahia-de-banus-383247.html",
   "source_url": "https://www.justrentmarbella.com/rentals/terraced-house-marbella-casa-bahia-de-banus-383247.html",
   "slug": "terraced-house-marbella-casa-bahia-de-banus-383247",
-  "name": "Casa Bahia de BanusMarbella -Terraced House",
   "type": "",
   "location": "Marbella",
-  "guests": "8",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587491072433529405",
-  "area": "7270 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Casa Bahia de BanusMarbella -Terraced House",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/16475184096414d844c37a9cd30620e628fb0db063/16699858649163c42284a449d48593d89013c17783.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/16475184096414d844c37a9cd30620e628fb0db063/16642736376b83f854eeeea4f42483ebd5a4129f82.jpg",
@@ -41,87 +36,102 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/16475184096414d844c37a9cd30620e628fb0db063/1664273640f19fa73d46217120c9456a2166dd8418.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/16475184096414d844c37a9cd30620e628fb0db063/1664273637f28c48c1e73f9b65c870b3ae34370066.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/16475184096414d844c37a9cd30620e628fb0db063/166427364465254c995da25e38f1c9d00703180733.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/2/16475184096414d844c37a9cd30620e628fb0db063/1664273647dfa321db22e646c8187f369f7dd7f7b4.jpg",
-    "https://img.avantio.com/fotos/3/17490390479c3ab63b88509db709b45e9ae5faa3ad/1749039048507aba59a6f8f9c47628468590634650.jpg",
-    "https://img.avantio.com/fotos/3/1766572094e3c99c88ddace0fc3f50a0a607a8480b/1766572099eb01a1e44364894360eefafcc43c8d5f.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/2/16475184096414d844c37a9cd30620e628fb0db063/1664273647dfa321db22e646c8187f369f7dd7f7b4.jpg"
   ],
+  "guests": "8",
+  "bedrooms": "4",
+  "bathrooms": "14",
+  "area": "270 m²",
+  "plot": "",
+  "description": "Terraced houses in Marbella Casa Bahia de Banus. We have a great offer to the best price. Book right now your Terraced houses in Marbella quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 12",
+      "room": "Bedroom 1",
       "bed": "Single bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 31",
+      "room": "Bedroom 3",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 41",
+      "room": "Bedroom 4",
       "bed": "Double bed"
     }
   ],
   "features": [
-    "Sea views",
-    "Private Pool",
-    "terrace",
+    "Garden views",
+    "Pool views",
+    "Private pool",
+    "Air-conditioned",
     "BBQ",
-    "Barbecue",
-    "Air-Conditioned",
-    "Air conditioning",
-    "Secured parking",
-    "Jacuzzi",
-    "Sauna",
-    "Gym",
-    "Frontline",
-    "Direct Beach",
-    "Communal Swimming Pool",
-    "Outdoor Kitchen",
-    "Walking Distance"
+    "Gym / fitness",
+    "Secured parking"
   ],
   "distances": [
     {
-      "place": "Golf course",
-      "distance": "5 km"
+      "place": "Rock beach",
+      "distance": "0 m"
     },
     {
-      "place": "Restaurant",
-      "distance": "2.8 km"
+      "place": "Bus station",
+      "distance": "0 m"
     },
     {
-      "place": "Shops",
-      "distance": "2.2 km"
+      "place": "Sand beach",
+      "distance": "250 m"
+    },
+    {
+      "place": "Cafe",
+      "distance": "700 m"
     },
     {
       "place": "Town centre",
       "distance": "1.7 km"
     },
     {
-      "place": "Sandy beach",
-      "distance": "0 m"
+      "place": "Shops",
+      "distance": "2.2 km"
+    },
+    {
+      "place": "Restaurant",
+      "distance": "2.8 km"
+    },
+    {
+      "place": "Golf course",
+      "distance": "5 km"
     },
     {
       "place": "Hospital",
       "distance": "10 km"
     },
     {
-      "place": "Airport",
-      "distance": "61.8 km"
+      "place": "Water park",
+      "distance": "39.3 km"
     },
     {
-      "place": "Cafe",
-      "distance": "700 m"
+      "place": "Airport",
+      "distance": "61.8 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Air conditioning: Included",
+    "Final Cleaning: € 250.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "Garage: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Baby high chair: € 25.00   / bookingCot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€1,000.00",
   "rules": [
     "No smoking",
     "No pets",

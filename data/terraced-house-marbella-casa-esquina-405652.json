@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/terraced-house-marbella-casa-esquina-405652.html",
   "source_url": "https://www.justrentmarbella.com/rentals/terraced-house-marbella-casa-esquina-405652.html",
   "slug": "terraced-house-marbella-casa-esquina-405652",
-  "name": "Casa EsquinaMarbella -Terraced House",
   "type": "",
   "location": "Marbella",
-  "guests": "8",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587491072433472366",
-  "area": "4198 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Casa EsquinaMarbella -Terraced House",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/1666012689898f5a716fc7913a6414848bdd58edb4/17078299765ba5f4f5f2200c693f22d6afba9203a0.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1666012689898f5a716fc7913a6414848bdd58edb4/17078299845b4cc074013feaebc1a597e098eab7bf.jpg",
@@ -34,84 +29,98 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/1666012689898f5a716fc7913a6414848bdd58edb4/17078299729b924d7acd0227feb9a1390f4d41761d.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1666012689898f5a716fc7913a6414848bdd58edb4/170782997394d2bf75f9f908555dd1e837ef820773.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1666012689898f5a716fc7913a6414848bdd58edb4/17078299757ae29ea819b631c8757ed2d6746efb0e.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/2/1666012689898f5a716fc7913a6414848bdd58edb4/1707829972d5937e7f3e0822fa76580519e8006fcb.jpg",
-    "https://img.avantio.com/fotos/3/17490390479c3ab63b88509db709b45e9ae5faa3ad/1749039048507aba59a6f8f9c47628468590634650.jpg",
-    "https://img.avantio.com/fotos/3/1766572094e3c99c88ddace0fc3f50a0a607a8480b/1766572099eb01a1e44364894360eefafcc43c8d5f.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/2/1666012689898f5a716fc7913a6414848bdd58edb4/1707829972d5937e7f3e0822fa76580519e8006fcb.jpg"
   ],
+  "guests": "8",
+  "bedrooms": "4",
+  "bathrooms": "8",
+  "area": "198 m²",
+  "plot": "",
+  "description": "Terraced houses in Marbella Casa Esquina. We have a great offer to the best price. Book right now your Terraced houses in Marbella quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 31",
+      "room": "Bedroom 3",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 42",
+      "room": "Bedroom 4",
       "bed": "Single bed"
     }
   ],
   "features": [
-    "Sea views",
-    "terrace",
+    "Communal pool",
+    "Air-conditioned",
+    "Central heating",
     "BBQ",
-    "Barbecue",
     "Fenced garden",
-    "Air-Conditioned",
-    "Air conditioning",
-    "Alarm",
-    "Secured parking",
-    "Frontline",
-    "Direct Beach",
-    "Communal Swimming Pool",
-    "Outdoor Kitchen"
+    "Alarm system",
+    "Secured parking"
   ],
   "distances": [
     {
-      "place": "Golf course",
-      "distance": "1.4 km"
+      "place": "Airport",
+      "distance": "0 m"
+    },
+    {
+      "place": "Shops",
+      "distance": "650 m"
     },
     {
       "place": "Restaurant",
       "distance": "650 m"
     },
     {
-      "place": "Shops",
-      "distance": "500m"
+      "place": "Cafe",
+      "distance": "650 m"
+    },
+    {
+      "place": "Golf course",
+      "distance": "1.4 km"
+    },
+    {
+      "place": "Sand beach",
+      "distance": "2.2 km"
     },
     {
       "place": "Town centre",
-      "distance": "500m"
+      "distance": "2.5 km"
     },
     {
-      "place": "Sandy beach",
-      "distance": "500m"
+      "place": "Bus station",
+      "distance": "3 km"
     },
     {
       "place": "Hospital",
       "distance": "5 km"
     },
     {
-      "place": "Airport",
-      "distance": "0 m"
-    },
-    {
-      "place": "Cafe",
-      "distance": "650 m"
+      "place": "Water park",
+      "distance": "36.5 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Air conditioning: Included",
+    "Final Cleaning: € 280.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "Open-air parking: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Baby high chair: € 25.00   / bookingCot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€750.00",
   "rules": [
     "No smoking",
     "No pets",

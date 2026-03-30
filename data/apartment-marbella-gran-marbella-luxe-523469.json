@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-marbella-gran-marbella-luxe-523469.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-marbella-gran-marbella-luxe-523469.html",
   "slug": "apartment-marbella-gran-marbella-luxe-523469",
-  "name": "Gran Marbella LuxeMarbella -Apartment",
   "type": "",
   "location": "Marbella",
-  "guests": "8",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907646682105297017491072435262546",
-  "area": "3180 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Gran Marbella LuxeMarbella -Apartment",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/3/17392883239a8708fa6901d9e718e12dc5eeb5f68f/1739288328e556eb86656ec88a8bc59509eb9adf48.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/17392883239a8708fa6901d9e718e12dc5eeb5f68f/17392883291890943ce5515c32424513f83ee948d9.jpg",
@@ -42,74 +37,79 @@
     "https://www.justrentmarbella.com/rentals/fotos/3/17392883239a8708fa6901d9e718e12dc5eeb5f68f/1739288338b506a4091e2c14b1ba4cb54390fbb0ea.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/17392883239a8708fa6901d9e718e12dc5eeb5f68f/1739288336bacb3e1362d8f0a11c77c69228e9a5e0.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/17392883239a8708fa6901d9e718e12dc5eeb5f68f/1739288337146b8f4d4594c351cbd26f8e27527189.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/3/17392883239a8708fa6901d9e718e12dc5eeb5f68f/173928833709d3ff4f388a9b76bfc353f7ceba56b7.jpg",
-    "https://img.avantio.com/fotos/2/166566102691756cd52b529bfddc50e12cb6276130/166999549902d68a6b3184fd065eef6a8854248eee.jpg",
-    "https://img.avantio.com/fotos/3/1773065001b05dc1038f515d99003f6e948c325b2c/1773065014a2d71af9ff9d036f7143b53091d6660f.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/3/17392883239a8708fa6901d9e718e12dc5eeb5f68f/173928833709d3ff4f388a9b76bfc353f7ceba56b7.jpg"
   ],
+  "guests": "8",
+  "bedrooms": "4",
+  "bathrooms": "6",
+  "area": "180 m²",
+  "plot": "",
+  "description": "Apartments in Marbella Gran Marbella Luxe. We have a great offer to the best price. Book right now your Apartments in Marbella quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 31",
+      "room": "Bedroom 3",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 42",
+      "room": "Bedroom 4",
       "bed": "Single bed"
     }
   ],
   "features": [
     "Sea views",
-    "Private Pool",
-    "terrace",
-    "BBQ",
-    "Air-Conditioned",
-    "Air conditioning",
-    "Alarm",
+    "Communal pool",
+    "Air-conditioned",
+    "Central heating",
     "Jacuzzi",
-    "Direct Beach",
-    "Communal Swimming Pool"
+    "Lift",
+    "40 m² terrace"
   ],
   "distances": [
     {
-      "place": "Golf course",
-      "distance": "6 km"
+      "place": "Sand beach",
+      "distance": "30 m"
     },
     {
-      "place": "Restaurant",
-      "distance": "5 m"
+      "place": "Airport",
+      "distance": "53.8 m"
     },
     {
       "place": "Shops",
       "distance": "4.2 km"
     },
     {
-      "place": "Sandy beach",
-      "distance": "30 m"
-    },
-    {
-      "place": "Airport",
-      "distance": "53.8 m"
+      "place": "Golf course",
+      "distance": "6 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Final Cleaning: € 360.00   / booking",
+    "Internet Access: Included",
+    "Garage: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Air conditioning: IncludedBaby high chair: € 25.00   / bookingCot/Crib: € 35.00   / bookingHeating: Included"
+    "Air conditioning: Included",
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Heating: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€1,000.00",
   "rules": [
     "No smoking",
     "No pets",
     "No groups under 30 years of age"
   ],
-  "registration": "",
+  "registration": "VUT/MA/920633",
   "map_query": "Gran Marbella LuxeMarbella -Apartment, Marbella, Costa del Sol, Spain"
 }

@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-marbella-casa-solare-566378.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-marbella-casa-solare-566378.html",
   "slug": "apartment-marbella-casa-solare-566378",
-  "name": "Casa SolareMarbella -Apartment",
   "type": "",
   "location": "Marbella",
-  "guests": "6",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587491072433529264",
-  "area": "2140 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Casa SolareMarbella -Apartment",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/3/1750166426d8c35f13196c357c9e9a6e6621015f69/1750166434625e4f65c0f210eb5cc5716b12cedfde.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/1750166426d8c35f13196c357c9e9a6e6621015f69/1750166428087a50eaf9c8032d17b1671d471b3d30.jpg",
@@ -37,42 +32,39 @@
     "https://www.justrentmarbella.com/rentals/fotos/3/1750166426d8c35f13196c357c9e9a6e6621015f69/175016643513dd61c677fdfa01d8fa7e65874746ff.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/1750166426d8c35f13196c357c9e9a6e6621015f69/1750166436ab2b61c8276a80381fab905b2ce3c812.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/1750166426d8c35f13196c357c9e9a6e6621015f69/17501664366fa7586ae5c47cb0d14a431b63edae48.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/3/1750166426d8c35f13196c357c9e9a6e6621015f69/17501664361a94cad0d1a6785c6f03b5c4c995c607.jpg",
-    "https://img.avantio.com/fotos/2/1647518163185cbfa95019b70c52b41721f1d413cb/164751817114fcdc2d9dbe4ef0af083d4f26b7f067.jpg",
-    "https://img.avantio.com/fotos/2/1709665665d001266de3a37a06f6530401825bbd6f/1714429551d126a202923f9d66a6f765656010f78d.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/3/1750166426d8c35f13196c357c9e9a6e6621015f69/17501664361a94cad0d1a6785c6f03b5c4c995c607.jpg"
   ],
+  "guests": "6",
+  "bedrooms": "3",
+  "bathrooms": "4",
+  "area": "140 m²",
+  "plot": "",
+  "description": "Apartments in Marbella Casa Solare. We have a great offer to the best price. Book right now your Apartments in Marbella quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 22",
+      "room": "Bedroom 2",
       "bed": "Single bed"
     },
     {
-      "room": "Bedroom 32",
+      "room": "Bedroom 3",
       "bed": "Single bed"
     }
   ],
   "features": [
-    "Sea views",
-    "terrace",
+    "Communal pool",
+    "Air-conditioned",
+    "Central heating",
     "BBQ",
-    "Barbecue",
-    "Air-Conditioned",
-    "Air conditioning",
-    "Alarm",
-    "Gym",
-    "Tennis",
-    "Ocean view",
-    "Communal Swimming Pool"
+    "Gym / fitness",
+    "Tennis court",
+    "Alarm system",
+    "Ocean views"
   ],
   "distances": [
-    {
-      "place": "Golf course",
-      "distance": "2.6 km"
-    },
     {
       "place": "Shops",
       "distance": "500 m"
@@ -82,26 +74,38 @@
       "distance": "1.2 km"
     },
     {
-      "place": "Sandy beach",
+      "place": "Sand beach",
       "distance": "1.6 km"
+    },
+    {
+      "place": "Golf course",
+      "distance": "2.6 km"
     },
     {
       "place": "Airport",
       "distance": "60 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Final Cleaning: € 250.00   / booking",
+    "Internet Access: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Air conditioning: IncludedBaby high chair: € 25.00   / bookingCot/Crib: € 35.00   / bookingHeating: IncludedOpen-air parking: Included"
+    "Air conditioning: Included",
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Heating: Included",
+    "Open-air parking: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€1,000.00",
   "rules": [
     "No smoking",
     "No pets",
     "No groups under 30 years of age"
   ],
-  "registration": "",
+  "registration": "VUT/MA/92708",
   "map_query": "Casa SolareMarbella -Apartment, Marbella, Costa del Sol, Spain"
 }

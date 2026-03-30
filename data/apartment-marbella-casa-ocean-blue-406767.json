@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-marbella-casa-ocean-blue-406767.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-marbella-casa-ocean-blue-406767.html",
   "slug": "apartment-marbella-casa-ocean-blue-406767",
-  "name": "Casa Ocean BlueMarbella -Apartment",
   "type": "",
   "location": "Marbella",
-  "guests": "6",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587491072433429430",
-  "area": "2120 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Casa Ocean BlueMarbella -Apartment",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/16669599236651b20c1435bf5eeb4aa3e2626f5c8d/1703772535bb50206992bb34d9a0f503623745dee4.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/16669599236651b20c1435bf5eeb4aa3e2626f5c8d/170377254690dc186dbc956335cfa9398ac46faea3.jpg",
@@ -41,76 +36,115 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/16669599236651b20c1435bf5eeb4aa3e2626f5c8d/170377255108ca882f73c9bdad8863c0ccb22aaa44.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/16669599236651b20c1435bf5eeb4aa3e2626f5c8d/1703772551b87a59cb1fd50ebc18abf7a0d32b6c73.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/16669599236651b20c1435bf5eeb4aa3e2626f5c8d/1703772552894671cd2e5e4590aabd94a241042903.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/2/16669599236651b20c1435bf5eeb4aa3e2626f5c8d/1703772552d884fd4761ca41be3b316606b85814c9.jpg",
-    "https://img.avantio.com/fotos/2/1647518163185cbfa95019b70c52b41721f1d413cb/164751817114fcdc2d9dbe4ef0af083d4f26b7f067.jpg",
-    "https://img.avantio.com/fotos/2/1709665665d001266de3a37a06f6530401825bbd6f/1714429551d126a202923f9d66a6f765656010f78d.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/2/16669599236651b20c1435bf5eeb4aa3e2626f5c8d/1703772552d884fd4761ca41be3b316606b85814c9.jpg"
   ],
+  "guests": "6",
+  "bedrooms": "3",
+  "bathrooms": "4",
+  "area": "120 m²",
+  "plot": "",
+  "description": "Apartments in Marbella Casa Ocean Blue. We have a great offer to the best price. Book right now your Apartments in Marbella quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "King size bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 31",
+      "room": "Bedroom 3",
       "bed": "Double bed"
     }
   ],
   "features": [
-    "Sea views",
-    "terrace",
+    "Pool views",
+    "Communal pool",
+    "Air-conditioned",
+    "Central heating",
     "BBQ",
-    "Barbecue",
-    "Air-Conditioned",
-    "Air conditioning",
     "Secured parking",
-    "Ocean view",
-    "Communal Swimming Pool"
+    "Ocean views",
+    "18 m² terrace"
   ],
   "distances": [
     {
-      "place": "Golf course",
-      "distance": "2 km"
+      "place": "Train station",
+      "distance": "0 m"
     },
     {
-      "place": "Restaurant",
-      "distance": "400 m"
+      "place": "Metro station",
+      "distance": "0 m"
+    },
+    {
+      "place": "Ski Slope",
+      "distance": "0 m"
+    },
+    {
+      "place": "Amusement park / theme park",
+      "distance": "0 m"
+    },
+    {
+      "place": "Bus station",
+      "distance": "20 m"
     },
     {
       "place": "Shops",
       "distance": "400 m"
     },
     {
+      "place": "Restaurant",
+      "distance": "400 m"
+    },
+    {
+      "place": "Cafe",
+      "distance": "400 m"
+    },
+    {
+      "place": "Sand beach",
+      "distance": "1.5 km"
+    },
+    {
+      "place": "Golf course",
+      "distance": "2 km"
+    },
+    {
       "place": "Town centre",
       "distance": "2 km"
     },
     {
-      "place": "Sandy beach",
-      "distance": "1.5 km"
+      "place": "Park",
+      "distance": "2 km"
     },
     {
       "place": "Hospital",
       "distance": "10 km"
     },
     {
-      "place": "Airport",
-      "distance": "59 km"
+      "place": "Water park",
+      "distance": "38 km"
     },
     {
-      "place": "Cafe",
-      "distance": "400 m"
+      "place": "Airport",
+      "distance": "59 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Air conditioning: Included",
+    "Final Cleaning: € 190.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "Garage: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Baby high chair: € 25.00   / bookingCot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€500.00",
   "rules": [
     "No smoking",
     "No pets",

@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-marbella-aloha-smile-383239.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-marbella-aloha-smile-383239.html",
   "slug": "apartment-marbella-aloha-smile-383239",
-  "name": "Aloha SmileMarbella -Apartment",
   "type": "",
   "location": "Marbella",
-  "guests": "4",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587491072433362396",
-  "area": "288 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Aloha SmileMarbella -Apartment",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/1647518329fbf2991515c8b068ac5e6dcdaf2562f7/16668775327bf91688e99b0efe554d1a644b59d642.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1647518329fbf2991515c8b068ac5e6dcdaf2562f7/166687753311af8aa2cbe612789773dfeccdeaf333.jpg",
@@ -33,43 +28,44 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/1647518329fbf2991515c8b068ac5e6dcdaf2562f7/1666877530caeec3a8dbe7e203d87e113e3ec8640b.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1647518329fbf2991515c8b068ac5e6dcdaf2562f7/16668775304df26887f29c228e49eecc7b39c1b288.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1647518329fbf2991515c8b068ac5e6dcdaf2562f7/16668775312938e25615ef8ef03abea159204a0e6a.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/2/1647518329fbf2991515c8b068ac5e6dcdaf2562f7/16668775319b06b11a2965b0dcb3dc346e1127d630.jpg",
-    "https://img.avantio.com/fotos/2/171933524208dd9beb1b0410b5ac73b7dee7e8f398/1719335247598de11cbf26e63f6f28662d21ae829a.jpg",
-    "https://img.avantio.com/fotos/3/1772537313dbbaa7d49e0b8ef2c5cfec1dda2f8d6e/1772537317d0ad04e83ffa61ca2bc0a669defdc032.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/2/1647518329fbf2991515c8b068ac5e6dcdaf2562f7/16668775319b06b11a2965b0dcb3dc346e1127d630.jpg"
   ],
+  "guests": "4",
+  "bedrooms": "2",
+  "bathrooms": "4",
+  "area": "88 m²",
+  "plot": "",
+  "description": "Apartments in Marbella Aloha Smile. We have a great offer to the best price. Book right now your Apartments in Marbella quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "King size bed"
     },
     {
-      "room": "Bedroom 22",
+      "room": "Bedroom 2",
       "bed": "Single bed"
     }
   ],
   "features": [
-    "Sea views",
-    "Heated Pool",
-    "Heated swimming pool",
-    "terrace",
-    "Air-Conditioned",
-    "Air conditioning",
+    "Garden views",
+    "Air-conditioned",
+    "Gym / fitness",
+    "Lift",
     "Secured parking",
-    "Gym",
-    "Tennis",
-    "Padel",
-    "Elevator",
-    "Indoor Pool",
-    "Walking Distance"
+    "40 m² terrace"
   ],
   "distances": [
     {
-      "place": "Golf course",
-      "distance": "10 m"
-    },
-    {
       "place": "Restaurant",
       "distance": "20 m"
+    },
+    {
+      "place": "Cafe",
+      "distance": "20 m"
+    },
+    {
+      "place": "Golf course",
+      "distance": "2.7 km"
     },
     {
       "place": "Shops",
@@ -80,7 +76,7 @@
       "distance": "5.3 km"
     },
     {
-      "place": "Sandy beach",
+      "place": "Sand beach",
       "distance": "5.9 km"
     },
     {
@@ -88,21 +84,35 @@
       "distance": "7 km"
     },
     {
-      "place": "Airport",
-      "distance": "68 km"
+      "place": "Bus station",
+      "distance": "11 km"
     },
     {
-      "place": "Cafe",
-      "distance": "20 m"
+      "place": "Water park",
+      "distance": "42 km"
+    },
+    {
+      "place": "Airport",
+      "distance": "68 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Air conditioning: Included",
+    "Final Cleaning: € 195.00   / booking",
+    "Heated Pool: Included",
+    "Heating: Included",
+    "Internet Access: Included",
+    "Garage: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Baby high chair: € 25.00   / bookingBed linen: IncludedCot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking",
+    "Bed linen: Included",
+    "Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€500.00",
   "rules": [
     "No smoking",
     "No pets",

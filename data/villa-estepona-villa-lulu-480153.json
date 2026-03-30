@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/villa-estepona-villa-lulu-480153.html",
   "source_url": "https://www.justrentmarbella.com/rentals/villa-estepona-villa-lulu-480153.html",
   "slug": "villa-estepona-villa-lulu-480153",
-  "name": "Villa LuluEstepona -Villa",
   "type": "",
   "location": "Estepona",
-  "guests": "12",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587693472334555426",
-  "area": "6668 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Villa LuluEstepona -Villa",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/17126833949a0104b4178ce5d79870009736308b8e/1712683427852645860a1181ab740eb852f9be3aad.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/17126833949a0104b4178ce5d79870009736308b8e/17126834269be9eb3623541e43c327a6625f5ed4ed.jpg",
@@ -82,60 +77,60 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/17126833949a0104b4178ce5d79870009736308b8e/1712683403ae430739bd6ef7974f76719c6fe5e0b4.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/17126833949a0104b4178ce5d79870009736308b8e/17126834047db463c610843c166f823095ee1d8818.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/17126833949a0104b4178ce5d79870009736308b8e/1712683401384feb4e463380f14a07780fc637abf3.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/2/17126833949a0104b4178ce5d79870009736308b8e/171268340143c059cfc6da09da8fe10dbee89b5240.jpg",
-    "https://img.avantio.com/fotos/2/1668421044ad06266186ce768096d7661e1294c580/1668421047e037c6222ac1795173fbe7fc29e046a5.jpg",
-    "https://img.avantio.com/fotos/2/164751816850806461356cc8cc9935586c8f6c37c8/16475181686810fedafbb0749a24021f35c0543509.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/2/17126833949a0104b4178ce5d79870009736308b8e/171268340143c059cfc6da09da8fe10dbee89b5240.jpg"
   ],
+  "guests": "12",
+  "bedrooms": "6",
+  "bathrooms": "12",
+  "area": "668 m²",
+  "plot": "",
+  "description": "Villas in Estepona Villa Lulu. We have a great offer to the best price. Book right now your Villas in Estepona quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 31",
+      "room": "Bedroom 3",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 41",
+      "room": "Bedroom 4",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 51",
+      "room": "Bedroom 5",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 61",
+      "room": "Bedroom 6",
       "bed": "Double bed"
     }
   ],
   "features": [
-    "Sea views",
-    "Private Heated",
-    "Heated Pool",
-    "Heated swimming pool",
-    "terrace",
+    "Garden views",
+    "Pool views",
+    "Private heated pool",
+    "Private pool",
+    "Air-conditioned",
+    "Central heating",
     "BBQ",
-    "Barbecue",
     "Fenced garden",
-    "Air-Conditioned",
-    "Air conditioning",
-    "Alarm",
+    "Gym / fitness",
     "Secured parking",
-    "Gym",
-    "Tennis",
-    "Outdoor Kitchen"
+    "167 m² terrace"
   ],
   "distances": [
     {
-      "place": "Golf course",
-      "distance": "2.8 km"
+      "place": "Restaurant",
+      "distance": "800 m"
     },
     {
-      "place": "Restaurant",
+      "place": "Cafe",
       "distance": "800 m"
     },
     {
@@ -143,38 +138,51 @@
       "distance": "2.5 km"
     },
     {
-      "place": "Town centre",
-      "distance": "7 km"
+      "place": "Sand beach",
+      "distance": "2.6 km"
     },
     {
-      "place": "Sandy beach",
-      "distance": "2.6 km"
+      "place": "Golf course",
+      "distance": "2.8 km"
     },
     {
       "place": "Hospital",
       "distance": "6 km"
     },
     {
-      "place": "Airport",
-      "distance": "67 km"
+      "place": "Town centre",
+      "distance": "7 km"
     },
     {
-      "place": "Cafe",
-      "distance": "800 m"
+      "place": "Water park",
+      "distance": "50 km"
+    },
+    {
+      "place": "Airport",
+      "distance": "67 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Air conditioning: Included",
+    "Final Cleaning: € 650.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "Open-air parking: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Baby high chair: € 25.00   / bookingCot/Crib: € 35.00   / bookingHeated Pool: € 65.00   / night"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Heated Pool: € 65.00   / night"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€5,000.00",
   "rules": [
     "No smoking",
     "No pets",
     "No groups under 30 years of age"
   ],
-  "registration": "",
+  "registration": "CTC-202399901125839",
   "map_query": "Villa LuluEstepona -Villa, Estepona, Costa del Sol, Spain"
 }

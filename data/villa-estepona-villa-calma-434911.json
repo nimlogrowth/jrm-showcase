@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/villa-estepona-villa-calma-434911.html",
   "source_url": "https://www.justrentmarbella.com/rentals/villa-estepona-villa-calma-434911.html",
   "slug": "villa-estepona-villa-calma-434911",
-  "name": "Villa CalmaEstepona -Villa",
   "type": "",
   "location": "Estepona",
-  "guests": "8",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587491072433516197",
-  "area": "4280 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Villa CalmaEstepona -Villa",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/168675852565b70df1680eab469f5af65c33efc960/168675853809fc7c10fc0667dd982d0c0b8c912d0a.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/168675852565b70df1680eab469f5af65c33efc960/16867585387b5c3c1fa2e1b1ff65b09032553ad4bb.jpg",
@@ -58,82 +53,109 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/168675852565b70df1680eab469f5af65c33efc960/16867585357d3e1718c2b3c9710ccf88590617f047.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/168675852565b70df1680eab469f5af65c33efc960/168675853619d078235dbd1f1c4e13151aa058c8d1.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/168675852565b70df1680eab469f5af65c33efc960/1686758536e269e2d3c729cde643d11e1edb976cc0.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/2/168675852565b70df1680eab469f5af65c33efc960/168675855744212f6ee69f7dbb32257702d7c12256.jpg",
-    "https://img.avantio.com/fotos/2/1665498553cabe0fac86927baa47c87f70e2e6bed1/166549855476c3f800770b3fd69d33ced41c94d86a.jpg",
-    "https://img.avantio.com/fotos/3/17292560911ceed3e00fff6de5faafcf67bc095d29/17292560985451507e0530dc76533a1b28446e0ed0.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/2/168675852565b70df1680eab469f5af65c33efc960/168675855744212f6ee69f7dbb32257702d7c12256.jpg"
   ],
+  "guests": "8",
+  "bedrooms": "4",
+  "bathrooms": "8",
+  "area": "280 m²",
+  "plot": "020 m²",
+  "description": "Villas in Estepona Villa Calma. We have a great offer to the best price. Book right now your Villas in Estepona quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "King size bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 31",
+      "room": "Bedroom 3",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 41",
+      "room": "Bedroom 4",
       "bed": "Double bed"
     }
   ],
   "features": [
-    "Private Heated",
-    "Heated Pool",
-    "Heated swimming pool",
-    "terrace",
+    "Golf course",
+    "Garden views",
+    "Golf",
+    "Pool views",
+    "Lake views",
+    "Private heated pool",
+    "Private pool",
+    "Air-conditioned",
+    "Central heating",
     "BBQ",
-    "Barbecue",
-    "Air-Conditioned",
-    "Air conditioning",
-    "Alarm",
-    "Tennis",
-    "Ocean view"
+    "Alarm system",
+    "Ocean views",
+    "170 m² terrace"
   ],
   "distances": [
     {
-      "place": "Golf course",
-      "distance": "900 m"
-    },
-    {
-      "place": "Restaurant",
-      "distance": "800 m"
-    },
-    {
-      "place": "Shops",
-      "distance": "3.4 km"
-    },
-    {
-      "place": "Town centre",
-      "distance": "8 km"
-    },
-    {
-      "place": "Sandy beach",
+      "place": "Rock beach",
       "distance": "0 m"
-    },
-    {
-      "place": "Hospital",
-      "distance": "3.3 km"
     },
     {
       "place": "Airport",
       "distance": "92 m"
     },
     {
+      "place": "Restaurant",
+      "distance": "800 m"
+    },
+    {
       "place": "Cafe",
       "distance": "800 m"
+    },
+    {
+      "place": "Golf course",
+      "distance": "900 m"
+    },
+    {
+      "place": "Bus station",
+      "distance": "2.2 km"
+    },
+    {
+      "place": "Hospital",
+      "distance": "3.3 km"
+    },
+    {
+      "place": "Shops",
+      "distance": "3.4 km"
+    },
+    {
+      "place": "Sand beach",
+      "distance": "4 km"
+    },
+    {
+      "place": "Town centre",
+      "distance": "8 km"
+    },
+    {
+      "place": "Water park",
+      "distance": "70 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Air conditioning: Included",
+    "Final Cleaning: € 350.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "Open-air parking: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "{\n\t\t\t\"@context\": \"https://schema.org\",\n\t\t\t\"@type\": \"BreadcrumbList\",\n\t\t\t\"itemListElement\": [{\n            \"@type\": \"ListItem\",\n            \"position\": 1,\n            \"name\": \"Rentals\",\n            \"item\": \"https://www.justrentmarbella.com/rentals/holidays-rentals-d0/\"\n        }, {\n                    \"@type\": \"ListItem\",\n                    \"position\": 2,\n                    \"name\": \"Estepona\",\n                    \"item\": \"https://www.justrentmarbella.com/rentals/estepona-d266/\"\n                }, {\n                \"@type\": \"ListItem\",\n                \"position\": 3,\n                \"name\": \"Villa Calma\"\n            }]\t\t\n\t\t}"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Heated Pool: € 50.00   / night"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€2,500.00",
   "rules": [
     "No smoking",
     "No pets",

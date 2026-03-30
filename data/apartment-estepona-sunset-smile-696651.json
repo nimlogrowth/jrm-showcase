@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-estepona-sunset-smile-696651.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-estepona-sunset-smile-696651.html",
   "slug": "apartment-estepona-sunset-smile-696651",
-  "name": "Sunset SmileEstepona -Apartment",
   "type": "",
   "location": "Estepona",
-  "guests": "4",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907646762106997417491072434142262",
-  "area": "2165 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Sunset SmileEstepona -Apartment",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/3/17703987912e5d2da755bcc3cb0738746dd26f8d75/17703988046e256eea5e04bdcedeb7cabaeaba7f60.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/17703987912e5d2da755bcc3cb0738746dd26f8d75/1770399615e162e11c38f215f77aa3e79787f964d3.jpg",
@@ -29,32 +24,34 @@
     "https://www.justrentmarbella.com/rentals/fotos/3/17703987912e5d2da755bcc3cb0738746dd26f8d75/17703988145278382f0659d4a60f319b481124a964.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/17703987912e5d2da755bcc3cb0738746dd26f8d75/1770398844fe719459658969ab3f50253589b2f000.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/17703987912e5d2da755bcc3cb0738746dd26f8d75/1770398842c326d16f6b5fabda3195db1ad66347a6.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/3/17703987912e5d2da755bcc3cb0738746dd26f8d75/1770398840343794ba29d877463dc9a78d28dda827.jpg",
-    "https://img.avantio.com/fotos/2/1679318995acbd59a282e054432d8bbc3abd075e2b/16793190064779419b262d65786db2d662f8d525d2.jpg",
-    "https://img.avantio.com/fotos/3/1770392602ddee2011e2fb520a568feb441f017f12/177039262763113b248d1b468de4b12e1ff0799e2d.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/3/17703987912e5d2da755bcc3cb0738746dd26f8d75/1770398840343794ba29d877463dc9a78d28dda827.jpg"
   ],
+  "guests": "4",
+  "bedrooms": "2",
+  "bathrooms": "",
+  "area": "165 m²",
+  "plot": "",
+  "description": "Apartments in Estepona Sunset Smile. We have a great offer to the best price. Book right now your Apartments in Estepona quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 12",
+      "room": "Bedroom 1",
       "bed": "Single bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "Double bed"
     }
   ],
   "features": [
+    "Golf course",
     "Sea views",
-    "terrace",
+    "Golf",
+    "Mountain views",
+    "Pool views",
+    "Communal pool",
+    "Air-conditioned",
     "BBQ",
-    "Barbecue",
-    "Air-Conditioned",
-    "Air conditioning",
-    "Jacuzzi",
-    "Elevator",
-    "Ocean view",
-    "Direct Beach",
-    "Communal Swimming Pool"
+    "Ocean views"
   ],
   "distances": [
     {
@@ -62,37 +59,44 @@
       "distance": "100 m"
     },
     {
+      "place": "Shops",
+      "distance": "1 km"
+    },
+    {
       "place": "Restaurant",
       "distance": "1.5 km"
     },
     {
-      "place": "Shops",
-      "distance": "1 km"
+      "place": "Cafe",
+      "distance": "1.8 km"
+    },
+    {
+      "place": "Sand beach",
+      "distance": "2 km"
     },
     {
       "place": "Town centre",
       "distance": "6.5 km"
     },
     {
-      "place": "Sandy beach",
-      "distance": "2 km"
-    },
-    {
       "place": "Airport",
       "distance": "74 km"
-    },
-    {
-      "place": "Cafe",
-      "distance": "1.8 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Final Cleaning: € 175.00   / booking",
+    "Internet Access: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Air conditioning: IncludedBaby high chair: € 25.00   / bookingCot/Crib: € 35.00   / bookingGarage: Included"
+    "Air conditioning: Included",
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Garage: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€300.00",
   "rules": [
     "No smoking",
     "No pets",

@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/villa-san-pedro-de-alcantara-villa-tranquila-482592.html",
   "source_url": "https://www.justrentmarbella.com/rentals/villa-san-pedro-de-alcantara-villa-tranquila-482592.html",
   "slug": "villa-san-pedro-de-alcantara-villa-tranquila-482592",
-  "name": "Villa TranquilaSan Pedro de Alcántara -Villa",
   "type": "",
   "location": "San Pedro de Alcántara",
-  "guests": "8",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587491072433690808",
-  "area": "5290 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Villa TranquilaSan Pedro de Alcántara -Villa",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/1713972833a9d4633853b4eddaa35dc240aa14105f/1713972838f9bba105d55c354ec2e932cc7183f96a.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1713972833a9d4633853b4eddaa35dc240aa14105f/17139728515c1729a1b6a0ad2a2c35e4f4a4ab3607.jpg",
@@ -67,87 +62,101 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/1713972833a9d4633853b4eddaa35dc240aa14105f/171397285870ffad8e211c34f7f90f88c32098f4c3.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1713972833a9d4633853b4eddaa35dc240aa14105f/17139728590f659de4dd9f21de5a88dad15e371559.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1713972833a9d4633853b4eddaa35dc240aa14105f/171397285654f2f3d006b51bc9624643087dc63d76.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/2/1713972833a9d4633853b4eddaa35dc240aa14105f/1713972857b409ba1c4a8863333e3f921316634cbb.jpg",
-    "https://img.avantio.com/fotos/2/164751808558412de542144c58174258d03de23144/1765887605ae4a7bee09c6a582f803d8603d106c21.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/2/1713972833a9d4633853b4eddaa35dc240aa14105f/1713972857b409ba1c4a8863333e3f921316634cbb.jpg"
   ],
+  "guests": "8",
+  "bedrooms": "4",
+  "bathrooms": "10",
+  "area": "290 m²",
+  "plot": "500 m²",
+  "description": "Villas in San Pedro de Alcántara Villa Tranquila. We have a great offer to the best price. Book right now your Villas in San Pedro de Alcántara quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 31",
+      "room": "Bedroom 3",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 41",
+      "room": "Bedroom 4",
       "bed": "Double bed"
     }
   ],
   "features": [
-    "terrace",
+    "Garden views",
+    "Mountain views",
+    "Pool views",
+    "Private pool",
+    "Air-conditioned",
+    "Central heating",
     "BBQ",
-    "Barbecue",
     "Fenced garden",
-    "Air-Conditioned",
-    "Air conditioning",
-    "Underfloor",
-    "Floor heating",
-    "Alarm",
+    "Gym / fitness",
+    "Alarm system",
     "Secured parking",
-    "Gym",
-    "Walking Distance"
+    "Ping pong",
+    "30 m² terrace"
   ],
   "distances": [
     {
-      "place": "Golf course",
-      "distance": "500 m"
+      "place": "Airport",
+      "distance": "60 m"
     },
     {
-      "place": "Restaurant",
-      "distance": "1 km"
+      "place": "Golf course",
+      "distance": "500 m"
     },
     {
       "place": "Shops",
       "distance": "1 km"
     },
     {
-      "place": "Town centre",
-      "distance": "3 km"
-    },
-    {
-      "place": "Sandy beach",
-      "distance": "2 km"
-    },
-    {
-      "place": "Hospital",
-      "distance": "5 km"
-    },
-    {
-      "place": "Airport",
-      "distance": "60 m"
+      "place": "Restaurant",
+      "distance": "1 km"
     },
     {
       "place": "Cafe",
       "distance": "1 km"
+    },
+    {
+      "place": "Sand beach",
+      "distance": "2 km"
+    },
+    {
+      "place": "Town centre",
+      "distance": "3 km"
+    },
+    {
+      "place": "Hospital",
+      "distance": "5 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Air conditioning: Included",
+    "Final Cleaning: € 600.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "garage and car park: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Baby high chair: € 25.00   / bookingCot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€1,500.00",
   "rules": [
     "No smoking",
     "No pets",
     "No groups under 30 years of age"
   ],
-  "registration": "",
+  "registration": "VUT/MA/82108",
   "map_query": "Villa TranquilaSan Pedro de Alcántara -Villa, San Pedro de Alcántara, Costa del Sol, Spain"
 }

@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/house-benahavis-monte-biarritz-townhouse-571557.html",
   "source_url": "https://www.justrentmarbella.com/rentals/house-benahavis-monte-biarritz-townhouse-571557.html",
   "slug": "house-benahavis-monte-biarritz-townhouse-571557",
-  "name": "Monte Biarritz TownhouseBenahavís -House",
   "type": "",
   "location": "Benahavís",
-  "guests": "6",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587491072433446186",
-  "area": "2143 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Monte Biarritz TownhouseBenahavís -House",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/3/1752506418bca13f27c7c762014750937d87a0be2d/17525064212ca874cd136360db751b3d7ae2e6b3d2.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/1752506418bca13f27c7c762014750937d87a0be2d/17525064211f30b7e47b29db11c5467bcf08066d88.jpg",
@@ -47,34 +42,41 @@
     "https://www.justrentmarbella.com/rentals/fotos/3/1752506418bca13f27c7c762014750937d87a0be2d/17525064351db71b6a82fe2560b9fe63a0e8474956.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/1752506418bca13f27c7c762014750937d87a0be2d/1752506435332c296666d4ae72c1ff121b77fa0b12.jpg"
   ],
+  "guests": "6",
+  "bedrooms": "3",
+  "bathrooms": "",
+  "area": "143 m²",
+  "plot": "",
+  "description": "Houses in Benahavís Monte Biarritz Townhouse. We have a great offer to the best price. Book right now your Houses in Benahavís quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "King size bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "King size bed"
     },
     {
-      "room": "Bedroom 31",
+      "room": "Bedroom 3",
       "bed": "King size bed"
     }
   ],
   "features": [
-    "terrace",
-    "Fenced garden",
-    "Air-Conditioned",
-    "Air conditioning",
-    "Communal Swimming Pool"
+    "Garden views",
+    "Mountain views",
+    "Communal pool",
+    "Air-conditioned",
+    "Central heating",
+    "Fenced garden"
   ],
   "distances": [
     {
-      "place": "Golf course",
-      "distance": "1.14 km"
+      "place": "Restaurant",
+      "distance": "420 m"
     },
     {
-      "place": "Restaurant",
+      "place": "Cafe",
       "distance": "420 m"
     },
     {
@@ -82,12 +84,16 @@
       "distance": "642 m"
     },
     {
-      "place": "Town centre",
-      "distance": "2.49 km"
+      "place": "Golf course",
+      "distance": "1.14 km"
     },
     {
-      "place": "Sandy beach",
+      "place": "Sand beach",
       "distance": "1.42 km"
+    },
+    {
+      "place": "Town centre",
+      "distance": "2.49 km"
     },
     {
       "place": "Hospital",
@@ -96,19 +102,23 @@
     {
       "place": "Airport",
       "distance": "65 km"
-    },
-    {
-      "place": "Cafe",
-      "distance": "420 m"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Final Cleaning: € 250.00   / booking",
+    "Internet Access: Included",
+    "Open-air parking: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Air conditioning: IncludedBaby high chair: € 25.00   / bookingCot/Crib: € 35.00   / bookingHeating: Included"
+    "Air conditioning: Included",
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Heating: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€650.00",
   "rules": [
     "No smoking",
     "No pets",

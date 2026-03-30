@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/terraced-house-estepona-casa-bahia-dorada-707363.html",
   "source_url": "https://www.justrentmarbella.com/rentals/terraced-house-estepona-casa-bahia-dorada-707363.html",
   "slug": "terraced-house-estepona-casa-bahia-dorada-707363",
-  "name": "Casa Bahia DoradaEstepona -Terraced House",
   "type": "",
   "location": "Estepona",
-  "guests": "6",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907646752103190377491072433955282",
-  "area": "2150 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Casa Bahia DoradaEstepona -Terraced House",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/3/177306250677ef3e51614fdc0b872e7e6bd189f39f/1773062533e4851b1c478b0defe1d5207253c0442e.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/177306250677ef3e51614fdc0b872e7e6bd189f39f/17730625527af2104bf9cd2ab2a4c22c6b962665c5.jpg",
@@ -28,46 +23,44 @@
     "https://www.justrentmarbella.com/rentals/fotos/3/177306250677ef3e51614fdc0b872e7e6bd189f39f/17730625283cc3385e91e6dfa6322e225313f7b026.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/177306250677ef3e51614fdc0b872e7e6bd189f39f/1773062556c628216bc20e232ee7a05e4f048cb720.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/177306250677ef3e51614fdc0b872e7e6bd189f39f/1773062545ab7626d99577da120881b283c29cf80d.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/3/177306250677ef3e51614fdc0b872e7e6bd189f39f/1773062554d7fecd19a6babf2ce848aded2a85535a.jpg",
-    "https://img.avantio.com/fotos/2/171397633117a7bc9d2b0462f5044a2e15f9f8f107/17139770121f5f86f00bea3ceca054220e189a5a91.jpg",
-    "https://img.avantio.com/fotos/3/17465359474dea911ecf335e28a526569ba3d82c2b/17528001841359325623887587d74cc241b5d633d9.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/3/177306250677ef3e51614fdc0b872e7e6bd189f39f/1773062554d7fecd19a6babf2ce848aded2a85535a.jpg"
   ],
+  "guests": "6",
+  "bedrooms": "3",
+  "bathrooms": "",
+  "area": "150 m²",
+  "plot": "285 m²",
+  "description": "Terraced houses in Estepona Casa Bahia Dorada. We have a great offer to the best price. Book right now your Terraced houses in Estepona quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 12",
+      "room": "Bedroom 1",
       "bed": "Single bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 31",
+      "room": "Bedroom 3",
       "bed": "Double bed"
     }
   ],
   "features": [
+    "Beach views",
+    "Oceanfront",
     "Sea views",
-    "terrace",
+    "Communal pool",
+    "Air-conditioned",
+    "Central heating",
     "BBQ",
-    "Barbecue",
     "Fenced garden",
-    "Air-Conditioned",
-    "Air conditioning",
-    "Alarm",
-    "Jacuzzi",
-    "Gym",
-    "Tennis",
-    "Padel",
-    "Ocean view",
-    "Direct Beach",
-    "Communal Swimming Pool",
-    "Walking Distance"
+    "Alarm system",
+    "Ocean views"
   ],
   "distances": [
     {
-      "place": "Golf course",
-      "distance": "4.2 km"
+      "place": "Sand beach",
+      "distance": "10 m"
     },
     {
       "place": "Restaurant",
@@ -78,29 +71,36 @@
       "distance": "2 km"
     },
     {
-      "place": "Town centre",
-      "distance": "2 m"
+      "place": "Cafe",
+      "distance": "2.3 km"
     },
     {
-      "place": "Sandy beach",
-      "distance": "10 m"
+      "place": "Golf course",
+      "distance": "4.2 km"
+    },
+    {
+      "place": "Town centre",
+      "distance": "8 km"
     },
     {
       "place": "Airport",
       "distance": "87 km"
-    },
-    {
-      "place": "Cafe",
-      "distance": "2.3 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Final Cleaning: € 350.00   / booking",
+    "Internet Access: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Air conditioning: IncludedBaby high chair: € 25.00   / bookingCot/Crib: € 35.00   / bookingHeating: Included"
+    "Air conditioning: Included",
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Heating: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€1,500.00",
   "rules": [
     "No smoking",
     "No pets",

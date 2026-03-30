@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/villa-marbella-villa-los-naranjos-383211.html",
   "source_url": "https://www.justrentmarbella.com/rentals/villa-marbella-villa-los-naranjos-383211.html",
   "slug": "villa-marbella-villa-los-naranjos-383211",
-  "name": "Villa Los NaranjosMarbella -Villa",
   "type": "",
   "location": "Marbella",
-  "guests": "8",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587520113433698332",
-  "area": "9300 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Villa Los NaranjosMarbella -Villa",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/16475180392877ee2a2ff4629a28d75d4166710568/16711181516572a28cfa7420879fb31026e7a43a99.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/16475180392877ee2a2ff4629a28d75d4166710568/16711181527cd4d1c404745e154aca788e084d4935.jpg",
@@ -42,45 +37,48 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/16475180392877ee2a2ff4629a28d75d4166710568/1671118172f2cb35167f7274d2358cc1ac3be65756.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/16475180392877ee2a2ff4629a28d75d4166710568/1671118176f1b09aeb5e85bfcef4360dcb210c74d3.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/16475180392877ee2a2ff4629a28d75d4166710568/1671118188ee667ff62a7a59e4e18056803c6599e9.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/2/16475180392877ee2a2ff4629a28d75d4166710568/1671118150428b588275c313d28d3db10b483f4413.jpg",
-    "https://img.avantio.com/fotos/2/164751855768ba0fe58f85da15232abb32f9f6919d/16711038254c2f7d0bd99b790d184b1797c804d760.jpg",
-    "https://img.avantio.com/fotos/2/17241536539f7a97b7b394c6f28aa1326e2364c833/1724153654c5d4622de9a6936517cecaff5c795e8a.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/2/16475180392877ee2a2ff4629a28d75d4166710568/1671118150428b588275c313d28d3db10b483f4413.jpg"
   ],
+  "guests": "8",
+  "bedrooms": "4",
+  "bathrooms": "18",
+  "area": "300 m²",
+  "plot": "",
+  "description": "Villas in Marbella Villa Los Naranjos. We have a great offer to the best price. Book right now your Villas in Marbella quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 12",
+      "room": "Bedroom 1",
       "bed": "Single bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 31",
+      "room": "Bedroom 3",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 41",
+      "room": "Bedroom 4",
       "bed": "Double bed"
     }
   ],
   "features": [
-    "Mountain views",
+    "Golf course",
     "Garden views",
-    "Private Heated",
-    "Heated Pool",
-    "Heated swimming pool",
-    "terrace",
+    "Golf",
+    "Mountain views",
+    "Pool views",
+    "Private heated pool",
+    "Private pool",
+    "Air-conditioned",
+    "Central heating",
     "BBQ",
-    "Barbecue",
     "Fenced garden",
-    "Air-Conditioned",
-    "Air conditioning",
-    "Underfloor",
-    "Floor heating",
-    "Alarm",
+    "Alarm system",
+    "Fireplace",
     "Secured parking",
-    "Walking Distance"
+    "150 m² terrace"
   ],
   "distances": [
     {
@@ -92,6 +90,14 @@
       "distance": "1 km"
     },
     {
+      "place": "Bus station",
+      "distance": "1.6 km"
+    },
+    {
+      "place": "Cafe",
+      "distance": "2.3 km"
+    },
+    {
       "place": "Shops",
       "distance": "3.2 km"
     },
@@ -100,7 +106,11 @@
       "distance": "4.39 km"
     },
     {
-      "place": "Sandy beach",
+      "place": "Park",
+      "distance": "4.39 km"
+    },
+    {
+      "place": "Sand beach",
       "distance": "4.39 km"
     },
     {
@@ -108,21 +118,30 @@
       "distance": "11.01 km"
     },
     {
-      "place": "Airport",
-      "distance": "64 km"
+      "place": "Water park",
+      "distance": "41 km"
     },
     {
-      "place": "Cafe",
-      "distance": "2.3 km"
+      "place": "Airport",
+      "distance": "64 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Air conditioning: Included",
+    "Final Cleaning: € 600.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "Open-air parking: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Baby high chair: € 25.00   / bookingCot/Crib: € 35.00   / bookingHeated Pool: € 50.00   / night"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Heated Pool: € 50.00   / night"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€1,000.00",
   "rules": [
     "No smoking",
     "No pets",

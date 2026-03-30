@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/villa-marbella-villa-angeles-383215.html",
   "source_url": "https://www.justrentmarbella.com/rentals/villa-marbella-villa-angeles-383215.html",
   "slug": "villa-marbella-villa-angeles-383215",
-  "name": "Villa AngelesMarbella -Villa",
   "type": "",
   "location": "Marbella",
-  "guests": "10",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907646812105924737491072434019269",
-  "area": "4200 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Villa AngelesMarbella -Villa",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/1647518050ec2fb95a2951a592325c68b66cfb2c23/1712146661001dc0a23ce14877ea68eefe2704ae01.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1647518050ec2fb95a2951a592325c68b66cfb2c23/1712146654408344f0d9b42510969dc303946b09b9.jpg",
@@ -46,88 +41,119 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/1647518050ec2fb95a2951a592325c68b66cfb2c23/17097407629f0e98533ff1155f513b46e8330531ea.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1647518050ec2fb95a2951a592325c68b66cfb2c23/1698149669c3d711130092f7e021fef45087c5cfee.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1647518050ec2fb95a2951a592325c68b66cfb2c23/17097407633c4b9d676ff04930ae301347967b63f4.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/2/1647518050ec2fb95a2951a592325c68b66cfb2c23/1712146654512ab317f78dad0f8138bff9a9ea5a12.jpg",
-    "https://img.avantio.com/fotos/2/1668527678fc39b23bd682301312fdf6f6a195e794/1668527805839a327ead7124fedba9f6b5f3302a3d.jpg",
-    "https://img.avantio.com/fotos/2/167846087568850e78536d319814aad48e00ab7fb1/16784608831a94503b3aaefa702f18a5bcdfcf6635.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/2/1647518050ec2fb95a2951a592325c68b66cfb2c23/1712146654512ab317f78dad0f8138bff9a9ea5a12.jpg"
   ],
+  "guests": "10",
+  "bedrooms": "4",
+  "bathrooms": "8",
+  "area": "200 m²",
+  "plot": "",
+  "description": "Villas in Marbella Villa Angeles. We have a great offer to the best price. Book right now your Villas in Marbella quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 31",
+      "room": "Bedroom 3",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 41",
+      "room": "Bedroom 4",
       "bed": "Double bed"
     }
   ],
   "features": [
-    "Private Heated",
-    "Heated Pool",
-    "Heated swimming pool",
-    "terrace",
+    "Pool views",
+    "Private heated pool",
+    "Private pool",
+    "Air-conditioned",
+    "Central heating",
     "BBQ",
-    "Barbecue",
     "Fenced garden",
-    "Air-Conditioned",
-    "Air conditioning",
-    "Underfloor",
-    "Floor heating",
+    "Fireplace",
     "Secured parking",
-    "Jacuzzi",
-    "Gym",
-    "Elevator",
-    "Outdoor Kitchen",
-    "Walking Distance"
+    "Saltwater pool",
+    "20 m² terrace"
   ],
   "distances": [
     {
-      "place": "Golf course",
-      "distance": "4 km"
+      "place": "Nature reserve",
+      "distance": "0 m"
+    },
+    {
+      "place": "River",
+      "distance": "4.8 m"
     },
     {
       "place": "Restaurant",
       "distance": "200 m"
     },
     {
-      "place": "Shops",
-      "distance": "2 km"
+      "place": "Cafe",
+      "distance": "200 m"
+    },
+    {
+      "place": "Sand beach",
+      "distance": "300 m"
+    },
+    {
+      "place": "Bus station",
+      "distance": "850 m"
     },
     {
       "place": "Town centre",
       "distance": "1.5 km"
     },
     {
-      "place": "Sandy beach",
-      "distance": "300 m"
+      "place": "Park",
+      "distance": "1.6 km"
+    },
+    {
+      "place": "Shops",
+      "distance": "2 km"
+    },
+    {
+      "place": "Golf course",
+      "distance": "4 km"
+    },
+    {
+      "place": "Lake",
+      "distance": "4.8 km"
     },
     {
       "place": "Hospital",
       "distance": "15 km"
     },
     {
-      "place": "Airport",
-      "distance": "62 km"
+      "place": "Water park",
+      "distance": "45 km"
     },
     {
-      "place": "Cafe",
-      "distance": "200 m"
+      "place": "Airport",
+      "distance": "62 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Air conditioning: Included",
+    "Final Cleaning: € 500.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Baby high chair: € 25.00   / bookingCot/Crib: € 35.00   / bookingHeated Pool: € 50.00   / nightOpen-air parking: Included"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Heated Pool: € 50.00   / night",
+    "Open-air parking: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€1,500.00",
   "rules": [
     "No smoking",
     "No pets",

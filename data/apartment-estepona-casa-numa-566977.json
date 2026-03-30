@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-estepona-casa-numa-566977.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-estepona-casa-numa-566977.html",
   "slug": "apartment-estepona-casa-numa-566977",
-  "name": "Casa NumaEstepona -Apartment",
   "type": "",
   "location": "Estepona",
-  "guests": "6",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907356392102642587491074458430794",
-  "area": "2114 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Casa NumaEstepona -Apartment",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/3/175032818416d585940d32008b0db887171b2bff2d/175032818542969e448fbe02cfea8b4b2dcaad3d55.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/175032818416d585940d32008b0db887171b2bff2d/175032818692f3301687b80321cc0f879332009e82.jpg",
@@ -32,68 +27,75 @@
     "https://www.justrentmarbella.com/rentals/fotos/3/175032818416d585940d32008b0db887171b2bff2d/17503281942f1060c261b59452b5de33ea0989650e.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/175032818416d585940d32008b0db887171b2bff2d/17503281944c0497cc6ac5cbf0b89096833a6af8ae.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/175032818416d585940d32008b0db887171b2bff2d/1750328194e5802df37495a09281c1818652ea1d2d.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/3/175032818416d585940d32008b0db887171b2bff2d/1750328195b24eae05cf275fc77ab4bb89073b27de.jpg",
-    "https://img.avantio.com/fotos/2/1674494145199e4b13bdea9738a21363e3d806098f/1674494149943a5f4059939dbcce7141472bdf830e.jpg",
-    "https://img.avantio.com/fotos/3/17430024177890e3c634a7b411a6a9f0c476c76903/1764067960b751b0f91eb16dd49c29b530fdcf1214.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/3/175032818416d585940d32008b0db887171b2bff2d/1750328195b24eae05cf275fc77ab4bb89073b27de.jpg"
   ],
+  "guests": "6",
+  "bedrooms": "3",
+  "bathrooms": "4",
+  "area": "114 m²",
+  "plot": "",
+  "description": "Apartments in Estepona Casa Numa. We have a great offer to the best price. Book right now your Apartments in Estepona quick, easy and safe.",
   "bedrooms_detail": [
     {
-      "room": "Bedroom 11",
+      "room": "Bedroom 1",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 21",
+      "room": "Bedroom 2",
       "bed": "Double bed"
     },
     {
-      "room": "Bedroom 32",
+      "room": "Bedroom 3",
       "bed": "Single bed"
     }
   ],
   "features": [
-    "Sea views",
-    "Mountain views",
-    "terrace",
-    "Air-Conditioned",
-    "Air conditioning",
-    "Underfloor",
-    "Floor heating",
-    "Alarm",
-    "Gym",
-    "Padel",
-    "Frontline",
-    "Communal Swimming Pool",
-    "Walking Distance"
+    "Communal pool",
+    "Air-conditioned",
+    "Central heating",
+    "Gym / fitness",
+    "Alarm system",
+    "37 m² terrace"
   ],
   "distances": [
     {
-      "place": "Golf course",
-      "distance": "10 km"
+      "place": "Sand beach",
+      "distance": "1 km"
     },
     {
       "place": "Shops",
       "distance": "1.5 km"
     },
     {
-      "place": "Sandy beach",
-      "distance": "1 km"
+      "place": "Golf course",
+      "distance": "10 km"
     },
     {
       "place": "Airport",
       "distance": "48 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Final Cleaning: € 220.00   / booking",
+    "Internet Access: Included",
+    "Open-air parking: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Air conditioning: IncludedBaby high chair: € 25.00   / bookingCot/Crib: € 35.00   / bookingHeating: IncludedPet: Included"
+    "Air conditioning: Included",
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Heating: Included",
+    "Pet: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€750.00",
   "rules": [
     "No smoking",
+    "No pets",
     "No groups under 30 years of age"
   ],
-  "registration": "",
+  "registration": "CTC-2025048619",
   "map_query": "Casa NumaEstepona -Apartment, Estepona, Costa del Sol, Spain"
 }

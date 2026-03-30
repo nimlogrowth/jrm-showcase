@@ -2,14 +2,9 @@
   "url": "https://www.justrentmarbella.com/rentals/villa-marbella-villa-carpe-diem-383220.html",
   "source_url": "https://www.justrentmarbella.com/rentals/villa-marbella-villa-carpe-diem-383220.html",
   "slug": "villa-marbella-villa-carpe-diem-383220",
-  "name": "Villa Carpe DiemMarbella -Villa",
   "type": "",
   "location": "Marbella",
-  "guests": "10",
-  "bedrooms": "2026",
-  "bathrooms": "49629629218647076828907646972103364597491072434185259",
-  "area": "5322 m²",
-  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
+  "name": "Villa Carpe DiemMarbella -Villa",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/1647518121edd5a2ecb35824e9fd527e5894d29a11/17131773084bf5bbfe786399bcd46d573f69dd2e37.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1647518121edd5a2ecb35824e9fd527e5894d29a11/17131773123e7096e449ebd68fbbcc8b75143cc23b.jpg",
@@ -61,34 +56,36 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/1647518121edd5a2ecb35824e9fd527e5894d29a11/17131773089dc7a015aa3eba31ffe5cd4d001bfc1c.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1647518121edd5a2ecb35824e9fd527e5894d29a11/1713177313a100dbb12a609bcd164ff5faf5533fed.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1647518121edd5a2ecb35824e9fd527e5894d29a11/1713177313990f1ac6c535bc233dc67b7eebacc8ed.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/2/1647518121edd5a2ecb35824e9fd527e5894d29a11/17131773074b90e7f524a4e0418781fe6deaa68bb5.jpg",
-    "https://img.avantio.com/fotos/2/1647518050ec2fb95a2951a592325c68b66cfb2c23/1712146661001dc0a23ce14877ea68eefe2704ae01.jpg",
-    "https://img.avantio.com/fotos/2/1668527678fc39b23bd682301312fdf6f6a195e794/1668527805839a327ead7124fedba9f6b5f3302a3d.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/2/1647518121edd5a2ecb35824e9fd527e5894d29a11/17131773074b90e7f524a4e0418781fe6deaa68bb5.jpg"
   ],
+  "guests": "10",
+  "bedrooms": "5",
+  "bathrooms": "10",
+  "area": "322 m²",
+  "plot": "",
+  "description": "Villas in Marbella Villa Carpe Diem. We have a great offer to the best price. Book right now your Villas in Marbella quick, easy and safe.",
   "bedrooms_detail": [],
   "features": [
     "Sea views",
-    "Private Heated",
-    "Heated Pool",
-    "Heated swimming pool",
-    "terrace",
+    "Pool views",
+    "Private heated pool",
+    "Private pool",
+    "Air-conditioned",
+    "Central heating",
     "BBQ",
-    "Barbecue",
-    "Fenced garden",
-    "Air-Conditioned",
-    "Air conditioning",
-    "Underfloor",
-    "Floor heating",
-    "Jacuzzi",
-    "Walking Distance"
+    "Fenced garden"
   ],
   "distances": [
     {
-      "place": "Golf course",
-      "distance": "1.6 km"
+      "place": "Sand beach",
+      "distance": "500 m"
     },
     {
       "place": "Restaurant",
+      "distance": "500 m"
+    },
+    {
+      "place": "Cafe",
       "distance": "500 m"
     },
     {
@@ -96,33 +93,47 @@
       "distance": "950 m"
     },
     {
-      "place": "Town centre",
-      "distance": "4.1 km"
-    },
-    {
-      "place": "Sandy beach",
-      "distance": "500 m"
+      "place": "Golf course",
+      "distance": "1.6 km"
     },
     {
       "place": "Hospital",
       "distance": "3.3 km"
     },
     {
-      "place": "Airport",
-      "distance": "47.4 km"
+      "place": "Bus station",
+      "distance": "3.9 km"
     },
     {
-      "place": "Cafe",
-      "distance": "500 m"
+      "place": "Town centre",
+      "distance": "4.1 km"
+    },
+    {
+      "place": "Water park",
+      "distance": "21.3 km"
+    },
+    {
+      "place": "Airport",
+      "distance": "47.4 km"
     }
   ],
-  "services_included": [],
+  "services_included": [
+    "Air conditioning: Included",
+    "Bed linen: Included",
+    "Final Cleaning: € 575.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "Open-air parking: Included",
+    "Towels:  Included"
+  ],
   "services_optional": [
-    "Baby high chair: € 25.00   / bookingCot/Crib: € 35.00   / bookingHeated Pool: € 72.00   / night"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Heated Pool: € 72.00   / night"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "",
+  "deposit": "€2,500.00",
   "rules": [
     "No smoking",
     "No pets",
