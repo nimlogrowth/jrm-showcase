@@ -2,9 +2,15 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-marbella-cabopino-penthouse-with-private-pool-707367.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-marbella-cabopino-penthouse-with-private-pool-707367.html",
   "slug": "apartment-marbella-cabopino-penthouse-with-private-pool-707367",
-  "type": "Apartment",
-  "location": "Marbella",
   "name": "Cabopino Penthouse with Private Pool",
+  "location": "Marbella",
+  "type": "Apartment",
+  "guests": "8",
+  "bedrooms": "3",
+  "bathrooms": "3",
+  "area": "304 m²",
+  "plot": "145 m²",
+  "description": "Welcome to our Cabopino Penthouse! This exceptional 3-bedroom duplex penthouse offers some of the most breathtaking sea views in the area, combining modern design, generous living space and spectacular outdoor areas for a truly elevated stay. The main level features a bright open-plan layout with a sleek contemporary kitchen, spacious dining area and stylish lounge, all framed by floor-to-ceiling sliding glass doors that flood the interior with natural light and seamlessly connect the living spaces to the terrace. The three bedrooms are beautifully presented, while all 3 bathrooms are finished in a modern style and fitted with elegant rain showers, giving the property a refined and luxurious feel throughout.\n\nWhat truly sets this penthouse apart is its outstanding outdoor living. In addition to the three main bedrooms, there is an extra room upstairs leading to the roof terrace, complete with a sleeping sofa that can accommodate 2 additional guests. The rooftop is a real showstopper, with crazy panoramic sea views, generous lounge areas, sun loungers, an outdoor dining space, BBQ area, and a private plunge pool positioned to enjoy the very best of the scenery. Designed for both relaxation and entertaining, this upper terrace creates an unforgettable setting from sunrise to sunset, while the lower terrace continues the indoor-outdoor flow with more space to unwind and take in the views.\n\nSet in Venere Marbella in Cabopino, the property enjoys a fantastic location close to some of East Marbella’s most popular highlights. Cabopino Beach and the protected Artola dunes are nearby, and the marina area is perfect for relaxed seafront dining and waterside strolls. For everyday essentials, there are several supermarkets within a short drive, including SuperCor Express at Cabopino marina, while Mercadona, Lidl and Carrefour are all reachable in around 5–10 minutes by car. The area is also well placed for golf, beach days and easy airport access, with Málaga Airport roughly 38–39 km away, or around a 25–30 minute drive depending on traffic.\n\nAltogether, this is a stunning penthouse that perfectly blends comfort, style and standout coastal living.\n\nPlease note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.\n\nWe look forward to welcoming you.",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/3/1773065001b05dc1038f515d99003f6e948c325b2c/1773065014a2d71af9ff9d036f7143b53091d6660f.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/1773065001b05dc1038f515d99003f6e948c325b2c/1773065009884f3bde34aefa397e0245cc423f9cbd.jpg",
@@ -35,12 +41,6 @@
     "https://www.justrentmarbella.com/rentals/fotos/3/1773065001b05dc1038f515d99003f6e948c325b2c/17730650131e75fc85f0a69f87cad3ee9bfc9ed034.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/1773065001b05dc1038f515d99003f6e948c325b2c/17730650128cd155a430879ee454ff81c22f8ea571.jpg"
   ],
-  "guests": "8",
-  "bedrooms": "3",
-  "bathrooms": "",
-  "area": "304 m²",
-  "plot": "145 m²",
-  "description": "Welcome to our Cabopino Penthouse! This exceptional 3-bedroom duplex penthouse offers some of the most breathtaking sea views in the area, combining modern design, generous living space and spectacular outdoor areas for a truly elevated stay. The main level features a bright open-plan layout with a sleek contemporary kitchen, spacious dining area and stylish lounge, all framed by floor-to-ceiling sliding glass doors that flood the interior with natural light and seamlessly connect the living spaces to the terrace. The three bedrooms are beautifully presented, while all 3 bathrooms are finished in a modern style and fitted with elegant rain showers, giving the property a refined and luxurious feel throughout. What truly sets this penthouse apart is its outstanding outdoor living. In addition to the three main bedrooms, there is an extra room upstairs leading to the roof terrace, complete with a sleeping sofa that can accommodate 2 additional guests. The rooftop is a real showstopper, with crazy panoramic sea views, generous lounge areas, sun loungers, an outdoor dining space, BBQ area, and a private plunge pool positioned to enjoy the very best of the scenery. Designed for both relaxation and entertaining, this upper terrace creates an unforgettable setting from sunrise to sunset, while the lower terrace continues the indoor-outdoor flow with more space to unwind and take in the views. Set in Venere Marbella in Cabopino, the property enjoys a fantastic location close to some of East Marbella’s most popular highlights. Cabopino Beach and the protected Artola dunes are nearby, and the marina area is perfect for relaxed seafront dining and waterside strolls. For everyday essentials, there are several supermarkets within a short drive, including SuperCor Express at Cabopino marina, while Mercadona, Lidl and Carrefour are all reachable in around 5–10 minutes by car. The area is also well placed for golf, beach days and easy airport access, with Málaga Airport roughly 38–39 km away, or around a 25–30 minute drive depending on traffic. Altogether, this is a stunning penthouse that perfectly blends comfort, style and standout coastal living. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to welcoming you.",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -53,16 +53,19 @@
     {
       "room": "Bedroom 3",
       "bed": "Double bed"
+    },
+    {
+      "room": "Common spaces",
+      "bed": "Sofa bed double"
     }
   ],
   "features": [
-    "Private pool",
-    "Air-conditioned",
-    "Central heating",
+    "Dryer",
     "BBQ",
+    "Central heating",
+    "Private pool",
     "Secured parking",
-    "Ocean views",
-    "Dryer"
+    "Ocean views"
   ],
   "distances": [
     {
@@ -83,10 +86,16 @@
     }
   ],
   "services_included": [
-    "Final Cleaning: € 350.00   / booking Internet Access: Included Garage: Included Towels:  Included"
+    "Final Cleaning: € 350.00   / booking",
+    "Internet Access: Included",
+    "Garage: Included",
+    "Towels:  Included"
   ],
   "services_optional": [
-    "Air conditioning: Included Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heating: Included"
+    "Air conditioning: Included",
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Heating: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

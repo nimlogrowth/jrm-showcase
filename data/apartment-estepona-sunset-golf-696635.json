@@ -2,9 +2,15 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-estepona-sunset-golf-696635.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-estepona-sunset-golf-696635.html",
   "slug": "apartment-estepona-sunset-golf-696635",
-  "type": "Apartment",
-  "location": "Estepona",
   "name": "Sunset Golf",
+  "location": "Estepona",
+  "type": "Apartment",
+  "guests": "4",
+  "bedrooms": "2",
+  "bathrooms": "2",
+  "area": "",
+  "plot": "",
+  "description": "Welcome to your sun-soaked escape in Sunset Golf, one of Marbella’s most peaceful and picturesque urbanisations. This bright and beautifully styled apartment combines modern comfort with Mediterranean charm, offering open views towards the sea, lush golf surroundings, and a private terrace designed for true outdoor living.\n\nFrom the moment you enter, the space feels calm, airy and inviting. The open-plan living area is filled with natural light and flows seamlessly into a contemporary fully equipped kitchen with a sleek island, creating a perfect setting for relaxed mornings and slow evenings. The interior blends soft neutral tones, natural textures and clean Scandinavian lines, giving the apartment a fresh yet warm atmosphere that instantly feels like a holiday.\n\nThe apartment features two elegant bedrooms styled with hotel-quality bedding and a serene, minimalist design that encourages deep rest after long beach days or rounds of golf. The modern bathroom offers a spacious walk-in shower and clean finishes, maintaining the same bright and refined aesthetic throughout the home. Air conditioning and high-speed WiFi ensure comfort all year round, whether you’re here for summer sun or a winter escape.\n\nThe true highlight of this property is the spacious private terrace. Here, you can enjoy breakfast overlooking the coastline, long outdoor dinners as the sky turns golden, and complete relaxation in your own private jacuzzi. With lounge seating, dining space and open views across the urbanisation and towards the Mediterranean, the terrace becomes an extension of the living space — a place where indoor comfort meets outdoor Marbella lifestyle.\n\nSunset Golf is a beautifully maintained community known for its white Andalusian-style architecture, landscaped gardens and large communal swimming pool surrounded by palm trees. The setting is tranquil and secure, offering a resort-like atmosphere while still being just a short drive from Marbella’s beaches, golf courses, restaurants and the vibrant energy of Puerto Banús.\n\nWhether you’re visiting for golf, relaxation, remote work under the Spanish sun, or a stylish getaway with family or friends, this apartment offers the perfect balance of comfort, privacy and location. It is a space designed for slowing down, enjoying the light, and experiencing the best of Marbella living.\n\nPlease note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.\n\nWe look forward to welcoming you!",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/3/1770392602ddee2011e2fb520a568feb441f017f12/177039262763113b248d1b468de4b12e1ff0799e2d.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/1770392602ddee2011e2fb520a568feb441f017f12/17703926204d5ca6564977080b29e8d3b51b8cc205.jpg",
@@ -22,31 +28,25 @@
     "https://www.justrentmarbella.com/rentals/fotos/3/1770392602ddee2011e2fb520a568feb441f017f12/177039260829a8ada43a799bea6bb20e01cc190656.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/1770392602ddee2011e2fb520a568feb441f017f12/1770392653a5dbc40a8e8eadf4da6acbb4845d1a80.jpg"
   ],
-  "guests": "4",
-  "bedrooms": "2",
-  "bathrooms": "",
-  "area": "",
-  "plot": "",
-  "description": "Welcome to your sun-soaked escape in Sunset Golf, one of Marbella’s most peaceful and picturesque urbanisations. This bright and beautifully styled apartment combines modern comfort with Mediterranean charm, offering open views towards the sea, lush golf surroundings, and a private terrace designed for true outdoor living. From the moment you enter, the space feels calm, airy and inviting. The open-plan living area is filled with natural light and flows seamlessly into a contemporary fully equipped kitchen with a sleek island, creating a perfect setting for relaxed mornings and slow evenings. The interior blends soft neutral tones, natural textures and clean Scandinavian lines, giving the apartment a fresh yet warm atmosphere that instantly feels like a holiday. The apartment features two elegant bedrooms styled with hotel-quality bedding and a serene, minimalist design that encourages deep rest after long beach days or rounds of golf. The modern bathroom offers a spacious walk-in shower and clean finishes, maintaining the same bright and refined aesthetic throughout the home. Air conditioning and high-speed WiFi ensure comfort all year round, whether you’re here for summer sun or a winter escape. The true highlight of this property is the spacious private terrace. Here, you can enjoy breakfast overlooking the coastline, long outdoor dinners as the sky turns golden, and complete relaxation in your own private jacuzzi. With lounge seating, dining space and open views across the urbanisation and towards the Mediterranean, the terrace becomes an extension of the living space — a place where indoor comfort meets outdoor Marbella lifestyle. Sunset Golf is a beautifully maintained community known for its white Andalusian-style architecture, landscaped gardens and large communal swimming pool surrounded by palm trees. The setting is tranquil and secure, offering a resort-like atmosphere while still being just a short drive from Marbella’s beaches, golf courses, restaurants and the vibrant energy of Puerto Banús. Whether you’re visiting for golf, relaxation, remote work under the Spanish sun, or a stylish getaway with family or friends, this apartment offers the perfect balance of comfort, privacy and location. It is a space designed for slowing down, enjoying the light, and experiencing the best of Marbella living. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to welcoming you!",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
-      "bed": "Single bed"
+      "bed": "Single beds"
     },
     {
       "room": "Bedroom 2",
-      "bed": "Single bed"
+      "bed": "Single beds"
     }
   ],
   "features": [
-    "Golf course",
+    "Golf course views",
     "Sea views",
     "Golf",
     "Mountain views",
     "Pool views",
-    "Communal pool",
-    "Air-conditioned",
     "Central heating",
+    "Air-conditioned",
+    "Communal pool",
     "Ocean views"
   ],
   "distances": [
@@ -84,10 +84,15 @@
     }
   ],
   "services_included": [
-    "Final Cleaning: € 200.00   / booking Internet Access: Included Towels:  Included"
+    "Final Cleaning: € 200.00   / booking",
+    "Internet Access: Included",
+    "Towels:  Included"
   ],
   "services_optional": [
-    "Air conditioning: Included Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heating: Included"
+    "Air conditioning: Included",
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Heating: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

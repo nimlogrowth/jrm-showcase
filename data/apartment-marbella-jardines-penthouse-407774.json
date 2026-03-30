@@ -2,9 +2,15 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-marbella-jardines-penthouse-407774.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-marbella-jardines-penthouse-407774.html",
   "slug": "apartment-marbella-jardines-penthouse-407774",
-  "type": "Apartment",
-  "location": "Marbella",
   "name": "Jardines Penthouse",
+  "location": "Marbella",
+  "type": "Apartment",
+  "guests": "5",
+  "bedrooms": "3",
+  "bathrooms": "2",
+  "area": "110 m²",
+  "plot": "",
+  "description": "A fresh and modern 3-bed Penthouse Apartment in the heart of Nueva Andalucia!\n\nEntering the open plan living area, you are welcomed by the contemporary boho design and décor, and the views over Golf Valley, La Concha Mountain, and the Mediterranean Sea.\n\nThe Living area features a dining table, sofa, and Smart TV. The glass sliding doors lead to the 40m2 terrace – this is the perfect space for alfresco dining while soaking up the stunning views. There is a dining table for 6, a chill-out lounge area, and a gas BBQ.\n\nThe stunning new kitchen, in white and gold, gives a bright and refreshing feel to the apartment. Fitted with top-class appliances, including a wine cooler, you will enjoy cooking up a storm for your friends or family.\n\nThere is a double bedroom just off the kitchen. Down the hall is the second bedroom fitted with a King sized bed.\n\nThe shared bathroom has a lovely large rain shower.\n\nThe Master Bedroom has direct access to the terrace, an ensuite bathroom with rain shower, and a desk.\n\nThere is air conditioning and WiFi throughout.\n\nThe first bedroom has a king sized bed(180cm), the second bedroom has a queen sized bed(160cm), and in the third bedroom is a single bed(140cm).\n\nJardines Penthouse has a dedicated parking space (1) in the underground garage.\n\nThis Penthouse Apartment offers a fresh, contemporary and stylish space to enjoy your holidays and has the added benefit of being in a GREAT location; Urbanisation Jardines De Andalucia is a peaceful Andalusian-style urbanisation with well-maintained gardens and a large communal swimming pool.\n\nIt is merely minutes’ walk from the Aloha strip where you will find some of Nueva Andalucía’s best restaurants, bars and nightlife and a choice of supermarkets. In the other direction, a short walk (10-15 min) will take you to Centro Plaza area with some of Marbella’s best and most popular restaurants, including Breathe and La Sala.\n\nWithin just a few minutes’ drive you could be in Puerto Banús, Marbella Old Town or San Pedro. It’s a 15-20 minute walk to Puerto Banús and the nearest beach.\n\nAnd for the golfers, Las Brisas, Aloha Golf, Los Naranjos, and Magna Marbella (par 3 for beginners) Golf Clubs are all very close by.\n\nPlease note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.\n\nWe look forward to welcoming you!",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/166790810067c7c3485c6bc34bf4ab3b83b7dfecea/1667908102b8fd5b97bda2d4811d2ff0f164937490.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/166790810067c7c3485c6bc34bf4ab3b83b7dfecea/166790810326c7af7e8af7661b2a9e05b4d18d323b.jpg",
@@ -28,16 +34,14 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/166790810067c7c3485c6bc34bf4ab3b83b7dfecea/1670424818f0305879d7c45a3b5f6bc1f71ccc8840.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/166790810067c7c3485c6bc34bf4ab3b83b7dfecea/16704248221a7c2329fdd5c126c74d45d530f0f74f.jpg"
   ],
-  "guests": "5",
-  "bedrooms": "3",
-  "bathrooms": "2",
-  "area": "110 m²",
-  "plot": "",
-  "description": "A fresh and modern 3-bed Penthouse Apartment in the heart of Nueva Andalucia! Entering the open plan living area, you are welcomed by the contemporary boho design and décor, and the views over Golf Valley, La Concha Mountain, and the Mediterranean Sea. The Living area features a dining table, sofa, and Smart TV. The glass sliding doors lead to the 40m2 terrace – this is the perfect space for alfresco dining while soaking up the stunning views. There is a dining table for 6, a chill-out lounge area, and a gas BBQ. The stunning new kitchen, in white and gold, gives a bright and refreshing feel to the apartment. Fitted with top-class appliances, including a wine cooler, you will enjoy cooking up a storm for your friends or family. There is a double bedroom just off the kitchen. Down the hall is the second bedroom fitted with a King sized bed. The shared bathroom has a lovely large rain shower. The Master Bedroom has direct access to the terrace, an ensuite bathroom with rain shower, and a desk. There is air conditioning and WiFi throughout. The first bedroom has a king sized bed(180cm), the second bedroom has a queen sized bed(160cm), and in the third bedroom is a single bed(140cm). Jardines Penthouse has a dedicated parking space (1) in the underground garage. This Penthouse Apartment offers a fresh, contemporary and stylish space to enjoy your holidays and has the added benefit of being in a GREAT location; Urbanisation Jardines De Andalucia is a peaceful Andalusian-style urbanisation with well-maintained gardens and a large communal swimming pool. It is merely minutes’ walk from the Aloha strip where you will find some of Nueva Andalucía’s best restaurants, bars and nightlife and a choice of supermarkets. In the other direction, a short walk (10-15 min) will take you to Centro Plaza area with some of Marbella’s best and most popular restaurants, including Breathe and La Sala. Within just a few minutes’ drive you could be in Puerto Banús, Marbella Old Town or San Pedro. It’s a 15-20 minute walk to Puerto Banús and the nearest beach. And for the golfers, Las Brisas, Aloha Golf, Los Naranjos, and Magna Marbella (par 3 for beginners) Golf Clubs are all very close by. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to welcoming you!",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
       "bed": "King size bed"
+    },
+    {
+      "room": "Bedroom 2",
+      "bed": "Queen size bed"
     },
     {
       "room": "Bedroom 3",
@@ -46,13 +50,12 @@
   ],
   "features": [
     "Mountain views",
-    "Communal pool",
-    "Air-conditioned",
-    "Central heating",
-    "BBQ",
     "Lift",
+    "BBQ",
+    "Central heating",
+    "Air-conditioned",
+    "Communal pool",
     "Secured parking",
-    "Laptop workspace",
     "40 m² terrace"
   ],
   "distances": [
@@ -62,7 +65,7 @@
     },
     {
       "place": "Airport",
-      "distance": "61 km"
+      "distance": "61.4 m"
     },
     {
       "place": "Bus station",
@@ -98,10 +101,16 @@
     }
   ],
   "services_included": [
-    "Air conditioning: Included Final Cleaning: € 180.00   / booking Heating: Included Internet Access: Included Garage: Included Towels:  Included"
+    "Air conditioning: Included",
+    "Final Cleaning: € 180.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "Garage: Included",
+    "Towels:  Included"
   ],
   "services_optional": [
-    "Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

@@ -2,9 +2,15 @@
   "url": "https://www.justrentmarbella.com/rentals/villa-san-pedro-de-alcantara-casa-adel-383217.html",
   "source_url": "https://www.justrentmarbella.com/rentals/villa-san-pedro-de-alcantara-casa-adel-383217.html",
   "slug": "villa-san-pedro-de-alcantara-casa-adel-383217",
-  "type": "Villa",
-  "location": "San Pedro de Alcántara",
   "name": "Casa Adel",
+  "location": "San Pedro de Alcántara",
+  "type": "Villa",
+  "guests": "8",
+  "bedrooms": "4",
+  "bathrooms": "3",
+  "area": "300 m²",
+  "plot": "",
+  "description": "Casa Adel is a beautifully renovated 4-bed Beach-Bungalow offering stylish accommodation in an ideal setting. With a private swimming pool and garden and being located a stone’s throw from the wonderful San Pedro beaches and Boulevard and walking distance to the town, you can take full advantage of a relaxing holiday without the worry of a car. It’s the perfect choice for a family holiday in Marbella.\n\nCasa Adel has recently been refurbished to a high standard but maintains a perfect balance between a rustic and a modern Scandinavian style, with original woodwork and wooden doors and contemporary furnishings and fittings.\n\nEntering from the road you find the front garden, swimming pool and a covered terrace area. The living area features low ceilings with beautiful downlighting and many large windows giving an open, airy and spacious feel. There is plenty of seating and a fireplace for the cosy winter evenings. From here you can step out to the outdoor lounge area and pool.\n\nThe large open-plan kitchen features a beautiful rustic dining table and fireplace – perfect for social evenings in the cooler months. You can access the outside dining area with built-in BBQ, overlooking the pool. The brand new kitchen is fully equipped and features an American-style fridge-freezer with ice maker. There is also a laundry room with sink, washer, dryer, boiler etc.\n\nThere are 3 bedrooms on this level, 2 doubles and 1 single (with a nest-bed that converts into a small double). There are 2 bathrooms with large showers.\n\nUpstairs the is Master Bedroom, a double with an en-suite bathroom with shower. There is a small room/office that has a single foldable bed/couch.\n\nThis lovely bright home features underfloor heating in the bathrooms, aircon and Wi-Fi throughout. Although the pool is not huge (3 x 7 m), it is perfect for when you feel like a change from the beach. And the small garden is ideal for providing greenery and space for the little ones to run around.\n\nThe location of Casa Adel is ideal for families or small groups with the beach, bars, restaurants and entertainment all within 1 kilometre. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.\n\n*Please note there is a WEEKLY cleaning charge of € 200.",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/164751808558412de542144c58174258d03de23144/1765887605ae4a7bee09c6a582f803d8603d106c21.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/164751808558412de542144c58174258d03de23144/176588760196c41ec6d9e1ba2a8792d8c23b81a763.jpg",
@@ -44,12 +50,6 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/164751808558412de542144c58174258d03de23144/1765887616a1edce46edbfc8c25c4cd3eb3d0322aa.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/164751808558412de542144c58174258d03de23144/1765887617f93bef87f53141a5aa17f44cddfe5f3b.jpg"
   ],
-  "guests": "8",
-  "bedrooms": "4",
-  "bathrooms": "3",
-  "area": "300 m²",
-  "plot": "",
-  "description": "Casa Adel is a beautifully renovated 4-bed Beach-Bungalow offering stylish accommodation in an ideal setting. With a private swimming pool and garden and being located a stone’s throw from the wonderful San Pedro beaches and Boulevard and walking distance to the town, you can take full advantage of a relaxing holiday without the worry of a car. It’s the perfect choice for a family holiday in Marbella. Casa Adel has recently been refurbished to a high standard but maintains a perfect balance between a rustic and a modern Scandinavian style, with original woodwork and wooden doors and contemporary furnishings and fittings. Entering from the road you find the front garden, swimming pool and a covered terrace area. The living area features low ceilings with beautiful downlighting and many large windows giving an open, airy and spacious feel. There is plenty of seating and a fireplace for the cosy winter evenings. From here you can step out to the outdoor lounge area and pool. The large open-plan kitchen features a beautiful rustic dining table and fireplace – perfect for social evenings in the cooler months. You can access the outside dining area with built-in BBQ, overlooking the pool. The brand new kitchen is fully equipped and features an American-style fridge-freezer with ice maker. There is also a laundry room with sink, washer, dryer, boiler etc. There are 3 bedrooms on this level, 2 doubles and 1 single (with a nest-bed that converts into a small double). There are 2 bathrooms with large showers. Upstairs the is Master Bedroom, a double with an en-suite bathroom with shower. There is a small room/office that has a single foldable bed/couch. This lovely bright home features underfloor heating in the bathrooms, aircon and Wi-Fi throughout. Although the pool is not huge (3 x 7 m), it is perfect for when you feel like a change from the beach. And the small garden is ideal for providing greenery and space for the little ones to run around. The location of Casa Adel is ideal for families or small groups with the beach, bars, restaurants and entertainment all within 1 kilometre. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. *Please note there is a WEEKLY cleaning charge of € 200.",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -66,19 +66,20 @@
     {
       "room": "Bedroom 4",
       "bed": "Double bed"
+    },
+    {
+      "room": "Common spaces",
+      "bed": "Sofa bed single"
     }
   ],
   "features": [
     "Garden views",
     "Pool views",
-    "Private pool",
-    "Air-conditioned",
-    "Central heating",
-    "BBQ",
     "Fenced garden",
+    "BBQ",
     "Fireplace",
-    "Laptop workspace",
-    "First aid kit",
+    "Central heating",
+    "Private pool",
     "100 m² terrace"
   ],
   "distances": [
@@ -132,10 +133,15 @@
     }
   ],
   "services_included": [
-    "Air conditioning: Included Final Cleaning: € 480.00   / booking Heating: Included Internet Access: Included Towels:  Included"
+    "Air conditioning: Included",
+    "Final Cleaning: € 480.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "Towels:  Included"
   ],
   "services_optional": [
-    "Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

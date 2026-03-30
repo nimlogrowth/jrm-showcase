@@ -2,9 +2,15 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-marbella-casa-cana-421277.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-marbella-casa-cana-421277.html",
   "slug": "apartment-marbella-casa-cana-421277",
-  "type": "Apartment",
-  "location": "Marbella",
   "name": "Casa Cana",
+  "location": "Marbella",
+  "type": "Apartment",
+  "guests": "4",
+  "bedrooms": "2",
+  "bathrooms": "4",
+  "area": "151 m²",
+  "plot": "",
+  "description": "A chic 2-bed duplex apartment with sea and mountain views in Puerto Banús.\n\nCasa Caña enjoys amazing sea and mountain views, private parking, 3 swimming pools, and a padel court in a secure gated complex. The apartment is perfectly located with everything just a short stroll away. With some of Marbella's best shops and amenities at just a few minutes and Puerto Banus at a 10 min walk, this is one of the few unique places in Marbella where a car is not necessary.\n\nThe apartment has been elegantly refurbished, is beautifully styled in a contemporary Boho-chic style with top-notch furnishings and fixtures, and offers a bright and fresh feel.\n\nEntering on ground level, you find the open-plan modern kitchen. This is fully equipped (including an oven, microwave, fridge/freezer, etc) and has a separate laundry area with the washing machine. There is a lounge area with sofas, a Smart TV, and a dining table for 4. This leads to the main terrace with amazing views of the La Concha Mountain down to the Mediterranean Sea. Here there is a chill-out corner, an outdoor dining table, and a gas BBQ.\n\nThere is a bedroom on this floor that offers twin 90cm beds, an ensuite bathroom (with a shower in the bathtub), and a private balcony with seating.\n\nDownstairs is the Master Bedroom with a double bed and full bathroom and a private patio with seating. There is direct access to the communal areas from this patio.\n\nThere are individual aircon units in the bedrooms and high-speed wifi throughout the apartment.\n\nCasa Caña is the perfect holiday getaway for those looking for a fresh holiday apartment with amazing views and all the necessities within walking distance! We look forward to welcoming you.",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/16784649717b7e1c335d4b11030f28b1f00463bc9a/1739833831b2fbcca6a1d61533d47ebf9342ceb0c4.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/16784649717b7e1c335d4b11030f28b1f00463bc9a/1739833833bdae8f7edb31e812986cdc55e3c520c8.jpg",
@@ -39,12 +45,6 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/16784649717b7e1c335d4b11030f28b1f00463bc9a/1678464993090e35d1dda2dbd5cc8ca5c8122b82da.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/16784649717b7e1c335d4b11030f28b1f00463bc9a/1699363336eb78dee4bc1b6e1dab04f156faec726d.jpg"
   ],
-  "guests": "4",
-  "bedrooms": "2",
-  "bathrooms": "4",
-  "area": "151 m²",
-  "plot": "",
-  "description": "A chic 2-bed duplex apartment with sea and mountain views in Puerto Banús. Casa Caña enjoys amazing sea and mountain views, private parking, 3 swimming pools, and a padel court in a secure gated complex. The apartment is perfectly located with everything just a short stroll away. With some of Marbella's best shops and amenities at just a few minutes and Puerto Banus at a 10 min walk, this is one of the few unique places in Marbella where a car is not necessary. The apartment has been elegantly refurbished, is beautifully styled in a contemporary Boho-chic style with top-notch furnishings and fixtures, and offers a bright and fresh feel. Entering on ground level, you find the open-plan modern kitchen. This is fully equipped (including an oven, microwave, fridge/freezer, etc) and has a separate laundry area with the washing machine. There is a lounge area with sofas, a Smart TV, and a dining table for 4. This leads to the main terrace with amazing views of the La Concha Mountain down to the Mediterranean Sea. Here there is a chill-out corner, an outdoor dining table, and a gas BBQ. There is a bedroom on this floor that offers twin 90cm beds, an ensuite bathroom (with a shower in the bathtub), and a private balcony with seating. Downstairs is the Master Bedroom with a double bed and full bathroom and a private patio with seating. There is direct access to the communal areas from this patio. There are individual aircon units in the bedrooms and high-speed wifi throughout the apartment. Casa Caña is the perfect holiday getaway for those looking for a fresh holiday apartment with amazing views and all the necessities within walking distance! We look forward to welcoming you.",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -52,7 +52,7 @@
     },
     {
       "room": "Bedroom 2",
-      "bed": "Single bed"
+      "bed": "Single beds"
     }
   ],
   "features": [
@@ -60,21 +60,20 @@
     "Garden views",
     "Mountain views",
     "Pool views",
-    "Communal pool",
-    "Air-conditioned",
-    "Central heating",
     "BBQ",
+    "Balcony",
     "Padel court",
+    "Central heating",
+    "Air-conditioned",
+    "Communal pool",
     "Secured parking",
     "Ocean views",
-    "Balcony",
-    "Laptop workspace",
     "10 m² terrace"
   ],
   "distances": [
     {
       "place": "Airport",
-      "distance": "60 km"
+      "distance": "60 m"
     },
     {
       "place": "Bus station",
@@ -114,10 +113,16 @@
     }
   ],
   "services_included": [
-    "Air conditioning: Included Final Cleaning: € 200.00   / booking Heating: Included Internet Access: Included Garage: Included Towels:  Included"
+    "Air conditioning: Included",
+    "Final Cleaning: € 200.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "Garage: Included",
+    "Towels:  Included"
   ],
   "services_optional": [
-    "Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

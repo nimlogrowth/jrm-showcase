@@ -2,9 +2,15 @@
   "url": "https://www.justrentmarbella.com/rentals/terraced-house-marbella-casa-esquina-405652.html",
   "source_url": "https://www.justrentmarbella.com/rentals/terraced-house-marbella-casa-esquina-405652.html",
   "slug": "terraced-house-marbella-casa-esquina-405652",
-  "type": "Terraced House",
-  "location": "Marbella",
   "name": "Casa Esquina",
+  "location": "Marbella",
+  "type": "Terraced House",
+  "guests": "8",
+  "bedrooms": "4",
+  "bathrooms": "4",
+  "area": "198 m²",
+  "plot": "",
+  "description": "Lovely 4-bed corner townhouse in Los Naranjos de Marbella!\n\nCasa Esquina is a lovely corner townhouse with a large rear patio and a small private garden, ideal to enjoy as a family.\n\nThe spacious living room enjoys 2 seating areas, a large TV, and a fireplace, making it a cosy and elegant space.\n\nThe Kitchen/Dining Room can be closed off with sliding doors. There is a dining table for 6 and a lovely, new, open-plan, fully equipped kitchen. Here there is access to the rear terrace which features an outdoor lounge area and a dining table for 8. The patio is partly covered, perfect for alfresco dining. There is a BBQ here too.\n\nUpstairs there are 3 double bedrooms with fitted wardrobes in each. There is a double room with a 140cm bed, and a separate bathroom with a rain shower. The Master Bedroom has a 160 bed, a walkthrough closet area, an ensuite bathroom with a shower, and access to the terrace. The third bedroom is accessed through the Master Bedroom. It has a 160cm bed and access to the terrace.\n\nThe fourth bedroom is located on the third floor. It is a twin (2 x 90cm), with a bathroom and a terrace. (Please note there is restricted height.)\n\nThere is aircon and wifi throughout. There is roadside parking and a communal swimming pool on the other side of the road.\n\nCasa Esquina is located in an exclusive, gated urbanization, with 24 hour security. It is less than 1 kilometre from Puerto Banús and the beach. There is a small shopping centre and Supermarket very close by (500m). The Townhouse is very well connected with the AP7 nearby and Marbella’s extensive bus network.\n\nPlease note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.\n\nWe look forward to welcoming you!",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/1666012689898f5a716fc7913a6414848bdd58edb4/17078299765ba5f4f5f2200c693f22d6afba9203a0.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1666012689898f5a716fc7913a6414848bdd58edb4/17078299845b4cc074013feaebc1a597e098eab7bf.jpg",
@@ -31,12 +37,6 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/1666012689898f5a716fc7913a6414848bdd58edb4/17078299757ae29ea819b631c8757ed2d6746efb0e.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1666012689898f5a716fc7913a6414848bdd58edb4/1707829972d5937e7f3e0822fa76580519e8006fcb.jpg"
   ],
-  "guests": "8",
-  "bedrooms": "4",
-  "bathrooms": "4",
-  "area": "198 m²",
-  "plot": "",
-  "description": "Lovely 4-bed corner townhouse in Los Naranjos de Marbella! Casa Esquina is a lovely corner townhouse with a large rear patio and a small private garden, ideal to enjoy as a family. The spacious living room enjoys 2 seating areas, a large TV, and a fireplace, making it a cosy and elegant space. The Kitchen/Dining Room can be closed off with sliding doors. There is a dining table for 6 and a lovely, new, open-plan, fully equipped kitchen. Here there is access to the rear terrace which features an outdoor lounge area and a dining table for 8. The patio is partly covered, perfect for alfresco dining. There is a BBQ here too. Upstairs there are 3 double bedrooms with fitted wardrobes in each. There is a double room with a 140cm bed, and a separate bathroom with a rain shower. The Master Bedroom has a 160 bed, a walkthrough closet area, an ensuite bathroom with a shower, and access to the terrace. The third bedroom is accessed through the Master Bedroom. It has a 160cm bed and access to the terrace. The fourth bedroom is located on the third floor. It is a twin (2 x 90cm), with a bathroom and a terrace. (Please note there is restricted height.) There is aircon and wifi throughout. There is roadside parking and a communal swimming pool on the other side of the road. Casa Esquina is located in an exclusive, gated urbanization, with 24 hour security. It is less than 1 kilometre from Puerto Banús and the beach. There is a small shopping centre and Supermarket very close by (500m). The Townhouse is very well connected with the AP7 nearby and Marbella’s extensive bus network. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to welcoming you!",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -52,24 +52,23 @@
     },
     {
       "room": "Bedroom 4",
-      "bed": "Single bed"
+      "bed": "Single beds"
     }
   ],
   "features": [
-    "Communal pool",
-    "Air-conditioned",
-    "Central heating",
-    "BBQ",
     "Fenced garden",
-    "Alarm system",
-    "Secured parking",
+    "BBQ",
     "Balcony",
-    "Laptop workspace"
+    "Alarm system",
+    "Central heating",
+    "Air-conditioned",
+    "Communal pool",
+    "Secured parking"
   ],
   "distances": [
     {
       "place": "Airport",
-      "distance": "0 km"
+      "distance": "0 m"
     },
     {
       "place": "Shops",
@@ -109,10 +108,16 @@
     }
   ],
   "services_included": [
-    "Air conditioning: Included Final Cleaning: € 280.00   / booking Heating: Included Internet Access: Included Open-air parking: Included Towels:  Included"
+    "Air conditioning: Included",
+    "Final Cleaning: € 280.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "Open-air parking: Included",
+    "Towels:  Included"
   ],
   "services_optional": [
-    "Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

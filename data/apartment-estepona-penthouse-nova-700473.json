@@ -2,9 +2,15 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-estepona-penthouse-nova-700473.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-estepona-penthouse-nova-700473.html",
   "slug": "apartment-estepona-penthouse-nova-700473",
-  "type": "Apartment",
-  "location": "Estepona",
   "name": "Penthouse Nova",
+  "location": "Estepona",
+  "type": "Apartment",
+  "guests": "6",
+  "bedrooms": "3",
+  "bathrooms": "3",
+  "area": "110 m²",
+  "plot": "",
+  "description": "Welcome to Penthouse Nova! This beautifully presented 3-bedroom, 2-bathroom duplex apartment in the sought-after Cortijo del Golf development in El Paraíso offers a refined blend of modern design, comfort and outdoor living. The interior showcases a bright open-plan layout with a stylish lounge and dining area that flows effortlessly onto the main terrace through large sliding glass doors, allowing natural light to pour in throughout the day. The contemporary kitchen is fully equipped and finished to a high standard, complementing the apartment’s sleek aesthetic. Each bedroom is thoughtfully designed with a clean, modern feel, while the bathrooms feature elegant finishes that enhance the overall sense of quality and comfort.\n\nWhat truly sets this property apart is its exceptional outdoor space. The spacious main terrace overlooks the impressive communal swimming pool and landscaped gardens, creating a relaxing setting for morning coffee or evening dining. Upstairs, the private rooftop solarium offers beautiful sea views and features a jacuzzi, providing the perfect place to unwind while enjoying the Costa del Sol climate. The development itself boasts a very large pool area and well-maintained communal spaces, and the apartment enjoys a privileged position overlooking the pool. Ideally located, it is just a 10-minute walk to local shops and amenities, a 5-minute drive (approximately 20 minutes on foot) to the sandy beach, and only 10 minutes by car to Puerto Banús. Surrounded by renowned golf courses in the El Paraíso and Atalaya area, this property delivers style, location and lifestyle in equal measure.\n\nPlease note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.\n\nWe look forward to welcoming you.",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/3/1771852797fc142d654e4505b7eda3252549ec315b/1771852807279974fbb10c33bb8e68c885a7538734.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/1771852797fc142d654e4505b7eda3252549ec315b/17718528042c0a7da5b7e4e4f5944ffbe53520de76.jpg",
@@ -38,12 +44,6 @@
     "https://www.justrentmarbella.com/rentals/fotos/3/1771852797fc142d654e4505b7eda3252549ec315b/1771852812e4e280afa8c8d2a34a97bda3fc3e64f6.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/1771852797fc142d654e4505b7eda3252549ec315b/17718528111f9efdc6889e22f32596a9033055564f.jpg"
   ],
-  "guests": "6",
-  "bedrooms": "3",
-  "bathrooms": "",
-  "area": "110 m²",
-  "plot": "",
-  "description": "Welcome to Penthouse Nova! This beautifully presented 3-bedroom, 2-bathroom duplex apartment in the sought-after Cortijo del Golf development in El Paraíso offers a refined blend of modern design, comfort and outdoor living. The interior showcases a bright open-plan layout with a stylish lounge and dining area that flows effortlessly onto the main terrace through large sliding glass doors, allowing natural light to pour in throughout the day. The contemporary kitchen is fully equipped and finished to a high standard, complementing the apartment’s sleek aesthetic. Each bedroom is thoughtfully designed with a clean, modern feel, while the bathrooms feature elegant finishes that enhance the overall sense of quality and comfort. What truly sets this property apart is its exceptional outdoor space. The spacious main terrace overlooks the impressive communal swimming pool and landscaped gardens, creating a relaxing setting for morning coffee or evening dining. Upstairs, the private rooftop solarium offers beautiful sea views and features a jacuzzi, providing the perfect place to unwind while enjoying the Costa del Sol climate. The development itself boasts a very large pool area and well-maintained communal spaces, and the apartment enjoys a privileged position overlooking the pool. Ideally located, it is just a 10-minute walk to local shops and amenities, a 5-minute drive (approximately 20 minutes on foot) to the sandy beach, and only 10 minutes by car to Puerto Banús. Surrounded by renowned golf courses in the El Paraíso and Atalaya area, this property delivers style, location and lifestyle in equal measure. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to welcoming you.",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -59,12 +59,11 @@
     }
   ],
   "features": [
-    "Communal pool",
-    "Air-conditioned",
-    "Central heating",
+    "Lift",
     "BBQ",
     "Alarm system",
-    "Lift",
+    "Central heating",
+    "Communal pool",
     "160 m² terrace"
   ],
   "distances": [
@@ -90,10 +89,16 @@
     }
   ],
   "services_included": [
-    "Final Cleaning: € 350.00   / booking Internet Access: Included Open-air parking: Included Towels:  Included"
+    "Final Cleaning: € 350.00   / booking",
+    "Internet Access: Included",
+    "Open-air parking: Included",
+    "Towels:  Included"
   ],
   "services_optional": [
-    "Air conditioning: Included Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heating: Included"
+    "Air conditioning: Included",
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Heating: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

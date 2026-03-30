@@ -2,9 +2,15 @@
   "url": "https://www.justrentmarbella.com/rentals/villa-marbella-villa-bobad-462644.html",
   "source_url": "https://www.justrentmarbella.com/rentals/villa-marbella-villa-bobad-462644.html",
   "slug": "villa-marbella-villa-bobad-462644",
-  "type": "Villa",
-  "location": "Marbella",
   "name": "Villa Bobad",
+  "location": "Marbella",
+  "type": "Villa",
+  "guests": "8",
+  "bedrooms": "4",
+  "bathrooms": "5",
+  "area": "582 m²",
+  "plot": "916 m²",
+  "description": "This fantastic villa is located in the heart of Marbella’s most desired location; its Golden Mile.\n\nYour perfect holiday home: Stylish, very classy and centrally located close to all!\n\nThis impeccable villa is south facing, with sun all day on the pool and terrace.  It is very private and was built with great attention for detail with stunning high ceilings, high quality finishing and a great sense of charm and character throughout.\n\nThis feeling is instantly emphasized when you enter the villa.\n\nStepping into the house you find yourself in a hallway with a beautiful high ceiling overlooking the living room and the staircase. From that hallway you have access to one bedroom suite, the living room, kitchen and a guest toilet.\n\nThe bedroom on the ground floor is spacious and features a spacious walk in closet as well as an en-suite bathroom with both a bathtub as well as a shower. The room has a very pleasant view overlooking the garden and pool area.\n\nThe living room is stylish and unique. It has a high ceiling and a feature wall with television and incorporated cupboards.\n\nIts design is warm yet stylish and split into a lounge section and a dining area. From the living room you have direct access to the pool area and also the kitchen.\n\nGoing outside you have a private pool area with modern terrace furniture to lounge and dine and a nice grass area for the kids to roam around. The area is private and easy to access and overlook from the living room.\n\nFor those with small kids; there is a possibility to fence the pool if desired. This must be indicated prior to booking.\n\nGoing up to the first floor you will find two more bedrooms. Each spacious, beautiful wooden floors and with their own en-suite bathrooms.\n\nThe 4th bedroom can be found in the minus one level. It is accessed when walking down from the hallway and through the garage area.\n\nIt also has an en-suite bathroom and being a little more away from the rest is ideal for staff or teenagers or those that appreciate a bit more privacy.\n\nThere is A/C throughout the villa, and wifi. There is secure gated parking for 1 car and space for 1 more in the garage.\n\nPlease note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.\n\nWe look forward to welcoming you!",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/17048157455d0184de20dd3b23ad11cfe798dc8aaf/17048157469e3c7651aedab9e26a1b2080e81b808e.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/17048157455d0184de20dd3b23ad11cfe798dc8aaf/170481575659f64e898c638b2b43a35c1f2387cbfb.jpg",
@@ -53,12 +59,6 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/17048157455d0184de20dd3b23ad11cfe798dc8aaf/176250716505f39297789f2f76af3f97e3c488c45b.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/17048157455d0184de20dd3b23ad11cfe798dc8aaf/1762507155cc4494febdf9d370de87a43ace7dfd6e.jpg"
   ],
-  "guests": "8",
-  "bedrooms": "4",
-  "bathrooms": "5",
-  "area": "582 m²",
-  "plot": "916 m²",
-  "description": "This fantastic villa is located in the heart of Marbella’s most desired location; its Golden Mile. Your perfect holiday home: Stylish, very classy and centrally located close to all! This impeccable villa is south facing, with sun all day on the pool and terrace.  It is very private and was built with great attention for detail with stunning high ceilings, high quality finishing and a great sense of charm and character throughout. This feeling is instantly emphasized when you enter the villa. Stepping into the house you find yourself in a hallway with a beautiful high ceiling overlooking the living room and the staircase. From that hallway you have access to one bedroom suite, the living room, kitchen and a guest toilet. The bedroom on the ground floor is spacious and features a spacious walk in closet as well as an en-suite bathroom with both a bathtub as well as a shower. The room has a very pleasant view overlooking the garden and pool area. The living room is stylish and unique. It has a high ceiling and a feature wall with television and incorporated cupboards. Its design is warm yet stylish and split into a lounge section and a dining area. From the living room you have direct access to the pool area and also the kitchen. Going outside you have a private pool area with modern terrace furniture to lounge and dine and a nice grass area for the kids to roam around. The area is private and easy to access and overlook from the living room. For those with small kids; there is a possibility to fence the pool if desired. This must be indicated prior to booking. Going up to the first floor you will find two more bedrooms. Each spacious, beautiful wooden floors and with their own en-suite bathrooms. The 4th bedroom can be found in the minus one level. It is accessed when walking down from the hallway and through the garage area. It also has an en-suite bathroom and being a little more away from the rest is ideal for staff or teenagers or those that appreciate a bit more privacy. There is A/C throughout the villa, and wifi. There is secure gated parking for 1 car and space for 1 more in the garage. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to welcoming you!",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -75,21 +75,22 @@
     {
       "room": "Bedroom 4",
       "bed": "Double bed"
+    },
+    {
+      "room": "Common spaces",
+      "bed": "Extra bed"
     }
   ],
   "features": [
     "Garden views",
     "Mountain views",
     "Pool views",
-    "Private pool",
-    "Air-conditioned",
-    "Central heating",
     "Fenced garden",
-    "Alarm system",
-    "Secured parking",
     "Dryer",
-    "Outdoor shower",
-    "Laptop workspace"
+    "Alarm system",
+    "Central heating",
+    "Private pool",
+    "Secured parking"
   ],
   "distances": [
     {
@@ -122,10 +123,17 @@
     }
   ],
   "services_included": [
-    "Air conditioning: Included Final Cleaning: € 500.00   / booking Heating: Included Internet Access: Included garage and car park: Included Towels:  Included"
+    "Air conditioning: Included",
+    "Final Cleaning: € 500.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "garage and car park: Included",
+    "Towels:  Included"
   ],
   "services_optional": [
-    "Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Extra beds: € 100.00   / booking"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Extra beds: € 100.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

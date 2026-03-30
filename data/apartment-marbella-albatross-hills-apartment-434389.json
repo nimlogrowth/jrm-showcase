@@ -2,9 +2,15 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-marbella-albatross-hills-apartment-434389.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-marbella-albatross-hills-apartment-434389.html",
   "slug": "apartment-marbella-albatross-hills-apartment-434389",
-  "type": "Apartment",
-  "location": "Marbella",
   "name": "Albatross Hills Apartment",
+  "location": "Marbella",
+  "type": "Apartment",
+  "guests": "4",
+  "bedrooms": "2",
+  "bathrooms": "5",
+  "area": "160 m²",
+  "plot": "",
+  "description": "A lovely and large 2-bedroom apartment in the Golf Valley!\n\nThis fine and spacious apartment, located in a wonderful complex close to Puerto Banus has been designed and decorated to be the perfect holiday home. It is light, modern, well equipped and has a large terrace with ample space to relax and soak in the atmosphere!\n\nThe apartment provides a feeling of spaciousness with a modern open plan living and dining area with a beautiful long glass table that sits 6.\n\nThe living room is fitted with two large and comfortable sofas from where you can enjoy the Smart TV. The kitchen sits to the side and is finished perfectly with wooden fittings and all you would need to explore your favourite recipes! It also holds a charming, round breakfast table towards the end of it.\n\nFrom the living room, you step out through the large sliding glass doors into the beautifully decorated outside terrace where you will find plenty of space to relax and switch off from all your stress. There is a lounge corner and coffee place, an outdoor dining table that sits 6, a BBQ, and a set of lawn chairs and sun loungers for you to enjoy the bright summer days!\n\nHeaded back inside, there are two bedrooms on either side of the hallway. The master bedroom sits to the left-hand side and has direct access to the terrace and an ensuite bathroom with both a walk-in shower and a jacuzzi bathtub. The second bedroom sits to the right and is just as spacious with its own ensuite bathroom with a shower/bathtub. The second bedroom also has a little tucked-away office space with a desk where you can get a little bit of work done peacefully whenever you may need to. There is also an additional guest toilet near the entry of the apartment.\n\nFurther features include hot/cold aircon, underfloor heating in the bathrooms, wifi, underground parking, an alarm system, and 24-hour security.\n\nThe beautiful tropical communal gardens are extensive and well-maintained and offer large pool areas for you to enjoy. There are 4 outdoor pools, and 1 indoor heated pool for all-year-round enjoyment, not to mention tennis courts and a gym which make this complex the complete package for your Marbella getaway!\n\nPuerto Banus is no more than a 6-minute drive away and has one of the most popular beaches in Marbella. La Cañada shopping Centre is roughly 10 minutes away on the highway and Marbella Old Town sits a similar distance away.\n\nPlease note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.\n\nWe look forward to welcoming you!",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/168632119383ee4c245ba75d0f280de317f708ac36/1686321195720fe7d4b938747dc71ed7083162db14.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/168632119383ee4c245ba75d0f280de317f708ac36/1686321197bc8e74b23edbc75adeefb8434b5895cf.jpg",
@@ -41,12 +47,6 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/168632119383ee4c245ba75d0f280de317f708ac36/168632121379e6b3a657a9c07e24d9efe276df8bc8.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/168632119383ee4c245ba75d0f280de317f708ac36/16863211949be479b41372b9b8f502000fbedc700a.jpg"
   ],
-  "guests": "4",
-  "bedrooms": "2",
-  "bathrooms": "5",
-  "area": "160 m²",
-  "plot": "",
-  "description": "A lovely and large 2-bedroom apartment in the Golf Valley! This fine and spacious apartment, located in a wonderful complex close to Puerto Banus has been designed and decorated to be the perfect holiday home. It is light, modern, well equipped and has a large terrace with ample space to relax and soak in the atmosphere! The apartment provides a feeling of spaciousness with a modern open plan living and dining area with a beautiful long glass table that sits 6. The living room is fitted with two large and comfortable sofas from where you can enjoy the Smart TV. The kitchen sits to the side and is finished perfectly with wooden fittings and all you would need to explore your favourite recipes! It also holds a charming, round breakfast table towards the end of it. From the living room, you step out through the large sliding glass doors into the beautifully decorated outside terrace where you will find plenty of space to relax and switch off from all your stress. There is a lounge corner and coffee place, an outdoor dining table that sits 6, a BBQ, and a set of lawn chairs and sun loungers for you to enjoy the bright summer days! Headed back inside, there are two bedrooms on either side of the hallway. The master bedroom sits to the left-hand side and has direct access to the terrace and an ensuite bathroom with both a walk-in shower and a jacuzzi bathtub. The second bedroom sits to the right and is just as spacious with its own ensuite bathroom with a shower/bathtub. The second bedroom also has a little tucked-away office space with a desk where you can get a little bit of work done peacefully whenever you may need to. There is also an additional guest toilet near the entry of the apartment. Further features include hot/cold aircon, underfloor heating in the bathrooms, wifi, underground parking, an alarm system, and 24-hour security. The beautiful tropical communal gardens are extensive and well-maintained and offer large pool areas for you to enjoy. There are 4 outdoor pools, and 1 indoor heated pool for all-year-round enjoyment, not to mention tennis courts and a gym which make this complex the complete package for your Marbella getaway! Puerto Banus is no more than a 6-minute drive away and has one of the most popular beaches in Marbella. La Cañada shopping Centre is roughly 10 minutes away on the highway and Marbella Old Town sits a similar distance away. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to welcoming you!",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -60,14 +60,13 @@
   "features": [
     "Garden views",
     "Pool views",
-    "Communal pool",
-    "Air-conditioned",
-    "Central heating",
-    "Underfloor heating",
     "BBQ",
-    "Gym / fitness",
     "Tennis court",
-    "Laptop workspace",
+    "Gym / fitness",
+    "Central heating",
+    "Air-conditioned",
+    "Communal pool",
+    "Underfloor heating",
     "100 m² terrace"
   ],
   "distances": [
@@ -113,10 +112,17 @@
     }
   ],
   "services_included": [
-    "Air conditioning: Included Final Cleaning: € 160.00   / booking Heating: Included Internet Access: Included garage and car park: Included Towels:  Included"
+    "Air conditioning: Included",
+    "Final Cleaning: € 160.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "garage and car park: Included",
+    "Towels:  Included"
   ],
   "services_optional": [
-    "Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heated Pool: Included"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Heated Pool: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

@@ -2,9 +2,15 @@
   "url": "https://www.justrentmarbella.com/rentals/villa-marbella-villa-di-lusso-383272.html",
   "source_url": "https://www.justrentmarbella.com/rentals/villa-marbella-villa-di-lusso-383272.html",
   "slug": "villa-marbella-villa-di-lusso-383272",
-  "type": "Villa",
-  "location": "Marbella",
   "name": "Villa Di Lusso",
+  "location": "Marbella",
+  "type": "Villa",
+  "guests": "12",
+  "bedrooms": "5",
+  "bathrooms": "7",
+  "area": "300 m²",
+  "plot": "",
+  "description": "Villa Di Lusso is the perfect holiday home for families or groups of friends! Refurbished to a high standard, with 5 bedrooms, ample living and entertainment areas, a large swimming pool and very convenient location, it is the ideal home for your holiday in Marbella.\n\nThe villa offers a modern layout and décor.  On the entrance level there are 5 double bedrooms: 1 double with access to the terrace with sea views; One twin room with ensuite shower room; one room with 2 bunk beds, 1 further double with a small balcony overlooking the pool, and an ensuite master double bedroom with access to the terrace. There is a guest loo, a shared bathroom and a large living room with access to the terrace, a large TV and feature fireplace.\n\nDownstairs, there is a fantastic entertainment/games room that leads out to the pool and garden. There is a bar area, lounge area, TV, pool table and table-tennis set. There is a guest loo and access to the laundry room.\n\nJust off the games room, separated by sliding doors, is the kitchen/dining area and a TV lounge. The kitchen is fully equipped with the latest appliances. The centre island also provides bar seating. There is access to the lower terrace with outdoor lounge and dining furniture.\n\nThe large swimming pool is surrounded by a great terrace with plenty of lounge and terrace furniture and sunbeds and a fantastic outdoor kitchen area with a sink, wine fridge and gas BBQ.\n\nThere is also the Roof Terrace with magnificent sea views, a bar area, sun loungers and outdoor seating.\n\nThere is central heating and aircon throughout the villa and SONOS speakers downstairs in the entertainment areas.\n\nVilla Di Lusso offers luxurious holiday accommodation with endless entertainment options. Furthermore, it is in walking distance to the beach with a pedestrian foot bridge at the bottom of the road. On this beach there is the Opium Beach Club and Restaurant and Jet skis and other water sports’ equipment for hire.\n\nA 5-minute car journey will get you to the La Cañada shopping centre and in 10 minutes you’ll be in the historical Old Town of Marbella.\n\nPlease note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.\n\nWe look forward to welcoming you.",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/1647518816a735f55135ad6a3bbd73bed32438609d/17428225782b3f7bcd5d79cd48ff2707c5e1a8a1fa.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1647518816a735f55135ad6a3bbd73bed32438609d/1747666322501209f82cd75154e97573c25feec890.jpg",
@@ -57,16 +63,10 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/1647518816a735f55135ad6a3bbd73bed32438609d/1747666345109e61bb407dce873d477a83ad3f4d5d.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1647518816a735f55135ad6a3bbd73bed32438609d/174766634554e46e87abb2514da3cd7f569f08cbed.jpg"
   ],
-  "guests": "12",
-  "bedrooms": "5",
-  "bathrooms": "7",
-  "area": "300 m²",
-  "plot": "",
-  "description": "Villa Di Lusso is the perfect holiday home for families or groups of friends! Refurbished to a high standard, with 5 bedrooms, ample living and entertainment areas, a large swimming pool and very convenient location, it is the ideal home for your holiday in Marbella. The villa offers a modern layout and décor.  On the entrance level there are 5 double bedrooms: 1 double with access to the terrace with sea views; One twin room with ensuite shower room; one room with 2 bunk beds, 1 further double with a small balcony overlooking the pool, and an ensuite master double bedroom with access to the terrace. There is a guest loo, a shared bathroom and a large living room with access to the terrace, a large TV and feature fireplace. Downstairs, there is a fantastic entertainment/games room that leads out to the pool and garden. There is a bar area, lounge area, TV, pool table and table-tennis set. There is a guest loo and access to the laundry room. Just off the games room, separated by sliding doors, is the kitchen/dining area and a TV lounge. The kitchen is fully equipped with the latest appliances. The centre island also provides bar seating. There is access to the lower terrace with outdoor lounge and dining furniture. The large swimming pool is surrounded by a great terrace with plenty of lounge and terrace furniture and sunbeds and a fantastic outdoor kitchen area with a sink, wine fridge and gas BBQ. There is also the Roof Terrace with magnificent sea views, a bar area, sun loungers and outdoor seating. There is central heating and aircon throughout the villa and SONOS speakers downstairs in the entertainment areas. Villa Di Lusso offers luxurious holiday accommodation with endless entertainment options. Furthermore, it is in walking distance to the beach with a pedestrian foot bridge at the bottom of the road. On this beach there is the Opium Beach Club and Restaurant and Jet skis and other water sports’ equipment for hire. A 5-minute car journey will get you to the La Cañada shopping centre and in 10 minutes you’ll be in the historical Old Town of Marbella. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to welcoming you.",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
-      "bed": "Bunk bed"
+      "bed": "Bunk beds"
     },
     {
       "room": "Bedroom 2",
@@ -78,7 +78,7 @@
     },
     {
       "room": "Bedroom 4",
-      "bed": "Single bed"
+      "bed": "Single beds"
     },
     {
       "room": "Bedroom 5",
@@ -90,19 +90,18 @@
     "Garden views",
     "Mountain views",
     "Pool views",
-    "Private heated pool",
-    "Private pool",
-    "Air-conditioned",
-    "Central heating",
-    "BBQ",
     "Fenced garden",
-    "Alarm system",
+    "BBQ",
     "Fireplace",
-    "Secured parking",
+    "Balcony",
+    "Alarm system",
+    "Central heating",
+    "Private pool",
+    "Private heated pool",
     "Ping pong",
     "Darts",
+    "Secured parking",
     "Ocean views",
-    "Balcony",
     "50 m² terrace"
   ],
   "distances": [
@@ -148,10 +147,17 @@
     }
   ],
   "services_included": [
-    "Air conditioning: Included Final Cleaning: € 550.00   / booking Heating: Included Internet Access: Included Open-air parking: Included Towels:  Included"
+    "Air conditioning: Included",
+    "Final Cleaning: € 550.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "Open-air parking: Included",
+    "Towels:  Included"
   ],
   "services_optional": [
-    "Baby high chair: € 25.00   / booking Bed linen: Included Cot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking",
+    "Bed linen: Included",
+    "Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

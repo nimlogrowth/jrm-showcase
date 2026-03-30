@@ -2,9 +2,15 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-marbella-jardines-del-med-546679.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-marbella-jardines-del-med-546679.html",
   "slug": "apartment-marbella-jardines-del-med-546679",
-  "type": "Apartment",
-  "location": "Marbella",
   "name": "Jardines del Med",
+  "location": "Marbella",
+  "type": "Apartment",
+  "guests": "4",
+  "bedrooms": "2",
+  "bathrooms": "3",
+  "area": "100 m²",
+  "plot": "",
+  "description": "Welcome to Jardines del Med, a beautifully presented 2-bedroom, 2-bathroom apartment located in the heart of Marbella’s prestigious Golden Mile. Nestled just behind the iconic 5-star Melia Hotel and only steps from the beach, this property offers an unbeatable location that combines seaside tranquility with the vibrant lifestyle of Marbella.\n\nThe apartment boasts a bright and elegant interior with stylish furnishings and generous natural light throughout. The open-plan living and dining area connects seamlessly to a private terrace, perfect for morning coffees or evening drinks. Both bedrooms are spacious and tastefully decorated, while the bathrooms are modern and well-appointed, offering comfort and convenience. The fully equipped kitchen makes home dining easy, though you’ll be spoiled for choice with world-class restaurants and beach clubs—like Puente Romano—within walking distance.\n\nThis second-line beach property is a dream for anyone looking to enjoy Marbella at its finest. From luxury boutiques and trendy cafes to serene coastal walks and golden sands right next door, everything you need is just a short stroll away.\n\nWhether you're here to unwind or indulge, Jardines del Med delivers the best of both worlds in one of the most desirable addresses in Marbella.\n\nPlease note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/3/1745053871731ea14a3086e70f3de7f78bddcf91da/17450538729fc7283b1e410bf18d2f884820cfa2d9.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/1745053871731ea14a3086e70f3de7f78bddcf91da/17450538730f0373534904ea6bb05d5ca88dd47043.jpg",
@@ -27,28 +33,24 @@
     "https://www.justrentmarbella.com/rentals/fotos/3/1745053871731ea14a3086e70f3de7f78bddcf91da/17450538794d3bc017fce6e712970b877293f11a1b.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/1745053871731ea14a3086e70f3de7f78bddcf91da/174505387952494eae703fe5e080edf6443b374af9.jpg"
   ],
-  "guests": "4",
-  "bedrooms": "2",
-  "bathrooms": "3",
-  "area": "100 m²",
-  "plot": "",
-  "description": "Welcome to Jardines del Med, a beautifully presented 2-bedroom, 2-bathroom apartment located in the heart of Marbella’s prestigious Golden Mile. Nestled just behind the iconic 5-star Melia Hotel and only steps from the beach, this property offers an unbeatable location that combines seaside tranquility with the vibrant lifestyle of Marbella. The apartment boasts a bright and elegant interior with stylish furnishings and generous natural light throughout. The open-plan living and dining area connects seamlessly to a private terrace, perfect for morning coffees or evening drinks. Both bedrooms are spacious and tastefully decorated, while the bathrooms are modern and well-appointed, offering comfort and convenience. The fully equipped kitchen makes home dining easy, though you’ll be spoiled for choice with world-class restaurants and beach clubs—like Puente Romano—within walking distance. This second-line beach property is a dream for anyone looking to enjoy Marbella at its finest. From luxury boutiques and trendy cafes to serene coastal walks and golden sands right next door, everything you need is just a short stroll away. Whether you're here to unwind or indulge, Jardines del Med delivers the best of both worlds in one of the most desirable addresses in Marbella. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.",
   "bedrooms_detail": [
     {
+      "room": "Bedroom 1",
+      "bed": "Queen size bed"
+    },
+    {
       "room": "Bedroom 2",
-      "bed": "Single bed"
+      "bed": "Single beds"
     }
   ],
   "features": [
     "Garden views",
     "Pool views",
-    "Communal pool",
-    "Air-conditioned",
-    "Central heating",
     "Lift",
-    "Secured parking",
     "Balcony",
-    "Pool towels",
+    "Central heating",
+    "Communal pool",
+    "Secured parking",
     "15 m² terrace"
   ],
   "distances": [
@@ -86,17 +88,22 @@
     }
   ],
   "services_included": [
-    "Final Cleaning: € 180.00   / booking Internet Access: Included Garage: Included Towels:  Included"
+    "Final Cleaning: € 180.00   / booking",
+    "Internet Access: Included",
+    "Garage: Included",
+    "Towels:  Included"
   ],
   "services_optional": [
-    "Air conditioning: Included Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heating: Included"
+    "Air conditioning: Included",
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Heating: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
   "deposit": "€750.00",
   "rules": [
-    "No pets",
-    "No groups under 30 years of age"
+    "No pets"
   ],
   "registration": "VFT/MA/55080",
   "map_query": "Jardines del Med, Marbella, Costa del Sol, Spain"

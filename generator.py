@@ -95,7 +95,13 @@ def build_property_page(prop):
     bathrooms = esc(prop.get("bathrooms", ""))
     area = esc(prop.get("area", ""))
     plot = esc(prop.get("plot", ""))
-    description = esc(prop.get("description", ""))
+    raw_desc = prop.get("description", "")
+    # Build paragraph HTML from newline-separated text
+    desc_paragraphs = [p.strip() for p in raw_desc.split("\n\n") if p.strip()]
+    if desc_paragraphs:
+        description_html = "\n    ".join('<p>' + esc(p) + '</p>' for p in desc_paragraphs)
+    else:
+        description_html = '<p>' + esc(raw_desc) + '</p>'
     registration = esc(prop.get("registration", ""))
     checkin = esc(prop.get("checkin", ""))
     checkout = esc(prop.get("checkout", ""))
@@ -569,7 +575,7 @@ def build_property_page(prop):
 
   <div class="section">
     <h2 class="section-title">About the Property</h2>
-    <p>{description}</p>
+    {description_html}
   </div>
 
   {bedrooms_section}

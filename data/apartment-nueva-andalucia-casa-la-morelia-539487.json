@@ -2,9 +2,15 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-nueva-andalucia-casa-la-morelia-539487.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-nueva-andalucia-casa-la-morelia-539487.html",
   "slug": "apartment-nueva-andalucia-casa-la-morelia-539487",
-  "type": "Apartment",
-  "location": "Nueva andalucia",
   "name": "Casa La Morelia",
+  "location": "Nueva andalucia",
+  "type": "Apartment",
+  "guests": "4",
+  "bedrooms": "2",
+  "bathrooms": "2",
+  "area": "154 m²",
+  "plot": "",
+  "description": "Welcome to Casa La Morelia, a beautifully designed 2-bedroom, 2-bathroom retreat tucked into the hillside of Nueva Andalucía, offering breathtaking panoramic views of the Mediterranean. This stylish hideaway combines indoor comfort with seamless outdoor living, delivering a peaceful escape just minutes from the beaches and energy of Puerto Banús.\n\nInside, the home is bright, open, and tastefully furnished. The living area opens completely to the terrace thanks to full-width sliding windows that disappear into the wall, creating an effortless flow between indoors and out. The master bedroom features a plush double bed and an en-suite bathroom, while the second bedroom offers two twin beds and its own en-suite — making it perfect for families or friends travelling together.\n\nStep outside and you’ll find the heart of Casa La Morelia: a private terrace with a plunge pool, two sun loungers, and a sleek outdoor kitchen and BBQ area. Whether you're enjoying a lazy breakfast with the sea view as your backdrop or grilling dinner as the sun sets, this terrace is designed for unforgettable moments in the open air.\n\nLocated in a quiet, elevated area of Nueva Andalucía, you're just a short drive from Marbella's most desirable golf courses, restaurants, and beach clubs. With Puerto Banús, San Pedro, and the Golden Mile all within easy reach, Casa La Morelia is your private slice of paradise on the Costa del Sol.\n\nPlease note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/3/17446420619ffdda15cdc9bc020f9e946e4c69e6d7/174464206222f1726e65a87f8a85c3f851a84369a3.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/17446420619ffdda15cdc9bc020f9e946e4c69e6d7/1744642062a55762c9036050f0c8e79dbb8bd6254d.jpg",
@@ -27,12 +33,6 @@
     "https://www.justrentmarbella.com/rentals/fotos/3/17446420619ffdda15cdc9bc020f9e946e4c69e6d7/1744642070ddaf44b937e0eb131aaa6afe0fe93328.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/17446420619ffdda15cdc9bc020f9e946e4c69e6d7/1744642070009c5c6d944f263ad79a1ef10cfacead.jpg"
   ],
-  "guests": "4",
-  "bedrooms": "2",
-  "bathrooms": "2",
-  "area": "154 m²",
-  "plot": "",
-  "description": "Welcome to Casa La Morelia, a beautifully designed 2-bedroom, 2-bathroom retreat tucked into the hillside of Nueva Andalucía, offering breathtaking panoramic views of the Mediterranean. This stylish hideaway combines indoor comfort with seamless outdoor living, delivering a peaceful escape just minutes from the beaches and energy of Puerto Banús. Inside, the home is bright, open, and tastefully furnished. The living area opens completely to the terrace thanks to full-width sliding windows that disappear into the wall, creating an effortless flow between indoors and out. The master bedroom features a plush double bed and an en-suite bathroom, while the second bedroom offers two twin beds and its own en-suite — making it perfect for families or friends travelling together. Step outside and you’ll find the heart of Casa La Morelia: a private terrace with a plunge pool, two sun loungers, and a sleek outdoor kitchen and BBQ area. Whether you're enjoying a lazy breakfast with the sea view as your backdrop or grilling dinner as the sun sets, this terrace is designed for unforgettable moments in the open air. Located in a quiet, elevated area of Nueva Andalucía, you're just a short drive from Marbella's most desirable golf courses, restaurants, and beach clubs. With Puerto Banús, San Pedro, and the Golden Mile all within easy reach, Casa La Morelia is your private slice of paradise on the Costa del Sol. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -40,7 +40,7 @@
     },
     {
       "room": "Bedroom 2",
-      "bed": "Single bed"
+      "bed": "Single beds"
     }
   ],
   "features": [
@@ -48,14 +48,12 @@
     "Golf",
     "Mountain views",
     "Pool views",
-    "Private pool",
-    "Air-conditioned",
-    "Central heating",
-    "BBQ",
-    "Secured parking",
     "Dryer",
+    "BBQ",
     "Balcony",
-    "Pool towels",
+    "Central heating",
+    "Private pool",
+    "Secured parking",
     "71 m² terrace"
   ],
   "distances": [
@@ -97,10 +95,16 @@
     }
   ],
   "services_included": [
-    "Final Cleaning: € 190.00   / booking Internet Access: Included Garage: Included Towels:  Included"
+    "Final Cleaning: € 190.00   / booking",
+    "Internet Access: Included",
+    "Garage: Included",
+    "Towels:  Included"
   ],
   "services_optional": [
-    "Air conditioning: Included Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heating: Included"
+    "Air conditioning: Included",
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Heating: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

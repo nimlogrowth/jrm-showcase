@@ -2,9 +2,15 @@
   "url": "https://www.justrentmarbella.com/rentals/terraced-house-marbella-beach-townhouse-563316.html",
   "source_url": "https://www.justrentmarbella.com/rentals/terraced-house-marbella-beach-townhouse-563316.html",
   "slug": "terraced-house-marbella-beach-townhouse-563316",
-  "type": "Terraced House",
-  "location": "Marbella",
   "name": "Beach Townhouse",
+  "location": "Marbella",
+  "type": "Terraced House",
+  "guests": "8",
+  "bedrooms": "4",
+  "bathrooms": "4",
+  "area": "128 m²",
+  "plot": "",
+  "description": "This charming 4-bedroom, 3-bathroom townhouse is perfectly positioned on the frontline of El Rosario beach, one of Marbella’s most sought-after coastal stretches. With direct beach access and uninterrupted views of the Mediterranean Sea, it offers the ideal setting for guests seeking sun, sea, and serenity. Step out your front door and within seconds you'll be walking on the sand or enjoying some of Marbella’s most beloved beachfront restaurants.\n\nInside, the townhouse is bright and welcoming, with a warm, coastal-inspired design that reflects its unbeatable surroundings. The main living area is open and airy, connecting seamlessly to a fully equipped kitchen and dining space. Large windows flood the interiors with natural light and frame the stunning sea views. Upstairs, the four bedrooms are comfortably appointed, with soft linens, built-in wardrobes, and calming decor to ensure restful nights.\n\nOutdoor living is where this property truly shines. A small private garden leads out to the beach path, while a community swimming pool offers a peaceful spot to cool off on warm days. The outdoor kitchen and barbecue area are perfect for long, leisurely meals under the sun or stars, with the sound of waves providing the perfect soundtrack.\n\nSet within a well-kept residential complex, the townhouse offers a secure and tranquil environment and remains a short distance from Marbella. Whether you're looking for a relaxed beach holiday or a base to explore the Costa del Sol, this home offers a rare blend of comfort, location, and authentic Mediterranean charm.\n\nPlease note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/3/17490390479c3ab63b88509db709b45e9ae5faa3ad/1749039048507aba59a6f8f9c47628468590634650.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/17490390479c3ab63b88509db709b45e9ae5faa3ad/1749039048223ea8aea9a1e52694a52142090b7d7a.jpg",
@@ -32,12 +38,6 @@
     "https://www.justrentmarbella.com/rentals/fotos/3/17490390479c3ab63b88509db709b45e9ae5faa3ad/1749039058e0506bffbe62bc23ba419cd8523f576a.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/17490390479c3ab63b88509db709b45e9ae5faa3ad/1749039059803e1dc5d2cede7cd119e81311638489.jpg"
   ],
-  "guests": "8",
-  "bedrooms": "4",
-  "bathrooms": "4",
-  "area": "128 m²",
-  "plot": "",
-  "description": "This charming 4-bedroom, 3-bathroom townhouse is perfectly positioned on the frontline of El Rosario beach, one of Marbella’s most sought-after coastal stretches. With direct beach access and uninterrupted views of the Mediterranean Sea, it offers the ideal setting for guests seeking sun, sea, and serenity. Step out your front door and within seconds you'll be walking on the sand or enjoying some of Marbella’s most beloved beachfront restaurants. Inside, the townhouse is bright and welcoming, with a warm, coastal-inspired design that reflects its unbeatable surroundings. The main living area is open and airy, connecting seamlessly to a fully equipped kitchen and dining space. Large windows flood the interiors with natural light and frame the stunning sea views. Upstairs, the four bedrooms are comfortably appointed, with soft linens, built-in wardrobes, and calming decor to ensure restful nights. Outdoor living is where this property truly shines. A small private garden leads out to the beach path, while a community swimming pool offers a peaceful spot to cool off on warm days. The outdoor kitchen and barbecue area are perfect for long, leisurely meals under the sun or stars, with the sound of waves providing the perfect soundtrack. Set within a well-kept residential complex, the townhouse offers a secure and tranquil environment and remains a short distance from Marbella. Whether you're looking for a relaxed beach holiday or a base to explore the Costa del Sol, this home offers a rare blend of comfort, location, and authentic Mediterranean charm. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -53,7 +53,7 @@
     },
     {
       "room": "Bedroom 4",
-      "bed": "Single bed"
+      "bed": "Single beds"
     }
   ],
   "features": [
@@ -61,14 +61,14 @@
     "Garden views",
     "Mountain views",
     "Pool views",
-    "Communal pool",
-    "Central heating",
-    "BBQ",
     "Fenced garden",
+    "BBQ",
     "Fireplace",
+    "Balcony",
+    "Central heating",
+    "Communal pool",
     "Secured parking",
-    "Ocean views",
-    "Balcony"
+    "Ocean views"
   ],
   "distances": [
     {
@@ -105,10 +105,16 @@
     }
   ],
   "services_included": [
-    "Final Cleaning: € 400.00   / booking Internet Access: Included Open-air parking: Included Towels:  Included"
+    "Final Cleaning: € 400.00   / booking",
+    "Internet Access: Included",
+    "Open-air parking: Included",
+    "Towels:  Included"
   ],
   "services_optional": [
-    "Air conditioning: Included Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heating: Included"
+    "Air conditioning: Included",
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Heating: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

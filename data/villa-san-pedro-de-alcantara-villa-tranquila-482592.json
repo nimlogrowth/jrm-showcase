@@ -2,9 +2,15 @@
   "url": "https://www.justrentmarbella.com/rentals/villa-san-pedro-de-alcantara-villa-tranquila-482592.html",
   "source_url": "https://www.justrentmarbella.com/rentals/villa-san-pedro-de-alcantara-villa-tranquila-482592.html",
   "slug": "villa-san-pedro-de-alcantara-villa-tranquila-482592",
-  "type": "Villa",
-  "location": "San Pedro de Alcántara",
   "name": "Villa Tranquila",
+  "location": "San Pedro de Alcántara",
+  "type": "Villa",
+  "guests": "8",
+  "bedrooms": "4",
+  "bathrooms": "5",
+  "area": "290 m²",
+  "plot": "500 m²",
+  "description": "Embraced by the tranquil ambiance of Guadalmina Alta, Villa Tranquila invites you to experience the essence of serenity during your Marbella retreat. This exquisite 4-bedroom villa, all ensuite for your utmost comfort, offers an idyllic home for families seeking a memorable holiday experience.\n\nConveniently located with easy access to the A7 highway, Villa Tranquila ensures seamless connectivity to Marbella city, Puerto Banus, and Estepona, while being just moments away from the charming town of San Pedro.\n\nStep into a world of leisure as you discover the lovely outdoor terrace spaces surrounding the pool area, complemented by lush gardens that envelop the house. Delight in alfresco dining and leisurely lounging in the inviting outdoor seating areas, creating unforgettable moments with your loved ones.\n\nThe villa boasts a variety of meticulously designed spaces, each exuding modern elegance and comfort, catering to every member of the family. Stay active in the home gym or engage in friendly competition with the mini ping pong table, promising endless entertainment for all ages.\n\nFor culinary enthusiasts, the outdoor barbecue sets the stage for memorable dining experiences under the Mediterranean sun or starry skies, creating cherished memories to last a lifetime.\n\nVilla Tranquila offers not only a sanctuary of calm but also convenient access to nearby golf courses, restaurants, shops, and cafes, ensuring every moment of your stay is filled with ease and enjoyment.\n\nEscape to Villa Tranquila and indulge in a dream family holiday amidst the enchanting landscape of Marbella. Your perfect getaway awaits.\n\nWe look forward to welcoming you.",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/1713972833a9d4633853b4eddaa35dc240aa14105f/1713972838f9bba105d55c354ec2e932cc7183f96a.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1713972833a9d4633853b4eddaa35dc240aa14105f/17139728515c1729a1b6a0ad2a2c35e4f4a4ab3607.jpg",
@@ -64,12 +70,6 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/1713972833a9d4633853b4eddaa35dc240aa14105f/171397285654f2f3d006b51bc9624643087dc63d76.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1713972833a9d4633853b4eddaa35dc240aa14105f/1713972857b409ba1c4a8863333e3f921316634cbb.jpg"
   ],
-  "guests": "8",
-  "bedrooms": "4",
-  "bathrooms": "5",
-  "area": "290 m²",
-  "plot": "500 m²",
-  "description": "Embraced by the tranquil ambiance of Guadalmina Alta, Villa Tranquila invites you to experience the essence of serenity during your Marbella retreat. This exquisite 4-bedroom villa, all ensuite for your utmost comfort, offers an idyllic home for families seeking a memorable holiday experience. Conveniently located with easy access to the A7 highway, Villa Tranquila ensures seamless connectivity to Marbella city, Puerto Banus, and Estepona, while being just moments away from the charming town of San Pedro. Step into a world of leisure as you discover the lovely outdoor terrace spaces surrounding the pool area, complemented by lush gardens that envelop the house. Delight in alfresco dining and leisurely lounging in the inviting outdoor seating areas, creating unforgettable moments with your loved ones. The villa boasts a variety of meticulously designed spaces, each exuding modern elegance and comfort, catering to every member of the family. Stay active in the home gym or engage in friendly competition with the mini ping pong table, promising endless entertainment for all ages. For culinary enthusiasts, the outdoor barbecue sets the stage for memorable dining experiences under the Mediterranean sun or starry skies, creating cherished memories to last a lifetime. Villa Tranquila offers not only a sanctuary of calm but also convenient access to nearby golf courses, restaurants, shops, and cafes, ensuring every moment of your stay is filled with ease and enjoyment. Escape to Villa Tranquila and indulge in a dream family holiday amidst the enchanting landscape of Marbella. Your perfect getaway awaits. We look forward to welcoming you.",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -92,24 +92,22 @@
     "Garden views",
     "Mountain views",
     "Pool views",
-    "Private pool",
-    "Air-conditioned",
-    "Central heating",
-    "BBQ",
     "Fenced garden",
+    "Dryer",
+    "BBQ",
+    "Balcony",
     "Gym / fitness",
     "Alarm system",
-    "Secured parking",
+    "Central heating",
+    "Private pool",
     "Ping pong",
-    "Dryer",
-    "Balcony",
-    "Laptop workspace",
+    "Secured parking",
     "30 m² terrace"
   ],
   "distances": [
     {
       "place": "Airport",
-      "distance": "60 km"
+      "distance": "60 m"
     },
     {
       "place": "Golf course",
@@ -141,10 +139,16 @@
     }
   ],
   "services_included": [
-    "Air conditioning: Included Final Cleaning: € 600.00   / booking Heating: Included Internet Access: Included garage and car park: Included Towels:  Included"
+    "Air conditioning: Included",
+    "Final Cleaning: € 600.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "garage and car park: Included",
+    "Towels:  Included"
   ],
   "services_optional": [
-    "Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

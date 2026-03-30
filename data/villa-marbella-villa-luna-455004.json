@@ -2,9 +2,15 @@
   "url": "https://www.justrentmarbella.com/rentals/villa-marbella-villa-luna-455004.html",
   "source_url": "https://www.justrentmarbella.com/rentals/villa-marbella-villa-luna-455004.html",
   "slug": "villa-marbella-villa-luna-455004",
-  "type": "Villa",
-  "location": "Marbella",
   "name": "Villa Luna",
+  "location": "Marbella",
+  "type": "Villa",
+  "guests": "10",
+  "bedrooms": "5",
+  "bathrooms": "6",
+  "area": "290 m²",
+  "plot": "610 m²",
+  "description": "Introducing your Dream Mediterranean Retreat: Villa Luna\n\nNestled in the prestigious Hacienda Las Chapas community on the sun-soaked East side of Marbella, this stunning villa invites you to indulge in the perfect holiday experience. Boasting an array of enticing features and comfort, this short-term rental villa is a haven for those seeking relaxation, leisure, and breathtaking sea views.\n\nSpectacular Sea Views: Imagine waking up and gazing out at the azure horizon from your south-facing villa. This property offers captivating open views of the Mediterranean Sea that stretch as far as the eye can see. Whether you're savoring morning coffee on the terrace or enjoying a sunset cocktail by the pool, the awe-inspiring sea views are a constant companion.\n\nElegant Living Spaces: With 5 spacious bedrooms, each equipped with its own en-suite bathroom, this villa effortlessly accommodates your family and guests. The villa features a spacious American kitchen, a culinary haven where you can whip up delicious meals. Step out to the backside garden with a cozy breakfast area, or enjoy your dining experience on the terrace with a backdrop of sea and sky.\n\nIndoor-Outdoor Bliss: The living room seamlessly connects with the terrace and pool area, creating a harmonious flow between indoor and outdoor living. Lounge on the sun loungers, take a refreshing dip in the pool, or savor a delectable al fresco meal at the dining table. Every moment spent here is imbued with serenity and charm.\n\nSport and Security: As a guest of this villa, you'll have exclusive access to the communal tennis court, perfect for a friendly match or a spirited workout. Plus, you can enjoy peace of mind with 24-hour security surveillance within the Hacienda Las Chapas community, ensuring your safety and tranquility.\n\nPrime Location: Convenience is key, and this villa offers it in abundance. Only 35 minutes from the airport, you'll spend less time traveling and more time savoring the Marbella lifestyle. Some of Marbella's finest beaches are just a few minutes drive away, inviting you to bask in the sun and frolic in the clear waters of the Mediterranean.\n\nFamily-Friendly Features: Your little ones will adore the spacious grass pitch, a perfect playground for their boundless energy. The property provides ample parking for two cars on the driveway, ensuring your peace of mind and convenience during your stay.\n\nYour Mediterranean escape awaits, promising unparalleled comfort, stunning views, and a wealth of amenities. Don't miss this opportunity to create cherished memories in this captivating Marbella villa. Book your stay today and let the tranquility envelop you.\n\nPlease note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/1701185611542ee4f12853e88d08b062ddc3f3c733/17011856311bc61f49485974a23d320f9b780d2aca.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1701185611542ee4f12853e88d08b062ddc3f3c733/1701185634ca4ec5011323ad03f3a4155c3cdfcdab.jpg",
@@ -53,12 +59,6 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/1701185611542ee4f12853e88d08b062ddc3f3c733/170118563692d39e465452ef0af9d747a5f042ac46.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1701185611542ee4f12853e88d08b062ddc3f3c733/17011856360fbdfa8b7a278f208d9b7884dd5cd115.jpg"
   ],
-  "guests": "10",
-  "bedrooms": "5",
-  "bathrooms": "6",
-  "area": "290 m²",
-  "plot": "610 m²",
-  "description": "Introducing your Dream Mediterranean Retreat: Villa Luna Nestled in the prestigious Hacienda Las Chapas community on the sun-soaked East side of Marbella, this stunning villa invites you to indulge in the perfect holiday experience. Boasting an array of enticing features and comfort, this short-term rental villa is a haven for those seeking relaxation, leisure, and breathtaking sea views. Spectacular Sea Views: Imagine waking up and gazing out at the azure horizon from your south-facing villa. This property offers captivating open views of the Mediterranean Sea that stretch as far as the eye can see. Whether you're savoring morning coffee on the terrace or enjoying a sunset cocktail by the pool, the awe-inspiring sea views are a constant companion. Elegant Living Spaces: With 5 spacious bedrooms, each equipped with its own en-suite bathroom, this villa effortlessly accommodates your family and guests. The villa features a spacious American kitchen, a culinary haven where you can whip up delicious meals. Step out to the backside garden with a cozy breakfast area, or enjoy your dining experience on the terrace with a backdrop of sea and sky. Indoor-Outdoor Bliss: The living room seamlessly connects with the terrace and pool area, creating a harmonious flow between indoor and outdoor living. Lounge on the sun loungers, take a refreshing dip in the pool, or savor a delectable al fresco meal at the dining table. Every moment spent here is imbued with serenity and charm. Sport and Security: As a guest of this villa, you'll have exclusive access to the communal tennis court, perfect for a friendly match or a spirited workout. Plus, you can enjoy peace of mind with 24-hour security surveillance within the Hacienda Las Chapas community, ensuring your safety and tranquility. Prime Location: Convenience is key, and this villa offers it in abundance. Only 35 minutes from the airport, you'll spend less time traveling and more time savoring the Marbella lifestyle. Some of Marbella's finest beaches are just a few minutes drive away, inviting you to bask in the sun and frolic in the clear waters of the Mediterranean. Family-Friendly Features: Your little ones will adore the spacious grass pitch, a perfect playground for their boundless energy. The property provides ample parking for two cars on the driveway, ensuring your peace of mind and convenience during your stay. Your Mediterranean escape awaits, promising unparalleled comfort, stunning views, and a wealth of amenities. Don't miss this opportunity to create cherished memories in this captivating Marbella villa. Book your stay today and let the tranquility envelop you. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -70,31 +70,29 @@
     },
     {
       "room": "Bedroom 3",
-      "bed": "Single bed"
+      "bed": "Single beds"
     },
     {
       "room": "Bedroom 4",
-      "bed": "Single bed"
+      "bed": "Single beds"
     },
     {
       "room": "Bedroom 5",
-      "bed": "Single bed"
+      "bed": "Single beds"
     }
   ],
   "features": [
     "Sea views",
     "Garden views",
     "Pool views",
-    "Private pool",
-    "Air-conditioned",
-    "Central heating",
-    "BBQ",
     "Fenced garden",
-    "Fireplace",
-    "Secured parking",
     "Dryer",
-    "Laptop workspace",
-    "Pool towels",
+    "BBQ",
+    "Fireplace",
+    "Central heating",
+    "Air-conditioned",
+    "Private pool",
+    "Secured parking",
     "50 m² terrace"
   ],
   "distances": [
@@ -140,10 +138,16 @@
     }
   ],
   "services_included": [
-    "Air conditioning: Included Final Cleaning: € 450.00   / booking Heating: Included Internet Access: Included Open-air parking: Included Towels:  Included"
+    "Air conditioning: Included",
+    "Final Cleaning: € 450.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "Open-air parking: Included",
+    "Towels:  Included"
   ],
   "services_optional": [
-    "Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

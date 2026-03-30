@@ -2,9 +2,15 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-estepona-riviera-playa-530559.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-estepona-riviera-playa-530559.html",
   "slug": "apartment-estepona-riviera-playa-530559",
-  "type": "Apartment",
-  "location": "Estepona",
   "name": "Riviera Playa",
+  "location": "Estepona",
+  "type": "Apartment",
+  "guests": "6",
+  "bedrooms": "3",
+  "bathrooms": "2",
+  "area": "114 m²",
+  "plot": "",
+  "description": "Wake up to the sound of the waves and step straight onto the golden sands—this exceptional beachfront apartment in Estepona places the Mediterranean right at your doorstep.\n\nNestled in a prestigious frontline urbanization and just a short stroll from Estepona’s vibrant port, this fully renovated 3-bedroom, 2-bathroom home offers a rare blend of luxury, comfort, and unrivaled sea views. With nothing but a garden and terrace between you and the beach, you’ll enjoy the ultimate coastal lifestyle from the moment you arrive.\n\nSpanning 114 m², the apartment is designed for effortless elegance. The open-plan living space features custom-made carpentry, a sleek fully fitted kitchen, and an electric fireplace, creating a warm and inviting atmosphere. An additional bioethanol fireplace on the terrace allows you to savor the sea breeze in cozy comfort, no matter the season. Floor-to-ceiling glass doors frame the breathtaking panoramic views, seamlessly blending indoor and outdoor living.\n\nStep outside to 71.22 m² of private terraces and lush garden areas, where you can sip your morning coffee as the sun rises over the sea or unwind with a glass of wine while watching the sunset paint the sky. A large covered terrace with glass curtains ensures year-round enjoyment, while an open terrace provides the perfect spot for sunbathing with the sound of the waves as your soundtrack.\n\nThis gated community offers more than just an unbeatable location—it also boasts a stunning communal pool and beautifully manicured gardens, providing a tranquil retreat after a day at the beach. Shops, restaurants, schools, and transport links are all within easy reach, and several renowned golf courses are just minutes away.\n\nAdditional features include partial underfloor heating, individual air conditioning units, double glazing, electric blinds, and a secure entrance—ensuring both comfort and peace of mind.\n\nPlease note: This property welcomes families and couples only. We do not accept groups under 30 or hen/stag parties. If you fall outside this category but would still like to book, please send us an enquiry with details about your group so we can consider your request.",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/3/17430024177890e3c634a7b411a6a9f0c476c76903/1764067960b751b0f91eb16dd49c29b530fdcf1214.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/17430024177890e3c634a7b411a6a9f0c476c76903/1764067965d8538f4e711fafc0e315ec149d57cc77.jpg",
@@ -33,12 +39,6 @@
     "https://www.justrentmarbella.com/rentals/fotos/3/17430024177890e3c634a7b411a6a9f0c476c76903/1764067969276f8f6d9c1947879fb0008422ebd811.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/17430024177890e3c634a7b411a6a9f0c476c76903/17640679694c4bc89121ba228f4bb031c110df972d.jpg"
   ],
-  "guests": "6",
-  "bedrooms": "3",
-  "bathrooms": "2",
-  "area": "114 m²",
-  "plot": "",
-  "description": "Wake up to the sound of the waves and step straight onto the golden sands—this exceptional beachfront apartment in Estepona places the Mediterranean right at your doorstep. Nestled in a prestigious frontline urbanization and just a short stroll from Estepona’s vibrant port, this fully renovated 3-bedroom, 2-bathroom home offers a rare blend of luxury, comfort, and unrivaled sea views. With nothing but a garden and terrace between you and the beach, you’ll enjoy the ultimate coastal lifestyle from the moment you arrive. Spanning 114 m², the apartment is designed for effortless elegance. The open-plan living space features custom-made carpentry, a sleek fully fitted kitchen, and an electric fireplace, creating a warm and inviting atmosphere. An additional bioethanol fireplace on the terrace allows you to savor the sea breeze in cozy comfort, no matter the season. Floor-to-ceiling glass doors frame the breathtaking panoramic views, seamlessly blending indoor and outdoor living. Step outside to 71.22 m² of private terraces and lush garden areas, where you can sip your morning coffee as the sun rises over the sea or unwind with a glass of wine while watching the sunset paint the sky. A large covered terrace with glass curtains ensures year-round enjoyment, while an open terrace provides the perfect spot for sunbathing with the sound of the waves as your soundtrack. This gated community offers more than just an unbeatable location—it also boasts a stunning communal pool and beautifully manicured gardens, providing a tranquil retreat after a day at the beach. Shops, restaurants, schools, and transport links are all within easy reach, and several renowned golf courses are just minutes away. Additional features include partial underfloor heating, individual air conditioning units, double glazing, electric blinds, and a secure entrance—ensuring both comfort and peace of mind. Please note: This property welcomes families and couples only. We do not accept groups under 30 or hen/stag parties. If you fall outside this category but would still like to book, please send us an enquiry with details about your group so we can consider your request.",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -57,14 +57,13 @@
     "Beach views",
     "Sea views",
     "Garden views",
-    "Communal pool",
-    "Central heating",
     "Fenced garden",
+    "Dryer",
     "Fireplace",
+    "Central heating",
+    "Communal pool",
     "Secured parking",
     "Ocean views",
-    "Dryer",
-    "Pool towels",
     "71 m² terrace"
   ],
   "distances": [
@@ -110,10 +109,16 @@
     }
   ],
   "services_included": [
-    "Final Cleaning: € 200.00   / booking Internet Access: Included Garage: Included Towels:  Included"
+    "Final Cleaning: € 200.00   / booking",
+    "Internet Access: Included",
+    "Garage: Included",
+    "Towels:  Included"
   ],
   "services_optional": [
-    "Air conditioning: Included Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heating: Included"
+    "Air conditioning: Included",
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Heating: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

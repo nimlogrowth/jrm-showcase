@@ -2,9 +2,15 @@
   "url": "https://www.justrentmarbella.com/rentals/villa-marbella-la-princesa-383261.html",
   "source_url": "https://www.justrentmarbella.com/rentals/villa-marbella-la-princesa-383261.html",
   "slug": "villa-marbella-la-princesa-383261",
-  "type": "Villa",
-  "location": "Marbella",
   "name": "La Princesa",
+  "location": "Marbella",
+  "type": "Villa",
+  "guests": "12",
+  "bedrooms": "6",
+  "bathrooms": "8",
+  "area": "350 m²",
+  "plot": "",
+  "description": "An exceptional 6-bed Villa with patio and private pool in the heart of Marbella Old Town!\n\nThis treasure-trove of a villa offers unique accommodation in an outstanding setting in the middle of Marbella’s historical Old Town. This converted hostal features 6 ensuite bedrooms, a lovely roof terrace, and a private swimming pool in the central patio.\n\nA clever combination of the original building with Moorish stone walls and Bohemian-chic decoration and furnishings, makes this a truly special Villa. Furthermore, there is a brand-new kitchen with ultra-modern appliances. The bedrooms each have their own theme with furnishings to match.\n\nUpon entering the villa, you have the open plan lounge/dining areas with original parquet flooring, one double bedroom with TV and ensuite shower room (with accessibility facilities) and a guest wc. The kitchen has been fully renovated and features a central bar-island, a very large fridge/freezer, and a professional coffee machine.\n\nThere is access to the patio and pool from the dining area and the kitchen.\n\nThe patio has various chill-out and dining areas, and sun loungers. The pool has the option to heat in the winter months.\n\nOn the first floor, there is a double ensuite bedroom with a small terrace and access, via external stairs, to the pool and main patio.\n\nThere is a third double bedroom with ensuite bathroom (with bathtub and separate shower), TV, a private terrace and access to the patio.\n\nThe fourth double bedroom has an ensuite shower.\n\nOn the second floor, there is a further double bedroom with a seating area, TV, and a private kitchenette (with small fridge, microwave and a hot plate) and ensuite shower room.  Additionally, there is one more double bedroom with en-suite bathroom and private rooftop terrace with sun loungers and a private outdoor shower.\n\nAnd finally, on the second floor there is a beautiful roof terrace with a dining table with a large parasol, a bar/kitchenette with a gas grill and sink… perfect for alfresco dining on the long summer nights!\n\nThere is AC and Wifi throughout.\n\nThis is the ideal accommodation for your holidays in Marbella – within the heart of the charming Old Town, surrounded by restaurants, bars and all amenities, and within 5 minutes’ walk of the beach and taxi ranks.\n\nPlease note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.\n\nWe look forward to welcoming you!",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/16475186131eada6fb45046669159417f3e8981983/1670427764f205c167898d1c7ddbda243d17e184c2.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/16475186131eada6fb45046669159417f3e8981983/16704277667ce32f977270cabeff80218a814e5c1a.jpg",
@@ -62,12 +68,6 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/16475186131eada6fb45046669159417f3e8981983/16704277620136f00ba07e32631d747297f41b13ae.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/16475186131eada6fb45046669159417f3e8981983/16704277689006421c13b8165df626c9e616c044bb.jpg"
   ],
-  "guests": "12",
-  "bedrooms": "6",
-  "bathrooms": "8",
-  "area": "350 m²",
-  "plot": "",
-  "description": "An exceptional 6-bed Villa with patio and private pool in the heart of Marbella Old Town! This treasure-trove of a villa offers unique accommodation in an outstanding setting in the middle of Marbella’s historical Old Town. This converted hostal features 6 ensuite bedrooms, a lovely roof terrace, and a private swimming pool in the central patio. A clever combination of the original building with Moorish stone walls and Bohemian-chic decoration and furnishings, makes this a truly special Villa. Furthermore, there is a brand-new kitchen with ultra-modern appliances. The bedrooms each have their own theme with furnishings to match. Upon entering the villa, you have the open plan lounge/dining areas with original parquet flooring, one double bedroom with TV and ensuite shower room (with accessibility facilities) and a guest wc. The kitchen has been fully renovated and features a central bar-island, a very large fridge/freezer, and a professional coffee machine. There is access to the patio and pool from the dining area and the kitchen. The patio has various chill-out and dining areas, and sun loungers. The pool has the option to heat in the winter months. On the first floor, there is a double ensuite bedroom with a small terrace and access, via external stairs, to the pool and main patio. There is a third double bedroom with ensuite bathroom (with bathtub and separate shower), TV, a private terrace and access to the patio. The fourth double bedroom has an ensuite shower. On the second floor, there is a further double bedroom with a seating area, TV, and a private kitchenette (with small fridge, microwave and a hot plate) and ensuite shower room.  Additionally, there is one more double bedroom with en-suite bathroom and private rooftop terrace with sun loungers and a private outdoor shower. And finally, on the second floor there is a beautiful roof terrace with a dining table with a large parasol, a bar/kitchenette with a gas grill and sink… perfect for alfresco dining on the long summer nights! There is AC and Wifi throughout. This is the ideal accommodation for your holidays in Marbella – within the heart of the charming Old Town, surrounded by restaurants, bars and all amenities, and within 5 minutes’ walk of the beach and taxi ranks. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to welcoming you!",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -96,13 +96,13 @@
   ],
   "features": [
     "Pool views",
-    "Private heated pool",
-    "Private pool",
-    "Air-conditioned",
-    "Central heating",
     "BBQ",
-    "Alarm system",
     "Balcony",
+    "Alarm system",
+    "Central heating",
+    "Air-conditioned",
+    "Private pool",
+    "Private heated pool",
     "200 m² terrace"
   ],
   "distances": [
@@ -116,7 +116,7 @@
     },
     {
       "place": "Airport",
-      "distance": "53 km"
+      "distance": "53 m"
     },
     {
       "place": "Shops",
@@ -148,10 +148,16 @@
     }
   ],
   "services_included": [
-    "Air conditioning: Included Final Cleaning: € 550.00   / booking Heating: Included Internet Access: Included Towels:  Included"
+    "Air conditioning: Included",
+    "Final Cleaning: € 550.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "Towels:  Included"
   ],
   "services_optional": [
-    "Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heated Pool: € 58.00   / night"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Heated Pool: € 58.00   / night"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
@@ -161,6 +167,6 @@
     "No pets",
     "No groups under 30 years of age"
   ],
-  "registration": "",
+  "registration": "H/MA02216",
   "map_query": "La Princesa, Marbella, Costa del Sol, Spain"
 }

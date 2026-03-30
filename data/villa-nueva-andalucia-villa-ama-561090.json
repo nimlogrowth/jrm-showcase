@@ -2,9 +2,15 @@
   "url": "https://www.justrentmarbella.com/rentals/villa-nueva-andalucia-villa-ama-561090.html",
   "source_url": "https://www.justrentmarbella.com/rentals/villa-nueva-andalucia-villa-ama-561090.html",
   "slug": "villa-nueva-andalucia-villa-ama-561090",
-  "type": "Villa",
-  "location": "Nueva andalucia",
   "name": "Villa Ama",
+  "location": "Nueva andalucia",
+  "type": "Villa",
+  "guests": "8",
+  "bedrooms": "4",
+  "bathrooms": "6",
+  "area": "201 m²",
+  "plot": "375 m²",
+  "description": "Welcome to Villa Ama, a beautifully curated 4-bedroom, 5-bathroom residence in the heart of Marbella’s prestigious Nueva Andalucía. Perfectly positioned in the lower part of the Golf Valley, this striking home pairs clean architectural lines with breathtaking views of La Concha and the Mediterranean Sea. Set across two floors with expansive glazing and flowing terraces, Villa Ama is the epitome of modern elegance—ideal for families, mature groups, or anyone seeking a high-end Costa del Sol escape.\n\nThe villa offers versatile living spaces, including three main bedrooms, a guesthouse, and a flexible bonus room that can serve as a gym, home cinema, or an additional bedroom. Three of the five bathrooms are en-suite, with spa-like finishes and underfloor heating for added comfort. The master suite is a true standout, featuring a freestanding bathtub with uninterrupted mountain views. Another bedroom opens to its own private terrace with an outdoor tub, creating an unforgettable open-air relaxation experience.\n\nEntertain with ease in the expansive open-plan living space, anchored by a sleek, fully integrated Miele kitchen and warmed by a cozy fireplace. Large sliding glass doors lead you out to the villa’s standout feature—an elevated marble infinity pool framed by tropical greenery and striking natural stone. The outdoor kitchen and dining terrace create the perfect setting for relaxed afternoons or sunset dinners under the stars, while glass balustrades preserve panoramic views without interruption.\n\nTucked away in one of Marbella’s most sought-after neighbourhoods, Villa Ama offers seamless access to the best of the coast. You're a short distance from Puerto Banús, the beach, and an array of restaurants, top schools, and amenities. With golf courses on your doorstep and Marbella’s buzzing social and shopping scenes just minutes away, Villa Ama delivers the ultimate blend of luxury, location, and lifestyle.\n\nPlease note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/3/1747837336708f85f9ca8112aff19976e32d429a20/174783733957558c134661d8021c10d28c771de4a5.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/1747837336708f85f9ca8112aff19976e32d429a20/1747837343dc9662009fe7f5840ad53ed3a10b4217.jpg",
@@ -49,12 +55,6 @@
     "https://www.justrentmarbella.com/rentals/fotos/3/1747837336708f85f9ca8112aff19976e32d429a20/1747837497a09af8dbfa7168f76500c9cf5185892a.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/1747837336708f85f9ca8112aff19976e32d429a20/1747837500b832b7bcde09bbb872d9477d07790e83.jpg"
   ],
-  "guests": "8",
-  "bedrooms": "4",
-  "bathrooms": "6",
-  "area": "201 m²",
-  "plot": "375 m²",
-  "description": "Welcome to Villa Ama, a beautifully curated 4-bedroom, 5-bathroom residence in the heart of Marbella’s prestigious Nueva Andalucía. Perfectly positioned in the lower part of the Golf Valley, this striking home pairs clean architectural lines with breathtaking views of La Concha and the Mediterranean Sea. Set across two floors with expansive glazing and flowing terraces, Villa Ama is the epitome of modern elegance—ideal for families, mature groups, or anyone seeking a high-end Costa del Sol escape. The villa offers versatile living spaces, including three main bedrooms, a guesthouse, and a flexible bonus room that can serve as a gym, home cinema, or an additional bedroom. Three of the five bathrooms are en-suite, with spa-like finishes and underfloor heating for added comfort. The master suite is a true standout, featuring a freestanding bathtub with uninterrupted mountain views. Another bedroom opens to its own private terrace with an outdoor tub, creating an unforgettable open-air relaxation experience. Entertain with ease in the expansive open-plan living space, anchored by a sleek, fully integrated Miele kitchen and warmed by a cozy fireplace. Large sliding glass doors lead you out to the villa’s standout feature—an elevated marble infinity pool framed by tropical greenery and striking natural stone. The outdoor kitchen and dining terrace create the perfect setting for relaxed afternoons or sunset dinners under the stars, while glass balustrades preserve panoramic views without interruption. Tucked away in one of Marbella’s most sought-after neighbourhoods, Villa Ama offers seamless access to the best of the coast. You're a short distance from Puerto Banús, the beach, and an array of restaurants, top schools, and amenities. With golf courses on your doorstep and Marbella’s buzzing social and shopping scenes just minutes away, Villa Ama delivers the ultimate blend of luxury, location, and lifestyle. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -78,21 +78,20 @@
     "Garden views",
     "Mountain views",
     "Pool views",
-    "Private pool",
-    "Air-conditioned",
-    "Central heating",
-    "BBQ",
     "Fenced garden",
+    "Dryer",
+    "Central heating",
+    "Private pool",
     "Secured parking",
     "Infinity pool",
     "Ocean views",
-    "Dryer",
+    "BBQ",
     "260 m² terrace"
   ],
   "distances": [
     {
       "place": "Airport",
-      "distance": "62 km"
+      "distance": "62 m"
     },
     {
       "place": "Restaurant",
@@ -124,10 +123,15 @@
     }
   ],
   "services_included": [
-    "Internet Access: Included Open-air parking: Included Towels:  Included"
+    "Internet Access: Included",
+    "Open-air parking: Included",
+    "Towels:  Included"
   ],
   "services_optional": [
-    "Air conditioning: Included Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heating: Included"
+    "Air conditioning: Included",
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Heating: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

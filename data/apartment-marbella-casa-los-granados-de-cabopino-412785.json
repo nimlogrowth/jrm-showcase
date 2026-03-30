@@ -2,9 +2,15 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-marbella-casa-los-granados-de-cabopino-412785.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-marbella-casa-los-granados-de-cabopino-412785.html",
   "slug": "apartment-marbella-casa-los-granados-de-cabopino-412785",
-  "type": "Apartment",
-  "location": "Marbella",
   "name": "Casa Los Granados De Cabopino",
+  "location": "Marbella",
+  "type": "Apartment",
+  "guests": "6",
+  "bedrooms": "3",
+  "bathrooms": "2",
+  "area": "121 m²",
+  "plot": "",
+  "description": "Stunning 3-bed apartment in a fantastic frontline beach complex in Cabopino! Casa Los Granados de Cabopino is a beautiful, modern, trendy apartment offering soft, neutral tones, subtle downlighting, and contemporary furnishings, making it a unique and fresh space for your holidays in Marbella.\n\nUpon entering, the fully equipped kitchen is to the right. To the left is the open living room with a lounge area with a Smart TV, and dining table, that leads to the stunning 46m2 terrace with panoramic views of the Mediterranean Sea. The terrace has a large dining table for 10, a seating area, and a high bar, all enjoying the stunning views over the communal gardens and to the sea. The terrace also benefits from a ceiling fan for the balmy nights, electric awnings, and glass curtains for the cooler days and evenings.\n\nThe Master bedroom has a king-sized bed and an ensuite bathroom with a rain shower. There are 2 further double bedrooms that share a bathroom with a rain shower.\n\nThere is aircon and wifi throughout, a dedicated parking space in the garage, and a lift to the apartment.\n\nThe gated urbanisation, with 24hr security, boasts vast grassed areas, 2 swimming pools: one large lagoon-style, and a children’s pool. There are tennis courts, padel courts, and basketball facilities, along with a communal gym and a small restaurant. There is direct access to the beach.\n\nThere is a supermarket within walking distance, and a 5 minute walk along the beach will get you to some beach restaurants and bars. Cabopino Port is less than 10 minutes walking on the beach.\n\nThe neighbouring towns of Fuengirola and Marbella are around 15kms away, both offering bustling Old Towns and loads of entertainment for the whole family.\n\nWe look forward to welcoming you.",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/1671711111623e6c7f5f7c3a899174e52b9dae2973/1671711124df5a3132cc84748d6f00f6f96a0d076f.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1671711111623e6c7f5f7c3a899174e52b9dae2973/167171111246b6df3d49a4fc8945964da24fe781d9.jpg",
@@ -35,12 +41,6 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/1671711111623e6c7f5f7c3a899174e52b9dae2973/1671711123b7f002312e60dccb768112666d3845ed.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1671711111623e6c7f5f7c3a899174e52b9dae2973/16717111245b7bdd3a2a3effcea7b2482d97236b0b.jpg"
   ],
-  "guests": "6",
-  "bedrooms": "3",
-  "bathrooms": "2",
-  "area": "121 m²",
-  "plot": "",
-  "description": "Stunning 3-bed apartment in a fantastic frontline beach complex in Cabopino! Casa Los Granados de Cabopino is a beautiful, modern, trendy apartment offering soft, neutral tones, subtle downlighting, and contemporary furnishings, making it a unique and fresh space for your holidays in Marbella. Upon entering, the fully equipped kitchen is to the right. To the left is the open living room with a lounge area with a Smart TV, and dining table, that leads to the stunning 46m2 terrace with panoramic views of the Mediterranean Sea. The terrace has a large dining table for 10, a seating area, and a high bar, all enjoying the stunning views over the communal gardens and to the sea. The terrace also benefits from a ceiling fan for the balmy nights, electric awnings, and glass curtains for the cooler days and evenings. The Master bedroom has a king-sized bed and an ensuite bathroom with a rain shower. There are 2 further double bedrooms that share a bathroom with a rain shower. There is aircon and wifi throughout, a dedicated parking space in the garage, and a lift to the apartment. The gated urbanisation, with 24hr security, boasts vast grassed areas, 2 swimming pools: one large lagoon-style, and a children’s pool. There are tennis courts, padel courts, and basketball facilities, along with a communal gym and a small restaurant. There is direct access to the beach. There is a supermarket within walking distance, and a 5 minute walk along the beach will get you to some beach restaurants and bars. Cabopino Port is less than 10 minutes walking on the beach. The neighbouring towns of Fuengirola and Marbella are around 15kms away, both offering bustling Old Towns and loads of entertainment for the whole family. We look forward to welcoming you.",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -60,15 +60,15 @@
     "Sea views",
     "Garden views",
     "Pool views",
-    "Communal pool",
-    "Air-conditioned",
-    "Central heating",
-    "Gym / fitness",
-    "Padel court",
     "Lift",
+    "Balcony",
+    "Padel court",
+    "Gym / fitness",
+    "Central heating",
+    "Air-conditioned",
+    "Communal pool",
     "Secured parking",
     "Ocean views",
-    "Balcony",
     "46 m² terrace"
   ],
   "distances": [
@@ -114,10 +114,16 @@
     }
   ],
   "services_included": [
-    "Air conditioning: Included Final Cleaning: € 200.00   / booking Heating: Included Internet Access: Included Open-air parking: Included Towels:  Included"
+    "Air conditioning: Included",
+    "Final Cleaning: € 200.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "Open-air parking: Included",
+    "Towels:  Included"
   ],
   "services_optional": [
-    "Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

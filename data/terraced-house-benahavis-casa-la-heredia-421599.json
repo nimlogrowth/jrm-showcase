@@ -2,9 +2,15 @@
   "url": "https://www.justrentmarbella.com/rentals/terraced-house-benahavis-casa-la-heredia-421599.html",
   "source_url": "https://www.justrentmarbella.com/rentals/terraced-house-benahavis-casa-la-heredia-421599.html",
   "slug": "terraced-house-benahavis-casa-la-heredia-421599",
-  "type": "Terraced House",
-  "location": "Benahavís",
   "name": "Casa La Heredia",
+  "location": "Benahavís",
+  "type": "Terraced House",
+  "guests": "6",
+  "bedrooms": "3",
+  "bathrooms": "2",
+  "area": "158 m²",
+  "plot": "",
+  "description": "Welcome to this cozy and comfortable townhouse; Tastefully refurbished in a modern yet chic style, offering stunning views all the way down the foothills of the Ronda Road Mountains to the glistening shimmer of the Mediterranean Sea.\n\nThe house is distributed over two floors with the main entrance on the top floor. Upon entry, you are greeted by the long hallway spanning the length of the home which branches out to all three bedrooms intersected by glass railings that invite you downstairs to the rest of this unique home.\n\nThe Master Bedroom sits snugly facing out towards the breathtaking views of the sea. This bedroom also has a pristine ensuite bathroom to accompany it, alongside a petite terrace to enjoy the undeniably serene sunrises and sunsets over this beautifully located home.\n\nOn this floor, you also find the two other bedrooms, both holding double beds to ensure your comfort and space, and they share a lovely separate bathroom with a large walk-in rain shower, all finished in glossy grey marble.\n\nFollowing the glass panels down the staircase, you are welcomed by a full-length open-plan kitchen, living room and dining area which further extends out into the terrace which also spans the length of the home. A small workstation sits comfy to the side.\n\nOn the terrace, you can enjoy a lounge area as well as an outdoor dining area for those long summer evenings.\n\nThe La Heredia urbanisation is full of life and has a delicatessen/bakery as well as an award-winning butcher, restaurant, and the ever-so-charming Heredian Bar. It also boasts two separate community swimming pools one of which is heated during the winter months for your continued enjoyment.\n\nThe urbanisation enjoys outstanding views of the local golf clubs, the sea as well as the North African coastline, and Gibraltar. It also borders the Ronda National Park where you are welcome to go on hikes and enjoy the wide variety of flora, fauna, and birdlife. Neighbouring towns such as San Pedro, Puerto Banús and Marbella are a short drive away. Casa La Heredia enjoys a prime location for discovering all the tourist delights Andalucía has to offer.\n\nPlease note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.\n\nWe look forward to welcoming you!",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/16787241700362c6f619ea7f69c6fd505a3ccb9a22/167872418966907f0c4a4c07b54cff8f7b6f222e1a.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/16787241700362c6f619ea7f69c6fd505a3ccb9a22/16787241710b2d85f37e0816271527161f17d67104.jpg",
@@ -38,12 +44,6 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/16787241700362c6f619ea7f69c6fd505a3ccb9a22/1678724189fd7f3422cc353b1acda8e49def2b7baf.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/16787241700362c6f619ea7f69c6fd505a3ccb9a22/16787241909222ae692e5b949fc85641507f30042a.jpg"
   ],
-  "guests": "6",
-  "bedrooms": "3",
-  "bathrooms": "2",
-  "area": "158 m²",
-  "plot": "",
-  "description": "Welcome to this cozy and comfortable townhouse; Tastefully refurbished in a modern yet chic style, offering stunning views all the way down the foothills of the Ronda Road Mountains to the glistening shimmer of the Mediterranean Sea. The house is distributed over two floors with the main entrance on the top floor. Upon entry, you are greeted by the long hallway spanning the length of the home which branches out to all three bedrooms intersected by glass railings that invite you downstairs to the rest of this unique home. The Master Bedroom sits snugly facing out towards the breathtaking views of the sea. This bedroom also has a pristine ensuite bathroom to accompany it, alongside a petite terrace to enjoy the undeniably serene sunrises and sunsets over this beautifully located home. On this floor, you also find the two other bedrooms, both holding double beds to ensure your comfort and space, and they share a lovely separate bathroom with a large walk-in rain shower, all finished in glossy grey marble. Following the glass panels down the staircase, you are welcomed by a full-length open-plan kitchen, living room and dining area which further extends out into the terrace which also spans the length of the home. A small workstation sits comfy to the side. On the terrace, you can enjoy a lounge area as well as an outdoor dining area for those long summer evenings. The La Heredia urbanisation is full of life and has a delicatessen/bakery as well as an award-winning butcher, restaurant, and the ever-so-charming Heredian Bar. It also boasts two separate community swimming pools one of which is heated during the winter months for your continued enjoyment. The urbanisation enjoys outstanding views of the local golf clubs, the sea as well as the North African coastline, and Gibraltar. It also borders the Ronda National Park where you are welcome to go on hikes and enjoy the wide variety of flora, fauna, and birdlife. Neighbouring towns such as San Pedro, Puerto Banús and Marbella are a short drive away. Casa La Heredia enjoys a prime location for discovering all the tourist delights Andalucía has to offer. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to welcoming you!",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -60,14 +60,13 @@
   ],
   "features": [
     "Mountain views",
-    "Communal pool",
-    "Air-conditioned",
-    "Central heating",
-    "Secured parking",
-    "Ocean views",
     "Dryer",
     "Balcony",
-    "Laptop workspace"
+    "Central heating",
+    "Air-conditioned",
+    "Communal pool",
+    "Secured parking",
+    "Ocean views"
   ],
   "distances": [
     {
@@ -76,7 +75,7 @@
     },
     {
       "place": "Airport",
-      "distance": "66 km"
+      "distance": "66 m"
     },
     {
       "place": "Restaurant",
@@ -112,10 +111,17 @@
     }
   ],
   "services_included": [
-    "Air conditioning: Included Final Cleaning: € 200.00   / booking Heating: Included Internet Access: Included Open-air parking: Included Towels:  Included"
+    "Air conditioning: Included",
+    "Final Cleaning: € 200.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "Open-air parking: Included",
+    "Towels:  Included"
   ],
   "services_optional": [
-    "Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heated Pool: Included"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Heated Pool: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

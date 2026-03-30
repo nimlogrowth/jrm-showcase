@@ -2,9 +2,15 @@
   "url": "https://www.justrentmarbella.com/rentals/villa-marbella-villa-las-dunas-383252.html",
   "source_url": "https://www.justrentmarbella.com/rentals/villa-marbella-villa-las-dunas-383252.html",
   "slug": "villa-marbella-villa-las-dunas-383252",
-  "type": "Villa",
-  "location": "Marbella",
   "name": "Villa Las Dunas",
+  "location": "Marbella",
+  "type": "Villa",
+  "guests": "16",
+  "bedrooms": "8",
+  "bathrooms": "9",
+  "area": "1,180 m²",
+  "plot": "000 m²",
+  "description": "Unique, spectacular front-line beach villa with magnificent views in Marbella East!\n\nSet in a truly exceptional front-line beach location,  amidst the protected sand dunes of Artola, this unique and spectacular villa offers magnificent views in incomparable surroundings.\n\nLocated within walking distance of a variety of restaurants, cafes, and convenience shops, a 5-minute drive to trendy Elviria, and 15 minutes away from downtown glamorous Marbella and Puerto Banús.\n\nVilla Las Dunas is built on 3 levels on an immense plot of over 2.000 square metres. The ground level comprises of an open plan gourmet kitchen and dining area, a formal dining area, a home office, a large bedroom with en suite bathroom, a guest bathroom, a utility room and a majestic family room including a large seating lounge and a TV area complete with fireplace.\n\nMost of the rooms on this floor lead to the modern wooden terrace, designed especially to enjoy the privileged Marbella outdoor lifestyle, with a BBQ and al fresco dining area, Balinese beds, an outdoor lounge, a Jacuzzi, and the manicured garden including a very special tree house amongst pine trees. Here you are sure to find peace, whether it is sunbathing or enjoying a good read in the shade.\n\nUsing the marble and steel contemporary staircase you will access the second floor of this remarkable villa, home to 3 large bedrooms all with en suite bathrooms, and a dream-like master suite encompassing a large bedroom area, a walk in fitted wardrobe, a powder room and a movie style brown, cream and beige coloured marble double sink bath suite including a Jacuzzi bath and a large walk in shower. The master suite leads to a large terrace offering views to the beach, the sand dunes and the sea. From the terrace through a stainless steel translucent spiral staircase you will access the spectacular solarium terrace including a large Jacuzzi bath and sun loungers overlooking the beach and the Mediterranean sea.\n\nThe basement level of this exceptional villa offers 2 large bedrooms both with modern well equipped bathrooms, a staff quarters, a gymnasium, a cinema room, a billiard room as well as a 3-car garage.\n\nThis villa really does have the WOW factor and will prove to be an excellent choice for families and groups to enjoy their holidays in Marbella in luxurious style!",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/1647518474bbac599a1ccf6e8e8a068678126744b1/16475184935cf5dc70482fa04e9118ee6b4f16d60a.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1647518474bbac599a1ccf6e8e8a068678126744b1/16475184981a58d28abadb098dd358362337b249ec.jpg",
@@ -36,12 +42,6 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/1647518474bbac599a1ccf6e8e8a068678126744b1/1647518503e6f122c97aeb610baca1bd8ec33747c5.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1647518474bbac599a1ccf6e8e8a068678126744b1/164751850457e9f1ba9eed2998866d128cba633506.jpg"
   ],
-  "guests": "16",
-  "bedrooms": "8",
-  "bathrooms": "9",
-  "area": "180 m²",
-  "plot": "000 m²",
-  "description": "Unique, spectacular front-line beach villa with magnificent views in Marbella East! Set in a truly exceptional front-line beach location,  amidst the protected sand dunes of Artola, this unique and spectacular villa offers magnificent views in incomparable surroundings. Located within walking distance of a variety of restaurants, cafes, and convenience shops, a 5-minute drive to trendy Elviria, and 15 minutes away from downtown glamorous Marbella and Puerto Banús. Villa Las Dunas is built on 3 levels on an immense plot of over 2.000 square metres. The ground level comprises of an open plan gourmet kitchen and dining area, a formal dining area, a home office, a large bedroom with en suite bathroom, a guest bathroom, a utility room and a majestic family room including a large seating lounge and a TV area complete with fireplace. Most of the rooms on this floor lead to the modern wooden terrace, designed especially to enjoy the privileged Marbella outdoor lifestyle, with a BBQ and al fresco dining area, Balinese beds, an outdoor lounge, a Jacuzzi, and the manicured garden including a very special tree house amongst pine trees. Here you are sure to find peace, whether it is sunbathing or enjoying a good read in the shade. Using the marble and steel contemporary staircase you will access the second floor of this remarkable villa, home to 3 large bedrooms all with en suite bathrooms, and a dream-like master suite encompassing a large bedroom area, a walk in fitted wardrobe, a powder room and a movie style brown, cream and beige coloured marble double sink bath suite including a Jacuzzi bath and a large walk in shower. The master suite leads to a large terrace offering views to the beach, the sand dunes and the sea. From the terrace through a stainless steel translucent spiral staircase you will access the spectacular solarium terrace including a large Jacuzzi bath and sun loungers overlooking the beach and the Mediterranean sea. The basement level of this exceptional villa offers 2 large bedrooms both with modern well equipped bathrooms, a staff quarters, a gymnasium, a cinema room, a billiard room as well as a 3-car garage. This villa really does have the WOW factor and will prove to be an excellent choice for families and groups to enjoy their holidays in Marbella in luxurious style!",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -80,21 +80,16 @@
     "Beach views",
     "Garden views",
     "Pool views",
-    "Air-conditioned",
-    "Central heating",
-    "BBQ",
     "Fenced garden",
-    "Jacuzzi",
+    "Dryer",
+    "BBQ",
+    "Fireplace",
+    "Balcony",
     "Gym / fitness",
     "Alarm system",
-    "Fireplace",
+    "Central heating",
     "Secured parking",
-    "Ocean views",
-    "Dryer",
-    "Outdoor shower",
-    "Balcony",
-    "Laptop workspace",
-    "First aid kit"
+    "Ocean views"
   ],
   "distances": [
     {
@@ -103,7 +98,7 @@
     },
     {
       "place": "Airport",
-      "distance": "41 km"
+      "distance": "41 m"
     },
     {
       "place": "Sand beach",
@@ -143,10 +138,17 @@
     }
   ],
   "services_included": [
-    "Air conditioning: Included Final Cleaning: € 450.00   / booking Heating: Included Internet Access: Included Garage: Included Towels:  Included"
+    "Air conditioning: Included",
+    "Final Cleaning: € 450.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "Garage: Included",
+    "Towels:  Included"
   ],
   "services_optional": [
-    "Baby high chair: € 25.00   / booking Bed linen: Included Cot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking",
+    "Bed linen: Included",
+    "Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

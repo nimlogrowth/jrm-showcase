@@ -2,9 +2,15 @@
   "url": "https://www.justrentmarbella.com/rentals/villa-benahavis-villa-harmony-563338.html",
   "source_url": "https://www.justrentmarbella.com/rentals/villa-benahavis-villa-harmony-563338.html",
   "slug": "villa-benahavis-villa-harmony-563338",
-  "type": "Villa",
-  "location": "Benahavís",
   "name": "Villa Harmony",
+  "location": "Benahavís",
+  "type": "Villa",
+  "guests": "8",
+  "bedrooms": "4",
+  "bathrooms": "4",
+  "area": "398 m²",
+  "plot": "",
+  "description": "Step into a world of calm at Villa Harmony, a serene 4-bedroom, 3-bathroom escape nestled in the hills of Benahavis. Spanning three elegant levels plus a rooftop terrace, this villa blends modern luxury with peaceful surroundings, offering sweeping views of La Concha and the sparkling Mediterranean Sea. Perfect for families or groups seeking privacy and relaxation, this stylish retreat is just minutes from Marbella’s golden beaches and vibrant hotspots.\n\nInside, natural light flows through every room. The main floor features an open-plan living room and a sleek kitchen that opens out onto a sun-kissed terrace and pool. Upstairs, the master bedroom boasts an en-suite and panoramic views, while two additional bedrooms—one double and one twin—share a tastefully designed bathroom. On the lower floor, a cozy fourth bedroom with private bathroom and its own kitchenette offers added privacy—ideal for guests or extended stays.\n\nThe villa’s rooftop lounge is a true highlight: a secluded haven where you can unwind with a drink, soak in the views, and reconnect with nature. Whether you're watching the sunset or enjoying quiet morning reflections, it’s a space that brings balance to the soul. All around, the interiors are elegantly styled with calming neutral tones and modern accents, enhancing the sense of peace and comfort.\n\nWith gated private parking for two cars, a private pool, and all modern conveniences, Villa Harmony is a peaceful sanctuary just minutes from golf courses and the best of Marbella and Puerto Banús. Here, luxury meets tranquility—your perfect Costa del Sol escape.\n\nPlease note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/3/174904749043fa4795d18c73da99e0ecad2bd3fa5f/17490474912d8db8c97b73a7f837df05139a3168a1.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/174904749043fa4795d18c73da99e0ecad2bd3fa5f/17490474921c45a30446c6104478cd62133caf7727.jpg",
@@ -40,12 +46,6 @@
     "https://www.justrentmarbella.com/rentals/fotos/3/174904749043fa4795d18c73da99e0ecad2bd3fa5f/1749047508dc2edb3540b4715964c37cfb72e0a0a7.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/174904749043fa4795d18c73da99e0ecad2bd3fa5f/1749047509d33c415a8e3bd0002aab90bad280d137.jpg"
   ],
-  "guests": "8",
-  "bedrooms": "4",
-  "bathrooms": "4",
-  "area": "398 m²",
-  "plot": "",
-  "description": "Step into a world of calm at Villa Harmony, a serene 4-bedroom, 3-bathroom escape nestled in the hills of Benahavis. Spanning three elegant levels plus a rooftop terrace, this villa blends modern luxury with peaceful surroundings, offering sweeping views of La Concha and the sparkling Mediterranean Sea. Perfect for families or groups seeking privacy and relaxation, this stylish retreat is just minutes from Marbella’s golden beaches and vibrant hotspots. Inside, natural light flows through every room. The main floor features an open-plan living room and a sleek kitchen that opens out onto a sun-kissed terrace and pool. Upstairs, the master bedroom boasts an en-suite and panoramic views, while two additional bedrooms—one double and one twin—share a tastefully designed bathroom. On the lower floor, a cozy fourth bedroom with private bathroom and its own kitchenette offers added privacy—ideal for guests or extended stays. The villa’s rooftop lounge is a true highlight: a secluded haven where you can unwind with a drink, soak in the views, and reconnect with nature. Whether you're watching the sunset or enjoying quiet morning reflections, it’s a space that brings balance to the soul. All around, the interiors are elegantly styled with calming neutral tones and modern accents, enhancing the sense of peace and comfort. With gated private parking for two cars, a private pool, and all modern conveniences, Villa Harmony is a peaceful sanctuary just minutes from golf courses and the best of Marbella and Puerto Banús. Here, luxury meets tranquility—your perfect Costa del Sol escape. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -57,11 +57,11 @@
     },
     {
       "room": "Bedroom 3",
-      "bed": "Single bed"
+      "bed": "Single beds"
     },
     {
       "room": "Bedroom 4",
-      "bed": "Single bed"
+      "bed": "Single beds"
     }
   ],
   "features": [
@@ -69,16 +69,15 @@
     "Garden views",
     "Mountain views",
     "Pool views",
-    "Private pool",
-    "Air-conditioned",
-    "Central heating",
-    "BBQ",
     "Fenced garden",
+    "BBQ",
     "Fireplace",
+    "Balcony",
+    "Central heating",
+    "Private pool",
     "Secured parking",
     "Infinity pool",
-    "Ocean views",
-    "Balcony"
+    "Ocean views"
   ],
   "distances": [
     {
@@ -115,10 +114,16 @@
     }
   ],
   "services_included": [
-    "Final Cleaning: € 550.00   / booking Internet Access: Included Covered parking: Included Towels:  Included"
+    "Final Cleaning: € 550.00   / booking",
+    "Internet Access: Included",
+    "Covered parking: Included",
+    "Towels:  Included"
   ],
   "services_optional": [
-    "Air conditioning: Included Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heating: Included"
+    "Air conditioning: Included",
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Heating: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

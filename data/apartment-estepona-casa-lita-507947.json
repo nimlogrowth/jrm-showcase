@@ -2,9 +2,15 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-estepona-casa-lita-507947.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-estepona-casa-lita-507947.html",
   "slug": "apartment-estepona-casa-lita-507947",
-  "type": "Apartment",
-  "location": "Estepona",
   "name": "Casa Lita",
+  "location": "Estepona",
+  "type": "Apartment",
+  "guests": "4",
+  "bedrooms": "2",
+  "bathrooms": "2",
+  "area": "85 m²",
+  "plot": "",
+  "description": "Casa Lita is a 2-bedroom apartment with wonderful views of the Mediterranean Sea, in a beautifully manicured beachside complex on the New Golden Mile!\n\nThe apartment offers the best of both worlds. It has the perfect location with direct beach and boardwalk access, yet it is also just 5 minutes away from all the facilities and amenities in the area. This makes it the perfect choice for your holiday home.\n\nThe living/dining area leads to the veranda with seating for 2 where you can enjoy the serene views over the communal gardens, swimming pool, and the sea.\n\nThere is an indoor dining table that sits 4 and in the living area, a Smart TV. The fully equipped corner kitchen sits by the entrance and has a hatch opening to the dining area. There is a utility area with a washing machine.\n\nThe Master Bedroom has a big double bed (180cm), a small balcony, and an ensuite bathroom with a shower. The second bedroom has a 160cm double bed. There is a second bathroom with a shower/bathtub.\n\nThere is a sofa-bed in the Living Room, suitable for children up to the age of 12.\n\nThere is secure parking in the entry areas of the urbanization and the home has aircon and Wi-Fi throughout.\n\nCostalita is a gated complex with beautifully landscaped gardens, direct beach access and a magnificent large swimming pool. The complex is perfectly located and all amenities including restaurants, bars, cafes and supermarkets are a stone’s throw away.\n\nEasy access to the A7 highway in directions towards Marbella/Puerto Banus, as well as Estepona, being a short drive away.\n\nCasa Lita is the perfect treat for your family holiday.\n\n*Please note there is NO elevator.\n\nPlease note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.\n\nWe look forward to welcoming you.",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/1679318995acbd59a282e054432d8bbc3abd075e2b/16793190064779419b262d65786db2d662f8d525d2.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1679318995acbd59a282e054432d8bbc3abd075e2b/1679319007467659819c669359f18410df953f431f.jpg",
@@ -32,12 +38,6 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/1679318995acbd59a282e054432d8bbc3abd075e2b/167931900520e63c0e4acb6def97b8e6c7af48a960.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1679318995acbd59a282e054432d8bbc3abd075e2b/1679319006331eeb7241d3b2c23eb8b02bb201d113.jpg"
   ],
-  "guests": "4",
-  "bedrooms": "2",
-  "bathrooms": "2",
-  "area": "85 m²",
-  "plot": "",
-  "description": "Casa Lita is a 2-bedroom apartment with wonderful views of the Mediterranean Sea, in a beautifully manicured beachside complex on the New Golden Mile! The apartment offers the best of both worlds. It has the perfect location with direct beach and boardwalk access, yet it is also just 5 minutes away from all the facilities and amenities in the area. This makes it the perfect choice for your holiday home. The living/dining area leads to the veranda with seating for 2 where you can enjoy the serene views over the communal gardens, swimming pool, and the sea. There is an indoor dining table that sits 4 and in the living area, a Smart TV. The fully equipped corner kitchen sits by the entrance and has a hatch opening to the dining area. There is a utility area with a washing machine. The Master Bedroom has a big double bed (180cm), a small balcony, and an ensuite bathroom with a shower. The second bedroom has a 160cm double bed. There is a second bathroom with a shower/bathtub. There is a sofa-bed in the Living Room, suitable for children up to the age of 12. There is secure parking in the entry areas of the urbanization and the home has aircon and Wi-Fi throughout. Costalita is a gated complex with beautifully landscaped gardens, direct beach access and a magnificent large swimming pool. The complex is perfectly located and all amenities including restaurants, bars, cafes and supermarkets are a stone’s throw away. Easy access to the A7 highway in directions towards Marbella/Puerto Banus, as well as Estepona, being a short drive away. Casa Lita is the perfect treat for your family holiday. *Please note there is NO elevator. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to welcoming you.",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -46,6 +46,10 @@
     {
       "room": "Bedroom 2",
       "bed": "King size bed"
+    },
+    {
+      "room": "Common spaces",
+      "bed": "Sofa bed double"
     }
   ],
   "features": [
@@ -53,12 +57,11 @@
     "Sea views",
     "Garden views",
     "Pool views",
-    "Communal pool",
-    "Air-conditioned",
     "Central heating",
-    "Secured parking",
+    "Air-conditioned",
+    "Communal pool",
     "Ocean views",
-    "Laptop workspace",
+    "Secured parking",
     "5 m² terrace"
   ],
   "distances": [
@@ -104,18 +107,23 @@
     }
   ],
   "services_included": [
-    "Air conditioning: Included Final Cleaning: € 190.00   / booking Heating: Included Internet Access: Included Open-air parking: Included Towels:  Included"
+    "Air conditioning: Included",
+    "Final Cleaning: € 190.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "Open-air parking: Included",
+    "Towels:  Included"
   ],
   "services_optional": [
-    "Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
   "deposit": "€500.00",
   "rules": [
     "No smoking",
-    "No pets",
-    "No groups under 30 years of age"
+    "No pets"
   ],
   "registration": "VFT/MA/26759",
   "map_query": "Casa Lita, Estepona, Costa del Sol, Spain"

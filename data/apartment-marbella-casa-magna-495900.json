@@ -2,9 +2,15 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-marbella-casa-magna-495900.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-marbella-casa-magna-495900.html",
   "slug": "apartment-marbella-casa-magna-495900",
-  "type": "Apartment",
-  "location": "Marbella",
   "name": "Casa Magna",
+  "location": "Marbella",
+  "type": "Apartment",
+  "guests": "8",
+  "bedrooms": "4",
+  "bathrooms": "4",
+  "area": "200 m²",
+  "plot": "",
+  "description": "Casa Magna: The Perfect Family Retreat in Marbella\n\nWelcome to Casa Magna, a stunning apartment located in the highly desired Magna Marbella residential complex, right next to Magna Golf and Country Club. This beautiful home offers the ideal setting for a memorable family holiday.\n\nStep into the elegant interior of Casa Magna, where you'll find the expansive living and dining areas which extend onto the terrace spaces seamlessly. To the side, an independent kitchen equipped to the brim for you to explore your favourite cuisines in utmost comfort. Finally, four beautifully decorated bedrooms, a Super King bed, a double bed, as well as two twin single bedrooms. Three of the bedrooms are ensuite, providing ultimate privacy and comfort, while the fourth bedroom is conveniently situated near the guest bathroom. Each room is thoughtfully designed to ensure a restful and luxurious stay. The home features spaces that are perfect for family gatherings and creating lasting memories. Large windows fill the space with natural light, enhancing the warm and inviting atmosphere.\n\nOne of the standout features of Casa Magna is the beautiful terrace, where you can enjoy stunning views over the golf course, mountains, and communal gardens. The terrace is equipped with a hot tub, offering a perfect spot to unwind and relax while taking in the breathtaking scenery.\n\nLocated just a short drive from Puerto Banus and only 10 minutes from Marbella, Casa Magna provides easy access to some of the best attractions in the area. Nearby, you'll find the Los Naranjos Golf Club, a variety of restaurants, bars, and supermarkets, ensuring you have everything you need within reach.\n\nCasa Magna is designed with families in mind, offering ample space and comfort for everyone. The luxurious amenities and prime location make it an ideal choice for a fun and relaxing getaway in Marbella.\n\nWe look forward to welcoming you!",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/1721386243bceb5c67e48af600964c05d4b7d2a580/177365802327574c2e740c7d546ece6ebc1479ead5.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1721386243bceb5c67e48af600964c05d4b7d2a580/1721386252e22f5ece747803607d35e5747893e3d2.jpg",
@@ -36,12 +42,6 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/1721386243bceb5c67e48af600964c05d4b7d2a580/172138625603c647d53342c81f4dc0566194172c0b.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1721386243bceb5c67e48af600964c05d4b7d2a580/17213862568d79106bd869cb9c14483119c2e79019.jpg"
   ],
-  "guests": "8",
-  "bedrooms": "4",
-  "bathrooms": "4",
-  "area": "200 m²",
-  "plot": "",
-  "description": "Casa Magna: The Perfect Family Retreat in Marbella Welcome to Casa Magna, a stunning apartment located in the highly desired Magna Marbella residential complex, right next to Magna Golf and Country Club. This beautiful home offers the ideal setting for a memorable family holiday. Step into the elegant interior of Casa Magna, where you'll find the expansive living and dining areas which extend onto the terrace spaces seamlessly. To the side, an independent kitchen equipped to the brim for you to explore your favourite cuisines in utmost comfort. Finally, four beautifully decorated bedrooms, a Super King bed, a double bed, as well as two twin single bedrooms. Three of the bedrooms are ensuite, providing ultimate privacy and comfort, while the fourth bedroom is conveniently situated near the guest bathroom. Each room is thoughtfully designed to ensure a restful and luxurious stay. The home features spaces that are perfect for family gatherings and creating lasting memories. Large windows fill the space with natural light, enhancing the warm and inviting atmosphere. One of the standout features of Casa Magna is the beautiful terrace, where you can enjoy stunning views over the golf course, mountains, and communal gardens. The terrace is equipped with a hot tub, offering a perfect spot to unwind and relax while taking in the breathtaking scenery. Located just a short drive from Puerto Banus and only 10 minutes from Marbella, Casa Magna provides easy access to some of the best attractions in the area. Nearby, you'll find the Los Naranjos Golf Club, a variety of restaurants, bars, and supermarkets, ensuring you have everything you need within reach. Casa Magna is designed with families in mind, offering ample space and comfort for everyone. The luxurious amenities and prime location make it an ideal choice for a fun and relaxing getaway in Marbella. We look forward to welcoming you!",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -53,25 +53,23 @@
     },
     {
       "room": "Bedroom 3",
-      "bed": "Single bed"
+      "bed": "Single beds"
     },
     {
       "room": "Bedroom 4",
-      "bed": "Single bed"
+      "bed": "Single beds"
     }
   ],
   "features": [
-    "Golf course",
+    "Golf course views",
     "Golf",
     "Mountain views",
     "Pool views",
-    "Central heating",
-    "BBQ",
     "Lift",
     "Dryer",
+    "BBQ",
     "Balcony",
-    "Laptop workspace",
-    "Pool towels"
+    "Central heating"
   ],
   "distances": [
     {
@@ -112,10 +110,16 @@
     }
   ],
   "services_included": [
-    "Air conditioning: Included Final Cleaning: € 300.00   / booking Heating: Included Internet Access: Included Garage: Included Towels:  Included"
+    "Air conditioning: Included",
+    "Final Cleaning: € 300.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "Garage: Included",
+    "Towels:  Included"
   ],
   "services_optional": [
-    "Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

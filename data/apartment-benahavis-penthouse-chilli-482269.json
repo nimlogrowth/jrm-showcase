@@ -2,9 +2,15 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-benahavis-penthouse-chilli-482269.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-benahavis-penthouse-chilli-482269.html",
   "slug": "apartment-benahavis-penthouse-chilli-482269",
-  "type": "Apartment",
-  "location": "Benahavís",
   "name": "Penthouse Chilli",
+  "location": "Benahavís",
+  "type": "Apartment",
+  "guests": "6",
+  "bedrooms": "3",
+  "bathrooms": "2",
+  "area": "160 m²",
+  "plot": "",
+  "description": "Welcome to uninterrupted views in this newly renovated, private, luxury apartment with a modern Scandinavian design and close to everything!\n\nPenthouse Chilli is now available for month-long stays over Summer 2026! (Monthly rental + bills.)\n\nJust 7 minutes to the beach and 10 minutes to Marbella,\n\nyou can relax and enjoy the bustling life in Marbella at your leisure.\n\nPenthouse Los Olmos is a stunning, newly renovated 3-bedroom penthouse in the coveted neighbourhood of La Quinta with incredible views of La Concha and the Mediterranean Sea with the northern coasts of Africa in the backdrop.\n\nUpon entering, you are wowed by the spacious open-plan kitchen, dining room and lounge that leads to the L-shaped terrace via 4 terrace doors.\n\nAll windows and doors are equipped with sun-proofed glass to keep the heat out and protect the furniture.\n\nThis is the ideal place to start the day, enjoy your daily breaks and finish off at any night.\n\nThe fully-fitted and very modern kitchen is fully equipped with all appliances and utensils.\n\nThe 3 beautifully styled bedrooms all have 180 cm high-quality beds and wardrobes.\n\nAn open corridor leads the way to the Master bedroom with a TV and an ensuite bathroom.\n\nThe 80 sqm east/south facing terrace offers both sun and shade and several outdoor dining options. Here you also find the Broiler King BBQ. The 160 sqm indoor areas are designed for social\n\ninteractions and privacy at the same time.\n\nAdditional features include underfloor heating in the bathrooms, Aircon, high-speed Wifi throughout, a designated parking space, and an alarm system.\n\nThe urbanisation offers a well-maintained, tranquil pool area as well as covered parking spaces.\n\nThanks to its central location, everything you need is\n\nclose by. In La Quinta (Los Halcones), you have a convenient shopping centre with a pharmacy, a grocery store and 4 nice restaurants. From the apartment you reach San Pedro in 5 minutes, Puerto Banus in 10 minutes, Marbella in 15 minutes\n\nand the beaches in 7. Access to the AP7 highway is only a few minutes away and from there you will\n\nbe at Malaga airport in 40 minutes, Estepona in 15 and Sotogrande in just about 30 minutes.\n\nWe look forward to welcoming you!",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/1713862841e37d85288d6a3b66de5c323dd5d37d88/171386284543e52d8f4565ea2d451bec67992939f3.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1713862841e37d85288d6a3b66de5c323dd5d37d88/1713862856c749067e66b524be1ba09ce9d0fc712a.jpg",
@@ -41,12 +47,6 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/1713862841e37d85288d6a3b66de5c323dd5d37d88/171386285582a49702d54bd41d9362dbd74674bd47.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1713862841e37d85288d6a3b66de5c323dd5d37d88/1713862844ac067c88802607ebc8a00618de43d4ca.jpg"
   ],
-  "guests": "6",
-  "bedrooms": "3",
-  "bathrooms": "2",
-  "area": "160 m²",
-  "plot": "",
-  "description": "Welcome to uninterrupted views in this newly renovated, private, luxury apartment with a modern Scandinavian design and close to everything! Penthouse Chilli is now available for month-long stays over Summer 2026! (Monthly rental + bills.) Just 7 minutes to the beach and 10 minutes to Marbella, you can relax and enjoy the bustling life in Marbella at your leisure. Penthouse Los Olmos is a stunning, newly renovated 3-bedroom penthouse in the coveted neighbourhood of La Quinta with incredible views of La Concha and the Mediterranean Sea with the northern coasts of Africa in the backdrop. Upon entering, you are wowed by the spacious open-plan kitchen, dining room and lounge that leads to the L-shaped terrace via 4 terrace doors. All windows and doors are equipped with sun-proofed glass to keep the heat out and protect the furniture. This is the ideal place to start the day, enjoy your daily breaks and finish off at any night. The fully-fitted and very modern kitchen is fully equipped with all appliances and utensils. The 3 beautifully styled bedrooms all have 180 cm high-quality beds and wardrobes. An open corridor leads the way to the Master bedroom with a TV and an ensuite bathroom. The 80 sqm east/south facing terrace offers both sun and shade and several outdoor dining options. Here you also find the Broiler King BBQ. The 160 sqm indoor areas are designed for social interactions and privacy at the same time. Additional features include underfloor heating in the bathrooms, Aircon, high-speed Wifi throughout, a designated parking space, and an alarm system. The urbanisation offers a well-maintained, tranquil pool area as well as covered parking spaces. Thanks to its central location, everything you need is close by. In La Quinta (Los Halcones), you have a convenient shopping centre with a pharmacy, a grocery store and 4 nice restaurants. From the apartment you reach San Pedro in 5 minutes, Puerto Banus in 10 minutes, Marbella in 15 minutes and the beaches in 7. Access to the AP7 highway is only a few minutes away and from there you will be at Malaga airport in 40 minutes, Estepona in 15 and Sotogrande in just about 30 minutes. We look forward to welcoming you!",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -65,14 +65,14 @@
     "Garden views",
     "Golf",
     "Mountain views",
-    "Communal pool",
-    "Air-conditioned",
-    "Central heating",
     "BBQ",
-    "Alarm system",
     "Safe",
-    "Ocean views",
     "Balcony",
+    "Alarm system",
+    "Central heating",
+    "Air-conditioned",
+    "Communal pool",
+    "Ocean views",
     "180 m² terrace"
   ],
   "distances": [
@@ -114,19 +114,25 @@
     }
   ],
   "services_included": [
-    "Air conditioning: Included Final Cleaning: € 200.00   / booking Heating: Included Internet Access: Included Open-air parking: Included Towels:  Included"
+    "Air conditioning: Included",
+    "Final Cleaning: € 200.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "Open-air parking: Included",
+    "Towels:  Included"
   ],
   "services_optional": [
-    "Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Pet: € 75.00   / booking"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Pet: € 75.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
   "deposit": "€1,000.00",
   "rules": [
     "No smoking",
-    "No pets",
     "No groups under 30 years of age"
   ],
-  "registration": "",
+  "registration": "CTC - 2020039390",
   "map_query": "Penthouse Chilli, Benahavís, Costa del Sol, Spain"
 }

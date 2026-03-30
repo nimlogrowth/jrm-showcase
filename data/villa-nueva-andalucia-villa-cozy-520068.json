@@ -2,9 +2,15 @@
   "url": "https://www.justrentmarbella.com/rentals/villa-nueva-andalucia-villa-cozy-520068.html",
   "source_url": "https://www.justrentmarbella.com/rentals/villa-nueva-andalucia-villa-cozy-520068.html",
   "slug": "villa-nueva-andalucia-villa-cozy-520068",
-  "type": "Villa",
-  "location": "Nueva andalucia",
   "name": "Villa Cozy",
+  "location": "Nueva andalucia",
+  "type": "Villa",
+  "guests": "8",
+  "bedrooms": "4",
+  "bathrooms": "5",
+  "area": "400 m²",
+  "plot": "",
+  "description": "Welcome to Villa Cozy, a beautiful 4-bedroom, 4-bathroom retreat tucked away in a private cul-de-sac in the very heart of Nueva Andalucía—one of Marbella’s most sought-after neighborhoods.\n\nThis villa perfectly balances modern style with timeless charm. Designed for comfort and easy living, all four spacious bedrooms feature their own en-suite bathrooms, offering privacy and relaxation for everyone. Throughout the home, soft microcement flooring adds a contemporary, elegant touch.\n\nThe heart of Villa Cozy is its expansive, open-plan kitchen, centered around a large kitchen bar where family and friends can gather, share stories, and savor the moments. The feeling throughout the villa is light, open, and welcoming.\n\nStep onto the terrace and you’ll be greeted by breathtaking views of the golf as well as Marbella’s iconic La Concha mountain, a majestic sight that can also be enjoyed from the dining area and even from some of the bedrooms—whether you’re sipping your morning coffee or winding down at sunset, the scenery is unforgettable.\n\nOutside, a private swimming pool and lush garden create your own peaceful oasis, just steps away from the vibrant life of Nueva Andalucía. Here, you’re just minutes from the area’s best restaurants, bars, nightclubs, golf courses, and of course, the golden beaches and the famous Puerto Banús marina.\n\nVilla Cozy offers the rare luxury of being both a private hideaway and a gateway to the very best that Marbella has to offer. Whether you’re looking for a relaxing family holiday, a romantic escape, or a stylish getaway with friends, Villa Cozy promises a stay to remember.\n\nWe look forward to welcoming you!\n\nPlease note, to maintain the peaceful and luxurious environment, we welcome families and couples only. Groups under 30, or those planning stag or hen parties, are not permitted. However, if you feel Villa Cozy is the right fit for your group, we invite you to reach out and tell us more about yourselves — we’re always happy to consider special requests.",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/3/1745695683b8b322175183ba9a105480de5a95e7ff/1745695695471c1dbd4af54b5f0728f4b583a055ab.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/1745695683b8b322175183ba9a105480de5a95e7ff/1745695692fe58be4f198ed2324320dab714d09983.jpg",
@@ -43,12 +49,6 @@
     "https://www.justrentmarbella.com/rentals/fotos/3/1745695683b8b322175183ba9a105480de5a95e7ff/17456956966fb8c7a8a562c91f833058ffe757ea64.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/1745695683b8b322175183ba9a105480de5a95e7ff/1745695697d9cb9e1431e1d0c574cc01d490dfc9f6.jpg"
   ],
-  "guests": "8",
-  "bedrooms": "4",
-  "bathrooms": "5",
-  "area": "400 m²",
-  "plot": "",
-  "description": "Welcome to Villa Cozy, a beautiful 4-bedroom, 4-bathroom retreat tucked away in a private cul-de-sac in the very heart of Nueva Andalucía—one of Marbella’s most sought-after neighborhoods. This villa perfectly balances modern style with timeless charm. Designed for comfort and easy living, all four spacious bedrooms feature their own en-suite bathrooms, offering privacy and relaxation for everyone. Throughout the home, soft microcement flooring adds a contemporary, elegant touch. The heart of Villa Cozy is its expansive, open-plan kitchen, centered around a large kitchen bar where family and friends can gather, share stories, and savor the moments. The feeling throughout the villa is light, open, and welcoming. Step onto the terrace and you’ll be greeted by breathtaking views of the golf as well as Marbella’s iconic La Concha mountain, a majestic sight that can also be enjoyed from the dining area and even from some of the bedrooms—whether you’re sipping your morning coffee or winding down at sunset, the scenery is unforgettable. Outside, a private swimming pool and lush garden create your own peaceful oasis, just steps away from the vibrant life of Nueva Andalucía. Here, you’re just minutes from the area’s best restaurants, bars, nightclubs, golf courses, and of course, the golden beaches and the famous Puerto Banús marina. Villa Cozy offers the rare luxury of being both a private hideaway and a gateway to the very best that Marbella has to offer. Whether you’re looking for a relaxing family holiday, a romantic escape, or a stylish getaway with friends, Villa Cozy promises a stay to remember. We look forward to welcoming you! Please note, to maintain the peaceful and luxurious environment, we welcome families and couples only. Groups under 30, or those planning stag or hen parties, are not permitted. However, if you feel Villa Cozy is the right fit for your group, we invite you to reach out and tell us more about yourselves — we’re always happy to consider special requests.",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -68,21 +68,25 @@
     }
   ],
   "features": [
-    "Private pool",
-    "Air-conditioned",
-    "Central heating",
-    "BBQ",
     "Fenced garden",
-    "Tennis court",
     "Dryer",
-    "Balcony"
+    "BBQ",
+    "Balcony",
+    "Tennis court",
+    "Central heating",
+    "Private pool"
   ],
   "distances": [],
   "services_included": [
-    "Final Cleaning: € 550.00   / booking Internet Access: Included Towels:  Included"
+    "Final Cleaning: € 550.00   / booking",
+    "Internet Access: Included",
+    "Towels:  Included"
   ],
   "services_optional": [
-    "Air conditioning: Included Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heating: Included"
+    "Air conditioning: Included",
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Heating: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

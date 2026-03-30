@@ -2,9 +2,15 @@
   "url": "https://www.justrentmarbella.com/rentals/villa-nueva-andalucia-villa-la-perla-566466.html",
   "source_url": "https://www.justrentmarbella.com/rentals/villa-nueva-andalucia-villa-la-perla-566466.html",
   "slug": "villa-nueva-andalucia-villa-la-perla-566466",
-  "type": "Villa",
-  "location": "Nueva andalucia",
   "name": "Villa La Perla",
+  "location": "Nueva andalucia",
+  "type": "Villa",
+  "guests": "12",
+  "bedrooms": "6",
+  "bathrooms": "7",
+  "area": "400 m²",
+  "plot": "",
+  "description": "Welcome to Villa Artemis! Nestled in the heart of Nueva Andalucía, this exquisitely renovated 6-bedroom, 6-bathroom villa offers a seamless blend of contemporary comfort and timeless style. Set within walking distance of top-tier restaurants, trendy bars, boutique shops, and essential amenities like supermarkets, the location couldn’t be more convenient. Inside, the home boasts a sophisticated open-plan design with elegant finishes throughout — from sleek stone bathrooms and fluted wood panel walls to the calming neutral palette and double-height ceilings in the main living areas.\n\nThe villa features a fully equipped gym and a private spa zone with a stylish glass-fronted sauna and luxurious double rain showers, creating your very own wellness retreat at home. For those working remotely or needing a quiet corner, an upstairs workstation leads out to a tranquil terrace with a small kitchenette — perfect for grabbing a cold drink while taking in the lush garden views. The sixth bedroom offers flexible use: it’s fitted with a high-quality sofa bed that includes a full proper mattress, making it just as comfortable as a standard bed. With a smart TV and playful design, it’s ideal as a children’s TV lounge or a cosy guest bedroom.\n\nThe home includes a total of six bathrooms — one with both a bathtub and shower, five with walk-in showers, and a separate guest toilet. The fully equipped kitchen is a chef’s dream, featuring two dishwashers, a wine cooler, and sleek cabinetry, while a spacious laundry room includes two washer-dryer combo machines for added convenience. Outdoors, a covered BBQ area with a charcoal grill, refrigerator, and dishwasher makes entertaining easy, while multiple terraces provide space for lounging, dining, or simply enjoying the sun.\n\nThe villa’s beautifully landscaped garden includes a large trampoline and football goal, offering great fun for children, while a covered carport provides secure parking for two cars. Whether you're hosting family, entertaining guests, or simply seeking a refined space to relax, this home caters to every lifestyle with flair and function.\n\nPlease note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.\n\nWe look forward to welcoming you.",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/3/1750177599467f665d5d346b55de694b9cb366630c/177435252326e317830aa1c1eb765775c14abf3a20.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/1750177599467f665d5d346b55de694b9cb366630c/1750178040f21bfc866ef710538ab8c40ae3f0882c.jpg",
@@ -60,12 +66,6 @@
     "https://www.justrentmarbella.com/rentals/fotos/3/1750177599467f665d5d346b55de694b9cb366630c/175017805939a7ec440308e291327118b8c83df79c.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/1750177599467f665d5d346b55de694b9cb366630c/17501780594388ea130c53b0f3f78c1d4c4195c27e.jpg"
   ],
-  "guests": "12",
-  "bedrooms": "6",
-  "bathrooms": "7",
-  "area": "400 m²",
-  "plot": "",
-  "description": "Welcome to Villa Artemis! Nestled in the heart of Nueva Andalucía, this exquisitely renovated 6-bedroom, 6-bathroom villa offers a seamless blend of contemporary comfort and timeless style. Set within walking distance of top-tier restaurants, trendy bars, boutique shops, and essential amenities like supermarkets, the location couldn’t be more convenient. Inside, the home boasts a sophisticated open-plan design with elegant finishes throughout — from sleek stone bathrooms and fluted wood panel walls to the calming neutral palette and double-height ceilings in the main living areas. The villa features a fully equipped gym and a private spa zone with a stylish glass-fronted sauna and luxurious double rain showers, creating your very own wellness retreat at home. For those working remotely or needing a quiet corner, an upstairs workstation leads out to a tranquil terrace with a small kitchenette — perfect for grabbing a cold drink while taking in the lush garden views. The sixth bedroom offers flexible use: it’s fitted with a high-quality sofa bed that includes a full proper mattress, making it just as comfortable as a standard bed. With a smart TV and playful design, it’s ideal as a children’s TV lounge or a cosy guest bedroom. The home includes a total of six bathrooms — one with both a bathtub and shower, five with walk-in showers, and a separate guest toilet. The fully equipped kitchen is a chef’s dream, featuring two dishwashers, a wine cooler, and sleek cabinetry, while a spacious laundry room includes two washer-dryer combo machines for added convenience. Outdoors, a covered BBQ area with a charcoal grill, refrigerator, and dishwasher makes entertaining easy, while multiple terraces provide space for lounging, dining, or simply enjoying the sun. The villa’s beautifully landscaped garden includes a large trampoline and football goal, offering great fun for children, while a covered carport provides secure parking for two cars. Whether you're hosting family, entertaining guests, or simply seeking a refined space to relax, this home caters to every lifestyle with flair and function. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to welcoming you.",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -89,21 +89,19 @@
     },
     {
       "room": "Bedroom 6",
-      "bed": "Sofa bed"
+      "bed": "Sofa bed double"
     }
   ],
   "features": [
-    "Private heated pool",
-    "Private pool",
-    "Air-conditioned",
-    "Central heating",
+    "Dryer",
     "BBQ",
-    "Sauna",
+    "Balcony",
     "Gym / fitness",
     "Alarm system",
-    "Dryer",
-    "Balcony",
-    "Laptop workspace"
+    "Sauna",
+    "Central heating",
+    "Private pool",
+    "Private heated pool"
   ],
   "distances": [
     {
@@ -128,10 +126,17 @@
     }
   ],
   "services_included": [
-    "Final Cleaning: € 500.00   / booking Internet Access: Included Towels:  Included"
+    "Final Cleaning: € 500.00   / booking",
+    "Internet Access: Included",
+    "Towels:  Included"
   ],
   "services_optional": [
-    "Air conditioning: Included Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heated Pool: € 64.00   / night Heating: Included Open-air parking: Included"
+    "Air conditioning: Included",
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Heated Pool: € 64.00   / night",
+    "Heating: Included",
+    "Open-air parking: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

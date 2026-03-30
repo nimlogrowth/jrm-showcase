@@ -2,9 +2,15 @@
   "url": "https://www.justrentmarbella.com/rentals/villa-marbella-villa-amira-485498.html",
   "source_url": "https://www.justrentmarbella.com/rentals/villa-marbella-villa-amira-485498.html",
   "slug": "villa-marbella-villa-amira-485498",
-  "type": "Villa",
-  "location": "Marbella",
   "name": "Villa Amira",
+  "location": "Marbella",
+  "type": "Villa",
+  "guests": "12",
+  "bedrooms": "6",
+  "bathrooms": "6",
+  "area": "538 m²",
+  "plot": "573 m²",
+  "description": "Sink into the lap of luxury at Villa Amira, an exquisite 6-bedroom, 6-bathroom haven held in the prestigious golf front neighbourhoods of Nueva Andalucia, just moments away from the renowned Los Naranjos golf course. This exceptional new villa showcases modern designs and top-of-the-line finishes, offering an unparalleled retreat for families and friends alike.\n\nSpanning across a vast plot, Villa Amira boasts spacious interiors adorned with the very finest of appliances and furnishings, ensuring the utmost comfort and luxury for guests. From the bedrooms, to the living areas, to the cinema room and to the fitness area, every corner of this stunning home has been thoughtfully designed to cater to your every need and desire.\n\nStep outside and immerse yourself in the breathtaking surroundings of Villa Amira. Expansive terrace spaces and balconies offer panoramic views of the surrounding golf course and lush greenery, while the stunning pool calls your name for a refreshing dip. The outdoor cooking area with barbecue and dining area provides the perfect setting for alfresco gatherings and culinary delights as the sun sets and stars glitter the night sky.\n\nThe garden stretches to the edge of the property, offering uninterrupted views over the famous Los Naranjos golf course, creating a picturesque backdrop for unforgettable moments with loved ones.\n\nConveniently located just a short drive from Puerto Banús and Marbella, Villa Amira offers easy access to a variety of amenities and attractions, ensuring every moment of your stay is filled with excitement and indulgence. With private parking for 2 cars and a dedicated office area, this luxurious home truly has it all.\n\nIndulge in the finer things in life at Villa Amira, where luxury meets comfort in the heart of Nueva Andalucia. Your dream vacation awaits.\n\nPlease note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/17157161711715345c1236ecb4264e1786db101b68/171571617404c491b2b510aaf13f92edc8364cbccd.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/17157161711715345c1236ecb4264e1786db101b68/1715716174639b132f32755bce57abc668d00bb355.jpg",
@@ -90,12 +96,6 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/17157161711715345c1236ecb4264e1786db101b68/171571620139d678f64b4d47e79c78adf5e2f78829.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/17157161711715345c1236ecb4264e1786db101b68/17157162017a5a12c7de34bb3e587d0879550f0f9c.jpg"
   ],
-  "guests": "12",
-  "bedrooms": "6",
-  "bathrooms": "6",
-  "area": "538 m²",
-  "plot": "573 m²",
-  "description": "Sink into the lap of luxury at Villa Amira, an exquisite 6-bedroom, 6-bathroom haven held in the prestigious golf front neighbourhoods of Nueva Andalucia, just moments away from the renowned Los Naranjos golf course. This exceptional new villa showcases modern designs and top-of-the-line finishes, offering an unparalleled retreat for families and friends alike. Spanning across a vast plot, Villa Amira boasts spacious interiors adorned with the very finest of appliances and furnishings, ensuring the utmost comfort and luxury for guests. From the bedrooms, to the living areas, to the cinema room and to the fitness area, every corner of this stunning home has been thoughtfully designed to cater to your every need and desire. Step outside and immerse yourself in the breathtaking surroundings of Villa Amira. Expansive terrace spaces and balconies offer panoramic views of the surrounding golf course and lush greenery, while the stunning pool calls your name for a refreshing dip. The outdoor cooking area with barbecue and dining area provides the perfect setting for alfresco gatherings and culinary delights as the sun sets and stars glitter the night sky. The garden stretches to the edge of the property, offering uninterrupted views over the famous Los Naranjos golf course, creating a picturesque backdrop for unforgettable moments with loved ones. Conveniently located just a short drive from Puerto Banús and Marbella, Villa Amira offers easy access to a variety of amenities and attractions, ensuring every moment of your stay is filled with excitement and indulgence. With private parking for 2 cars and a dedicated office area, this luxurious home truly has it all. Indulge in the finer things in life at Villa Amira, where luxury meets comfort in the heart of Nueva Andalucia. Your dream vacation awaits. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -123,27 +123,25 @@
     }
   ],
   "features": [
-    "Golf course",
+    "Golf course views",
     "Garden views",
     "Golf",
     "Pool views",
-    "Private pool",
-    "Air-conditioned",
-    "Central heating",
-    "BBQ",
     "Fenced garden",
+    "Dryer",
+    "BBQ",
+    "Fireplace",
+    "Balcony",
     "Gym / fitness",
     "Alarm system",
-    "Fireplace",
-    "Secured parking",
-    "Dryer",
-    "Balcony",
-    "Laptop workspace"
+    "Central heating",
+    "Private pool",
+    "Secured parking"
   ],
   "distances": [
     {
       "place": "Airport",
-      "distance": "0 km"
+      "distance": "0 m"
     },
     {
       "place": "Cafe",
@@ -175,10 +173,16 @@
     }
   ],
   "services_included": [
-    "Air conditioning: Included Final Cleaning: € 450.00   / booking Heating: Included Internet Access: Included garage and car park: Included Towels:  Included"
+    "Air conditioning: Included",
+    "Final Cleaning: € 450.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "garage and car park: Included",
+    "Towels:  Included"
   ],
   "services_optional": [
-    "Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

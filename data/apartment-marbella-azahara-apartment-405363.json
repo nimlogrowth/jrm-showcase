@@ -2,9 +2,15 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-marbella-azahara-apartment-405363.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-marbella-azahara-apartment-405363.html",
   "slug": "apartment-marbella-azahara-apartment-405363",
-  "type": "Apartment",
-  "location": "Marbella",
   "name": "Azahara Apartment",
+  "location": "Marbella",
+  "type": "Apartment",
+  "guests": "4",
+  "bedrooms": "2",
+  "bathrooms": "2",
+  "area": "97 m²",
+  "plot": "",
+  "description": "Azahara Apartment\n\nAzahara Apartment is a beautifully styled, bright and modern apartment right next to the Aloha Golf Course!\n\nOverlooking the golf course, with the Mediterranean behind, this apartment has amazing views and is the perfect place if you are looking to really unwind and fully relax.\n\nThe apartment has an open-plan living/dining room with glass curtain doors that allow you to fully open to the terrace. That way, the inside and outside are fully connected.\n\nBoth from the living room as well as the terrace you have great views.\n\nThe terrace features a comfy outside lounge area as well as a few sun loungers.\n\nAs it is located on the ground floor you can directly walk to the large community pool right from there.\n\nThe lounge contains a seating area with a TV and a dining area overlooking the wonderful views.\n\nThe kitchen is modern and fitted with all you may need; a dishwasher, fridge-freezer, oven, filter coffee machine, etc.\n\nThere are 2 bedrooms, both with their own bathroom. The master bedroom has windows facing the community garden and pool area. In total, this enables 4 to sleep very comfortably.\n\nOther than the superb views and great style, this apartment also boasts a great location!\n\nAt just a few minutes’ walk from the Aloha strip, you will find some of Marbella’s finest restaurants, nighttime venues, bars, and a supermarket at just a short walk.\n\nThe complex is gated, with large and beautiful gardens and a large swimming pool with sun loungers and great views.\n\nAzahara Apartment offers a fresh, clean and stylish space to enjoy your holidays. It has just been restyled to a cosy Scandinavian standard.\n\nThere is air conditioning throughout, a Smart TV to access Netflix, YouTube, etc, and wifi is provided.\n\nPlease note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.\n\nWe look forward to welcoming you.",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/1665669356059270fafc60804318b1773604a3c2be/16656693572193d1ee4957f536079b913f5824ca4d.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1665669356059270fafc60804318b1773604a3c2be/16699797913e484502bd50105e8584e321951419bd.jpg",
@@ -28,12 +34,6 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/1665669356059270fafc60804318b1773604a3c2be/16699798460d22830e2bc2544ee5feea5fe40278c1.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1665669356059270fafc60804318b1773604a3c2be/16699798421f5797497dbb1580c884d19ddac0969e.jpg"
   ],
-  "guests": "4",
-  "bedrooms": "2",
-  "bathrooms": "2",
-  "area": "97 m²",
-  "plot": "",
-  "description": "Azahara Apartment Azahara Apartment is a beautifully styled, bright and modern apartment right next to the Aloha Golf Course! Overlooking the golf course, with the Mediterranean behind, this apartment has amazing views and is the perfect place if you are looking to really unwind and fully relax. The apartment has an open-plan living/dining room with glass curtain doors that allow you to fully open to the terrace. That way, the inside and outside are fully connected. Both from the living room as well as the terrace you have great views. The terrace features a comfy outside lounge area as well as a few sun loungers. As it is located on the ground floor you can directly walk to the large community pool right from there. The lounge contains a seating area with a TV and a dining area overlooking the wonderful views. The kitchen is modern and fitted with all you may need; a dishwasher, fridge-freezer, oven, filter coffee machine, etc. There are 2 bedrooms, both with their own bathroom. The master bedroom has windows facing the community garden and pool area. In total, this enables 4 to sleep very comfortably. Other than the superb views and great style, this apartment also boasts a great location! At just a few minutes’ walk from the Aloha strip, you will find some of Marbella’s finest restaurants, nighttime venues, bars, and a supermarket at just a short walk. The complex is gated, with large and beautiful gardens and a large swimming pool with sun loungers and great views. Azahara Apartment offers a fresh, clean and stylish space to enjoy your holidays. It has just been restyled to a cosy Scandinavian standard. There is air conditioning throughout, a Smart TV to access Netflix, YouTube, etc, and wifi is provided. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to welcoming you.",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -45,13 +45,13 @@
     }
   ],
   "features": [
-    "Golf course",
+    "Golf course views",
     "Garden views",
     "Golf",
     "Mountain views",
-    "Communal pool",
-    "Central heating",
     "BBQ",
+    "Central heating",
+    "Communal pool",
     "Secured parking",
     "15 m² terrace"
   ],
@@ -102,10 +102,16 @@
     }
   ],
   "services_included": [
-    "Air conditioning: Included Final Cleaning: € 175.00   / booking Heating: Included Internet Access: Included Covered parking: Included Towels:  Included"
+    "Air conditioning: Included",
+    "Final Cleaning: € 175.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "Covered parking: Included",
+    "Towels:  Included"
   ],
   "services_optional": [
-    "Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

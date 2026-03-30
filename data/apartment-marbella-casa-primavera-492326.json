@@ -2,9 +2,15 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-marbella-casa-primavera-492326.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-marbella-casa-primavera-492326.html",
   "slug": "apartment-marbella-casa-primavera-492326",
-  "type": "Apartment",
-  "location": "Marbella",
   "name": "Casa Primavera",
+  "location": "Marbella",
+  "type": "Apartment",
+  "guests": "4",
+  "bedrooms": "1",
+  "bathrooms": "1",
+  "area": "73 m²",
+  "plot": "",
+  "description": "Welcome to Casa Primavera, a charming one-bedroom apartment with a double sofa-bed in the heart of Nueva Andalucia’s Golf Valley in Marbella. This bright and airy home is flooded with natural light, creating a warm and inviting atmosphere perfect for golfers and couples seeking a romantic getaway.\n\nThe styling of Casa Primavera is fresh with new furniture that complements its simple, minimalist vibe. The decor exudes calm, featuring natural tones that enhance the tranquil ambiance. The living space is designed for comfort and relaxation, offering modern furnishings and elegant décor.\n\nThe well-equipped kitchen is ideal for culinary enthusiasts, perfect for exploring new recipes. The bedroom promises a restful night’s sleep with its comfortable setup and ensuite bathroom. Dont forget about the cozy sofa bed, perfect for those lazy late nights.\n\nCasa Primavera offers stunning views of the complex's beautiful gardens and pool, with distant glimpses of the Mediterranean Sea adding to its charm. The terrace is a serene spot with outdoor seating, perfect for enjoying sunrises with a morning coffee or watching the sunset with a loved one.\n\nThe location is ideal, situated close to the vibrant Aloha Strip, renowned for its exceptional bars and restaurants. For sports enthusiasts, the area is dotted with padel and tennis clubs, and several prestigious golf courses are nearby. The lively Puerto Banús is just a short drive away, offering upscale shopping, dining, and nightlife, while Marbella city centre is only 10 minutes away.\n\nGuests will appreciate the convenience of gated parking within the tranquil complex, ensuring a peaceful and secure stay.\n\nExperience the best of Marbella at Casa Primavera, where comfort, convenience, and stunning surroundings come together to create the perfect escape.\n\nWe look forward to welcoming you!",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/171933524208dd9beb1b0410b5ac73b7dee7e8f398/1719335247598de11cbf26e63f6f28662d21ae829a.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/171933524208dd9beb1b0410b5ac73b7dee7e8f398/1719335248b519da08a8a597721b5045be80336aad.jpg",
@@ -22,16 +28,14 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/171933524208dd9beb1b0410b5ac73b7dee7e8f398/1719335249a3df16f321dc6233575fb318ef01ccca.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/171933524208dd9beb1b0410b5ac73b7dee7e8f398/171933525048ffaef1d48d17f8b0d88b279f687143.jpg"
   ],
-  "guests": "4",
-  "bedrooms": "1",
-  "bathrooms": "1",
-  "area": "73 m²",
-  "plot": "",
-  "description": "Welcome to Casa Primavera, a charming one-bedroom apartment with a double sofa-bed in the heart of Nueva Andalucia’s Golf Valley in Marbella. This bright and airy home is flooded with natural light, creating a warm and inviting atmosphere perfect for golfers and couples seeking a romantic getaway. The styling of Casa Primavera is fresh with new furniture that complements its simple, minimalist vibe. The decor exudes calm, featuring natural tones that enhance the tranquil ambiance. The living space is designed for comfort and relaxation, offering modern furnishings and elegant décor. The well-equipped kitchen is ideal for culinary enthusiasts, perfect for exploring new recipes. The bedroom promises a restful night’s sleep with its comfortable setup and ensuite bathroom. Dont forget about the cozy sofa bed, perfect for those lazy late nights. Casa Primavera offers stunning views of the complex's beautiful gardens and pool, with distant glimpses of the Mediterranean Sea adding to its charm. The terrace is a serene spot with outdoor seating, perfect for enjoying sunrises with a morning coffee or watching the sunset with a loved one. The location is ideal, situated close to the vibrant Aloha Strip, renowned for its exceptional bars and restaurants. For sports enthusiasts, the area is dotted with padel and tennis clubs, and several prestigious golf courses are nearby. The lively Puerto Banús is just a short drive away, offering upscale shopping, dining, and nightlife, while Marbella city centre is only 10 minutes away. Guests will appreciate the convenience of gated parking within the tranquil complex, ensuring a peaceful and secure stay. Experience the best of Marbella at Casa Primavera, where comfort, convenience, and stunning surroundings come together to create the perfect escape. We look forward to welcoming you!",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
       "bed": "Double bed"
+    },
+    {
+      "room": "Common spaces",
+      "bed": "Sofa bed double"
     }
   ],
   "features": [
@@ -39,11 +43,10 @@
     "Garden views",
     "Golf",
     "Pool views",
-    "Communal pool",
     "Central heating",
+    "Communal pool",
     "Secured parking",
-    "Ocean views",
-    "Laptop workspace"
+    "Ocean views"
   ],
   "distances": [
     {
@@ -84,10 +87,16 @@
     }
   ],
   "services_included": [
-    "Air conditioning: Included Final Cleaning: € 150.00   / booking Heating: Included Internet Access: Included Covered parking: Included Towels:  Included"
+    "Air conditioning: Included",
+    "Final Cleaning: € 150.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "Covered parking: Included",
+    "Towels:  Included"
   ],
   "services_optional": [
-    "Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

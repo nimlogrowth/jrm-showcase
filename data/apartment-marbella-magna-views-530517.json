@@ -2,9 +2,15 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-marbella-magna-views-530517.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-marbella-magna-views-530517.html",
   "slug": "apartment-marbella-magna-views-530517",
-  "type": "Apartment",
-  "location": "Marbella",
   "name": "Magna Views",
+  "location": "Marbella",
+  "type": "Apartment",
+  "guests": "4",
+  "bedrooms": "2",
+  "bathrooms": "2",
+  "area": "120 m²",
+  "plot": "",
+  "description": "Perched in one of Nueva Andalucía’s most recognized and well-positioned buildings, this spacious 2-bedroom, 2-bathroom apartment in Magna Marbella offers a rare combination of panoramic views, refined comfort, and unbeatable location.\n\nThe property boasts incredible views stretching from the golf course to the sea, which can be enjoyed from both the generous terrace and the main living spaces. Whether you're relaxing outdoors or entertaining guests, the setting is nothing short of spectacular.\n\nInside, the apartment is semi-renovated, featuring a bright open-plan living and dining area with marble flooring and direct terrace access. The kitchen is sleek and modern, fitted with updated appliances and clean cabinetry, blending functionality with contemporary style.\n\nBoth bedrooms are spacious and serene, including a generous primary suite with ample wardrobe space and a private ensuite bathroom. Each room has been thoughtfully designed to capture natural light and maximise the sense of space. The apartment overall offers plenty of room to spread out, making it ideal for both full-time living and high-end holiday use.\n\nSituated directly adjacent to Magna Marbella Golf — a 9-hole course with a beloved clubhouse restaurant — the location is as convenient as it is prestigious. Within just a few minutes’ drive you’ll reach Puerto Banús, Aloha, and a variety of top-tier golf courses, restaurants, and beaches, placing you at the heart of the Costa del Sol lifestyle.\n\nThe complex itself is beautifully maintained with lush gardens, a large communal pool, and gated security — a true oasis of calm just moments from Marbella’s vibrant energy.\n\nWhether you're seeking a stylish holiday base, a luxury rental investment, or a permanent residence in one of Marbella’s most iconic developments, this Magna Marbella gem ticks every box.\n\nPlease note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/3/1742997977455cf90dd808bf728a49ebb9d1adc24d/17429979788e507324da9c3d2cf57b3223714526be.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/1742997977455cf90dd808bf728a49ebb9d1adc24d/174299797835034b5e24b81b024223dff9ef4bcc9b.jpg",
@@ -26,12 +32,6 @@
     "https://www.justrentmarbella.com/rentals/fotos/3/1742997977455cf90dd808bf728a49ebb9d1adc24d/1742997985bf716bb79fc6e16fe5929088073e79ac.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/1742997977455cf90dd808bf728a49ebb9d1adc24d/1742997985678bf1e895dd3622cc42074ba52ae3c5.jpg"
   ],
-  "guests": "4",
-  "bedrooms": "2",
-  "bathrooms": "2",
-  "area": "120 m²",
-  "plot": "",
-  "description": "Perched in one of Nueva Andalucía’s most recognized and well-positioned buildings, this spacious 2-bedroom, 2-bathroom apartment in Magna Marbella offers a rare combination of panoramic views, refined comfort, and unbeatable location. The property boasts incredible views stretching from the golf course to the sea, which can be enjoyed from both the generous terrace and the main living spaces. Whether you're relaxing outdoors or entertaining guests, the setting is nothing short of spectacular. Inside, the apartment is semi-renovated, featuring a bright open-plan living and dining area with marble flooring and direct terrace access. The kitchen is sleek and modern, fitted with updated appliances and clean cabinetry, blending functionality with contemporary style. Both bedrooms are spacious and serene, including a generous primary suite with ample wardrobe space and a private ensuite bathroom. Each room has been thoughtfully designed to capture natural light and maximise the sense of space. The apartment overall offers plenty of room to spread out, making it ideal for both full-time living and high-end holiday use. Situated directly adjacent to Magna Marbella Golf — a 9-hole course with a beloved clubhouse restaurant — the location is as convenient as it is prestigious. Within just a few minutes’ drive you’ll reach Puerto Banús, Aloha, and a variety of top-tier golf courses, restaurants, and beaches, placing you at the heart of the Costa del Sol lifestyle. The complex itself is beautifully maintained with lush gardens, a large communal pool, and gated security — a true oasis of calm just moments from Marbella’s vibrant energy. Whether you're seeking a stylish holiday base, a luxury rental investment, or a permanent residence in one of Marbella’s most iconic developments, this Magna Marbella gem ticks every box. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -43,18 +43,17 @@
     }
   ],
   "features": [
-    "Golf course",
+    "Golf course views",
     "Sea views",
     "Garden views",
     "Golf",
     "Mountain views",
     "Pool views",
-    "Central heating",
-    "Secured parking",
-    "Ocean views",
     "Dryer",
     "Balcony",
-    "Pool towels"
+    "Central heating",
+    "Secured parking",
+    "Ocean views"
   ],
   "distances": [
     {
@@ -95,10 +94,16 @@
     }
   ],
   "services_included": [
-    "Final Cleaning: € 250.00   / booking Internet Access: Included Garage: Included Towels:  Included"
+    "Final Cleaning: € 250.00   / booking",
+    "Internet Access: Included",
+    "Garage: Included",
+    "Towels:  Included"
   ],
   "services_optional": [
-    "Air conditioning: Included Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heating: Included"
+    "Air conditioning: Included",
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Heating: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

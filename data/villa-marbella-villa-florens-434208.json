@@ -2,9 +2,15 @@
   "url": "https://www.justrentmarbella.com/rentals/villa-marbella-villa-florens-434208.html",
   "source_url": "https://www.justrentmarbella.com/rentals/villa-marbella-villa-florens-434208.html",
   "slug": "villa-marbella-villa-florens-434208",
-  "type": "Villa",
-  "location": "Marbella",
   "name": "Villa Florens",
+  "location": "Marbella",
+  "type": "Villa",
+  "guests": "12",
+  "bedrooms": "8",
+  "bathrooms": "7",
+  "area": "400 m²",
+  "plot": "",
+  "description": "Welcome to Villa Florens! Villa Florens is a stunning 8-bedroom villa offering accommodation for up to 12 people, perfectly designed for families and groups looking for both shared and private spaces. Ideally situated between Puerto Banús and San Pedro, this villa provides the best of both worlds—close to vibrant attractions yet nestled in a peaceful setting with a private swimming pool and beautifully designed outdoor areas.\n\nDecorated in a modern and lively style, the villa features contemporary artwork, high-end furnishings, and an airy, spacious feel. The main level boasts an elegant open-plan living, dining, and kitchen area, where warm wooden tones blend seamlessly into the stylish furnishings. The fully equipped kitchen includes a central island and breakfast counter, and the entire space opens onto the terrace and garden, allowing for easy indoor-outdoor living. There is also a built-in outdoor kitchen with BBQ and a spacious dining area for 10, perfect for summer evenings, along with a charming firepit on the side terrace.\n\nUpstairs, the Master Bedroom offers a private terrace with a jacuzzi bath and a luxurious ensuite bathroom. There are also two additional double bedrooms and a shared bathroom on this level. A fantastic cinema area adds to the entertainment options, making movie nights an absolute treat!\n\nFor added flexibility, the lower level provides an ideal setup for grandparents, teenagers, or family members who prefer extra privacy. This space includes three additional bedrooms, a lounge/TV area, and a second fully equipped kitchen, allowing guests to have their own independent area while still being part of the home. It also has a private entrance, its own front yard, and an outdoor dining area with a Weber BBQ, making it a perfect balance between privacy and togetherness.\n\nThere is hot/cold AC throughout, excellent Wi-Fi, and gated parking for one car, with additional street parking available.\n\nVilla Florens is just a 2-minute walk from the Real Padel Club and Gym, a 20-minute walk from the beach, and a short drive to Puerto Banús or San Pedro. Golf lovers will appreciate the six nearby golf courses, while supermarkets, restaurants, and other amenities are all within a few kilometres.\n\nPlease note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.\n\nDon’t forget to ask about our concierge service! We look forward to welcoming you.",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/1686237248be64b6a5fa38b45cb00d6f45a433090d/1686237274579aaccea555519f5185f40f919eb77f.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1686237248be64b6a5fa38b45cb00d6f45a433090d/168623726527985d2d4dfc1314c144612db7ab9c5e.jpg",
@@ -53,12 +59,6 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/1686237248be64b6a5fa38b45cb00d6f45a433090d/168623738542bcd9680057f927325266d2df0f98e9.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1686237248be64b6a5fa38b45cb00d6f45a433090d/16862373881713bc1d4d72a6f131349f70d0074e7e.jpg"
   ],
-  "guests": "12",
-  "bedrooms": "8",
-  "bathrooms": "7",
-  "area": "400 m²",
-  "plot": "",
-  "description": "Welcome to Villa Florens! Villa Florens is a stunning 8-bedroom villa offering accommodation for up to 12 people, perfectly designed for families and groups looking for both shared and private spaces. Ideally situated between Puerto Banús and San Pedro, this villa provides the best of both worlds—close to vibrant attractions yet nestled in a peaceful setting with a private swimming pool and beautifully designed outdoor areas. Decorated in a modern and lively style, the villa features contemporary artwork, high-end furnishings, and an airy, spacious feel. The main level boasts an elegant open-plan living, dining, and kitchen area, where warm wooden tones blend seamlessly into the stylish furnishings. The fully equipped kitchen includes a central island and breakfast counter, and the entire space opens onto the terrace and garden, allowing for easy indoor-outdoor living. There is also a built-in outdoor kitchen with BBQ and a spacious dining area for 10, perfect for summer evenings, along with a charming firepit on the side terrace. Upstairs, the Master Bedroom offers a private terrace with a jacuzzi bath and a luxurious ensuite bathroom. There are also two additional double bedrooms and a shared bathroom on this level. A fantastic cinema area adds to the entertainment options, making movie nights an absolute treat! For added flexibility, the lower level provides an ideal setup for grandparents, teenagers, or family members who prefer extra privacy. This space includes three additional bedrooms, a lounge/TV area, and a second fully equipped kitchen, allowing guests to have their own independent area while still being part of the home. It also has a private entrance, its own front yard, and an outdoor dining area with a Weber BBQ, making it a perfect balance between privacy and togetherness. There is hot/cold AC throughout, excellent Wi-Fi, and gated parking for one car, with additional street parking available. Villa Florens is just a 2-minute walk from the Real Padel Club and Gym, a 20-minute walk from the beach, and a short drive to Puerto Banús or San Pedro. Golf lovers will appreciate the six nearby golf courses, while supermarkets, restaurants, and other amenities are all within a few kilometres. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. Don’t forget to ask about our concierge service! We look forward to welcoming you.",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -74,7 +74,7 @@
     },
     {
       "room": "Bedroom 4",
-      "bed": "Single bed"
+      "bed": "Single beds"
     },
     {
       "room": "Bedroom 5",
@@ -96,15 +96,15 @@
   "features": [
     "Garden views",
     "Pool views",
-    "Private pool",
-    "Air-conditioned",
-    "Central heating",
-    "BBQ",
     "Fenced garden",
-    "Alarm system",
-    "Safe",
     "Dryer",
-    "Balcony"
+    "BBQ",
+    "Safe",
+    "Balcony",
+    "Alarm system",
+    "Central heating",
+    "Air-conditioned",
+    "Private pool"
   ],
   "distances": [
     {
@@ -149,10 +149,16 @@
     }
   ],
   "services_included": [
-    "Air conditioning: Included Final Cleaning: € 550.00   / booking Heating: Included Internet Access: Included Covered parking: Included Towels:  Included"
+    "Air conditioning: Included",
+    "Final Cleaning: € 550.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "Covered parking: Included",
+    "Towels:  Included"
   ],
   "services_optional": [
-    "Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

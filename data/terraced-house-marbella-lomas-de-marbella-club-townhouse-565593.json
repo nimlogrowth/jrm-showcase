@@ -2,9 +2,15 @@
   "url": "https://www.justrentmarbella.com/rentals/terraced-house-marbella-lomas-de-marbella-club-townhouse-565593.html",
   "source_url": "https://www.justrentmarbella.com/rentals/terraced-house-marbella-lomas-de-marbella-club-townhouse-565593.html",
   "slug": "terraced-house-marbella-lomas-de-marbella-club-townhouse-565593",
-  "type": "Terraced House",
-  "location": "Marbella",
   "name": "Lomas de Marbella Club Townhouse",
+  "location": "Marbella",
+  "type": "Terraced House",
+  "guests": "4",
+  "bedrooms": "2",
+  "bathrooms": "2",
+  "area": "170 m²",
+  "plot": "",
+  "description": "Welcome to our Lomas de Marbella Club Townhouse! Located in the sought-after Lomas de Marbella Club on the prestigious Golden Mile, this beautifully renovated 2-bedroom, 2-bathroom townhouse offers a unique mix of contemporary Scandinavian design and authentic Spanish charm. Set within a picturesque Andalusian-style urbanisation with whitewashed façades and manicured communal areas, the home enjoys a prime position just a 10-minute walk from the beach and Puente Romano’s vibrant dining and entertainment scene.\n\nInside, the property features a fully equipped modern kitchen complete with a wine fridge, designer furniture, custom artwork, and a spacious open-plan layout perfect for relaxing or entertaining. Both bathrooms are designed with double vanities and luxurious rain showers, creating a spa-like atmosphere, while both bedrooms are bright, comfortable, and stylishly appointed. Throughout the home, you’ll find air conditioning, high-speed WiFi, and a Smart TV for added comfort and convenience.\n\nOutdoors, guests can enjoy two private terraces—one ideal for dining al fresco, the other set up as a chill-out area with outdoor sofas, parasols, and a BBQ. The main terrace offers direct views of the large communal pool, which is located just a few steps away and surrounded by beautifully landscaped gardens. Set within a quiet, secure, gated community, the property also benefits from street parking nearby and easy access to Marbella’s best beaches, golf courses, shops, and restaurants.\n\nPlease note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.\n\nWe look forward to welcoming you!",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/3/174964973724e7eaf6665dcdf8aed526164ccaec60/1749649741cf75c1f30e2dbbf9b78cca36d66614e4.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/174964973724e7eaf6665dcdf8aed526164ccaec60/1749649745b66495856b5fe06e8e1471c9acf2521f.jpg",
@@ -33,12 +39,6 @@
     "https://www.justrentmarbella.com/rentals/fotos/3/174964973724e7eaf6665dcdf8aed526164ccaec60/17496497486802d8ab79bea6c9179aa13d2df3f348.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/174964973724e7eaf6665dcdf8aed526164ccaec60/1749649749d4e78e3f8be1d10bb8241cd0e0d93b4a.jpg"
   ],
-  "guests": "4",
-  "bedrooms": "2",
-  "bathrooms": "2",
-  "area": "170 m²",
-  "plot": "",
-  "description": "Welcome to our Lomas de Marbella Club Townhouse! Located in the sought-after Lomas de Marbella Club on the prestigious Golden Mile, this beautifully renovated 2-bedroom, 2-bathroom townhouse offers a unique mix of contemporary Scandinavian design and authentic Spanish charm. Set within a picturesque Andalusian-style urbanisation with whitewashed façades and manicured communal areas, the home enjoys a prime position just a 10-minute walk from the beach and Puente Romano’s vibrant dining and entertainment scene. Inside, the property features a fully equipped modern kitchen complete with a wine fridge, designer furniture, custom artwork, and a spacious open-plan layout perfect for relaxing or entertaining. Both bathrooms are designed with double vanities and luxurious rain showers, creating a spa-like atmosphere, while both bedrooms are bright, comfortable, and stylishly appointed. Throughout the home, you’ll find air conditioning, high-speed WiFi, and a Smart TV for added comfort and convenience. Outdoors, guests can enjoy two private terraces—one ideal for dining al fresco, the other set up as a chill-out area with outdoor sofas, parasols, and a BBQ. The main terrace offers direct views of the large communal pool, which is located just a few steps away and surrounded by beautifully landscaped gardens. Set within a quiet, secure, gated community, the property also benefits from street parking nearby and easy access to Marbella’s best beaches, golf courses, shops, and restaurants. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to welcoming you!",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -50,14 +50,13 @@
     }
   ],
   "features": [
-    "Private pool",
-    "Air-conditioned",
-    "Central heating",
-    "BBQ",
     "Fenced garden",
-    "Alarm system",
     "Dryer",
+    "BBQ",
     "Balcony",
+    "Alarm system",
+    "Central heating",
+    "Private pool",
     "45 m² terrace"
   ],
   "distances": [
@@ -79,10 +78,16 @@
     }
   ],
   "services_included": [
-    "Final Cleaning: € 200.00   / booking Internet Access: Included Open-air parking: Included Towels:  Included"
+    "Final Cleaning: € 200.00   / booking",
+    "Internet Access: Included",
+    "Open-air parking: Included",
+    "Towels:  Included"
   ],
   "services_optional": [
-    "Air conditioning: Included Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heating: Included"
+    "Air conditioning: Included",
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Heating: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

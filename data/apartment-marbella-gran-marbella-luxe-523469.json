@@ -2,9 +2,15 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-marbella-gran-marbella-luxe-523469.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-marbella-gran-marbella-luxe-523469.html",
   "slug": "apartment-marbella-gran-marbella-luxe-523469",
-  "type": "Apartment",
-  "location": "Marbella",
   "name": "Gran Marbella Luxe",
+  "location": "Marbella",
+  "type": "Apartment",
+  "guests": "8",
+  "bedrooms": "4",
+  "bathrooms": "3",
+  "area": "180 m²",
+  "plot": "",
+  "description": "Experience the ultimate beachfront getaway at Gran Marbella Luxe – a breathtaking four-bedroom, three-bathroom apartment nestled in the prestigious Gran Marbella complex, right on the heart of Marbella's Golden Mile. Originally two separate apartments, this stunning space has been expertly combined into one expansive residence, offering unparalleled comfort and twice the space of other units in the area.\n\nImagine stepping out of your door to feel the ocean breeze on your face, with the beach just moments away. This exquisite retreat invites you to unwind in an atmosphere of elegance and style, where the lively city vibe and Marbella’s finest restaurants and beach bars are just around the corner. Whether you’re relaxing inside or enjoying the outdoor space, every corner of this home exudes the perfect holiday feel.\n\nInside, the apartment features sophisticated marble flooring, soft neutral tones, and vast floor-to-ceiling windows that bathe the space in natural light, making it feel both open and airy. The open-plan living area flows seamlessly onto a private terrace, offering the perfect spot for a peaceful morning coffee or an evening glass of wine as you gaze at the sparkling sea to the left.\n\nThe open kitchen is fully equipped, allowing you to easily whip up a delicious meal or enjoy a snack while remaining part of the social areas. Two of the spacious bedrooms open directly onto the terrace, so you can wake up to the sound of the waves and the fresh sea air. The master bedroom features a luxurious ensuite with a Jacuzzi bath, ensuring the ultimate in relaxation after a day of sun and sand.\n\nSet in a secure, 24-hour gated community, Gran Marbella Luxe offers more than just a place to stay – it’s a destination in itself. Enjoy direct beach access via the Paseo Marítimo, take a stroll through the beautifully landscaped gardens, or dive into one of the communal swimming pools to cool off. Whether you’re lounging by the pool, enjoying a quiet evening on the terrace, or exploring the vibrant Marbella lifestyle, this apartment is the perfect base for an unforgettable stay.\n\nPlease note: Gran Marbella Luxe is designed for families and couples, with no groups under 30 and no hen or stag parties allowed. If you're outside of this category but still interested in booking, please get in touch with us to share more about your group, and we’ll be happy to accommodate your request.\n\nWe look forward to welcoming you to Gran Marbella Luxe!",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/3/17392883239a8708fa6901d9e718e12dc5eeb5f68f/1739288328e556eb86656ec88a8bc59509eb9adf48.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/17392883239a8708fa6901d9e718e12dc5eeb5f68f/17392883291890943ce5515c32424513f83ee948d9.jpg",
@@ -39,12 +45,6 @@
     "https://www.justrentmarbella.com/rentals/fotos/3/17392883239a8708fa6901d9e718e12dc5eeb5f68f/1739288337146b8f4d4594c351cbd26f8e27527189.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/17392883239a8708fa6901d9e718e12dc5eeb5f68f/173928833709d3ff4f388a9b76bfc353f7ceba56b7.jpg"
   ],
-  "guests": "8",
-  "bedrooms": "4",
-  "bathrooms": "3",
-  "area": "180 m²",
-  "plot": "",
-  "description": "Experience the ultimate beachfront getaway at Gran Marbella Luxe – a breathtaking four-bedroom, three-bathroom apartment nestled in the prestigious Gran Marbella complex, right on the heart of Marbella's Golden Mile. Originally two separate apartments, this stunning space has been expertly combined into one expansive residence, offering unparalleled comfort and twice the space of other units in the area. Imagine stepping out of your door to feel the ocean breeze on your face, with the beach just moments away. This exquisite retreat invites you to unwind in an atmosphere of elegance and style, where the lively city vibe and Marbella’s finest restaurants and beach bars are just around the corner. Whether you’re relaxing inside or enjoying the outdoor space, every corner of this home exudes the perfect holiday feel. Inside, the apartment features sophisticated marble flooring, soft neutral tones, and vast floor-to-ceiling windows that bathe the space in natural light, making it feel both open and airy. The open-plan living area flows seamlessly onto a private terrace, offering the perfect spot for a peaceful morning coffee or an evening glass of wine as you gaze at the sparkling sea to the left. The open kitchen is fully equipped, allowing you to easily whip up a delicious meal or enjoy a snack while remaining part of the social areas. Two of the spacious bedrooms open directly onto the terrace, so you can wake up to the sound of the waves and the fresh sea air. The master bedroom features a luxurious ensuite with a Jacuzzi bath, ensuring the ultimate in relaxation after a day of sun and sand. Set in a secure, 24-hour gated community, Gran Marbella Luxe offers more than just a place to stay – it’s a destination in itself. Enjoy direct beach access via the Paseo Marítimo, take a stroll through the beautifully landscaped gardens, or dive into one of the communal swimming pools to cool off. Whether you’re lounging by the pool, enjoying a quiet evening on the terrace, or exploring the vibrant Marbella lifestyle, this apartment is the perfect base for an unforgettable stay. Please note: Gran Marbella Luxe is designed for families and couples, with no groups under 30 and no hen or stag parties allowed. If you're outside of this category but still interested in booking, please get in touch with us to share more about your group, and we’ll be happy to accommodate your request. We look forward to welcoming you to Gran Marbella Luxe!",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -60,19 +60,16 @@
     },
     {
       "room": "Bedroom 4",
-      "bed": "Single bed"
+      "bed": "Single beds"
     }
   ],
   "features": [
     "Sea views",
-    "Communal pool",
-    "Air-conditioned",
-    "Central heating",
-    "Jacuzzi",
     "Lift",
     "Dryer",
     "Balcony",
-    "Laptop workspace",
+    "Central heating",
+    "Communal pool",
     "40 m² terrace"
   ],
   "distances": [
@@ -82,7 +79,7 @@
     },
     {
       "place": "Airport",
-      "distance": "53 km"
+      "distance": "53.8 m"
     },
     {
       "place": "Shops",
@@ -94,10 +91,16 @@
     }
   ],
   "services_included": [
-    "Final Cleaning: € 360.00   / booking Internet Access: Included Garage: Included Towels:  Included"
+    "Final Cleaning: € 360.00   / booking",
+    "Internet Access: Included",
+    "Garage: Included",
+    "Towels:  Included"
   ],
   "services_optional": [
-    "Air conditioning: Included Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heating: Included"
+    "Air conditioning: Included",
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Heating: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

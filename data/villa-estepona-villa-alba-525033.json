@@ -2,9 +2,15 @@
   "url": "https://www.justrentmarbella.com/rentals/villa-estepona-villa-alba-525033.html",
   "source_url": "https://www.justrentmarbella.com/rentals/villa-estepona-villa-alba-525033.html",
   "slug": "villa-estepona-villa-alba-525033",
-  "type": "Villa",
-  "location": "Estepona",
   "name": "Villa Alba",
+  "location": "Estepona",
+  "type": "Villa",
+  "guests": "8",
+  "bedrooms": "4",
+  "bathrooms": "5",
+  "area": "508 m²",
+  "plot": "508 m²",
+  "description": "Villa Alba – A Frontline Golf Sanctuary of Modern Elegance\n\nNestled in an enviable frontline golf position, Villa Alba is a stunning newly built 4-bedroom, 4-bathroom villa that seamlessly blends cutting-edge architecture with luxurious comfort. With a design that embraces natural light through expansive floor-to-ceiling windows, this contemporary masterpiece offers an elevated living experience in the heart of the Costa del Sol.\n\nThe villa’s open-plan layout is a celebration of modern design, where clean lines, neutral tones, and high-end finishes create a sense of space and tranquility. The living area, adorned with elegant décor, flows effortlessly into a state-of-the-art kitchen, fully equipped with premium appliances and sleek cabinetry. The central island doubles as a breakfast bar, making it an inviting spot for morning coffee or evening socializing.\n\nFrom the living space, large sliding glass doors open directly to the outdoor entertainment area, where a private pool shimmers under the Mediterranean sun. With sun loungers, a shaded dining area, and a BBQ, this space is designed for seamless relaxation and al fresco dining. For added comfort, the pool can be heated for an additional €350 per week, ensuring year-round enjoyment.\n\nThis home away from home is designed to offer privacy and comfort, with its 4 spacious bedrooms, each featuring an en-suite or allocated bathroom. The upper level houses two beautifully appointed bedrooms, each with floor-to-ceiling windows that open onto private terraces, offering breathtaking views of the surrounding golf course and lush greenery. These rooms feature plush bedding, stylish accent walls, and ambient lighting, creating a refined retreat for guests. Descending to the lower level, you’ll find two additional bedrooms, thoughtfully designed with cozy aesthetics and ample storage. This level also includes a TV lounge, providing a private entertainment area for guests to unwind.\n\nVilla Alba is perfectly positioned for those who desire a balance of tranquility and accessibility. Located just 10 minutes from Puerto Banús, 5 minutes from the beach, and a short 10-minute walk to shops and local amenities, the villa offers easy access to some of the best attractions the Costa del Sol has to offer. The property also includes secure gated parking for added convenience, with one private parking spot inside the gate, ensuring safety while maintaining ease of access.\n\nDesigned with both style and functionality in mind, Villa Alba is more than just a holiday home—it's a statement of modern elegance, offering a luxurious retreat in an unbeatable location. Whether you're soaking in the sun-drenched pool, enjoying a BBQ under the stars, or waking up to panoramic golf course views, this villa offers an unparalleled lifestyle experience.\n\nPlease note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/3/17401536747c950e02c76875d7a17fa33806f0545b/1740153675e9985fb85b60eedd59eefca234a7d1fd.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/17401536747c950e02c76875d7a17fa33806f0545b/1740153676476199139e2db3e559903455a06e50f0.jpg",
@@ -38,12 +44,6 @@
     "https://www.justrentmarbella.com/rentals/fotos/3/17401536747c950e02c76875d7a17fa33806f0545b/1740153686a739eee44a3ac55cdffd30d1ed15e4e9.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/17401536747c950e02c76875d7a17fa33806f0545b/174015368650ff57c881c1a7cb1df0c63e5745aa05.jpg"
   ],
-  "guests": "8",
-  "bedrooms": "4",
-  "bathrooms": "5",
-  "area": "508 m²",
-  "plot": "508 m²",
-  "description": "Villa Alba – A Frontline Golf Sanctuary of Modern Elegance Nestled in an enviable frontline golf position, Villa Alba is a stunning newly built 4-bedroom, 4-bathroom villa that seamlessly blends cutting-edge architecture with luxurious comfort. With a design that embraces natural light through expansive floor-to-ceiling windows, this contemporary masterpiece offers an elevated living experience in the heart of the Costa del Sol. The villa’s open-plan layout is a celebration of modern design, where clean lines, neutral tones, and high-end finishes create a sense of space and tranquility. The living area, adorned with elegant décor, flows effortlessly into a state-of-the-art kitchen, fully equipped with premium appliances and sleek cabinetry. The central island doubles as a breakfast bar, making it an inviting spot for morning coffee or evening socializing. From the living space, large sliding glass doors open directly to the outdoor entertainment area, where a private pool shimmers under the Mediterranean sun. With sun loungers, a shaded dining area, and a BBQ, this space is designed for seamless relaxation and al fresco dining. For added comfort, the pool can be heated for an additional €350 per week, ensuring year-round enjoyment. This home away from home is designed to offer privacy and comfort, with its 4 spacious bedrooms, each featuring an en-suite or allocated bathroom. The upper level houses two beautifully appointed bedrooms, each with floor-to-ceiling windows that open onto private terraces, offering breathtaking views of the surrounding golf course and lush greenery. These rooms feature plush bedding, stylish accent walls, and ambient lighting, creating a refined retreat for guests. Descending to the lower level, you’ll find two additional bedrooms, thoughtfully designed with cozy aesthetics and ample storage. This level also includes a TV lounge, providing a private entertainment area for guests to unwind. Villa Alba is perfectly positioned for those who desire a balance of tranquility and accessibility. Located just 10 minutes from Puerto Banús, 5 minutes from the beach, and a short 10-minute walk to shops and local amenities, the villa offers easy access to some of the best attractions the Costa del Sol has to offer. The property also includes secure gated parking for added convenience, with one private parking spot inside the gate, ensuring safety while maintaining ease of access. Designed with both style and functionality in mind, Villa Alba is more than just a holiday home—it's a statement of modern elegance, offering a luxurious retreat in an unbeatable location. Whether you're soaking in the sun-drenched pool, enjoying a BBQ under the stars, or waking up to panoramic golf course views, this villa offers an unparalleled lifestyle experience. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -63,21 +63,18 @@
     }
   ],
   "features": [
-    "Golf course",
+    "Golf course views",
     "Golf",
     "Mountain views",
     "Pool views",
-    "Private heated pool",
-    "Private pool",
-    "Air-conditioned",
-    "Central heating",
-    "BBQ",
     "Fenced garden",
-    "Secured parking",
-    "Infinity pool",
-    "Frontline golf",
+    "BBQ",
     "Balcony",
-    "Pool towels"
+    "Central heating",
+    "Private pool",
+    "Private heated pool",
+    "Secured parking",
+    "Infinity pool"
   ],
   "distances": [
     {
@@ -130,17 +127,21 @@
     }
   ],
   "services_included": [
-    "Final Cleaning: € 550.00   / booking Internet Access: Included Open-air parking: Included Towels:  Included"
+    "Final Cleaning: € 550.00   / booking",
+    "Internet Access: Included",
+    "Open-air parking: Included",
+    "Towels:  Included"
   ],
   "services_optional": [
-    "Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heated Pool: € 65.00   / night"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Heated Pool: € 65.00   / night"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
   "deposit": "€2,500.00",
   "rules": [
-    "No pets",
-    "No groups under 30 years of age"
+    "No pets"
   ],
   "registration": "VFT/MA/72918",
   "map_query": "Villa Alba, Estepona, Costa del Sol, Spain"

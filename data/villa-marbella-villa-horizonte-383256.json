@@ -2,9 +2,15 @@
   "url": "https://www.justrentmarbella.com/rentals/villa-marbella-villa-horizonte-383256.html",
   "source_url": "https://www.justrentmarbella.com/rentals/villa-marbella-villa-horizonte-383256.html",
   "slug": "villa-marbella-villa-horizonte-383256",
-  "type": "Villa",
-  "location": "Marbella",
   "name": "Villa Horizonte",
+  "location": "Marbella",
+  "type": "Villa",
+  "guests": "8",
+  "bedrooms": "4",
+  "bathrooms": "3",
+  "area": "220 m²",
+  "plot": "",
+  "description": "Spectacular Contemporary 4-bed Villa with Amazing Sea and Mountain Views!\n\nModern and stylish interiors, designer furniture, spacious bedrooms and fabulous living and entertainment areas, this Villa is the ideal choice for your holidays in Marbella!\n\nThe entrance level welcomes you with the large open-plan living/kitchen area with full-size picture windows opening out to the terrace, level garden, and beautiful, saltwater infinity pool. The sliding windows can be folded on two sides, allowing the living area to integrate seamlessly with the generous outdoor terrace, creating one large open plan living space: PERFECT for the long summer days!\n\nThe living area has a large L-shaped sofa, there is an indoor dining table and a fully equipped kitchen. The terrace features stunning designer furniture with a chill-out lounge, a dining area next to the BBQ, and an array of sunbeds surrounding the pool.\n\nThere is one bedroom downstairs and three upstairs. The double ensuite bedroom downstairs has garden views and access to the garden and pool area. Upstairs, the Master (ensuite), twin-room and double bedroom all have access to the upstairs terrace which enjoys breath-taking sea and mountain views. Here you can savour the sunsets relaxing on the comfy lounge furniture.\n\nFurther features include underfloor heating throughout, an interior and exterior alarm system, Hot/Cold Aircon, very good high speed internet (with extenders), gated parking for 2 cars, and optional pool heating (at an additional cost).\n\nThis stunning Villa has been set up to fulfil the highest demands, for guests who seek to enjoy top-end style, comfort and convenience combined, and is set within one of the finest areas of Marbella, Rio Real: quiet, yet very close to Marbella downtown, the famous beaches and everything Marbella is known for.\n\nA 5-minute car journey will get you to the La Cañada shopping centre and the historical Old Town of Marbella. The Rio Real Golf Club and the beach clubs like Trocadero Arena and Opium Beach club are within walking distance. La Cabane at the Hotel Monteros is a 30-minute walk along the beach.\n\nPlease note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.\n\nWe look forward to welcoming you! Don’t forget to enquire about our concierge services!",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/164751855768ba0fe58f85da15232abb32f9f6919d/16711038254c2f7d0bd99b790d184b1797c804d760.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/164751855768ba0fe58f85da15232abb32f9f6919d/167110382781ff4a3bb700b9ab5350c6ce998c6c66.jpg",
@@ -51,12 +57,6 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/164751855768ba0fe58f85da15232abb32f9f6919d/1671103818c3b3ea2580acafd23e25b2b590547ebb.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/164751855768ba0fe58f85da15232abb32f9f6919d/167110520934bb6a353cc14df79037c65f11e7b338.jpg"
   ],
-  "guests": "8",
-  "bedrooms": "4",
-  "bathrooms": "3",
-  "area": "220 m²",
-  "plot": "",
-  "description": "Spectacular Contemporary 4-bed Villa with Amazing Sea and Mountain Views! Modern and stylish interiors, designer furniture, spacious bedrooms and fabulous living and entertainment areas, this Villa is the ideal choice for your holidays in Marbella! The entrance level welcomes you with the large open-plan living/kitchen area with full-size picture windows opening out to the terrace, level garden, and beautiful, saltwater infinity pool. The sliding windows can be folded on two sides, allowing the living area to integrate seamlessly with the generous outdoor terrace, creating one large open plan living space: PERFECT for the long summer days! The living area has a large L-shaped sofa, there is an indoor dining table and a fully equipped kitchen. The terrace features stunning designer furniture with a chill-out lounge, a dining area next to the BBQ, and an array of sunbeds surrounding the pool. There is one bedroom downstairs and three upstairs. The double ensuite bedroom downstairs has garden views and access to the garden and pool area. Upstairs, the Master (ensuite), twin-room and double bedroom all have access to the upstairs terrace which enjoys breath-taking sea and mountain views. Here you can savour the sunsets relaxing on the comfy lounge furniture. Further features include underfloor heating throughout, an interior and exterior alarm system, Hot/Cold Aircon, very good high speed internet (with extenders), gated parking for 2 cars, and optional pool heating (at an additional cost). This stunning Villa has been set up to fulfil the highest demands, for guests who seek to enjoy top-end style, comfort and convenience combined, and is set within one of the finest areas of Marbella, Rio Real: quiet, yet very close to Marbella downtown, the famous beaches and everything Marbella is known for. A 5-minute car journey will get you to the La Cañada shopping centre and the historical Old Town of Marbella. The Rio Real Golf Club and the beach clubs like Trocadero Arena and Opium Beach club are within walking distance. La Cabane at the Hotel Monteros is a 30-minute walk along the beach. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to welcoming you! Don’t forget to enquire about our concierge services!",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -64,7 +64,7 @@
     },
     {
       "room": "Bedroom 2",
-      "bed": "Single bed"
+      "bed": "Single beds"
     },
     {
       "room": "Bedroom 3",
@@ -78,24 +78,22 @@
   "features": [
     "Garden views",
     "Pool views",
-    "Private heated pool",
-    "Private pool",
-    "Air-conditioned",
-    "Central heating",
-    "BBQ",
     "Fenced garden",
-    "Alarm system",
-    "Secured parking",
-    "Ping pong",
-    "Ocean views",
     "Dryer",
+    "BBQ",
     "Balcony",
-    "Laptop workspace"
+    "Alarm system",
+    "Central heating",
+    "Private pool",
+    "Private heated pool",
+    "Ping pong",
+    "Secured parking",
+    "Ocean views"
   ],
   "distances": [
     {
       "place": "Airport",
-      "distance": "52 km"
+      "distance": "52 m"
     },
     {
       "place": "Restaurant",
@@ -135,12 +133,20 @@
     }
   ],
   "services_included": [
-    "Air conditioning: Included Final Cleaning: € 450.00   / booking Heating: Included Internet Access: Included Open-air parking: Included Towels:  Included"
+    "Air conditioning: Included",
+    "Final Cleaning: € 450.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "Open-air parking: Included",
+    "Towels:  Included"
   ],
   "services_optional": [
-    "Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heated Pool: Depending on season Heated Pool Available: From 1/4",
-    "To 1/11",
-    "Price: € 58.00   / night"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Heated Pool: Depending on seasonHeated PoolAvailable:From 1/4 To 1/11Price: € 58.00   / night",
+    "Heated PoolAvailable:From 1/4 To 1/11Price: € 58.00   / night",
+    "Heated Pool",
+    "Available:From 1/4 To 1/11Price: € 58.00   / night"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

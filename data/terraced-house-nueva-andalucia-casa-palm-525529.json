@@ -2,9 +2,15 @@
   "url": "https://www.justrentmarbella.com/rentals/terraced-house-nueva-andalucia-casa-palm-525529.html",
   "source_url": "https://www.justrentmarbella.com/rentals/terraced-house-nueva-andalucia-casa-palm-525529.html",
   "slug": "terraced-house-nueva-andalucia-casa-palm-525529",
-  "type": "Terraced House",
-  "location": "Nueva andalucia",
   "name": "Casa Palm",
+  "location": "Nueva andalucia",
+  "type": "Terraced House",
+  "guests": "5",
+  "bedrooms": "3",
+  "bathrooms": "4",
+  "area": "149 m²",
+  "plot": "",
+  "description": "Casa Palm is a beautifully renovated 3-bedroom, 3-bathroom townhouse in the prestigious Los Naranjos Country Club, Nueva Andalucía. Blending modern elegance with Mediterranean charm, this sophisticated residence offers a serene retreat just minutes from Marbella’s top golf courses, beaches, and vibrant dining spots. The open-plan living and dining area exudes warmth and style, featuring plush modern furnishings, a cozy fireplace, and large sliding doors that lead directly to the garden terrace. The sleek black kitchen is a striking focal point, equipped with high-end appliances, polished stone surfaces, and ample storage, creating a seamless space for cooking and entertaining.\n\nEach of the three spacious bedrooms showcases unique decor, with soft textiles, designer lighting, and built-in storage for added convenience. The master suite boasts a private terrace, an en-suite bathroom, and tranquil views of the surrounding gardens, while the additional guest bedrooms offer a welcoming ambiance with elegant furnishings and access to private balconies. The outdoor spaces are equally impressive, featuring a charming garden terrace surrounded by lush greenery, offering the perfect setting for alfresco dining or simply relaxing under the Mediterranean sun.\n\nResidents of Los Naranjos Country Club enjoy access to two communal swimming pools, 24-hour security, and sports facilities, including a tennis court and a squash court. A renowned restaurant is also within the complex, ideal for leisurely meals without leaving the community. With its prime location, stylish interiors, and access to top-tier amenities, Casa Palm presents the perfect blend of luxury, comfort, and convenience in one of Marbella’s most desirable neighborhoods.\n\nPlease note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/3/174056912314dabac60fa9058b61499949d45a872c/1740569125d99a8843fe08a21beccd8d116035dd81.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/174056912314dabac60fa9058b61499949d45a872c/17405691260a55e87aa0b175ca5eb8f898b02a90ba.jpg",
@@ -44,12 +50,6 @@
     "https://www.justrentmarbella.com/rentals/fotos/3/174056912314dabac60fa9058b61499949d45a872c/174056913977b90c004e7e5ef7c75424d38db98a0b.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/174056912314dabac60fa9058b61499949d45a872c/17405691404639cade76398af8c68a3b4fd997b3cc.jpg"
   ],
-  "guests": "5",
-  "bedrooms": "3",
-  "bathrooms": "4",
-  "area": "149 m²",
-  "plot": "",
-  "description": "Casa Palm is a beautifully renovated 3-bedroom, 3-bathroom townhouse in the prestigious Los Naranjos Country Club, Nueva Andalucía. Blending modern elegance with Mediterranean charm, this sophisticated residence offers a serene retreat just minutes from Marbella’s top golf courses, beaches, and vibrant dining spots. The open-plan living and dining area exudes warmth and style, featuring plush modern furnishings, a cozy fireplace, and large sliding doors that lead directly to the garden terrace. The sleek black kitchen is a striking focal point, equipped with high-end appliances, polished stone surfaces, and ample storage, creating a seamless space for cooking and entertaining. Each of the three spacious bedrooms showcases unique decor, with soft textiles, designer lighting, and built-in storage for added convenience. The master suite boasts a private terrace, an en-suite bathroom, and tranquil views of the surrounding gardens, while the additional guest bedrooms offer a welcoming ambiance with elegant furnishings and access to private balconies. The outdoor spaces are equally impressive, featuring a charming garden terrace surrounded by lush greenery, offering the perfect setting for alfresco dining or simply relaxing under the Mediterranean sun. Residents of Los Naranjos Country Club enjoy access to two communal swimming pools, 24-hour security, and sports facilities, including a tennis court and a squash court. A renowned restaurant is also within the complex, ideal for leisurely meals without leaving the community. With its prime location, stylish interiors, and access to top-tier amenities, Casa Palm presents the perfect blend of luxury, comfort, and convenience in one of Marbella’s most desirable neighborhoods. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -68,16 +68,14 @@
     "Garden views",
     "Golf",
     "Pool views",
-    "Communal pool",
-    "Air-conditioned",
-    "Central heating",
-    "Tennis court",
+    "Dryer",
     "Fireplace",
+    "Balcony",
+    "Tennis court",
+    "Central heating",
+    "Communal pool",
     "Secured parking",
     "Mountain views",
-    "Dryer",
-    "Balcony",
-    "Pool towels",
     "29 m² terrace"
   ],
   "distances": [
@@ -103,10 +101,15 @@
     }
   ],
   "services_included": [
-    "Final Cleaning: € 250.00   / booking Internet Access: Included Towels:  Included"
+    "Final Cleaning: € 250.00   / booking",
+    "Internet Access: Included",
+    "Towels:  Included"
   ],
   "services_optional": [
-    "Air conditioning: Included Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Heating: Included"
+    "Air conditioning: Included",
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Heating: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

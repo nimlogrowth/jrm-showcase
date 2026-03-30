@@ -2,9 +2,15 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-marbella-casa-juniper-408863.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-marbella-casa-juniper-408863.html",
   "slug": "apartment-marbella-casa-juniper-408863",
-  "type": "Apartment",
-  "location": "Marbella",
   "name": "Casa Juniper",
+  "location": "Marbella",
+  "type": "Apartment",
+  "guests": "6",
+  "bedrooms": "3",
+  "bathrooms": "2",
+  "area": "137 m²",
+  "plot": "",
+  "description": "Casa Juniper offers the ultimate in combining the perfect location with a modern Scandinavian style!\n\nNewly renovated to the Scandinavian standards and using the latest designs and styles, this immaculate 3 bedroom apartment has it all!\n\nModern looks, comfortable living, a terrace with sea views and overlooking the pool, the beach and shops at walking distance. What more do you need for the ideal holiday in Marbella?\n\nThe open-plan living area with a nice lounge corner, breakfast area and fully fitted kitchen opens to the lovely terrace that features a chill-out corner and dining area (for 6) with a BBQ, all enjoying fabulous views over the pool and down to the Mediterranean Sea! The indoor living room area features a large television with an X-box.\n\nThe Master Bedroom has an ensuite bathroom with a large walk-in shower. The second and third bedroom have double beds and both share a bathroom with comfortable rain shower.\n\nThe complex enjoys a peaceful atmosphere, lovely gardens, a very large communal swimming pool and features a children’s pool too!\n\nThe location of our apartment is perfect, close to it all yet in a quiet area. Puerto Banús is only a 15 minutes’ walk away, so is the beach. You have a few restaurants and bars within 5 minutes walk, along with a supermarket. Marbella Old Town is 10 minutes’ drive away, and you have 4 world-class golf courses less than 5 minutes’ drive away (Aloha, Las Brisas, Los Naranjos, and La Quinta).\n\nFrom its convenient location in Nueva Andalucía, you have quick and easy access to so many of the Costa del Sol’s sought-after attractions, beaches, avant-garde cuisine, mountain-top white-washed villages, and more.\n\nIf you are looking for a comfortable, relaxed, sunlit haven and want to experience the best of the Costa del Sol in style and luxury, this is, without a doubt, your place to be.\n\nThere is a no dedicated parking space but it is free to park in the street.\n\nPlease note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.\n\nWe look forward to welcoming you!",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/1668688391d18d3347f865c2b2785a1c280dd9223d/171267600484dedcb6ffcf48b717d18ff074fca0f0.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1668688391d18d3347f865c2b2785a1c280dd9223d/17126760044678a83dca8f579dd05b1e78d3355043.jpg",
@@ -35,12 +41,6 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/1668688391d18d3347f865c2b2785a1c280dd9223d/1712675996a1e0dbd29ef2c713a4d4c5b755e51ddb.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1668688391d18d3347f865c2b2785a1c280dd9223d/171267599541dff5ce5e076b106f77ae747856c0d3.jpg"
   ],
-  "guests": "6",
-  "bedrooms": "3",
-  "bathrooms": "2",
-  "area": "137 m²",
-  "plot": "",
-  "description": "Casa Juniper offers the ultimate in combining the perfect location with a modern Scandinavian style! Newly renovated to the Scandinavian standards and using the latest designs and styles, this immaculate 3 bedroom apartment has it all! Modern looks, comfortable living, a terrace with sea views and overlooking the pool, the beach and shops at walking distance. What more do you need for the ideal holiday in Marbella? The open-plan living area with a nice lounge corner, breakfast area and fully fitted kitchen opens to the lovely terrace that features a chill-out corner and dining area (for 6) with a BBQ, all enjoying fabulous views over the pool and down to the Mediterranean Sea! The indoor living room area features a large television with an X-box. The Master Bedroom has an ensuite bathroom with a large walk-in shower. The second and third bedroom have double beds and both share a bathroom with comfortable rain shower. The complex enjoys a peaceful atmosphere, lovely gardens, a very large communal swimming pool and features a children’s pool too! The location of our apartment is perfect, close to it all yet in a quiet area. Puerto Banús is only a 15 minutes’ walk away, so is the beach. You have a few restaurants and bars within 5 minutes walk, along with a supermarket. Marbella Old Town is 10 minutes’ drive away, and you have 4 world-class golf courses less than 5 minutes’ drive away (Aloha, Las Brisas, Los Naranjos, and La Quinta). From its convenient location in Nueva Andalucía, you have quick and easy access to so many of the Costa del Sol’s sought-after attractions, beaches, avant-garde cuisine, mountain-top white-washed villages, and more. If you are looking for a comfortable, relaxed, sunlit haven and want to experience the best of the Costa del Sol in style and luxury, this is, without a doubt, your place to be. There is a no dedicated parking space but it is free to park in the street. Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to welcoming you!",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -58,18 +58,16 @@
   "features": [
     "Garden views",
     "Pool views",
-    "Communal pool",
-    "Air-conditioned",
-    "Central heating",
     "BBQ",
-    "Ocean views",
-    "Laptop workspace",
-    "Pool towels"
+    "Central heating",
+    "Air-conditioned",
+    "Communal pool",
+    "Ocean views"
   ],
   "distances": [
     {
       "place": "Airport",
-      "distance": "62 km"
+      "distance": "62 m"
     },
     {
       "place": "Bus station",
@@ -109,10 +107,16 @@
     }
   ],
   "services_included": [
-    "Air conditioning: Included Final Cleaning: € 200.00   / booking Heating: Included Internet Access: Included Open-air parking: Included Towels:  Included"
+    "Air conditioning: Included",
+    "Final Cleaning: € 200.00   / booking",
+    "Heating: Included",
+    "Internet Access: Included",
+    "Open-air parking: Included",
+    "Towels:  Included"
   ],
   "services_optional": [
-    "Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

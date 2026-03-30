@@ -2,9 +2,15 @@
   "url": "https://www.justrentmarbella.com/rentals/apartment-marbella-casa-vida-452471.html",
   "source_url": "https://www.justrentmarbella.com/rentals/apartment-marbella-casa-vida-452471.html",
   "slug": "apartment-marbella-casa-vida-452471",
-  "type": "Apartment",
-  "location": "Marbella",
   "name": "Casa Vida",
+  "location": "Marbella",
+  "type": "Apartment",
+  "guests": "6",
+  "bedrooms": "3",
+  "bathrooms": "2",
+  "area": "145 m²",
+  "plot": "",
+  "description": "Set in the heart of Nueva Andalucia, surrounded by amenities (supermarket, butchers, and wine shop just round the corner), a very short distance to Marbella’s finest Golf Clubs, and only a 20-minute walk to the beach and Puerto Banús, Urbanisation La Maestranza boasts a fantastic location. Add to that several communal swimming pools (one heated!) and tropical gardens, this urbanisation is perfect for a holiday in Marbella.\n\nCasa Vida is a newly and fully refurbished 3 bedroomed apartment; exquisitely decorated, offering elegant functionality and all the comfort expected from a holiday home.\n\nThe open-plan kitchen-living area provides a stylish space to relax and dine. This is continued onto the terrace which features outdoor dining furniture and a Weber gas BBQ… perfect for summer alfresco dining in the gentle breeze. The kitchen offers brand new and modern appliances (including a dishwasher and washing machine) and all the necessary equipment to allow you to explore all your favourite recipes.\n\nThe Master bedroom has a beautiful ensuite bathroom featuring 2 rain showers, and has its own access to the terrace. There are a further 2 bedrooms, one holding a 160cm bed, and the other features 2 single beds. These two bedrooms have a shared bathroom.\n\nThere is hot/cold air conditioning, a Smart television, WIFI, and a private parking space in the garage.\n\nThis apartment offers a fresh, contemporary, and stylish space to enjoy your holidays… an absolute gem!\n\nPlease note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you.\n\nWe look forward to welcoming you!",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/1699879156595da6ba4bf48fcfe1f5aa9831f57a68/1699879158da2a0889f73032623913b2a1660b818f.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1699879156595da6ba4bf48fcfe1f5aa9831f57a68/16998791585524bdfcec4f65570f473e7d4d9925b8.jpg",
@@ -32,12 +38,6 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/1699879156595da6ba4bf48fcfe1f5aa9831f57a68/16998791676e0f4d9c6c5769fb713689aebf8ebf05.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/1699879156595da6ba4bf48fcfe1f5aa9831f57a68/1699879165bff66a89cbc27c0bf78aa02709433372.jpg"
   ],
-  "guests": "6",
-  "bedrooms": "3",
-  "bathrooms": "2",
-  "area": "145 m²",
-  "plot": "",
-  "description": "Set in the heart of Nueva Andalucia, surrounded by amenities (supermarket, butchers, and wine shop just round the corner), a very short distance to Marbella’s finest Golf Clubs, and only a 20-minute walk to the beach and Puerto Banús, Urbanisation La Maestranza boasts a fantastic location. Add to that several communal swimming pools (one heated!) and tropical gardens, this urbanisation is perfect for a holiday in Marbella. Casa Vida is a newly and fully refurbished 3 bedroomed apartment; exquisitely decorated, offering elegant functionality and all the comfort expected from a holiday home. The open-plan kitchen-living area provides a stylish space to relax and dine. This is continued onto the terrace which features outdoor dining furniture and a Weber gas BBQ… perfect for summer alfresco dining in the gentle breeze. The kitchen offers brand new and modern appliances (including a dishwasher and washing machine) and all the necessary equipment to allow you to explore all your favourite recipes. The Master bedroom has a beautiful ensuite bathroom featuring 2 rain showers, and has its own access to the terrace. There are a further 2 bedrooms, one holding a 160cm bed, and the other features 2 single beds. These two bedrooms have a shared bathroom. There is hot/cold air conditioning, a Smart television, WIFI, and a private parking space in the garage. This apartment offers a fresh, contemporary, and stylish space to enjoy your holidays… an absolute gem! Please note that we welcome families and couples only, no groups under 30, and no hen or stag parties. Should you fall outside of this category but wish to book nonetheless, please send us an enquiry detailing a bit more about yourself and the group that you will be travelling with so we can request this for you. We look forward to welcoming you!",
   "bedrooms_detail": [
     {
       "room": "Bedroom 1",
@@ -49,16 +49,15 @@
     },
     {
       "room": "Bedroom 3",
-      "bed": "Single bed"
+      "bed": "Single beds"
     }
   ],
   "features": [
     "Mountain views",
-    "Communal pool",
-    "Air-conditioned",
-    "Central heating",
     "BBQ",
-    "Laptop workspace"
+    "Central heating",
+    "Air-conditioned",
+    "Communal pool"
   ],
   "distances": [
     {
@@ -107,10 +106,17 @@
     }
   ],
   "services_included": [
-    "Air conditioning: Included Final Cleaning: € 185.00   / booking Heated Pool: Included Heating: Included Internet Access: Included Towels:  Included"
+    "Air conditioning: Included",
+    "Final Cleaning: € 185.00   / booking",
+    "Heated Pool: Included",
+    "Heating: Included",
+    "Internet Access: Included",
+    "Towels:  Included"
   ],
   "services_optional": [
-    "Baby high chair: € 25.00   / booking Cot/Crib: € 35.00   / booking Garage: Included"
+    "Baby high chair: € 25.00   / booking",
+    "Cot/Crib: € 35.00   / booking",
+    "Garage: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
