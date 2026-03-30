@@ -84,8 +84,23 @@ def build_gallery_rows(photos):
 def build_property_page(prop):
     """Generate a full HTML page for a single property."""
 
-    name = esc(prop.get("name", "Property"))
-    location = esc(prop.get("location", ""))
+    raw_name = prop.get("name", "Property")
+    loc_raw = prop.get("location", "")
+    type_raw = prop.get("type", "")
+    clean = raw_name
+    if loc_raw and clean.endswith(loc_raw):
+        clean = clean[:-len(loc_raw)].strip()
+    if loc_raw and clean.endswith(loc_raw.replace(" ", "")):
+        clean = clean[:-len(loc_raw.replace(" ", ""))].strip()
+    if type_raw and clean.endswith(" -" + type_raw):
+        clean = clean[:-(len(type_raw) + 2)].strip()
+    if type_raw and clean.endswith("-" + type_raw):
+        clean = clean[:-(len(type_raw) + 1)].strip()
+    if type_raw and clean.endswith(type_raw):
+        clean = clean[:-len(type_raw)].strip()
+    clean = clean.rstrip(" -")
+    name = esc(clean) if clean else esc(raw_name)
+    location = esc(loc_raw)
     prop_type = esc(prop.get("type", ""))
     guests = esc(prop.get("guests", ""))
     bedrooms = esc(prop.get("bedrooms", ""))
@@ -646,12 +661,30 @@ def build_index_page(properties):
     cards_html = ""
     for p in properties:
         slug = p.get("slug", "")
-        name = esc(p.get("name", ""))
+        raw_name = p.get("name", "")
         location = esc(p.get("location", ""))
         prop_type = esc(p.get("type", ""))
         bedrooms = esc(p.get("bedrooms", ""))
         guests = esc(p.get("guests", ""))
         photo = esc(p["photos"][0]) if p.get("photos") else ""
+
+        # Clean name: remove location and type suffixes that the scraper may have left
+        clean = raw_name
+        loc_raw = p.get("location", "")
+        type_raw = p.get("type", "")
+        if loc_raw and clean.endswith(loc_raw):
+            clean = clean[:-len(loc_raw)].strip()
+        if loc_raw and clean.endswith(loc_raw.replace(" ", "")):
+            clean = clean[:-len(loc_raw.replace(" ", ""))].strip()
+        if type_raw and clean.endswith(" -" + type_raw):
+            clean = clean[:-(len(type_raw) + 2)].strip()
+        if type_raw and clean.endswith("-" + type_raw):
+            clean = clean[:-(len(type_raw) + 1)].strip()
+        if type_raw and clean.endswith(type_raw):
+            clean = clean[:-len(type_raw)].strip()
+        # Remove trailing dashes or spaces
+        clean = clean.rstrip(" -")
+        name = esc(clean) if clean else esc(raw_name)
 
         cards_html += f'''    <a href="{slug}.html" class="card" data-location="{location}" data-type="{prop_type}" data-bedrooms="{bedrooms}" data-guests="{guests}">
       <div class="card-img" style="background-image:url('{photo}')"></div>
@@ -660,7 +693,6 @@ def build_index_page(properties):
         <div class="card-meta">{location} &middot; {prop_type}</div>
         <div class="card-facts">
           {f'<span>{bedrooms} bed</span>' if bedrooms else ''}
-          {f'<span>{guests} guests</span>' if guests else ''}
         </div>
       </div>
     </a>\n'''
@@ -835,7 +867,6 @@ def build_index_page(properties):
     <option value="za">Name Z — A</option>
     <option value="beds-asc">Bedrooms: low to high</option>
     <option value="beds-desc">Bedrooms: high to low</option>
-    <option value="guests-desc">Guests: high to low</option>
   </select>
   <span class="count" id="count">{len(properties)} properties</span>
 </div>
@@ -863,7 +894,6 @@ def build_index_page(properties):
       if (val === 'za') return b.querySelector('h3').textContent.localeCompare(a.querySelector('h3').textContent);
       if (val === 'beds-asc') return (parseInt(a.dataset.bedrooms)||0) - (parseInt(b.dataset.bedrooms)||0);
       if (val === 'beds-desc') return (parseInt(b.dataset.bedrooms)||0) - (parseInt(a.dataset.bedrooms)||0);
-      if (val === 'guests-desc') return (parseInt(b.dataset.guests)||0) - (parseInt(a.dataset.guests)||0);
       return 0;
     }});
     cards.forEach(function(card) {{ grid.appendChild(card); }});
