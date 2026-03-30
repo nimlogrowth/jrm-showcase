@@ -1,16 +1,15 @@
 {
-  "slug": "villa-marbella-villa-mocca-514268",
   "url": "https://www.justrentmarbella.com/rentals/villa-marbella-villa-mocca-514268.html",
   "source_url": "https://www.justrentmarbella.com/rentals/villa-marbella-villa-mocca-514268.html",
-  "name": "Villa Mocca",
-  "type": "Villa",
+  "slug": "villa-marbella-villa-mocca-514268",
+  "name": "Villa MoccaMarbella -Villa",
+  "type": "",
   "location": "Marbella",
   "guests": "12",
-  "bedrooms": "6",
-  "bathrooms": "7",
-  "area": "420 m²",
-  "plot": "200 m²",
-  "description": "Welcome to Villa Mocca. This villa combines modern comfort with relaxed living, making it an ideal choice for anyone looking to stay close to Marbella. Located beachside and just steps away from one of Marbella's best beaches, Los Monteros Beach, you will also find vibrant restaurants, a supermarket within walking distance, and a boardwalk perfect for beach walks or bike rides. The area is home to some of Marbella's best beach clubs, making it an unbeatable location for relaxation and fun. Six king-size bedrooms, one bathroom with bathtub, five with shower, and a guest toilet. The open-plan kitchen is fully equipped with induction hob, oven, microwave, freezer, dishwasher, and all utensils. The property features a private swimming pool, fenced garden with 80 m² terrace, gym and fitness centre, alarm system, ping pong table, darts, and air conditioning individually controlled per room with central heating.",
+  "bedrooms": "2026",
+  "bathrooms": "49629629218647076828907356392102642587491072433625544",
+  "area": "7420 m²",
+  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/3/1734362472c6931da861ce76eea5a810c3a8c37662/17527992242af1574af187d1205672db5fd34d9db1.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/1734362472c6931da861ce76eea5a810c3a8c37662/1753182242f536418dd40d78f2bdd0788c219d7ef8.jpg",
@@ -60,94 +59,85 @@
     "https://www.justrentmarbella.com/rentals/fotos/3/1734362472c6931da861ce76eea5a810c3a8c37662/1734446308cae0b09ea2a28ab4b3e607fd2eae170d.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/1734362472c6931da861ce76eea5a810c3a8c37662/173436248961cf4f435ab88b89e6fa3a014e7b4d55.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/3/1734362472c6931da861ce76eea5a810c3a8c37662/173436249084917fff3637cd819398fab4d4192db5.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/3/1734362472c6931da861ce76eea5a810c3a8c37662/1752799224e7a09330b5db2a4174301c039773b97e.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/3/1734362472c6931da861ce76eea5a810c3a8c37662/1752799224e7a09330b5db2a4174301c039773b97e.jpg",
+    "https://img.avantio.com/fotos/2/1647518788cf53a5416a95b239c81132991dac7212/1647518789f92fa28b8d7adf414852dbad03a4f0f4.jpg",
+    "https://img.avantio.com/fotos/2/164751899063b6e2d288fcb57df94369bdf04cb8a7/177124777200976c3f4bee40ec51ed7254954662bd.jpg"
   ],
   "bedrooms_detail": [
     {
-      "room": "Bedroom 1",
+      "room": "Bedroom 11",
       "bed": "King size bed"
     },
     {
-      "room": "Bedroom 2",
+      "room": "Bedroom 21",
       "bed": "King size bed"
     },
     {
-      "room": "Bedroom 3",
+      "room": "Bedroom 31",
       "bed": "King size bed"
     },
     {
-      "room": "Bedroom 4",
+      "room": "Bedroom 41",
       "bed": "King size bed"
     },
     {
-      "room": "Bedroom 5",
+      "room": "Bedroom 51",
       "bed": "King size bed"
     },
     {
-      "room": "Bedroom 6",
+      "room": "Bedroom 61",
       "bed": "King size bed"
     }
   ],
   "features": [
     "Sea views",
-    "Beach views",
-    "Garden views",
-    "Pool views",
-    "Beachside",
-    "Private Pool",
+    "Private Heated",
+    "terrace",
+    "BBQ",
     "Fenced garden",
-    "80 m² terrace",
-    "Gym / fitness centre",
+    "Air conditioning",
+    "Underfloor",
+    "Floor heating",
     "Alarm",
-    "Air-Conditioned",
-    "Central heating",
-    "Ping pong",
-    "Darts",
-    "Balcony",
-    "Laptop friendly workspace"
+    "Jacuzzi",
+    "Gym",
+    "Outdoor Kitchen",
+    "Walking Distance"
   ],
   "distances": [
     {
-      "place": "Sandy beach",
-      "distance": "240 m"
+      "place": "Golf course",
+      "distance": "2.8 km"
     },
     {
       "place": "Shops",
       "distance": "1.71 km"
     },
     {
-      "place": "Golf course",
-      "distance": "2.8 km"
-    },
-    {
       "place": "Town centre",
       "distance": "5.41 km"
     },
     {
+      "place": "Sandy beach",
+      "distance": "0 m"
+    },
+    {
       "place": "Airport",
-      "distance": "53.6 km"
+      "distance": "54 m"
     }
   ],
-  "services_included": [
-    "Final cleaning: €720 per booking",
-    "Internet access: Included",
-    "Open-air parking (2 spaces): Included",
-    "Towels: Included"
-  ],
+  "services_included": [],
   "services_optional": [
-    "Air conditioning: Included",
-    "Baby high chair: €25 per booking",
-    "Cot / Crib: €35 per booking",
-    "Heating: Included"
+    "Air conditioning: IncludedBaby high chair: € 25.00   / bookingCot/Crib: € 35.00   / bookingHeating: Included"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "€3,500",
+  "deposit": "",
   "rules": [
     "No smoking",
     "No pets",
     "No groups under 30 years of age"
   ],
-  "registration": "VUT/MA/89444",
-  "map_query": "Villa Mocca, Los Monteros, Marbella, Costa del Sol, Spain"
+  "registration": "",
+  "map_query": "Villa MoccaMarbella -Villa, Marbella, Costa del Sol, Spain"
 }

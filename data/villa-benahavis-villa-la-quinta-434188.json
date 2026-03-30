@@ -2,15 +2,14 @@
   "url": "https://www.justrentmarbella.com/rentals/villa-benahavis-villa-la-quinta-434188.html",
   "source_url": "https://www.justrentmarbella.com/rentals/villa-benahavis-villa-la-quinta-434188.html",
   "slug": "villa-benahavis-villa-la-quinta-434188",
-  "name": "Villa La Quinta",
-  "type": "Villa",
+  "name": "Villa La QuintaBenahavís -Villa",
+  "type": "",
   "location": "Benahavís",
   "guests": "10",
-  "bedrooms": "5",
-  "bathrooms": "6",
-  "area": "520 m²",
-  "plot": "420 m²",
-  "description": "This breath-taking 5-bedroom villa boasts amazing sea, golf, and mountain views and ticks all the boxes for a perfect family holiday. Set within the prestigious La Quinta area of Benahavís, the property offers 520 m² of living space across beautifully appointed interiors with designer finishes throughout. The open-plan living areas flow seamlessly onto a 200 m² terrace with a private heated swimming pool, outdoor dining, and barbecue area. Every bedroom features a double or king-size bed, and the villa includes five full bathrooms plus a guest toilet. Modern amenities include air conditioning, underfloor heating, high-speed Wi-Fi, and a security alarm system.",
+  "bedrooms": "2026",
+  "bathrooms": "49629629218647076828907356392102642587491072433580408",
+  "area": "6520 m²",
+  "description": "We use cookies that are strictly necessary in order for this website to function properly, in addition to cookies relating to the improvement and customisation of this website's experience in order to carry out statistical analysis and to provide you with advertisements based on your interests. You can accept or reject all non-necessary cookies by clicking on the respective \"Accept all\" or \"Reject\" button or, alternatively, configure them according to your preferences by clicking on the \"Settings\" button. For more information, please visit ourCookies Policy.",
   "photos": [
     "https://www.justrentmarbella.com/rentals/fotos/2/16862335674571ca68650e4bcccb330258da9d59ca/1686233569ed6d18aaa6e90b1c24594df0b54244ae.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/16862335674571ca68650e4bcccb330258da9d59ca/168623357178e184d4fc674443f6468ea3d8252d40.jpg",
@@ -35,45 +34,99 @@
     "https://www.justrentmarbella.com/rentals/fotos/2/16862335674571ca68650e4bcccb330258da9d59ca/1686233582b156c49f44052c75046d1565669616d0.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/16862335674571ca68650e4bcccb330258da9d59ca/168623358389e1a697dc5fc0a0af3fee60d86869e4.jpg",
     "https://www.justrentmarbella.com/rentals/fotos/2/16862335674571ca68650e4bcccb330258da9d59ca/1686233583c3c8ed94e95170412adb88874a077718.jpg",
-    "https://www.justrentmarbella.com/rentals/fotos/2/16862335674571ca68650e4bcccb330258da9d59ca/168623356895d45312209bf92f9b229353f68ef741.jpg"
+    "https://www.justrentmarbella.com/rentals/fotos/2/16862335674571ca68650e4bcccb330258da9d59ca/168623356895d45312209bf92f9b229353f68ef741.jpg",
+    "https://img.avantio.com/fotos/2/1715272443908d82f0b689267f60d16ad843d27419/17303005527ac7df39a1756ae8c8cfda29ed4c0903.jpg",
+    "https://img.avantio.com/fotos/3/1740407777a3bc96ca9f0d49bc514f3a5c783414de/1740407782c417cc543e072f011c15a5079bc6c0a8.jpg"
   ],
   "bedrooms_detail": [
-    {"room": "Bedroom 1", "bed": "King size bed"},
-    {"room": "Bedroom 2", "bed": "Double bed"},
-    {"room": "Bedroom 3", "bed": "Double bed"},
-    {"room": "Bedroom 4", "bed": "Double bed"},
-    {"room": "Bedroom 5", "bed": "Double bed"}
+    {
+      "room": "Bedroom 11",
+      "bed": "King size bed"
+    },
+    {
+      "room": "Bedroom 21",
+      "bed": "Double bed"
+    },
+    {
+      "room": "Bedroom 31",
+      "bed": "Double bed"
+    },
+    {
+      "room": "Bedroom 41",
+      "bed": "Double bed"
+    },
+    {
+      "room": "Bedroom 51",
+      "bed": "Double bed"
+    }
   ],
   "features": [
-    "Sea views", "Mountain views", "Garden views", "Pool views",
-    "Private Heated", "BBQ", "Fenced garden", "Air-Conditioned",
-    "Floor heating", "Alarm", "Secured parking"
+    "Sea views",
+    "Mountain views",
+    "Garden views",
+    "Private Pool",
+    "Private Heated",
+    "Heated Pool",
+    "Heated swimming pool",
+    "terrace",
+    "BBQ",
+    "Barbecue",
+    "Fenced garden",
+    "Air-Conditioned",
+    "Air conditioning",
+    "Underfloor",
+    "Floor heating",
+    "Alarm",
+    "Secured parking",
+    "Jacuzzi",
+    "Ocean view"
   ],
   "distances": [
-    {"place": "Golf course", "distance": "500 m"},
-    {"place": "Restaurant", "distance": "1.1 km"},
-    {"place": "Shops", "distance": "2.7 km"},
-    {"place": "Town centre", "distance": "3.4 km"},
-    {"place": "Sandy beach", "distance": "5.2 km"},
-    {"place": "Hospital", "distance": "5.5 km"},
-    {"place": "Airport", "distance": "65 km"}
+    {
+      "place": "Golf course",
+      "distance": "500 m"
+    },
+    {
+      "place": "Restaurant",
+      "distance": "1.1 km"
+    },
+    {
+      "place": "Shops",
+      "distance": "2.7 km"
+    },
+    {
+      "place": "Town centre",
+      "distance": "3.4 km"
+    },
+    {
+      "place": "Sandy beach",
+      "distance": "5.2 km"
+    },
+    {
+      "place": "Hospital",
+      "distance": "5.5 km"
+    },
+    {
+      "place": "Airport",
+      "distance": "65 m"
+    },
+    {
+      "place": "Cafe",
+      "distance": "1.1 km"
+    }
   ],
-  "services_included": [
-    "Air conditioning: Included",
-    "Internet access: Included",
-    "Parking (2 spaces): Included",
-    "Towels: Included",
-    "Final cleaning: €575 per booking"
-  ],
+  "services_included": [],
   "services_optional": [
-    "Baby high chair: €25 per booking",
-    "Cot / Crib: €35 per booking",
-    "Heated pool: €90 per night"
+    "Baby high chair: € 25.00   / bookingCot/Crib: € 35.00   / bookingHeated Pool: € 90.00   / night"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "€3,500",
-  "rules": ["No smoking", "No pets", "No groups under 30 years of age"],
+  "deposit": "",
+  "rules": [
+    "No smoking",
+    "No pets",
+    "No groups under 30 years of age"
+  ],
   "registration": "VFT/MA/62487",
-  "map_query": "La Quinta, Benahavís, Costa del Sol, Spain"
+  "map_query": "Villa La QuintaBenahavís -Villa, Benahavís, Costa del Sol, Spain"
 }

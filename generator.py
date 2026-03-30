@@ -158,6 +158,35 @@ def build_property_page(prop):
       <div class="fact-label">{label}</div>
     </div>\n'''
 
+    # Pre-build conditional sections (avoids nested f-strings for Python <3.12)
+    bedrooms_section = ""
+    if bedrooms_html:
+        bedrooms_section = '<div class="section">\n    <h2 class="section-title">Bedroom Layout</h2>\n    <div class="bedrooms-grid">\n' + bedrooms_html + '    </div>\n  </div>'
+
+    features_section = ""
+    if features_html:
+        features_section = '<div class="section">\n    <h2 class="section-title">Views &amp; Highlights</h2>\n    <div class="tags">\n' + features_html + '    </div>\n  </div>'
+
+    gallery_section = ""
+    if gallery_html:
+        gallery_section = '<div class="section page-break">\n    <h2 class="section-title">Gallery</h2>\n' + gallery_html + '\n  </div>'
+
+    distances_section = ""
+    if distances_html:
+        distances_section = '<h2 class="section-title" style="margin-top:8px;">Distances</h2>\n    <div class="distances-grid">\n' + distances_html + '    </div>'
+
+    deposit_line = ""
+    if deposit:
+        deposit_line = '<div class="checkin-item"><strong>Security deposit</strong><span>' + deposit + ' (refundable)</span></div>'
+
+    rules_line = ""
+    if rules_text:
+        rules_line = '<div class="rules">' + esc(rules_text) + '</div>'
+
+    services_section = ""
+    if included_html or optional_html:
+        services_section = '<div class="section">\n    <h2 class="section-title">Included &amp; Additional</h2>\n    <div class="services-columns">\n      <div class="service-group">\n        <h4>Included</h4>\n' + included_html + '      </div>\n      <div class="service-group">\n        <h4>Optional</h4>\n' + optional_html + '      </div>\n    </div>\n    <div class="checkin-bar">\n      <div class="checkin-item"><strong>Check-in</strong><span>' + checkin + '</span></div>\n      <div class="checkin-item"><strong>Check-out</strong><span>' + checkout + '</span></div>\n      ' + deposit_line + '\n    </div>\n    ' + rules_line + '\n  </div>'
+
     return f'''<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -520,50 +549,21 @@ def build_property_page(prop):
     <p>{description}</p>
   </div>
 
-  {"" if not bedrooms_html else f'''<div class="section">
-    <h2 class="section-title">Bedroom Layout</h2>
-    <div class="bedrooms-grid">
-{bedrooms_html}    </div>
-  </div>'''}
+  {bedrooms_section}
 
-  {"" if not features_html else f'''<div class="section">
-    <h2 class="section-title">Views &amp; Highlights</h2>
-    <div class="tags">
-{features_html}    </div>
-  </div>'''}
+  {features_section}
 
-  {"" if not gallery_html else f'''<div class="section page-break">
-    <h2 class="section-title">Gallery</h2>
-{gallery_html}
-  </div>'''}
+  {gallery_section}
 
   <div class="section">
     <h2 class="section-title">Location</h2>
     <div class="map-container">
       <iframe src="https://maps.google.com/maps?q={map_query}&t=&z=14&ie=UTF8&iwloc=&output=embed" loading="lazy" allowfullscreen></iframe>
     </div>
-    {"" if not distances_html else f'''<h2 class="section-title" style="margin-top:8px;">Distances</h2>
-    <div class="distances-grid">
-{distances_html}    </div>'''}
+    {distances_section}
   </div>
 
-  {"" if not included_html and not optional_html else f'''<div class="section">
-    <h2 class="section-title">Included &amp; Additional</h2>
-    <div class="services-columns">
-      <div class="service-group">
-        <h4>Included</h4>
-{included_html}      </div>
-      <div class="service-group">
-        <h4>Optional</h4>
-{optional_html}      </div>
-    </div>
-    <div class="checkin-bar">
-      <div class="checkin-item"><strong>Check-in</strong><span>{checkin}</span></div>
-      <div class="checkin-item"><strong>Check-out</strong><span>{checkout}</span></div>
-      {"" if not deposit else f'<div class="checkin-item"><strong>Security deposit</strong><span>{deposit} (refundable)</span></div>'}
-    </div>
-    {"" if not rules_text else f'<div class="rules">{esc(rules_text)}</div>'}
-  </div>'''}
+  {services_section}
 
 </div>
 

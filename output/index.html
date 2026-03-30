@@ -1,0 +1,2035 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Property Showcase — Costa del Sol</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --charcoal: #2C2C2C;
+    --dark: #1A1A1A;
+    --mid: #6B6B6B;
+    --light: #E8E8E8;
+    --sand: #F5F0EB;
+    --accent: #8B7355;
+    --white: #FFFFFF;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'DM Sans', sans-serif;
+    color: var(--charcoal);
+    background: var(--sand);
+    -webkit-font-smoothing: antialiased;
+  }
+  .header {
+    background: var(--white);
+    padding: 40px 48px 32px;
+    border-bottom: 1px solid var(--light);
+  }
+  .header h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  .header .subtitle {
+    font-size: 14px;
+    color: var(--mid);
+  }
+  .filters {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding: 20px 48px;
+    background: var(--white);
+    border-bottom: 1px solid var(--light);
+    flex-wrap: wrap;
+  }
+  .filter-input {
+    padding: 10px 16px;
+    border: 1px solid var(--light);
+    border-radius: 8px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    color: var(--charcoal);
+    background: var(--white);
+    outline: none;
+    transition: border-color 0.15s;
+  }
+  .filter-input:focus { border-color: var(--accent); }
+  .filter-input.search { flex: 1; min-width: 200px; }
+  .count {
+    margin-left: auto;
+    font-size: 13px;
+    color: var(--mid);
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 20px;
+    padding: 32px 48px 64px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  .card {
+    background: var(--white);
+    border-radius: 12px;
+    overflow: hidden;
+    text-decoration: none;
+    color: var(--charcoal);
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+  }
+  .card.hidden { display: none; }
+  .card-img {
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: center;
+    background-color: var(--sand);
+  }
+  .card-body { padding: 20px 24px; }
+  .card-body h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  .card-meta {
+    font-size: 13px;
+    color: var(--mid);
+    margin-bottom: 12px;
+  }
+  .card-facts {
+    display: flex;
+    gap: 12px;
+    font-size: 12px;
+    color: var(--accent);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+  }
+  .footer-bar {
+    text-align: center;
+    padding: 24px;
+    font-size: 11px;
+    color: var(--mid);
+  }
+  @media (max-width: 768px) {
+    .header { padding: 24px 20px 20px; }
+    .header h1 { font-size: 28px; }
+    .filters { padding: 16px 20px; }
+    .grid { padding: 20px; grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Property Showcase</h1>
+  <div class="subtitle">Costa del Sol &middot; 163 properties &middot; Updated 30 March 2026</div>
+</div>
+
+<div class="filters">
+  <input type="text" class="filter-input search" id="search" placeholder="Search by name...">
+  <select class="filter-input" id="filter-location">
+    <option value="">All locations</option>
+      <option value="Benahavís">Benahavís</option>
+      <option value="Casares">Casares</option>
+      <option value="Estepona">Estepona</option>
+      <option value="Guadalmina">Guadalmina</option>
+      <option value="Marbella">Marbella</option>
+      <option value="Mijas Costa">Mijas Costa</option>
+      <option value="Nueva andalucia">Nueva andalucia</option>
+      <option value="Ojen">Ojen</option>
+      <option value="San Pedro de Alcántara">San Pedro de Alcántara</option>
+
+  </select>
+  <select class="filter-input" id="filter-type">
+    <option value="">All types</option>
+      <option value="Gym | Putting Green | Heated PoolEstepona -Villa">Gym | Putting Green | Heated PoolEstepona -Villa</option>
+      <option value="Sea views &amp; Jacuzzi!Estepona -Apartment">Sea views &amp; Jacuzzi!Estepona -Apartment</option>
+      <option value="Villa">Villa</option>
+
+  </select>
+  <select class="filter-input" id="filter-bedrooms">
+    <option value="">Bedrooms</option>
+    <option value="1">1+</option>
+    <option value="2">2+</option>
+    <option value="3">3+</option>
+    <option value="4">4+</option>
+    <option value="5">5+</option>
+  </select>
+  <select class="filter-input" id="sort-by">
+    <option value="az">Name A — Z</option>
+    <option value="za">Name Z — A</option>
+    <option value="beds-asc">Bedrooms: low to high</option>
+    <option value="beds-desc">Bedrooms: high to low</option>
+    <option value="guests-desc">Guests: high to low</option>
+  </select>
+  <span class="count" id="count">163 properties</span>
+</div>
+
+<div class="grid" id="grid">
+    <a href="villa-estepona-35-villa-sander-405180.html" class="card" data-location="Estepona" data-type="" data-bedrooms="2026" data-guests="8">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1665498553cabe0fac86927baa47c87f70e2e6bed1/166549855476c3f800770b3fd69d33ced41c94d86a.jpg')"></div>
+      <div class="card-body">
+        <h3>-35% // Villa SanderEstepona -Villa</h3>
+        <div class="card-meta">Estepona &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>8 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-marbella-albatross-hills-apartment-434389.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="4">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/168632119383ee4c245ba75d0f280de317f708ac36/1686321195720fe7d4b938747dc71ed7083162db14.jpg')"></div>
+      <div class="card-body">
+        <h3>Albatross Hills ApartmentMarbella -Apartment</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>4 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-estepona-alcazaba-beach-penthouse-591405.html" class="card" data-location="Estepona" data-type="" data-bedrooms="2026" data-guests="4">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/1755524703766d1cc6add3dc49d13cd7a51698c1b6/1755524705803749b988734f0397412bc3e9f7c7d7.jpg')"></div>
+      <div class="card-body">
+        <h3>Alcazaba Beach PenthouseEstepona -Apartment</h3>
+        <div class="card-meta">Estepona &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>4 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-marbella-aloha-smile-383239.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="4">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1647518329fbf2991515c8b068ac5e6dcdaf2562f7/16668775327bf91688e99b0efe554d1a644b59d642.jpg')"></div>
+      <div class="card-body">
+        <h3>Aloha SmileMarbella -Apartment</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>4 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-benahavis-altos-de-la-quinta-penthouse-532876.html" class="card" data-location="Benahavís" data-type="" data-bedrooms="2026" data-guests="6">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/174351800160d7a1b5a51a15d5bcc7a6dff48c0b3c/1743518002ccff08b8171500b097e12502aa8ab78f.jpg')"></div>
+      <div class="card-body">
+        <h3>Altos de La Quinta PenthouseBenahavís -Apartment</h3>
+        <div class="card-meta">Benahavís &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>6 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-marbella-andalucia-garden-club-apartment-412658.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="4">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/16717099472136b5cbe38f3c4815b7c805c7635659/167170996422cede375d94d953d548a76706d0810f.jpg')"></div>
+      <div class="card-body">
+        <h3>Andalucia Garden Club ApartmentMarbella -Apartment</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>4 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-marbella-azahara-apartment-405363.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="4">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1665669356059270fafc60804318b1773604a3c2be/16656693572193d1ee4957f536079b913f5824ca4d.jpg')"></div>
+      <div class="card-body">
+        <h3>Azahara ApartmentMarbella -Apartment</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>4 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-marbella-balcon-de-puente-romano-493314.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="6">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/17197488819ade841e8fa0f5d0af0b17dfbaec0c2c/1719748882e8724abe0771a866eac44519d5f7d838.jpg')"></div>
+      <div class="card-body">
+        <h3>Balcon de Puente RomanoMarbella -Apartment</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>6 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="terraced-house-marbella-banus-bay-townhouse-408519.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="10">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1668511543994c70c215efb31b586873ad1ae2786e/1668511565b8301264b42f021003fc164ad94fc6ed.jpg')"></div>
+      <div class="card-body">
+        <h3>Banus Bay TownhouseMarbella -Terraced House</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>10 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-marbella-cabopino-penthouse-with-private-pool-707367.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="8">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/1773065001b05dc1038f515d99003f6e948c325b2c/1773065014a2d71af9ff9d036f7143b53091d6660f.jpg')"></div>
+      <div class="card-body">
+        <h3>Cabopino Penthouse with Private PoolMarbella -Apartment</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>8 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-estepona-casa-acosta-405347.html" class="card" data-location="Estepona" data-type="" data-bedrooms="2026" data-guests="4">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1665661278a31fc5ef2d1cdbda5e4b43b9aaaf8c8e/1748004471e0342f78a8ce486ff0cf1135c8ca6d7b.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa AcostaEstepona -Apartment</h3>
+        <div class="card-meta">Estepona &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>4 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-san-pedro-de-alcantara-casa-adel-383217.html" class="card" data-location="San Pedro de Alcántara" data-type="" data-bedrooms="2026" data-guests="8">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/164751808558412de542144c58174258d03de23144/1765887605ae4a7bee09c6a582f803d8603d106c21.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa AdelSan Pedro de Alcántara -Villa</h3>
+        <div class="card-meta">San Pedro de Alcántara &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>8 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="terraced-house-marbella-casa-agnes-408162.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="6">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1668087171ff90e1bda8d84635bdae1b1df6abed19/1669982058956241828ed351cf954157b01f262e0a.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa AgnesMarbella -Terraced House</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>6 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-estepona-casa-alma-485832.html" class="card" data-location="Estepona" data-type="" data-bedrooms="2026" data-guests="4">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1715883685a499b2f38af26d0098959d5702cfa412/1715883697b1d1401c6d99bd9dd141afa3067dfe9b.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa AlmaEstepona -Apartment</h3>
+        <div class="card-meta">Estepona &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>4 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-marbella-casa-aloha-510106.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="4">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1647518185bf688ba07d2d07d80cbc1d763a2a1e78/1686214947a95d8e3dfd9b75a4f8667a81c304199a.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa AlohaMarbella -Apartment</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>4 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-marbella-casa-altos-los-monteros-558471.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="6">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/174713300375d2402b74862518f946ef95135e9d5a/17471330049c48952a8d901cb8df05f2e578dd227d.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa Altos Los MonterosMarbella -Apartment</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>6 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-estepona-casa-alyssa-472294.html" class="card" data-location="Estepona" data-type="" data-bedrooms="2026" data-guests="3">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1709816273d219ebc94df079376c116b2eb944d426/17098162757cf1e2339c6b088740af0068c3863313.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa AlyssaEstepona -Apartment</h3>
+        <div class="card-meta">Estepona &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>3 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-marbella-casa-alzambra-405353.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="6">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1665665232cfa03e47c96baf5bb3b6c4e640c94884/16656652399a92a506b17cbacc7edc60fe4f79de79.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa AlzambraMarbella -Apartment</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>6 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-marbella-casa-arabesque-407932.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="4">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1668003785c46a7ce3d9a66ce11263c7ac953c94c7/16680037966435e299f0aa7f3a6784389e308de225.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa ArabesqueMarbella -Apartment</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>4 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="terraced-house-marbella-casa-bahia-de-banus-383247.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="8">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/16475184096414d844c37a9cd30620e628fb0db063/16699858649163c42284a449d48593d89013c17783.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa Bahia de BanusMarbella -Terraced House</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>8 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="terraced-house-estepona-casa-bahia-dorada-707363.html" class="card" data-location="Estepona" data-type="" data-bedrooms="2026" data-guests="6">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/177306250677ef3e51614fdc0b872e7e6bd189f39f/1773062533e4851b1c478b0defe1d5207253c0442e.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa Bahia DoradaEstepona -Terraced House</h3>
+        <div class="card-meta">Estepona &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>6 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="terraced-house-nueva-andalucia-casa-blanca-mar-504092.html" class="card" data-location="Nueva andalucia" data-type="" data-bedrooms="2026" data-guests="7">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/172805150754647755a21bb503b4fc2e845563913d/1751538929d8ad25856e015fd5e481f3eb55355269.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa Blanca MarNueva andalucia -Terraced House</h3>
+        <div class="card-meta">Nueva andalucia &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>7 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-marbella-casa-cana-421277.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="4">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/16784649717b7e1c335d4b11030f28b1f00463bc9a/1739833831b2fbcca6a1d61533d47ebf9342ceb0c4.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa CanaMarbella -Apartment</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>4 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-estepona-casa-cataleya-507377.html" class="card" data-location="Estepona" data-type="" data-bedrooms="2026" data-guests="4">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/1730376416d40143f93d43829c46fce183418d62e1/173037645647ffbf369e0a92f13db5f5dcfb53e8bd.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa CataleyaEstepona -Apartment</h3>
+        <div class="card-meta">Estepona &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>4 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-marbella-casa-cerro-blanco-450855.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="8">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/16989350324449b9d80261e57aa2eacf98a3b41cff/16989350533485e452af867410b1226f48ed7bbbfe.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa Cerro BlancoMarbella -Apartment</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>8 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-estepona-casa-checa-415549.html" class="card" data-location="Estepona" data-type="" data-bedrooms="2026" data-guests="6">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1674494145199e4b13bdea9738a21363e3d806098f/1674494149943a5f4059939dbcce7141472bdf830e.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa ChecaEstepona -Apartment</h3>
+        <div class="card-meta">Estepona &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>6 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-marbella-casa-cielo-702286.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="4">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/1772537313dbbaa7d49e0b8ef2c5cfec1dda2f8d6e/1772537317d0ad04e83ffa61ca2bc0a669defdc032.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa CieloMarbella -Apartment</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>4 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-nueva-andalucia-casa-colline-526874.html" class="card" data-location="Nueva andalucia" data-type="" data-bedrooms="2026" data-guests="6">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/174134680130c19da2085afb8d092a4129a0ea27fa/1741346802cf8ec43f5a168bdc2e5721a822f1b23a.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa CollineNueva andalucia -Apartment</h3>
+        <div class="card-meta">Nueva andalucia &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>6 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-marbella-casa-coralita-453953.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="4">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1700671523048c7e5ef4da845b40347cdfda699399/1700671534379aa2638f0ebc27717e27cff225a150.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa CoralitaMarbella -Apartment</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>4 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-estepona-casa-del-mar-383225.html" class="card" data-location="Estepona" data-type="" data-bedrooms="2026" data-guests="12">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/164751816850806461356cc8cc9935586c8f6c37c8/16475181686810fedafbb0749a24021f35c0543509.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa Del MarEstepona -Villa</h3>
+        <div class="card-meta">Estepona &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>12 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-marbella-casa-el-dorado-383242.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="6">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/16475183472ba0e5c1d05dd56b2101c54d743e8557/1664370029ce5fcc01b494efc001cc8ddf044f21de.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa El DoradoMarbella -Apartment</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>6 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="terraced-house-marbella-casa-esquina-405652.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="8">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1666012689898f5a716fc7913a6414848bdd58edb4/17078299765ba5f4f5f2200c693f22d6afba9203a0.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa EsquinaMarbella -Terraced House</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>8 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="terraced-house-san-pedro-de-alcantara-casa-guadalvillas-407797.html" class="card" data-location="San Pedro de Alcántara" data-type="" data-bedrooms="2026" data-guests="5">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/16679930623443b283bc7b689c0654107f2dd1565d/1669993318fa5010570bdde67a5b374663604976a3.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa GuadalvillasSan Pedro de Alcántara -Terraced House</h3>
+        <div class="card-meta">San Pedro de Alcántara &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>5 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-nueva-andalucia-casa-hierbas-407938.html" class="card" data-location="Nueva andalucia" data-type="" data-bedrooms="2026" data-guests="6">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1668005585a6c369dd27b15f99b25755be7d02387f/1668005587fa259af66ecb59893dc35e34f2a37188.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa HierbasNueva andalucia -Apartment</h3>
+        <div class="card-meta">Nueva andalucia &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>6 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-nueva-andalucia-casa-horizon-686136.html" class="card" data-location="Nueva andalucia" data-type="" data-bedrooms="2026" data-guests="6">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/1766053010cbf2e718903d9483c6724eda8aae4f41/1766053036e6597b6be858cd0d0bd51428e5a50d9a.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa HorizonNueva andalucia -Apartment</h3>
+        <div class="card-meta">Nueva andalucia &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>6 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-marbella-casa-juniper-408863.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="6">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1668688391d18d3347f865c2b2785a1c280dd9223d/171267600484dedcb6ffcf48b717d18ff074fca0f0.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa JuniperMarbella -Apartment</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>6 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="terraced-house-marbella-casa-la-finca-688537.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="8">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/1766572094e3c99c88ddace0fc3f50a0a607a8480b/1766572099eb01a1e44364894360eefafcc43c8d5f.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa La FincaMarbella -Terraced House</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>8 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="terraced-house-benahavis-casa-la-heredia-421599.html" class="card" data-location="Benahavís" data-type="" data-bedrooms="2026" data-guests="6">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/16787241700362c6f619ea7f69c6fd505a3ccb9a22/167872418966907f0c4a4c07b54cff8f7b6f222e1a.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa La HerediaBenahavís -Terraced House</h3>
+        <div class="card-meta">Benahavís &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>6 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-marbella-casa-la-maestranza-383223.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="6">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1647518163185cbfa95019b70c52b41721f1d413cb/164751817114fcdc2d9dbe4ef0af083d4f26b7f067.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa La MaestranzaMarbella -Apartment</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>6 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="terraced-house-estepona-casa-leon-470626.html" class="card" data-location="Estepona" data-type="" data-bedrooms="2026" data-guests="4">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1709258223f9dfcf173f6a03c0c9ac58f14cb53716/1709258234991f030b20e3ceb1b795a79c20731a3f.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa LeonEstepona -Terraced House</h3>
+        <div class="card-meta">Estepona &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>4 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-marbella-casa-libertad-405345.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="8">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/166566102691756cd52b529bfddc50e12cb6276130/166999549902d68a6b3184fd065eef6a8854248eee.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa LibertadMarbella -Apartment</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>8 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-marbella-casa-lily-383213.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="6">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1647518024458736f37256b3ff7253122d0ff425cc/1664366637f9905a5b6a6e96f726b0a7fdd4150171.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa LilyMarbella -Apartment</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>6 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-benahavis-casa-los-arqueros-412750.html" class="card" data-location="Benahavís" data-type="" data-bedrooms="2026" data-guests="4">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/16717105489375bd35bcb771defeadf16f1527061c/1671710549038d7ff3bf2c23f7820b23cf366908a4.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa Los ArquerosBenahavís -Apartment</h3>
+        <div class="card-meta">Benahavís &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>4 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-marbella-casa-los-granados-de-cabopino-412785.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="6">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1671711111623e6c7f5f7c3a899174e52b9dae2973/1671711124df5a3132cc84748d6f00f6f96a0d076f.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa Los Granados De CabopinoMarbella -Apartment</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>6 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-nueva-andalucia-casa-lucia-509477.html" class="card" data-location="Nueva andalucia" data-type="" data-bedrooms="2026" data-guests="4">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/17315972392fa26d442c9cc2c1945bc8cb0e165131/17315972440afa9ab5fbefb0c4e992af8e29e34715.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa LuciaNueva andalucia -Apartment</h3>
+        <div class="card-meta">Nueva andalucia &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>4 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-estepona-casa-maja-573230.html" class="card" data-location="Estepona" data-type="" data-bedrooms="2026" data-guests="4">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/175326353556d89c5750f0fee4abe0b1127c47e5e0/17532635369d188d729bc793e06309c92674a7d9e9.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa MajaEstepona -Apartment</h3>
+        <div class="card-meta">Estepona &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>4 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-marbella-casa-marina-mariola-405817.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="4">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1666091560fe7bddab7fa5694ee093800ba8ec6bc4/16660915651433dc031b88a5d38ef94c03eb7ad8ed.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa Marina MariolaMarbella -Apartment</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>4 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-estepona-casa-menara-405838.html" class="card" data-location="Estepona" data-type="" data-bedrooms="2026" data-guests="6">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/16660955792584fca8328bd89676c700b3aaad33e8/1670243693512fcc389b1fbc67748031eeb2dc44d2.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa MenaraEstepona -Apartment</h3>
+        <div class="card-meta">Estepona &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>6 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-marbella-casa-milo-434753.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="5">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1686671984512d262f277be6bbcbcac5cb00a74cce/1686671992d26fc146dde3de370d3c3576bf50ec05.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa MiloMarbella -Apartment</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>5 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-san-pedro-de-alcantara-casa-nina-685141.html" class="card" data-location="San Pedro de Alcántara" data-type="" data-bedrooms="2026" data-guests="6">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/17658901560d6b70cc6ac055783b9130d62f1816af/1765890163645c8d19f588bc8d24f03d7950aa39ab.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa NinaSan Pedro de Alcántara -Apartment</h3>
+        <div class="card-meta">San Pedro de Alcántara &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>6 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-estepona-casa-numa-566977.html" class="card" data-location="Estepona" data-type="" data-bedrooms="2026" data-guests="6">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/175032818416d585940d32008b0db887171b2bff2d/175032818542969e448fbe02cfea8b4b2dcaad3d55.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa NumaEstepona -Apartment</h3>
+        <div class="card-meta">Estepona &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>6 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-marbella-casa-ocean-blue-406767.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="6">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/16669599236651b20c1435bf5eeb4aa3e2626f5c8d/1703772535bb50206992bb34d9a0f503623745dee4.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa Ocean BlueMarbella -Apartment</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>6 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-nueva-andalucia-casa-orquidea-527994.html" class="card" data-location="Nueva andalucia" data-type="" data-bedrooms="2026" data-guests="4">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/17418893797656698ed0b8b20a5558853847f0716b/17483391793226dfa5e5de0b8ebd7fcb40874a473d.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa OrquideaNueva andalucia -Apartment</h3>
+        <div class="card-meta">Nueva andalucia &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>4 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="terraced-house-nueva-andalucia-casa-palm-525529.html" class="card" data-location="Nueva andalucia" data-type="" data-bedrooms="2026" data-guests="5">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/174056912314dabac60fa9058b61499949d45a872c/1740569125d99a8843fe08a21beccd8d116035dd81.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa PalmNueva andalucia -Terraced House</h3>
+        <div class="card-meta">Nueva andalucia &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>5 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-nueva-andalucia-casa-panorama-533214.html" class="card" data-location="Nueva andalucia" data-type="" data-bedrooms="2026" data-guests="6">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/174368841987e5dfb0bfaeff9a3e6b4e29bf26a69d/17436884219d17536d0d298ba03bd21ebbc0819e04.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa PanoramaNueva andalucia -Apartment</h3>
+        <div class="card-meta">Nueva andalucia &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>6 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="terraced-house-estepona-casa-pentique-482622.html" class="card" data-location="Estepona" data-type="" data-bedrooms="2026" data-guests="6">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/171397633117a7bc9d2b0462f5044a2e15f9f8f107/17139770121f5f86f00bea3ceca054220e189a5a91.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa PentiqueEstepona -Terraced House</h3>
+        <div class="card-meta">Estepona &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>6 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-estepona-casa-playa-del-angel-434165.html" class="card" data-location="Estepona" data-type="" data-bedrooms="2026" data-guests="4">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/16862299302959fa8107d1e6616a136dc0948fc45f/16862299329ed2fc310401826da38688d47876ec38.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa Playa Del AngelEstepona -Apartment</h3>
+        <div class="card-meta">Estepona &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>4 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-marbella-casa-primavera-492326.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="4">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/171933524208dd9beb1b0410b5ac73b7dee7e8f398/1719335247598de11cbf26e63f6f28662d21ae829a.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa PrimaveraMarbella -Apartment</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>4 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-estepona-casa-sirena-692119.html" class="card" data-location="Estepona" data-type="" data-bedrooms="2026" data-guests="2">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/1768562016d2ec9fddfc3db9cd44f109c44a42ef46/1772017461d8c1c06f0cd8f74344e1a9685b5bcf66.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa SirenaEstepona -Apartment</h3>
+        <div class="card-meta">Estepona &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>2 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-marbella-casa-solare-566378.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="6">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/1750166426d8c35f13196c357c9e9a6e6621015f69/1750166434625e4f65c0f210eb5cc5716b12cedfde.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa SolareMarbella -Apartment</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>6 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="terraced-house-nueva-andalucia-casa-vasari-526368.html" class="card" data-location="Nueva andalucia" data-type="" data-bedrooms="2026" data-guests="8">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/17412670966eaad9baeb1bd03be6bf88ac844a753d/1741267102668d9ad064f8381ef8427ec29f07a6ce.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa VasariNueva andalucia -Terraced House</h3>
+        <div class="card-meta">Nueva andalucia &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>8 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="terraced-house-marbella-casa-ventura-512237.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="10">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/1733236059aefe7aa35656ce5fcf76eb4ce0c3d411/17332360715311d25bcc500f7d0b40bbd1edea3265.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa VenturaMarbella -Terraced House</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>10 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-mijas-costa-casa-verde-405848.html" class="card" data-location="Mijas Costa" data-type="" data-bedrooms="2026" data-guests="4">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/166609904184c166d6a21459583079aef3dea82a24/1666099044f47fb69d4b677a0b3a93c59e09287ed2.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa VerdeMijas Costa -Apartment</h3>
+        <div class="card-meta">Mijas Costa &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>4 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-marbella-casa-vida-452471.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="6">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1699879156595da6ba4bf48fcfe1f5aa9831f57a68/1699879158da2a0889f73032623913b2a1660b818f.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa VidaMarbella -Apartment</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>6 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-marbella-casa-vista-465328.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="4">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1706616052bd3b8c29790d746844878d81097e1768/1706616053aa3e10d00a1dce39d1a60720e5dd3e99.jpg')"></div>
+      <div class="card-body">
+        <h3>Casa VistaMarbella -Apartment</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>4 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="house-casares-casares-del-mar-567595.html" class="card" data-location="Casares" data-type="" data-bedrooms="2026" data-guests="7">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/17507609361b22fe9bc59a3fba1b6c611cd474af15/1750760937622c9e659e7c57cba209e40698578064.jpg')"></div>
+      <div class="card-body">
+        <h3>Casares del MarCasares -House</h3>
+        <div class="card-meta">Casares &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>7 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-estepona-costa-marinsa-penthouse-383221.html" class="card" data-location="Estepona" data-type="" data-bedrooms="2026" data-guests="4">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/17738391281a7232ffeb9a6555383d2e4a83d6bbc8/17738391303629fcb34d65be9d032eec4a1c3f30f1.jpg')"></div>
+      <div class="card-body">
+        <h3>Costa Marinsa PenthouseEstepona -Apartment</h3>
+        <div class="card-meta">Estepona &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>4 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-marbella-gran-marbella-luxe-523469.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="8">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/17392883239a8708fa6901d9e718e12dc5eeb5f68f/1739288328e556eb86656ec88a8bc59509eb9adf48.jpg')"></div>
+      <div class="card-body">
+        <h3>Gran Marbella LuxeMarbella -Apartment</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>8 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-marbella-gran-marbella-seafront-475997.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="6">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1709665665d001266de3a37a06f6530401825bbd6f/1714429551d126a202923f9d66a6f765656010f78d.jpg')"></div>
+      <div class="card-body">
+        <h3>Gran Marbella SeafrontMarbella -Apartment</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>6 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-marbella-gran-marbella-views-471821.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="4">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1715185069d92689c744ba3d08b81e4318b6b8b5f7/1722294800c30566f0a846d1a1e6abee8357490bce.jpg')"></div>
+      <div class="card-body">
+        <h3>Gran Marbella ViewsMarbella -Apartment</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>4 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-marbella-hacienda-elviria-beach-apartment-524247.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="4">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/173979260608a1448837becfa1379c0bc677217b22/1739792608e265377476a3db9ebfaee912f7fe4486.jpg')"></div>
+      <div class="card-body">
+        <h3>Hacienda Elviria Beach ApartmentMarbella -Apartment</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>4 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-marbella-jardines-del-med-546679.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="4">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/1745053871731ea14a3086e70f3de7f78bddcf91da/17450538729fc7283b1e410bf18d2f884820cfa2d9.jpg')"></div>
+      <div class="card-body">
+        <h3>Jardines del MedMarbella -Apartment</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>4 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-marbella-jardines-penthouse-407774.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="5">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/166790810067c7c3485c6bc34bf4ab3b83b7dfecea/1667908102b8fd5b97bda2d4811d2ff0f164937490.jpg')"></div>
+      <div class="card-body">
+        <h3>Jardines PenthouseMarbella -Apartment</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>5 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-ojen-la-perla-de-palo-alto-408876.html" class="card" data-location="Ojen" data-type="" data-bedrooms="2026" data-guests="6">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/16686926448827e5fe881b56c0e26f2646d9ab4472/16702460148f29c3d8c59599ed07e792364408dfe0.jpg')"></div>
+      <div class="card-body">
+        <h3>La Perla de Palo AltoOjen -Apartment</h3>
+        <div class="card-meta">Ojen &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>6 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-marbella-la-princesa-383261.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="12">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/16475186131eada6fb45046669159417f3e8981983/1670427764f205c167898d1c7ddbda243d17e184c2.jpg')"></div>
+      <div class="card-body">
+        <h3>La PrincesaMarbella -Villa</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>12 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-marbella-lady-mia-383229.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="6">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1647518235c26a6a03f02c7f871a79043d2a1c68dc/164751824374e75862142529d5d1621d7d6d4de4a1.jpg')"></div>
+      <div class="card-body">
+        <h3>Lady MiaMarbella -Apartment</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>6 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-marbella-magna-views-530517.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="4">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/1742997977455cf90dd808bf728a49ebb9d1adc24d/17429979788e507324da9c3d2cf57b3223714526be.jpg')"></div>
+      <div class="card-body">
+        <h3>Magna ViewsMarbella -Apartment</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>4 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-marbella-marbella-2000-penthouse-405862.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="6">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/16661039834a2520c3e4bf81b896c08f8935c87fe4/16661039908ea4f79673fdd76a23cd77f41030aa62.jpg')"></div>
+      <div class="card-body">
+        <h3>Marbella 2000 PenthouseMarbella -Apartment</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>6 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-estepona-mirage-penthouse-sea-views-jacuzzi-453970.html" class="card" data-location="Estepona" data-type="Sea views &amp; Jacuzzi!Estepona -Apartment" data-bedrooms="2026" data-guests="4">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/170074715357752bd70289ae3999d664497e68cff1/1700747155296ed2afb3cfb12c822267963863a689.jpg')"></div>
+      <div class="card-body">
+        <h3>Mirage Penthouse</h3>
+        <div class="card-meta">Estepona &middot; Sea views &amp; Jacuzzi!Estepona -Apartment</div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>4 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="house-benahavis-monte-biarritz-townhouse-571557.html" class="card" data-location="Benahavís" data-type="" data-bedrooms="2026" data-guests="6">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/1752506418bca13f27c7c762014750937d87a0be2d/17525064212ca874cd136360db751b3d7ae2e6b3d2.jpg')"></div>
+      <div class="card-body">
+        <h3>Monte Biarritz TownhouseBenahavís -House</h3>
+        <div class="card-meta">Benahavís &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>6 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="terraced-house-estepona-oceana-townhouse-549626.html" class="card" data-location="Estepona" data-type="" data-bedrooms="2026" data-guests="6">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/17465359474dea911ecf335e28a526569ba3d82c2b/17528001841359325623887587d74cc241b5d633d9.jpg')"></div>
+      <div class="card-body">
+        <h3>Oceana TownhouseEstepona -Terraced House</h3>
+        <div class="card-meta">Estepona &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>6 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-benahavis-penthouse-chilli-482269.html" class="card" data-location="Benahavís" data-type="" data-bedrooms="2026" data-guests="6">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1713862841e37d85288d6a3b66de5c323dd5d37d88/171386284543e52d8f4565ea2d451bec67992939f3.jpg')"></div>
+      <div class="card-body">
+        <h3>Penthouse ChilliBenahavís -Apartment</h3>
+        <div class="card-meta">Benahavís &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>6 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-marbella-penthouse-la-fuente-405871.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="6">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/16661072738669550bee6bc4cb753ad69cad6f4dd6/16661072806c5e1858725d4649aab602869da94ff8.jpg')"></div>
+      <div class="card-body">
+        <h3>Penthouse La FuenteMarbella -Apartment</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>6 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-marbella-penthouse-la-maestranza-383258.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="6">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/164751858678a6a13edbee63accf86833ec5527fbc/1724606073af98db0f78ccde102cc84484fe8db57c.jpg')"></div>
+      <div class="card-body">
+        <h3>Penthouse La MaestranzaMarbella -Apartment</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>6 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-nueva-andalucia-penthouse-mirador-del-rodeo-1-2-540408.html" class="card" data-location="Nueva andalucia" data-type="" data-bedrooms="2026" data-guests="8">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/17449054607fa032d2cb0ab45c859971f86eeb85e8/17449054610c6d6ce37e6b2cd57f3077baafafc938.jpg')"></div>
+      <div class="card-body">
+        <h3>Penthouse Mirador del Rodeo 1.2Nueva andalucia -Apartment</h3>
+        <div class="card-meta">Nueva andalucia &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>8 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-estepona-penthouse-nova-700473.html" class="card" data-location="Estepona" data-type="" data-bedrooms="2026" data-guests="6">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/1771852797fc142d654e4505b7eda3252549ec315b/1771852807279974fbb10c33bb8e68c885a7538734.jpg')"></div>
+      <div class="card-body">
+        <h3>Penthouse NovaEstepona -Apartment</h3>
+        <div class="card-meta">Estepona &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>6 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-nueva-andalucia-penthouse-saga-539349.html" class="card" data-location="Nueva andalucia" data-type="" data-bedrooms="2026" data-guests="8">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/1744629454793f799081de136fccae923403a75ac1/17446294576815580923ba2d9b3859f240de341992.jpg')"></div>
+      <div class="card-body">
+        <h3>Penthouse SagaNueva andalucia -Apartment</h3>
+        <div class="card-meta">Nueva andalucia &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>8 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="terraced-house-marbella-puente-romano-collection-405701.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="8">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/16660159997e92c0b92e4b76b780bb892d0bd1f030/1666016004599196105c47a9a2ae90eb53f3752307.jpg')"></div>
+      <div class="card-body">
+        <h3>Puente Romano CollectionMarbella -Terraced House</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>8 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-estepona-riviera-playa-530559.html" class="card" data-location="Estepona" data-type="" data-bedrooms="2026" data-guests="6">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/17430024177890e3c634a7b411a6a9f0c476c76903/1764067960b751b0f91eb16dd49c29b530fdcf1214.jpg')"></div>
+      <div class="card-body">
+        <h3>Riviera PlayaEstepona -Apartment</h3>
+        <div class="card-meta">Estepona &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>6 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="terraced-house-marbella-san-javier-townhouse-406098.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="6">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/166627507826adcc8872d6db140c90f4b84e330ca1/17188079516fd64c6bd8b55f77d84c75a1d8a1ffa1.jpg')"></div>
+      <div class="card-body">
+        <h3>San Javier TownhouseMarbella -Terraced House</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>6 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-marbella-san-pedro-beachside-apartment-707696.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="4">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/1773150145ec8b38581595f3b0cf8e4d146598ef52/177315015472ea8d4b0d13b44116ca3236a61ff30d.jpg')"></div>
+      <div class="card-body">
+        <h3>San Pedro Beachside ApartmentMarbella -Apartment</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>4 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-san-pedro-de-alcantara-san-pedro-beachside-penthouse-591199.html" class="card" data-location="San Pedro de Alcántara" data-type="" data-bedrooms="2026" data-guests="7">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/17553777799c7e8d20b5aecc5c11f3f21dadd3cba5/1772456290cccc864fad041abe36606247d6c91580.jpg')"></div>
+      <div class="card-body">
+        <h3>San Pedro Beachside PenthouseSan Pedro de Alcántara -Apartment</h3>
+        <div class="card-meta">San Pedro de Alcántara &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>7 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-nueva-andalucia-senorio-de-aloha-505566.html" class="card" data-location="Nueva andalucia" data-type="" data-bedrooms="2026" data-guests="7">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/1729086317d95d5d1e230eaa39e80c7a975f4d5df2/1729086324a4186d7229b48ec17e0f4a9124a53af5.jpg')"></div>
+      <div class="card-body">
+        <h3>Senorio De AlohaNueva andalucia -Apartment</h3>
+        <div class="card-meta">Nueva andalucia &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>7 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-marbella-soul-marbella-penthouse-482621.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="6">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1713975572c721bd5c7567a436e8c7ca82f0104249/171397557565839bcb68d8ba91c6ba810f7f982789.jpg')"></div>
+      <div class="card-body">
+        <h3>Soul Marbella PenthouseMarbella -Apartment</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>6 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-marbella-soul-sunshine-penthouse-499946.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="4">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1724442367ea652b0ad981852c3c7fca31b54d8f19/172444237611d2acc735aa8f3d5dfeb5670bb14d85.jpg')"></div>
+      <div class="card-body">
+        <h3>Soul Sunshine PenthouseMarbella -Apartment</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>4 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-marbella-sunlife-penthouse-570616.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="4">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/17519750693afcf09f17c7562a491a600a732703fe/17519750706c56a139b5fa1fa631d51558f62c1fe2.jpg')"></div>
+      <div class="card-body">
+        <h3>Sunlife PenthouseMarbella -Apartment</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>4 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-estepona-sunset-smile-696651.html" class="card" data-location="Estepona" data-type="" data-bedrooms="2026" data-guests="4">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/17703987912e5d2da755bcc3cb0738746dd26f8d75/17703988046e256eea5e04bdcedeb7cabaeaba7f60.jpg')"></div>
+      <div class="card-body">
+        <h3>Sunset SmileEstepona -Apartment</h3>
+        <div class="card-meta">Estepona &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>4 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="apartment-estepona-toscana-hills-penthouse-408038.html" class="card" data-location="Estepona" data-type="" data-bedrooms="2026" data-guests="6">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/16680824228e9437a3251149c9394b21b3f4d6fdff/16702472891ae529ec81669b670c21e7b6df0a9406.jpg')"></div>
+      <div class="card-body">
+        <h3>Toscana Hills PenthouseEstepona -Apartment</h3>
+        <div class="card-meta">Estepona &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>6 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-benahavis-villa-aguacate-525231.html" class="card" data-location="Benahavís" data-type="" data-bedrooms="2026" data-guests="10">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/1740407777a3bc96ca9f0d49bc514f3a5c783414de/1740407782c417cc543e072f011c15a5079bc6c0a8.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa AguacateBenahavís -Villa</h3>
+        <div class="card-meta">Benahavís &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>10 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-estepona-villa-alba-525033.html" class="card" data-location="Estepona" data-type="" data-bedrooms="2026" data-guests="8">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/17401536747c950e02c76875d7a17fa33806f0545b/1740153675e9985fb85b60eedd59eefca234a7d1fd.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa AlbaEstepona -Villa</h3>
+        <div class="card-meta">Estepona &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>8 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-nueva-andalucia-villa-ama-561090.html" class="card" data-location="Nueva andalucia" data-type="" data-bedrooms="2026" data-guests="8">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/1747837336708f85f9ca8112aff19976e32d429a20/174783733957558c134661d8021c10d28c771de4a5.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa AmaNueva andalucia -Villa</h3>
+        <div class="card-meta">Nueva andalucia &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>8 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-marbella-villa-amfora-383228.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="16">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1647518191e0936dfa25e5ea54f069b2a501b7f678/1670590591c3842240f5f10b9e6382a33dc06452c7.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa AmforaMarbella -Villa</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>16 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-marbella-villa-amira-485498.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="12">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/17157161711715345c1236ecb4264e1786db101b68/171571617404c491b2b510aaf13f92edc8364cbccd.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa AmiraMarbella -Villa</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>12 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-marbella-villa-angeles-383215.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="10">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1647518050ec2fb95a2951a592325c68b66cfb2c23/1712146661001dc0a23ce14877ea68eefe2704ae01.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa AngelesMarbella -Villa</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>10 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-marbella-villa-avanti-409315.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="12">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1669206992a44e1616a46946a6a69a020556325237/16705959569ea39ce01374ec5fcd87b08ffc99ae3d.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa AvantiMarbella -Villa</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>12 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-nueva-andalucia-villa-azteca-408434.html" class="card" data-location="Nueva andalucia" data-type="" data-bedrooms="2026" data-guests="8">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1668436930260aceb156cfabece4490868eb65a799/166843693094538d9d76db86bd1079750e49592257.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa AztecaNueva andalucia -Villa</h3>
+        <div class="card-meta">Nueva andalucia &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>8 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-benahavis-villa-banus-heights-500134.html" class="card" data-location="Benahavís" data-type="" data-bedrooms="2026" data-guests="8">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/172475453496562600aa8425de5b67a28f05b683a7/17400945225444c37ec6a843fe54b3d515d1091e6d.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa Banus HeightsBenahavís -Villa</h3>
+        <div class="card-meta">Benahavís &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>8 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-marbella-villa-banus-450794.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="10">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/169892009916afd5d5d36d4502f71ccc760e9dcf51/1698920106e7388e16c9d31f89fa59f84f53dc08f2.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa BanusMarbella -Villa</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>10 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-marbella-villa-bobad-462644.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="8">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/17048157455d0184de20dd3b23ad11cfe798dc8aaf/17048157469e3c7651aedab9e26a1b2080e81b808e.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa BobadMarbella -Villa</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>8 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-marbella-villa-boheme-421264.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="10">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/167846087568850e78536d319814aad48e00ab7fb1/16784608831a94503b3aaefa702f18a5bcdfcf6635.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa BohemeMarbella -Villa</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>10 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-marbella-villa-buena-vista-383210.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="8">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1647517987712246d5f71574404c5d534e437d6264/1774444953bd2db8686d2ff59e1c24ce1faf98e5e4.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa Buena VistaMarbella -Villa</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>8 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-estepona-villa-calma-434911.html" class="card" data-location="Estepona" data-type="" data-bedrooms="2026" data-guests="8">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/168675852565b70df1680eab469f5af65c33efc960/168675853809fc7c10fc0667dd982d0c0b8c912d0a.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa CalmaEstepona -Villa</h3>
+        <div class="card-meta">Estepona &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>8 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-marbella-villa-carpe-diem-383220.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="10">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1647518121edd5a2ecb35824e9fd527e5894d29a11/17131773084bf5bbfe786399bcd46d573f69dd2e37.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa Carpe DiemMarbella -Villa</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>10 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-marbella-villa-comoda-383245.html" class="card" data-location="Marbella" data-type="Villa" data-bedrooms="4" data-guests="9">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1647518384de6048ce278b53588fd049fd489b8fab/1670930759b0e27338bcf74c0717a92da89ff0b899.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa Comoda</h3>
+        <div class="card-meta">Marbella &middot; Villa</div>
+        <div class="card-facts">
+          <span>4 bed</span>
+          <span>9 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-benahavis-villa-corazon-526228.html" class="card" data-location="Benahavís" data-type="" data-bedrooms="2026" data-guests="10">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/1741020089e39dbf743fe7bcb18a46eaa22519cdca/1752799556a8c742e28885bd26100d511a8e47f5a2.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa CorazonBenahavís -Villa</h3>
+        <div class="card-meta">Benahavís &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>10 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-nueva-andalucia-villa-cozy-520068.html" class="card" data-location="Nueva andalucia" data-type="" data-bedrooms="2026" data-guests="8">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/1745695683b8b322175183ba9a105480de5a95e7ff/1745695695471c1dbd4af54b5f0728f4b583a055ab.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa CozyNueva andalucia -Villa</h3>
+        <div class="card-meta">Nueva andalucia &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>8 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-marbella-villa-di-lusso-383272.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="12">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1647518816a735f55135ad6a3bbd73bed32438609d/17428225782b3f7bcd5d79cd48ff2707c5e1a8a1fa.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa Di LussoMarbella -Villa</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>12 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-marbella-villa-el-greco-383279.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="10">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1647518899ef10ef08d998a4137d695303157f06a2/167094041799ed4452a96facf019eaf6950f5de981.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa El GrecoMarbella -Villa</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>10 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-marbella-villa-elements-421581.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="8">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1678721219606832d6bfbe348aa255f8ca64e96ec1/16787212226f7063ec87ff4d1f5245fcad8051371f.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa ElementsMarbella -Villa</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>8 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-benahavis-villa-elysium-496985.html" class="card" data-location="Benahavís" data-type="" data-bedrooms="2026" data-guests="18">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1722293453d00d53106255eeac654a994dbdd0a819/1752799843c8124d40d4f106c01108d1c6debaae58.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa ElysiumBenahavís -Villa</h3>
+        <div class="card-meta">Benahavís &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>18 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-nueva-andalucia-villa-enso-562992.html" class="card" data-location="Nueva andalucia" data-type="" data-bedrooms="2026" data-guests="10">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/17488770963552c3c94495e06e613b6163dec82116/1748877100f959a3bec5b399b0119d14eb0bc88c8c.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa EnsoNueva andalucia -Villa</h3>
+        <div class="card-meta">Nueva andalucia &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>10 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-estepona-villa-feliz-408452.html" class="card" data-location="Estepona" data-type="" data-bedrooms="2026" data-guests="11">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/16685090967eacbbe904d7f47564243a60e9c2294a/166850909784e9be686e354b1f9505dad831111b67.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa FelizEstepona -Villa</h3>
+        <div class="card-meta">Estepona &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>11 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-marbella-villa-florens-434208.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="12">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1686237248be64b6a5fa38b45cb00d6f45a433090d/1686237274579aaccea555519f5185f40f919eb77f.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa FlorensMarbella -Villa</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>12 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-benahavis-villa-flores-408535.html" class="card" data-location="Benahavís" data-type="" data-bedrooms="2026" data-guests="11">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/166852028300bfd45438f1f4f19642db52a0b01b3d/1698677063392b6c81e75446075041b3dff3cc369e.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa FloresBenahavís -Villa</h3>
+        <div class="card-meta">Benahavís &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>11 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-marbella-villa-golondrina-422602.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="6">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1679332330ab23199127f4d983a7124ece2248c014/1679332337ea05c910386a0d018594095849ffc2ea.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa GolondrinaMarbella -Villa</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>6 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-benahavis-villa-hakuna-matata-484752.html" class="card" data-location="Benahavís" data-type="" data-bedrooms="2026" data-guests="10">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1715272443908d82f0b689267f60d16ad843d27419/17303005527ac7df39a1756ae8c8cfda29ed4c0903.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa Hakuna MatataBenahavís -Villa</h3>
+        <div class="card-meta">Benahavís &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>10 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-benahavis-villa-harmony-563338.html" class="card" data-location="Benahavís" data-type="" data-bedrooms="2026" data-guests="8">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/174904749043fa4795d18c73da99e0ecad2bd3fa5f/17490474912d8db8c97b73a7f837df05139a3168a1.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa HarmonyBenahavís -Villa</h3>
+        <div class="card-meta">Benahavís &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>8 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-marbella-villa-horizonte-383256.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="8">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/164751855768ba0fe58f85da15232abb32f9f6919d/16711038254c2f7d0bd99b790d184b1797c804d760.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa HorizonteMarbella -Villa</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>8 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-benahavis-villa-imagine-671624.html" class="card" data-location="Benahavís" data-type="" data-bedrooms="2026" data-guests="10">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/175975026111483072b8c078b0fcd8b3ebae0a24f0/1759750263936bcd9c252842c464305a1672f342fd.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa ImagineBenahavís -Villa</h3>
+        <div class="card-meta">Benahavís &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>10 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-nueva-andalucia-villa-jaz-561729.html" class="card" data-location="Nueva andalucia" data-type="" data-bedrooms="2026" data-guests="12">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/1748261825e59b99d131e16a62a55d3313e462e64a/1748261827b5688ee8e725d074a904648dae9be448.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa JazNueva andalucia -Villa</h3>
+        <div class="card-meta">Nueva andalucia &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>12 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-benahavis-villa-la-alqueria-528481.html" class="card" data-location="Benahavís" data-type="" data-bedrooms="2026" data-guests="8">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/1742295981177e5adbb70c7a3f546a6ba7c2cce8e9/1742295982dbf02595dd9c0ec3b65b9fbb91160252.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa La AlqueriaBenahavís -Villa</h3>
+        <div class="card-meta">Benahavís &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>8 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-marbella-villa-la-colina-383214.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="12">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/16475180753ceef816f4b4844ff0bc547e2f65a513/1751498301a1587bab38c23e03dbf825af1e7847fa.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa La ColinaMarbella -Villa</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>12 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-nueva-andalucia-villa-la-perla-566466.html" class="card" data-location="Nueva andalucia" data-type="" data-bedrooms="2026" data-guests="12">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/1750177599467f665d5d346b55de694b9cb366630c/177435252326e317830aa1c1eb765775c14abf3a20.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa La PerlaNueva andalucia -Villa</h3>
+        <div class="card-meta">Nueva andalucia &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>12 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-benahavis-villa-la-quinta-434188.html" class="card" data-location="Benahavís" data-type="" data-bedrooms="2026" data-guests="10">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/16862335674571ca68650e4bcccb330258da9d59ca/1686233569ed6d18aaa6e90b1c24594df0b54244ae.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa La QuintaBenahavís -Villa</h3>
+        <div class="card-meta">Benahavís &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>10 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-nueva-andalucia-villa-las-brisas-584325.html" class="card" data-location="Nueva andalucia" data-type="" data-bedrooms="2026" data-guests="10">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/17537195838d3d7c68470953413888856e3405656f/175371958557d1233cce1d3acecca6f896e1f1d68a.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa Las BrisasNueva andalucia -Villa</h3>
+        <div class="card-meta">Nueva andalucia &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>10 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-marbella-villa-las-dunas-383252.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="16">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1647518474bbac599a1ccf6e8e8a068678126744b1/16475184935cf5dc70482fa04e9118ee6b4f16d60a.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa Las DunasMarbella -Villa</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>16 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-san-pedro-de-alcantara-villa-linda-434696.html" class="card" data-location="San Pedro de Alcántara" data-type="" data-bedrooms="2026" data-guests="12">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1686658298a3ec1a0ed49d1031c6de948ad6301ce7/1699720561c6c578b505e2e64e84a717a597b30a54.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa LindaSan Pedro de Alcántara -Villa</h3>
+        <div class="card-meta">San Pedro de Alcántara &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>12 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-marbella-villa-los-monteros-383271.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="8">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/16475187478347eb0d3e86aaa815699fa2da4276bd/1711972351b0e38ed8e976a2c845fcac5d7db9b244.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa Los MonterosMarbella -Villa</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>8 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-marbella-villa-los-naranjos-383211.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="8">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/16475180392877ee2a2ff4629a28d75d4166710568/16711181516572a28cfa7420879fb31026e7a43a99.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa Los NaranjosMarbella -Villa</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>8 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-estepona-villa-lulu-480153.html" class="card" data-location="Estepona" data-type="" data-bedrooms="2026" data-guests="12">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/17126833949a0104b4178ce5d79870009736308b8e/1712683427852645860a1181ab740eb852f9be3aad.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa LuluEstepona -Villa</h3>
+        <div class="card-meta">Estepona &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>12 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-marbella-villa-luna-455004.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="10">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1701185611542ee4f12853e88d08b062ddc3f3c733/17011856311bc61f49485974a23d320f9b780d2aca.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa LunaMarbella -Villa</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>10 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-marbella-villa-maddie-465361.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="12">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1706622389d95fe14d5b60dd45fa94ee74f4256954/1706622400c17bef0973ad063fb4fd8ebd7648ce6e.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa MaddieMarbella -Villa</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>12 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-marbella-villa-majestic-383273.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="14">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1647518779eda9b7078b80cddcb516df1121f0c5d2/1737629189ebaea7e7325c788e1d51a7bc3a6e1dc7.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa MajesticMarbella -Villa</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>14 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-marbella-villa-mocca-514268.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="12">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/1734362472c6931da861ce76eea5a810c3a8c37662/17527992242af1574af187d1205672db5fd34d9db1.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa MoccaMarbella -Villa</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>12 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-marbella-villa-monte-mar-688335.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="8">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/1766571489b388d18a7f4f964212262f968c9783ea/1768386319266eb38d7ff65ae7c95cd6e2e0dbe567.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa Monte MarMarbella -Villa</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>8 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-mijas-costa-villa-oceano-454824.html" class="card" data-location="Mijas Costa" data-type="" data-bedrooms="2026" data-guests="18">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/171215360116e990475cabc7021f507f95f03a1d95/1712155197c9c4d574d57741d551cd382e65ce25aa.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa OceanoMijas Costa -Villa</h3>
+        <div class="card-meta">Mijas Costa &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>18 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-marbella-villa-orion-452489.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="8">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/16998826230929236685b5e0e081eefbe11f4033c9/1699882638ffba904df8cc2558af0e414661308169.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa OrionMarbella -Villa</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>8 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-estepona-villa-palm-ridge-454825.html" class="card" data-location="Estepona" data-type="" data-bedrooms="2026" data-guests="18">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1701184530e202e8fd114c055d95977b602d195143/1701184533d9c017e3ea97d8bc47a05038f40007d9.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa Palm RidgeEstepona -Villa</h3>
+        <div class="card-meta">Estepona &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>18 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-marbella-villa-palmera-383274.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="12">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1647518788cf53a5416a95b239c81132991dac7212/1647518789f92fa28b8d7adf414852dbad03a4f0f4.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa PalmeraMarbella -Villa</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>12 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-estepona-villa-paraiso-gym-putting-green-heated-pool-408298.html" class="card" data-location="Estepona" data-type="Gym | Putting Green | Heated PoolEstepona -Villa" data-bedrooms="2026" data-guests="12">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1668421044ad06266186ce768096d7661e1294c580/1668421047e037c6222ac1795173fbe7fc29e046a5.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa Paraiso</h3>
+        <div class="card-meta">Estepona &middot; Gym | Putting Green | Heated PoolEstepona -Villa</div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>12 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-marbella-villa-pena-blanca-383283.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="12">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/164751899063b6e2d288fcb57df94369bdf04cb8a7/177124777200976c3f4bee40ec51ed7254954662bd.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa Pena BlancaMarbella -Villa</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>12 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-marbella-villa-perla-blanca-383278.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="12">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1647518854b9c510f242b1c862de28f6418017388a/17333978676f03f2abb74c9d3249cd0fb3ce7769c8.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa Perla BlancaMarbella -Villa</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>12 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-estepona-villa-pinot-505800.html" class="card" data-location="Estepona" data-type="" data-bedrooms="2026" data-guests="8">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/17292560911ceed3e00fff6de5faafcf67bc095d29/17292560985451507e0530dc76533a1b28446e0ed0.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa PinotEstepona -Villa</h3>
+        <div class="card-meta">Estepona &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>8 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-marbella-villa-samba-408564.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="10">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1668527678fc39b23bd682301312fdf6f6a195e794/1668527805839a327ead7124fedba9f6b5f3302a3d.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa SambaMarbella -Villa</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>10 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-marbella-villa-santi-550231.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="10">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/175620778194573ff9b28089da26d259be64022cce/1756207783043068f011842faf4e95f54c4768c17b.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa SantiMarbella -Villa</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>10 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-nueva-andalucia-villa-serenis-533194.html" class="card" data-location="Nueva andalucia" data-type="" data-bedrooms="2026" data-guests="10">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/17436831025293f494fdb76fa079319df7f82542b2/1747092488be34a8927a43b08edfa146f1866d59a6.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa SerenisNueva andalucia -Villa</h3>
+        <div class="card-meta">Nueva andalucia &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>10 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-marbella-villa-sina-517799.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="12">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/173677765680278cb6e46f736e66008b1dd3eed11d/1737544141718e3f66d19b3e278268adef829a4c34.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa SinaMarbella -Villa</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>12 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-marbella-villa-solana-499187.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="8">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/17241536539f7a97b7b394c6f28aa1326e2364c833/1724153654c5d4622de9a6936517cecaff5c795e8a.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa SolanaMarbella -Villa</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>8 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-nueva-andalucia-villa-sonada-584815.html" class="card" data-location="Nueva andalucia" data-type="" data-bedrooms="2026" data-guests="8">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/1753958869f8d9b8ad97ba378900baf295ab3ff5f2/17539588705679c2a905bc4df0660f81d823c665c8.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa SonadaNueva andalucia -Villa</h3>
+        <div class="card-meta">Nueva andalucia &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>8 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-marbella-villa-steen-465295.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="8">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1706613043850196b6416075399b236bda9272f790/17089480901717e96b718a5ffc968a78e53a68c166.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa SteenMarbella -Villa</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>8 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-marbella-villa-suena-blanca-383262.html" class="card" data-location="Marbella" data-type="" data-bedrooms="2026" data-guests="16">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/16475186214009e73e922a1b4596c9bc45bced4423/16712096755ff226c445b5667b26d48de246848b14.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa Suena BlancaMarbella -Villa</h3>
+        <div class="card-meta">Marbella &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>16 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-san-pedro-de-alcantara-villa-tranquila-482592.html" class="card" data-location="San Pedro de Alcántara" data-type="" data-bedrooms="2026" data-guests="8">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/2/1713972833a9d4633853b4eddaa35dc240aa14105f/1713972838f9bba105d55c354ec2e932cc7183f96a.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa TranquilaSan Pedro de Alcántara -Villa</h3>
+        <div class="card-meta">San Pedro de Alcántara &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>8 guests</span>
+        </div>
+      </div>
+    </a>
+    <a href="villa-guadalmina-villa-zacaluca-694941.html" class="card" data-location="Guadalmina" data-type="" data-bedrooms="2026" data-guests="12">
+      <div class="card-img" style="background-image:url('https://www.justrentmarbella.com/rentals/fotos/3/17696129503c5e57eada907f67b24bcc98c10c5f39/176961297170fc315646aee6a1cf7a19cbf3770d15.jpg')"></div>
+      <div class="card-body">
+        <h3>Villa ZacalucaGuadalmina -Villa</h3>
+        <div class="card-meta">Guadalmina &middot; </div>
+        <div class="card-facts">
+          <span>2026 bed</span>
+          <span>12 guests</span>
+        </div>
+      </div>
+    </a>
+</div>
+
+<div class="footer-bar">Last updated 30 March 2026</div>
+
+<script>
+(function() {
+  var search = document.getElementById('search');
+  var locF = document.getElementById('filter-location');
+  var typeF = document.getElementById('filter-type');
+  var bedF = document.getElementById('filter-bedrooms');
+  var sortF = document.getElementById('sort-by');
+  var countEl = document.getElementById('count');
+  var grid = document.getElementById('grid');
+  var cards = Array.from(document.querySelectorAll('.card'));
+
+  function sortCards() {
+    var val = sortF.value;
+    cards.sort(function(a, b) {
+      if (val === 'az') return a.querySelector('h3').textContent.localeCompare(b.querySelector('h3').textContent);
+      if (val === 'za') return b.querySelector('h3').textContent.localeCompare(a.querySelector('h3').textContent);
+      if (val === 'beds-asc') return (parseInt(a.dataset.bedrooms)||0) - (parseInt(b.dataset.bedrooms)||0);
+      if (val === 'beds-desc') return (parseInt(b.dataset.bedrooms)||0) - (parseInt(a.dataset.bedrooms)||0);
+      if (val === 'guests-desc') return (parseInt(b.dataset.guests)||0) - (parseInt(a.dataset.guests)||0);
+      return 0;
+    });
+    cards.forEach(function(card) { grid.appendChild(card); });
+  }
+
+  function filter() {
+    var q = search.value.toLowerCase();
+    var loc = locF.value;
+    var typ = typeF.value;
+    var beds = parseInt(bedF.value) || 0;
+    var visible = 0;
+
+    cards.forEach(function(card) {
+      var name = card.querySelector('h3').textContent.toLowerCase();
+      var cLoc = card.dataset.location;
+      var cType = card.dataset.type;
+      var cBeds = parseInt(card.dataset.bedrooms) || 0;
+
+      var show = true;
+      if (q && name.indexOf(q) === -1) show = false;
+      if (loc && cLoc !== loc) show = false;
+      if (typ && cType !== typ) show = false;
+      if (beds && cBeds < beds) show = false;
+
+      card.classList.toggle('hidden', !show);
+      if (show) visible++;
+    });
+
+    countEl.textContent = visible + ' propert' + (visible === 1 ? 'y' : 'ies');
+  }
+
+  search.addEventListener('input', filter);
+  locF.addEventListener('change', filter);
+  typeF.addEventListener('change', filter);
+  bedF.addEventListener('change', filter);
+  sortF.addEventListener('change', function() { sortCards(); filter(); });
+})();
+</script>
+
+</body>
+</html>
