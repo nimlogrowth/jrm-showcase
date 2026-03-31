@@ -29,12 +29,77 @@
     -webkit-font-smoothing: antialiased;
   }
   @media print {
-    body { font-size: 10pt; }
-    .hero { height: 420px !important; }
-    .gallery-grid img { break-inside: avoid; }
-    .page-break { page-break-before: always; }
-    .map-container, .lightbox, .back-link, .print-btn { display: none !important; }
-    @page { margin: 12mm; }
+    @page {
+      margin: 14mm 12mm;
+      size: A4;
+    }
+
+    /* Hide elements not needed in PDF */
+    .back-link, .print-btn, .lightbox,
+    .map-container, #location-section,
+    .footer { display: none !important; }
+
+    /* Reset backgrounds and shadows for clean print */
+    body { font-size: 10pt; background: white !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .container { max-width: 100%; padding: 0; }
+
+    /* Hero: smaller, clean */
+    .hero { height: 300px !important; break-after: avoid; }
+    .hero-overlay h1 { font-size: 28pt; }
+    .hero-overlay .location { font-size: 11pt; }
+
+    /* Facts bar */
+    .facts-bar { padding: 16px 0; break-after: avoid; }
+
+    /* Description: show only first 3 paragraphs for a short summary */
+    #about-section p:nth-child(n+5) { display: none; }
+    #about-section { break-after: avoid; }
+
+    /* Bedroom layout */
+    .bedrooms-grid { break-inside: avoid; }
+    .bedroom-card { break-inside: avoid; }
+
+    /* Tags / features */
+    .tags { break-inside: avoid; }
+
+    /* Gallery: 3 columns, sized for print, no page breaks inside rows */
+    .gallery-grid { break-inside: avoid; margin-bottom: 8px; }
+    .gallery-grid img {
+      break-inside: avoid;
+      page-break-inside: avoid;
+      max-height: 200px;
+      object-fit: cover;
+    }
+
+    /* Services section */
+    .services-columns { break-inside: avoid; }
+    .service-group { break-inside: avoid; }
+
+    /* Check-in bar: keep together */
+    .checkin-bar {
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+
+    /* Rules */
+    .rules { break-inside: avoid; }
+
+    /* Section dividers */
+    .section {
+      break-inside: avoid;
+      padding: 20px 0;
+    }
+    .section-title { break-after: avoid; }
+
+    /* Prevent orphans and widows */
+    p { orphans: 3; widows: 3; }
+    h2 { break-after: avoid; }
+
+    /* Gallery page break: start gallery on new page if needed */
+    .page-break { break-before: auto; }
+
+    /* Links: no underline in print */
+    a { text-decoration: none !important; color: inherit !important; }
   }
   .back-link {
     position: fixed;
@@ -397,7 +462,7 @@
     </div>
   </div>
 
-  <div class="section">
+  <div class="section" id="about-section">
     <h2 class="section-title">About the Property</h2>
     <p>Welcome to Terrazas de Bahía Casares, a newly renovated 2-bedroom, 2-bathroom apartment offering bright, modern comfort with panoramic sea views. Perched on a peaceful hillside just a short drive from the beach, this stylish retreat is part of a well-maintained gated community surrounded by lush greenery and coastal tranquility.</p>
     <p>Inside, the apartment boasts a fresh contemporary design, with an open-plan living and dining area that flows out to a spacious terrace—perfect for morning coffee or sunset dinners with sweeping views of the Mediterranean. Both the living room and master bedroom enjoy direct sea views, filling the space with natural light and coastal energy. The fully equipped kitchen and two sleek bathrooms complete the home’s practical yet elegant feel.</p>
@@ -458,7 +523,7 @@
     </div>
   </div>
 
-  <div class="section">
+  <div class="section" id="location-section">
     <h2 class="section-title">Location</h2>
     <div class="map-container">
       <iframe src="https://maps.google.com/maps?q=Terrazas%20de%20Bahia%20Casares%2C%20Casares%2C%20Costa%20del%20Sol%2C%20Spain&t=&z=14&ie=UTF8&iwloc=&output=embed" loading="lazy" allowfullscreen></iframe>

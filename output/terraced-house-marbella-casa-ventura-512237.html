@@ -29,12 +29,77 @@
     -webkit-font-smoothing: antialiased;
   }
   @media print {
-    body { font-size: 10pt; }
-    .hero { height: 420px !important; }
-    .gallery-grid img { break-inside: avoid; }
-    .page-break { page-break-before: always; }
-    .map-container, .lightbox, .back-link, .print-btn { display: none !important; }
-    @page { margin: 12mm; }
+    @page {
+      margin: 14mm 12mm;
+      size: A4;
+    }
+
+    /* Hide elements not needed in PDF */
+    .back-link, .print-btn, .lightbox,
+    .map-container, #location-section,
+    .footer { display: none !important; }
+
+    /* Reset backgrounds and shadows for clean print */
+    body { font-size: 10pt; background: white !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .container { max-width: 100%; padding: 0; }
+
+    /* Hero: smaller, clean */
+    .hero { height: 300px !important; break-after: avoid; }
+    .hero-overlay h1 { font-size: 28pt; }
+    .hero-overlay .location { font-size: 11pt; }
+
+    /* Facts bar */
+    .facts-bar { padding: 16px 0; break-after: avoid; }
+
+    /* Description: show only first 3 paragraphs for a short summary */
+    #about-section p:nth-child(n+5) { display: none; }
+    #about-section { break-after: avoid; }
+
+    /* Bedroom layout */
+    .bedrooms-grid { break-inside: avoid; }
+    .bedroom-card { break-inside: avoid; }
+
+    /* Tags / features */
+    .tags { break-inside: avoid; }
+
+    /* Gallery: 3 columns, sized for print, no page breaks inside rows */
+    .gallery-grid { break-inside: avoid; margin-bottom: 8px; }
+    .gallery-grid img {
+      break-inside: avoid;
+      page-break-inside: avoid;
+      max-height: 200px;
+      object-fit: cover;
+    }
+
+    /* Services section */
+    .services-columns { break-inside: avoid; }
+    .service-group { break-inside: avoid; }
+
+    /* Check-in bar: keep together */
+    .checkin-bar {
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+
+    /* Rules */
+    .rules { break-inside: avoid; }
+
+    /* Section dividers */
+    .section {
+      break-inside: avoid;
+      padding: 20px 0;
+    }
+    .section-title { break-after: avoid; }
+
+    /* Prevent orphans and widows */
+    p { orphans: 3; widows: 3; }
+    h2 { break-after: avoid; }
+
+    /* Gallery page break: start gallery on new page if needed */
+    .page-break { break-before: auto; }
+
+    /* Links: no underline in print */
+    a { text-decoration: none !important; color: inherit !important; }
   }
   .back-link {
     position: fixed;
@@ -397,7 +462,7 @@
     </div>
   </div>
 
-  <div class="section">
+  <div class="section" id="about-section">
     <h2 class="section-title">About the Property</h2>
     <p>This inviting townhouse in the exclusive Banus Bay urbanization offers the perfect base for your next getaway. Located just a short walk from the lively Puerto Banús marina, the property is ideal for families or groups of friends looking to enjoy the best of Marbella’s lifestyle. With five comfortable bedrooms, there’s plenty of space for everyone. The master suite, with its king-size bed and en-suite bathroom, is a peaceful retreat after a day of exploring. Two additional bedrooms feature king-size beds, providing ample comfort, while the remaining two rooms each have twin beds, making them ideal for kids or additional guests. Every room is bright, airy, and designed with comfort in mind.</p>
     <p>The townhouse has three modern bathrooms, offering a mix of walk-in showers and a bathtub, ensuring everyone’s needs are met. The open-plan living area is perfect for unwinding, with comfortable seating, a dining area for meals together, and a fully equipped kitchen that makes preparing your favorite dishes easy. Large windows flood the space with natural light, giving it a welcoming and relaxing vibe. Downstairs, you’ll also find a cozy TV area, complete with a laptop working space, perfect for catching up on work or enjoying your favorite shows.</p>
@@ -515,7 +580,7 @@
     </div>
   </div>
 
-  <div class="section">
+  <div class="section" id="location-section">
     <h2 class="section-title">Location</h2>
     <div class="map-container">
       <iframe src="https://maps.google.com/maps?q=Casa%20Ventura%2C%20Marbella%2C%20Costa%20del%20Sol%2C%20Spain&t=&z=14&ie=UTF8&iwloc=&output=embed" loading="lazy" allowfullscreen></iframe>

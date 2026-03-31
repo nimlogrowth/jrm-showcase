@@ -29,12 +29,77 @@
     -webkit-font-smoothing: antialiased;
   }
   @media print {
-    body { font-size: 10pt; }
-    .hero { height: 420px !important; }
-    .gallery-grid img { break-inside: avoid; }
-    .page-break { page-break-before: always; }
-    .map-container, .lightbox, .back-link, .print-btn { display: none !important; }
-    @page { margin: 12mm; }
+    @page {
+      margin: 14mm 12mm;
+      size: A4;
+    }
+
+    /* Hide elements not needed in PDF */
+    .back-link, .print-btn, .lightbox,
+    .map-container, #location-section,
+    .footer { display: none !important; }
+
+    /* Reset backgrounds and shadows for clean print */
+    body { font-size: 10pt; background: white !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .container { max-width: 100%; padding: 0; }
+
+    /* Hero: smaller, clean */
+    .hero { height: 300px !important; break-after: avoid; }
+    .hero-overlay h1 { font-size: 28pt; }
+    .hero-overlay .location { font-size: 11pt; }
+
+    /* Facts bar */
+    .facts-bar { padding: 16px 0; break-after: avoid; }
+
+    /* Description: show only first 3 paragraphs for a short summary */
+    #about-section p:nth-child(n+5) { display: none; }
+    #about-section { break-after: avoid; }
+
+    /* Bedroom layout */
+    .bedrooms-grid { break-inside: avoid; }
+    .bedroom-card { break-inside: avoid; }
+
+    /* Tags / features */
+    .tags { break-inside: avoid; }
+
+    /* Gallery: 3 columns, sized for print, no page breaks inside rows */
+    .gallery-grid { break-inside: avoid; margin-bottom: 8px; }
+    .gallery-grid img {
+      break-inside: avoid;
+      page-break-inside: avoid;
+      max-height: 200px;
+      object-fit: cover;
+    }
+
+    /* Services section */
+    .services-columns { break-inside: avoid; }
+    .service-group { break-inside: avoid; }
+
+    /* Check-in bar: keep together */
+    .checkin-bar {
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+
+    /* Rules */
+    .rules { break-inside: avoid; }
+
+    /* Section dividers */
+    .section {
+      break-inside: avoid;
+      padding: 20px 0;
+    }
+    .section-title { break-after: avoid; }
+
+    /* Prevent orphans and widows */
+    p { orphans: 3; widows: 3; }
+    h2 { break-after: avoid; }
+
+    /* Gallery page break: start gallery on new page if needed */
+    .page-break { break-before: auto; }
+
+    /* Links: no underline in print */
+    a { text-decoration: none !important; color: inherit !important; }
   }
   .back-link {
     position: fixed;
@@ -401,7 +466,7 @@
     </div>
   </div>
 
-  <div class="section">
+  <div class="section" id="about-section">
     <h2 class="section-title">About the Property</h2>
     <p>Villa Aguacate is a stunning 4-bedroom (5-bed) villa spanning 350 sqm, nestled in the serene residential enclave of El Paraiso, Marbella. Offering the perfect fusion of Andalusian charm and contemporary design, this home is ideal for those seeking comfort, tranquility, and modern conveniences. Recently upgraded, the villa features a bright and spacious living area that seamlessly extends to a picturesque terrace overlooking the lush garden and sparkling saltwater pool. A covered outdoor dining space creates the perfect setting for al fresco meals, while the fully equipped, newly built modern kitchen boasts top-of-the-line appliances, including a double refrigerator, ensuring ample storage and convenience for guests.</p>
     <p>Inside, the villa is thoughtfully designed with a blend of warm, inviting décor and sleek, modern finishes. The left wing of the home features two stylish bedrooms, each fitted with 180cm beds and SMART wall-mounted TVs, sharing a contemporary bathroom with a bathtub/shower combination. A dedicated workspace with a desk and rolling chair offers a peaceful environment with serene garden views, making it ideal for remote work or quiet reflection. The upper level, known as the Family Floor, hosts two additional bedrooms. One features a 180cm bed and a workspace area, while the master suite is a luxurious retreat, complete with a walk-in closet, a private terrace offering breathtaking views, and an elegant en-suite bathroom with a jacuzzi-style bathtub and a standing shower. The master bedroom is furnished with a 180cm bed along with an additional 140cm bed, ensuring flexible sleeping arrangements.</p>
@@ -524,7 +589,7 @@
     </div>
   </div>
 
-  <div class="section">
+  <div class="section" id="location-section">
     <h2 class="section-title">Location</h2>
     <div class="map-container">
       <iframe src="https://maps.google.com/maps?q=Villa%20Aguacate%2C%20Benahav%C3%ADs%2C%20Costa%20del%20Sol%2C%20Spain&t=&z=14&ie=UTF8&iwloc=&output=embed" loading="lazy" allowfullscreen></iframe>
