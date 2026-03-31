@@ -17,11 +17,16 @@ OUTPUT_DIR = os.path.join(BASE_DIR, "output")
 
 
 def load_properties():
-    """Load all property JSON files."""
+    """Load all property JSON files. Skip broken entries."""
     properties = []
     for filepath in sorted(glob.glob(os.path.join(DATA_DIR, "*.json"))):
         with open(filepath, "r", encoding="utf-8") as f:
-            properties.append(json.load(f))
+            prop = json.load(f)
+        # Skip properties with no name or no photos
+        if not prop.get("name") or not prop.get("photos"):
+            print("  Skipping " + os.path.basename(filepath) + " (no name or photos)")
+            continue
+        properties.append(prop)
     return properties
 
 

@@ -57,6 +57,9 @@ def get_all_property_urls():
                 id_match = re.search(r"-(\d{5,})\.html$", href)
                 if not id_match:
                     continue
+                # Skip offer pages - different template, selectors won't work
+                if "/offer-" in href or "/oferta-" in href:
+                    continue
                 prop_id = id_match.group(1)
                 full_url = href if href.startswith("http") else BASE_URL + href
 
