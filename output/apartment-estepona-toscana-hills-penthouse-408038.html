@@ -30,7 +30,7 @@
   }
   @media print {
     @page {
-      margin: 14mm 12mm;
+      margin: 0;
       size: A4;
     }
 
@@ -39,66 +39,45 @@
     .map-container, #location-section,
     .footer { display: none !important; }
 
-    /* Reset backgrounds and shadows for clean print */
-    body { font-size: 10pt; background: white !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
-    .container { max-width: 100%; padding: 0; }
+    /* Body padding replaces page margin (kills browser headers/footers) */
+    body { font-size: 10pt; background: white !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; padding: 10mm !important; }
+    .container { max-width: 100%; padding: 0 10px; }
 
-    /* Hero: smaller, clean */
-    .hero { height: 300px !important; break-after: avoid; }
-    .hero-overlay h1 { font-size: 28pt; }
-    .hero-overlay .location { font-size: 11pt; }
+    /* Hero: full width including over padding */
+    .hero { height: 280px !important; margin: -10mm -10mm 0 -10mm !important; width: calc(100% + 20mm) !important; }
+    .hero-overlay h1 { font-size: 26pt; }
+    .hero-overlay .location { font-size: 10pt; }
 
-    /* Facts bar */
-    .facts-bar { padding: 16px 0; break-after: avoid; }
+    /* Facts bar: keep with hero */
+    .facts-bar { padding: 14px 0; break-inside: avoid; }
+    .fact-value { font-size: 20pt; }
 
-    /* Description: show only first 3 paragraphs for a short summary */
+    /* Description: show only first 3 paragraphs */
     #about-section p:nth-child(n+5) { display: none; }
-    #about-section { break-after: avoid; }
+    #about-section .section-title { font-size: 14pt; }
 
-    /* Bedroom layout */
-    .bedrooms-grid { break-inside: avoid; }
+    /* Small elements that must not split */
     .bedroom-card { break-inside: avoid; }
-
-    /* Tags / features */
+    .checkin-bar { break-inside: avoid; }
     .tags { break-inside: avoid; }
 
-    /* Gallery: 3 columns, sized for print, no page breaks inside rows */
-    .gallery-grid { break-inside: avoid; margin-bottom: 8px; }
-    .gallery-grid img {
-      break-inside: avoid;
-      page-break-inside: avoid;
-      max-height: 200px;
-      object-fit: cover;
-    }
+    /* Gallery: keep rows together, not the whole gallery */
+    .gallery-grid { break-inside: auto; }
+    .gallery-grid img { max-height: 180px; }
+    .gallery-row-2, .gallery-row-3 { break-inside: avoid; margin-bottom: 4px; }
 
-    /* Services section */
-    .services-columns { break-inside: avoid; }
+    /* Services: let it flow */
+    .services-columns { break-inside: auto; }
     .service-group { break-inside: avoid; }
 
-    /* Check-in bar: keep together */
-    .checkin-bar {
-      break-inside: avoid;
-      page-break-inside: avoid;
-    }
-
-    /* Rules */
-    .rules { break-inside: avoid; }
-
-    /* Section dividers */
-    .section {
-      break-inside: avoid;
-      padding: 20px 0;
-    }
+    /* Section titles: never orphaned at bottom of page */
     .section-title { break-after: avoid; }
+    .section { padding: 16px 0; }
 
     /* Prevent orphans and widows */
     p { orphans: 3; widows: 3; }
-    h2 { break-after: avoid; }
 
-    /* Gallery page break: start gallery on new page if needed */
-    .page-break { break-before: auto; }
-
-    /* Links: no underline in print */
+    /* Links: clean */
     a { text-decoration: none !important; color: inherit !important; }
   }
   .back-link {
