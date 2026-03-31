@@ -13,7 +13,11 @@ import time
 import sys
 
 BASE_URL = "https://www.justrentmarbella.com"
-LISTING_URL = BASE_URL + "/rentals/holidays-rentals-rentals-d0/"
+LISTING_URLS = [
+    BASE_URL + "/rentals/holidays-rentals-rentals-d0/",
+    BASE_URL + "/long-term-rental/holidays-rentals-rentals-d0/",
+    BASE_URL + "/special-offers/",
+]
 DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
@@ -28,50 +32,53 @@ def get_soup(url):
 
 
 def get_all_property_urls():
-    """Crawl all listing pages to collect every property URL."""
-    urls = []
-    page = 1
-    max_pages = 40  # safety limit
-    while page <= max_pages:
-        page_url = LISTING_URL if page == 1 else LISTING_URL + "?pagina=" + str(page)
-        print("    Listing page " + str(page) + "...", end=" ")
-        try:
-            soup = get_soup(page_url)
-        except Exception as e:
-            print("Error: " + str(e))
-            break
+    """Crawl all listing sections to collect every property URL."""
+    all_urls = set()
 
-        links = soup.select('a[href*="/rentals/"][href$=".html"]')
-        page_urls = set()
-        for link in links:
-            href = link.get("href", "")
-            if re.search(r"-\d{5,}\.html$", href):
-                full_url = href if href.startswith("http") else BASE_URL + href
-                page_urls.add(full_url)
+    for listing_url in LISTING_URLS:
+        section_name = listing_url.split("/")[-2] or listing_url.split("/")[-3]
+        print("\n  Section: " + section_name)
+        page = 1
+        max_pages = 40
 
-        new = page_urls - set(urls)
-        print(str(len(new)) + " new properties")
+        while page <= max_pages:
+            page_url = listing_url if page == 1 else listing_url + "?pagina=" + str(page)
+            print("    Page " + str(page) + "...", end=" ")
+            try:
+                soup = get_soup(page_url)
+            except Exception as e:
+                print("Error: " + str(e))
+                break
 
-        if not new:
-            break
+            # Match property links ending in -DIGITS.html
+            links = soup.select('a[href$=".html"]')
+            page_urls = set()
+            for link in links:
+                href = link.get("href", "")
+                if re.search(r"-\d{5,}\.html$", href):
+                    full_url = href if href.startswith("http") else BASE_URL + href
+                    # Normalize: ensure all URLs use the /rentals/ path for the property page
+                    # Long-term rental listings link to /long-term-rental/ paths
+                    # but the /rentals/ version has the same content
+                    full_url = re.sub(r"/long-term-rental/", "/rentals/", full_url)
+                    page_urls.add(full_url)
 
-        urls.extend(new)
+            new = page_urls - all_urls
+            print(str(len(new)) + " new")
 
-        # Check if there is a next page link
-        next_page = soup.select_one('a[href*="pagina=' + str(page + 1) + '"]')
-        if not next_page:
-            break
+            if not new:
+                break
 
-        page += 1
-        time.sleep(DELAY)
+            all_urls.update(new)
 
-    # Deduplicate preserving order
-    seen = set()
-    unique = []
-    for u in urls:
-        if u not in seen:
-            seen.add(u)
-            unique.append(u)
+            next_page = soup.select_one('a[href*="pagina=' + str(page + 1) + '"]')
+            if not next_page:
+                break
+
+            page += 1
+            time.sleep(DELAY)
+
+    unique = sorted(all_urls)
     return unique
 
 
