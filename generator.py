@@ -233,7 +233,7 @@ def build_property_page(prop):
   }}
   @media print {{
     @page {{
-      margin: 0;
+      margin: 6mm 0;
       size: A4;
     }}
 
@@ -242,14 +242,14 @@ def build_property_page(prop):
     .map-container, #location-section,
     .footer {{ display: none !important; }}
 
-    /* Body padding replaces page margin (kills browser headers/footers) */
+    /* Base */
     body {{ font-size: 10pt; background: white !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; margin: 0; padding: 0; }}
 
-    /* Container provides the side padding */
+    /* Container provides side padding */
     .container {{ max-width: 100%; padding: 0 12mm !important; }}
 
     /* Hero: full bleed */
-    .hero {{ height: 280px !important; margin: 0 !important; width: 100% !important; }}
+    .hero {{ height: 280px !important; margin: -6mm 0 0 0 !important; width: 100% !important; }}
     .hero-overlay h1 {{ font-size: 26pt; }}
     .hero-overlay .location {{ font-size: 10pt; }}
 
@@ -257,15 +257,14 @@ def build_property_page(prop):
     .facts-bar {{ padding: 14px 12mm; break-inside: avoid; }}
     .fact-value {{ font-size: 20pt; }}
 
-    /* Description: show only first 3 paragraphs */
+    /* Description: only first 3 paragraphs */
     #about-section p:nth-child(n+5) {{ display: none; }}
     #about-section .section-title {{ font-size: 14pt; }}
 
-    /* Small elements that must not split */
+    /* Bedroom cards stay together */
     .bedroom-card {{ break-inside: avoid; }}
-    .checkin-bar {{ break-inside: avoid; }}
 
-    /* Tags: compact single row */
+    /* Tags: compact for single row */
     .tags {{
       break-inside: avoid;
       flex-wrap: wrap;
@@ -276,23 +275,24 @@ def build_property_page(prop):
       margin-bottom: 3px;
     }}
 
-    /* Gallery: keep rows together */
+    /* Gallery rows stay together */
     .gallery-grid {{ break-inside: auto; }}
     .gallery-grid img {{ max-height: 160px; }}
     .gallery-row-2, .gallery-row-3 {{ break-inside: avoid; margin-bottom: 4px; }}
 
-    /* Services: let it flow but keep groups together */
-    .services-columns {{ break-inside: auto; }}
-    .service-group {{ break-inside: avoid; }}
+    /* Services + checkin + rules: keep entire block together */
+    .services-columns {{ break-inside: avoid; }}
+    .checkin-bar {{ break-inside: avoid; margin-top: 16px; }}
+    .rules {{ break-inside: avoid; }}
 
-    /* Section titles: never orphaned at bottom of page */
+    /* Section titles never orphaned */
     .section-title {{ break-after: avoid; }}
     .section {{ padding: 16px 0; }}
 
     /* Prevent orphans and widows */
     p {{ orphans: 3; widows: 3; }}
 
-    /* Links: clean */
+    /* Links clean */
     a {{ text-decoration: none !important; color: inherit !important; }}
   }}
   .back-link {{
