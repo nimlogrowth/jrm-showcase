@@ -133,10 +133,6 @@
     {
       "place": "Hospital",
       "distance": "8.5 km"
-    },
-    {
-      "place": "Airport",
-      "distance": "48 km"
     }
   ],
   "services_included": [

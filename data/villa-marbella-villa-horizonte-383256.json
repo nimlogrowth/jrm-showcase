@@ -92,10 +92,6 @@
   ],
   "distances": [
     {
-      "place": "Airport",
-      "distance": "52 m"
-    },
-    {
       "place": "Restaurant",
       "distance": "1.1 km"
     },

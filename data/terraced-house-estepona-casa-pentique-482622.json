@@ -112,10 +112,6 @@
     {
       "place": "Hospital",
       "distance": "4 km"
-    },
-    {
-      "place": "Airport",
-      "distance": "67 km"
     }
   ],
   "services_included": [

@@ -208,10 +208,6 @@
     {
       "place": "Hospital",
       "distance": "6.5 km"
-    },
-    {
-      "place": "Airport",
-      "distance": "30 km"
     }
   ],
   "services_included": [

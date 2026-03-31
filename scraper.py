@@ -32,14 +32,14 @@ def get_soup(url):
 
 
 def get_all_property_urls():
-    """Crawl all listing sections to collect every property URL."""
-    all_urls = set()
+    """Crawl all listing sections. Never stop early. Follow every page."""
+    url_by_id = {}
 
     for listing_url in LISTING_URLS:
         section_name = listing_url.split("/")[-2] or listing_url.split("/")[-3]
         print("\n  Section: " + section_name)
         page = 1
-        max_pages = 40
+        max_pages = 50
 
         while page <= max_pages:
             page_url = listing_url if page == 1 else listing_url + "?pagina=" + str(page)
@@ -50,27 +50,25 @@ def get_all_property_urls():
                 print("Error: " + str(e))
                 break
 
-            # Match property links ending in -DIGITS.html
             links = soup.select('a[href$=".html"]')
-            page_urls = set()
+            page_count = 0
             for link in links:
                 href = link.get("href", "")
-                if re.search(r"-\d{5,}\.html$", href):
-                    full_url = href if href.startswith("http") else BASE_URL + href
-                    # Normalize: ensure all URLs use the /rentals/ path for the property page
-                    # Long-term rental listings link to /long-term-rental/ paths
-                    # but the /rentals/ version has the same content
-                    full_url = re.sub(r"/long-term-rental/", "/rentals/", full_url)
-                    page_urls.add(full_url)
+                id_match = re.search(r"-(\d{5,})\.html$", href)
+                if not id_match:
+                    continue
+                prop_id = id_match.group(1)
+                full_url = href if href.startswith("http") else BASE_URL + href
 
-            new = page_urls - all_urls
-            print(str(len(new)) + " new")
+                if prop_id not in url_by_id:
+                    url_by_id[prop_id] = full_url
+                    page_count += 1
+                elif "/rentals/" in full_url and "/long-term-rental/" in url_by_id[prop_id]:
+                    url_by_id[prop_id] = full_url
 
-            if not new:
-                break
+            print(str(page_count) + " new")
 
-            all_urls.update(new)
-
+            # Always check for next page. Never stop based on count.
             next_page = soup.select_one('a[href*="pagina=' + str(page + 1) + '"]')
             if not next_page:
                 break
@@ -78,7 +76,7 @@ def get_all_property_urls():
             page += 1
             time.sleep(DELAY)
 
-    unique = sorted(all_urls)
+    unique = sorted(url_by_id.values())
     return unique
 
 
@@ -265,9 +263,9 @@ def extract_property(url):
         if left and right:
             place = left.get_text(strip=True)
             dist = right.get_text(strip=True)
-            # Deduplicate: skip "International airport" if "Airport" exists
-            if place == "International airport":
-                place = "Airport"
+            # Skip airport entries
+            if "airport" in place.lower():
+                continue
             if place not in seen_places:
                 seen_places.add(place)
                 distances.append({"place": place, "distance": dist})

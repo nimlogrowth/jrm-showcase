@@ -72,10 +72,6 @@
   ],
   "distances": [
     {
-      "place": "Airport",
-      "distance": "60 m"
-    },
-    {
       "place": "Bus station",
       "distance": "100 m"
     },

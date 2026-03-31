@@ -88,10 +88,6 @@
     {
       "place": "Shops",
       "distance": "3 km"
-    },
-    {
-      "place": "Airport",
-      "distance": "50 km"
     }
   ],
   "services_included": [

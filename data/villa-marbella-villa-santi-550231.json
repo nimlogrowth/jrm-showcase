@@ -114,10 +114,6 @@
     {
       "place": "Town centre",
       "distance": "3 km"
-    },
-    {
-      "place": "Airport",
-      "distance": "60 km"
     }
   ],
   "services_included": [

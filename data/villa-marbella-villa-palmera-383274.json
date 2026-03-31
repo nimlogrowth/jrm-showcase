@@ -93,10 +93,6 @@
   ],
   "distances": [
     {
-      "place": "Airport",
-      "distance": "45 m"
-    },
-    {
       "place": "Golf course",
       "distance": "260 m"
     },
