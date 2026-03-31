@@ -40,16 +40,18 @@
     .footer { display: none !important; }
 
     /* Body padding replaces page margin (kills browser headers/footers) */
-    body { font-size: 10pt; background: white !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; padding: 10mm !important; }
-    .container { max-width: 100%; padding: 0 10px; }
+    body { font-size: 10pt; background: white !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; margin: 0; padding: 0; }
 
-    /* Hero: full width including over padding */
-    .hero { height: 280px !important; margin: -10mm -10mm 0 -10mm !important; width: calc(100% + 20mm) !important; }
+    /* Container provides the side padding */
+    .container { max-width: 100%; padding: 0 12mm !important; }
+
+    /* Hero: full bleed */
+    .hero { height: 280px !important; margin: 0 !important; width: 100% !important; }
     .hero-overlay h1 { font-size: 26pt; }
     .hero-overlay .location { font-size: 10pt; }
 
-    /* Facts bar: keep with hero */
-    .facts-bar { padding: 14px 0; break-inside: avoid; }
+    /* Facts bar */
+    .facts-bar { padding: 14px 12mm; break-inside: avoid; }
     .fact-value { font-size: 20pt; }
 
     /* Description: show only first 3 paragraphs */
@@ -59,14 +61,24 @@
     /* Small elements that must not split */
     .bedroom-card { break-inside: avoid; }
     .checkin-bar { break-inside: avoid; }
-    .tags { break-inside: avoid; }
 
-    /* Gallery: keep rows together, not the whole gallery */
+    /* Tags: compact single row */
+    .tags {
+      break-inside: avoid;
+      flex-wrap: wrap;
+    }
+    .tags .tag {
+      font-size: 7pt;
+      padding: 3px 8px;
+      margin-bottom: 3px;
+    }
+
+    /* Gallery: keep rows together */
     .gallery-grid { break-inside: auto; }
-    .gallery-grid img { max-height: 180px; }
+    .gallery-grid img { max-height: 160px; }
     .gallery-row-2, .gallery-row-3 { break-inside: avoid; margin-bottom: 4px; }
 
-    /* Services: let it flow */
+    /* Services: let it flow but keep groups together */
     .services-columns { break-inside: auto; }
     .service-group { break-inside: avoid; }
 
