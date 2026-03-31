@@ -261,19 +261,25 @@ def build_property_page(prop):
     #about-section p:nth-child(n+5) {{ display: none; }}
     #about-section .section-title {{ font-size: 14pt; }}
 
-    /* Bedroom cards stay together */
-    .bedroom-card {{ break-inside: avoid; }}
+    /* Bedroom cards stay together, uniform size */
+    .bedroom-card {{ break-inside: avoid; min-width: 90px; padding: 8px 14px !important; }}
+    .bedrooms-grid {{ gap: 6px !important; }}
 
     /* Tags: compact for single row */
     .tags {{
       break-inside: avoid;
       flex-wrap: wrap;
+      gap: 4px !important;
     }}
     .tags .tag {{
       font-size: 7pt;
       padding: 3px 8px;
-      margin-bottom: 3px;
+      margin-bottom: 0;
     }}
+
+    /* Tighter section spacing */
+    .section {{ padding: 10px 0 !important; }}
+    .section-title {{ margin-bottom: 8px !important; font-size: 13pt !important; }}
 
     /* Gallery rows stay together */
     .gallery-grid {{ break-inside: auto; }}
@@ -281,8 +287,8 @@ def build_property_page(prop):
     .gallery-row-2, .gallery-row-3 {{ break-inside: avoid; margin-bottom: 4px; }}
 
     /* Services + checkin + rules: keep entire block together */
-    .services-columns {{ break-inside: avoid; }}
-    .checkin-bar {{ break-inside: avoid; margin-top: 16px; }}
+    .services-columns {{ break-inside: avoid; grid-template-columns: 1fr 1fr !important; }}
+    .checkin-bar {{ break-inside: avoid; margin-top: 16px; flex-direction: row !important; gap: 30px !important; }}
     .rules {{ break-inside: avoid; }}
 
     /* Section titles never orphaned */
