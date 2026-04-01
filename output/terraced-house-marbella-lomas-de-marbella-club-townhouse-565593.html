@@ -29,7 +29,7 @@
     -webkit-font-smoothing: antialiased;
   }
   @media print {
-    @page { margin: 0; size: A4; }
+    @page { margin: 6mm 0; size: A4; }
 
     .back-link, .print-btn, .lightbox,
     .map-container, #location-section,
@@ -37,32 +37,35 @@
 
     body { font-size: 10pt; background: white !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; margin: 0; padding: 0; }
 
-    /* Hero: full bleed */
-    .hero { height: 280px !important; margin: 0 !important; width: 100% !important; }
+    /* Hero: pull up to cover page top margin */
+    .hero { height: 280px !important; margin: -6mm 0 0 0 !important; width: 100% !important; }
     .hero-overlay h1 { font-size: 26pt; }
     .hero-overlay .location { font-size: 10pt; }
 
-    /* Container: consistent padding all pages */
+    /* Container: side padding */
     .container { max-width: 100%; padding: 6mm 14mm !important; }
 
-    /* Facts: centered row matching website layout */
-    .facts-bar { padding: 8px 0 !important; break-inside: avoid; display: flex !important; flex-wrap: nowrap !important; justify-content: center !important; gap: 1cm !important; }
+    /* Facts: 2cm gap */
+    .facts-bar { padding: 8px 0 !important; break-inside: avoid; display: flex !important; flex-wrap: nowrap !important; justify-content: center !important; gap: 2cm !important; }
     .fact { min-width: auto !important; flex: none !important; text-align: center !important; }
-    .fact-value { font-size: 14pt !important; line-height: 1 !important; }
-    .fact-label { font-size: 6pt !important; margin-top: 1px !important; }
+    .fact-value { font-size: 24pt !important; line-height: 1 !important; }
+    .fact-label { font-size: 14pt !important; margin-top: 1px !important; }
 
     #about-section p:nth-child(n+5) { display: none; }
-    #about-section .section-title { font-size: 14pt; }
 
+    /* Bedroom cards: room 12pt, bed 10pt */
     .bedroom-card { break-inside: avoid; min-width: 90px; padding: 8px 14px !important; }
+    .bedroom-card .room { font-size: 12pt !important; }
+    .bedroom-card .bed { font-size: 10pt !important; }
     .bedrooms-grid { gap: 6px !important; }
 
-    /* Tags: centered, compact */
+    /* Tags: 10pt */
     .tags { break-inside: avoid; flex-wrap: wrap; gap: 4px !important; justify-content: flex-start !important; }
-    .tags .tag { font-size: 7pt; padding: 3px 8px; margin-bottom: 0; }
+    .tags .tag { font-size: 10pt; padding: 3px 8px; margin-bottom: 0; }
 
+    /* All section titles: 18pt */
     .section { padding: 10px 0 !important; }
-    .section-title { margin-bottom: 8px !important; font-size: 13pt !important; break-after: avoid; }
+    .section-title { margin-bottom: 8px !important; font-size: 18pt !important; break-after: avoid; }
 
     .gallery-grid { break-inside: auto; }
     .gallery-grid img { max-height: 160px; }
@@ -70,7 +73,9 @@
 
     .services-columns { break-inside: avoid; grid-template-columns: 1fr 1fr !important; }
     .checkin-bar { break-inside: avoid; margin-top: 16px; flex-direction: row !important; gap: 30px !important; justify-content: center !important; text-align: center !important; }
-    .rules { break-inside: avoid; text-align: center !important; }
+    .checkin-item strong { font-size: 12pt !important; }
+    .checkin-item span { font-size: 10pt !important; }
+    .rules { break-inside: avoid; text-align: center !important; font-size: 12pt !important; }
 
     p { orphans: 3; widows: 3; }
     a { text-decoration: none !important; color: inherit !important; }
