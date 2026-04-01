@@ -232,74 +232,48 @@ def build_property_page(prop):
     -webkit-font-smoothing: antialiased;
   }}
   @media print {{
-    @page {{
-      margin: 6mm 0;
-      size: A4;
-    }}
+    @page {{ margin: 0; size: A4; }}
 
-    /* Hide elements not needed in PDF */
     .back-link, .print-btn, .lightbox,
     .map-container, #location-section,
     .footer {{ display: none !important; }}
 
-    /* Base */
     body {{ font-size: 10pt; background: white !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; margin: 0; padding: 0; }}
 
-    /* Container provides side padding */
-    .container {{ max-width: 100%; padding: 0 12mm !important; }}
-
-    /* Hero: full bleed */
-    .hero {{ height: 280px !important; margin: -6mm 0 0 0 !important; width: 100% !important; }}
+    /* Hero: full bleed, no gap */
+    .hero {{ height: 280px !important; margin: 0 !important; width: 100% !important; }}
     .hero-overlay h1 {{ font-size: 26pt; }}
     .hero-overlay .location {{ font-size: 10pt; }}
 
-    /* Facts bar: compact single row */
-    .facts-bar {{ padding: 10px 12mm; break-inside: avoid; display: flex !important; flex-wrap: nowrap !important; justify-content: center !important; gap: 24px !important; }}
-    .fact-value {{ font-size: 14pt !important; }}
-    .fact-label {{ font-size: 6pt !important; letter-spacing: 1px !important; }}
+    /* Container: side + bottom padding only */
+    .container {{ max-width: 100%; padding: 4mm 12mm !important; }}
 
-    /* Description: only first 3 paragraphs */
+    /* Facts: single row, compact */
+    .facts-bar {{ padding: 8px 0 !important; break-inside: avoid; display: flex !important; flex-wrap: nowrap !important; justify-content: center !important; gap: 24px !important; }}
+    .fact-value {{ font-size: 14pt !important; line-height: 1 !important; }}
+    .fact-label {{ font-size: 6pt !important; margin-top: 1px !important; }}
+
     #about-section p:nth-child(n+5) {{ display: none; }}
     #about-section .section-title {{ font-size: 14pt; }}
 
-    /* Bedroom cards stay together, uniform size */
     .bedroom-card {{ break-inside: avoid; min-width: 90px; padding: 8px 14px !important; }}
     .bedrooms-grid {{ gap: 6px !important; }}
 
-    /* Tags: compact for single row */
-    .tags {{
-      break-inside: avoid;
-      flex-wrap: wrap;
-      gap: 4px !important;
-    }}
-    .tags .tag {{
-      font-size: 7pt;
-      padding: 3px 8px;
-      margin-bottom: 0;
-    }}
+    .tags {{ break-inside: avoid; flex-wrap: wrap; gap: 4px !important; }}
+    .tags .tag {{ font-size: 7pt; padding: 3px 8px; margin-bottom: 0; }}
 
-    /* Tighter section spacing */
     .section {{ padding: 10px 0 !important; }}
-    .section-title {{ margin-bottom: 8px !important; font-size: 13pt !important; }}
+    .section-title {{ margin-bottom: 8px !important; font-size: 13pt !important; break-after: avoid; }}
 
-    /* Gallery rows stay together */
     .gallery-grid {{ break-inside: auto; }}
     .gallery-grid img {{ max-height: 160px; }}
     .gallery-row-2, .gallery-row-3 {{ break-inside: avoid; margin-bottom: 4px; }}
 
-    /* Services + checkin + rules: keep entire block together */
     .services-columns {{ break-inside: avoid; grid-template-columns: 1fr 1fr !important; }}
     .checkin-bar {{ break-inside: avoid; margin-top: 16px; flex-direction: row !important; gap: 30px !important; }}
     .rules {{ break-inside: avoid; }}
 
-    /* Section titles never orphaned */
-    .section-title {{ break-after: avoid; }}
-    .section {{ padding: 16px 0; }}
-
-    /* Prevent orphans and widows */
     p {{ orphans: 3; widows: 3; }}
-
-    /* Links clean */
     a {{ text-decoration: none !important; color: inherit !important; }}
   }}
   .back-link {{
