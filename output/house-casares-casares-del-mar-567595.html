@@ -35,53 +35,54 @@
     .map-container, #location-section,
     .footer { display: none !important; }
 
-    body { font-size: 8pt; background: white !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; margin: 0 !important; padding: 0 !important; }
+    body { font-size: 9pt; background: white !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; margin: 0 !important; padding: 0 !important; }
 
-    /* Hero: pull up past page margin for full bleed */
+    /* Hero: 48px → 26pt */
     .hero { height: 280px !important; margin: -8mm 0 0 0 !important; padding: 0 !important; width: 100% !important; }
     .hero-overlay h1 { font-size: 26pt; }
-    .hero-overlay .location { font-size: 10pt; }
+    .hero-overlay .location { font-size: 9pt; }
 
     .container { max-width: 100%; padding: 0 14mm !important; }
 
-    /* Facts: 18pt numbers, 8pt labels */
+    /* Facts: 32px → 18pt, 11px → 7pt */
     .facts-bar { padding: 8px 0 !important; break-inside: avoid; display: flex !important; flex-wrap: nowrap !important; justify-content: center !important; gap: 1cm !important; }
     .fact { min-width: auto !important; flex: none !important; text-align: center !important; }
     .fact-value { font-size: 18pt !important; line-height: 1 !important; }
-    .fact-label { font-size: 8pt !important; margin-top: 1px !important; }
+    .fact-label { font-size: 7pt !important; margin-top: 1px !important; }
 
-    /* Description: first 3 paragraphs, 8pt body */
+    /* Description: 15px → 9pt (body), first 3 paragraphs */
     #about-section p:nth-child(n+5) { display: none; }
-    #about-section .section-title { font-size: 14pt !important; }
 
-    /* Bedroom cards: 10px room, 8px bed */
+    /* Bedroom cards: 13px → 8pt room, 12px → 7pt bed */
     .bedroom-card { break-inside: avoid; min-width: 90px; padding: 8px 14px !important; }
-    .bedroom-card .room { font-size: 10px !important; }
-    .bedroom-card .bed { font-size: 8px !important; }
+    .bedroom-card .room { font-size: 8pt !important; }
+    .bedroom-card .bed { font-size: 7pt !important; }
     .bedrooms-grid { gap: 6px !important; }
 
-    /* Tags: 7pt */
+    /* Tags: 13px → 8pt */
     .tags { break-inside: avoid; flex-wrap: wrap; gap: 4px !important; justify-content: flex-start !important; }
-    .tags .tag { font-size: 7pt; padding: 3px 8px; margin-bottom: 0; }
+    .tags .tag { font-size: 8pt; padding: 3px 8px; margin-bottom: 0; }
 
-    /* Section titles: 13pt */
+    /* Section titles: 28px → 16pt */
     .section { padding: 10px 0 !important; }
-    .section-title { margin-bottom: 8px !important; font-size: 13pt !important; break-after: avoid; }
+    .section-title { margin-bottom: 8px !important; font-size: 16pt !important; break-after: avoid; }
 
     .gallery-grid { break-inside: auto; }
     .gallery-grid img { max-height: 160px; }
     .gallery-row-2, .gallery-row-3 { break-inside: avoid; margin-bottom: 4px; }
 
-    /* Services: keep as is */
+    /* Services: 14px → 9pt items, 12px → 7pt headers */
     .services-columns { break-inside: avoid; grid-template-columns: 1fr 1fr !important; }
+    .service-item { font-size: 9pt !important; }
+    .service-group h4 { font-size: 7pt !important; }
 
-    /* Checkin: 12px labels, 10px values */
+    /* Checkin: 14px → 9pt labels, 13px → 8pt values */
     .checkin-bar { break-inside: avoid; margin-top: 16px; flex-direction: row !important; gap: 30px !important; justify-content: center !important; text-align: center !important; }
-    .checkin-item strong { font-size: 12px !important; }
-    .checkin-item span { font-size: 10px !important; }
+    .checkin-item strong { font-size: 9pt !important; }
+    .checkin-item span { font-size: 8pt !important; }
 
-    /* Rules: 10px */
-    .rules { break-inside: avoid; text-align: center !important; font-size: 10px !important; }
+    /* Rules: 13px → 8pt */
+    .rules { break-inside: avoid; text-align: center !important; font-size: 8pt !important; }
 
     p { orphans: 3; widows: 3; }
     a { text-decoration: none !important; color: inherit !important; }
