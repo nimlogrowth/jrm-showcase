@@ -232,7 +232,8 @@ def build_property_page(prop):
     -webkit-font-smoothing: antialiased;
   }}
   @media print {{
-    @page {{ margin: 0; size: A4; }}
+    @page {{ margin: 8mm 12mm; size: A4; }}
+    @page :first {{ margin: 0; }}
 
     .back-link, .print-btn, .lightbox,
     .map-container, #location-section,
@@ -240,12 +241,12 @@ def build_property_page(prop):
 
     body {{ font-size: 10pt; background: white !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; margin: 0; padding: 0; }}
 
-    /* Hero: full bleed, no gap */
+    /* Hero: full bleed on first page */
     .hero {{ height: 280px !important; margin: 0 !important; width: 100% !important; }}
     .hero-overlay h1 {{ font-size: 26pt; }}
     .hero-overlay .location {{ font-size: 10pt; }}
 
-    /* Container: side + bottom padding only */
+    /* Container: side padding for first page content */
     .container {{ max-width: 100%; padding: 4mm 12mm !important; }}
 
     /* Facts: single row, compact */
@@ -259,7 +260,8 @@ def build_property_page(prop):
     .bedroom-card {{ break-inside: avoid; min-width: 90px; padding: 8px 14px !important; }}
     .bedrooms-grid {{ gap: 6px !important; }}
 
-    .tags {{ break-inside: avoid; flex-wrap: wrap; gap: 4px !important; }}
+    /* Tags: centered, compact */
+    .tags {{ break-inside: avoid; flex-wrap: wrap; gap: 4px !important; justify-content: center !important; }}
     .tags .tag {{ font-size: 7pt; padding: 3px 8px; margin-bottom: 0; }}
 
     .section {{ padding: 10px 0 !important; }}
@@ -270,8 +272,8 @@ def build_property_page(prop):
     .gallery-row-2, .gallery-row-3 {{ break-inside: avoid; margin-bottom: 4px; }}
 
     .services-columns {{ break-inside: avoid; grid-template-columns: 1fr 1fr !important; }}
-    .checkin-bar {{ break-inside: avoid; margin-top: 16px; flex-direction: row !important; gap: 30px !important; }}
-    .rules {{ break-inside: avoid; }}
+    .checkin-bar {{ break-inside: avoid; margin-top: 16px; flex-direction: row !important; gap: 30px !important; justify-content: center !important; text-align: center !important; }}
+    .rules {{ break-inside: avoid; text-align: center !important; }}
 
     p {{ orphans: 3; widows: 3; }}
     a {{ text-decoration: none !important; color: inherit !important; }}
