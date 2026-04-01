@@ -248,8 +248,9 @@ def build_property_page(prop):
     /* Container: consistent padding all pages */
     .container {{ max-width: 100%; padding: 6mm 14mm !important; }}
 
-    /* Facts: single row, 1cm gap */
+    /* Facts: centered row matching website layout */
     .facts-bar {{ padding: 8px 0 !important; break-inside: avoid; display: flex !important; flex-wrap: nowrap !important; justify-content: center !important; gap: 1cm !important; }}
+    .fact {{ min-width: auto !important; flex: none !important; text-align: center !important; }}
     .fact-value {{ font-size: 14pt !important; line-height: 1 !important; }}
     .fact-label {{ font-size: 6pt !important; margin-top: 1px !important; }}
 
