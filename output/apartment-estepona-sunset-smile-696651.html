@@ -50,9 +50,10 @@
     .hero-overlay h1 { font-size: 26pt; }
     .hero-overlay .location { font-size: 10pt; }
 
-    /* Facts bar */
-    .facts-bar { padding: 14px 12mm; break-inside: avoid; }
-    .fact-value { font-size: 20pt; }
+    /* Facts bar: compact single row */
+    .facts-bar { padding: 10px 12mm; break-inside: avoid; display: flex !important; flex-wrap: nowrap !important; justify-content: center !important; gap: 24px !important; }
+    .fact-value { font-size: 14pt !important; }
+    .fact-label { font-size: 6pt !important; letter-spacing: 1px !important; }
 
     /* Description: only first 3 paragraphs */
     #about-section p:nth-child(n+5) { display: none; }
