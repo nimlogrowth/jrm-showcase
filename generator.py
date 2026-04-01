@@ -232,8 +232,7 @@ def build_property_page(prop):
     -webkit-font-smoothing: antialiased;
   }}
   @media print {{
-    @page {{ margin: 8mm 12mm; size: A4; }}
-    @page :first {{ margin: 0; }}
+    @page {{ margin: 0; size: A4; }}
 
     .back-link, .print-btn, .lightbox,
     .map-container, #location-section,
@@ -241,16 +240,16 @@ def build_property_page(prop):
 
     body {{ font-size: 10pt; background: white !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; margin: 0; padding: 0; }}
 
-    /* Hero: full bleed on first page */
+    /* Hero: full bleed */
     .hero {{ height: 280px !important; margin: 0 !important; width: 100% !important; }}
     .hero-overlay h1 {{ font-size: 26pt; }}
     .hero-overlay .location {{ font-size: 10pt; }}
 
-    /* Container: side padding for first page content */
-    .container {{ max-width: 100%; padding: 4mm 12mm !important; }}
+    /* Container: consistent padding all pages */
+    .container {{ max-width: 100%; padding: 6mm 14mm !important; }}
 
-    /* Facts: single row, compact */
-    .facts-bar {{ padding: 8px 0 !important; break-inside: avoid; display: flex !important; flex-wrap: nowrap !important; justify-content: center !important; gap: 24px !important; }}
+    /* Facts: single row, 1cm gap */
+    .facts-bar {{ padding: 8px 0 !important; break-inside: avoid; display: flex !important; flex-wrap: nowrap !important; justify-content: center !important; gap: 1cm !important; }}
     .fact-value {{ font-size: 14pt !important; line-height: 1 !important; }}
     .fact-label {{ font-size: 6pt !important; margin-top: 1px !important; }}
 
@@ -261,7 +260,7 @@ def build_property_page(prop):
     .bedrooms-grid {{ gap: 6px !important; }}
 
     /* Tags: centered, compact */
-    .tags {{ break-inside: avoid; flex-wrap: wrap; gap: 4px !important; justify-content: center !important; }}
+    .tags {{ break-inside: avoid; flex-wrap: wrap; gap: 4px !important; justify-content: flex-start !important; }}
     .tags .tag {{ font-size: 7pt; padding: 3px 8px; margin-bottom: 0; }}
 
     .section {{ padding: 10px 0 !important; }}
