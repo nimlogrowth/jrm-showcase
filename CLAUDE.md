@@ -19,9 +19,10 @@ A static property showcase site for JustRent Marbella (JRM) referral partners an
 - Data: `~/Documents/jrm-showcase/data/` (JSON per property)
 - Output: `~/Documents/jrm-showcase/output/` (generated HTML)
 
-## Current State (31 March 2026)
-- **184 properties live** with correct data
-- 187 total on justrentmarbella.com; 2-3 missing are offer-only pages with different templates
+## Current State (3 June 2026)
+- **202 properties live** with correct data (196 holiday rentals + 6 long-term)
+- Site lists 196 holiday rentals ("of 196 accommodations" on the last listing page); offer-only pages with non-standard templates are skipped
+- Scraper uses a single `requests.Session()` — the Avantio listing randomizes property order per request, so paginating without a persistent session re-draws overlapping random subsets and only collects ~122 of 196 (coupon-collector overlap). The session pins the shuffle so pagination walks the full catalog.
 - Scraper v4 uses exact Avantio CSS selectors (built from actual page source HTML)
 - Descriptions render with paragraph breaks
 - OG meta tags added for WhatsApp/social link previews
