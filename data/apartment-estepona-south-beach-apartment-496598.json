@@ -99,10 +99,6 @@
     {
       "place": "Train station",
       "distance": "55 km"
-    },
-    {
-      "place": "Airport",
-      "distance": "74 km"
     }
   ],
   "services_included": [

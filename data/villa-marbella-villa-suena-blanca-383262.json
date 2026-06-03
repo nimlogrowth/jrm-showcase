@@ -102,10 +102,6 @@
   ],
   "distances": [
     {
-      "place": "Airport",
-      "distance": "63 m"
-    },
-    {
       "place": "Golf course",
       "distance": "450 m"
     },
@@ -154,7 +150,7 @@
   "services_optional": [
     "Baby high chair: € 25.00   / booking",
     "Cot/Crib: € 35.00   / booking",
-    "Heated Pool: € 72.00   / night"
+    "Heated Pool: € 86.00   / night"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",

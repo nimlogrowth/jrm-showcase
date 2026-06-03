@@ -6,7 +6,7 @@
   "location": "Marbella",
   "type": "Villa",
   "guests": "16",
-  "bedrooms": "8",
+  "bedrooms": "7",
   "bathrooms": "9",
   "area": "1,180 m²",
   "plot": "000 m²",
@@ -69,10 +69,6 @@
     },
     {
       "room": "Bedroom 7",
-      "bed": "Double bed"
-    },
-    {
-      "room": "Bedroom 8",
       "bed": "Double bed"
     }
   ],

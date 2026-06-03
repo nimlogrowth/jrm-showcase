@@ -24,9 +24,16 @@ HEADERS = {
 }
 DELAY = 1.5
 
+# The Avantio listing randomizes property order on every request. Without a
+# persistent session cookie, paginating ?pagina=1..N re-draws overlapping random
+# subsets and never collects the full catalog (~122 of 196 due to coupon-collector
+# overlap). A single Session pins the shuffle so pagination walks the full list.
+SESSION = requests.Session()
+SESSION.headers.update(HEADERS)
+
 
 def get_soup(url):
-    resp = requests.get(url, headers=HEADERS, timeout=30)
+    resp = SESSION.get(url, timeout=30)
     resp.raise_for_status()
     return BeautifulSoup(resp.text, "html.parser")
 

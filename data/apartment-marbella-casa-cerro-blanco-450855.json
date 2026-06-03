@@ -112,10 +112,6 @@
     {
       "place": "Water park",
       "distance": "40 km"
-    },
-    {
-      "place": "Airport",
-      "distance": "60 km"
     }
   ],
   "services_included": [

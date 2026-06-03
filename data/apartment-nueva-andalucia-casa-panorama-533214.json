@@ -56,7 +56,6 @@
     "Padel court",
     "Central heating",
     "Communal pool",
-    "Secured parking",
     "Ocean views",
     "32 m² terrace"
   ],
@@ -92,16 +91,11 @@
     {
       "place": "Nature reserve",
       "distance": "11 km"
-    },
-    {
-      "place": "Airport",
-      "distance": "49 km"
     }
   ],
   "services_included": [
     "Final Cleaning: € 220.00   / booking",
     "Internet Access: Included",
-    "Garage: Included",
     "Towels:  Included"
   ],
   "services_optional": [

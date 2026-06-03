@@ -59,7 +59,6 @@
     "BBQ",
     "Balcony",
     "Tennis court",
-    "Gym / fitness",
     "Alarm system",
     "Central heating",
     "Communal pool",
@@ -80,11 +79,7 @@
     },
     {
       "place": "Golf course",
-      "distance": "2.6 km"
-    },
-    {
-      "place": "Airport",
-      "distance": "60 km"
+      "distance": "2.61 km"
     }
   ],
   "services_included": [

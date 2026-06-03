@@ -108,14 +108,6 @@
     {
       "place": "Water park - AquaMijas",
       "distance": "42 km"
-    },
-    {
-      "place": "Airport - AGP Costa Del Sol Airport",
-      "distance": "68.01 km"
-    },
-    {
-      "place": "Airport",
-      "distance": "68.01 km"
     }
   ],
   "services_included": [
@@ -136,7 +128,8 @@
   "deposit": "€500.00",
   "rules": [
     "No smoking",
-    "No pets"
+    "No pets",
+    "No groups under 30 years of age"
   ],
   "registration": "VUT/MA/557051",
   "map_query": "Casa Aloha, Marbella, Costa del Sol, Spain"

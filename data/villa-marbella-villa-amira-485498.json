@@ -140,10 +140,6 @@
   ],
   "distances": [
     {
-      "place": "Airport",
-      "distance": "0 m"
-    },
-    {
       "place": "Cafe",
       "distance": "500 m"
     },

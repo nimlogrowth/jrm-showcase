@@ -101,6 +101,7 @@
     "Alarm system",
     "Sauna",
     "Private pool",
+    "Private heated pool",
     "Ocean views"
   ],
   "distances": [
@@ -154,11 +155,12 @@
   "services_optional": [
     "Air conditioning: Included",
     "Baby high chair: € 25.00   / booking",
-    "Cot/Crib: € 35.00   / booking"
+    "Cot/Crib: € 35.00   / booking",
+    "Heated Pool: € 150.00   / night"
   ],
   "checkin": "15:00 to 20:00",
   "checkout": "Before 10:00",
-  "deposit": "€6,000.00",
+  "deposit": "€10,000.00",
   "rules": [
     "No smoking",
     "No pets",
