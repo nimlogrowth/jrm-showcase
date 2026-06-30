@@ -59,6 +59,7 @@
     "BBQ",
     "Balcony",
     "Gym / fitness",
+    "Alarm system",
     "Central heating",
     "Air-conditioned",
     "Communal pool",
@@ -111,6 +112,6 @@
     "No pets",
     "No groups under 30 years of age"
   ],
-  "registration": "0VUT/MA/1000697",
+  "registration": "VUT/MA/100069",
   "map_query": "Bayside Home, Estepona, Costa del Sol, Spain"
 }
